@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>测试 - layui</title>
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+
+
+<body>
+	<div class = 'layui-fluid layui-bg-cyan'>
+		<ul class="layui-container layui-nav layui-bg-cyan">
+		  <li class="layui-nav-item"><a href="index.html">Home</a></li>
+		  <li class="layui-nav-item"><a href="codeSmell.html">Code Smell</a></li>
+		  <li class="layui-nav-item"><a href="designSmell.html">Design Smell</a></li>
+		  <li class="layui-nav-item"><a href="implementationSemll.html">Implementation Smell</a></li>
+		  <li class="layui-nav-item layui-this"><a href="">Data Download</a></li>
+		</ul>
+	</div>
+	<div>
+		<div class="layui-container">
+			<style type="text/css"></style>
+			<div class="layui-row layui-col-space20">
+				<div class="layui-container">
+					<div class='layui-col-md12'>
+						<div class="layui-card">
+							<div class="layui-card-header">
+								<h2><strong>Download Log File</strong></h3>
+							</div>
+							<div class="layui-card-body">
+								<div class = "layui-word-aux">
+									<a href="download Log_P1" download="download Log_P1">(1)download Log_P1</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	//注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+	layui.use('element', function(){
+	  var element = layui.element;
+	  
+	  //…
+	});
+	</script>
+	
+</body>
+</html>

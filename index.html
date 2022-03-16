@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>测试 - layui</title>
+  <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+	<div class = 'layui-fluid layui-bg-cyan'>
+		<ul class="layui-container layui-nav layui-bg-cyan">
+		  <li class="layui-nav-item layui-this"><a href="index.html">Home</a></li>
+		  <li class="layui-nav-item"><a href="codeSmell.html">Code Smell</a></li>
+		  <li class="layui-nav-item"><a href="designSmell.html">Design Smell</a></li>
+		  <li class="layui-nav-item"><a href="implementationSemll.html">Implementation Smell</a></li>
+		  <li class="layui-nav-item layui-this"><a href="">Data Download</a></li>
+		</ul>
+	</div>
+	<div>
+		<div class="layui-container">
+			<style type="text/css"></style>
+			<div class="layui-row layui-col-space20">
+				<div class="layui-container">
+					<div class='layui-col-md12'>
+						<div class="layui-card">
+							<div class="layui-card-header">
+								<h2><strong>Exploring The Existence and Impacts of Code Smells on Android Mobile Projects</strong></h3>
+							</div>
+							<div class="layui-card-body">
+									<h3><strong>Abstract</strong></h3>
+									<p>
+										A code smell is an implementation that often reflects a deeper problem in the program. Due to the need for rapid delivery or the lack of experience of developers, code smells are commonly introduced in software development. Numerous prior studies have presented that code smells could negatively affect the development and maintenance of software projects. In recent years, with continuous and rapid growth, hundreds and thousands of mobile applications have been implemented and used in our daily lives. However, there is little work investigating the impacts of code smells on mobile applications. To bridge this gap, we explore whether and how code smells influence mobile projects. Through our analysis of twenty Android mobile projects, we have presented that: 1) A large portion of files in mobile projects encounter code smells; 2) The files involved in code smells are often more bug-prone; 3) A file with more code smells becomes more bug-prone; 4) The \emph{Unutilized Abstraction} smell has the largest impact scope, and the \emph{Long Statement} smell contributes the most to the bug-proneness of files in mobile projects.
+									</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	//注意：选项卡 依赖 element 模块，否则无法进行功能性操作
+	layui.use('element', function(){
+	  var element = layui.element;
+	  
+	  //…
+	});
+	</script>
+</body>
+</html>
