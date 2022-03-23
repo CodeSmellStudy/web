@@ -1,0 +1,699 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+Douya,androidx.swiperefreshlayout.widget,ThemedSwipeRefreshLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.account.app,AccountPreferences,getBoolean,Missing default
+Douya,me.zhanghai.android.douya.account.app,Authenticator,addAccount,Long Parameter List
+Douya,me.zhanghai.android.douya.account.app,Authenticator,addAccount,Long Statement
+Douya,me.zhanghai.android.douya.account.app,Authenticator,confirmCredentials,Long Statement
+Douya,me.zhanghai.android.douya.account.app,Authenticator,getAuthToken,Complex Method
+Douya,me.zhanghai.android.douya.account.app,Authenticator,getAuthToken,Long Statement
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorActivity,makeIntent,Long Statement
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorFragment,onActivityCreated,Missing default
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorFragment,onAuthenticateSuccess,Complex Method
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorFragment,onAuthenticateSuccess,Missing default
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorFragment,onAuthenticateError,Complex Method
+Douya,me.zhanghai.android.douya.account.ui,AuthenticatorFragment,onAuthenticateError,Missing default
+Douya,me.zhanghai.android.douya.account.ui,SelectAccountActivity,makeIntent,Long Statement
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,addAccount,Long Statement
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,updatePassword,Long Statement
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,makeConfirmPasswordIntent,Long Statement
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,getRecentTwoAccount,Complex Conditional
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,getRecentTwoAccount,Long Statement
+Douya,me.zhanghai.android.douya.account.util,AccountUtils,getRefreshTokenKey,Missing default
+Douya,me.zhanghai.android.douya.broadcast.content,ApiV2BroadcastListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,ApiV2BroadcastListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BaseBroadcastListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastAndCommentListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastAndCommentListResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastLikerListResource,onCallRawLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastRebroadcastListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,BroadcastResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,CommentListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,DeleteBroadcastCommentWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,DeleteBroadcastWriter,onResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,DeleteBroadcastWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,LikeBroadcastWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,RebroadcastBroadcastWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastCommentWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastManager,write,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,SendBroadcastWriter,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,continueSendingWithImages,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,createNotificationChannel,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,createNotificationBuilder,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,onErrorSimple,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,onErrorWithImages,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,SendBroadcastWriter,notifyError,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.content,TimelineBroadcastListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.content,TimelineBroadcastListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.broadcast.ui,BaseTimelineBroadcastListFragment,onViewCreated,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BaseTimelineBroadcastListFragment,onCreateLayoutManager,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastActivityDialogFragment,updateTabTitle,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,onActivityCreated,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,onShowCommentAction,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,onReplyToComment,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastFragment,updateSendCommentStatus,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bind,Complex Conditional
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bind,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bind,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bindRebroadcastedAttachmentImages,Complex Method
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bindRebroadcastedAttachmentImages,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bindRebroadcastedAttachmentImages,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,setRebroadcastedAttachmentImagesLayoutOnClickListener,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bindForRebroadcast,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastLayout,bindForRebroadcast,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastListActivityFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,BroadcastListActivityFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentActionDialogFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentActionDialogFragment,onCreateDialog,Complex Method
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentActionDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentActionDialogFragment,onCreateDialog,Magic Number
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentActionDialogFragment,onClick,Magic Number
+Douya,me.zhanghai.android.douya.broadcast.ui,CommentAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,ConfirmDeleteBroadcastDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,ConfirmDeleteCommentDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,ConfirmRemoveAllImagesDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,ConfirmRemoveLinkDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,ConfirmUnrebroadcastBroadcastDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,EditLinkDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,RebroadcastBroadcastFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,RebroadcastBroadcastFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,RebroadcastBroadcastFragment,updateRebroadcastStatus,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastActivity,makeIntent,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastActivity,onCreate,Complex Method
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastAttachmentLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastAttachmentLayout,bind,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onCreate,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onSaveInstanceState,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onActivityResult,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onActivityResult,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,pickOrCaptureImage,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,pickOrCaptureImage,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,pickOrCaptureImageWithPermission,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,pickOrCaptureImageWithPermission,Long Statement
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onCaptureImagePermissionDenied,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,pickImage,Long Identifier
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,parsePickOrCaptureImageResult,Complex Method
+Douya,me.zhanghai.android.douya.broadcast.ui,SendBroadcastFragment,onSend,Complex Conditional
+Douya,me.zhanghai.android.douya.broadcast.ui,SendCommentFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.broadcast.ui,SendCommentFragment,updateSendCommentStatus,Long Statement
+Douya,me.zhanghai.android.douya.calendar.app,CalendarAppWidgetProvider,onUpdate,Long Statement
+Douya,me.zhanghai.android.douya.calendar.info,CalendarDay,getRating,Magic Number
+Douya,me.zhanghai.android.douya.calendar.info,CalendarDay,getRatingBarRating,Magic Number
+Douya,me.zhanghai.android.douya.calendar.info,CalendarDay,getRatingProgressBarMax,Magic Number
+Douya,me.zhanghai.android.douya.calendar.ui,CalendarFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.content,MoreBaseListResourceFragment,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.content,MoreListResourceFragment,load,Complex Conditional
+Douya,me.zhanghai.android.douya.content,MoreListResourceFragment,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.diary.content,UserDiaryListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.doulist.content,BaseDoulistResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.doulist.content,ItemRelatedDoulistListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.followship.content,FollowUserWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.followship.ui,FollowshipListActivityFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.functional,ComparatorCompat,comparing,Long Statement
+Douya,me.zhanghai.android.douya.functional,ComparatorCompat,comparingInt,Long Statement
+Douya,me.zhanghai.android.douya.functional,ComparatorCompat,comparingLong,Long Statement
+Douya,me.zhanghai.android.douya.functional,ComparatorCompat,comparingDouble,Long Statement
+Douya,me.zhanghai.android.douya.functional,Functional,filter,Long Statement
+Douya,me.zhanghai.android.douya.functional,Functional,findIndex,Long Statement
+Douya,me.zhanghai.android.douya.functional,Functional,map,Long Statement
+Douya,me.zhanghai.android.douya.functional,Functional,reduce,Long Statement
+Douya,me.zhanghai.android.douya.functional,Functional,reduceRight,Long Statement
+Douya,me.zhanghai.android.douya.functional,FunctionalIterator,reduceRemaining,Long Statement
+Douya,me.zhanghai.android.douya.functional.extension,QuaternaryOperator,minBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.extension,QuaternaryOperator,maxBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.extension,TertiaryOperator,minBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.extension,TertiaryOperator,maxBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.throwing,ThrowingQuaternaryOperator,minBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.throwing,ThrowingQuaternaryOperator,maxBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.throwing,ThrowingTertiaryOperator,minBy,Long Statement
+Douya,me.zhanghai.android.douya.functional.throwing,ThrowingTertiaryOperator,maxBy,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryActivity,makeIntent,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,loadImageForPosition,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,onResourceReady,Long Parameter List
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,loadImageFromFile,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,loadImageIntoView,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,loadImageIntoView,Magic Number
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,onReady,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryAdapter,shouldUseLargeImageView,Magic Number
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,onActivityCreated,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,saveImage,Long Identifier
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,saveImage,Long Statement
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,onSaveImagePermissionDenied,Long Identifier
+Douya,me.zhanghai.android.douya.gallery.ui,GalleryFragment,onSaveImagePermissionDenied,Long Statement
+Douya,me.zhanghai.android.douya.glide.download,DownloadGlideExtension,downloadOnlyDefaultPriority,Long Identifier
+Douya,me.zhanghai.android.douya.glide.info,FileImageInfoDecoder,decode,Complex Conditional
+Douya,me.zhanghai.android.douya.glide.progress.okhttp3,OkHttpStreamFetcher,cleanup,Empty catch clause
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,ensureResourcesTarget,Complex Method
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,onDestroy,Complex Method
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,isAnyLoaded,Long Statement
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,notifyChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.content,BaseItemFragmentResource,notifyChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,BaseItemResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.item.content,BookFragmentResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,BookFragmentResource,notifyChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,BookFragmentResource,notifyChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.content,BookFragmentResource,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,Listener,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,BookResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,CelebrityListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,CollectItemManager,write,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,CollectItemManager,write,Long Statement
+Douya,me.zhanghai.android.douya.item.content,CollectItemWriter,CollectItemWriter,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,CollectItemWriter,CollectItemWriter,Long Statement
+Douya,me.zhanghai.android.douya.item.content,CollectItemWriter,onCreateRequest,Long Statement
+Douya,me.zhanghai.android.douya.item.content,CollectItemWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.item.content,ConfirmUncollectItemDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.item.content,GameFragmentResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,GameFragmentResource,notifyChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,GameFragmentResource,notifyChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.content,GameFragmentResource,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,GameResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemAwardListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemAwardListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemCollectionListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemCollectionListResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.item.content,ItemCollectionListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemForumTopicListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemForumTopicListResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.item.content,ItemForumTopicListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,ItemRecommendationListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MovieFragmentResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MovieFragmentResource,notifyChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MovieFragmentResource,notifyChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.content,MovieFragmentResource,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MovieResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MusicFragmentResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MusicFragmentResource,notifyChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MusicFragmentResource,notifyChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.content,MusicFragmentResource,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,MusicResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,RatingResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.item.content,UncollectItemWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.item.content,VoteItemCollectionWriter,onErrorResponse,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,setRating,Long Identifier
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,setRating,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,setRating,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,setRatingUnavailable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,BaseRatingBadgeDrawable,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,BaseRatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,RatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BadgeListLayout,FollowingsRatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseRatingBadgeDrawable,BaseRatingBadgeDrawable,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseRatingBadgeDrawable,BaseRatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,RatingBadgeDrawable,RatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,FollowingsRatingBadgeDrawable,FollowingsRatingBadgeDrawable,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createPhotoListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createCelebrityListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createAwardListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createItemCollectionListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createRecommendationListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,createRelatedDoulistListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindItemCollectionHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindItemCollectionHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindIntroductionHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindReviewListHolder,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindForumTopicListHolder,Long Identifier
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindRelatedDoulistListHolder,Long Identifier
+Douya,me.zhanghai.android.douya.item.ui,BaseItemDataAdapter,bindRelatedDoulistListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,onActivityCreated,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,onActivityCreated,Long Method
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,onActivityCreated,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,onScrolled,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,getBackdropRatio,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseItemFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BaseItemIntroductionFragment,onActivityCreated,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BaseItemIntroductionFragment,onActivityCreated,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BaseItemIntroductionFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,isItemLoaded,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,isItemLoaded,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,onCreateViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,onCreateViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,onBindViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,onBindViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,bindHeaderHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,bindHeaderHolder,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BookDataAdapter,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,Data,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,BookFragment,getBackdropRatio,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,BookFragment,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,BookFragment,onChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,BookFragment,update,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,BookFragment,update,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,CelebrityListAdapter,onCreateViewHolder,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,isItemLoaded,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,isItemLoaded,Missing default
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,onCreateViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,onCreateViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,onCreateViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,onBindViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,onBindViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,bindHeaderHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,bindHeaderHolder,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,bindBadgeListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,bindGameGuideListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,GameDataAdapter,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,GameFragment,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,GameFragment,onChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,GameFragment,update,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,GameFragment,update,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,GameFragment,update,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemActivities,makeIntent,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,ItemActivities,makeIntent,Missing default
+Douya,me.zhanghai.android.douya.item.ui,ItemAwardListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionActivity,onCreate,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,onActivityCreated,Complex Conditional
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,onActivityCreated,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,collect,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,collect,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionFragment,updateCollectStatus,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemCollectionListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemForumTopicListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,ItemIntroductionActivity,onCreate,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,ItemIntroductionActivity,onCreate,Missing default
+Douya,me.zhanghai.android.douya.item.ui,ItemRelatedDoulistListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,isItemLoaded,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,isItemLoaded,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,onCreateViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,onCreateViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,onBindViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,onBindViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,bindHeaderHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,bindHeaderHolder,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,bindBadgeListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MovieDataAdapter,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MovieFragment,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MovieFragment,onChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MovieFragment,update,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MovieFragment,update,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MovieFragment,update,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MovieIntroductionFragment,onCreateView,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,isItemLoaded,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,isItemLoaded,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,onCreateViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,onCreateViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,onBindViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,onBindViewHolder,Missing default
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,bindHeaderHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,bindBadgeListHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MusicDataAdapter,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MusicFragment,getBackdropRatio,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,MusicFragment,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MusicFragment,onChanged,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,MusicFragment,update,Long Parameter List
+Douya,me.zhanghai.android.douya.item.ui,MusicFragment,update,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,RecommendationListAdapter,onBindViewHolder,Magic Number
+Douya,me.zhanghai.android.douya.item.ui,ReviewListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.item.ui,TableOfContentsFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.item.ui,TrackListAdapter,onBindViewHolder,Long Statement
+Douya,me.zhanghai.android.douya.link,DoubanUriHandler,open,Complex Method
+Douya,me.zhanghai.android.douya.link,DoubanUriHandler,open,Long Identifier
+Douya,me.zhanghai.android.douya.link,DoubanUriHandler,open,Missing default
+Douya,me.zhanghai.android.douya.link,FrodoBridge,isUriHandled,Complex Method
+Douya,me.zhanghai.android.douya.link,FrodoBridge,isUriHandled,Long Statement
+Douya,me.zhanghai.android.douya.link,FrodoBridge,isUriHandled,Magic Number
+Douya,me.zhanghai.android.douya.link,FrodoBridge,makeSearchIntent,Long Statement
+Douya,me.zhanghai.android.douya.link,FrodoBridge,makeSendBroadcastIntent,Long Identifier
+Douya,me.zhanghai.android.douya.link,UrlHandler,open,Complex Method
+Douya,me.zhanghai.android.douya.link,UrlHandler,open,Missing default
+Douya,me.zhanghai.android.douya.main.ui,MainActivity,onCreate,Long Identifier
+Douya,me.zhanghai.android.douya.main.ui,MainActivity,onCreateOptionsMenu,Long Statement
+Douya,me.zhanghai.android.douya.main.ui,MainActivity,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.main.ui,MainActivity,addFragments,Long Identifier
+Douya,me.zhanghai.android.douya.media,MediaButtonReceiver,makePendingIntent,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaButtonReceiver,onReceive,Complex Conditional
+Douya,me.zhanghai.android.douya.media,MediaButtonReceiver,onReceive,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaExoPlayer,MediaExoPlayer,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaExoPlayer,requestAudioFocus,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaExoPlayer,registerAudioBecomingNoisyReceiver,Long Identifier
+Douya,me.zhanghai.android.douya.media,MediaExoPlayer,unregisterAudioBecomingNoisyReceiver,Long Identifier
+Douya,me.zhanghai.android.douya.media,MediaExoPlayer,setPlaybackParams,Magic Number
+Douya,me.zhanghai.android.douya.media,MediaNotification,MediaNotification,Long Parameter List
+Douya,me.zhanghai.android.douya.media,MediaNotification,buildNotification,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaNotification,buildNotification,Magic Number
+Douya,me.zhanghai.android.douya.media,MediaPlayback,MediaPlayback,Complex Conditional
+Douya,me.zhanghai.android.douya.media,MediaPlayback,MediaPlayback,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaPlayback,onPlayerStateChanged,Complex Conditional
+Douya,me.zhanghai.android.douya.media,MediaPlayback,onPlayerStateChanged,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaPlayback,updateMediaSessionMetadata,Long Statement
+Douya,me.zhanghai.android.douya.media,MediaQueueNavigator,getSupportedQueueNavigatorActions,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,onCreate,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,onCreate,Magic Number
+Douya,me.zhanghai.android.douya.media,PlayMusicService,onHandleIntent,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,makeMediaMetadata,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,makeMediaMetadata,Magic Number
+Douya,me.zhanghai.android.douya.media,PlayMusicService,mediaMetadataHasAlbumArt,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,loadMediaMetadataDisplayIconAndAlbumArt,Long Statement
+Douya,me.zhanghai.android.douya.media,PlayMusicService,loadMediaMetadataAlbumArt,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,ConfirmRemoveCurrentAccountDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationAccountListLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationAccountListLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onActivityCreated,Complex Method
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onActivityCreated,Long Identifier
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onActivityCreated,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onActivityCreated,Missing default
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onSaveInstanceState,Long Identifier
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,onAccountTransitionStart,Long Identifier
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,reloadForActiveAccountChange,Long Identifier
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationFragment,run,Long Identifier
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationHeaderLayout,beginAvatarTransition,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationHeaderLayout,beginAvatarTransition,Magic Number
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationHeaderLayout,addChangeMoveToAvatarTransformToTransitionSet,Long Statement
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationHeaderLayout,addChangeMoveToAvatarTransformToTransitionSet,Magic Number
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationHeaderLayout,showAccountList,Magic Number
+Douya,me.zhanghai.android.douya.navigation.ui,NavigationViewAdapter,override,Long Statement
+Douya,me.zhanghai.android.douya.network,AndroidAuthenticator,getAuthToken,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiAuthenticator,shouldRetryAuthentication,Missing default
+Douya,me.zhanghai.android.douya.network.api,ApiAuthenticators,getAuthenticator,Missing default
+Douya,me.zhanghai.android.douya.network.api,ApiCallAdapter,get,Long Statement
+Douya,me.zhanghai.android.douya.network.api,Factory,get,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiError,toString,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,ApiService,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,createAuthenticationService,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,createApiHttpClient,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,createApiService,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,authenticate,Missing default
+Douya,me.zhanghai.android.douya.network.api,ApiService,authenticateApiV2,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,authenticateFrodo,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,getTimelineList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiService,collectItem,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiService,collectItem,Long Statement
+Douya,me.zhanghai.android.douya.network.api,ApiService,getItemCollectionList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiService,getItemForumTopicList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiService,authenticate,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiService,getItemReviewList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,ApiV2AuthenticationService,authenticate,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoAuthenticationService,authenticate,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoService,getTimelineList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoService,collectItem,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoService,getItemCollectionList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoService,getItemForumTopicList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoService,getItemReviewList,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api,FrodoSignatureInterceptor,makeTimestamp,Magic Number
+Douya,me.zhanghai.android.douya.network.api,FrodoSignatureInterceptor,makeSignature,Magic Number
+Douya,me.zhanghai.android.douya.network.api,LifeStreamInterceptor,intercept,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Broadcast,getRebroadcastedBy,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Broadcast,toFrodo,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,BroadcastAttachment,toFrodo,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getLargeWidth,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getLargeHeight,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getMediumWidth,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getMediumHeight,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getSmallWidth,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,Photo,getSmallHeight,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,SimpleUser,toFrodo,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,TextEntity,applyEntities,Complex Conditional
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,TextEntity,applyEntities,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.apiv2,TextEntity,toFrodo,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,appendParentText,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,appendParentText,Magic Number
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,canComment,Long Identifier
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,fixAction,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,fix,Complex Conditional
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,fix,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,Broadcast,Long Identifier
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Broadcast,writeToParcel,Long Identifier
+Douya,me.zhanghai.android.douya.network.api.info.frodo,CollectableItem,Type,Long Parameter List
+Douya,me.zhanghai.android.douya.network.api.info.frodo,CollectableItem,truncateReleaseDate,Magic Number
+Douya,me.zhanghai.android.douya.network.api.info.frodo,CollectableItem,deserialize,Complex Method
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Deserializer,deserialize,Complex Method
+Douya,me.zhanghai.android.douya.network.api.info.frodo,CompleteCollectableItem,deserialize,Complex Method
+Douya,me.zhanghai.android.douya.network.api.info.frodo,Rating,getRatingUnavailableReason,Long Statement
+Douya,me.zhanghai.android.douya.network.api.info.frodo,SimpleRating,getRatingString,Magic Number
+Douya,me.zhanghai.android.douya.network.api.info.frodo,SimpleRating,getRatingBarRating,Magic Number
+Douya,me.zhanghai.android.douya.network.api.info.frodo,TextEntity,applyEntities,Complex Conditional
+Douya,me.zhanghai.android.douya.network.api.info.frodo,TextEntity,applyEntities,Long Statement
+Douya,me.zhanghai.android.douya.network.api.util,InterceptorUtils,addParameters,Complex Method
+Douya,me.zhanghai.android.douya.network.api.util,InterceptorUtils,addParameters,Long Statement
+Douya,me.zhanghai.android.douya.notification.content,NotificationListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.photo.content,BasePhotoListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.photo.content,ItemPhotoListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,ensureResourcesIfHasSimpleUser,Complex Conditional
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,ensureResourcesIfHasSimpleUser,Long Statement
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,isAnyLoaded,Long Statement
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,notifyChangedIfLoaded,Long Statement
+Douya,me.zhanghai.android.douya.profile.content,ProfileResource,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.content,Listener,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.ui,ConfirmUnfollowUserDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileBroadcastsLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileBroadcastsLayout,bind,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileContentLayout,onMeasure,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileContentLayout,onMeasure,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,isItemLoaded,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,isItemLoaded,Missing default
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,onCreateViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,onCreateViewHolder,Missing default
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,onBindViewHolder,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,onBindViewHolder,Missing default
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDataAdapter,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.ui,Data,Data,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.ui,ProfileDiariesLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFollowshipLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,newInstance,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,onCreateView,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,onActivityCreated,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,onChanged,Long Parameter List
+Douya,me.zhanghai.android.douya.profile.ui,ProfileFragment,onChanged,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileHeaderLayout,onMeasure,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileHeaderLayout,onMeasure,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileHeaderLayout,getAppBarMaxHeight,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileHeaderLayout,bindUser,Complex Method
+Douya,me.zhanghai.android.douya.profile.ui,ProfileHeaderLayout,bindUser,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileIntroductionLayout,bind,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileItemAdapter,onBindViewHolder,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileItemsLayout,bind,Long Statement
+Douya,me.zhanghai.android.douya.profile.ui,ProfileLayout,onMeasure,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileLayout,updateStatusBarAndWindowBackground,Magic Number
+Douya,me.zhanghai.android.douya.profile.ui,ProfileReviewsLayout,bind,Complex Conditional
+Douya,me.zhanghai.android.douya.profile.ui,ProfileReviewsLayout,bind,Complex Method
+Douya,me.zhanghai.android.douya.profile.util,ProfileUtils,getAppBarWidth,Long Statement
+Douya,me.zhanghai.android.douya.profile.util,ProfileUtils,getAppBarWidth,Magic Number
+Douya,me.zhanghai.android.douya.reflected,BaseReflectedMethod,checkParameterTypes,Long Statement
+Douya,me.zhanghai.android.douya.reflected,ReflectedAccessor,allowRestrictedHiddenApiAccess,Long Identifier
+Douya,me.zhanghai.android.douya.review.content,BaseReviewListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.review.content,ItemReviewListResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.settings.info,SettingsEntries,getEnumValue,Long Statement
+Douya,me.zhanghai.android.douya.settings.info,EnumSettingsEntry,getEnumValue,Long Statement
+Douya,me.zhanghai.android.douya.settings.ui,AboutFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.settings.ui,ConfirmEnableScalpelDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.settings.ui,SettingsActivityFragment,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.ui,AdapterGridLinearLayout,onDataSetChanged,Long Statement
+Douya,me.zhanghai.android.douya.ui,AppBarWrapperLayout,onFinishInflate,Magic Number
+Douya,me.zhanghai.android.douya.ui,AppBarWrapperLayout,hide,Long Statement
+Douya,me.zhanghai.android.douya.ui,ArrayAdapterCompat,createViewFromResource,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ArrayAdapterCompat,createViewFromResource,Long Statement
+Douya,me.zhanghai.android.douya.ui,CardIconButton,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,CircleRectShape,CircleRectShape,Long Identifier
+Douya,me.zhanghai.android.douya.ui,CircleRectShape,onResize,Long Identifier
+Douya,me.zhanghai.android.douya.ui,CircleRectShape,onResize,Magic Number
+Douya,me.zhanghai.android.douya.ui,CircleRectShape,clone,Long Identifier
+Douya,me.zhanghai.android.douya.ui,ConfirmDiscardContentDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.ui,ContentStateLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,ContentStateLayout,findChildById,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,ContentStateLayout,findChildById,Long Statement
+Douya,me.zhanghai.android.douya.ui,CopyTextDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.ui,CounterTextView,updateText,Magic Number
+Douya,me.zhanghai.android.douya.ui,CrossfadeSubtitleToolbar,init,Magic Number
+Douya,me.zhanghai.android.douya.ui,CrossfadeSubtitleToolbar,onAnimationUpdate,Magic Number
+Douya,me.zhanghai.android.douya.ui,AnimatorListener,onAnimationUpdate,Magic Number
+Douya,me.zhanghai.android.douya.ui,CrossfadeText,captureValues,Long Statement
+Douya,me.zhanghai.android.douya.ui,CrossfadeText,onAnimationUpdate,Magic Number
+Douya,me.zhanghai.android.douya.ui,DispatchInsetsHelper,dispatchInsetsToChild,Long Statement
+Douya,me.zhanghai.android.douya.ui,DrawableWrapperCompat,getChangingConfigurations,Long Statement
+Douya,me.zhanghai.android.douya.ui,DrawableWrapperCompat,getAlpha,Magic Number
+Douya,me.zhanghai.android.douya.ui,FixNestedScrollAppBarLayout,onNestedScroll,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,FixNestedScrollAppBarLayout,onNestedPreScroll,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,FixNestedScrollAppBarLayout,stopNestedScrollIfNeeded,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,Behavior,onNestedScroll,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,Behavior,onNestedPreScroll,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,Behavior,stopNestedScrollIfNeeded,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,onInterceptTouchEvent,Complex Method
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,onTouchEvent,Complex Method
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,onDragEnd,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,computeScroll,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,draw,Magic Number
+Douya,me.zhanghai.android.douya.ui,FlexibleSpaceLayout,getCurrentVelocity,Magic Number
+Douya,me.zhanghai.android.douya.ui,ForegroundHelper,init,Long Identifier
+Douya,me.zhanghai.android.douya.ui,ForegroundHelper,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,ForegroundHelper,onLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ForegroundHelper,draw,Long Statement
+Douya,me.zhanghai.android.douya.ui,ForegroundHelper,superOnLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,Delegate,superOnLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ForegroundImageButton,superOnLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ForegroundImageButton,onLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ForegroundRelativeLayout,superOnLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ForegroundRelativeLayout,onLayout,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,FriendlyCardView,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,FriendlyFloatingActionButton,hide,Long Statement
+Douya,me.zhanghai.android.douya.ui,IconSpan,getSize,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,IconSpan,draw,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,IconSpan,draw,Magic Number
+Douya,me.zhanghai.android.douya.ui,ImageLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,InsetBackgroundFrameLayout,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,InsetBackgroundFrameLayout,onApplyWindowInsets,Long Statement
+Douya,me.zhanghai.android.douya.ui,KonamiCodeDetector,KonamiCodeDetector,Magic Number
+Douya,me.zhanghai.android.douya.ui,LicensesDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.ui,LinkArrowKeyMovementMethod,handleMovementKey,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,LinkArrowKeyMovementMethod,handleMovementKey,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,LinkArrowKeyMovementMethod,action,Complex Method
+Douya,me.zhanghai.android.douya.ui,MaxDimensionHelper,onMeasure,Long Statement
+Douya,me.zhanghai.android.douya.ui,MergeAdapter,getItemId,Magic Number
+Douya,me.zhanghai.android.douya.ui,MergeAdapter,getItemViewType,Long Identifier
+Douya,me.zhanghai.android.douya.ui,MergeAdapter,getItemViewType,Magic Number
+Douya,me.zhanghai.android.douya.ui,MergeAdapter,onCreateViewHolder,Magic Number
+Douya,me.zhanghai.android.douya.ui,MergeAdapter,getAdapterIndexForViewType,Long Identifier
+Douya,me.zhanghai.android.douya.ui,OnSwipeGestureTouchListener,onFling,Complex Conditional
+Douya,me.zhanghai.android.douya.ui,PolygonShape,onResize,Long Statement
+Douya,me.zhanghai.android.douya.ui,PolygonShape,onResize,Magic Number
+Douya,me.zhanghai.android.douya.ui,PreferenceCheckBox,init,Long Identifier
+Douya,me.zhanghai.android.douya.ui,ProgressBarCompat,getVisualProgressDrawable,Long Statement
+Douya,me.zhanghai.android.douya.ui,RatioHeightRecyclerView,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,RingtonePreference,init,Long Identifier
+Douya,me.zhanghai.android.douya.ui,RingtonePreference,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,RingtonePreference,onPrepareRingtonePickerIntent,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleCircleImageView,onDraw,Magic Number
+Douya,me.zhanghai.android.douya.ui,SimpleCircleImageView,setup,Magic Number
+Douya,me.zhanghai.android.douya.ui,SimpleCircleImageView,updateShaderMatrix,Magic Number
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeClose,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeOkCancel,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeYesNo,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeList,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeSingleChoice,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,makeSingleChoice,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,onCreateDialog,Complex Method
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,onCreateDialog,Long Statement
+Douya,me.zhanghai.android.douya.ui,SimpleDialogFragment,build,Long Statement
+Douya,me.zhanghai.android.douya.ui,Builder,build,Long Statement
+Douya,me.zhanghai.android.douya.ui,SpaceSpan,getSize,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,SpaceSpan,draw,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,StarShape,onResize,Long Statement
+Douya,me.zhanghai.android.douya.ui,StarShape,onResize,Magic Number
+Douya,me.zhanghai.android.douya.ui,StatusBarBackgroundView,init,Long Statement
+Douya,me.zhanghai.android.douya.ui,TimeTextView,updateTimeText,Long Identifier
+Douya,me.zhanghai.android.douya.ui,TransparentDoubleClickToolbar,setTransparent,Magic Number
+Douya,me.zhanghai.android.douya.ui,TransparentDoubleClickToolbar,animateToTransparent,Magic Number
+Douya,me.zhanghai.android.douya.ui,UploadImageLayout,setInImageListInt,Magic Number
+Douya,me.zhanghai.android.douya.ui,ViewPagerTransformers,transformPage,Magic Number
+Douya,me.zhanghai.android.douya.ui,ZoomOut,transformPage,Magic Number
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,makeIntent,Long Identifier
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onCreate,Long Identifier
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onConfigurationChanged,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onOptionsItemSelected,Complex Method
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onOptionsItemSelected,Missing default
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onActivityResult,Missing default
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onLoadUri,Long Identifier
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,shouldOverrideUrlLoading,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,setupWebView,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,initializeUserAgents,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,getDoubanDesktopSiteUrl,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,download,Long Identifier
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,download,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onDownloadPermissionDenied,Long Identifier
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onDownloadPermissionDenied,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,downloadWithPermission,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onJsPrompt,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onProgressChanged,Magic Number
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,openFileChooser,Long Statement
+Douya,me.zhanghai.android.douya.ui,WebViewActivity,onShowFileChooser,Long Statement
+Douya,me.zhanghai.android.douya.ui,ChromeClient,onJsPrompt,Long Parameter List
+Douya,me.zhanghai.android.douya.ui,ChromeClient,onProgressChanged,Magic Number
+Douya,me.zhanghai.android.douya.ui,ChromeClient,openFileChooser,Long Statement
+Douya,me.zhanghai.android.douya.ui,ChromeClient,onShowFileChooser,Long Statement
+Douya,me.zhanghai.android.douya.ui,WhiteIndeterminateProgressIconDrawable,setBounds,Long Statement
+Douya,me.zhanghai.android.douya.user.content,BaseUserListResource,onLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,BaseUserListResource,onCallRawLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,BaseUserListResource,onRawLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,RawUserListResource,onCallRawLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,UserListResource,onCallRawLoadFinished,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,UserResource,attachTo,Long Parameter List
+Douya,me.zhanghai.android.douya.user.content,UserResource,setArguments,Long Statement
+Douya,me.zhanghai.android.douya.util,AppUtils,getTaskDescription,Long Identifier
+Douya,me.zhanghai.android.douya.util,AppUtils,setTaskDescriptionLabel,Long Identifier
+Douya,me.zhanghai.android.douya.util,AppUtils,setTaskDescriptionPrimaryColor,Long Identifier
+Douya,me.zhanghai.android.douya.util,AppUtils,setTaskDescriptionPrimaryColor,Long Statement
+Douya,me.zhanghai.android.douya.util,AudioManagerCompat,requestAudioFocus,Long Statement
+Douya,me.zhanghai.android.douya.util,BitmapUtils,cropBitmapToOval,Magic Number
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,create,Complex Method
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,create,Long Method
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,create,Missing default
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,read,Missing default
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,toBundle,Complex Method
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,readObject,Missing default
+Douya,me.zhanghai.android.douya.util,BundleTypeAdapterFactory,readValue,Missing default
+Douya,me.zhanghai.android.douya.util,CardUtils,getColumnCount,Magic Number
+Douya,me.zhanghai.android.douya.util,CollectionUtils,startsWith,Long Statement
+Douya,me.zhanghai.android.douya.util,CollectionUtils,endsWith,Long Statement
+Douya,me.zhanghai.android.douya.util,ColorUtils,blendAlphaComponent,Magic Number
+Douya,me.zhanghai.android.douya.util,ConnectivityUtils,isNetworkTypeMobile,Missing default
+Douya,me.zhanghai.android.douya.util,DiskCacheHelper,getGson,Long Parameter List
+Douya,me.zhanghai.android.douya.util,DoubanUtils,addTopicString,Complex Conditional
+Douya,me.zhanghai.android.douya.util,DoubanUtils,addTopicString,Long Statement
+Douya,me.zhanghai.android.douya.util,DoubanUtils,addTopicString,Magic Number
+Douya,me.zhanghai.android.douya.util,DrawableUtils,makeScrimDrawable,Magic Number
+Douya,me.zhanghai.android.douya.util,DrawableUtils,makeScrimDrawable,Missing default
+Douya,me.zhanghai.android.douya.util,FileTypeUtils,getImageMimeType,Missing default
+Douya,me.zhanghai.android.douya.util,FileUtils,makeSaveImageOutputFile,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadItemBackdropAndFadeIn,Long Identifier
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadItemBackdropAndFadeIn,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,onResourceReady,Long Parameter List
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadNavigationHeaderAvatar,Long Identifier
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadNavigationHeaderAvatar,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadNavigationAccountListAvatar,Long Identifier
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadNavigationAccountListAvatar,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadProfileAvatarAndFadeIn,Long Identifier
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadProfileAvatarAndFadeIn,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadImage,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadImageFile,Long Statement
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadImageWithRatio,Long Identifier
+Douya,me.zhanghai.android.douya.util,ImageUtils,loadImageWithRatio,Long Statement
+Douya,me.zhanghai.android.douya.util,ImeUtils,hideIme,Long Statement
+Douya,me.zhanghai.android.douya.util,IntentUtils,makeCaptureImage,Long Statement
+Douya,me.zhanghai.android.douya.util,IntentUtils,makeInstallShortcut,Long Statement
+Douya,me.zhanghai.android.douya.util,IntentUtils,makePickFile,Long Statement
+Douya,me.zhanghai.android.douya.util,IntentUtils,makePickOrCaptureImageWithChooser,Long Statement
+Douya,me.zhanghai.android.douya.util,IntentUtils,makeSendImage,Long Statement
+Douya,me.zhanghai.android.douya.util,IoUtils,byteArrayToHexString,Magic Number
+Douya,me.zhanghai.android.douya.util,LogUtils,buildMessage,Magic Number
+Douya,me.zhanghai.android.douya.util,NaturalOrderComparator,compare,Complex Method
+Douya,me.zhanghai.android.douya.util,NaturalOrderComparator,compare,Long Statement
+Douya,me.zhanghai.android.douya.util,ResourcesFlusher,flushLollipop,Long Identifier
+Douya,me.zhanghai.android.douya.util,ResourcesFlusher,flushMarshmallow,Long Identifier
+Douya,me.zhanghai.android.douya.util,ResourcesFlusher,flushNougat,Long Identifier
+Douya,me.zhanghai.android.douya.util,ResourcesFlusher,flushThemedResourceCache,Complex Method
+Douya,me.zhanghai.android.douya.util,ResourcesFlusher,flushThemedResourceCache,Long Identifier
+Douya,me.zhanghai.android.douya.util,SpanUtils,gatherLinks,Long Parameter List
+Douya,me.zhanghai.android.douya.util,TimeUtils,parseDoubanDateTime,Long Statement
+Douya,me.zhanghai.android.douya.util,TimeUtils,formatDateTime,Complex Method
+Douya,me.zhanghai.android.douya.util,TintHelper,createNavigationItemTintList,Long Statement
+Douya,me.zhanghai.android.douya.util,TransitionUtils,setEnterReturnExplode,Long Statement
+Douya,me.zhanghai.android.douya.util,UriUtils,isWebScheme,Missing default
+Douya,me.zhanghai.android.douya.util,UrlUtils,makeCustomTabsIntent,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,fadeOut,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,fadeIn,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,dpToPxSize,Magic Number
+Douya,me.zhanghai.android.douya.util,ViewUtils,hasSw600Dp,Magic Number
+Douya,me.zhanghai.android.douya.util,ViewUtils,hasW600Dp,Magic Number
+Douya,me.zhanghai.android.douya.util,ViewUtils,hasW960Dp,Magic Number
+Douya,me.zhanghai.android.douya.util,ViewUtils,setMargin,Long Parameter List
+Douya,me.zhanghai.android.douya.util,ViewUtils,setMarginRelative,Long Parameter List
+Douya,me.zhanghai.android.douya.util,ViewUtils,setPaddingStart,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,setPaddingEnd,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,setLayoutFullscreen,Long Statement
+Douya,me.zhanghai.android.douya.util,ViewUtils,setLayoutHideNavigation,Long Statement
+Douya,me.zhanghai.android.douya.util,WebViewUtils,createFileChooserIntent,Complex Conditional
+Douya,me.zhanghai.android.douya.util,WebViewUtils,download,Long Parameter List

@@ -1,0 +1,791 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+lbry,io.lbry.browser,FirstRunActivity,doInBackground,Empty catch clause
+lbry,io.lbry.browser,AuthenticateTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser,LbrynetMessagingService,onMessageReceived,Complex Conditional
+lbry,io.lbry.browser,LbrynetMessagingService,sendNotification,Long Parameter List
+lbry,io.lbry.browser,LbrynetMessagingService,sendNotification,Long Statement
+lbry,io.lbry.browser,LbrynetMessagingService,sendNotification,Magic Number
+lbry,io.lbry.browser,MainActivity,onCreate,Complex Method
+lbry,io.lbry.browser,MainActivity,onCreate,Empty catch clause
+lbry,io.lbry.browser,MainActivity,onCreate,Long Identifier
+lbry,io.lbry.browser,MainActivity,onCreate,Long Method
+lbry,io.lbry.browser,MainActivity,onCreate,Long Statement
+lbry,io.lbry.browser,MainActivity,onApplyWindowInsets,Long Statement
+lbry,io.lbry.browser,MainActivity,onDrawerClosed,Long Identifier
+lbry,io.lbry.browser,MainActivity,onNavigationMenuItemClicked,Long Identifier
+lbry,io.lbry.browser,MainActivity,onNavigationMenuItemClicked,Long Statement
+lbry,io.lbry.browser,MainActivity,updateMiniPlayerMargins,Long Identifier
+lbry,io.lbry.browser,MainActivity,updateMiniPlayerMargins,Long Statement
+lbry,io.lbry.browser,MainActivity,isBackgroundPlaybackEnabled,Long Identifier
+lbry,io.lbry.browser,MainActivity,initialSubscriptionMergeDone,Long Identifier
+lbry,io.lbry.browser,MainActivity,restoreWalletContainerPosition,Magic Number
+lbry,io.lbry.browser,MainActivity,translateFloatingWallet,Long Statement
+lbry,io.lbry.browser,MainActivity,translateFloatingWallet,Magic Number
+lbry,io.lbry.browser,MainActivity,openSelectedMenuItem,Complex Method
+lbry,io.lbry.browser,MainActivity,openPublishesOnSuccessfulPublish,Empty catch clause
+lbry,io.lbry.browser,MainActivity,run,Empty catch clause
+lbry,io.lbry.browser,MainActivity,openSpecialUrl,Magic Number
+lbry,io.lbry.browser,MainActivity,renderFullMode,Complex Conditional
+lbry,io.lbry.browser,MainActivity,renderFullMode,Long Statement
+lbry,io.lbry.browser,MainActivity,checkWebSocketClient,Complex Conditional
+lbry,io.lbry.browser,MainActivity,isFirstRunCompleted,Long Identifier
+lbry,io.lbry.browser,MainActivity,onPause,Complex Conditional
+lbry,io.lbry.browser,MainActivity,canShowUrlSuggestions,Long Identifier
+lbry,io.lbry.browser,MainActivity,keepSdkBackground,Long Identifier
+lbry,io.lbry.browser,MainActivity,setupUriBar,Complex Method
+lbry,io.lbry.browser,MainActivity,setupUriBar,Empty catch clause
+lbry,io.lbry.browser,MainActivity,setupUriBar,Long Method
+lbry,io.lbry.browser,MainActivity,onEditorAction,Empty catch clause
+lbry,io.lbry.browser,MainActivity,launchSearch,Empty catch clause
+lbry,io.lbry.browser,MainActivity,handleUriInputChanged,Long Statement
+lbry,io.lbry.browser,MainActivity,loadDefaultSuggestionsForBlankUrl,Long Statement
+lbry,io.lbry.browser,MainActivity,loadDefaultSuggestionsForBlankUrl,Magic Number
+lbry,io.lbry.browser,MainActivity,onSuccess,Magic Number
+lbry,io.lbry.browser,MainActivity,buildLbryUrlSuggestions,Long Statement
+lbry,io.lbry.browser,MainActivity,buildDefaultSuggestions,Complex Method
+lbry,io.lbry.browser,MainActivity,buildDefaultSuggestions,Empty catch clause
+lbry,io.lbry.browser,MainActivity,buildDefaultSuggestions,Magic Number
+lbry,io.lbry.browser,MainActivity,enterFullScreenMode,Long Statement
+lbry,io.lbry.browser,MainActivity,exitFullScreenMode,Long Statement
+lbry,io.lbry.browser,MainActivity,initKeyStore,Long Statement
+lbry,io.lbry.browser,MainActivity,checkFirstRun,Long Identifier
+lbry,io.lbry.browser,MainActivity,loadAuthToken,Long Statement
+lbry,io.lbry.browser,MainActivity,onSdkReady,Long Identifier
+lbry,io.lbry.browser,MainActivity,checkAndClaimNewAndroidReward,Long Identifier
+lbry,io.lbry.browser,MainActivity,checkAndClaimNewAndroidReward,Long Statement
+lbry,io.lbry.browser,MainActivity,checkAndClaimNewAndroidReward,Magic Number
+lbry,io.lbry.browser,MainActivity,onSuccess,Long Identifier
+lbry,io.lbry.browser,MainActivity,onSuccess,Long Statement
+lbry,io.lbry.browser,MainActivity,onError,Long Identifier
+lbry,io.lbry.browser,MainActivity,onSharedPreferenceChanged,Long Identifier
+lbry,io.lbry.browser,MainActivity,onActionItemClicked,Long Statement
+lbry,io.lbry.browser,MainActivity,handleDeleteSelectedNotifications,Empty catch clause
+lbry,io.lbry.browser,MainActivity,doInBackground,Empty catch clause
+lbry,io.lbry.browser,MainActivity,getCurrentContentText,Long Statement
+lbry,io.lbry.browser,MainActivity,getCurrentLargeIcon,Complex Conditional
+lbry,io.lbry.browser,MainActivity,getCurrentLargeIcon,Long Statement
+lbry,io.lbry.browser,MainActivity,updateUsdWalletBalanceInNav,Long Statement
+lbry,io.lbry.browser,MainActivity,updateFloatingWalletBalance,Long Statement
+lbry,io.lbry.browser,MainActivity,scheduleWalletBalanceUpdate,Magic Number
+lbry,io.lbry.browser,MainActivity,scheduleWalletSyncTask,Magic Number
+lbry,io.lbry.browser,MainActivity,loadSharedUserState,Complex Conditional
+lbry,io.lbry.browser,MainActivity,loadSharedUserState,Complex Method
+lbry,io.lbry.browser,MainActivity,loadSharedUserState,Long Identifier
+lbry,io.lbry.browser,MainActivity,loadSharedUserState,Long Statement
+lbry,io.lbry.browser,MainActivity,onSuccess,Complex Conditional
+lbry,io.lbry.browser,MainActivity,onSuccess,Complex Method
+lbry,io.lbry.browser,MainActivity,onError,Long Statement
+lbry,io.lbry.browser,MainActivity,pushCurrentWalletSync,Long Identifier
+lbry,io.lbry.browser,MainActivity,userSyncEnabled,Long Identifier
+lbry,io.lbry.browser,MainActivity,syncApplyAndSet,Long Identifier
+lbry,io.lbry.browser,MainActivity,syncWalletAndLoadPreferences,Long Identifier
+lbry,io.lbry.browser,MainActivity,registerRequestsReceiver,Complex Method
+lbry,io.lbry.browser,MainActivity,onReceive,Complex Method
+lbry,io.lbry.browser,MainActivity,showError,Long Statement
+lbry,io.lbry.browser,MainActivity,showNotifications,Long Identifier
+lbry,io.lbry.browser,MainActivity,showNotifications,Long Statement
+lbry,io.lbry.browser,MainActivity,hideNotifications,Long Statement
+lbry,io.lbry.browser,MainActivity,markNotificationsSeen,Empty catch clause
+lbry,io.lbry.browser,MainActivity,onBackPressed,Complex Conditional
+lbry,io.lbry.browser,MainActivity,onBackPressed,Complex Method
+lbry,io.lbry.browser,MainActivity,onBackPressed,Long Statement
+lbry,io.lbry.browser,MainActivity,rewardsSignIn,Long Identifier
+lbry,io.lbry.browser,MainActivity,onRequestPermissionsResult,Complex Method
+lbry,io.lbry.browser,MainActivity,onActivityResult,Complex Method
+lbry,io.lbry.browser,MainActivity,onActivityResult,Long Identifier
+lbry,io.lbry.browser,MainActivity,requestVideoCapture,Long Statement
+lbry,io.lbry.browser,MainActivity,requestTakePhoto,Long Statement
+lbry,io.lbry.browser,MainActivity,startup,Complex Method
+lbry,io.lbry.browser,MainActivity,startup,Long Identifier
+lbry,io.lbry.browser,MainActivity,startup,Long Method
+lbry,io.lbry.browser,MainActivity,startup,Magic Number
+lbry,io.lbry.browser,MainActivity,initStartupStages,Long Identifier
+lbry,io.lbry.browser,MainActivity,doInBackground,Complex Method
+lbry,io.lbry.browser,MainActivity,doInBackground,Long Identifier
+lbry,io.lbry.browser,MainActivity,updateRewardsUsdVale,Long Statement
+lbry,io.lbry.browser,MainActivity,showFloatingUnclaimedRewards,Long Identifier
+lbry,io.lbry.browser,MainActivity,showFloatingUnclaimedRewards,Long Statement
+lbry,io.lbry.browser,MainActivity,checkUrlIntent,Empty catch clause
+lbry,io.lbry.browser,MainActivity,checkUrlIntent,Long Statement
+lbry,io.lbry.browser,MainActivity,checkUrlIntent,Magic Number
+lbry,io.lbry.browser,MainActivity,onUserLeaveHint,Magic Number
+lbry,io.lbry.browser,MainActivity,enterPIPMode,Complex Conditional
+lbry,io.lbry.browser,MainActivity,enterPIPMode,Long Statement
+lbry,io.lbry.browser,MainActivity,registerServiceActionsReceiver,Complex Conditional
+lbry,io.lbry.browser,MainActivity,registerServiceActionsReceiver,Magic Number
+lbry,io.lbry.browser,MainActivity,onReceive,Complex Conditional
+lbry,io.lbry.browser,MainActivity,onReceive,Magic Number
+lbry,io.lbry.browser,MainActivity,buildServiceNotification,Long Statement
+lbry,io.lbry.browser,MainActivity,buildNavMenu,Long Statement
+lbry,io.lbry.browser,MainActivity,onStop,Complex Conditional
+lbry,io.lbry.browser,MainActivity,openFragment,Empty catch clause
+lbry,io.lbry.browser,MainActivity,openFragment,Complex Conditional
+lbry,io.lbry.browser,MainActivity,openFragment,Long Statement
+lbry,io.lbry.browser,MainActivity,fetchOwnClaims,Long Statement
+lbry,io.lbry.browser,MainActivity,displayUnseenNotificationCount,Magic Number
+lbry,io.lbry.browser,MainActivity,loadRemoteNotifications,Long Statement
+lbry,io.lbry.browser,MainActivity,loadLocalNotifications,Empty catch clause
+lbry,io.lbry.browser,MainActivity,loadLocalNotifications,Long Statement
+lbry,io.lbry.browser,MainActivity,onPostExecute,Long Statement
+lbry,io.lbry.browser,MainActivity,markNotificationReadAndSeen,Empty catch clause
+lbry,io.lbry.browser,MainActivity,checkSyncedWallet,Long Identifier
+lbry,io.lbry.browser,MainActivity,requestPermission,Long Parameter List
+lbry,io.lbry.browser,MainActivity,handleBillingPurchase,Long Parameter List
+lbry,io.lbry.browser,MainActivity,checkAndEnableShareUsageData,Empty catch clause
+lbry,io.lbry.browser,MainActivity,checkAndEnableShareUsageData,Long Identifier
+lbry,io.lbry.browser,MainActivity,onPostExecute,Long Identifier
+lbry,io.lbry.browser,PlayerNotificationDescriptionAdapter,getCurrentContentText,Long Statement
+lbry,io.lbry.browser,PlayerNotificationDescriptionAdapter,getCurrentLargeIcon,Complex Conditional
+lbry,io.lbry.browser,PlayerNotificationDescriptionAdapter,getCurrentLargeIcon,Long Statement
+lbry,io.lbry.browser,CheckSdkReadyTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser,VerificationActivity,onPurchasesUpdated,Long Statement
+lbry,io.lbry.browser,VerificationActivity,onPurchasesUpdated,Magic Number
+lbry,io.lbry.browser,VerificationActivity,onSuccess,Long Statement
+lbry,io.lbry.browser,VerificationActivity,onSuccess,Magic Number
+lbry,io.lbry.browser,VerificationActivity,onCreate,Complex Conditional
+lbry,io.lbry.browser,VerificationActivity,onCreate,Complex Method
+lbry,io.lbry.browser,VerificationActivity,onBackPressed,Long Statement
+lbry,io.lbry.browser,VerificationActivity,showFetchUserError,Long Statement
+lbry,io.lbry.browser,VerificationActivity,onSkipQueueAction,Long Statement
+lbry,io.lbry.browser,VerificationActivity,onTwitterVerified,Long Statement
+lbry,io.lbry.browser,VerificationActivity,onTwitterVerified,Magic Number
+lbry,io.lbry.browser.utils,Comments,channelSign,Magic Number
+lbry,io.lbry.browser.utils,Comments,performRequest,Long Statement
+lbry,io.lbry.browser.utils,Comments,performRequest,Magic Number
+lbry,io.lbry.browser.utils,Comments,checkCommentsEndpointStatus,Long Statement
+lbry,io.lbry.browser.utils,Comments,checkCommentsEndpointStatus,Magic Number
+lbry,io.lbry.browser.utils,ExoplayerAudioRenderer,buildAudioRenderers,Long Parameter List
+lbry,io.lbry.browser.utils,ExoplayerAudioRenderer,buildAudioRenderers,Long Statement
+lbry,io.lbry.browser.utils,Helper,buildPlaybackSpeedMenu,Magic Number
+lbry,io.lbry.browser.utils,Helper,closeCloseable,Empty catch clause
+lbry,io.lbry.browser.utils,Helper,parseInt,Magic Number
+lbry,io.lbry.browser.utils,Helper,formatDuration,Magic Number
+lbry,io.lbry.browser.utils,Helper,formatBytesParts,Magic Number
+lbry,io.lbry.browser.utils,Helper,formatBytes,Magic Number
+lbry,io.lbry.browser.utils,Helper,shortCurrencyFormat,Magic Number
+lbry,io.lbry.browser.utils,Helper,buildReleaseTime,Magic Number
+lbry,io.lbry.browser.utils,Helper,buildReleaseTime,Missing default
+lbry,io.lbry.browser.utils,Helper,generateRandomColorForValue,Magic Number
+lbry,io.lbry.browser.utils,Helper,setIconViewBackgroundColor,Long Statement
+lbry,io.lbry.browser.utils,Helper,getRealPathFromURI_API19,Complex Method
+lbry,io.lbry.browser.utils,Helper,getRealPathFromURI_API19,Empty catch clause
+lbry,io.lbry.browser.utils,Helper,getRealPathFromURI_API19,Long Statement
+lbry,io.lbry.browser.utils,Helper,getScaledValue,Magic Number
+lbry,io.lbry.browser.utils,Lbry,apiCall,Long Statement
+lbry,io.lbry.browser.utils,Lbry,apiCall,Magic Number
+lbry,io.lbry.browser.utils,Lbry,buildJsonParams,Empty catch clause
+lbry,io.lbry.browser.utils,Lbry,parseResponse,Magic Number
+lbry,io.lbry.browser.utils,Lbry,fileList,Complex Method
+lbry,io.lbry.browser.utils,Lbry,buildClaimSearchOptions,Long Parameter List
+lbry,io.lbry.browser.utils,Lbry,buildClaimSearchOptions,Long Statement
+lbry,io.lbry.browser.utils,Lbry,generateId,Magic Number
+lbry,io.lbry.browser.utils,Lbryio,call,Long Parameter List
+lbry,io.lbry.browser.utils,Lbryio,call,Long Statement
+lbry,io.lbry.browser.utils,Lbryio,call,Magic Number
+lbry,io.lbry.browser.utils,Lbryio,buildQueryString,Empty catch clause
+lbry,io.lbry.browser.utils,Lbryio,buildQueryString,Long Statement
+lbry,io.lbry.browser.utils,Lbryio,parseResponse,Magic Number
+lbry,io.lbry.browser.utils,Lbryio,fetchCurrentUser,Magic Number
+lbry,io.lbry.browser.utils,Lbryio,newInstall,Empty catch clause
+lbry,io.lbry.browser.utils,Lbryio,loadExchangeRate,Empty catch clause
+lbry,io.lbry.browser.utils,LbryUri,isChannelUrl,Long Statement
+lbry,io.lbry.browser.utils,LbryUri,parse,Complex Method
+lbry,io.lbry.browser.utils,LbryUri,parse,Long Identifier
+lbry,io.lbry.browser.utils,LbryUri,parse,Long Statement
+lbry,io.lbry.browser.utils,LbryUri,parse,Magic Number
+lbry,io.lbry.browser.utils,LbryUri,build,Complex Method
+lbry,io.lbry.browser.utils,LbryUri,parse,Complex Conditional
+lbry,io.lbry.browser.utils,UriModifier,parse,Complex Conditional
+lbry,io.lbry.browser.utils,UriModifier,parse,Complex Method
+lbry,io.lbry.browser.utils,Lighthouse,buildSearchOptionsKey,Long Parameter List
+lbry,io.lbry.browser.utils,Lighthouse,search,Long Parameter List
+lbry,io.lbry.browser.utils,Lighthouse,search,Long Statement
+lbry,io.lbry.browser.utils,Lighthouse,search,Magic Number
+lbry,io.lbry.browser.utils,Lighthouse,autocomplete,Long Statement
+lbry,io.lbry.browser.utils,Lighthouse,autocomplete,Magic Number
+lbry,io.lbry.browser.utils,LbryUriTest,lbryToTvStringWithEncodedChars,Long Statement
+lbry,io.lbry.browser.utils,LbryUriTest,lbryToTvStringWithChannelAndEncodedChars,Long Statement
+lbry,io.lbry.browser.adapter,ChannelFilterListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,ChannelFilterListAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,ClaimListAdapter,updateFileForClaimByIdOrUrl,Complex Method
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onCreateViewHolder,Missing default
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onBindViewHolder,Complex Conditional
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onBindViewHolder,Complex Method
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onBindViewHolder,Long Method
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onClick,Magic Number
+lbry,io.lbry.browser.adapter,ClaimListAdapter,onLongClick,Magic Number
+lbry,io.lbry.browser.adapter,CommentListAdapter,getClaimUrlsToResolve,Complex Method
+lbry,io.lbry.browser.adapter,CommentListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,CommentListAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,EditorsChoiceItemAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,GalleryGridAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,GalleryGridAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,InviteeListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,NavigationMenuAdapter,onCreateViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,NavigationMenuAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,NotificationListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,RewardListAdapter,onBindViewHolder,Complex Method
+lbry,io.lbry.browser.adapter,RewardListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,RewardListAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,RewardListAdapter,onClick,Long Statement
+lbry,io.lbry.browser.adapter,StartupStageAdapter,StartupStageAdapter,Magic Number
+lbry,io.lbry.browser.adapter,SuggestedChannelGridAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,SuggestedChannelGridAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,TransactionListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,TransactionListAdapter,onBindViewHolder,Magic Number
+lbry,io.lbry.browser.adapter,UrlSuggestionListAdapter,setClaimForUrl,Empty catch clause
+lbry,io.lbry.browser.adapter,UrlSuggestionListAdapter,onBindViewHolder,Long Statement
+lbry,io.lbry.browser.adapter,UrlSuggestionListAdapter,onBindViewHolder,Missing default
+lbry,io.lbry.browser.adapter,VerificationPagerAdapter,createFragment,Complex Method
+lbry,io.lbry.browser.adapter,VerificationPagerAdapter,createFragment,Magic Number
+lbry,io.lbry.browser.adapter,VerificationPagerAdapter,createFragment,Missing default
+lbry,io.lbry.browser.adapter,VerificationPagerAdapter,getItemCount,Magic Number
+lbry,io.lbry.browser.adapter,WalletDetailAdapter,getView,Long Statement
+lbry,io.lbry.browser.adapter,WalletDetailAdapter,onClick,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,onUpgrade,Complex Method
+lbry,io.lbry.browser.data,DatabaseHelper,onUpgrade,Magic Number
+lbry,io.lbry.browser.data,DatabaseHelper,createOrUpdateUrlHistoryItem,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,clearUrlHistoryBefore,Long Identifier
+lbry,io.lbry.browser.data,DatabaseHelper,clearUrlHistoryBefore,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,getRecentHistory,Magic Number
+lbry,io.lbry.browser.data,DatabaseHelper,createOrUpdateViewHistoryItem,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,createOrUpdateSubscription,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,setSubscriptionNotificationDisabled,Long Identifier
+lbry,io.lbry.browser.data,DatabaseHelper,getSubscriptions,Magic Number
+lbry,io.lbry.browser.data,DatabaseHelper,createOrUpdateNotification,Long Statement
+lbry,io.lbry.browser.data,DatabaseHelper,getUnreadNotificationsCount,Long Identifier
+lbry,io.lbry.browser.data,DatabaseHelper,getUnseenNotificationsCount,Long Identifier
+lbry,io.lbry.browser.data,DatabaseHelper,markNotificationReadAndSeen,Long Identifier
+lbry,io.lbry.browser.data,DatabaseHelper,getShuffleWatchedClaims,Long Identifier
+lbry,io.lbry.browser.dialog,ContentFromDialogFragment,onClick,Complex Method
+lbry,io.lbry.browser.dialog,ContentFromItemClickListener,onClick,Complex Method
+lbry,io.lbry.browser.dialog,ContentScopeDialogFragment,onClick,Complex Method
+lbry,io.lbry.browser.dialog,ContentScopeItemClickListener,onClick,Complex Method
+lbry,io.lbry.browser.dialog,ContentSortDialogFragment,onClick,Complex Method
+lbry,io.lbry.browser.dialog,SortByItemClickListener,onClick,Complex Method
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,onCreateView,Long Method
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,onClick,Long Statement
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,updateSendButtonText,Magic Number
+lbry,io.lbry.browser.dialog,CreateSupportDialogFragment,updateInfoText,Long Statement
+lbry,io.lbry.browser.dialog,CustomizeTagsDialogFragment,checkNoTags,Long Statement
+lbry,io.lbry.browser.dialog,CustomizeTagsDialogFragment,checkNoResults,Long Statement
+lbry,io.lbry.browser.dialog,CustomizeTagsDialogFragment,updateKnownTags,Long Statement
+lbry,io.lbry.browser.dialog,DiscoverDialogFragment,onCreateView,Magic Number
+lbry,io.lbry.browser.dialog,RepostClaimDialogFragment,validateAndRepostClaim,Long Statement
+lbry,io.lbry.browser.dialog,RepostClaimDialogFragment,validateAndRepostClaim,Magic Number
+lbry,io.lbry.browser.listener,DownloadActionListener,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.model,Claim,getCoverUrl,Complex Conditional
+lbry,io.lbry.browser.model,Claim,getCoverUrl,Long Statement
+lbry,io.lbry.browser.model,Claim,getFirstTag,Complex Conditional
+lbry,io.lbry.browser.model,Claim,fromJSONObject,Empty catch clause
+lbry,io.lbry.browser.model,Claim,fromSearchJSONObject,Empty catch clause
+lbry,io.lbry.browser.model,Claim,fromSearchJSONObject,Long Statement
+lbry,io.lbry.browser.model,Claim,fromSearchJSONObject,Magic Number
+lbry,io.lbry.browser.model,Comment,Comment,Long Parameter List
+lbry,io.lbry.browser.model,Comment,fromJSONObject,Long Statement
+lbry,io.lbry.browser.model,NavMenuItem,NavMenuItem,Long Parameter List
+lbry,io.lbry.browser.model,Transaction,getClaimUrl,Empty catch clause
+lbry,io.lbry.browser.model,Transaction,fromJSONObject,Complex Method
+lbry,io.lbry.browser.model,Transaction,fromJSONObject,Empty catch clause
+lbry,io.lbry.browser.model,Transaction,fromJSONObject,Long Statement
+lbry,io.lbry.browser.model,Transaction,fromJSONObject,Magic Number
+lbry,io.lbry.browser.model,UrlSuggestion,getTitle,Complex Conditional
+lbry,io.lbry.browser.model,WalletDetailItem,WalletDetailItem,Long Parameter List
+lbry,io.lbry.browser.tasks,BufferEventTask,BufferEventTask,Long Parameter List
+lbry,io.lbry.browser.tasks,BufferEventTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks,BufferEventTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks,CommentListTask,CommentListTask,Long Parameter List
+lbry,io.lbry.browser.tasks,LighthouseSearchTask,LighthouseSearchTask,Long Parameter List
+lbry,io.lbry.browser.tasks,MergeSubscriptionsTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks,MergeSubscriptionsTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks,UpdateSuggestedTagsTask,UpdateSuggestedTagsTask,Long Parameter List
+lbry,io.lbry.browser.tasks,UpdateSuggestedTagsTask,doInBackground,Complex Conditional
+lbry,io.lbry.browser.tasks,UpdateSuggestedTagsTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks,UpdateSuggestedTagsTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks,UpdateSuggestedTagsTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks,UploadImageTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks,UploadImageTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.claim,ChannelCreateUpdateTask,ChannelCreateUpdateTask,Long Parameter List
+lbry,io.lbry.browser.tasks.claim,ChannelCreateUpdateTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks.claim,ChannelCreateUpdateTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.claim,ClaimListTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.claim,PublishClaimTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks.claim,PublishClaimTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.claim,StreamRepostTask,StreamRepostTask,Long Parameter List
+lbry,io.lbry.browser.tasks.claim,StreamRepostTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.file,BulkDeleteFilesTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.file,FileListTask,FileListTask,Long Parameter List
+lbry,io.lbry.browser.tasks.lbryinc,ChannelSubscribeTask,ChannelSubscribeTask,Long Parameter List
+lbry,io.lbry.browser.tasks.lbryinc,ClaimRewardTask,ClaimRewardTask,Long Parameter List
+lbry,io.lbry.browser.tasks.lbryinc,ClaimRewardTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.lbryinc,ClaimRewardTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.lbryinc,FetchStatCountTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.lbryinc,LogPublishTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.lbryinc,NotificationDeleteTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.lbryinc,NotificationListTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks.lbryinc,NotificationListTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.lbryinc,NotificationUpdateTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.localdata,FetchViewHistoryTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.localdata,LoadGalleryItemsTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks.localdata,LoadGalleryItemsTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.localdata,LoadGalleryItemsTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.localdata,LoadGalleryItemsTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.localdata,SaveUrlHistoryTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.verification,EmailNewTask,doInBackground,Magic Number
+lbry,io.lbry.browser.tasks.verification,PhoneNewVerifyTask,PhoneNewVerifyTask,Long Parameter List
+lbry,io.lbry.browser.tasks.verification,TwitterAccessTokenTask,onPostExecute,Magic Number
+lbry,io.lbry.browser.tasks.verification,TwitterRequestTokenTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.verification,TwitterRequestTokenTask,onPostExecute,Magic Number
+lbry,io.lbry.browser.tasks.wallet,LoadSharedUserStateTask,doInBackground,Complex Conditional
+lbry,io.lbry.browser.tasks.wallet,LoadSharedUserStateTask,doInBackground,Complex Method
+lbry,io.lbry.browser.tasks.wallet,LoadSharedUserStateTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.tasks.wallet,LoadSharedUserStateTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.wallet,LoadSharedUserStateTask,isNotificationsDisabledForSubUrl,Empty catch clause
+lbry,io.lbry.browser.tasks.wallet,SaveSharedUserStateTask,doInBackground,Complex Conditional
+lbry,io.lbry.browser.tasks.wallet,SaveSharedUserStateTask,buildUpdatedNotificationsDisabledStates,Empty catch clause
+lbry,io.lbry.browser.tasks.wallet,SupportCreateTask,SupportCreateTask,Long Parameter List
+lbry,io.lbry.browser.tasks.wallet,SupportCreateTask,doInBackground,Long Statement
+lbry,io.lbry.browser.tasks.wallet,SyncGetTask,doInBackground,Complex Conditional
+lbry,io.lbry.browser.tasks.wallet,SyncGetTask,doInBackground,Long Statement
+lbry,io.lbry.browser.ui,BaseFragment,onStop,Complex Conditional
+lbry,io.lbry.browser.ui,BaseFragment,onStop,Long Statement
+lbry,io.lbry.browser.ui,BaseFragment,checkRewardsDriverCard,Long Statement
+lbry,io.lbry.browser.ui,BaseFragment,setupInlineChannelCreator,Complex Method
+lbry,io.lbry.browser.ui,BaseFragment,setupInlineChannelCreator,Long Parameter List
+lbry,io.lbry.browser.ui,BaseFragment,setupInlineChannelCreator,Long Statement
+lbry,io.lbry.browser.ui,BaseFragment,setupInlineChannelCreator,Magic Number
+lbry,io.lbry.browser.ui,BaseFragment,onClick,Complex Method
+lbry,io.lbry.browser.ui,BaseFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui,BaseFragment,onClick,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelAboutFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelAboutFragment,refresh,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onCreateView,Long Identifier
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,checkAndLoadComments,Complex Conditional
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,loadComments,Complex Conditional
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,loadComments,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onSuccess,Complex Conditional
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onClaimClicked,Complex Conditional
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,scrollToCommentHash,Complex Conditional
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,scrollToCommentHash,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onWalletBalanceUpdated,Long Identifier
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,updateChannelList,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,initCommentForm,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,updatePostAsChannel,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,updatePostAsChannel,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,postComment,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,postComment,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onError,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,checkNoComments,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,setupInlineChannelCreator,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,setupInlineChannelCreator,Long Parameter List
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,setupInlineChannelCreator,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,setupInlineChannelCreator,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onClick,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelCommentsFragment,onClick,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,onSortByChanged,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,updateSortByLinkText,Missing default
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,updateContentFromLinkText,Missing default
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,buildContentOptions,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,fetchClaimSearchContent,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelContentFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,onCreateView,Long Method
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,updateFieldsFromCurrentClaim,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,validateAndSaveClaim,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,validateAndSaveClaim,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,validateAndSaveClaim,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,checkPermissionsAndLaunchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,launchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,onFilePicked,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,onFilePicked,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,onStoragePermissionRefused,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,checkNoAddedTags,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,checkNoTagResults,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,addTag,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,updateSuggestedTags,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFormFragment,checkRewardsDriver,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onCreateView,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onCreateView,Long Method
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onCreateView,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onClick,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onClick,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,doFollowUnfollow,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,deleteCurrentClaim,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onComplete,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,checkParams,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFragment,checkParams,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,renderClaim,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFragment,renderClaim,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,renderClaim,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,renderClaim,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,run,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onConfigureTab,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,loadSubCount,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,loadSubCount,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelFragment,onSuccess,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,createFragment,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelFragment,createFragment,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelFragment,createFragment,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelFragment,getItemCount,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelPagerAdapter,createFragment,Complex Method
+lbry,io.lbry.browser.ui.channel,ChannelPagerAdapter,createFragment,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelPagerAdapter,createFragment,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelPagerAdapter,getItemCount,Magic Number
+lbry,io.lbry.browser.ui.channel,ChannelManagerFragment,onActionItemClicked,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelManagerFragment,handleDeleteSelectedClaims,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelManagerFragment,handleDeleteSelectedClaims,Long Statement
+lbry,io.lbry.browser.ui.channel,ChannelManagerFragment,onComplete,Empty catch clause
+lbry,io.lbry.browser.ui.channel,ChannelManagerFragment,onComplete,Long Statement
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onCreateView,Long Method
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onContentScopeChanged,Long Statement
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onSortByChanged,Long Statement
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,updateSortByLinkText,Missing default
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,updateContentScopeLinkText,Missing default
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,updateContentFromLinkText,Missing default
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,buildContentOptions,Long Statement
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,fetchClaimSearchContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,AllContentFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,EditorsChoiceFragment,buildContentOptions,Long Statement
+lbry,io.lbry.browser.ui.findcontent,EditorsChoiceFragment,buildContentOptions,Magic Number
+lbry,io.lbry.browser.ui.findcontent,EditorsChoiceFragment,fetchClaimSearchContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,EditorsChoiceFragment,buildDataFromClaims,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onCreateView,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onCreateView,Long Identifier
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onPlaybackStateChanged,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onPlaybackStateChanged,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkParams,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkParams,Long Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkParams,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaimBlocked,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkNewClaimAndUrl,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkNewClaimAndUrl,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initWebView,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,applyThemeToWebView,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,applyThemeToWebView,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkAndResetNowPlayingClaim,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkAndResetNowPlayingClaim,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,getStreamingUrl,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onResume,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onResume,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,doFollowUnfollow,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Long Identifier
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Long Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initUi,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onClick,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onClick,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onScrollChange,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,updatePlaybackSpeedView,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkStoragePermissionAndStartDownload,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkStoragePermissionAndFileGet,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkStoragePermissionAndFileGet,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaim,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaim,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaim,Long Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaim,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderClaim,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkAndLoadRelatedContent,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkAndLoadRelatedContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkAndLoadComments,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,showUnsupportedView,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,playMedia,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,playMedia,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,playMedia,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,playMedia,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadViewCount,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadViewCount,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onSuccess,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onMainActionButtonClicked,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onMainActionButtonClicked,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onMainActionButtonClicked,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,confirmPurchaseUrl,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,confirmPurchaseUrl,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,confirmPurchaseUrl,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,handleMainActionForClaim,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,handleMainActionForClaim,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,fileGet,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,fileGet,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onError,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,playOrViewMedia,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadLastPlaybackPosition,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,savePlaybackPosition,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,buildMarkdownHtml,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,openClaimExternally,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadRelatedContent,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadRelatedContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadRelatedContent,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onSuccess,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadComments,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,loadComments,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onSuccess,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onClaimClicked,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,scrollToCommentHash,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,scrollToCommentHash,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkNoComments,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,enableFullScreenMode,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,scheduleElapsedPlayback,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,scheduleElapsedPlayback,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,run,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,run,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderElapsedDuration,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderElapsedDuration,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderTotalDuration,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,renderTotalDuration,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,logPlay,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onSuccess,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onDownloadAction,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onLandscapeOrientationEntered,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onWalletBalanceUpdated,Long Identifier
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkRewardsDriver,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onRelatedDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onRelatedDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,onContextItemSelected,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,checkOwnClaim,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,getRetryDelayMsFor,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,getRetryDelayMsFor,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,showStoragePermissionRefusedError,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,updateChannelList,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,initCommentForm,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,updatePostAsChannel,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,updatePostAsChannel,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,postComment,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,postComment,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,setAttributes,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FileViewFragment,setAttributes,Magic Number
+lbry,io.lbry.browser.ui.findcontent,StreamLoadErrorPolicy,getRetryDelayMsFor,Long Statement
+lbry,io.lbry.browser.ui.findcontent,StreamLoadErrorPolicy,getRetryDelayMsFor,Magic Number
+lbry,io.lbry.browser.ui.findcontent,CodeAttributeProvider,setAttributes,Long Statement
+lbry,io.lbry.browser.ui.findcontent,CodeAttributeProvider,setAttributes,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onCreateView,Long Method
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onCreateView,Magic Number
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onSortByChanged,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,updateSortByLinkText,Missing default
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,updateContentFromLinkText,Missing default
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,buildSuggestedOptions,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,buildContentOptions,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,buildChannelIdsAndUrls,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,fetchAndResolveChannelList,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,updateChannelFilterListAdapter,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,fetchClaimSearchContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,fetchSuggestedChannels,Complex Method
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,fetchSuggestedChannels,Long Identifier
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,fetchSuggestedChannels,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onChannelItemSelected,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onChannelItemDeselected,Long Statement
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,FollowingFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,SearchFragment,search,Complex Method
+lbry,io.lbry.browser.ui.findcontent,SearchFragment,search,Long Statement
+lbry,io.lbry.browser.ui.findcontent,SearchFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,SearchFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onCreateView,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onCreateView,Complex Method
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onCreateView,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onPlayerStateChanged,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onPlayerStateChanged,Complex Method
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onClick,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,getStreamingUrl,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,buildContentOptions,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,buildContentOptions,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onStop,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,loadWatchedContentList,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,doInBackground,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,saveWatchedContent,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,loadContent,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,checkPlaylistSize,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,playbackCurrentClaim,Complex Conditional
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,playbackCurrentClaim,Complex Method
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,playbackCurrentClaim,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,playbackCurrentClaim,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,logPlay,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,renderElapsedDuration,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,renderElapsedDuration,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,renderTotalDuration,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,renderTotalDuration,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,scheduleElapsedPlayback,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,run,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onSuccess,Magic Number
+lbry,io.lbry.browser.ui.findcontent,ShuffleFragment,onFling,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,SwipeListener,onFling,Empty catch clause
+lbry,io.lbry.browser.ui.findcontent,SwipeGestureListener,onFling,Empty catch clause
+lbry,io.lbry.browser.ui.library,LibraryFragment,fetchOwnClaimsAndShowDownloads,Long Statement
+lbry,io.lbry.browser.ui.library,LibraryFragment,fetchHistory,Long Statement
+lbry,io.lbry.browser.ui.library,LibraryFragment,onDownloadAction,Empty catch clause
+lbry,io.lbry.browser.ui.library,LibraryFragment,onDownloadAction,Long Parameter List
+lbry,io.lbry.browser.ui.library,LibraryFragment,checkListEmpty,Long Statement
+lbry,io.lbry.browser.ui.library,LibraryFragment,checkListEmpty,Missing default
+lbry,io.lbry.browser.ui.library,LibraryFragment,renderStats,Magic Number
+lbry,io.lbry.browser.ui.library,LibraryFragment,checkStatsLink,Long Statement
+lbry,io.lbry.browser.ui.library,LibraryFragment,onActionItemClicked,Long Statement
+lbry,io.lbry.browser.ui.library,LibraryFragment,buildUrlsToResolve,Complex Conditional
+lbry,io.lbry.browser.ui.other,AboutFragment,onCreateView,Empty catch clause
+lbry,io.lbry.browser.ui.other,AboutFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.other,AboutFragment,shareLogFile,Long Statement
+lbry,io.lbry.browser.ui.other,SettingsFragment,onCreatePreferences,Long Identifier
+lbry,io.lbry.browser.ui.other,SettingsFragment,onCreatePreferences,Long Statement
+lbry,io.lbry.browser.ui.other,SettingsFragment,updateDHTFileSetting,Empty catch clause
+lbry,io.lbry.browser.ui.other,SettingsFragment,doInBackground,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishesFragment,fetchPublishes,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishesFragment,onPrepareActionMode,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishesFragment,onActionItemClicked,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishesFragment,handleDeleteSelectedClaims,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishesFragment,handleDeleteSelectedClaims,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishesFragment,onComplete,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishesFragment,onComplete,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onCreateView,Long Identifier
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,initUi,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,initUi,Long Identifier
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,initUi,Long Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,initUi,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,initUi,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onItemSelected,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onClick,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onClick,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkParams,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkStoragePermissionAndLaunchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,launchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,updateFieldsFromCurrentClaim,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,updateFieldsFromCurrentClaim,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkPublishFile,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkAndTranscodeVideo,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkAndTranscodeVideo,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkAndTranscodeVideo,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onProgress,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,cancelOnFatalCondition,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onResume,Complex Conditional
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,updateChannelList,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,updateChannelList,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,buildPublishClaim,Complex Conditional
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,buildPublishClaim,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,buildPublishClaim,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,validatePublishClaim,Complex Conditional
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkNoAddedTags,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkNoTagResults,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,addTag,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,updateSuggestedTags,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onStoragePermissionRefused,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,onFilePicked,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,checkRewardsDriver,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,doInBackground,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,doInBackground,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,VideoTranscodeTask,Long Parameter List
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,tryParseDuration,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFormFragment,doInBackground,Magic Number
+lbry,io.lbry.browser.ui.publish,VideoProbeTask,doInBackground,Empty catch clause
+lbry,io.lbry.browser.ui.publish,VideoProbeTask,doInBackground,Long Statement
+lbry,io.lbry.browser.ui.publish,VideoTranscodeTask,VideoTranscodeTask,Long Parameter List
+lbry,io.lbry.browser.ui.publish,VideoTranscodeTask,doInBackground,Long Statement
+lbry,io.lbry.browser.ui.publish,VideoInformation,tryParseDuration,Magic Number
+lbry,io.lbry.browser.ui.publish,CreateThumbnailTask,doInBackground,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,onCreateView,Magic Number
+lbry,io.lbry.browser.ui.publish,PublishFragment,displayPreviewWithCameraX,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishFragment,run,Empty catch clause
+lbry,io.lbry.browser.ui.publish,PublishFragment,checkCameraPermissionAndRecord,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,checkCameraPermissionAndTakePhoto,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,checkStoragePermissionAndLaunchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,launchFilePicker,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,checkStoragePermissionAndLoadVideos,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,loadGalleryItems,Complex Method
+lbry,io.lbry.browser.ui.publish,PublishFragment,onCameraPermissionRefused,Long Statement
+lbry,io.lbry.browser.ui.publish,PublishFragment,onStoragePermissionRefused,Long Statement
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,onCreateView,Empty catch clause
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,onFocusChange,Empty catch clause
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,addEmail,Long Statement
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,onError,Long Statement
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,scheduleEmailVerify,Magic Number
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,checkEmailVerified,Long Statement
+lbry,io.lbry.browser.ui.verification,EmailVerificationFragment,resendEmail,Long Statement
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,showTwitterAuthenticateWithToken,Complex Conditional
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,showTwitterAuthenticateWithToken,Long Statement
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,showTwitterAuthenticateWithToken,Magic Number
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,shouldOverrideUrlLoading,Complex Conditional
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,twitterVerify,Complex Method
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,twitterVerify,Long Statement
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.verification,ManualVerificationFragment,showFlowError,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,onCreateView,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,onClick,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,addPhoneNumber,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,onError,Long Statement
+lbry,io.lbry.browser.ui.verification,PhoneVerificationFragment,verifyPhoneNumber,Long Statement
+lbry,io.lbry.browser.ui.verification,WalletVerificationFragment,start,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onCreateView,Long Identifier
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,initUi,Long Identifier
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,initUi,Long Method
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,initUi,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onFocusChange,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,updateInviteLink,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,clearInputFocus,Long Identifier
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,fetchInviteStatus,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,fetchInviteStatus,Magic Number
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onSuccess,Magic Number
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onError,Long Statement
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onError,Magic Number
+lbry,io.lbry.browser.ui.wallet,InvitesFragment,onWalletBalanceUpdated,Long Identifier
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,initUi,Long Statement
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,checkRewardsStatus,Long Statement
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,updateUnclaimedRewardsValue,Empty catch clause
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,updateUnclaimedRewardsValue,Long Statement
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,updateUnclaimedRewardsValue,Magic Number
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,claimReward,Complex Conditional
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,claimReward,Long Parameter List
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,claimReward,Long Statement
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,claimReward,Magic Number
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,onSuccess,Magic Number
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,onError,Complex Conditional
+lbry,io.lbry.browser.ui.wallet,RewardsFragment,onError,Long Statement
+lbry,io.lbry.browser.ui.wallet,TransactionHistoryFragment,onResume,Complex Conditional
+lbry,io.lbry.browser.ui.wallet,TransactionHistoryFragment,loadTransactions,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,fetchRecentTransactions,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,fetchRecentTransactions,Magic Number
+lbry,io.lbry.browser.ui.wallet,WalletFragment,displayNoRecentTransactions,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,validateSend,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,initUi,Complex Method
+lbry,io.lbry.browser.ui.wallet,WalletFragment,initUi,Long Method
+lbry,io.lbry.browser.ui.wallet,WalletFragment,initUi,Magic Number
+lbry,io.lbry.browser.ui.wallet,WalletFragment,sendCredits,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,sendCredits,Magic Number
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onSuccess,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onSuccess,Magic Number
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onError,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,launchMoonpayFlow,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onResume,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onWalletBalanceUpdated,Complex Conditional
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onWalletBalanceUpdated,Complex Method
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onWalletBalanceUpdated,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,onWalletBalanceUpdated,Magic Number
+lbry,io.lbry.browser.ui.wallet,WalletFragment,checkRewardsDriver,Long Statement
+lbry,io.lbry.browser.ui.wallet,WalletFragment,checkRewardsDriver,Magic Number
+lbry,io.lbry.browser.views,CreditsBalanceView,CreditsBalanceView,Magic Number
+lbry,io.lbry.browser.views,CreditsBalanceView,drawLbryCredits,Magic Number

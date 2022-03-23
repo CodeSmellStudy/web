@@ -1,0 +1,1383 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+k9email,com.fsck.k9,Account,getMaximumAutoDownloadMessageSize,Long Identifier
+k9email,com.fsck.k9,Account,setMaximumAutoDownloadMessageSize,Long Identifier
+k9email,com.fsck.k9,Account,getEarliestPollDate,Complex Method
+k9email,com.fsck.k9,Account,getEarliestPollDate,Magic Number
+k9email,com.fsck.k9,Account,isAvailable,Long Identifier
+k9email,com.fsck.k9,FontSizes,FontSizes,Magic Number
+k9email,com.fsck.k9,FontSizes,save,Long Identifier
+k9email,com.fsck.k9,FontSizes,load,Long Identifier
+k9email,com.fsck.k9,FontSizes,loadMessageViewContentPercent,Magic Number
+k9email,com.fsck.k9,NotificationSetting,getVibration,Magic Number
+k9email,com.fsck.k9,QuietTimeChecker,parseTime,Magic Number
+k9email,com.fsck.k9,QuietTimeChecker,isQuietTime,Magic Number
+k9email,com.fsck.k9.autocrypt,AutocryptGossipHeader,hashCode,Magic Number
+k9email,com.fsck.k9.autocrypt,AutocryptHeader,toRawHeaderString,Long Identifier
+k9email,com.fsck.k9.autocrypt,AutocryptHeader,toRawHeaderString,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptHeader,equals,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptHeader,hashCode,Magic Number
+k9email,com.fsck.k9.autocrypt,AutocryptOperations,addAutocryptPeerUpdateToIntentIfPresent,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptOperations,createGossipUpdateBundle,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptOperations,addAutocryptHeaderToMessage,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptHeaderParserTest,getValidAutocryptHeader__withSimpleAutocrypt,Magic Number
+k9email,com.fsck.k9.autocrypt,AutocryptHeaderTest,toRawHeaderString_returnsExpected,Long Statement
+k9email,com.fsck.k9.autocrypt,AutocryptHeaderTest,gossip_toRawHeaderString_returnsExpected,Long Statement
+k9email,com.fsck.k9.cache,EmailProviderCacheCursor,EmailProviderCacheCursor,Complex Conditional
+k9email,com.fsck.k9.cache,EmailProviderCacheCursor,EmailProviderCacheCursor,Long Statement
+k9email,com.fsck.k9.controller,MemorizingMessagingListener,refreshOther,Complex Method
+k9email,com.fsck.k9.controller,MemorizingMessagingListener,refreshOther,Long Statement
+k9email,com.fsck.k9.controller,MessageReference,parse,Complex Conditional
+k9email,com.fsck.k9.controller,MessageReference,parse,Magic Number
+k9email,com.fsck.k9.controller,MessageReference,hashCode,Magic Number
+k9email,com.fsck.k9.controller,MessageReference,toString,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,MessagingController,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,initializeControllerExtensions,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,stop,Magic Number
+k9email,com.fsck.k9.controller,MessagingController,runInBackground,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,runInBackground,Magic Number
+k9email,com.fsck.k9.controller,MessagingController,run,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,run,Magic Number
+k9email,com.fsck.k9.controller,MessagingController,putCommand,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,putCommand,Magic Number
+k9email,com.fsck.k9.controller,MessagingController,searchRemoteMessages,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,searchRemoteMessages,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,searchRemoteMessagesSynchronous,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,searchRemoteMessagesSynchronous,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,refreshFolderListIfStale,Long Identifier
+k9email,com.fsck.k9.controller,MessagingController,createSyncConfig,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,processPendingAppend,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,processPendingAppend,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,queueMoveOrCopy,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,queueMoveOrCopy,Missing default
+k9email,com.fsck.k9.controller,MessagingController,processPendingMoveOrCopy,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,processPendingMoveOrCopy,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,processPendingMoveOrCopy,Missing default
+k9email,com.fsck.k9.controller,MessagingController,destroyPlaceholderMessages,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,queueSetFlag,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,setFlagSynchronous,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,setFlag,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,loadMessageRemoteSynchronous,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,loadMessageRemoteSynchronous,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,sendPendingMessagesSynchronous,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,sendPendingMessagesSynchronous,Long Method
+k9email,com.fsck.k9.controller,MessagingController,sendPendingMessagesSynchronous,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,moveMessages,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,copyMessages,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,moveOrCopyMessageSynchronous,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,moveOrCopyMessageSynchronous,Long Parameter List
+k9email,com.fsck.k9.controller,MessagingController,moveOrCopyMessageSynchronous,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,deleteThreads,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,deleteMessages,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,debugClearMessagesLocally,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,deleteMessagesSynchronous,Complex Conditional
+k9email,com.fsck.k9.controller,MessagingController,deleteMessagesSynchronous,Complex Method
+k9email,com.fsck.k9.controller,MessagingController,deleteMessagesSynchronous,Long Method
+k9email,com.fsck.k9.controller,MessagingController,deleteMessagesSynchronous,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,synchronizeFolderInBackground,Long Statement
+k9email,com.fsck.k9.controller,MessagingController,synchronizeFolderInBackground,Magic Number
+k9email,com.fsck.k9.controller,MessagingControllerCommands,PendingMoveOrCopy,Long Parameter List
+k9email,com.fsck.k9.controller,PendingMoveOrCopy,PendingMoveOrCopy,Long Parameter List
+k9email,com.fsck.k9.controller,ProgressBodyFactory,copyData,Magic Number
+k9email,com.fsck.k9.controller,MessageReferenceTest,checkIdentityStringFromMessageReferenceWithoutFlag,Magic Number
+k9email,com.fsck.k9.controller,MessageReferenceTest,checkIdentityStringFromMessageReferenceWithFlag,Magic Number
+k9email,com.fsck.k9.controller,MessageReferenceTest,parseIdentityStringWithoutFlag,Magic Number
+k9email,com.fsck.k9.controller,MessageReferenceTest,parseIdentityStringWithFlag,Magic Number
+k9email,com.fsck.k9.controller,MessageReferenceTest,parseIdentityStringWithCorruptFlag,Long Statement
+k9email,com.fsck.k9.controller,MessageReferenceTest,equalsWithMessageReferenceContainingDifferentFolderNameShouldReturnFalse,Magic Number
+k9email,com.fsck.k9.controller,MessagingControllerTest,setUp,Long Statement
+k9email,com.fsck.k9.controller,MessagingControllerTest,searchLocalMessagesSynchronous_shouldNotifyWhenStoreFinishesRetrievingAMessage,Long Identifier
+k9email,com.fsck.k9.controller,MessagingControllerTest,searchLocalMessagesSynchronous_shouldNotifyWhenStoreFinishesRetrievingAMessage,Long Statement
+k9email,com.fsck.k9.controller,MessagingControllerTest,setupRemoteSearch,Long Statement
+k9email,com.fsck.k9.controller,MessagingControllerTest,setupRemoteSearch,Magic Number
+k9email,com.fsck.k9.controller,MessagingControllerTest,searchRemoteMessagesSynchronous_shouldNotifyOnFailure,Long Statement
+k9email,com.fsck.k9.controller,MessagingControllerTest,searchRemoteMessagesSynchronous_shouldNotifyOnFinish,Long Statement
+k9email,com.fsck.k9.controller,MessagingControllerTest,searchRemoteMessagesSynchronous_shouldNotifyOnFinish,Magic Number
+k9email,com.fsck.k9.controller,MessagingControllerTest,setupAccountWithMessageToSend,Magic Number
+k9email,com.fsck.k9.controller,PendingCommandSerializerTest,testSerializeDeserialize__withoutArguments,Long Statement
+k9email,com.fsck.k9.controller,PendingCommandSerializerTest,testSerializeDeserialize__withArguments,Long Statement
+k9email,com.fsck.k9.controller,PendingCommandSerializerTest,testSerializeDeserialize__withComplexArguments,Long Statement
+k9email,com.fsck.k9.controller,UidReverseComparatorTest,compare_twoMessages_shouldReturnOrderByUid,Magic Number
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetector,isPartMultipartSigned,Magic Number
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetector,isPartMultipartEncrypted,Magic Number
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetector,isPartPgpInlineEncryptedOrSigned,Long Identifier
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findPrimaryCryptoPart_withMultipartMixedContainingMultipartAlternativeContainingPgpInline,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartEncrypted__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withBadProtocol__shouldReturnEmpty,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withBadProtocolAndNoBody__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withEmptyProtocol__shouldReturnEmpty,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMissingEncryptedBody__shouldReturnEmpty,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withBadStructure__shouldReturnEmpty,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubEncrypted__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubEncryptedAndEncrypted__shouldReturnBoth,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubEncryptedAndEncrypted__shouldReturnBoth,Magic Number
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubTextAndEncrypted__shouldReturnEncrypted,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubEncryptedAndText__shouldReturnEncrypted,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findSigned__withSimpleMultipartSigned__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findSigned__withBadProtocol__shouldReturnNothing,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findSigned__withEmptyProtocol__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findSigned__withComplexMultipartSigned__shouldReturnRoot,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubSigned__shouldReturnSigned,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubSignedAndText__shouldReturnSigned,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,findEncrypted__withMultipartMixedSubTextAndSigned__shouldReturnSigned,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,isPgpInlineMethods__withPgpInlineData__shouldReturnTrue,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,isPgpInlineMethods__withEncryptedDataAndLeadingWhitespace__shouldReturnTrue,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,isPgpInlineMethods__withEncryptedDataAndLeadingGarbage__shouldReturnFalse,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,isPartPgpInlineEncryptedOrSigned__withSignedData__shouldReturnTrue,Long Statement
+k9email,com.fsck.k9.crypto,MessageCryptoStructureDetectorTest,isPartPgpInlineEncrypted__withSignedData__shouldReturnFalse,Long Statement
+k9email,com.fsck.k9.helper,Contacts,hasContactPermission,Long Statement
+k9email,com.fsck.k9.helper,FileHelper,copyFile,Magic Number
+k9email,com.fsck.k9.helper,FileHelper,moveRecursive,Complex Method
+k9email,com.fsck.k9.helper,MergeCursor,moveToNext,Complex Conditional
+k9email,com.fsck.k9.helper,MergeCursor,moveToNext,Complex Method
+k9email,com.fsck.k9.helper,MergeCursor,moveToPosition,Complex Method
+k9email,com.fsck.k9.helper,MergeCursor,moveToPrevious,Complex Method
+k9email,com.fsck.k9.helper,MergeCursorWithUniqueId,getLong,Long Statement
+k9email,com.fsck.k9.helper,MessageHelper,toFriendly,Long Statement
+k9email,com.fsck.k9.helper,MessageHelper,toFriendly,Long Parameter List
+k9email,com.fsck.k9.helper,Utility,domainFieldValid,Long Statement
+k9email,com.fsck.k9.helper,Utility,domainFieldValid,Magic Number
+k9email,com.fsck.k9.helper,Utility,stripSubject,Complex Method
+k9email,com.fsck.k9.helper,Utility,stripSubject,Long Statement
+k9email,com.fsck.k9.helper,Utility,hasConnectivity,Long Statement
+k9email,com.fsck.k9.helper,UtilityTest,arrayContains_withObject_returnTrue,Magic Number
+k9email,com.fsck.k9.helper,UtilityTest,arrayContains_withoutObject_returnFalse,Magic Number
+k9email,com.fsck.k9.helper,UtilityTest,arrayContainsAny_withObject_returnsTrue,Magic Number
+k9email,com.fsck.k9.helper,UtilityTest,arrayContainsAny_withoutObject_returnsFalse,Magic Number
+k9email,com.fsck.k9.helper,MailTo,MailTo,Long Parameter List
+k9email,com.fsck.k9.helper.jsoup,AdvancedNodeTraversor,filter,Complex Method
+k9email,com.fsck.k9.mailstore,AttachmentViewInfo,AttachmentViewInfo,Long Parameter List
+k9email,com.fsck.k9.mailstore,AttachmentViewInfo,isSupportedImage,Long Statement
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,CryptoResultAnnotation,Long Identifier
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,CryptoResultAnnotation,Long Parameter List
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,createOpenPgpResultAnnotation,Long Parameter List
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,createOpenPgpResultAnnotation,Long Statement
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,hasSignatureResult,Long Statement
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,hasOpenPgpInsecureWarningPendingIntent,Long Identifier
+k9email,com.fsck.k9.mailstore,CryptoResultAnnotation,getOpenPgpInsecureWarningPendingIntent,Long Identifier
+k9email,com.fsck.k9.mailstore,DeferredFileBody,DeferredFileBody,Long Identifier
+k9email,com.fsck.k9.mailstore,LocalFolder,getMessageCount,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,doDbWork,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getUnreadMessageCount,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,updateMoreMessagesOnVisibleLimitChange,Complex Conditional
+k9email,com.fsck.k9.mailstore,LocalFolder,loadMessageParts,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,loadMessagePart,Complex Method
+k9email,com.fsck.k9.mailstore,LocalFolder,loadMessagePart,Magic Number
+k9email,com.fsck.k9.mailstore,LocalFolder,getMessageUidById,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getMessage,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getMessages,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getAllMessageUids,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getThreadInfo,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getThreadInfo,Magic Number
+k9email,com.fsck.k9.mailstore,LocalFolder,saveMessage,Complex Method
+k9email,com.fsck.k9.mailstore,LocalFolder,saveMessage,Long Method
+k9email,com.fsck.k9.mailstore,LocalFolder,saveMessage,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,decodeAndCountBytes,Empty catch clause
+k9email,com.fsck.k9.mailstore,LocalFolder,addPartToMessage,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,clearAllMessages,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,destroyMessages,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,destroyMessages,Magic Number
+k9email,com.fsck.k9.mailstore,LocalFolder,hashCode,Magic Number
+k9email,com.fsck.k9.mailstore,LocalFolder,hasThreadChildren,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,getEmptyThreadParent,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,deleteMessagePartsFromDisk,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,doMessageThreading,Complex Conditional
+k9email,com.fsck.k9.mailstore,LocalFolder,doMessageThreading,Complex Method
+k9email,com.fsck.k9.mailstore,LocalFolder,extractNewMessages,Long Statement
+k9email,com.fsck.k9.mailstore,LocalFolder,isModeMismatch,Long Statement
+k9email,com.fsck.k9.mailstore,LocalMessage,populateFromGetMessageCursor,Complex Method
+k9email,com.fsck.k9.mailstore,LocalMessage,equals,Long Statement
+k9email,com.fsck.k9.mailstore,LocalMessage,hashCode,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStore,getPendingCommands,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStore,doDbWork,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStore,searchForMessages,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,getAttachmentInfo,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,getAttachmentInfo,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStore,doDbWork,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,findPartById,Complex Method
+k9email,com.fsck.k9.mailstore,LocalStore,getRawAttachmentInputStream,Missing default
+k9email,com.fsck.k9.mailstore,LocalStore,getFolderServerId,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,serializeFlags,Missing default
+k9email,com.fsck.k9.mailstore,LocalStore,setFlag,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,setFlagForThreads,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,getFolderIdsAndUids,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,getUnreadMessageCount,Long Statement
+k9email,com.fsck.k9.mailstore,LocalStore,getColumnNameForFlag,Missing default
+k9email,com.fsck.k9.mailstore,LockableDatabase,execute,Long Statement
+k9email,com.fsck.k9.mailstore,LockableDatabase,switchProvider,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfo,MessageViewInfo,Long Parameter List
+k9email,com.fsck.k9.mailstore,MessageViewInfo,createWithExtractedContent,Long Parameter List
+k9email,com.fsck.k9.mailstore,MessageViewInfo,createWithExtractedContent,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfo,withCryptoData,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfo,withSubject,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,extractMessageForView,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,extractProtectedSubject,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,getMessageContent,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,extractSimpleMessageForView,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,buildHtml,Complex Method
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,buildText,Complex Method
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,addTextDivider,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractor,addTextDivider,Magic Number
+k9email,com.fsck.k9.mailstore,MimePartStreamParser,startHeader,Long Identifier
+k9email,com.fsck.k9.mailstore,MimePartStreamParser,field,Long Identifier
+k9email,com.fsck.k9.mailstore,MimePartStreamParser,endHeader,Long Identifier
+k9email,com.fsck.k9.mailstore,MimePartStreamParser,expect,Long Statement
+k9email,com.fsck.k9.mailstore,PartBuilder,startHeader,Long Identifier
+k9email,com.fsck.k9.mailstore,PartBuilder,field,Long Identifier
+k9email,com.fsck.k9.mailstore,PartBuilder,endHeader,Long Identifier
+k9email,com.fsck.k9.mailstore,PartBuilder,expect,Long Statement
+k9email,com.fsck.k9.mailstore,StorageManager,StorageManager,Long Statement
+k9email,com.fsck.k9.mailstore,StorageManager,lockProvider,Complex Conditional
+k9email,com.fsck.k9.mailstore,ThreadInfo,ThreadInfo,Long Parameter List
+k9email,com.fsck.k9.mailstore,AttachmentResolverTest,buildCidMap__onTwoPart__shouldReturnBothUris,Long Statement
+k9email,com.fsck.k9.mailstore,AttachmentResolverTest,buildCidMap__onTwoPart__shouldReturnBothUris,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStoreTest,findPartById__withRootLocalBodyPart,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStoreTest,findPartById__withRootLocalMessage,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStoreTest,findPartById__withNestedLocalBodyPart,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStoreTest,findPartById__withNestedLocalMessagePart,Magic Number
+k9email,com.fsck.k9.mailstore,LocalStoreTest,findPartById__withTwoTimesNestedLocalMessagePart,Magic Number
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,setUp,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testShouldSanitizeOutputHtml,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testTextPlainFormatFlowed,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testMultipartPlainTextMessage,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testTextPlusRfc822Message,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testTextPlusRfc822Message,Magic Number
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testMultipartDigestWithMessages,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,testMultipartDigestWithMessages,Magic Number
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_withCryptoAnnotation,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_withCryptoAnnotation_andReplacementPart,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_withCryptoAnnotation_andExtraText,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_withCryptoAnnotation_andExtraAttachment,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_openPgpEncrypted_withoutAnnotations,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_openPgpEncrypted,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_openPgpEncrypted_withProtectedSubject,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_multipartSigned_UnknownProtocol,Long Statement
+k9email,com.fsck.k9.mailstore,MessageViewInfoExtractorTest,extractMessage_multipartSigned_UnknownProtocol_withExtraAttachments,Long Statement
+k9email,com.fsck.k9.mailstore.util,DeferredFileOutputStream,DeferredFileOutputStream,Magic Number
+k9email,com.fsck.k9.mailstore.util,FlowedMessageUtils,deflow,Complex Conditional
+k9email,com.fsck.k9.mailstore.util,FlowedMessageUtils,deflow,Complex Method
+k9email,com.fsck.k9.message,AutocryptStatusInteractor,retrieveCryptoProviderRecipientStatus,Missing default
+k9email,com.fsck.k9.message,AutocryptStatusInteractor,getRecipientAutocryptStatusFromIntent,Complex Method
+k9email,com.fsck.k9.message,IdentityHeaderBuilder,build,Complex Method
+k9email,com.fsck.k9.message,IdentityHeaderParser,parse,Complex Method
+k9email,com.fsck.k9.message,IdentityHeaderParser,parse,Magic Number
+k9email,com.fsck.k9.message,MessageBuilder,buildHeader,Complex Method
+k9email,com.fsck.k9.message,MessageBuilder,buildIdentityHeader,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,newInstance,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,PgpMessageBuilder,Long Parameter List
+k9email,com.fsck.k9.message,PgpMessageBuilder,addAutocryptHeaderIfAvailable,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,addDraftStateHeader,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,startOrContinueBuildMessage,Complex Conditional
+k9email,com.fsck.k9.message,PgpMessageBuilder,startOrContinueBuildMessage,Complex Method
+k9email,com.fsck.k9.message,PgpMessageBuilder,startOrContinueBuildMessage,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,moveSubjectIntoEncryptedPayload,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,maybeAddGossipHeadersToBodyPart,Magic Number
+k9email,com.fsck.k9.message,PgpMessageBuilder,launchOpenPgpApiIntent,Long Parameter List
+k9email,com.fsck.k9.message,PgpMessageBuilder,mimeBuildSignedMessage,Long Statement
+k9email,com.fsck.k9.message,PgpMessageBuilder,mimeBuildEncryptedMessage,Long Statement
+k9email,com.fsck.k9.message,TextBodyBuilder,buildTextHtml,Complex Conditional
+k9email,com.fsck.k9.message,TextBodyBuilder,buildTextHtml,Complex Method
+k9email,com.fsck.k9.message,TextBodyBuilder,buildTextPlain,Complex Conditional
+k9email,com.fsck.k9.message,MessageBuilderTest,build_withAttachment_longFileName,Long Identifier
+k9email,com.fsck.k9.message,MessageBuilderTest,build_withAttachment_longFileName,Long Statement
+k9email,com.fsck.k9.message,MessageBuilderTest,build_withAttachment_nonAscii_shouldSucceed,Long Identifier
+k9email,com.fsck.k9.message,MessageBuilderTest,build_withMessageAttachment_shouldAttachAsMessageRfc822,Long Identifier
+k9email,com.fsck.k9.message,MessageBuilderTest,createSimpleMessageBuilder,Long Statement
+k9email,com.fsck.k9.message,MessageBuilderTest,createIdentity,Long Statement
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractor,extractAttachmentInfo,Complex Conditional
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractor,extractAttachmentInfo,Long Statement
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractor,extractAttachmentSize,Empty catch clause
+k9email,com.fsck.k9.message.extractors,MessageFulltextCreator,createFulltext,Long Identifier
+k9email,com.fsck.k9.message.extractors,TextPartFinder,findTextPartInMultipartAlternative,Complex Method
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractorTest,extractInfoForDb__withContentTypeAndEncodedWordName__shouldReturnDecodedName,Long Statement
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractorTest,extractInfoForDb__withDispositionAttach__shouldReturnNamedAttachment,Long Statement
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractorTest,extractInfoForDb__withDispositionInlineAndContentIdAndMissingMimeType__shouldNotReturnInlineAttachment,Long Statement
+k9email,com.fsck.k9.message.extractors,AttachmentInfoExtractorTest,extractInfoForDb__withDispositionInlineAndContentIdAndImageMimeType__shouldReturnInlineAttachment,Long Statement
+k9email,com.fsck.k9.message.extractors,TextPartFinderTest,findFirstTextPart_withMultipartAlternativeContainingMultipartRelatedContainingTextPlain,Long Statement
+k9email,com.fsck.k9.message.extractors,TextPartFinderTest,findFirstTextPart_withMultipartAlternativeContainingMultipartRelatedContainingTextHtmlFirst,Long Statement
+k9email,com.fsck.k9.message.extractors,TextPartFinderTest,findFirstTextPart_withMultipartMixedContainingMultipartAlternative,Long Statement
+k9email,com.fsck.k9.message.extractors,TextPartFinderTest,findFirstTextPart_withMultipartMixedContainingMultipartAlternativeWithTextPlainPartLast,Long Statement
+k9email,com.fsck.k9.message.html,HtmlProcessor,addCustomHeadContents,Long Statement
+k9email,com.fsck.k9.message.html,BitcoinUriParserTest,bitcoinUriWithQueryParameters,Long Statement
+k9email,com.fsck.k9.message.html,EthereumUriParserTest,ethereumUriWithQueryParameters,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,testTextQuoteToHtmlBlockquote,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,testTextQuoteToHtmlBlockquoteIndented,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,testQuoteDepthColor,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,testPreserveSpacesAtFirstForSpecialCharacters,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,issue2259Spec,Long Statement
+k9email,com.fsck.k9.message.html,HtmlConverterTest,signatureEndingWithUrl,Long Statement
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriEndingInDotAtEndOfText,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriEndingInDotWithAdditionalText,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriWrappedInAngleBracketsEndingInDot,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriWrappedInParenthesesEndingInDot,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriWrappedInParenthesesFollowedByADot,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriWrappedInParenthesesFollowedByADotAndSomeOtherText,Magic Number
+k9email,com.fsck.k9.message.html,HttpUriParserTest,uriWrappedInParenthesesFollowedByAQuestionMarkAndSomeOtherText,Magic Number
+k9email,com.fsck.k9.message.html,UriMatcherTest,multipleValidUrisInRow,Long Statement
+k9email,com.fsck.k9.message.quote,HtmlQuoteCreator,quoteOriginalHtmlMessage,Complex Method
+k9email,com.fsck.k9.message.quote,HtmlQuoteCreator,quoteOriginalHtmlMessage,Long Statement
+k9email,com.fsck.k9.message.quote,HtmlQuoteCreator,findInsertionPoints,Complex Method
+k9email,com.fsck.k9.message.quote,HtmlQuoteCreator,findInsertionPoints,Long Identifier
+k9email,com.fsck.k9.message.quote,HtmlQuoteCreator,findInsertionPoints,Long Statement
+k9email,com.fsck.k9.message.quote,InsertableHtmlContent,toDebugString,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemover,head,Complex Method
+k9email,com.fsck.k9.message.signature,StripSignatureFilter,head,Complex Method
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldStripSignatureFromK9StyleHtml,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldStripSignatureFromThunderbirdStyleHtml,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldStripSignatureBeforeBlockquoteTag,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldNotStripSignatureInsideBlockquoteTags,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldStripSignatureBetweenBlockquoteTags,Long Statement
+k9email,com.fsck.k9.message.signature,HtmlSignatureRemoverTest,shouldStripSignatureAfterLastBlockquoteTags,Long Statement
+k9email,com.fsck.k9.message.signature,TextSignatureRemoverTest,shouldStripSignature,Long Statement
+k9email,com.fsck.k9.notification,AddNotificationResult,getNotificationId,Long Statement
+k9email,com.fsck.k9.notification,AuthenticationErrorNotifications,showAuthenticationErrorNotification,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotifications,showAuthenticationErrorNotification,Long Statement
+k9email,com.fsck.k9.notification,AuthenticationErrorNotifications,createContentIntent,Long Statement
+k9email,com.fsck.k9.notification,BaseNotifications,createBigTextStyleNotification,Long Statement
+k9email,com.fsck.k9.notification,BaseNotifications,createAndInitializeNotificationBuilder,Long Statement
+k9email,com.fsck.k9.notification,CertificateErrorNotifications,showCertificateErrorNotification,Long Identifier
+k9email,com.fsck.k9.notification,CertificateErrorNotifications,showCertificateErrorNotification,Long Statement
+k9email,com.fsck.k9.notification,CertificateErrorNotifications,createContentIntent,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotifications,DeviceNotifications,Long Parameter List
+k9email,com.fsck.k9.notification,DeviceNotifications,buildSummaryNotification,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotifications,createSimpleSummaryNotification,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotifications,createInboxStyleSummaryNotification,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotifications,addMarkAllAsReadAction,Long Statement
+k9email,com.fsck.k9.notification,LockScreenNotification,createPublicNotification,Long Statement
+k9email,com.fsck.k9.notification,LockScreenNotification,createCommaSeparatedListOfSenders,Long Identifier
+k9email,com.fsck.k9.notification,NotificationContent,NotificationContent,Long Parameter List
+k9email,com.fsck.k9.notification,NotificationController,NotificationController,Long Identifier
+k9email,com.fsck.k9.notification,NotificationController,NotificationController,Long Parameter List
+k9email,com.fsck.k9.notification,NotificationController,showAuthenticationErrorNotification,Long Identifier
+k9email,com.fsck.k9.notification,NotificationController,clearAuthenticationErrorNotification,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,addNotificationContent,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,isMaxNumberOfActiveNotificationsReached,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,getNewNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,hasSummaryOverflowMessages,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,getSummaryOverflowMessagesCount,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,getContentForSummaryNotification,Long Identifier
+k9email,com.fsck.k9.notification,NotificationData,calculateNumberOfMessagesForSummaryNotification,Long Identifier
+k9email,com.fsck.k9.notification,NotificationIds,getNewMailStackedNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,NotificationIds,getSendFailedNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,NotificationIds,getCertificateErrorNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,NotificationIds,getAuthenticationErrorNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,NotificationIds,getBaseNotificationId,Long Identifier
+k9email,com.fsck.k9.notification,RemoveNotificationResult,getNotificationId,Long Statement
+k9email,com.fsck.k9.notification,RemoveNotificationResult,getNotificationHolder,Long Statement
+k9email,com.fsck.k9.notification,SendFailedNotifications,showSendFailedNotification,Long Statement
+k9email,com.fsck.k9.notification,SyncNotifications,showSendingNotification,Long Identifier
+k9email,com.fsck.k9.notification,SyncNotifications,showSendingNotification,Long Statement
+k9email,com.fsck.k9.notification,SyncNotifications,showFetchingMailNotification,Long Identifier
+k9email,com.fsck.k9.notification,SyncNotifications,showFetchingMailNotification,Long Statement
+k9email,com.fsck.k9.notification,WearNotifications,buildStackedNotification,Long Statement
+k9email,com.fsck.k9.notification,WearNotifications,addDeviceReplyAction,Long Statement
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,setUp,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,showAuthenticationErrorNotification_withIncomingServer_shouldCreateNotification,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,clearAuthenticationErrorNotification_withIncomingServer_shouldCancelNotification,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,showAuthenticationErrorNotification_withOutgoingServer_shouldCreateNotification,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,clearAuthenticationErrorNotification_withOutgoingServer_shouldCancelNotification,Long Identifier
+k9email,com.fsck.k9.notification,AuthenticationErrorNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,BaseNotificationsTest,testCreateBigTextStyleNotification,Magic Number
+k9email,com.fsck.k9.notification,BaseNotificationsTest,createNotificationHolder,Long Statement
+k9email,com.fsck.k9.notification,BaseNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,CertificateErrorNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,buildSummaryNotification_withAdditionalMessages,Magic Number
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,createDeviceNotifications,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,createFakeNotificationHelper,Magic Number
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,answer,Magic Number
+k9email,com.fsck.k9.notification,DeviceNotificationsTest,TestDeviceNotifications,Long Parameter List
+k9email,com.fsck.k9.notification,TestDeviceNotifications,TestDeviceNotifications,Long Parameter List
+k9email,com.fsck.k9.notification,LockScreenNotificationTest,configureLockScreenNotification_SENDERS_withSingleMessage,Magic Number
+k9email,com.fsck.k9.notification,LockScreenNotificationTest,configureLockScreenNotification_SENDERS_makeSureWeGetEnoughSenderNames,Long Statement
+k9email,com.fsck.k9.notification,LockScreenNotificationTest,createCommaSeparatedListOfSenders_withMoreSendersThanShouldBeDisplayed,Long Statement
+k9email,com.fsck.k9.notification,LockScreenNotificationTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,setUp,Long Statement
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testAddNewMailNotification,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testAddNewMailNotificationWithCancelingExistingNotification,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testAddNewMailNotificationWithPrivacyModeEnabled,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testAddNewMailNotificationTwice,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testRemoveNewMailNotificationWithUnknownMessageReference,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testRemoveNewMailNotification,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testRemoveNewMailNotificationClearingAllNotifications,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testRemoveNewMailNotificationWithCreateNotification,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,testClearNewMailNotifications,Magic Number
+k9email,com.fsck.k9.notification,NewMailNotificationsTest,addToDeviceNotifications,Long Statement
+k9email,com.fsck.k9.notification,NotificationDataTest,testNewMessagesCount,Magic Number
+k9email,com.fsck.k9.notification,NotificationDataTest,testUnreadMessagesCount,Magic Number
+k9email,com.fsck.k9.notification,NotificationDataTest,testGetContentForSummaryNotification,Magic Number
+k9email,com.fsck.k9.notification,NotificationDataTest,testGetActiveNotificationIds,Magic Number
+k9email,com.fsck.k9.notification,NotificationDataTest,testGetAllMessageReferences,Magic Number
+k9email,com.fsck.k9.notification,NotificationDataTest,testOverflowNotifications,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getNewMailSummaryNotificationId_withDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getNewMailStackedNotificationId_withDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getNewMailStackedNotificationId_withTooLargeIndex,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getNewMailSummaryNotificationId_withSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getNewMailStackedNotificationId_withSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getFetchingMailNotificationId_withDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getFetchingMailNotificationId_withSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getSendFailedNotificationId_withSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getCertificateErrorNotificationId_forIncomingServerWithSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getCertificateErrorNotificationId_forOutgoingServerWithDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getCertificateErrorNotificationId_forOutgoingServerWithSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getAuthenticationErrorNotificationId_forIncomingServerWithDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getAuthenticationErrorNotificationId_forIncomingServerWithSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getAuthenticationErrorNotificationId_forOutgoingServerWithDefaultAccount,Magic Number
+k9email,com.fsck.k9.notification,NotificationIdsTest,getAuthenticationErrorNotificationId_forOutgoingServerWithSecondAccount,Magic Number
+k9email,com.fsck.k9.notification,SendFailedNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,SyncNotificationsTest,createFakeNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,SyncNotificationsTest,createFakeAccount,Magic Number
+k9email,com.fsck.k9.notification,WearNotificationsTest,testBuildStackedNotification,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,testBuildStackedNotification,Magic Number
+k9email,com.fsck.k9.notification,WearNotificationsTest,testBuildStackedNotificationWithMarkAsSpamActionEnabled,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,testAddSummaryActions,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,testAddSummaryActionsWithDeleteAllActionEnabled,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,testAddSummaryActionsWithArchiveAllActionEnabled,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,enableArchiveAction,Magic Number
+k9email,com.fsck.k9.notification,WearNotificationsTest,enableSpamAction,Magic Number
+k9email,com.fsck.k9.notification,WearNotificationsTest,createNotificationHelper,Long Statement
+k9email,com.fsck.k9.notification,WearNotificationsTest,createMessageReferenceList,Magic Number
+k9email,com.fsck.k9.notification,WearNotificationsTest,matches,Complex Conditional
+k9email,com.fsck.k9.notification,ActionMatcher,matches,Complex Conditional
+k9email,com.fsck.k9.notification,K9NotificationActionCreator,createUnreadIntent,Long Statement
+k9email,com.fsck.k9.power,TracingPowerManager,release,Long Statement
+k9email,com.fsck.k9.power,TracingPowerManager,raiseNotification,Long Statement
+k9email,com.fsck.k9.power,TracingPowerManager,raiseNotification,Magic Number
+k9email,com.fsck.k9.power,TracingPowerManager,run,Long Statement
+k9email,com.fsck.k9.power,TracingWakeLock,release,Long Statement
+k9email,com.fsck.k9.power,TracingWakeLock,raiseNotification,Long Statement
+k9email,com.fsck.k9.power,TracingWakeLock,raiseNotification,Magic Number
+k9email,com.fsck.k9.power,TracingWakeLock,run,Long Statement
+k9email,com.fsck.k9.preferences,AccountSettingsDescriptions,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,DeletePolicySetting,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,GeneralSettingsDescriptions,upgrade,Complex Conditional
+k9email,com.fsck.k9.preferences,GeneralSettingsDescriptions,upgrade,Long Statement
+k9email,com.fsck.k9.preferences,GeneralSettingsDescriptions,convertFromOldSize,Magic Number
+k9email,com.fsck.k9.preferences,GeneralSettingsDescriptions,convertFromOldSize,Missing default
+k9email,com.fsck.k9.preferences,SettingsUpgraderV24,upgrade,Complex Conditional
+k9email,com.fsck.k9.preferences,SettingsUpgraderV24,upgrade,Long Statement
+k9email,com.fsck.k9.preferences,SettingsUpgraderV31,convertFromOldSize,Magic Number
+k9email,com.fsck.k9.preferences,SettingsUpgraderV31,convertFromOldSize,Missing default
+k9email,com.fsck.k9.preferences,Settings,validate,Long Statement
+k9email,com.fsck.k9.preferences,Settings,toPrettyString,Magic Number
+k9email,com.fsck.k9.preferences,Settings,fromPrettyString,Empty catch clause
+k9email,com.fsck.k9.preferences,Settings,fromPrettyString,Magic Number
+k9email,com.fsck.k9.preferences,Settings,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,Settings,WebFontSizeSetting,Magic Number
+k9email,com.fsck.k9.preferences,ColorSetting,toPrettyString,Magic Number
+k9email,com.fsck.k9.preferences,ColorSetting,fromPrettyString,Empty catch clause
+k9email,com.fsck.k9.preferences,ColorSetting,fromPrettyString,Magic Number
+k9email,com.fsck.k9.preferences,FontSizeSetting,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,WebFontSizeSetting,WebFontSizeSetting,Magic Number
+k9email,com.fsck.k9.preferences,WebFontSizeSetting,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,IntegerRangeSetting,fromString,Empty catch clause
+k9email,com.fsck.k9.preferences,SettingsImporter,AccountDescriptionPair,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporter,importSettings,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,importSettings,Long Method
+k9email,com.fsck.k9.preferences,SettingsImporter,importSettings,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporter,importSettings,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporter,importAccount,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,importAccount,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporter,importAccount,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporter,importFolder,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporter,importFolder,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporter,importIdentities,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,importIdentities,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporter,importIdentities,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporter,putString,Complex Conditional
+k9email,com.fsck.k9.preferences,SettingsImporter,putString,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporter,parseSettings,Complex Conditional
+k9email,com.fsck.k9.preferences,SettingsImporter,parseRoot,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,parseAccount,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,parseServerSettings,Complex Method
+k9email,com.fsck.k9.preferences,SettingsImporter,getAccountDisplayName,Complex Conditional
+k9email,com.fsck.k9.preferences,SettingsImporter,createServerSettings,Long Statement
+k9email,com.fsck.k9.preferences,AccountDescriptionPair,AccountDescriptionPair,Long Parameter List
+k9email,com.fsck.k9.preferences,SettingsImporterTest,parseSettings_account,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporterTest,parseSettings_account_identities,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporterTest,parseSettings_account_cram_md5,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporterTest,importSettings_disablesAccountsNeedingPasswords,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporterTest,getImportStreamContents_account,Long Statement
+k9email,com.fsck.k9.preferences,SettingsImporterTest,getImportStreamContents_alternativeName,Long Statement
+k9email,com.fsck.k9.preferences,K9StoragePersister,openDB,Long Statement
+k9email,com.fsck.k9.preferences,K9StoragePersister,put,Magic Number
+k9email,com.fsck.k9.preferences,StoragePersistOperations,put,Magic Number
+k9email,com.fsck.k9.provider,AttachmentProvider,getType,Magic Number
+k9email,com.fsck.k9.provider,AttachmentProvider,query,Long Parameter List
+k9email,com.fsck.k9.provider,AttachmentTempFileProvider,deleteOldTemporaryFiles,Long Identifier
+k9email,com.fsck.k9.provider,AttachmentTempFileProvider,deleteOldTemporaryFiles,Magic Number
+k9email,com.fsck.k9.provider,DecryptedFileProvider,deleteOldTemporaryFiles,Long Identifier
+k9email,com.fsck.k9.provider,DecryptedFileProvider,deleteOldTemporaryFiles,Magic Number
+k9email,com.fsck.k9.provider,EmailProvider,query,Complex Method
+k9email,com.fsck.k9.provider,EmailProvider,query,Long Parameter List
+k9email,com.fsck.k9.provider,EmailProvider,query,Magic Number
+k9email,com.fsck.k9.provider,EmailProvider,getMessages,Long Parameter List
+k9email,com.fsck.k9.provider,EmailProvider,getMessages,Long Statement
+k9email,com.fsck.k9.provider,EmailProvider,doDbWork,Long Statement
+k9email,com.fsck.k9.provider,EmailProvider,getThreadedMessages,Long Identifier
+k9email,com.fsck.k9.provider,EmailProvider,getThreadedMessages,Long Parameter List
+k9email,com.fsck.k9.provider,EmailProvider,getThreadedMessages,Long Statement
+k9email,com.fsck.k9.provider,EmailProvider,doDbWork,Long Identifier
+k9email,com.fsck.k9.provider,EmailProvider,createThreadedSubQuery,Long Statement
+k9email,com.fsck.k9.provider,EmailProvider,getThread,Long Statement
+k9email,com.fsck.k9.provider,RawMessageProvider,query,Long Parameter List
+k9email,com.fsck.k9.search,ConditionsTreeNode,buildNodeFromRow,Long Statement
+k9email,com.fsck.k9.search,ConditionsTreeNode,buildNodeFromRow,Magic Number
+k9email,com.fsck.k9.search,SearchSpecification,hashCode,Magic Number
+k9email,com.fsck.k9.search,SearchCondition,hashCode,Magic Number
+k9email,com.fsck.k9.search,SqlQueryBuilder,buildWhereClauseInternal,Complex Method
+k9email,com.fsck.k9.search,SqlQueryBuilder,buildWhereClauseInternal,Missing default
+k9email,com.fsck.k9.search,SqlQueryBuilder,getColumnName,Complex Method
+k9email,com.fsck.k9.search,SqlQueryBuilder,getColumnName,Long Method
+k9email,com.fsck.k9.search,SqlQueryBuilder,appendExprRight,Complex Method
+k9email,com.fsck.k9.search,SqlQueryBuilder,isNumberColumn,Complex Method
+k9email,com.fsck.k9.search,SqlQueryBuilder,isNumberColumn,Missing default
+k9email,com.fsck.k9.crypto.openpgp,EncryptionDetectorTest,isEncrypted_withMultipartEncrypted_shouldReturnTrue,Long Statement
+k9email,com.fsck.k9.crypto.openpgp,EncryptionDetectorTest,isEncrypted_withInlinePgp_shouldReturnTrue,Long Statement
+k9email,com.fsck.k9.crypto.openpgp,EncryptionDetectorTest,isEncrypted_withPlainTextAndPreambleWithInlinePgp_shouldReturnFalse,Long Statement
+k9email,com.fsck.k9.crypto.openpgp,EncryptionDetectorTest,isEncrypted_withQuotedInlinePgp_shouldReturnFalse,Long Statement
+k9email,com.fsck.k9.directshare,K9ChooserTargetService,createChooserTargets,Long Statement
+k9email,com.fsck.k9.directshare,K9ChooserTargetService,createChooserTargets,Magic Number
+k9email,com.fsck.k9.external,MessageProvider,query,Long Parameter List
+k9email,com.fsck.k9.external,MessageProvider,delete,Magic Number
+k9email,com.fsck.k9.external,MessageProvider,getField,Long Statement
+k9email,com.fsck.k9.external,MessageProvider,getMessages,Long Statement
+k9email,com.fsck.k9.external,MessageProvider,resolveMessageExtractors,Complex Method
+k9email,com.fsck.k9.external,MessageProvider,getAllAccounts,Complex Method
+k9email,com.fsck.k9.external,MessageProvider,getAccountUnread,Magic Number
+k9email,com.fsck.k9.external,MessageProvider,query,Magic Number
+k9email,com.fsck.k9.external,QueryHandler,query,Long Parameter List
+k9email,com.fsck.k9.external,DeleteUriExtractor,getField,Long Statement
+k9email,com.fsck.k9.external,MessagesQueryHandler,query,Long Parameter List
+k9email,com.fsck.k9.external,MessagesQueryHandler,getMessages,Long Statement
+k9email,com.fsck.k9.external,MessagesQueryHandler,resolveMessageExtractors,Complex Method
+k9email,com.fsck.k9.external,AccountsQueryHandler,query,Long Parameter List
+k9email,com.fsck.k9.external,AccountsQueryHandler,getAllAccounts,Complex Method
+k9email,com.fsck.k9.external,UnreadQueryHandler,query,Long Parameter List
+k9email,com.fsck.k9.external,UnreadQueryHandler,getAccountUnread,Magic Number
+k9email,com.fsck.k9.external,ThrottlingQueryHandler,query,Long Parameter List
+k9email,com.fsck.k9.external,ThrottlingQueryHandler,query,Magic Number
+k9email,com.fsck.k9.widget.list,MessageListRemoteViewFactory,loadMessageList,Magic Number
+k9email,com.fsck.k9.widget.list,MessageListRemoteViewFactory,getViewTypeCount,Magic Number
+k9email,com.fsck.k9.widget.list,MessageListRemoteViewFactory,MailItem,Long Parameter List
+k9email,com.fsck.k9.widget.list,MessageListRemoteViewFactory,getDateFormatted,Long Statement
+k9email,com.fsck.k9.widget.list,MailItem,MailItem,Long Parameter List
+k9email,com.fsck.k9.widget.list,MailItem,getDateFormatted,Long Statement
+k9email,com.fsck.k9.preferences.migrations.migration12,ImapStoreUriDecoder,decode,Complex Method
+k9email,com.fsck.k9.preferences.migrations.migration12,ImapStoreUriDecoder,decode,Long Statement
+k9email,com.fsck.k9.preferences.migrations.migration12,ImapStoreUriDecoder,decode,Magic Number
+k9email,com.fsck.k9.preferences.migrations.migration12,Pop3StoreUriDecoder,decode,Complex Method
+k9email,com.fsck.k9.preferences.migrations.migration12,Pop3StoreUriDecoder,decode,Magic Number
+k9email,com.fsck.k9.preferences.migrations.migration12,SmtpTransportUriDecoder,decodeSmtpUri,Complex Method
+k9email,com.fsck.k9.preferences.migrations.migration12,SmtpTransportUriDecoder,decodeSmtpUri,Magic Number
+k9email,com.fsck.k9.preferences.migrations.migration12,WebDavStoreUriDecoder,decode,Complex Method
+k9email,com.fsck.k9.preferences.migrations.migration12,WebDavStoreUriDecoder,decode,Magic Number
+k9email,com.fsck.k9.preferences.migrations,StorageMigrationTo2,urlEncodeUserNameAndPassword,Complex Method
+k9email,com.fsck.k9.preferences.migrations,StorageMigrationTo2,urlEncodeUserNameAndPassword,Long Statement
+k9email,com.fsck.k9.preferences.migrations,StorageMigrationTo2,urlEncodeUserNameAndPassword,Magic Number
+k9email,com.fsck.k9.storage,StoreSchemaDefinition,upgradeDatabase,Long Statement
+k9email,com.fsck.k9.storage,StoreSchemaDefinition,upgradeDatabase,Magic Number
+k9email,com.fsck.k9.storage,StoreSchemaDefinition,dbCreateDatabaseFromScratch,Long Statement
+k9email,com.fsck.k9.storage,StoreSchemaDefinitionTest,doDbUpgrade_withBadDatabase_shouldThrowInDebugBuild,Magic Number
+k9email,com.fsck.k9.storage,StoreSchemaDefinitionTest,initV61Database,Long Statement
+k9email,com.fsck.k9.storage,StoreSchemaDefinitionTest,initV61Database,Magic Number
+k9email,com.fsck.k9.storage,StoreSchemaDefinitionTest,createAccount,Long Statement
+k9email,com.fsck.k9.activity,AccountList,getView,Magic Number
+k9email,com.fsck.k9.activity,AccountsAdapter,getView,Magic Number
+k9email,com.fsck.k9.activity,K9ListActivity,onKeyDown,Complex Conditional
+k9email,com.fsck.k9.activity,K9ListActivity,onKeyDown,Long Statement
+k9email,com.fsck.k9.activity,K9ListActivity,onKeyUp,Complex Conditional
+k9email,com.fsck.k9.activity,K9ListActivity,onKeyUp,Long Statement
+k9email,com.fsck.k9.activity,ManageIdentities,onContextItemSelected,Complex Method
+k9email,com.fsck.k9.activity,MessageCompose,onCreate,Complex Conditional
+k9email,com.fsck.k9.activity,MessageCompose,onCreate,Complex Method
+k9email,com.fsck.k9.activity,MessageCompose,onCreate,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onCreate,Long Method
+k9email,com.fsck.k9.activity,MessageCompose,onCreate,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,initFromIntent,Complex Conditional
+k9email,com.fsck.k9.activity,MessageCompose,initFromIntent,Complex Method
+k9email,com.fsck.k9.activity,MessageCompose,initFromIntent,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onPause,Complex Conditional
+k9email,com.fsck.k9.activity,MessageCompose,onPause,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onPause,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onSaveInstanceState,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onRestoreInstanceState,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,createMessageBuilder,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,checkToSendMessage,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,showContactPicker,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onActivityResult,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onOptionsItemSelected,Complex Method
+k9email,com.fsck.k9.activity,MessageCompose,prepareToFinish,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,draftIsNotEmpty,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onCreateDialog,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,onCreateDialog,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onClick,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,processSourceMessage,Missing default
+k9email,com.fsck.k9.activity,MessageCompose,processDraftMessage,Complex Method
+k9email,com.fsck.k9.activity,MessageCompose,SendMessageTask,Long Parameter List
+k9email,com.fsck.k9.activity,MessageCompose,updateMessageFormat,Complex Conditional
+k9email,com.fsck.k9.activity,MessageCompose,updateMessageFormat,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onMessageBuildSuccess,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,onMessageBuildException,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,launchUserInteractionPendingIntent,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,startIntentSenderForMessageLoaderHelper,Long Parameter List
+k9email,com.fsck.k9.activity,MessageCompose,messageUidChanged,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,showWaitingForAttachmentDialog,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,showWaitingForAttachmentDialog,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,showWaitingForAttachmentDialog,Missing default
+k9email,com.fsck.k9.activity,MessageCompose,dismissWaitingForAttachmentDialog,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,dismissWaitingForAttachmentDialog,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,showPickAttachmentDialog,Long Identifier
+k9email,com.fsck.k9.activity,MessageCompose,updateAttachmentView,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,showMissingAttachmentsPartialMessageWarning,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,showMissingAttachmentsPartialMessageForwardWarning,Long Statement
+k9email,com.fsck.k9.activity,MessageCompose,handleMessage,Missing default
+k9email,com.fsck.k9.activity,SendMessageTask,SendMessageTask,Long Parameter List
+k9email,com.fsck.k9.activity,MessageLoaderHelper,MessageLoaderHelper,Long Parameter List
+k9email,com.fsck.k9.activity,MessageLoaderHelper,startOrResumeCryptoOperation,Long Statement
+k9email,com.fsck.k9.activity,MessageLoaderHelper,startPendingIntentForCryptoHelper,Long Parameter List
+k9email,com.fsck.k9.activity,MessageLoaderHelper,startOrResumeDecodeMessage,Long Statement
+k9email,com.fsck.k9.activity,MessageLoaderHelper,startDownloadingMessageBody,Long Statement
+k9email,com.fsck.k9.activity,MessageLoaderHelper,startIntentSenderForMessageLoaderHelper,Long Parameter List
+k9email,com.fsck.k9.activity,MessageLoaderCallbacks,startIntentSenderForMessageLoaderHelper,Long Parameter List
+k9email,com.fsck.k9.activity.compose,AttachmentPresenter,onSaveInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.compose,AttachmentPresenter,onRestoreInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.compose,AttachmentPresenter,addAttachment,Long Statement
+k9email,com.fsck.k9.activity.compose,AttachmentPresenter,initAttachmentContentLoader,Long Identifier
+k9email,com.fsck.k9.activity.compose,IdentityAdapter,getViewTypeCount,Magic Number
+k9email,com.fsck.k9.activity.compose,PgpEnabledErrorDialog,onCreateDialog,Long Statement
+k9email,com.fsck.k9.activity.compose,PgpEncryptDescriptionDialog,onCreateDialog,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientAdapter,highlightText,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillContactDataFromLookupKey,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoader,hasContactPermission,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoader,getNicknameCursor,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillContactDataFromNameAndEmail,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillContactDataFromCursor,Complex Conditional
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillContactDataFromCursor,Complex Method
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillContactDataFromCursor,Long Parameter List
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillCryptoStatusData,Complex Method
+k9email,com.fsck.k9.activity.compose,RecipientLoader,fillCryptoStatusData,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,getTokenTextSize,Complex Method
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,getTokenTextSize,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,getTokenTextSize,Missing default
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,setRecipientExpanderVisibility,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,showCryptoStatus,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientMvpView,showCryptoStatus,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,RecipientPresenter,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,RecipientPresenter,Long Parameter List
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,checkRecipientsOkForSending,Complex Conditional
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,initFromReplyToMessage,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,initFromReplyToMessage,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,onRestoreInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,onSaveInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,asyncUpdateCryptoStatus,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,toggleEncryptionState,Complex Method
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,toggleEncryptionState,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,showPgpSendError,Missing default
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,showPgpAttachError,Missing default
+k9email,com.fsck.k9.activity.compose,RecipientPresenter,onOpenPgpProviderError,Missing default
+k9email,com.fsck.k9.activity.compose,SaveMessageTask,SaveMessageTask,Long Parameter List
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,queryCryptoProvider,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,setupQueryCryptoProvider,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,setupCryptoProviderStatus,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,setupContactProvider,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,setupNicknameContactProvider,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,setupContactProviderForId,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,queryContactProvider_sortByTimesContactedForNickname,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,queryContactProvider_sortByTimesContactedForNickname,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,getMostContactedFoundLess,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientLoaderTest,getMostContactedFoundNothing,Magic Number
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,setUp,Long Identifier
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,setUp,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withOpportunistic,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withOpportunistic__confirmed,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withOpportunistic__missingKeys,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withOpportunistic__privateMissingKeys,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withModeDisabled,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,getCurrentCryptoStatus_withModePrivate,Long Statement
+k9email,com.fsck.k9.activity.compose,RecipientPresenterTest,setupCryptoProvider,Long Statement
+k9email,com.fsck.k9.activity.loader,AttachmentInfoLoader,loadInBackground,Complex Conditional
+k9email,com.fsck.k9.activity.loader,AttachmentInfoLoader,loadInBackground,Complex Method
+k9email,com.fsck.k9.activity.loader,AttachmentInfoLoader,loadInBackground,Long Statement
+k9email,com.fsck.k9.activity.misc,Attachment,isSupportedImage,Long Statement
+k9email,com.fsck.k9.activity.misc,Attachment,Attachment,Long Parameter List
+k9email,com.fsck.k9.activity.misc,Attachment,deriveWithLoadComplete,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupBasics,validateFields,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupBasics,validateFields,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupBasics,providersXmlDiscoveryDiscover,Complex Conditional
+k9email,com.fsck.k9.activity.setup,AccountSetupBasics,providersXmlDiscoveryDiscover,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupBasics,onManualSetup,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Complex Conditional
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Complex Method
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Long Method
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,acceptKeyDialog,Missing default
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Complex Conditional
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Complex Method
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Long Method
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,run,Missing default
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,showDialogFragment,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupCheckSettings,errorMessageForCertificateException,Missing default
+k9email,com.fsck.k9.activity.setup,AccountSetupComposition,onCreate,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupComposition,onCheckedChanged,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupComposition,saveSettings,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onCreate,Complex Method
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onCreate,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onCreate,Long Method
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,initializeViewListeners,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onItemSelected,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onSaveInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,updateViewFromSecurity,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,validateFields,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,validateFields,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,validateFields,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onActivityResult,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupIncoming,onNext,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupNames,validateFields,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupOptions,onCreate,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupOptions,onCreate,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupOptions,onDone,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onCreate,Complex Method
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onCreate,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,initializeViewListeners,Complex Conditional
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,initializeViewListeners,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onItemSelected,Complex Conditional
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onItemSelected,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onSaveInstanceState,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,updateViewFromSecurity,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,validateFields,Long Identifier
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,validateFields,Long Statement
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,validateFields,Magic Number
+k9email,com.fsck.k9.activity.setup,AccountSetupOutgoing,onNext,Long Statement
+k9email,com.fsck.k9.activity.setup,AuthTypeHolder,resourceId,Missing default
+k9email,com.fsck.k9.activity.setup,ConnectionSecurityAdapter,get,Long Statement
+k9email,com.fsck.k9.activity.setup,ConnectionSecurityHolder,resourceId,Missing default
+k9email,com.fsck.k9.fragment,AttachmentDownloadDialogFragment,getAppropriateFor,Magic Number
+k9email,com.fsck.k9.fragment,ConfirmationDialogFragment,newInstance,Long Parameter List
+k9email,com.fsck.k9.fragment,MessageListHandler,handleMessage,Complex Method
+k9email,com.fsck.k9.ui.compose,QuotedMessageMvpView,setQuotedHtml,Long Statement
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,populateUIWithQuotedMessage,Complex Conditional
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,populateUIWithQuotedMessage,Complex Method
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,populateUIWithQuotedMessage,Long Statement
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,builderSetProperties,Long Statement
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processDraftMessage,Complex Method
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processDraftMessage,Empty catch clause
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processDraftMessage,Long Method
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processDraftMessage,Long Statement
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processSourceMessageText,Long Statement
+k9email,com.fsck.k9.ui.compose,QuotedMessagePresenter,processSourceMessageText,Magic Number
+k9email,com.fsck.k9.ui,ContactBadge,assignContactFromEmail,Long Statement
+k9email,com.fsck.k9.ui,ContactBadge,onClick,Long Identifier
+k9email,com.fsck.k9.ui,ContactBadge,onClick,Long Statement
+k9email,com.fsck.k9.ui,ContactBadge,onQueryComplete,Long Identifier
+k9email,com.fsck.k9.ui.crypto,MessageCryptoCallback,startPendingIntentForCryptoHelper,Long Parameter List
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,processAutocryptHeaderForCurrentPart,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,callAsyncInlineOperation,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,callAsyncDecrypt,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,handleCryptoOperationSuccess,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,parseAutocryptGossipHeadersFromDecryptedPart,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,findPartsForNextPass,Missing default
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelper,deliverResult,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,setUp,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,textPlain_withAutocrypt,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartSigned__withNullBody__shouldReturnSignedIncomplete,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartEncrypted__withNullBody__shouldReturnEncryptedIncomplete,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartEncrypted__withUnknownProtocol__shouldReturnEncryptedUnsupported,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartSigned__withUnknownProtocol__shouldReturnSignedUnsupported,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartSigned__shouldCallOpenPgpApiAsync,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartSigned__withSignOnlyDisabled__shouldReturnNothing,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartSigned__withSignOnlyDisabledAndNullBody__shouldReturnNothing,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,multipartEncrypted__shouldCallOpenPgpApiAsync,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,processEncryptedMessageAndCaptureMocks,Long Statement
+k9email,com.fsck.k9.ui.crypto,MessageCryptoHelperTest,assertPartAnnotationHasState,Long Parameter List
+k9email,com.fsck.k9.ui.message,LocalMessageExtractorLoader,loadInBackground,Long Statement
+k9email,com.fsck.k9.ui.message,LocalMessageLoader,LocalMessageLoader,Long Parameter List
+k9email,com.fsck.k9.ui.messageview,AttachmentView,refreshThumbnail,Long Statement
+k9email,com.fsck.k9.ui.messageview,CryptoInfoDialog,onCreateDialog,Long Statement
+k9email,com.fsck.k9.ui.messageview,CryptoInfoDialog,setMessageForDisplayStatus,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,onCreateContextMenu,Complex Method
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,onCreateContextMenu,Long Method
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,onCreateContextMenu,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,onCreateContextMenu,Magic Number
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,downloadImage,Magic Number
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,displayMessageViewContainer,Long Parameter List
+k9email,com.fsck.k9.ui.messageview,MessageContainerView,renderAttachments,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,onResume,Long Identifier
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,maybeHandleShowMessage,Complex Method
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,maybeHandleShowMessage,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,maybeHandleShowMessage,Missing default
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,onCryptoClick,Missing default
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,displayCryptoInfoDialog,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,onClickSearchKey,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,onClickShowCryptoWarningDetails,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,onClickConfigureProvider,Long Identifier
+k9email,com.fsck.k9.ui.messageview,MessageCryptoPresenter,startPendingIntentForCryptoPresenter,Long Parameter List
+k9email,com.fsck.k9.ui.messageview,MessageCryptoMvpView,startPendingIntentForCryptoPresenter,Long Parameter List
+k9email,com.fsck.k9.ui.messageview,MessageTopView,showMessage,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageTopView,displayViewOnLoadFinished,Magic Number
+k9email,com.fsck.k9.ui.messageview,MessageTopView,onAnimationEnd,Magic Number
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onCreate,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onDelete,Complex Conditional
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onForwardAsAttachment,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onToggleFlagged,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,startRefileActivity,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onActivityResult,Complex Method
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,onToggleRead,Long Statement
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,startPendingIntentForCryptoPresenter,Long Parameter List
+k9email,com.fsck.k9.ui.messageview,MessageViewFragment,startIntentSenderForMessageLoaderHelper,Long Parameter List
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectDialog,populateAppList,Complex Method
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectDialog,populateAppList,Long Statement
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectDialog,onCreateDialog,Long Statement
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectFragment,populateAppList,Complex Method
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectFragment,populateAppList,Long Statement
+k9email,com.fsck.k9.ui.settings.account,OpenPgpAppSelectFragment,onCreateDialog,Long Statement
+k9email,com.fsck.k9.view,MessageHeader,onClick,Complex Conditional
+k9email,com.fsck.k9.view,MessageHeader,populate,Long Statement
+k9email,com.fsck.k9.view,MessageHeader,setSubject,Magic Number
+k9email,com.fsck.k9.view,MessageHeader,expand,Magic Number
+k9email,com.fsck.k9.view,MessageWebView,configure,Magic Number
+k9email,com.fsck.k9.view,MessageWebView,disableDisplayZoomControls,Long Statement
+k9email,com.fsck.k9.view,NonLockingScrollView,requestChildFocus,Complex Conditional
+k9email,com.fsck.k9.view,RecipientSelectView,bindObjectView,Long Statement
+k9email,com.fsck.k9.view,RecipientSelectView,getSize,Long Parameter List
+k9email,com.fsck.k9.view,RecipientSelectView,draw,Long Parameter List
+k9email,com.fsck.k9.view,RecipientSelectView,Recipient,Long Parameter List
+k9email,com.fsck.k9.view,RecipientTokenSpan,getSize,Long Parameter List
+k9email,com.fsck.k9.view,RecipientTokenSpan,draw,Long Parameter List
+k9email,com.fsck.k9.view,Recipient,Recipient,Long Parameter List
+k9email,com.fsck.k9.account,AccountCreatorTest,getDefaultPort_withNoConnectionSecurityAndImap_shouldReturnDefaultPort,Magic Number
+k9email,com.fsck.k9.account,AccountCreatorTest,getDefaultPort_withStartTlsAndImap_shouldReturnDefaultPort,Magic Number
+k9email,com.fsck.k9.account,AccountCreatorTest,getDefaultPort_withTlsAndImap_shouldReturnDefaultTlsPort,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_shouldFetchUnsynchronizedMessagesListAndFlags,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_shouldFetchUnsynchronizedMessagesListAndFlags,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_withUnsyncedNewSmallMessage_shouldFetchBodyOfSmallMessage,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_withUnsyncedNewSmallMessage_shouldFetchBodyOfSmallMessage,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_withUnsyncedNewSmallMessage_shouldFetchStructureAndLimitedBodyOfLargeMessage,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_withUnsyncedNewSmallMessage_shouldFetchStructureAndLimitedBodyOfLargeMessage,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,sync_withUidValidityChange_shouldClearAllMessages,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,respondToFetchEnvelopesWithMessage,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,answer,Magic Number
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,messageOnServer,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,hasUnsyncedRemoteMessage,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,configureSyncConfigWithExpungePolicy,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,configureSyncConfigWithSyncRemoteDeletions,Long Statement
+k9email,com.fsck.k9.backend.imap,ImapSyncTest,configureSyncConfigWithSyncRemoteDeletionsAndEarliestPollDate,Long Statement
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,synchronizeMailboxSynchronous,Complex Method
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,synchronizeMailboxSynchronous,Long Method
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,synchronizeMailboxSynchronous,Long Statement
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,downloadMessages,Long Parameter List
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,downloadMessages,Long Statement
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,getLatestOldMessageSeenTime,Long Identifier
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,setLatestOldMessageSeenTime,Long Identifier
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,evaluateMessageForDownload,Long Parameter List
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,fetchUnsyncedMessages,Long Parameter List
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,fetchUnsyncedMessages,Long Statement
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,messageFinished,Long Statement
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,downloadSmallMessages,Long Parameter List
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,downloadLargeMessages,Long Parameter List
+k9email,com.fsck.k9.backend.pop3,Pop3Sync,downloadSaneBody,Long Statement
+k9email,com.fsck.k9.backend.webdav,CommandMoveOrCopyMessages,moveOrCopyMessages,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,synchronizeMailboxSynchronous,Complex Method
+k9email,com.fsck.k9.backend.webdav,WebDavSync,synchronizeMailboxSynchronous,Long Method
+k9email,com.fsck.k9.backend.webdav,WebDavSync,synchronizeMailboxSynchronous,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,downloadMessages,Long Parameter List
+k9email,com.fsck.k9.backend.webdav,WebDavSync,downloadMessages,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,evaluateMessageForDownload,Long Parameter List
+k9email,com.fsck.k9.backend.webdav,WebDavSync,fetchUnsyncedMessages,Long Parameter List
+k9email,com.fsck.k9.backend.webdav,WebDavSync,fetchUnsyncedMessages,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,messageFinished,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,downloadSmallMessages,Long Parameter List
+k9email,com.fsck.k9.backend.webdav,WebDavSync,downloadLargeMessages,Long Parameter List
+k9email,com.fsck.k9.backend.webdav,WebDavSync,downloadSaneBody,Long Statement
+k9email,com.fsck.k9.backend.webdav,WebDavSync,refreshLocalMessageFlags,Long Parameter List
+k9email,com.fsck.k9.mail,Address,hashCode,Magic Number
+k9email,com.fsck.k9.mail,Address,unpack,Magic Number
+k9email,com.fsck.k9.mail,Authentication,computeCramMd5Bytes,Magic Number
+k9email,com.fsck.k9.mail,Authentication,computeXoauth,Long Identifier
+k9email,com.fsck.k9.mail,BoundaryGenerator,generateBoundary,Magic Number
+k9email,com.fsck.k9.mail,CertificateValidationException,scanForCause,Long Statement
+k9email,com.fsck.k9.mail,AddressTest,parse_withUnusualEmails_shouldSetAddress,Long Statement
+k9email,com.fsck.k9.mail,AddressTest,parse_withEncodedPersonal_shouldDecode,Long Statement
+k9email,com.fsck.k9.mail,AddressTest,parse_withQuotedEncodedPersonal_shouldDecode,Long Statement
+k9email,com.fsck.k9.mail,AddressTest,parse_withMultipleEmails_shouldDecodeBoth,Magic Number
+k9email,com.fsck.k9.mail,BoundaryGeneratorTest,generateBoundary,Magic Number
+k9email,com.fsck.k9.mail,BoundaryGeneratorTest,createRandom,Magic Number
+k9email,com.fsck.k9.mail,K9LibRobolectricTestRunner,buildGlobalConfig,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,Base64,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,resizeBuf,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,encode,Complex Method
+k9email,com.fsck.k9.mail.filter,Base64,encode,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,decode,Complex Method
+k9email,com.fsck.k9.mail.filter,Base64,decode,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,encodeBase64,Long Statement
+k9email,com.fsck.k9.mail.filter,Base64,encodeBase64,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,decodeBase64,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64,isWhiteSpace,Missing default
+k9email,com.fsck.k9.mail.filter,Base64,toIntegerBytes,Magic Number
+k9email,com.fsck.k9.mail.filter,Base64OutputStream,write,Complex Conditional
+k9email,com.fsck.k9.mail.filter,LineWrapOutputStream,LineWrapOutputStream,Magic Number
+k9email,com.fsck.k9.mail.filter,SignSafeOutputStream,encode,Magic Number
+k9email,com.fsck.k9.mail.filter,SignSafeOutputStream,nextState,Missing default
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,readingStream_shouldReturnDataUpToLimit,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,readingStream_shouldNotConsumeMoreThanLimitFromUnderlyingInputStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,readingStream_withLimitGreaterThanNumberOfBytesInUnderlyingInputStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_withOverSizedByteArray_shouldReturnDataUpToLimit,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_withOverSizedByteArray_shouldNotConsumeMoreThanLimitFromUnderlyingStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_withByteArraySmallerThanLimit_shouldConsumeSizeOfByteArray,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_withOverSizedByteArrayInMiddleOfStream_shouldReturnDataUpToLimit,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_withOverSizedByteArrayInMiddleOfStream_shouldNotConsumeMoreThanLimitFromUnderlyingStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_atStartOfStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_inMiddleOfStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,read_atEndOfStream_shouldReturnMinusOne,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,readArray_atEndOfStream_shouldReturnMinusOne,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,readArrayWithOffset_atEndOfStream_shouldReturnMinusOne,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_atStartOfStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_afterPartialRead,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_afterPartialReadArray,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_afterStreamHasBeenExhausted,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_afterSkip,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,available_afterSkipRemaining,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,skip_shouldConsumeBytes,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,skipRemaining_shouldExhaustStream,Magic Number
+k9email,com.fsck.k9.mail.filter,FixedLengthInputStreamTest,skipRemaining_shouldNotConsumeMoreThanLimitFromUnderlyingInputStream,Magic Number
+k9email,com.fsck.k9.mail.filter,SignSafeOutputStreamTest,testSignSafeQuotedPrintableOutputStream,Long Identifier
+k9email,com.fsck.k9.mail.internet,CharsetSupport,readToString,Complex Conditional
+k9email,com.fsck.k9.mail.internet,CharsetSupport,readToString,Complex Method
+k9email,com.fsck.k9.mail.internet,CharsetSupport,readToString,Long Statement
+k9email,com.fsck.k9.mail.internet,CharsetSupport,readToString,Magic Number
+k9email,com.fsck.k9.mail.internet,CharsetSupport,importCodePointFromIphone,Complex Method
+k9email,com.fsck.k9.mail.internet,CharsetSupport,importCodePointFromIphone,Long Method
+k9email,com.fsck.k9.mail.internet,CharsetSupport,importCodePointFromIphone,Magic Number
+k9email,com.fsck.k9.mail.internet,CharsetSupport,importCodePointFromIphone,Missing default
+k9email,com.fsck.k9.mail.internet,DecoderUtil,decodeEncodedWords,Complex Method
+k9email,com.fsck.k9.mail.internet,DecoderUtil,decodeEncodedWords,Magic Number
+k9email,com.fsck.k9.mail.internet,DecoderUtil,extractEncodedWord,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,initChars,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,encodeB,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,bEncodedLength,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,encodeQ,Long Statement
+k9email,com.fsck.k9.mail.internet,EncoderUtil,encodeQ,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,qEncodedLength,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,determineCharset,Magic Number
+k9email,com.fsck.k9.mail.internet,EncoderUtil,determineEncoding,Magic Number
+k9email,com.fsck.k9.mail.internet,Iso2022JpToShiftJisInputStream,read,Complex Method
+k9email,com.fsck.k9.mail.internet,Iso2022JpToShiftJisInputStream,read,Magic Number
+k9email,com.fsck.k9.mail.internet,Iso2022JpToShiftJisInputStream,read,Missing default
+k9email,com.fsck.k9.mail.internet,JisSupport,isShiftJis,Magic Number
+k9email,com.fsck.k9.mail.internet,JisSupport,getJisVariantFromAddress,Complex Conditional
+k9email,com.fsck.k9.mail.internet,JisSupport,getJisVariantFromAddress,Long Statement
+k9email,com.fsck.k9.mail.internet,MessageExtractor,getTextFromPart,Complex Conditional
+k9email,com.fsck.k9.mail.internet,MessageExtractor,getTextFromTextPart,Empty catch clause
+k9email,com.fsck.k9.mail.internet,MessageExtractor,getTextFromTextPart,Long Statement
+k9email,com.fsck.k9.mail.internet,MessageExtractor,getTextFromTextPart,Magic Number
+k9email,com.fsck.k9.mail.internet,MessageExtractor,findViewablesAndAttachments,Complex Method
+k9email,com.fsck.k9.mail.internet,MessageExtractor,findHtmlPart,Complex Conditional
+k9email,com.fsck.k9.mail.internet,MessageExtractor,findHtmlPart,Complex Method
+k9email,com.fsck.k9.mail.internet,MessageExtractor,isPartTextualBody,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeBodyPart,writeTo,Magic Number
+k9email,com.fsck.k9.mail.internet,MimeMessage,getRecipients,Complex Method
+k9email,com.fsck.k9.mail.internet,MimeMessage,setReferences,Magic Number
+k9email,com.fsck.k9.mail.internet,MimeMessage,writeTo,Magic Number
+k9email,com.fsck.k9.mail.internet,MimeMessage,expect,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageBuilder,expect,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMultipart,writeTo,Magic Number
+k9email,com.fsck.k9.mail.internet,MimeUtility,getAllHeaderParameters,Magic Number
+k9email,com.fsck.k9.mail.internet,MimeUtility,decodeBody,Complex Conditional
+k9email,com.fsck.k9.mail.internet,MimeUtility,decodeBody,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeUtility,isSupportedImageType,Long Statement
+k9email,com.fsck.k9.mail.internet,TextBody,setEncoding,Long Statement
+k9email,com.fsck.k9.mail.internet,TextBody,writeSignSafeQuotedPrintable,Long Identifier
+k9email,com.fsck.k9.mail.internet,TextBody,writeSignSafeQuotedPrintable,Long Statement
+k9email,com.fsck.k9.mail.internet,DecoderUtilTest,decodeEncodedWords_withTwoCompleteEncodedWords_shouldProvideBoth,Long Statement
+k9email,com.fsck.k9.mail.internet,ListHeadersTest,getListPostAddresses_shouldProvideAllListPostHeaders,Magic Number
+k9email,com.fsck.k9.mail.internet,MessageExtractorTest,getTextFromPart_withHtmlWithCharsetInHtmlRawDataBody_shouldReturnHtmlText,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testSinglePart7BitNoRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testSinglePart8BitRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testSinglePartBase64NoRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testMultipartSingleLayerNoRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,decodeBody_withUnknownEncoding_shouldReturnUnmodifiedBodyContents,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testMultipartSingleLayerRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,testMultipartTwoLayersRecurse,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,getRecipients_withXOriginalTo,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,getRecipients_withDeliveredTo,Long Statement
+k9email,com.fsck.k9.mail.internet,MimeMessageParseTest,getRecipients_withXEnvelopeTo,Long Statement
+k9email,com.fsck.k9.mail.ssl,KeyChainKeyManager,chooseAlias,Complex Conditional
+k9email,com.fsck.k9.mail.ssl,KeyChainKeyManager,chooseAlias,Complex Method
+k9email,com.fsck.k9.mail.store.imap,AlertResponse,getAlertText,Magic Number
+k9email,com.fsck.k9.mail.store.imap,CapabilityResponse,parse,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,IdGrouper,groupIds,Complex Method
+k9email,com.fsck.k9.mail.store.imap,IdGrouper,groupIds,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitter,splitCommand,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitter,splitCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,ImapConnection,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,open,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,authenticate,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,authenticate,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,authenticate,Missing default
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,retrievePathDelimiter,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,isListResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,executeCommandWithIdSet,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnection,getLineLengthLimit,Long Identifier
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readStatusResponse,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readStatusResponse,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readStatusResponse,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readStatusResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readToken,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,parseToken,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,parseBareString,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,parseBareString,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,parseBareString,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,parseLiteral,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,readStringUntil,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,formatChar,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,expect,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParser,isStatusResponse,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStore,ImapStore,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap,ImapStore,listFolders,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ImapStore,listFolders,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapUtility,isNumberValid,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapUtility,is32bitValue,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapUtility,combineFlags,Complex Method
+k9email,com.fsck.k9.mail.store.imap,ListResponse,parseSingleLine,Magic Number
+k9email,com.fsck.k9.mail.store.imap,NamespaceResponse,parse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,NegativeImapResponseException,wasByeResponseReceived,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,PermanentFlagsResponse,parse,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,PermanentFlagsResponse,parse,Complex Method
+k9email,com.fsck.k9.mail.store.imap,PermanentFlagsResponse,parse,Long Statement
+k9email,com.fsck.k9.mail.store.imap,PermanentFlagsResponse,parse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ResponseCodeExtractor,getResponseCode,Magic Number
+k9email,com.fsck.k9.mail.store.imap,SearchResponse,parseSingleLine,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,SearchResponse,parseSingleLine,Magic Number
+k9email,com.fsck.k9.mail.store.imap,UidCopyResponse,parseUidCopyResponse,Complex Conditional
+k9email,com.fsck.k9.mail.store.imap,UidCopyResponse,parseUidCopyResponse,Long Statement
+k9email,com.fsck.k9.mail.store.imap,UidCopyResponse,parseUidCopyResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,UidSearchCommandBuilder,addFlags,Complex Method
+k9email,com.fsck.k9.mail.store.imap,UidSearchCommandBuilder,addFlags,Missing default
+k9email,com.fsck.k9.mail.store.imap,FolderNameCodecTest,decode_withInvalidEncodedArgument_shouldThrow,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,IdGrouperTest,groupIds_withSingleContiguousGroup,Magic Number
+k9email,com.fsck.k9.mail.store.imap,IdGrouperTest,groupIds_withoutContiguousGroup,Magic Number
+k9email,com.fsck.k9.mail.store.imap,IdGrouperTest,groupIds_withMultipleContiguousGroups,Magic Number
+k9email,com.fsck.k9.mail.store.imap,IdGrouperTest,groupIds_withSingleId,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitterTest,splitCommand_withManyNonContiguousIds_shouldSplitCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitterTest,splitCommand_withContiguousAndNonContiguousIds_shouldGroupIdsAndSplitCommand,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitterTest,splitCommand_withContiguousAndNonContiguousIds_shouldGroupIdsAndSplitCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitterTest,splitCommand_withEmptySuffix_shouldCreateCommandWithoutTrailingSpace,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapCommandSplitterTest,verifyCommandString,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withCapabilitiesInInitialResponse_shouldNotIssuePreAuthCapabilitiesCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_authPlainWithAuthenticationFailure_shouldFallbackToLogin,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_authXoauthWithSaslIrInvalidatesAndRetriesNewTokenOn400Response,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_authXoauthWithSaslIrInvalidatesAndRetriesNewTokenOnInvalidJsonResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_authXoauthWithSaslIrInvalidatesAndRetriesNewTokenOnMissingStatusJsonResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_authXoauthWithSaslIrParsesCapabilities,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withNoPostAuthCapabilityResponse_shouldIssueCapabilityCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withUntaggedPostAuthCapabilityResponse_shouldNotIssueCapabilityCommand,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withUntaggedPostAuthCapabilityResponse_shouldNotIssueCapabilityCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withPostAuthCapabilityResponse_shouldNotIssueCapabilityCommand,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withConnectionError_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withInvalidHostname_shouldThrow,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withInvalidHostname_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withUntaggedCapabilityAfterStartTls_shouldNotThrow,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withCompressDeflateCapability_shouldEnableCompression,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withNegativeResponseToCompressionCommand_shouldContinue,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withIoExceptionDuringCompressionCommand_shouldThrow,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,open_withIoExceptionDuringListCommand_shouldThrow,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,createImapConnection,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,postAuthenticationDialogRequestingCapabilities,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,simpleOpenDialog,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,createOAuth2TokenProvider,Missing default
+k9email,com.fsck.k9.mail.store.imap,ImapConnectionTest,getToken,Missing default
+k9email,com.fsck.k9.mail.store.imap,ImapListTest,getDate_returnsCorrectDateForValidString,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapListTest,getKeyedDate_returnsCorrectDateForValidString,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testOkResponseWithText,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testOkResponseWithRespTextCode,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testOkResponseWithRespTextCodeAndText,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testReadStatusResponseWithOKResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testReadStatusResponseSkippingWrongTag,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testReadStatusResponseSkippingWrongTag,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testReadStatusResponseUntaggedHandlerStillCalledOnNegativeReply,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testRespTextCodeWithList,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testRespTextCodeWithList,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testExistsResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testParseLiteralWithConsumingCallbackReturningNull,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,readResponse_withPartlyConsumingCallbackReturningNull_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,readResponse_withPartlyConsumingCallbackThatThrows_shouldReadAllDataAndThrow,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,readResponse_withCallbackThatThrowsRepeatedly_shouldConsumeAllInputAndThrowFirstException,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testParseLiteralWithIncompleteConsumingCallbackReturningString,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testListResponseContainingFolderNameWithBrackets,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,readResponseShouldReadWholeListResponseLine,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,readResponse_withListResponseContainingNil,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testFetchResponse,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapResponseParserTest,testFetchResponse,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withSpecialUseCapability_shouldReturnSpecialFolderInfo,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withoutSubscribedFoldersOnly,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withSubscribedFoldersOnly_shouldOnlyReturnExistingSubscribedFolders,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withNamespacePrefix,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withFolderNotMatchingNamespacePrefix,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withDuplicateFolderNames_shouldRemoveDuplicatesAndKeepFolderType,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withDuplicateFolderNames_shouldRemoveDuplicatesAndKeepFolderType,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,getFolders_withIoException_shouldCloseImapConnection,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,createServerSettings,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,createServerSettings,Magic Number
+k9email,com.fsck.k9.mail.store.imap,ImapStoreTest,TestImapStore,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap,TestImapStore,TestImapStore,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap,ListResponseTest,parseList_withValidResponses_shouldReturnListResponses,Long Statement
+k9email,com.fsck.k9.mail.store.imap,ListResponseTest,parseList_withValidResponses_shouldReturnListResponses,Magic Number
+k9email,com.fsck.k9.mail.store.imap,PermanentFlagsResponseTest,parse_withPermanentFlagsResponse_shouldExtractFlags,Long Statement
+k9email,com.fsck.k9.mail.store.imap,SearchResponseTest,parse_withSingleSearchResponse_shouldExtractNumbers,Long Statement
+k9email,com.fsck.k9.mail.store.imap,SearchResponseTest,parse_withSingleSearchResponse_shouldExtractNumbers,Magic Number
+k9email,com.fsck.k9.mail.store.imap,SearchResponseTest,parse_withMultipleSearchResponses_shouldExtractNumbers,Long Statement
+k9email,com.fsck.k9.mail.store.imap,SearchResponseTest,parse_withMultipleSearchResponses_shouldExtractNumbers,Magic Number
+k9email,com.fsck.k9.mail.store.imap,SelectOrExamineResponseTest,getOpenMode_withoutResponseCode_shouldThrow,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap,UidSearchCommandBuilderTest,build_withFullTextSearch,Long Statement
+k9email,com.fsck.k9.mail.store.imap,UidSearchCommandBuilderTest,build_withoutFullTextSearch,Long Statement
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,start,Long Statement
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,waitForMockServerThread,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,waitForMockServerThread,Magic Number
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,waitForInteractionToComplete,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,waitForInteractionToComplete,Magic Number
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,verifyConnectionClosed,Empty catch clause
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,verifyConnectionClosed,Magic Number
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,run,Long Statement
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockImapServer,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockServerThread,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockServerThread,run,Long Statement
+k9email,com.fsck.k9.mail.store.imap.mockserver,MockServerThread,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3Capabilities,toString,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,open,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,open,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,performStartTlsUpgrade,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,performAuthentication,Missing default
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,getCapabilities,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,getCapabilities,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3Connection,close,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,close,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,getMessages,Complex Conditional
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,indexMsgNums,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,indexMsgNums,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,indexUids,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,indexUids,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetch,Complex Conditional
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetch,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetch,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchEnvelope,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchEnvelope,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchEnvelope,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchBody,Complex Conditional
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchBody,Complex Method
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,fetchBody,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3Folder,setFlags,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,start,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,waitForMockServerThread,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,waitForMockServerThread,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,waitForInteractionToComplete,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,waitForInteractionToComplete,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,verifyConnectionClosed,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,verifyConnectionClosed,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,run,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,MockPop3Server,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,MockServerThread,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.store.pop3,MockServerThread,run,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,MockServerThread,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_whenTrustedSocketFactoryThrowsSSLCertificateException_throwCertificateValidationException,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withTLS_authenticatesOverSocket,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withSTLSunavailable_doesntCreateSocket,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_withSTLSerr_throwsException,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_withSTLSerr_throwsException,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_withSTLSerr_doesntCreateSocket,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_withSTLSerr_doesntCreateSocket,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_withSTLSerr_doesntCreateSocket,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_usesSocketFactoryToCreateTLSSocket,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_usesSocketFactoryToCreateTLSSocket,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_whenSocketFactoryThrowsException_ThrowsException,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_whenSocketFactoryThrowsException_ThrowsException,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_authenticatesOverSecureSocket,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withStartTLS_authenticatesOverSecureSocket,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withAuthTypePlainAndPlainAuthCapabilityAndInvalidPasswordResponse_throwsException,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withAuthTypePlainAndNoPlainAuthCapability_performsLogin,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withAuthTypeCramMd5AndCapabilityAndCramFailure_throwsException,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3ConnectionTest,open_withAuthTypeCramMd5AndNoCapabilityAndApopFailure_throwsException,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3FolderTest,open_withoutInboxFolder_shouldNotTryAndCreateConnection,Empty catch clause
+k9email,com.fsck.k9.mail.store.pop3,Pop3FolderTest,open_withInboxFolder_shouldSetMessageCountFromStatResponse,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3FolderTest,getMessages_withInvalidSet_throwsException,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3FolderTest,fetch_withEnvelopeProfile_setsSizeOfMessage,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3FolderTest,fetch_withBodyProfile_setsContentOfMessage,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,setUp,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,checkSetting_whenConnectionThrowsException_shouldThrowMessagingException,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,checkSetting_whenUidlUnsupported_shouldThrowMessagingException,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,checkSetting_whenUidlUnsupported_shouldThrowMessagingException,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,checkSetting_whenUidlSupported_shouldReturn,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,checkSetting_whenUidlSupported_shouldReturn,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,open_withAuthResponseUsingAuthPlain_shouldRetrieveMessageCountOnAuthenticatedSocket,Long Identifier
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,open_withAuthResponseUsingAuthPlain_shouldRetrieveMessageCountOnAuthenticatedSocket,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,open_withAuthResponseUsingAuthPlain_shouldRetrieveMessageCountOnAuthenticatedSocket,Magic Number
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,createServerSettings,Long Statement
+k9email,com.fsck.k9.mail.store.pop3,Pop3StoreTest,createServerSettings,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,EnhancedNegativeSmtpReplyException,EnhancedNegativeSmtpReplyException,Long Parameter List
+k9email,com.fsck.k9.mail.transport.smtp,NegativeSmtpReplyException,isPermanentSmtpError,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Complex Conditional
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Complex Method
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Long Method
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,open,Missing default
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,sendHello,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,sendMessage,Complex Method
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,sendMessage,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,sendMessage,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,close,Empty catch clause
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,executeCommand,Empty catch clause
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,executeCommand,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,buildEnhancedNegativeSmtpReplyException,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,buildEnhancedNegativeSmtpReplyException,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,readCommandResponseLine,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,responseLineToCommandResponse,Empty catch clause
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,responseLineToCommandResponse,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,saslAuthLogin,Long Identifier
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,saslAuthPlain,Long Identifier
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,saslAuthCramMD5,Long Identifier
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,saslXoauth2,Long Identifier
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransport,handleTemporaryFailure,Long Identifier
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,open_withXoauth2Extension_shouldThrowOn401Response,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,open_withXoauth2Extension_shouldThrowOnMultipleFailure,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,open_withXoauth2Extension_shouldThrowOnFailure_fetchingToken,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,open_withSupportWithEnhancedStatusCodesOnAuthFailure_shouldThrowEncodedMessage,Long Statement
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessage_withMessageTooLarge_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessage_withNegativeReply_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessagePipelining_withNegativeReply,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessagePipelining_without354ReplyforData_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessagePipelining_with250and550ReplyforRecipients_shouldThrowFirst,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,sendMessagePipelining_with250and550ReplyforRecipientsAnd250ForMessage_shouldThrow,Magic Number
+k9email,com.fsck.k9.mail.transport.smtp,SmtpTransportTest,startServerAndCreateSmtpTransport,Long Statement
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,start,Long Statement
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,waitForMockServerThread,Empty catch clause
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,waitForMockServerThread,Magic Number
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,waitForInteractionToComplete,Empty catch clause
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,waitForInteractionToComplete,Magic Number
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,verifyConnectionClosed,Empty catch clause
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,verifyConnectionClosed,Magic Number
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,run,Long Statement
+k9email,com.fsck.k9.mail.transport.mockServer,MockSmtpServer,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.transport.mockServer,MockServerThread,MockServerThread,Long Parameter List
+k9email,com.fsck.k9.mail.transport.mockServer,MockServerThread,run,Long Statement
+k9email,com.fsck.k9.mail.transport.mockServer,MockServerThread,upgradeToTls,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,HttpGeneric,HttpGeneric,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,getMessages,Complex Conditional
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,getMessages,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetch,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchMessages,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchMessages,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchFlags,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchFlags,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchFlags,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchEnvelope,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,fetchEnvelope,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolder,appendWebDavMessages,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavSocketFactory,connectSocket,Long Parameter List
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,WebDavStore,Complex Conditional
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getFolderName,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getSpecialFoldersList,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getFolderListXml,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMessageCountXml,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMessageEnvelopeXml,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMessagesXml,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMessageUrlsXml,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMessageFlagsXml,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMarkMessagesReadXml,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getMoveOrCopyMessagesReadXml,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,authenticate,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,authenticate,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,authenticate,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,doInitialConnection,Complex Conditional
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,doInitialConnection,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,doInitialConnection,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,performFormBasedAuthentication,Complex Conditional
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,performFormBasedAuthentication,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,performFormBasedAuthentication,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,findFormAction,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,testAuthenticationResponse,Complex Conditional
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,testAuthenticationResponse,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,testAuthenticationResponse,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,testAuthenticationResponse,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,getHttpClient,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,sendRequest,Complex Method
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,sendRequest,Long Parameter List
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,sendRequest,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,sendRequest,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,handleUnexpectedRedirect,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStore,processRequest,Long Parameter List
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,setupFolderWithMessages,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,setupGetUrlsRequestResponse,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_less_than_10_envelopes,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_less_than_10_envelopes,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_more_than_10_envelopes,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_more_than_10_envelopes,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_less_than_20_flags,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_less_than_20_flags,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_more_than_20_flags,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_more_than_20_flags,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_sensible_body_data_and_notifies_listener,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_fetch_sensible_body_data_and_notifies_listener,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,answer,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_does_not_notify_listener_twice_when_fetching_flags_and_bodies,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_does_not_notify_listener_twice_when_fetching_flags_and_bodies,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,setup25MessagesToFetch,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_handle_empty_response_to_body_request,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_can_handle_empty_response_to_body_request,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_ignores_exception_thrown_when_closing,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,folder_ignores_exception_thrown_when_closing,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,can_fetch_message_count,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,can_fetch_message_count,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,can_fetch_unread_message_count,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,can_fetch_unread_message_count,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,getMessages_should_request_message_search,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,getMessages_should_request_message_search,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,getMessages_shouldProvideCorrectHeadersInRequest,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,getMessages_shouldProvideCorrectHeadersInRequest,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,getMessages_should_throw_message_exception_if_requesting_messages_from_empty_folder,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,moveMessages_should_send_move_command,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,copyMessages_should_send_copy_command,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavFolderTest,appendWebDavMessages_sendsRequestUsingStore,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavMessageTest,setNewHeaders_updates_size,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,checkSettings_withOkResponse_shouldPerformFormBasedAuthentication,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,checkSettings_withOkResponse_shouldPerformFormBasedAuthentication,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,checkSettings_withInitialUnauthorizedResponse_shouldPerformBasicAuthentication,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,checkSettings_withSslException_shouldThrowCertificateValidationException,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,getPersonalNamespaces_shouldRequestSpecialFolders,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,getPersonalNamespaces_shouldRequestFolderList,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,getPersonalNamespaces_shouldProvideListOfAllFoldersSentFromResponses,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,createOkResponse,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,createOkSearchResponse,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,createOkPropfindResponse,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,createServerSettings,Long Statement
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,createServerSettings,Magic Number
+k9email,com.fsck.k9.mail.store.webdav,WebDavStoreTest,configureHttpResponses,Long Statement
+k9email,org.openintents.openpgp,OpenPgpApiManager,refreshConnection,Long Statement
+k9email,org.openintents.openpgp,OpenPgpApiManager,onPgpPermissionCheckResult,Missing default
+k9email,org.openintents.openpgp,OpenPgpMetadata,OpenPgpMetadata,Long Parameter List
+k9email,org.openintents.openpgp,OpenPgpMetadata,createFromParcel,Magic Number
+k9email,org.openintents.openpgp,OpenPgpSignatureResult,OpenPgpSignatureResult,Long Parameter List
+k9email,org.openintents.openpgp,OpenPgpSignatureResult,OpenPgpSignatureResult,Magic Number
+k9email,org.openintents.openpgp,OpenPgpSignatureResult,createWithValidSignature,Complex Conditional
+k9email,org.openintents.openpgp,OpenPgpSignatureResult,createWithValidSignature,Long Parameter List
+k9email,org.openintents.openpgp,OpenPgpSignatureResult,createWithValidSignature,Long Statement
+k9email,org.openintents.openpgp.util,OpenPgpApi,cancel,Empty catch clause
+k9email,org.openintents.openpgp.util,OpenPgpDataSource,cancel,Empty catch clause
+k9email,org.openintents.openpgp.util,OpenPgpKeyPreference,onClick,Missing default
+k9email,org.openintents.openpgp.util,OpenPgpKeyPreference,apiStartPendingIntent,Long Statement
+k9email,org.openintents.openpgp.util,OpenPgpKeyPreference,refreshTitleAndSummary,Long Statement
+k9email,org.openintents.openpgp.util,OpenPgpUtils,convertKeyIdToHex,Magic Number
+k9email,org.openintents.openpgp.util,OpenPgpUtils,convertKeyIdToHex32bit,Magic Number
+k9email,org.openintents.openpgp.util,OpenPgpUtils,extractClearsignedMessage,Long Identifier
+k9email,org.openintents.openpgp.util,OpenPgpUtils,extractClearsignedMessage,Magic Number
+k9email,org.openintents.openpgp.util,OpenPgpUtils,splitUserId,Magic Number
+k9email,org.openintents.openpgp.util,ParcelFileDescriptorUtil,run,Empty catch clause
+k9email,org.openintents.openpgp.util,ParcelFileDescriptorUtil,run,Magic Number
+k9email,org.openintents.openpgp.util,TransferThread,run,Empty catch clause
+k9email,org.openintents.openpgp.util,TransferThread,run,Magic Number
+k9email,org.openintents.openpgp.util,DataSourceTransferThread,run,Empty catch clause
+k9email,org.openintents.openpgp.util,DataSinkTransferThread,run,Empty catch clause
