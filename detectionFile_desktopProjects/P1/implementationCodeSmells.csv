@@ -1,0 +1,782 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+88ybg,com.ybg.region.domain,RegionDO,toString,Long Statement
+88ybg,com.ybg.config,Swagger2Configuration,createRestApi,Long Statement
+88ybg,com.ybg.config,Swagger2Configuration,apiInfo,Long Statement
+88ybg,com.ybg.config,HttpsConfig,httpConnector,Magic Number
+88ybg,com.ybg.config,ScheduleConfiguration,schedulerFactoryBean,Magic Number
+88ybg,com.ybg.config,SecurityConfiguration,configure,Long Identifier
+88ybg,com.ybg.config,SecurityConfiguration,configure,Long Statement
+88ybg,com.ybg.config,SecurityConfiguration,passwordEncoder,Magic Number
+88ybg,com.egzosn.pay.ali.api,AliPayService,signVerify,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,getOrder,Magic Number
+88ybg,com.egzosn.pay.ali.api,AliPayService,getOrder,Missing default
+88ybg,com.egzosn.pay.ali.api,AliPayService,buildRequest,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,genQrPay,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,microPay,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.ali.api,AliPayService,refund,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,refund,Magic Number
+88ybg,com.egzosn.pay.ali.api,AliPayService,downloadbill,Long Statement
+88ybg,com.egzosn.pay.ali.api,AliPayService,secondaryInterface,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,verifySource,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,signVerify,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,getOrderInfo,Magic Number
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,getOrder,Magic Number
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,buildRequest,Complex Conditional
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,buildRequest,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,refund,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,downloadbill,Long Statement
+88ybg,com.egzosn.pay.ali.before.api,AliPayService,secondaryInterface,Long Statement
+88ybg,com.egzosn.pay.common.api,BasePayConfigStorage,updateAccessToken,Magic Number
+88ybg,com.egzosn.pay.common.api,BasePayService,createSign,Long Statement
+88ybg,com.egzosn.pay.common.api,PayMessageRouter,route,Complex Method
+88ybg,com.egzosn.pay.common.api,PayMessageRouterRule,test,Long Statement
+88ybg,com.egzosn.pay.common.api,PayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.common.bean,PayOrder,PayOrder,Long Parameter List
+88ybg,com.egzosn.pay.common.bean,PayOrder,toString,Long Statement
+88ybg,com.egzosn.pay.common.bean.outbuilder,PayXmlOutMessage,toMessage,Long Statement
+88ybg,com.egzosn.pay.common.http,ClientHttpRequest,handleResponse,Complex Method
+88ybg,com.egzosn.pay.common.http,ClientHttpRequest,handleResponse,Long Statement
+88ybg,com.egzosn.pay.common.http,ClientHttpRequest,handleResponse,Magic Number
+88ybg,com.egzosn.pay.common.http,HttpRequestTemplate,createSSL,Long Statement
+88ybg,com.egzosn.pay.common.http,HttpRequestTemplate,createProxy,Long Statement
+88ybg,com.egzosn.pay.common.http,HttpRequestTemplate,setHttpConfigStorage,Long Statement
+88ybg,com.egzosn.pay.common.http,UriVariables,getMapToParameters,Complex Method
+88ybg,com.egzosn.pay.common.util,MatrixToImageWriter,writeInfoToJpgFile,Magic Number
+88ybg,com.egzosn.pay.common.util,MatrixToImageWriter,writeInfoToJpgBuff,Magic Number
+88ybg,com.egzosn.pay.common.util,XML,getMap2Xml,Complex Conditional
+88ybg,com.egzosn.pay.common.util,XML,getMap2Xml,Long Statement
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,getMimeEncoder,Long Statement
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,getMimeEncoder,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,outLength,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,encode0,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,encode0,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,outLength,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,decode0,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,decode0,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,decode0,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,EncOutputStream,Long Parameter List
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,write,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,write,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,write,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,close,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,read,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,read,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Base64,read,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Encoder,outLength,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Encoder,encode0,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Encoder,encode0,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Decoder,outLength,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Decoder,outLength,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Decoder,decode0,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Decoder,decode0,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,Decoder,decode0,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,EncOutputStream,EncOutputStream,Long Parameter List
+88ybg,com.egzosn.pay.common.util.sign.encrypt,EncOutputStream,write,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,EncOutputStream,write,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,EncOutputStream,write,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,EncOutputStream,close,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,DecInputStream,read,Magic Number
+88ybg,com.egzosn.pay.common.util.sign.encrypt,DecInputStream,read,Complex Conditional
+88ybg,com.egzosn.pay.common.util.sign.encrypt,DecInputStream,read,Complex Method
+88ybg,com.egzosn.pay.common.util.sign.encrypt,RSA,verify,Long Parameter List
+88ybg,com.egzosn.pay.common.util.sign.encrypt,RSA,decrypt,Magic Number
+88ybg,com.ybg,Test,main,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,toPay,Long Parameter List
+88ybg,com.egzosn.pay.demo.controller,PayController,toPay,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,toPay,Magic Number
+88ybg,com.egzosn.pay.demo.controller,PayController,toWxPay,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,toWxPay,Magic Number
+88ybg,com.egzosn.pay.demo.controller,PayController,microPay,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,microPay,Magic Number
+88ybg,com.egzosn.pay.demo.controller,PayController,toWxQrPay,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,toWxQrPay,Magic Number
+88ybg,com.egzosn.pay.demo.controller,PayController,toWxAliPay,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,getOrderInfo,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,getOrderInfo,Magic Number
+88ybg,com.egzosn.pay.demo.controller,PayController,refund,Long Statement
+88ybg,com.egzosn.pay.demo.controller,PayController,secondaryInterface,Long Statement
+88ybg,com.egzosn.pay.demo.entity,ApyAccount,toString,Long Statement
+88ybg,com.egzosn.pay.demo.service,PayResponse,buildRouter,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,verify,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,verifySource,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,getOrderInfo,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,getOrderInfo,Magic Number
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,createSign,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,refund,Long Statement
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,refund,Magic Number
+88ybg,com.egzosn.pay.fuiou.api,FuiouPayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.wx.api,WxPayService,signVerify,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,unifiedOrder,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,unifiedOrder,Magic Number
+88ybg,com.egzosn.pay.wx.api,WxPayService,unifiedOrder,Missing default
+88ybg,com.egzosn.pay.wx.api,WxPayService,orderInfo,Complex Conditional
+88ybg,com.egzosn.pay.wx.api,WxPayService,orderInfo,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,orderInfo,Magic Number
+88ybg,com.egzosn.pay.wx.api,WxPayService,createSign,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,buildRequest,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.wx.api,WxPayService,refund,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,refund,Magic Number
+88ybg,com.egzosn.pay.wx.api,WxPayService,downloadbill,Long Statement
+88ybg,com.egzosn.pay.wx.api,WxPayService,secondaryInterface,Long Statement
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,getAccessToken,Magic Number
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,signVerify,Long Statement
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,verifySource,Magic Number
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,execute,Long Statement
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,orderInfo,Magic Number
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,createSign,Long Statement
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,getPayOutMessage,Long Statement
+88ybg,com.egzosn.pay.wx.youdian.api,WxYouDianPayService,refund,Long Parameter List
+88ybg,com.egzosn.pay.commodity.dao,CommodityDaoImpl,get,Long Statement
+88ybg,com.egzosn.pay.commodity.domain,CommodityDO,toString,Long Statement
+88ybg,com.egzosn.pay.payorder.controller,PayorderController,toWxPay,Long Statement
+88ybg,com.egzosn.pay.payorder.controller,PayorderController,toAliPay,Long Statement
+88ybg,com.egzosn.pay.payorder.controller,PayorderController,toPay,Long Parameter List
+88ybg,com.egzosn.pay.payorder.domain,PayorderDO,toString,Long Statement
+88ybg,com.egzosn.pay.payorder.domain,PayorderVO,toString,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,toPay,Long Parameter List
+88ybg,com.egzosn.pay.seller.controller,PayController,toPay,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,toPay,Magic Number
+88ybg,com.egzosn.pay.seller.controller,PayController,toWxPay,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,toWxPay,Magic Number
+88ybg,com.egzosn.pay.seller.controller,PayController,microPay,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,microPay,Magic Number
+88ybg,com.egzosn.pay.seller.controller,PayController,toWxQrPay,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,toWxQrPay,Magic Number
+88ybg,com.egzosn.pay.seller.controller,PayController,toWxAliPay,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,getOrderInfo,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,getOrderInfo,Magic Number
+88ybg,com.egzosn.pay.seller.controller,PayController,refund,Long Statement
+88ybg,com.egzosn.pay.seller.controller,PayController,secondaryInterface,Long Statement
+88ybg,com.egzosn.pay.seller.domain,SellerDO,toString,Long Statement
+88ybg,com.egzosn.pay.seller.service,PayResponse,buildRouter,Long Statement
+88ybg,com.ybg.activiti.rest.editor.controller,ModelCreateController,deploy,Long Statement
+88ybg,com.ybg.activiti.rest.editor.model,ModelEditorJsonRestResource,getEditorJson,Long Statement
+88ybg,com.ybg.activiti.rest.editor.model,ModelSaveRestResource,saveModel,Long Parameter List
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,AlipayMobilePublicMultiMediaClient,Long Parameter List
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Complex Conditional
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Empty catch clause
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Long Statement
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Complex Method
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Long Parameter List
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,doGet,Magic Number
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,getStreamAsString,Magic Number
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,getResponseCharset,Magic Number
+88ybg,com.alipay.api,AlipayMobilePublicMultiMediaClient,splitUrlQuery,Magic Number
+88ybg,com.alipay.api,AlipayParser,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api,DefaultAlipayClient,DefaultAlipayClient,Long Parameter List
+88ybg,com.alipay.api,DefaultAlipayClient,getRequestHolderWithSign,Complex Conditional
+88ybg,com.alipay.api,DefaultAlipayClient,getRequestHolderWithSign,Complex Method
+88ybg,com.alipay.api,DefaultAlipayClient,getRequestHolderWithSign,Empty catch clause
+88ybg,com.alipay.api,DefaultAlipayClient,getRequestHolderWithSign,Long Statement
+88ybg,com.alipay.api,DefaultAlipayClient,doPost,Long Statement
+88ybg,com.alipay.api,DefaultAlipayClient,checkResponseSign,Complex Conditional
+88ybg,com.alipay.api,DefaultAlipayClient,checkResponseSign,Long Statement
+88ybg,com.alipay.api,FileItem,getFileName,Complex Conditional
+88ybg,com.alipay.api,FileItem,getContent,Complex Conditional
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,getRandomDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,setRandomDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,getReduceToDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,setReduceToDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,getStagedDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AlipayMarketingCampaignDiscountOperateModel,setStagedDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.domain,AntProdpaasArrangementCommonQueryModel,getArrangementConditionGroupSelector,Long Identifier
+88ybg,com.alipay.api.domain,AntProdpaasArrangementCommonQueryModel,setArrangementConditionGroupSelector,Long Identifier
+88ybg,com.alipay.api.domain,AntProdpaasArrangementCommonQueryModel,getArrangementInvolvedPartyQuerier,Long Identifier
+88ybg,com.alipay.api.domain,AntProdpaasArrangementCommonQueryModel,setArrangementInvolvedPartyQuerier,Long Identifier
+88ybg,com.alipay.api.domain,BatchFundItemAOPModel,getDbackRefundtobankProcessingBatchAmount,Long Identifier
+88ybg,com.alipay.api.domain,BatchFundItemAOPModel,setDbackRefundtobankProcessingBatchAmount,Long Identifier
+88ybg,com.alipay.api.domain,BatchFundItemAOPModel,getDbackRefundtobankSuccessBatchAmount,Long Identifier
+88ybg,com.alipay.api.domain,BatchFundItemAOPModel,setDbackRefundtobankSuccessBatchAmount,Long Identifier
+88ybg,com.alipay.api.domain,FundDetailItemAOPModel,getSingleFundDetailItemAopmodelList,Long Identifier
+88ybg,com.alipay.api.domain,FundDetailItemAOPModel,setSingleFundDetailItemAopmodelList,Long Identifier
+88ybg,com.alipay.api.domain,LegalRepresentativeInfo,getLegalRepresentativeCertPicBack,Long Identifier
+88ybg,com.alipay.api.domain,LegalRepresentativeInfo,setLegalRepresentativeCertPicBack,Long Identifier
+88ybg,com.alipay.api.domain,LegalRepresentativeInfo,getLegalRepresentativeCertPicFront,Long Identifier
+88ybg,com.alipay.api.domain,LegalRepresentativeInfo,setLegalRepresentativeCertPicFront,Long Identifier
+88ybg,com.alipay.api.internal.mapping,Converter,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api.internal.mapping,Converters,convert,Complex Method
+88ybg,com.alipay.api.internal.mapping,Converters,convert,Long Method
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,fromJson,Complex Method
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,getListObjectsInner,Complex Method
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,parseSignSourceData,Magic Number
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,encryptSourceData,Long Statement
+88ybg,com.alipay.api.internal.parser.json,JsonConverter,parseJSONSignSourceData,Magic Number
+88ybg,com.alipay.api.internal.parser.json,ObjectJsonParser,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api.internal.parser.xml,ObjectXmlParser,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api.internal.parser.xml,XmlConverter,getModelFromXML,Complex Method
+88ybg,com.alipay.api.internal.parser.xml,XmlConverter,getListObjects,Complex Method
+88ybg,com.alipay.api.internal.parser.xml,XmlConverter,encryptSourceData,Long Parameter List
+88ybg,com.alipay.api.internal.parser.xml,XmlConverter,encryptSourceData,Long Statement
+88ybg,com.alipay.api.internal.util,AlipayEncrypt,initIv,Magic Number
+88ybg,com.alipay.api.internal.util,AlipayHashMap,put,Complex Method
+88ybg,com.alipay.api.internal.util,AlipayLogger,logCommError,Long Parameter List
+88ybg,com.alipay.api.internal.util,AlipayLogger,_logCommError,Empty catch clause
+88ybg,com.alipay.api.internal.util,AlipayLogger,_logCommError,Long Parameter List
+88ybg,com.alipay.api.internal.util,AlipayLogger,parseParam,Magic Number
+88ybg,com.alipay.api.internal.util,AlipaySignature,rsaCheck,Long Parameter List
+88ybg,com.alipay.api.internal.util,AlipaySignature,checkSignAndDecrypt,Long Parameter List
+88ybg,com.alipay.api.internal.util,AlipaySignature,encryptAndSign,Long Parameter List
+88ybg,com.alipay.api.internal.util,AlipaySignature,rsaDecrypt,Long Statement
+88ybg,com.alipay.api.internal.util,AlipayUtils,getFileSuffix,Complex Conditional
+88ybg,com.alipay.api.internal.util,AlipayUtils,getFileSuffix,Magic Number
+88ybg,com.alipay.api.internal.util,AlipayUtils,getLocalNetWorkIp,Complex Method
+88ybg,com.alipay.api.internal.util,AtsUtils,checkMd5sum,Magic Number
+88ybg,com.alipay.api.internal.util,AtsUtils,bytes2hex,Magic Number
+88ybg,com.alipay.api.internal.util,AtsUtils,copyStream,Magic Number
+88ybg,com.alipay.api.internal.util,AtsUtils,closeQuietly,Empty catch clause
+88ybg,com.alipay.api.internal.util,RequestCheckUtils,checkMaxLength,Long Statement
+88ybg,com.alipay.api.internal.util,RequestCheckUtils,checkMaxListSize,Long Statement
+88ybg,com.alipay.api.internal.util,RequestCheckUtils,checkMaxValue,Long Statement
+88ybg,com.alipay.api.internal.util,RequestCheckUtils,checkMinValue,Long Statement
+88ybg,com.alipay.api.internal.util,StringUtils,stripNonValidXMLCharacters,Complex Conditional
+88ybg,com.alipay.api.internal.util,StringUtils,stripNonValidXMLCharacters,Long Statement
+88ybg,com.alipay.api.internal.util,StringUtils,stripNonValidXMLCharacters,Magic Number
+88ybg,com.alipay.api.internal.util,WebUtils,doPost,Long Parameter List
+88ybg,com.alipay.api.internal.util,WebUtils,getConnection,Long Parameter List
+88ybg,com.alipay.api.internal.util,WebUtils,getStreamAsString,Magic Number
+88ybg,com.alipay.api.internal.util,WebUtils,getResponseCharset,Magic Number
+88ybg,com.alipay.api.internal.util,WebUtils,splitUrlQuery,Magic Number
+88ybg,com.alipay.api.internal.util,XmlUtils,getDocument,Empty catch clause
+88ybg,com.alipay.api.internal.util,XmlUtils,saveToXml,Empty catch clause
+88ybg,com.alipay.api.internal.util,XmlUtils,validateXml,Empty catch clause
+88ybg,com.alipay.api.internal.util.codec,Base64,encodeBase64,Complex Method
+88ybg,com.alipay.api.internal.util.codec,Base64,encodeBase64,Magic Number
+88ybg,com.alipay.api.internal.util.codec,Base64,decodeBase64,Complex Method
+88ybg,com.alipay.api.internal.util.codec,Base64,decodeBase64,Magic Number
+88ybg,com.alipay.api.internal.util.codec,Base64,discardWhitespace,Missing default
+88ybg,com.alipay.api.internal.util.json,JSONReader,read,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONReader,read,Missing default
+88ybg,com.alipay.api.internal.util.json,JSONReader,number,Long Statement
+88ybg,com.alipay.api.internal.util.json,JSONReader,number,Magic Number
+88ybg,com.alipay.api.internal.util.json,JSONReader,unicode,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONReader,unicode,Magic Number
+88ybg,com.alipay.api.internal.util.json,JSONValidator,aggregate,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONValidator,number,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONValidator,escape,Complex Conditional
+88ybg,com.alipay.api.internal.util.json,JSONWriter,value,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONWriter,bean,Complex Conditional
+88ybg,com.alipay.api.internal.util.json,JSONWriter,bean,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONWriter,model,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONWriter,string,Complex Method
+88ybg,com.alipay.api.internal.util.json,JSONWriter,unicode,Magic Number
+88ybg,com.alipay.api.request,AlipayOpenMiniVersionAuditApplyRequest,getTextParams,Long Statement
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,setRandomDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,getRandomDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,setReduceToDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,getReduceToDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,setStagedDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayMarketingCampaignDiscountQueryResponse,getStagedDiscountDstCampPrizeModel,Long Identifier
+88ybg,com.alipay.api.response,AlipayOfflineProviderEquipmentAuthQuerybypageResponse,setEquipmentauthremovequerybypagelist,Long Identifier
+88ybg,com.alipay.api.response,AlipayOfflineProviderEquipmentAuthQuerybypageResponse,getEquipmentauthremovequerybypagelist,Long Identifier
+88ybg,com.ybg.base.jdbc,BaseDao,baseCreate,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,setValues,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,basecreate,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,basecreate,Long Method
+88ybg,com.ybg.base.jdbc,BaseDao,createPreparedStatement,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,saveOrUpdate,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,saveOrUpdate,Long Method
+88ybg,com.ybg.base.jdbc,BaseDao,baseupdate,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,baseupdate,Long Method
+88ybg,com.ybg.base.jdbc,BaseDao,baseremove,Complex Method
+88ybg,com.ybg.base.jdbc,BaseDao,sqlappen,Magic Number
+88ybg,com.ybg.base.jdbc,BaseDao,checkSQLinject,Long Statement
+88ybg,com.ybg.base.jdbc.util,DateUtil,setDate,Long Statement
+88ybg,com.ybg.base.jdbc.util,EncryptUtil,md5,Magic Number
+88ybg,com.ybg.base.jdbc.util,QvoConditionUtil,checkObjectArray,Complex Conditional
+88ybg,com.ybg.base.util,AbstractPage,toString,Long Statement
+88ybg,com.ybg.base.util,DesUtils,byteArr2HexStr,Magic Number
+88ybg,com.ybg.base.util,DesUtils,hexStr2ByteArr,Magic Number
+88ybg,com.ybg.base.util,DesUtils,getKey,Magic Number
+88ybg,com.ybg.base.util,EncodingUtil,escape,Complex Conditional
+88ybg,com.ybg.base.util,EncodingUtil,escape,Magic Number
+88ybg,com.ybg.base.util,EncodingUtil,unescape,Magic Number
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcel,Complex Conditional
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcel,Complex Method
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcel,Long Method
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcel,Magic Number
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcelxlsx,Complex Conditional
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcelxlsx,Complex Method
+88ybg,com.ybg.base.util.excel,ExcelUtil,importExcelxlsx,Long Method
+88ybg,com.ybg.base.util.excel,ExcelUtil,exportExcel,Complex Method
+88ybg,com.ybg.base.util.excel,ExcelUtil,exportExcel,Long Parameter List
+88ybg,com.ybg.base.util.excel,ExcelUtil,exportExcel,Magic Number
+88ybg,com.ybg.base.util.excel,ExcelUtil,getExcelCol,Magic Number
+88ybg,com.ybg.base.util.excel,ExcelUtil,setHSSFPrompt,Long Parameter List
+88ybg,com.ybg.base.util.excel,ExcelUtil,setHSSFValidation,Long Parameter List
+88ybg,com.ybg.oa.department.dao,DepartmentDaoImpl,list,Long Statement
+88ybg,com.ybg.oa.department.dao,DepartmentDaoImpl,get,Long Statement
+88ybg,com.ybg.component.email.domain,EmailMessage,getMailAddress,Complex Conditional
+88ybg,com.ybg.component.email.domain,EmailMessage,getMailAddress,Complex Method
+88ybg,com.ybg.component.email.domain,EmailMessage,isContainAttach,Complex Method
+88ybg,com.ybg.component.email.domain,EmailMessage,saveAttachMent,Complex Method
+88ybg,com.ybg.gen.controller,SysGeneratorController,updateSetting,Long Parameter List
+88ybg,com.ybg.gen.dao,SysGeneratorDaoImpl,getJdbcTemplate,Missing default
+88ybg,com.ybg.gen.dao,SysGeneratorDaoImpl,list,Long Statement
+88ybg,com.ybg.gen.dao,SysGeneratorDaoImpl,queryTable,Long Statement
+88ybg,com.ybg.gen.dao,SysGeneratorDaoImpl,queryColumns,Long Statement
+88ybg,com.ybg.gen.utils,GenUtils,generatorCode,Magic Number
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,processTag,Complex Method
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,processTag,Magic Number
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,processParamProtocol,Magic Number
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,decodeEntities,Magic Number
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,validateEntities,Magic Number
+88ybg,com.ybg.gen.utils.xss,HtmlFilter,encodeQuotes,Magic Number
+88ybg,com.ybg.component.jwt,Audience,getExpiresSecond,Magic Number
+88ybg,com.ybg.component.jwt,HTTPBasicAuthorizeAttribute,doFilter,Long Statement
+88ybg,com.ybg.component.jwt,HTTPBasicAuthorizeAttribute,checkHTTPBasicAuthorize,Complex Conditional
+88ybg,com.ybg.component.jwt,HTTPBasicAuthorizeAttribute,checkHTTPBasicAuthorize,Long Statement
+88ybg,com.ybg.component.jwt,HTTPBasicAuthorizeAttribute,checkHTTPBasicAuthorize,Magic Number
+88ybg,com.ybg.component.jwt,HTTPBearerAuthorizeAttribute,doFilter,Magic Number
+88ybg,com.ybg.component.jwt,JwtHelper,parseJWT,Long Statement
+88ybg,com.ybg.component.jwt,JwtHelper,createJWT,Long Parameter List
+88ybg,com.ybg.component.jwt,JwtHelper,createJWT,Long Statement
+88ybg,com.ybg.component.jwt,MyUtils,getMD5,Magic Number
+88ybg,com.ybg.component.jwt.controller,JsonWebToken,getAccessToken,Long Statement
+88ybg,com.ybg.component.jwt.controller,JsonWebToken,getAccessToken,Magic Number
+88ybg,com.ybg.upload.controller,FileUploadController,upload,Long Statement
+88ybg,com.ybg.upload.controller,FileUploadController,batchUpload,Long Statement
+88ybg,com.ybg.upload.controller,FileUploadController,downloadFile,Magic Number
+88ybg,com.ybg.upload.controller,KindeditorController,uploadFile,Complex Method
+88ybg,com.ybg.upload.controller,KindeditorController,uploadFile,Long Statement
+88ybg,com.ybg.upload.controller,KindeditorController,uploadFile,Magic Number
+88ybg,com.ybg.upload.controller,KindeditorController,fileManagerJson,Complex Method
+88ybg,com.ybg.upload.controller,KindeditorController,fileManagerJson,Long Statement
+88ybg,com.ybg.upload.controller,KindeditorController,getFile,Long Statement
+88ybg,com.ybg.mq.consumer,HttpMQConsumer,pull,Magic Number
+88ybg,com.ybg.mq.consumer,HttpMQConsumer,delete,Magic Number
+88ybg,com.ybg.mq.consumer,SimpleMessage,toString,Long Statement
+88ybg,com.ybg.mq.guide,HttpConsumer,getmsg,Long Statement
+88ybg,com.ybg.mq.guide,HttpConsumer,getmsg,Magic Number
+88ybg,com.ybg.mq.guide,HttpProducer,sendmsg,Magic Number
+88ybg,com.ybg.mq.guide,SignGuide,postSign,Long Parameter List
+88ybg,com.ybg.mq.guide,SignGuide,deleteSign,Long Parameter List
+88ybg,com.ybg.mq.producer,HttpMQProducer,send,Magic Number
+88ybg,com.ybg.mq.util,MD5,hash,Magic Number
+88ybg,com.ybg.mq.util,MD5,bytes2string,Magic Number
+88ybg,com.ybg.mq.util,MD5,string2bytes,Magic Number
+88ybg,com.ybg.oss,OssFactory,build,Long Statement
+88ybg,com.ybg.oss.dao,SysConfigDaoImpl,queryByKey,Long Statement
+88ybg,com.ybg.oss.dao,SysConfigDaoImpl,queryObject,Long Statement
+88ybg,com.ybg.oss.dao,SysConfigDaoImpl,list,Long Statement
+88ybg,com.ybg.oss.dao,SysOssDaoImpl,queryObject,Long Statement
+88ybg,com.ybg.oss.dao,SysOssDaoImpl,list,Long Statement
+88ybg,com.ybg.qrcode,MatrixToImageWriter,applyLogo,Magic Number
+88ybg,com.ybg.qrcode,QrCodeController,gen,Magic Number
+88ybg,com.ybg.quartz.schedule.dao,ScheduleJobDaoImpl,queryObject,Long Statement
+88ybg,com.ybg.quartz.schedule.dao,ScheduleJobDaoImpl,queryList,Long Statement
+88ybg,com.ybg.quartz.schedule.dao,ScheduleJobLogDaoImpl,queryObject,Long Statement
+88ybg,com.ybg.quartz.schedule.dao,ScheduleJobLogDaoImpl,queryList,Long Statement
+88ybg,com.ybg.quartz.schedule.domain,ScheduleJobEntity,toString,Long Statement
+88ybg,com.ybg.quartz.schedule.domain,ScheduleJobLogDO,toString,Long Statement
+88ybg,com.ybg.quartz.schedule,TestTask,test,Magic Number
+88ybg,com.ybg.quartz.schedule.util,ScheduleJob,executeInternal,Long Statement
+88ybg,com.ybg.quartz.schedule.util,ScheduleJob,executeInternal,Magic Number
+88ybg,com.ybg.quartz.schedule.util,ScheduleUtils,createScheduleJob,Long Statement
+88ybg,com.ybg.quartz.schedule.util,ScheduleUtils,updateScheduleJob,Long Statement
+88ybg,com.ybg.config.security,LoginSuccessHandler,getIpAddress,Complex Conditional
+88ybg,com.ybg.rbac.controllor,LoginControllor,register,Long Statement
+88ybg,com.ybg.rbac.controllor,LoginControllor,forgetPwd,Long Statement
+88ybg,com.ybg.rbac.controllor,LoginControllor,modifypwd,Long Parameter List
+88ybg,com.ybg.rbac.controllor,LoginControllor,getActiveContent,Long Statement
+88ybg,com.ybg.rbac.controllor,RescourcesControllor,select,Magic Number
+88ybg,com.ybg.rbac.controllor,RescourcesControllor,reslists,Magic Number
+88ybg,com.ybg.rbac.controllor,RescourcesControllor,get,Magic Number
+88ybg,com.ybg.rbac.controllor,RoleControllor,get,Magic Number
+88ybg,com.ybg.rbac.controllor,UserControllor,get,Magic Number
+88ybg,com.ybg.rbac.controllor,UserControllor,export,Magic Number
+88ybg,com.ybg.rbac.resources.dao,ResourcesDaoImpl,list,Long Statement
+88ybg,com.ybg.rbac.resources.dao,ResourcesDaoImpl,getRolesByRoleId,Long Statement
+88ybg,com.ybg.rbac.resources.dao,ResourcesDaoImpl,getRolesByRoleIdHaveNull,Long Statement
+88ybg,com.ybg.rbac.resources.dao,ResourcesDaoImpl,getOperatorButton,Long Statement
+88ybg,com.ybg.rbac.resources.domain,ResourcesDO,toString,Long Statement
+88ybg,com.ybg.rbac.resources.domain,ResourcesDO,hashCode,Magic Number
+88ybg,com.ybg.rbac.resources.domain,ResourcesDO,equals,Complex Method
+88ybg,com.ybg.rbac.resources.domain,ResourcesDO,equals,Long Method
+88ybg,com.ybg.rbac.resources.domain,SysResourcesVO,toString,Long Statement
+88ybg,com.ybg.rbac.role.dao,RoleDaoImpl,saveOrUpdateRoleRes,Long Statement
+88ybg,com.ybg.rbac.role.domain,RoleDO,toString,Long Statement
+88ybg,com.ybg.rbac.role.domain,RoleDO,hashCode,Magic Number
+88ybg,com.ybg.rbac.role.domain,RoleDO,equals,Complex Method
+88ybg,com.ybg.rbac.role.domain,RoleResDO,hashCode,Magic Number
+88ybg,com.ybg.rbac.role.domain,RoleResDO,equals,Complex Method
+88ybg,com.ybg.rbac.role.domain,SysRoleVO,toString,Long Statement
+88ybg,com.ybg.rbac.support.controller,LoginProxyController,login,Long Statement
+88ybg,com.ybg.rbac.support.controller,LoginProxyController,loginByUserId,Long Statement
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,login,Long Statement
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,removeExpired,Long Statement
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,removeExpired,Magic Number
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,checkisExist,Complex Conditional
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,loginById,Long Statement
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,findUserIdsWithConnection,Long Statement
+88ybg,com.ybg.rbac.user.dao,UserDaoImpl,updateUserRole,Long Statement
+88ybg,com.ybg.rbac.user.domain,UserDO,toString,Long Statement
+88ybg,com.ybg.rbac.user.domain,UserDO,hashCode,Magic Number
+88ybg,com.ybg.rbac.user.domain,UserDO,equals,Complex Method
+88ybg,com.ybg.rbac.user.domain,UserVO,toString,Long Statement
+88ybg,com.ybg.sms.ali.send,SmsDemo,querySendDetails,Magic Number
+88ybg,com.ybg.sms.ali.send,SmsDemo,main,Magic Number
+88ybg,com.ybg.core.controller,AliSocialController,index,Long Statement
+88ybg,com.ybg.core.controller,AliSocialController,auth,Long Statement
+88ybg,com.ybg.core.controller,SocialController,regist,Long Parameter List
+88ybg,com.ybg.core.controller,SocialController,regist,Long Statement
+88ybg,com.ybg.core.controller,SocialController,getActiveContent,Long Statement
+88ybg,com.ybg.setting.controller,ThirdPartLoginController,update,Long Parameter List
+88ybg,com.ybg.setting.dao,SocialUserDaoImpl,get,Long Statement
+88ybg,com.ybg.setting.domain,SocialUserDO,toString,Long Statement
+88ybg,com.ybg.social,SocialConfig,getUsersConnectionRepository,Long Statement
+88ybg,com.ybg.social.qq.connet,QQOAuth2Template,postForAccessGrant,Magic Number
+88ybg,com.ybg.social.sina.api,SinaUserInfo,toString,Long Statement
+88ybg,com.ybg.social.sina.connet,SinaAccessGrant,toString,Long Statement
+88ybg,com.ybg.social.weixin.connect,WeixinConnectionFactory,createConnection,Long Statement
+88ybg,com.ybg.social.weixin.connect,WeixinOAuth2Template,getAccessToken,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.invoker,WxInvokerConfiguration,getDefaultWxMessageConverters,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,wxRequestMappingHandlerMapping,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,wxRequestMappingHandlerMapping,Magic Number
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,setImportMetadata,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,afterPropertiesSet,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,addInterceptors,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxBuildinMvcConfiguration,getOrder,Magic Number
+88ybg,com.mxixm.fastboot.weixin.config.server,WxMvcAdapterCustomer,afterPropertiesSet,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxMvcConfigurer,addInterceptors,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config.server,WxMvcConfigurer,getOrder,Magic Number
+88ybg,com.mxixm.fastboot.weixin.config.server,WxWebConfiguration,wxSessionManager,Long Statement
+88ybg,com.mxixm.fastboot.weixin.config,WxProperties,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.config,WxProperties,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.config,WxProperties,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,ReaderInputStream,ReaderInputStream,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,ReaderInputStream,read,Magic Number
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,ReaderInputStream,read,Complex Method
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,ReaderInputStream,grow,Magic Number
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,ReaderInputStream,startDraining,Magic Number
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,WxBufferingInputMessageWrapper,close,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,WxJaxb2RootElementHttpMessageConverter,escape,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,CDataCharacterEscapeHandler,escape,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,WxMediaResourceMessageConverter,getDefaultContentType,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.common,WxMultipartFile,transferTo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.component,WxApiHttpRequestFactory,getHttpClient,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.component,WxApiHttpResponse,getBody,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.contributor,WxApiParamContributor,contributeMethodArgument,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.contributor,WxApiParamContributor,contributeMethodArgument,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.contributor,WxApiPathContributor,contributeMethodArgument,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiExecutor,getObjectBody,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiExecutor,getStringBody,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiExecutor,getFormBody,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiInvoker,exchange,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiInvoker,execute,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.executor,WxApiResponseExtractor,extractData,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.handler,WxResponseErrorHandler,handleError,Missing default
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.handler,WxResponseErrorHandler,getResponseBody,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.handler,WxResponseErrorHandler,getHttpStatusCode,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.handler,WxResponseErrorHandler,hasApiResultError,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker.handler,WxResponseErrorHandler,hasApiResultError,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiMethodInfo,getMethodWxApiRequestPath,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiMethodInfo,getMethodWxApiRequestPath,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiMethodInfo,prepareRequestInfo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiMethodInfo,applyContributors,Long Identifier
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiMethodInfo,applyContributors,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiHost,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiHost,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiPropertyPrefix,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiPropertyPrefix,Long Statement
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiRequestPath,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.controller.invoker,WxApiTypeInfo,getTypeWxApiRequestPath,Long Statement
+88ybg,com.mxixm.fastboot.weixin.exception,WxApiResponseException,WxApiResponseException,Long Statement
+88ybg,com.mxixm.fastboot.weixin.exception,WxApiResultException,prepare,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,WxJsonAdapters,convert,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,WxIntDateConverter,convert,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,WxXmlAdapters,unmarshal,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,WxXmlAdapters,marshal,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,CreateTimeAdaptor,unmarshal,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.adapters,CreateTimeAdaptor,marshal,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.extend,WxCard,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.extend,WxCard,of,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.extend,WhiteList,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.extend,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.extend,ListSelector,of,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.extend,WxQrCode,Temporary,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.extend,WxQrCode,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.extend,Builder,Temporary,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.extend,WxShortUrl,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaEntity,MediaEntity,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaQuery,MediaQuery,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaQuery,getKey,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaQuery,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaQueryBuilder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,firstArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,addArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,Article,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMedia,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.media,TempMediaResult,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,TempMediaResult,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaResult,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,MediaResult,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,ImageResult,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,NewsResult,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,Video,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,Video,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,Video,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,News,firstArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,News,addArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,News,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,Builder,firstArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,Builder,addArticle,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,Builder,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,New,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,New,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,Article,Article,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,Article,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.media,Article,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,Article,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,Article,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,addVideoMedia,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,query,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,query,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,store,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,store,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,storeResource,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaManager,storeResource,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaResource,extractURL,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaResource,extractFilenameWithCharset,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.module.media,WxMediaResource,setURL,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,WxButtonItem,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,equalsBak,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,equalsBak,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,equals,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,build,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxButtonItem,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.menu,Builder,build,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,Builder,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenuManager,add,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenuManager,getMenu,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenuManager,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenuManager,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenu,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.menu,WxMenus,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message.support,WxAsyncMessageReturnValueHandler,supportsReturnType,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message.support,WxAsyncMessageTemplate,afterPropertiesSet,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessage,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessage,prepare,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,MusicBuilder,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,NewsBuilder,prepare,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageBody,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,Media,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,Media,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Video,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,Video,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.message,Video,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Video,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,Video,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Music,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.message,Music,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.message,Music,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Music,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.message,Music,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,News,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Item,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,WxMessageProcesser,supports,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.message,WxUserMessage,WxUserMessage,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.module.token,WxAccessToken,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.token,WxAccessToken,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.token,WxTokenServer,refreshToken,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.token,WxTokenServer,getWxWebUserByCode,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.token,WxTokenServer,getWxWebUserByRefreshToken,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.token,WxTokenServer,getWxUserByWxWebUser,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.token,WxTokenServer,isVerifyUserAccessToken,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.user,WxUser,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.user,WxUser,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.user,WxUser,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.user,WxUser,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.user,WxUserProvider,isMatch,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web.session,DefaultWxSession,isValid,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web.session,DefaultWxSessionManager,afterPropertiesSet,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,getButtonType,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,equals,Long Method
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequest,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,getButtonType,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,equals,Long Method
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,Body,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,ScanCodeInfo,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,ScanCodeInfo,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,SendPicsInfo,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,SendPicsInfo,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,Item,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,Item,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,SendLocationInfo,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.module.web,SendLocationInfo,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.module.web,SendLocationInfo,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,WxRequestBody,of,Long Statement
+88ybg,com.mxixm.fastboot.weixin.module.web,SendPicture,of,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMediaResponseBodyAdvice,getOrder,Magic Number
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMediaResponseBodyAdvice,supports,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMediaResponseBodyAdvice,beforeBodyWrite,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMessageResponseBodyAdvice,getOrder,Magic Number
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMessageResponseBodyAdvice,supports,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxMessageResponseBodyAdvice,beforeBodyWrite,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxStringResponseBodyAdvice,getOrder,Magic Number
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxStringResponseBodyAdvice,supports,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.advice,WxStringResponseBodyAdvice,beforeBodyWrite,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,WxMappingHandlerMapping,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,isWxPostRequest,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,lookupHandlerMethod,Missing default
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,createHandlerMethod,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,createWxButtonMappingInfo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,createWxMessageMappingInfo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,createWxEventMappingInfo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,getHandlersByContent,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,register,Complex Method
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,WxMappingHandlerMapping,assertUniqueMethodMapping,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,MappingRegistry,getHandlersByContent,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,MappingRegistry,register,Complex Method
+88ybg,com.mxixm.fastboot.weixin.mvc.annotation,MappingRegistry,assertUniqueMethodMapping,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.condition,AbstractWxEnumCondition,compareTo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.condition,WxMessageWildcardCondition,getMatchingCondition,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.condition,WxMessageWildcardCondition,compareTo,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,WxMappingInfo,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,getMatchingCondition,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,hashCode,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.mvc.method,WxMappingInfo,build,Long Statement
+88ybg,com.mxixm.fastboot.weixin.mvc.method,DefaultBuilder,build,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,MapDbWxMediaStore,store,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,MapDbWxMediaStore,storeResource,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,MapDbWxMediaStore,afterPropertiesSet,Magic Number
+88ybg,com.mxixm.fastboot.weixin.support,MapDbWxMediaStore,StoreEntity,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.support,MapDbWxMediaStore,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,StoreEntity,StoreEntity,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.support,StoreEntity,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.support,WxAccessTokenManager,refrestToken,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,CacheMap,clearOverflowCache,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,CacheMap,put,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,CacheMap,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.util,CacheMap,main,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.util,CryptUtils,byteToHexString,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,WildcardUtils,wildcardMatch,Complex Method
+88ybg,com.mxixm.fastboot.weixin.util,WildcardUtils,splitOnTokens,Complex Conditional
+88ybg,com.mxixm.fastboot.weixin.util,WildcardUtils,splitOnTokens,Complex Method
+88ybg,com.mxixm.fastboot.weixin.util,WxMediaUtils,resourceModifiedTime,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.util,WxRedirectUtils,redirect,Empty catch clause
+88ybg,com.mxixm.fastboot.weixin.util,WxRedirectUtils,redirect,Long Statement
+88ybg,com.mxixm.fastboot.weixin.util,WxRedirectUtils,redirect,Magic Number
+88ybg,com.mxixm.fastboot.weixin.util,WxWebUtils,isMutlipart,Long Statement
+88ybg,com.mxixm.fastboot.weixin.web,WxOAuth2Interceptor,preHandle,Long Statement
+88ybg,com.mxixm.fastboot.weixin.web,WxWebUser,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.web,WxWebUser,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.web,WxWebUser,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.web,WxWebUser,toString,Long Statement
+88ybg,com.ybg.api.domain,WeixinJson,getErrorMsg,Empty catch clause
+88ybg,com.ybg.api.network,WeixinNetWork,template_send,Long Parameter List
+88ybg,com.ybg.api.network,WeixinNetWorkImpl,getWeixinIPaddress,Long Statement
+88ybg,com.ybg.api.network,WeixinNetWorkImpl,template_send,Long Parameter List
+88ybg,com.ybg.member.domain,WeixinUserDO,toString,Long Statement
+88ybg,com.ybg.member.domain,WeixinUserVO,toString,Long Statement
+88ybg,com.ybg.menu.controller,WeixinMenuController,create,Complex Method
+88ybg,com.ybg.menu.controller,WeixinMenuController,create,Missing default
+88ybg,com.ybg.menu.controller,WeixinMenuController,select,Magic Number
+88ybg,com.ybg.menu.controller,WeixinMenuController,get,Magic Number
+88ybg,com.ybg.menu.controller,WeixinMenuController,update,Complex Method
+88ybg,com.ybg.menu.controller,WeixinMenuController,update,Missing default
+88ybg,com.ybg.menu.dao,WeixinButtonDaoImpl,get,Long Statement
+88ybg,com.ybg.menu.domain,WeixinButtonDO,toString,Long Statement
+88ybg,com.ybg.menu.domain,WeixinButtonVO,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessage,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessage,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Builder,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,News,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Builder,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,WxMessageBody,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Media,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Media,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Video,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Video,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Video,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Video,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Video,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Music,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,News,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Item,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.first,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessage,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessage,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Builder,body,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,News,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Builder,build,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,WxMessageBody,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Media,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Media,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Video,Video,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Video,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Video,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Video,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Video,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,Music,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,equals,Complex Method
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,equals,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,hashCode,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Music,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,News,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Item,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.failed.second,Builder,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,JsonTest,main,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,MethodToUrlTest,main,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,TestInvocation,main,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,TestInvocation,test2,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test,InvokedObject,test2,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test,WxApp,news,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,WxApp,imgae,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,WxApp,location,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,WxApp,templateMessage,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test,WxApp,cards,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,storeFileToTempMedia,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,storeUrlToTempMedia,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,storeFileToMedia,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,storeFile,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,afterPropertiesSet,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,afterPropertiesSet,Magic Number
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,StoreEntity,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.old.media,WxMediaStore,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,StoreEntity,StoreEntity,Long Parameter List
+88ybg,com.mxixm.fastboot.weixin.test.old.media,StoreEntity,toString,Long Statement
+88ybg,com.mxixm.fastboot.weixin.test.old.media,Builder,toString,Long Statement

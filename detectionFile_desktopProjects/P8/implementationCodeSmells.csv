@@ -1,0 +1,431 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+JSH_ERP,com.jsh.erp.config,PluginConfiguration,toString,Long Statement
+JSH_ERP,com.jsh.erp.config,Swagger2Config,createRestApi,Long Statement
+JSH_ERP,com.jsh.erp.config,Swagger2Config,apiInfo,Long Statement
+JSH_ERP,com.jsh.erp.config,TenantConfig,paginationInterceptor,Complex Conditional
+JSH_ERP,com.jsh.erp.config,TenantConfig,paginationInterceptor,Long Statement
+JSH_ERP,com.jsh.erp.config,TenantConfig,doTableFilter,Complex Conditional
+JSH_ERP,com.jsh.erp.config,TenantConfig,doTableFilter,Long Statement
+JSH_ERP,com.jsh.erp.controller,AccountController,getAccount,Magic Number
+JSH_ERP,com.jsh.erp.controller,AccountController,findAccountInOutList,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,AccountController,findAccountInOutList,Long Statement
+JSH_ERP,com.jsh.erp.controller,AccountController,findAccountInOutList,Magic Number
+JSH_ERP,com.jsh.erp.controller,AccountController,getStatistics,Magic Number
+JSH_ERP,com.jsh.erp.controller,AccountHeadController,getDetailByNumber,Magic Number
+JSH_ERP,com.jsh.erp.controller,AccountItemController,getDetailList,Long Statement
+JSH_ERP,com.jsh.erp.controller,AccountItemController,getDetailList,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotController,getAllList,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotController,findDepotByCurrentUser,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInDetail,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInDetail,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInDetail,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInOutMaterialCount,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInOutMaterialCount,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findInOutMaterialCount,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findallocationDetail,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findallocationDetail,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findallocationDetail,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findStatementAccount,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findStatementAccount,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,findStatementAccount,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,getDetailByNumber,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,getBuyAndSaleStatistics,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,getCreatorByRoleType,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotHeadController,debtList,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findDetailByTypeAndMaterialId,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findStockByDepotAndBarCode,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,getDetailList,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,getOtherInfo,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findByAll,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findByAll,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findByAll,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,totalCountMoney,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,buyIn,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotItemController,buyIn,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,buyIn,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,saleOut,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotItemController,saleOut,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,saleOut,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findStockWarningCount,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findStockWarningCount,Long Statement
+JSH_ERP,com.jsh.erp.controller,DepotItemController,findStockWarningCount,Magic Number
+JSH_ERP,com.jsh.erp.controller,DepotItemController,buyOrSalePrice,Magic Number
+JSH_ERP,com.jsh.erp.controller,FunctionController,findByIds,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialAttributeController,getAll,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialCategoryController,getAllList,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialCategoryController,findById,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialCategoryController,addMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialCategoryController,editMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,checkIsExist,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,MaterialController,checkIsExist,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,findById,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,findByIdWithBarCode,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,findByIdWithBarCode,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,findBySelect,Complex Method
+JSH_ERP,com.jsh.erp.controller,MaterialController,findBySelect,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,MaterialController,findBySelect,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,findBySelect,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByMeId,Complex Method
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByMeId,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,exportExcel,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,MaterialController,exportExcel,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,exportExcel,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,importExcel,Empty catch clause
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialEnableSerialNumberList,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaxBarCode,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByBarCode,Complex Conditional
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByBarCode,Complex Method
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByBarCode,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,getMaterialByBarCode,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialController,getListWithStock,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,MaterialController,getListWithStock,Long Statement
+JSH_ERP,com.jsh.erp.controller,MaterialController,getListWithStock,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialExtendController,getDetailList,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialExtendController,getInfoByBarCode,Magic Number
+JSH_ERP,com.jsh.erp.controller,MaterialExtendController,checkIsBarCodeExist,Magic Number
+JSH_ERP,com.jsh.erp.controller,MsgController,getMsgByStatus,Magic Number
+JSH_ERP,com.jsh.erp.controller,MsgController,batchUpdateStatus,Magic Number
+JSH_ERP,com.jsh.erp.controller,MsgController,getMsgCountByStatus,Magic Number
+JSH_ERP,com.jsh.erp.controller,OrganizationController,findById,Magic Number
+JSH_ERP,com.jsh.erp.controller,OrganizationController,addOrganization,Long Statement
+JSH_ERP,com.jsh.erp.controller,OrganizationController,editOrganization,Long Statement
+JSH_ERP,com.jsh.erp.controller,PersonController,getAllList,Magic Number
+JSH_ERP,com.jsh.erp.controller,PersonController,getPersonByIds,Magic Number
+JSH_ERP,com.jsh.erp.controller,PersonController,getPersonByType,Magic Number
+JSH_ERP,com.jsh.erp.controller,PlatformConfigController,isShowAd,Magic Number
+JSH_ERP,com.jsh.erp.controller,PlatformConfigController,getPlatformConfigByKey,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,getPluginInfo,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,stop,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,start,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,uninstall,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,install,Magic Number
+JSH_ERP,com.jsh.erp.controller,PluginController,getMacWithSecret,Magic Number
+JSH_ERP,com.jsh.erp.controller,ResourceController,getList,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,ResourceController,getList,Magic Number
+JSH_ERP,com.jsh.erp.controller,SequenceController,buildNumber,Magic Number
+JSH_ERP,com.jsh.erp.controller,SerialNumberController,checkIsExist,Long Statement
+JSH_ERP,com.jsh.erp.controller,SupplierController,exportExcel,Long Parameter List
+JSH_ERP,com.jsh.erp.controller,SupplierController,exportExcel,Long Statement
+JSH_ERP,com.jsh.erp.controller,SupplierController,exportExcel,Magic Number
+JSH_ERP,com.jsh.erp.controller,SupplierController,importExcel,Magic Number
+JSH_ERP,com.jsh.erp.controller,SupplierController,importFun,Magic Number
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,getCurrentInfo,Magic Number
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,fileSizeLimit,Magic Number
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,upload,Magic Number
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,uploadLocal,Long Statement
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,view,Long Statement
+JSH_ERP,com.jsh.erp.controller,SystemConfigController,view,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserBusinessController,getBasicData,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserBusinessController,updateBtnStr,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,login,Complex Method
+JSH_ERP,com.jsh.erp.controller,UserController,login,Long Statement
+JSH_ERP,com.jsh.erp.controller,UserController,login,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,login,Missing default
+JSH_ERP,com.jsh.erp.controller,UserController,getSessionUser,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,logout,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,updatePwd,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,getAllList,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,addUser,Long Statement
+JSH_ERP,com.jsh.erp.controller,UserController,getRoleTypeByCurrentUser,Magic Number
+JSH_ERP,com.jsh.erp.controller,UserController,randomImage,Magic Number
+JSH_ERP,com.jsh.erp.datasource.mappers,AccountHeadMapperEx,selectByConditionAccountHead,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,AccountHeadMapperEx,countsByAccountHead,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,AccountItemMapperEx,selectByConditionAccountItem,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,AccountMapperEx,selectByConditionAccount,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,selectByConditionDepotHead,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,countsByDepotHead,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findByAll,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findByAllCount,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findInOutMaterialCount,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findInOutMaterialCountTotal,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findAllocationDetail,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findAllocationDetailCount,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findStatementAccount,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,findAllMoney,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,getBuyAndSaleStatistics,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,getBuyAndSaleRetailStatistics,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotHeadMapperEx,debtList,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotItemMapperEx,selectByConditionDepotItem,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotItemMapperEx,buyOrSaleNumber,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotItemMapperEx,buyOrSalePrice,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,DepotMapperEx,selectByConditionDepot,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,InOutItemMapperEx,selectByConditionInOutItem,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,LogMapperEx,selectByConditionLog,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,LogMapperEx,countsByLog,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,MaterialMapperEx,selectByConditionMaterial,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,MaterialMapperEx,countsByMaterial,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,MaterialMapperEx,findByAll,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,MaterialMapperEx,getListWithStock,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,MaterialMapperEx,checkIsExist,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,SerialNumberMapperEx,sellSerialNumber,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,SerialNumberMapperEx,cancelSerialNumber,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,SupplierMapperEx,selectByConditionSupplier,Long Parameter List
+JSH_ERP,com.jsh.erp.datasource.mappers,TenantMapperEx,selectByConditionTenant,Long Parameter List
+JSH_ERP,com.jsh.erp,ErpApplication,main,Long Statement
+JSH_ERP,com.jsh.erp.exception,JshException,readFail,Long Statement
+JSH_ERP,com.jsh.erp.exception,JshException,writeFail,Long Statement
+JSH_ERP,com.jsh.erp.filter,LogCostFilter,doFilter,Complex Conditional
+JSH_ERP,com.jsh.erp.filter,LogCostFilter,doFilter,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.account,AccountService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,insertAccount,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,updateAccount,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,batchDeleteAccountByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,getAccountSum,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,getAccountSumByHead,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,getAccountSumByDetail,Complex Method
+JSH_ERP,com.jsh.erp.service.account,AccountService,getAccountSumByDetail,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,getManyAccountSum,Complex Method
+JSH_ERP,com.jsh.erp.service.account,AccountService,getManyAccountSum,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,updateIsDefault,Long Statement
+JSH_ERP,com.jsh.erp.service.account,AccountService,getStatistics,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadComponent,getAccountHeadList,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,countAccountHead,Long Parameter List
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,countAccountHead,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,insertAccountHead,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,updateAccountHead,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,batchDeleteAccountHeadByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,addAccountHeadAndDetail,Long Statement
+JSH_ERP,com.jsh.erp.service.accountHead,AccountHeadService,updateAccountHeadAndDetail,Long Statement
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,updateAccountItem,Long Statement
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,deleteAccountItem,Long Statement
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,saveDetials,Complex Method
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,saveDetials,Long Statement
+JSH_ERP,com.jsh.erp.service.accountItem,AccountItemService,batchDeleteAccountItemByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depot,DepotService,insertDepot,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,updateDepot,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,batchDeleteDepotByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,updateIsDefault,Long Statement
+JSH_ERP,com.jsh.erp.service.depot,DepotService,findDepotByCurrentUser,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadComponent,getDepotHeadList,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadComponent,counts,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,select,Complex Conditional
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,select,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,countDepotHead,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,countDepotHead,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,updateDepotHead,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,batchDeleteBillByIds,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,batchDeleteBillByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findByAll,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findByAllCount,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findInOutMaterialCount,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findInOutMaterialCountTotal,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findAllocationDetail,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findAllocationDetailCount,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findStatementAccount,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findStatementAccount,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,findAllMoney,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,allMoney,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,getDetailByNumber,Complex Conditional
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,getDetailByNumber,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,getDetailByNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,addDepotHeadAndDetail,Complex Conditional
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,addDepotHeadAndDetail,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,addDepotHeadAndDetail,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,updateDepotHeadAndDetail,Complex Conditional
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,updateDepotHeadAndDetail,Complex Method
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,updateDepotHeadAndDetail,Long Statement
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,getBuyAndSaleStatistics,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,getBuyAndSaleRetailStatistics,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,debtList,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotHead,DepotHeadService,debtList,Long Statement
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,buyOrSale,Long Parameter List
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,saveDetials,Complex Method
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,saveDetials,Long Method
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,saveDetials,Long Statement
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,getSkuStockByParam,Long Statement
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,getStockByParam,Long Statement
+JSH_ERP,com.jsh.erp.service.depotItem,DepotItemService,updateCurrentStockFun,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,insertFunction,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,updateFunction,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,batchDeleteFunctionByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,getRoleFunction,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,findRoleFunction,Long Statement
+JSH_ERP,com.jsh.erp.service.functions,FunctionService,findByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.inOutItem,InOutItemService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.inOutItem,InOutItemService,insertInOutItem,Long Statement
+JSH_ERP,com.jsh.erp.service.inOutItem,InOutItemService,updateInOutItem,Long Statement
+JSH_ERP,com.jsh.erp.service.inOutItem,InOutItemService,batchDeleteInOutItemByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.inOutItem,InOutItemService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.log,LogComponent,getLogList,Long Statement
+JSH_ERP,com.jsh.erp.service.log,LogService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.log,LogService,countLog,Long Parameter List
+JSH_ERP,com.jsh.erp.service.log,LogService,insertLogWithUserId,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialComponent,getMaterialList,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,select,Complex Method
+JSH_ERP,com.jsh.erp.service.material,MaterialService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,countMaterial,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialService,insertMaterial,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,updateMaterial,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,batchDeleteMaterialByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,checkIsExist,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialService,batchSetStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,findBySelectWithBarCodeCount,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,findByAll,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialService,importExcel,Complex Method
+JSH_ERP,com.jsh.erp.service.material,MaterialService,importExcel,Long Method
+JSH_ERP,com.jsh.erp.service.material,MaterialService,importExcel,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,importExcel,Magic Number
+JSH_ERP,com.jsh.erp.service.material,MaterialService,getMaterialListByParam,Long Parameter List
+JSH_ERP,com.jsh.erp.service.material,MaterialService,getInitStockByMid,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,getInitStock,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,getCurrentStock,Long Statement
+JSH_ERP,com.jsh.erp.service.material,MaterialService,getListWithStock,Long Parameter List
+JSH_ERP,com.jsh.erp.service.materialAttribute,MaterialAttributeService,insertMaterialAttribute,Long Statement
+JSH_ERP,com.jsh.erp.service.materialAttribute,MaterialAttributeService,updateMaterialAttribute,Long Statement
+JSH_ERP,com.jsh.erp.service.materialAttribute,MaterialAttributeService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,insertMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,updateMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,batchDeleteMaterialCategoryByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,addMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,editMaterialCategory,Long Statement
+JSH_ERP,com.jsh.erp.service.materialCategory,MaterialCategoryService,checkMaterialCategorySerialNo,Long Statement
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,saveDetials,Complex Method
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,saveDetials,Long Method
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,saveDetials,Long Statement
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,getMaterialExtendByTenantAndTime,Complex Conditional
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,getMaterialExtendByTenantAndTime,Long Statement
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,selectIdByMaterialIdAndDefaultFlag,Long Statement
+JSH_ERP,com.jsh.erp.service.materialExtend,MaterialExtendService,getMeListByBarCodeAndMid,Long Statement
+JSH_ERP,com.jsh.erp.service.materialProperty,MaterialPropertyService,insertMaterialProperty,Long Statement
+JSH_ERP,com.jsh.erp.service.materialProperty,MaterialPropertyService,updateMaterialProperty,Long Statement
+JSH_ERP,com.jsh.erp.service.materialProperty,MaterialPropertyService,batchDeleteMaterialPropertyByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,getMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,countMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,insertMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,updateMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,deleteMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,batchDeleteMsg,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,batchDeleteMsgByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,getMsgByStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,batchUpdateStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.msg,MsgService,getMsgCountByStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,insertOrganization,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,updateOrganization,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,batchDeleteOrganizationByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,addOrganization,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,editOrganization,Long Statement
+JSH_ERP,com.jsh.erp.service.organization,OrganizationService,checkOrgNoIsExists,Long Statement
+JSH_ERP,com.jsh.erp.service.orgaUserRel,OrgaUserRelService,updateOrgaUserRel,Long Statement
+JSH_ERP,com.jsh.erp.service.orgaUserRel,OrgaUserRelService,deleteOrgaUserRel,Long Statement
+JSH_ERP,com.jsh.erp.service.person,PersonService,insertPerson,Long Statement
+JSH_ERP,com.jsh.erp.service.person,PersonService,updatePerson,Long Statement
+JSH_ERP,com.jsh.erp.service.person,PersonService,batchDeletePersonByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.person,PersonService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.role,RoleService,insertRole,Long Statement
+JSH_ERP,com.jsh.erp.service.role,RoleService,updateRole,Long Statement
+JSH_ERP,com.jsh.erp.service.role,RoleService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.role,RoleService,batchDeleteRoleByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,insertSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,updateSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,batchDeleteSerialNumberByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,checkIsExist,Complex Method
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,checkIsExist,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,checkMaterialName,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,checkAndUpdateSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,sellSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,cancelSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.serialNumber,SerialNumberService,batAddSerialNumber,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,select,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,insertSupplier,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,updateSupplier,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,batchDeleteSupplierByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,findBySelectCus,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,findBySelectSup,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,findBySelectRetail,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,batchSetStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,importExcel,Long Statement
+JSH_ERP,com.jsh.erp.service.supplier,SupplierService,importExcel,Magic Number
+JSH_ERP,com.jsh.erp.service.systemConfig,SystemConfigService,insertSystemConfig,Long Statement
+JSH_ERP,com.jsh.erp.service.systemConfig,SystemConfigService,updateSystemConfig,Long Statement
+JSH_ERP,com.jsh.erp.service.systemConfig,SystemConfigService,batchDeleteSystemConfigByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.systemConfig,SystemConfigService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.tenant,TenantService,select,Long Parameter List
+JSH_ERP,com.jsh.erp.service.tenant,TenantService,batchSetStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.unit,UnitService,insertUnit,Long Statement
+JSH_ERP,com.jsh.erp.service.unit,UnitService,updateUnit,Long Statement
+JSH_ERP,com.jsh.erp.service.unit,UnitService,batchDeleteUnitByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.unit,UnitService,checkIsNameExist,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,insertUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,updateUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,updateUserByObj,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,resetPwd,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,batDeleteUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,validateUser,Complex Method
+JSH_ERP,com.jsh.erp.service.user,UserService,validateUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,getCurrentUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,addUserAndOrgUserRel,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,registerUser,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,updateUserAndOrgUserRel,Complex Method
+JSH_ERP,com.jsh.erp.service.user,UserService,updateUserAndOrgUserRel,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,checkUserNameAndLoginName,Complex Conditional
+JSH_ERP,com.jsh.erp.service.user,UserService,checkUserNameAndLoginName,Complex Method
+JSH_ERP,com.jsh.erp.service.user,UserService,checkUserNameAndLoginName,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,getBtnStrArrById,Complex Conditional
+JSH_ERP,com.jsh.erp.service.user,UserService,batchSetStatus,Long Statement
+JSH_ERP,com.jsh.erp.service.user,UserService,batchSetStatus,Magic Number
+JSH_ERP,com.jsh.erp.service.userBusiness,UserBusinessService,batchDeleteUserBusinessByIds,Long Statement
+JSH_ERP,com.jsh.erp.service.userBusiness,UserBusinessService,getBasicData,Long Statement
+JSH_ERP,com.jsh.erp.service.userBusiness,UserBusinessService,checkIsValueExist,Long Statement
+JSH_ERP,com.jsh.erp.service.userBusiness,UserBusinessService,updateBtnStr,Long Statement
+JSH_ERP,com.jsh.erp.utils,BaseResponseInfo,BaseResponseInfo,Magic Number
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,exportObjects,Long Statement
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,exportObjects,Magic Number
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,exportObjectsWithoutTitle,Long Statement
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,exportObjectsWithoutTitle,Magic Number
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,createTempFile,Long Statement
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,createTempFile,Magic Number
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,createCheckRandomTempFile,Long Statement
+JSH_ERP,com.jsh.erp.utils,ExcelUtils,createCheckRandomTempFile,Magic Number
+JSH_ERP,com.jsh.erp.utils,ExportExecUtil,showExec,Magic Number
+JSH_ERP,com.jsh.erp.utils,FileUtils,SaveFileFromInputStream,Magic Number
+JSH_ERP,com.jsh.erp.utils,FileUtils,readPropertyFile,Magic Number
+JSH_ERP,com.jsh.erp.utils,HttpClient,httpPost,Empty catch clause
+JSH_ERP,com.jsh.erp.utils,JsonUtils,ok,Magic Number
+JSH_ERP,com.jsh.erp.utils,OrderUtils,getOrderString,Magic Number
+JSH_ERP,com.jsh.erp.utils,OrderUtils,getJoinTablesOrderString,Magic Number
+JSH_ERP,com.jsh.erp.utils,QueryUtils,filterSqlSpecialChar,Long Statement
+JSH_ERP,com.jsh.erp.utils,QueryUtils,filter,Complex Method
+JSH_ERP,com.jsh.erp.utils,RandImageUtil,getImageBuffer,Magic Number
+JSH_ERP,com.jsh.erp.utils,RandImageUtil,getRandColor,Magic Number
+JSH_ERP,com.jsh.erp.utils,RegExpTools,main,Magic Number
+JSH_ERP,com.jsh.erp.utils,RegExp,main,Magic Number
+JSH_ERP,com.jsh.erp.utils,ResponseJsonUtil,process,Complex Conditional
+JSH_ERP,com.jsh.erp.utils,ResponseJsonUtil,backJson4HttpApi,Long Statement
+JSH_ERP,com.jsh.erp.utils,ResponseJsonUtil,backJson4VerifyFailure,Long Statement
+JSH_ERP,com.jsh.erp.utils,ResponseJsonUtil,backJson,Long Statement
+JSH_ERP,com.jsh.erp.utils,ResponseFilter,process,Complex Conditional
+JSH_ERP,com.jsh.erp.utils,StringUtil,main,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,getWeekDay,Complex Method
+JSH_ERP,com.jsh.erp.utils,Tools,getWeekDay,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,getWeekDay,Missing default
+JSH_ERP,com.jsh.erp.utils,Tools,getRandomChar,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,getRandomChar,Missing default
+JSH_ERP,com.jsh.erp.utils,Tools,changeUnicode,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,getConsumeMonth,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,removeSymbolForString,Complex Conditional
+JSH_ERP,com.jsh.erp.utils,Tools,removeSymbolForString,Long Statement
+JSH_ERP,com.jsh.erp.utils,Tools,removeSymbolForString,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,md5Encryp,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,getTenantIdByToken,Magic Number
+JSH_ERP,com.jsh.erp.utils,Tools,main,Magic Number
+JSH_ERP,(default package),ThreadPoolTest,main,Magic Number

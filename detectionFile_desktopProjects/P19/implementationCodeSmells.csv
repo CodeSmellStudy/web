@@ -1,0 +1,117 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+uexam,com.mindskip.xzs.configuration.property,CookieConfig,getInterval,Magic Number
+uexam,com.mindskip.xzs.configuration.spring.mvc,WebMvcConfiguration,addResourceHandlers,Magic Number
+uexam,com.mindskip.xzs.configuration.spring.mvc,WebMvcConfiguration,addInterceptors,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.security,RestLoginAuthenticationFilter,setUserDetailsService,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.security,RestLogoutSuccessHandler,onLogoutSuccess,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,FormLoginWebSecurityConfigurerAdapter,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,FormLoginWebSecurityConfigurerAdapter,Long Parameter List
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,configure,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,configure,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,corsConfigurationSource,Magic Number
+uexam,com.mindskip.xzs.configuration.spring.security,SecurityConfigurer,authenticationFilter,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,FormLoginWebSecurityConfigurerAdapter,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,FormLoginWebSecurityConfigurerAdapter,Long Parameter List
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,configure,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,configure,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,corsConfigurationSource,Magic Number
+uexam,com.mindskip.xzs.configuration.spring.security,FormLoginWebSecurityConfigurerAdapter,authenticationFilter,Long Identifier
+uexam,com.mindskip.xzs.configuration.spring.wx,TokenHandlerInterceptor,preHandle,Long Statement
+uexam,com.mindskip.xzs.configuration.spring.wx,TokenHandlerInterceptor,preHandle,Magic Number
+uexam,com.mindskip.xzs.context,WebContext,getCurrentUser,Long Statement
+uexam,com.mindskip.xzs.context,WxContext,setContext,Long Statement
+uexam,com.mindskip.xzs.context,WxContext,getCurrentUser,Long Statement
+uexam,com.mindskip.xzs.context,WxContext,getCurrentUserToken,Long Statement
+uexam,com.mindskip.xzs.controller.admin,DashboardController,DashboardController,Long Identifier
+uexam,com.mindskip.xzs.controller.admin,DashboardController,DashboardController,Long Parameter List
+uexam,com.mindskip.xzs.controller.admin,DashboardController,Index,Long Identifier
+uexam,com.mindskip.xzs.controller.admin,MessageController,pageList,Long Statement
+uexam,com.mindskip.xzs.controller.admin,QuestionController,edit,Long Identifier
+uexam,com.mindskip.xzs.controller.admin,QuestionController,validQuestionEditRequestVM,Long Statement
+uexam,com.mindskip.xzs.controller.admin,UploadController,upload,Magic Number
+uexam,com.mindskip.xzs.controller.admin,UploadController,questionUploadAndReadExcel,Magic Number
+uexam,com.mindskip.xzs.controller.admin,UserController,edit,Magic Number
+uexam,com.mindskip.xzs.controller.admin,UserController,changeStatus,Long Statement
+uexam,com.mindskip.xzs.controller,ErrorController,error,Magic Number
+uexam,com.mindskip.xzs.controller.student,DashboardController,DashboardController,Long Parameter List
+uexam,com.mindskip.xzs.controller.student,DashboardController,task,Long Statement
+uexam,com.mindskip.xzs.controller.student,ExamPaperAnswerController,answerSubmit,Long Statement
+uexam,com.mindskip.xzs.controller.student,ExamPaperAnswerController,answerSubmit,Magic Number
+uexam,com.mindskip.xzs.controller.student,ExamPaperAnswerController,edit,Long Statement
+uexam,com.mindskip.xzs.controller.student,ExamPaperAnswerController,edit,Magic Number
+uexam,com.mindskip.xzs.controller.student,QuestionAnswerController,QuestionAnswerController,Long Identifier
+uexam,com.mindskip.xzs.controller.student,QuestionAnswerController,pageList,Long Identifier
+uexam,com.mindskip.xzs.controller.student,QuestionAnswerController,select,Long Identifier
+uexam,com.mindskip.xzs.controller.student,QuestionAnswerController,select,Long Statement
+uexam,com.mindskip.xzs.controller.student,UploadController,questionUploadAndReadExcel,Magic Number
+uexam,com.mindskip.xzs.controller.student,UserController,UserController,Long Parameter List
+uexam,com.mindskip.xzs.controller.student,UserController,register,Magic Number
+uexam,com.mindskip.xzs.controller.wx.student,AuthController,bind,Magic Number
+uexam,com.mindskip.xzs.controller.wx.student,AuthController,checkBind,Magic Number
+uexam,com.mindskip.xzs.controller.wx.student,DashboardController,task,Long Statement
+uexam,com.mindskip.xzs.controller.wx.student,ExamPaperAnswerController,answerSubmit,Long Statement
+uexam,com.mindskip.xzs.controller.wx.student,ExamPaperAnswerController,answerSubmit,Magic Number
+uexam,com.mindskip.xzs.controller.wx.student,ExamPaperAnswerController,requestToExamPaperSubmitVM,Long Statement
+uexam,com.mindskip.xzs.controller.wx.student,ExamPaperAnswerController,requestToExamPaperSubmitVM,Magic Number
+uexam,com.mindskip.xzs.controller.wx.student,UserController,UserController,Long Parameter List
+uexam,com.mindskip.xzs.controller.wx.student,UserController,register,Magic Number
+uexam,com.mindskip.xzs.domain,ExamPaperAnswerInfo,getExamPaperQuestionCustomerAnswers,Long Identifier
+uexam,com.mindskip.xzs.domain,ExamPaperAnswerInfo,setExamPaperQuestionCustomerAnswers,Long Identifier
+uexam,com.mindskip.xzs.listener,CalculateExamPaperAnswerListener,CalculateExamPaperAnswerListener,Long Identifier
+uexam,com.mindskip.xzs.listener,CalculateExamPaperAnswerListener,onApplicationEvent,Long Identifier
+uexam,com.mindskip.xzs.listener,CalculateExamPaperAnswerListener,onApplicationEvent,Long Statement
+uexam,com.mindskip.xzs.listener,CalculateExamPaperAnswerListener,onApplicationEvent,Missing default
+uexam,com.mindskip.xzs.service,ExamPaperQuestionCustomerAnswerService,insertList,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperAnswerServiceImpl,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperAnswerServiceImpl,Long Parameter List
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,studentPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,calculateExamPaperAnswer,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,calculateExamPaperAnswer,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,judge,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,judge,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,judge,Missing default
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,examPaperAnswerToVM,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,examPaperAnswerToVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperQuestionCustomerAnswerFromVM,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperQuestionCustomerAnswerFromVM,Long Parameter List
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,setSpecialFromVM,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,setSpecialFromVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,setSpecialFromVM,Missing default
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperAnswerFromVM,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperAnswerFromVM,Long Parameter List
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,ExamPaperAnswerFromVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperAnswerServiceImpl,adminPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,ExamPaperQuestionCustomerAnswerServiceImpl,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,studentPage,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,studentPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,selectListByPaperAnswerId,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,insertList,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,selectAllCount,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,selectMothCount,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,updateScore,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,setSpecialToVM,Long Identifier
+uexam,com.mindskip.xzs.service.impl,ExamPaperQuestionCustomerAnswerServiceImpl,setSpecialToVM,Missing default
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,ExamPaperServiceImpl,Long Parameter List
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,taskExamPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,studentPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,examPaperToVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,ExamPaperServiceImpl,examPaperFromVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,MessageServiceImpl,studentPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,MessageServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,QuestionServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,QuestionServiceImpl,getQuestionEditRequestVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,QuestionServiceImpl,getQuestionEditRequestVM,Missing default
+uexam,com.mindskip.xzs.service.impl,SubjectServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,TaskExamCustomerAnswerImpl,insertOrUpdate,Long Statement
+uexam,com.mindskip.xzs.service.impl,TaskExamServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,TaskExamServiceImpl,edit,Long Statement
+uexam,com.mindskip.xzs.service.impl,TaskExamServiceImpl,taskExamToVM,Long Statement
+uexam,com.mindskip.xzs.service.impl,UserEventLogServiceImpl,page,Long Statement
+uexam,com.mindskip.xzs.service.impl,UserServiceImpl,userPageList,Magic Number
+uexam,com.mindskip.xzs.service.impl,UserServiceImpl,userPage,Long Statement
+uexam,com.mindskip.xzs.service.impl,UserServiceImpl,updateUsersAge,Magic Number
+uexam,com.mindskip.xzs.service.impl,UserTokenServiceImpl,UserTokenServiceImpl,Long Parameter List
+uexam,com.mindskip.xzs.utility,ExamUtil,scoreToVM,Magic Number
+uexam,com.mindskip.xzs.utility,ExamUtil,scoreFromVM,Magic Number
+uexam,com.mindskip.xzs.utility,ExamUtil,secondToVM,Magic Number

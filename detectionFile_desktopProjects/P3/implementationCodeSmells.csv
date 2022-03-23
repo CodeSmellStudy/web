@@ -1,0 +1,1195 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+datagear,org.datagear.analysis,AbstractIdentifiable,hashCode,Magic Number
+datagear,org.datagear.analysis,Category,hashCode,Magic Number
+datagear,org.datagear.analysis,Category,toString,Long Statement
+datagear,org.datagear.analysis,Chart,Chart,Long Parameter List
+datagear,org.datagear.analysis,ChartTheme,ChartTheme,Long Parameter List
+datagear,org.datagear.analysis,ChartTheme,toString,Long Statement
+datagear,org.datagear.analysis,DashboardTheme,DashboardTheme,Long Parameter List
+datagear,org.datagear.analysis,DataSetParam,toString,Long Statement
+datagear,org.datagear.analysis,DataSetProperty,toString,Long Statement
+datagear,org.datagear.analysis,DataSetProperty,resolveDataType,Complex Conditional
+datagear,org.datagear.analysis,DataSetProperty,resolveDataType,Complex Method
+datagear,org.datagear.analysis,DataSetProperty,resolveDataType,Long Statement
+datagear,org.datagear.analysis,DataType,resolveDataType,Complex Conditional
+datagear,org.datagear.analysis,DataType,resolveDataType,Complex Method
+datagear,org.datagear.analysis,DataType,resolveDataType,Long Statement
+datagear,org.datagear.analysis,DataSign,toString,Long Statement
+datagear,org.datagear.analysis,ResultDataFormat,hashCode,Magic Number
+datagear,org.datagear.analysis,ResultDataFormat,equals,Complex Method
+datagear,org.datagear.analysis,ResultDataFormat,toString,Long Statement
+datagear,org.datagear.analysis,Theme,setActualBackgroundColor,Long Statement
+datagear,org.datagear.analysis,Theme,toString,Long Statement
+datagear,org.datagear.analysis.constraint,AbstractValueConstraint,hashCode,Magic Number
+datagear,org.datagear.analysis.support,AbstractChartPluginManager,canReplaceForSameId,Empty catch clause
+datagear,org.datagear.analysis.support,AbstractCsvDataSet,resolveResult,Long Statement
+datagear,org.datagear.analysis.support,AbstractCsvDataSet,resolvePropertyNames,Complex Method
+datagear,org.datagear.analysis.support,AbstractCsvDataSet,resolveProperties,Complex Method
+datagear,org.datagear.analysis.support,AbstractDataSet,checkRequiredParamValues,Long Statement
+datagear,org.datagear.analysis.support,AbstractExcelDataSet,resolvePropertyNames,Complex Method
+datagear,org.datagear.analysis.support,AbstractExcelDataSet,resolvePropertyNames,Empty catch clause
+datagear,org.datagear.analysis.support,AbstractExcelDataSet,resolveProperties,Complex Method
+datagear,org.datagear.analysis.support,AbstractExcelDataSet,resolveCellValue,Complex Method
+datagear,org.datagear.analysis.support,AbstractJsonDataSet,resolveResult,Long Statement
+datagear,org.datagear.analysis.support,AbstractJsonDataSet,resolveRawData,Complex Method
+datagear,org.datagear.analysis.support,AbstractJsonDataSet,resolveRawData,Long Identifier
+datagear,org.datagear.analysis.support,AbstractJsonDataSet,resolveJsonObjProperties,Long Statement
+datagear,org.datagear.analysis.support,AbstractResolvableDataSet,mergeDataSetProperties,Complex Method
+datagear,org.datagear.analysis.support,CategorizationResolver,resolve,Complex Method
+datagear,org.datagear.analysis.support,CsvDirectoryFileDataSet,CsvDirectoryFileDataSet,Long Parameter List
+datagear,org.datagear.analysis.support,DataSetFmkTemplateResolver,DataSetFmkTemplateResolver,Magic Number
+datagear,org.datagear.analysis.support,DataSetFmkTemplateResolver,setDataSetTemplateStandardConfig,Long Identifier
+datagear,org.datagear.analysis.support,DataSetFmkTemplateResolver,NameTemplateLoader,Magic Number
+datagear,org.datagear.analysis.support,DataSetFmkTemplateResolver,NameTemplateLoader,Long Statement
+datagear,org.datagear.analysis.support,DataSetFmkTemplateResolver,hashCode,Magic Number
+datagear,org.datagear.analysis.support,NameTemplateLoader,NameTemplateLoader,Magic Number
+datagear,org.datagear.analysis.support,NameTemplateLoader,NameTemplateLoader,Long Statement
+datagear,org.datagear.analysis.support,NameTemplateLoader,hashCode,Magic Number
+datagear,org.datagear.analysis.support,NameTemplateSource,hashCode,Magic Number
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertValue,Complex Method
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertStringValue,Complex Method
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertBooleanValue,Complex Conditional
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertBooleanValue,Long Statement
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertNumberValue,Complex Method
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertDateValue,Complex Method
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertTimeValue,Complex Method
+datagear,org.datagear.analysis.support,DataSetPropertyValueConverter,convertTimestampValue,Complex Method
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSet,ExcelDirectoryFileDataSet,Long Parameter List
+datagear,org.datagear.analysis.support,HttpDataSet,HttpDataSet,Long Parameter List
+datagear,org.datagear.analysis.support,HttpDataSet,resolveResult,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSet,setHttpHeaders,Long Identifier
+datagear,org.datagear.analysis.support,HttpDataSet,setHttpHeaders,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSet,setHttpEntity,Long Identifier
+datagear,org.datagear.analysis.support,HttpDataSet,setHttpEntity,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSet,toNameValuePairs,Complex Method
+datagear,org.datagear.analysis.support,HttpDataSet,toNameValuePairs,Long Identifier
+datagear,org.datagear.analysis.support,HttpDataSet,handleResponse,Magic Number
+datagear,org.datagear.analysis.support,JsonResponseHandler,handleResponse,Magic Number
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToLabel,Complex Method
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToLabel,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToIcons,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToIcon,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToChartParam,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToEnum,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToDataSign,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToCategory,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToBoolean,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolver,convertToInt,Long Statement
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSet,JsonDirectoryFileDataSet,Long Parameter List
+datagear,org.datagear.analysis.support,RangeExpResolver,hashCode,Magic Number
+datagear,org.datagear.analysis.support,RangeExpResolver,equals,Complex Method
+datagear,org.datagear.analysis.support,Range,hashCode,Magic Number
+datagear,org.datagear.analysis.support,Range,equals,Complex Method
+datagear,org.datagear.analysis.support,IndexRange,hashCode,Magic Number
+datagear,org.datagear.analysis.support,ResultDataFormatter,setResultDataFormat,Long Statement
+datagear,org.datagear.analysis.support,ResultDataFormatter,format,Complex Method
+datagear,org.datagear.analysis.support,SqlDataSet,SqlDataSet,Long Parameter List
+datagear,org.datagear.analysis.support,SqlDataSet,resolveResult,Long Parameter List
+datagear,org.datagear.analysis.support,SqlDataSet,resolveProperties,Complex Conditional
+datagear,org.datagear.analysis.support,SqlDataSet,resolveProperties,Long Statement
+datagear,org.datagear.analysis.support,SqlDataSet,checkDataType,Long Parameter List
+datagear,org.datagear.analysis.support,SqlDataSet,getColumnValue,Long Parameter List
+datagear,org.datagear.analysis.support,SqlDataSet,toPropertyDataType,Complex Method
+datagear,org.datagear.analysis.support,SqlDataSet,toPropertyDataType,Missing default
+datagear,org.datagear.analysis.support,AbstractDataSetTest,resolveResultDataTest_dataFormat_default,Long Statement
+datagear,org.datagear.analysis.support,AbstractDataSetTest,resolveResultDataTest_dataFormat_custom,Long Statement
+datagear,org.datagear.analysis.support,AbstractDataSetTest,resolveResultDataTest_resultDataFormat,Long Method
+datagear,org.datagear.analysis.support,AbstractDataSetTest,resolveResultDataTest_resultDataFormat,Long Statement
+datagear,org.datagear.analysis.support,AbstractDataSetTest,resolveResultDataTest_resultDataFormat,Magic Number
+datagear,org.datagear.analysis.support,AbstractJsonDataSetTest,resolveTest_dataJsonPath,Long Statement
+datagear,org.datagear.analysis.support,AbstractJsonDataSetTest,resolveTest_dataJsonPath,Magic Number
+datagear,org.datagear.analysis.support,AbstractResolvableDataSetTest,mergeDataSetPropertiesTest,Magic Number
+datagear,org.datagear.analysis.support,CsvDirectoryFileDataSetTest,getResultTest,Long Statement
+datagear,org.datagear.analysis.support,CsvDirectoryFileDataSetTest,getResultTest,Magic Number
+datagear,org.datagear.analysis.support,CsvDirectoryFileDataSetTest,resolveTest,Magic Number
+datagear,org.datagear.analysis.support,CsvDirectoryFileDataSetTest,resolveTest_noNameRow,Magic Number
+datagear,org.datagear.analysis.support,CsvValueDataSetTest,getResultTest_hasParam,Magic Number
+datagear,org.datagear.analysis.support,CsvValueDataSetTest,getResultTest_hasParam_convertPropertyValue,Magic Number
+datagear,org.datagear.analysis.support,CsvValueDataSetTest,resolveTest_hasParam,Magic Number
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,getResultTest_xlsx,Long Statement
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,getResultTest_xlsx,Magic Number
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,getResultTest_xlsx_convertPropertyValue,Long Statement
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,getResultTest_xlsx_convertPropertyValue,Magic Number
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_xlsx,Long Statement
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_xlsx,Magic Number
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_xls,Long Statement
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_xls,Magic Number
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_dataRowColumnExp,Long Statement
+datagear,org.datagear.analysis.support,ExcelDirectoryFileDataSetTest,resolveTest_dataRowColumnExp,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,initTestHttpServer,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,handle,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_onlyUri,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_onlyUri,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setRequestMethod_GET,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setRequestMethod_GET,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setRequestMethod_POST,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setRequestMethod_POST,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_REQUEST_CONTENT_TYPE_FORM_URLENCODED,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_REQUEST_CONTENT_TYPE_FORM_URLENCODED,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_REQUEST_CONTENT_TYPE_JSON,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_REQUEST_CONTENT_TYPE_JSON,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setHeaderContent,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setHeaderContent,Magic Number
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setResponseDataJsonPath,Long Statement
+datagear,org.datagear.analysis.support,HttpDataSetTest,resolveTest_setResponseDataJsonPath,Magic Number
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolverTest,resolveChartPluginPropertiesTest,Long Identifier
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolverTest,resolveChartPluginPropertiesTest,Long Method
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolverTest,resolveChartPluginPropertiesTest,Long Statement
+datagear,org.datagear.analysis.support,JsonChartPluginPropertiesResolverTest,resolveChartPluginPropertiesTest,Magic Number
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSetTest,getResultTest,Long Statement
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSetTest,getResultTest,Magic Number
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSetTest,getResultTest_convertPropertyValue,Long Statement
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSetTest,getResultTest_convertPropertyValue,Magic Number
+datagear,org.datagear.analysis.support,JsonDirectoryFileDataSetTest,resolveTest,Magic Number
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,getResultTest_hasParam,Long Statement
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,getResultTest_hasParam,Magic Number
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,getResultTest_hasParam_convertPropertyValue,Long Statement
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,getResultTest_hasParam_convertPropertyValue,Magic Number
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,resolveTest_hasParam,Long Statement
+datagear,org.datagear.analysis.support,JsonValueDataSetTest,resolveTest_hasParam,Magic Number
+datagear,org.datagear.analysis.support,SqlDataSetTest,getResultTest,Long Statement
+datagear,org.datagear.analysis.support,SqlDataSetTest,getResultTest,Magic Number
+datagear,org.datagear.analysis.support.fmk,CsvOutputFormat,escapeCsvString,Missing default
+datagear,org.datagear.analysis.support.fmk,JsonOutputFormat,escapeJsonString,Missing default
+datagear,org.datagear.analysis.support.fmk,SqlOutputFormat,escapeSqlString,Missing default
+datagear,org.datagear.analysis.support.html,AttributeValueHtmlChartPlugin,buildJsChartRenderer,Long Statement
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,getReadCheckForReloadTimeThreashold,Long Identifier
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,setReadCheckForReloadTimeThreashold,Long Identifier
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,upload,Complex Method
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,readCheckForReload,Long Identifier
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,checkForReload,Complex Method
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,loadAndRegisterHtmlChartPlugin,Long Statement
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,inflateCagetory,Complex Conditional
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,inflateCagetory,Complex Method
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManager,inflateCagetory,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChart,HtmlChart,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writeScript,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writePluginJsObject,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writeRenderContextJsObject,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writeRenderContextJsObject,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writeChartJsObject,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,writeChartJsObject,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,getHtmlChartPluginScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,getHtmlRenderContextScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartPlugin,getHtmlChartScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartPluginJsDefResolver,resolveJsDefContent,Complex Conditional
+datagear,org.datagear.analysis.support.html,HtmlChartPluginJsDefResolver,resolveJsDefContent,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlChartPluginJsDefResolver,resolveJsDefContent,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartPluginJsDefResolver,readChartRendererObjectContent,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlChartPluginLoader,getJsonChartPluginPropertiesResolver,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartPluginLoader,setJsonChartPluginPropertiesResolver,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartPluginLoader,loads,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlChartPluginLoader,loadSingleForDirectory,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlChartRenderAttr,HtmlChartRenderOption,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartRenderAttr,toString,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartRenderOption,HtmlChartRenderOption,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartRenderOption,toString,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartWidgetJsonWriter,writeJsonSetting,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartWidgetJsonWriter,escapeJsonStringValue,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboard,HtmlTplDashboard,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardImport,valueOfLinkCss,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardImport,valueOfJavaScript,Long Statement
+datagear,org.datagear.analysis.support.html,ImportItem,valueOfLinkCss,Long Statement
+datagear,org.datagear.analysis.support.html,ImportItem,valueOfJavaScript,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardScriptObjectWriter,HtmlTplDashboardJson,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardJson,HtmlTplDashboardJson,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,HtmlTplDashboardWidgetHtmlRenderer,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,getAttrNameDashboardImportExclude,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,setAttrNameDashboardImportExclude,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,simpleTemplateContent,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,simpleTemplateContent,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,renderHtmlTplDashboard,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,renderHtmlTplDashboard,Long Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,renderHtmlTplDashboard,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,writeDashboardImport,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,writeHtmlTplDashboardScript,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,writeHtmlChartScripts,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,resolveDashboardInfo,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,resolveDashboardInfo,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,resolveDashboardChartInfo,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,resolveDashboardChartInfo,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRenderer,toString,Long Statement
+datagear,org.datagear.analysis.support.html,DashboardInfo,toString,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,HtmlTplDashboardWidgetRenderer,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getTemplateDashboardWidgetResManager,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setTemplateDashboardWidgetResManager,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getHtmlRenderContextScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setHtmlRenderContextScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getHtmlChartPluginScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setHtmlChartPluginScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getHtmlTplDashboardScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setHtmlTplDashboardScriptObjectWriter,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getHtmlChartPluginForGetWidgetException,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setHtmlChartPluginForGetWidgetException,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getImportHtmlChartPluginVarNameResolver,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,setImportHtmlChartPluginVarNameResolver,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,resolveCharset,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,getResourceReaderNonNull,Empty catch clause
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForGetException,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForGetException,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForNotFound,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForNotFound,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForPluginNull,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,createHtmlChartWidgetForPluginNull,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlTplDashboardJSVar,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlTplDashboardJSInit,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlTplDashboardJSInit,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlTplDashboardJSFactoryInit,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeDashboardImport,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlChartPluginScriptsResolveImport,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeHtmlChartPluginScriptsResolveImport,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,writeDashboardThemeStyle,Long Identifier
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,resolveHtmlTagAttr,Complex Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,resolveHtmlTagAttr,Long Parameter List
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,skipHtmlComment,Complex Conditional
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetRenderer,isReadHtmlTagEmptyComment,Magic Number
+datagear,org.datagear.analysis.support.html,TextParserSupport,skipWhitespaceOrBlockLineComment,Complex Method
+datagear,org.datagear.analysis.support.html,TextParserSupport,skipBlockComment,Magic Number
+datagear,org.datagear.analysis.support.html,TextParserSupport,valueIfQuoted,Complex Conditional
+datagear,org.datagear.analysis.support.html,TextParserSupport,valueIfQuoted,Magic Number
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManagerTest,uploadTest,Long Identifier
+datagear,org.datagear.analysis.support.html,DirectoryHtmlChartPluginManagerTest,uploadTest,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartPluginJsDefResolverTest,resolveTest,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlChartPluginLoaderTest,loadsTest,Magic Number
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRendererTest,HtmlTplDashboardWidgetHtmlRendererTest,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRendererTest,renderTest,Magic Number
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRendererTest,renderHtmlTplDashboardTest,Long Method
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRendererTest,renderHtmlTplDashboardTest,Long Statement
+datagear,org.datagear.analysis.support.html,HtmlTplDashboardWidgetHtmlRendererTest,renderHtmlTplDashboardTest,Magic Number
+datagear,org.datagear.connection,AbstractFileDriverEntityManager,getLastModified,Long Identifier
+datagear,org.datagear.connection,AbstractFileDriverEntityManager,importFromZip,Complex Method
+datagear,org.datagear.connection,AbstractFileDriverEntityManager,reloadDriverEntityFileIfModified,Long Identifier
+datagear,org.datagear.connection,AbstractFileDriverEntityManager,readDriverEntities,Long Identifier
+datagear,org.datagear.connection,ConnectionIdentity,hashCode,Magic Number
+datagear,org.datagear.connection,ConnectionIdentity,equals,Complex Method
+datagear,org.datagear.connection,ConnectionOption,hashCode,Magic Number
+datagear,org.datagear.connection,ConnectionOption,equals,Complex Method
+datagear,org.datagear.connection,DatabaseIdentity,hashCode,Magic Number
+datagear,org.datagear.connection,DatabaseIdentity,equals,Complex Method
+datagear,org.datagear.connection,DatabaseIdentity,toString,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,DefaultConnectionSource,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,DefaultConnectionSource,Magic Number
+datagear,org.datagear.connection,DefaultConnectionSource,getConnection,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,getPreferredConnection,Complex Method
+datagear,org.datagear.connection,DefaultConnectionSource,getPreferredConnection,Long Identifier
+datagear,org.datagear.connection,DefaultConnectionSource,getPreferredConnection,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,findOrderedAcceptedAndCheckedDriverEntityDrivers,Complex Method
+datagear,org.datagear.connection,DefaultConnectionSource,findOrderedAcceptedAndCheckedDriverEntityDrivers,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,toDriverString,Long Statement
+datagear,org.datagear.connection,DefaultConnectionSource,onRemoval,Long Statement
+datagear,org.datagear.connection,DriverBasicDataSourceRemovalListener,onRemoval,Long Statement
+datagear,org.datagear.connection,DriverEntity,getDisplayDescMore,Complex Method
+datagear,org.datagear.connection,DriverEntity,hashCode,Magic Number
+datagear,org.datagear.connection,DriverEntity,toString,Long Statement
+datagear,org.datagear.connection,DriverIdentity,hashCode,Magic Number
+datagear,org.datagear.connection,DriverIdentity,equals,Complex Method
+datagear,org.datagear.connection,DriverIdentity,toString,Long Statement
+datagear,org.datagear.connection,PathDriverClassLoader,getResourceAsStream,Empty catch clause
+datagear,org.datagear.connection,PathDriverClassLoader,getResourceAsStream,Long Statement
+datagear,org.datagear.connection,PathDriverClassLoader,loadClass,Complex Conditional
+datagear,org.datagear.connection,PathDriverClassLoader,loadClass,Complex Method
+datagear,org.datagear.connection,PathDriverClassLoader,loadClass,Empty catch clause
+datagear,org.datagear.connection,PathDriverClassLoader,loadClass,Long Statement
+datagear,org.datagear.connection,PathDriverClassLoader,isJDKExtClassName,Long Statement
+datagear,org.datagear.connection,PathDriverFactory,getDriver,Long Statement
+datagear,org.datagear.connection,PathDriverFactory,releaseJdbcDrivers,Long Statement
+datagear,org.datagear.connection,XmlDriverEntityManager,XmlDriverEntityManager,Long Identifier
+datagear,org.datagear.connection,XmlDriverEntityManager,readDriverEntities,Complex Method
+datagear,org.datagear.connection,XmlDriverEntityManager,readDriverEntities,Long Identifier
+datagear,org.datagear.connection,XmlDriverEntityManager,writeDriverEntities,Complex Method
+datagear,org.datagear.connection,XmlDriverEntityManager,writeDriverEntities,Long Identifier
+datagear,org.datagear.connection,XmlDriverEntityManagerTest,addTest,Magic Number
+datagear,org.datagear.connection,XmlDriverEntityManagerTest,getAllTest,Magic Number
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,processTransactionForDataExchangeException,Long Statement
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getColumns,Long Parameter List
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setParameterValue,Complex Method
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setParameterValue,Long Method
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setParameterValue,Long Parameter List
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setParameterValue,Long Statement
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setParameterValue,Missing default
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getValue,Complex Method
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getValue,Long Method
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getValue,Missing default
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getStringValue,Complex Method
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,getStringValue,Long Parameter List
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,readToBytes,Magic Number
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,readToString,Magic Number
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,importValueData,Long Parameter List
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setImportParameterValues,Complex Conditional
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setImportParameterValues,Long Parameter List
+datagear,org.datagear.dataexchange,AbstractDevotedDataExchangeService,setImportParameterValues,Long Statement
+datagear,org.datagear.dataexchange,BatchDataExchangeService,createBatchDataExchangeResult,Long Statement
+datagear,org.datagear.dataexchange,BatchDataExchangeService,isCircularDependency,Complex Conditional
+datagear,org.datagear.dataexchange,DataFormat,DataFormat,Long Parameter List
+datagear,org.datagear.dataexchange,DataFormat,toString,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,getTimestampPattern,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,parseBytes,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,formatDate,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,formatTime,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,formatTimestamp,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,formatBytes,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,formatNumber,Long Statement
+datagear,org.datagear.dataexchange,DataFormatContext,convertToBytesForHex,Magic Number
+datagear,org.datagear.dataexchange,DefaultBatchDataExchangeResult,run,Long Statement
+datagear,org.datagear.dataexchange,SubDataExchangeRunnable,run,Long Statement
+datagear,org.datagear.dataexchange,GenericDataExchangeService,GenericDataExchangeService,Long Identifier
+datagear,org.datagear.dataexchange,GenericDataExchangeService,GenericDataExchangeService,Long Statement
+datagear,org.datagear.dataexchange,GenericDataExchangeService,setDevotedDataExchangeServices,Long Identifier
+datagear,org.datagear.dataexchange,GenericDataExchangeService,setDevotedDataExchangeServices,Long Statement
+datagear,org.datagear.dataexchange,GenericDataExchangeService,findDevotedDataExchangeService,Long Identifier
+datagear,org.datagear.dataexchange,GenericDataExchangeService,findDevotedDataExchangeService,Long Statement
+datagear,org.datagear.dataexchange,IllegalImportSourceValueException,IllegalImportSourceValueException,Long Parameter List
+datagear,org.datagear.dataexchange,IndexFormatDataExchangeContext,valueOf,Long Statement
+datagear,org.datagear.dataexchange,SetImportColumnValueException,SetImportColumnValueException,Long Parameter List
+datagear,org.datagear.dataexchange,ValueDataImportOption,toString,Long Statement
+datagear,org.datagear.dataexchange,BatchDataExchangeServiceTest,exchangeTest,Long Statement
+datagear,org.datagear.dataexchange,BatchDataExchangeServiceTest,exchangeTest,Magic Number
+datagear,org.datagear.dataexchange.support,CsvDataExport,CsvDataExport,Long Parameter List
+datagear,org.datagear.dataexchange.support,CsvDataExportService,exchange,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataImport,CsvDataImport,Long Parameter List
+datagear,org.datagear.dataexchange.support,CsvDataImportService,exchange,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExport,ExcelDataExport,Long Parameter List
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,createDataExchangeContext,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,writeRecords,Long Parameter List
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,writeRecords,Magic Number
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,setCellValue,Complex Method
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,setCellValue,Long Parameter List
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,setCellValue,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,getTimestampCellStyle,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExportService,getNumberCellStyle,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExportContext,getTimestampCellStyle,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataExportContext,getNumberCellStyle,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,importXlsxSheet,Long Parameter List
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,importXlsxSheet,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,processRecord,Complex Conditional
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,processRecord,Complex Method
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,processRecord,Long Method
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,processRecord,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,XlsxSheetHandler,Long Parameter List
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,startElement,Complex Method
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,endElement,Complex Conditional
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,endElement,Complex Method
+datagear,org.datagear.dataexchange.support,ExcelDataImportService,endElement,Long Statement
+datagear,org.datagear.dataexchange.support,XlsEventListener,processRecord,Complex Conditional
+datagear,org.datagear.dataexchange.support,XlsEventListener,processRecord,Complex Method
+datagear,org.datagear.dataexchange.support,XlsEventListener,processRecord,Long Method
+datagear,org.datagear.dataexchange.support,XlsEventListener,processRecord,Long Statement
+datagear,org.datagear.dataexchange.support,XlsxSheetHandler,XlsxSheetHandler,Long Parameter List
+datagear,org.datagear.dataexchange.support,XlsxSheetHandler,startElement,Complex Method
+datagear,org.datagear.dataexchange.support,XlsxSheetHandler,endElement,Complex Conditional
+datagear,org.datagear.dataexchange.support,XlsxSheetHandler,endElement,Complex Method
+datagear,org.datagear.dataexchange.support,XlsxSheetHandler,endElement,Long Statement
+datagear,org.datagear.dataexchange.support,JsonDataExport,JsonDataExport,Long Parameter List
+datagear,org.datagear.dataexchange.support,JsonDataExportService,writeRecords,Long Parameter List
+datagear,org.datagear.dataexchange.support,JsonDataExportService,writeRecords,Long Statement
+datagear,org.datagear.dataexchange.support,JsonDataExportService,writeJsonValue,Complex Method
+datagear,org.datagear.dataexchange.support,JsonDataExportService,writeJsonValue,Long Parameter List
+datagear,org.datagear.dataexchange.support,JsonDataExportService,writeJsonValue,Long Statement
+datagear,org.datagear.dataexchange.support,JsonDataImport,JsonDataImport,Long Parameter List
+datagear,org.datagear.dataexchange.support,JsonDataImportService,importForTableObjectData,Complex Method
+datagear,org.datagear.dataexchange.support,JsonDataImportService,importForTableObjectData,Long Statement
+datagear,org.datagear.dataexchange.support,JsonDataImportService,importJsonArray,Complex Method
+datagear,org.datagear.dataexchange.support,JsonDataImportService,importJsonArray,Long Parameter List
+datagear,org.datagear.dataexchange.support,JsonDataImportService,importJsonArray,Long Statement
+datagear,org.datagear.dataexchange.support,JsonDataImportService,parseNextObject,Complex Method
+datagear,org.datagear.dataexchange.support,JsonDataImportService,parseNextArray,Complex Method
+datagear,org.datagear.dataexchange.support,SqlDataExport,SqlDataExport,Long Parameter List
+datagear,org.datagear.dataexchange.support,SqlDataExportService,writeRecords,Complex Method
+datagear,org.datagear.dataexchange.support,SqlDataExportService,writeRecords,Long Parameter List
+datagear,org.datagear.dataexchange.support,SqlDataExportService,writeRecords,Long Statement
+datagear,org.datagear.dataexchange.support,SqlDataExportService,writeCreationSql,Complex Method
+datagear,org.datagear.dataexchange.support,SqlDataExportService,writeCreationSql,Long Parameter List
+datagear,org.datagear.dataexchange.support,SqlDataExportService,isSqlStringType,Long Statement
+datagear,org.datagear.dataexchange.support,SqlDataImportService,executeSqlStatement,Long Parameter List
+datagear,org.datagear.dataexchange.support,SqlDataIndex,toString,Magic Number
+datagear,org.datagear.dataexchange.support,CsvDataExportServiceTest,initTableData,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataExportServiceTest,exptTest,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ignoreInexistentColumn_false,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ignoreInexistentColumn_true,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ignoreInexistentColumn_true,Magic Number
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ExceptionResolve_ignore,Long Statement
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ExceptionResolve_ignore,Magic Number
+datagear,org.datagear.dataexchange.support,CsvDataImportServiceTest,exchangeTest_ExceptionResolve_abort,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xls,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xls_ignoreInexistentColumn,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xls_ignoreInexistentColumn,Magic Number
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xlsx_ignoreInexistentColumn,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xlsx_ignoreInexistentColumn,Magic Number
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xlsx_inlineStr_ignoreInexistentColumn,Long Statement
+datagear,org.datagear.dataexchange.support,ExcelDataImportServiceTest,exchangeTest_xlsx_inlineStr_ignoreInexistentColumn,Magic Number
+datagear,org.datagear.management.dbversion,DbVersionManager,upgrade,Long Statement
+datagear,org.datagear.management.dbversion,DbVersionManager,getCurrentVersionForOldTable,Long Statement
+datagear,org.datagear.management.dbversion,DbVersionManager,getCurrentVersionForOldTable,Magic Number
+datagear,org.datagear.management.dbversion,DbVersionManager,updateVersionForOldTable,Long Statement
+datagear,org.datagear.management.dbversion,DbVersionManager,updateVersionForOldTable,Magic Number
+datagear,org.datagear.management.dbversion,DbVersionManager,updateSchema,Long Statement
+datagear,org.datagear.management.dbversion,DbVersionManager,getSqlScriptBufferedReader,Long Statement
+datagear,org.datagear.management.dbversion,DbVersionManagerTest,resolveUpgradeSqlVersionContentsTest,Magic Number
+datagear,org.datagear.management.domain,AbstractEntity,hashCode,Magic Number
+datagear,org.datagear.management.domain,AnalysisProject,toString,Long Statement
+datagear,org.datagear.management.domain,Authorization,Authorization,Long Parameter List
+datagear,org.datagear.management.domain,Authorization,toString,Long Statement
+datagear,org.datagear.management.domain,CsvFileDataSetEntity,CsvFileDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,CsvValueDataSetEntity,CsvValueDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,DataSetResDirectory,toString,Long Statement
+datagear,org.datagear.management.domain,DirectoryFileDataSetEntity,getFile,Long Statement
+datagear,org.datagear.management.domain,FileSupport,getFile,Long Statement
+datagear,org.datagear.management.domain,ExcelDataSetEntity,ExcelDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,HtmlChartWidgetEntity,HtmlChartWidgetEntity,Long Parameter List
+datagear,org.datagear.management.domain,HtmlTplDashboardWidgetEntity,HtmlTplDashboardWidgetEntity,Long Parameter List
+datagear,org.datagear.management.domain,HttpDataSetEntity,HttpDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,JsonFileDataSetEntity,JsonFileDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,JsonValueDataSetEntity,JsonValueDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,Schema,Schema,Long Parameter List
+datagear,org.datagear.management.domain,Schema,toString,Long Statement
+datagear,org.datagear.management.domain,SchemaGuard,sortByPriority,Long Identifier
+datagear,org.datagear.management.domain,SqlDataSetEntity,SqlDataSetEntity,Long Parameter List
+datagear,org.datagear.management.domain,SqlDataSetEntity,setConnectionFactory,Long Statement
+datagear,org.datagear.management.service.impl,AbstractMybatisDataPermissionEntityService,pagingQueryForAnalysisProjectId,Long Parameter List
+datagear,org.datagear.management.service.impl,AbstractMybatisDataPermissionEntityService,pagingQueryForAnalysisProjectId,Long Statement
+datagear,org.datagear.management.service.impl,AbstractMybatisDataPermissionEntityService,permissionCachePutQueryResult,Complex Conditional
+datagear,org.datagear.management.service.impl,AbstractMybatisEntityService,hashCode,Magic Number
+datagear,org.datagear.management.service.impl,AbstractMybatisEntityService,equals,Complex Method
+datagear,org.datagear.management.service.impl,GlobalEntityCacheKey,hashCode,Magic Number
+datagear,org.datagear.management.service.impl,GlobalEntityCacheKey,equals,Complex Method
+datagear,org.datagear.management.service.impl,AnalysisProjectAuthorizationListenerAware,setAnalysisProjectAuthorizationListener,Long Identifier
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,getAnalysisProjectAuthorizationListener,Long Identifier
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,setAnalysisProjectAuthorizationListener,Long Identifier
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,authorizationUpdated,Long Identifier
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,authorizationUpdated,Long Statement
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,checkAddInput,Complex Conditional
+datagear,org.datagear.management.service.impl,AnalysisProjectServiceImpl,checkAddInput,Long Statement
+datagear,org.datagear.management.service.impl,BundleAnalysisProjectAuthorizationListener,BundleAnalysisProjectAuthorizationListener,Long Identifier
+datagear,org.datagear.management.service.impl,BundleAnalysisProjectAuthorizationListener,getAnalysisProjectAuthorizationListeners,Long Identifier
+datagear,org.datagear.management.service.impl,BundleAnalysisProjectAuthorizationListener,setAnalysisProjectAuthorizationListeners,Long Identifier
+datagear,org.datagear.management.service.impl,BundleAnalysisProjectAuthorizationListener,authorizationUpdated,Long Identifier
+datagear,org.datagear.management.service.impl,BundleAnalysisProjectAuthorizationListener,authorizationUpdated,Long Statement
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,DataSetEntityServiceImpl,Long Parameter List
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,add,Complex Method
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,update,Complex Method
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,getByIdFromDB,Complex Method
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,getByIdFromDB,Long Statement
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,postProcessGet,Long Statement
+datagear,org.datagear.management.service.impl,DataSetEntityServiceImpl,addDataPermissionParameters,Long Statement
+datagear,org.datagear.management.service.impl,DataSetResDirectoryServiceImpl,checkAddInput,Complex Conditional
+datagear,org.datagear.management.service.impl,DataSetResDirectoryServiceImpl,checkAddInput,Long Statement
+datagear,org.datagear.management.service.impl,HtmlChartWidgetEntityServiceImpl,HtmlChartWidgetEntityServiceImpl,Long Parameter List
+datagear,org.datagear.management.service.impl,HtmlChartWidgetEntityServiceImpl,addDataPermissionParameters,Long Statement
+datagear,org.datagear.management.service.impl,HtmlChartWidgetEntityServiceImpl,toPropertySigns,Complex Method
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,HtmlTplDashboardWidgetEntityServiceImpl,Long Identifier
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,HtmlTplDashboardWidgetEntityServiceImpl,Long Parameter List
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,getHtmlTplDashboardWidgetRenderer,Long Identifier
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,setHtmlTplDashboardWidgetRenderer,Long Identifier
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,getHtmlTplDashboardWidget,Long Identifier
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,deleteById,Long Identifier
+datagear,org.datagear.management.service.impl,HtmlTplDashboardWidgetEntityServiceImpl,addDataPermissionParameters,Long Statement
+datagear,org.datagear.management.service.impl,SchemaServiceImpl,SchemaServiceImpl,Long Parameter List
+datagear,org.datagear.management.service.impl,SchemaServiceImpl,checkInput,Complex Conditional
+datagear,org.datagear.management.service.impl,SchemaServiceImpl,checkInput,Long Statement
+datagear,org.datagear.management.service.impl,SqlHistoryServiceImpl,deleteExpired,Magic Number
+datagear,org.datagear.management.service.impl,UserServiceImpl,add,Complex Conditional
+datagear,org.datagear.management.service.impl,UserServiceImpl,add,Long Statement
+datagear,org.datagear.management.service.impl,UserServiceImpl,checkAddInput,Complex Conditional
+datagear,org.datagear.management.service.impl,UserServiceImpl,checkAddInput,Long Statement
+datagear,org.datagear.management.util.dialect,MbSqlDialect,toString,Long Statement
+datagear,org.datagear.management.util.dialect,MbSqlDialect,toString,Magic Number
+datagear,org.datagear.management.util.dialect,MbSqlDialectBuilder,buildByDialectName,Complex Method
+datagear,org.datagear.meta,Column,toString,Long Statement
+datagear,org.datagear.meta,Database,toString,Long Statement
+datagear,org.datagear.meta,ImportKey,toString,Long Statement
+datagear,org.datagear.meta,Table,toString,Long Statement
+datagear,org.datagear.meta,TableType,toTableType,Complex Method
+datagear,org.datagear.meta,GenericDBMetaResolverTest,getTableTest,Long Statement
+datagear,org.datagear.meta,GenericDBMetaResolverTest,getColumnsTest,Magic Number
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,isUserDataTable,Complex Conditional
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,isUserDataTable,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,isUserDataEntityTable,Complex Conditional
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,isUserDataEntityTable,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getTable,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getImportTables,Complex Method
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getImportTables,Magic Number
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getSimpleTables,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,readSimpleTable,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getTable,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveTableReadonly,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getTableResulSet,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getColumns,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getColumns,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getColumnsByQuery,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,readColumn,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveDefaultValue,Complex Conditional
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveDefaultValue,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveDefaultValue,Magic Number
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveSearchableType,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveSearchableType,Complex Conditional
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveSearchableType,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveSortable,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,resolveSortable,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,postProcessColumn,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getColumnResulSet,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getPrimaryKey,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getPrimaryKey,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getUniqueKeys,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getUniqueKeys,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getImportKeys,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getImportKeys,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getPrimaryKeyResulSet,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getUniqueKeyResulSet,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getImportKeyResulSet,Long Parameter List
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getSchema,Long Statement
+datagear,org.datagear.meta.resolver,AbstractDevotedDBMetaResolver,getIdentifierQuote,Empty catch clause
+datagear,org.datagear.meta.resolver,DatabaseMetaDataPrinter,main,Long Statement
+datagear,org.datagear.meta.resolver,DatabaseMetaDataPrinter,getMethodByName,Long Statement
+datagear,org.datagear.persistence,Order,hashCode,Magic Number
+datagear,org.datagear.persistence,Order,equals,Complex Method
+datagear,org.datagear.persistence,Paging,hashCode,Magic Number
+datagear,org.datagear.persistence,PagingQuery,toString,Long Statement
+datagear,org.datagear.persistence,PagingQuery,hashCode,Magic Number
+datagear,org.datagear.persistence,PersistenceManager,insert,Long Parameter List
+datagear,org.datagear.persistence,PersistenceManager,update,Long Parameter List
+datagear,org.datagear.persistence,PersistenceManager,delete,Long Parameter List
+datagear,org.datagear.persistence,PersistenceManager,get,Long Parameter List
+datagear,org.datagear.persistence,PersistenceManager,query,Long Parameter List
+datagear,org.datagear.persistence,PersistenceManager,pagingQuery,Long Parameter List
+datagear,org.datagear.persistence,Query,toString,Long Statement
+datagear,org.datagear.persistence,SqlParamValueMapperException,SqlParamValueMapperException,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractDialect,isQuoted,Long Statement
+datagear,org.datagear.persistence.support,AbstractDialect,isQuoted,Magic Number
+datagear,org.datagear.persistence.support,AbstractDialect,toKeywordQueryCondition,Complex Method
+datagear,org.datagear.persistence.support,AbstractDialect,toKeywordQueryCondition,Long Statement
+datagear,org.datagear.persistence.support,AbstractDialect,wrapLikeKeyword,Complex Conditional
+datagear,org.datagear.persistence.support,AbstractDialect,parseToNumber,Complex Method
+datagear,org.datagear.persistence.support,AbstractDialect,parseToNumber,Missing default
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumn,Complex Method
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumn,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumn,Missing default
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnLONGVARCHAR,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnBINARY,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnLONGVARBINARY,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnCLOB,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnBLOB,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnLONGNVARCHAR,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnNCLOB,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractLOBRowMapper,mapColumnSQLXML,Long Parameter List
+datagear,org.datagear.persistence.support,AbstractRowMapper,mapColumn,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,resolveExpressionIf,Long Statement
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,evaluateVariableExpressions,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,evaluateVariableExpression,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,evaluateSqlExpressions,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,evaluateSqlExpressions,Long Statement
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,evaluateSqlExpressionResultIfSelect,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,mapToSqlParamValue,Complex Method
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,mapToSqlParamValue,Long Method
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,mapToSqlParamValue,Missing default
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,mapToSqlParamValueExt,Long Parameter List
+datagear,org.datagear.persistence.support,ConversionSqlParamValueMapper,valueToBytesForHex,Magic Number
+datagear,org.datagear.persistence.support,DefaultDialectSource,getDetectiveDialect,Complex Method
+datagear,org.datagear.persistence.support,DefaultDialectSource,getDetectiveDialect,Empty catch clause
+datagear,org.datagear.persistence.support,DefaultDialectSource,getDetectiveDialect,Long Statement
+datagear,org.datagear.persistence.support,DefaultDialectSource,testDialectToPagingSql,Long Statement
+datagear,org.datagear.persistence.support,DefaultDialectSource,testDialectToPagingSql,Magic Number
+datagear,org.datagear.persistence.support,DefaultDialectSource,getToPagingQuerySqlDialectBuilder,Long Identifier
+datagear,org.datagear.persistence.support,DefaultDialectSource,setToPagingQuerySqlDialectBuilder,Long Identifier
+datagear,org.datagear.persistence.support,DefaultDialectSource,build,Long Identifier
+datagear,org.datagear.persistence.support,DefaultDialectSource,build,Long Statement
+datagear,org.datagear.persistence.support,CombinedDialectBuilder,getToPagingQuerySqlDialectBuilder,Long Identifier
+datagear,org.datagear.persistence.support,CombinedDialectBuilder,setToPagingQuerySqlDialectBuilder,Long Identifier
+datagear,org.datagear.persistence.support,CombinedDialectBuilder,build,Long Identifier
+datagear,org.datagear.persistence.support,CombinedDialectBuilder,build,Long Statement
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnLONGVARCHAR,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnBINARY,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnLONGVARBINARY,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnCLOB,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnBLOB,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnLONGNVARCHAR,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnNCLOB,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnSQLXML,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnForLargeReaderValue,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultLOBRowMapper,mapColumnForInputStreamValue,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,insert,Complex Method
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,insert,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,insert,Long Statement
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,insert,Magic Number
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,update,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,update,Long Statement
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,delete,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,get,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,query,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,pagingQuery,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,buildQuerySql,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,buildQueryCondition,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,buildUniqueRecordCondition,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,buildUniqueRecordCondition,Long Statement
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,getUniqueRecordColumns,Long Statement
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,getColumnsMaybeUniqueRecord,Complex Conditional
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,getColumnsMaybeUniqueRecord,Long Statement
+datagear,org.datagear.persistence.support,DefaultPersistenceManager,mapToSqlParamValue,Long Parameter List
+datagear,org.datagear.persistence.support,PersistenceSupport,executeListQuery,Long Parameter List
+datagear,org.datagear.persistence.support,PersistenceSupport,mapToRows,Long Parameter List
+datagear,org.datagear.persistence.support,PersistenceSupport,mapToRow,Long Parameter List
+datagear,org.datagear.persistence.support,PersistenceSupport,supportsSqlType,Complex Method
+datagear,org.datagear.persistence.support,PersistenceSupport,supportsSqlType,Missing default
+datagear,org.datagear.persistence.support,ReleasableRegistry,ReleasableRegistry,Magic Number
+datagear,org.datagear.persistence.support,SimpleRowMapper,mapColumn,Long Parameter List
+datagear,org.datagear.persistence.support,SqlParamValueExpressionException,SqlParamValueExpressionException,Long Parameter List
+datagear,org.datagear.persistence.support,SqlParamValueSqlExpressionException,SqlParamValueSqlExpressionException,Long Parameter List
+datagear,org.datagear.persistence.support,SqlParamValueSqlExpressionSyntaxException,SqlParamValueSqlExpressionSyntaxException,Long Parameter List
+datagear,org.datagear.persistence.support,SqlParamValueVariableExpressionException,SqlParamValueVariableExpressionException,Long Parameter List
+datagear,org.datagear.persistence.support,SqlParamValueVariableExpressionSyntaxException,SqlParamValueVariableExpressionSyntaxException,Long Parameter List
+datagear,org.datagear.persistence.support,SqlSelectManager,select,Long Parameter List
+datagear,org.datagear.persistence.support,SqlSelectResult,SqlSelectResult,Long Parameter List
+datagear,org.datagear.persistence.support,UnsupportedSqlParamValueMapperException,UnsupportedSqlParamValueMapperException,Long Parameter List
+datagear,org.datagear.persistence.support,DefaultPersistenceManagerTest,insertTest,Magic Number
+datagear,org.datagear.persistence.support.dialect,SqlServerDialect,toPagingQuerySql,Long Statement
+datagear,org.datagear.persistence.support.expression,NameExpression,NameExpression,Long Parameter List
+datagear,org.datagear.persistence.support.expression,NameExpressionResolver,newExpressionInstance,Long Parameter List
+datagear,org.datagear.util,AsteriskPatternMatcher,hashCode,Magic Number
+datagear,org.datagear.util,AsteriskRegexPattern,hashCode,Magic Number
+datagear,org.datagear.util,DateFormat,hashCode,Magic Number
+datagear,org.datagear.util,DateFormat,equals,Complex Method
+datagear,org.datagear.util,DateFormat,toString,Long Statement
+datagear,org.datagear.util,DateNumberFormat,hashCode,Magic Number
+datagear,org.datagear.util,DateNumberFormat,toString,Long Statement
+datagear,org.datagear.util,FileInfo,toString,Long Statement
+datagear,org.datagear.util,FileInfo,toPrettySize,Magic Number
+datagear,org.datagear.util,FileUtil,getRelativePath,Long Statement
+datagear,org.datagear.util,FileUtil,checkBackwardPathNoTrim,Long Statement
+datagear,org.datagear.util,IDUtil,randomIdOnTime20,Magic Number
+datagear,org.datagear.util,IOUtil,write,Magic Number
+datagear,org.datagear.util,IOUtil,writeFileToZipOutputStream,Complex Method
+datagear,org.datagear.util,IOUtil,copy,Complex Method
+datagear,org.datagear.util,IOUtil,close,Empty catch clause
+datagear,org.datagear.util,IOUtil,flush,Empty catch clause
+datagear,org.datagear.util,JdbcSupport,executeQuery,Long Statement
+datagear,org.datagear.util,JdbcSupport,executeUpdate,Long Statement
+datagear,org.datagear.util,JdbcSupport,executeUpdate,Magic Number
+datagear,org.datagear.util,JdbcSupport,createQueryPreparedStatement,Long Statement
+datagear,org.datagear.util,JdbcSupport,createQueryStatement,Long Statement
+datagear,org.datagear.util,JdbcSupport,setParamValue,Complex Method
+datagear,org.datagear.util,JdbcSupport,setParamValue,Long Method
+datagear,org.datagear.util,JdbcSupport,setParamValue,Missing default
+datagear,org.datagear.util,JdbcSupport,getColumnValue,Complex Method
+datagear,org.datagear.util,JdbcSupport,getColumnValue,Long Method
+datagear,org.datagear.util,JdbcSupport,getColumnValue,Missing default
+datagear,org.datagear.util,JdbcUtil,isBinaryType,Missing default
+datagear,org.datagear.util,JdbcUtil,isTextType,Complex Method
+datagear,org.datagear.util,JdbcUtil,isTextType,Missing default
+datagear,org.datagear.util,JdbcUtil,isNumberType,Complex Method
+datagear,org.datagear.util,JdbcUtil,isNumberType,Missing default
+datagear,org.datagear.util,JdbcUtil,closeConnection,Empty catch clause
+datagear,org.datagear.util,JdbcUtil,closeStatement,Empty catch clause
+datagear,org.datagear.util,JdbcUtil,closeResultSet,Empty catch clause
+datagear,org.datagear.util,JdbcUtil,commitSilently,Empty catch clause
+datagear,org.datagear.util,JdbcUtil,rollbackSilently,Empty catch clause
+datagear,org.datagear.util,SqlScriptParser,parseNext,Long Identifier
+datagear,org.datagear.util,SqlScriptParser,parseNext,Long Statement
+datagear,org.datagear.util,SqlScriptParser,handleLine,Complex Method
+datagear,org.datagear.util,SqlScriptParser,handleLine,Magic Number
+datagear,org.datagear.util,SqlScriptParser,findNextDelimiterIndexForDefaultDelimiter,Complex Method
+datagear,org.datagear.util,SqlScriptParser,findNextDelimiterIndexForDefaultDelimiter,Magic Number
+datagear,org.datagear.util,SqlScriptParser,addSqlStatement,Long Statement
+datagear,org.datagear.util,SqlScriptParser,SqlStatement,Long Parameter List
+datagear,org.datagear.util,SqlScriptParser,toString,Long Statement
+datagear,org.datagear.util,SqlStatement,SqlStatement,Long Parameter List
+datagear,org.datagear.util,SqlStatement,toString,Long Statement
+datagear,org.datagear.util,StringUtil,escapeJavaScriptStringValue,Complex Method
+datagear,org.datagear.util,IDUtilTest,randomIdOnTime20Test,Magic Number
+datagear,org.datagear.util,IDUtilTest,randomTest,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterSingleLine,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterSingleLine,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterMultiple,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterMultipleSpace,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterMultipleSpace,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterMultipleSpaceLine,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterMultipleSpaceLine,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterWithSnippets,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseTestDefaultDelimiterWithSnippets,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,parseTestScriptFile,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseNextTest,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,parseNextTest,Magic Number
+datagear,org.datagear.util,SqlScriptParserTest,assertForScriptFile,Long Statement
+datagear,org.datagear.util,SqlScriptParserTest,assertForScriptFile,Magic Number
+datagear,org.datagear.util.expression,Expression,Expression,Long Parameter List
+datagear,org.datagear.util.expression,ExpressionResolver,resolve,Magic Number
+datagear,org.datagear.util.expression,ExpressionResolver,extract,Complex Method
+datagear,org.datagear.util.expression,ExpressionResolver,extract,Magic Number
+datagear,org.datagear.util.expression,ExpressionResolver,resolveNextExpression,Complex Method
+datagear,org.datagear.util.expression,ExpressionResolver,resolveNextExpression,Long Statement
+datagear,org.datagear.util.expression,ExpressionResolver,newExpressionInstance,Long Parameter List
+datagear,org.datagear.util.expression,ExpressionResolverTest,resolveTest,Magic Number
+datagear,org.datagear.util.expression,ExpressionResolverTest,extractTest,Magic Number
+datagear,org.datagear.util.i18n,Label,toLocale,Magic Number
+datagear,org.datagear.util.resource,AbstractReaderResourceFactory,get,Long Statement
+datagear,org.datagear.util.resource,AbstractWriterResourceFactory,get,Long Statement
+datagear,org.datagear.util.test,DBTestSupport,getConnection,Long Statement
+datagear,org.datagear.util.version,AbstractVersionContentReader,resolveVersionContents,Complex Conditional
+datagear,org.datagear.util.version,AbstractVersionContentReader,resolveVersionContents,Complex Method
+datagear,org.datagear.util.version,AbstractVersionContentReader,resolveVersionContents,Long Parameter List
+datagear,org.datagear.util.version,Version,isLowerThan,Complex Method
+datagear,org.datagear.util.version,Version,hashCode,Magic Number
+datagear,org.datagear.util.version,Version,equals,Complex Method
+datagear,org.datagear.util.version,Version,valueOf,Magic Number
+datagear,org.datagear.util.version,VersionContent,toString,Long Statement
+datagear,org.datagear.web.config,ApplicationProperties,getDirectoryResetPasswordCheckFile,Long Identifier
+datagear,org.datagear.web.config,ApplicationProperties,setDirectoryResetPasswordCheckFile,Long Identifier
+datagear,org.datagear.web.config,ApplicationProperties,getCleanTempDirectoryExpiredMinutes,Long Identifier
+datagear,org.datagear.web.config,ApplicationProperties,setCleanTempDirectoryExpiredMinutes,Long Identifier
+datagear,org.datagear.web.config,CoreConfig,dashboardGlobalResRootDirectory,Long Identifier
+datagear,org.datagear.web.config,CoreConfig,sqlSessionFactory,Long Statement
+datagear,org.datagear.web.config,CoreConfig,connectionSource,Long Statement
+datagear,org.datagear.web.config,CoreConfig,passwordEncoder,Long Statement
+datagear,org.datagear.web.config,CoreConfig,authorizationService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,schemaService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,dataSetEntityService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,directoryHtmlChartPluginManager,Long Statement
+datagear,org.datagear.web.config,CoreConfig,directoryHtmlChartPluginManagerInitializer,Long Statement
+datagear,org.datagear.web.config,CoreConfig,htmlChartWidgetEntityService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,chartShowHtmlTplDashboardWidgetHtmlRenderer,Long Identifier
+datagear,org.datagear.web.config,CoreConfig,chartShowHtmlTplDashboardWidgetHtmlRenderer,Long Statement
+datagear,org.datagear.web.config,CoreConfig,htmlTplDashboardWidgetRenderer,Long Identifier
+datagear,org.datagear.web.config,CoreConfig,htmlTplDashboardWidgetRenderer,Long Statement
+datagear,org.datagear.web.config,CoreConfig,buildHtmlTplDashboardWidgetRenderer_dshboardImport,Long Statement
+datagear,org.datagear.web.config,CoreConfig,buildHtmlTplDashboardWidgetRendererd_importHtmlChartPluginVarNameResolver,Long Statement
+datagear,org.datagear.web.config,CoreConfig,htmlTplDashboardWidgetEntityService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,analysisProjectService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,dataSetResDirectoryService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,sqlpadExecutionService,Long Statement
+datagear,org.datagear.web.config,CoreConfig,initAuthorizationResourceServices,Long Statement
+datagear,org.datagear.web.config,CoreConfig,initAnalysisProjectAuthorizationListenerAwares,Long Statement
+datagear,org.datagear.web.config,CoreConfig,initServiceCaches,Long Statement
+datagear,org.datagear.web.config,SecurityConfig,getAuthenticationSuccessHandler,Long Statement
+datagear,org.datagear.web.config,SecurityConfig,configure,Long Identifier
+datagear,org.datagear.web.config,SecurityConfig,configure,Long Statement
+datagear,org.datagear.web.config,SecurityConfig,configure,Magic Number
+datagear,org.datagear.web.config,SecurityConfig,configureAnonymous,Long Statement
+datagear,org.datagear.web.config,ServiceCacheConfig,createServiceCacheManager,Long Statement
+datagear,org.datagear.web.config,WebMvcConfigurerConfig,freeMarkerConfigurer,Long Statement
+datagear,org.datagear.web.config,WebMvcConfigurerConfig,localeResolver,Magic Number
+datagear,org.datagear.web.config.support,EnumCookieThemeResolver,EnumCookieThemeResolver,Magic Number
+datagear,org.datagear.web.controller,AbstractChartPluginAwareController,getDirectoryHtmlChartPluginManager,Long Identifier
+datagear,org.datagear.web.controller,AbstractChartPluginAwareController,setDirectoryHtmlChartPluginManager,Long Identifier
+datagear,org.datagear.web.controller,AbstractChartPluginAwareController,findHtmlChartPluginVOs,Long Statement
+datagear,org.datagear.web.controller,AbstractChartPluginAwareController,get,Long Statement
+datagear,org.datagear.web.controller,AbstractController,setCookieAnalysisProjectIfValid,Empty catch clause
+datagear,org.datagear.web.controller,AbstractController,setNullAnalysisProjectIfNoPermission,Long Statement
+datagear,org.datagear.web.controller,AbstractController,inflateDataFilterPagingQuery,Long Statement
+datagear,org.datagear.web.controller,AbstractController,inflatePagingQuery,Empty catch clause
+datagear,org.datagear.web.controller,AbstractController,setOperationMessageForThrowable,Long Parameter List
+datagear,org.datagear.web.controller,AbstractController,setAttributeIfIsJsonResponse,Long Statement
+datagear,org.datagear.web.controller,AbstractController,buildOperationMessageSaveCountResponseEntity,Long Statement
+datagear,org.datagear.web.controller,AbstractController,buildOperationMessageDeleteCountResponseEntity,Long Statement
+datagear,org.datagear.web.controller,AbstractController,buildOperationMessageForHttpError,Empty catch clause
+datagear,org.datagear.web.controller,AbstractController,buildDetectNewVersionScript,Long Identifier
+datagear,org.datagear.web.controller,AbstractController,buildDetectNewVersionScript,Magic Number
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,createHtmlRenderContext,Long Identifier
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,createHtmlRenderContext,Long Parameter List
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,createHtmlRenderContext,Long Statement
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,getDashboardResult,Long Parameter List
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,convertDashboardQuery,Complex Conditional
+datagear,org.datagear.web.controller,AbstractDataAnalysisController,getSessionHtmlTplDashboardManagerNotNull,Long Statement
+datagear,org.datagear.web.controller,AbstractSchemaConnController,AbstractSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnController,ReturnSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnController,VoidSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnController,unwrap,Long Statement
+datagear,org.datagear.web.controller,AbstractSchemaConnExecutor,AbstractSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,ReturnSchemaConnExecutor,ReturnSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,VoidSchemaConnExecutor,VoidSchemaConnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,SchemaDataSource,unwrap,Long Statement
+datagear,org.datagear.web.controller,AbstractSchemaConnTableController,AbstractSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableController,doExecute,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableController,ReturnSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableController,execute,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableController,VoidSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableExecutor,AbstractSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,AbstractSchemaConnTableExecutor,doExecute,Long Parameter List
+datagear,org.datagear.web.controller,ReturnSchemaConnTableExecutor,ReturnSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,ReturnSchemaConnTableExecutor,doExecute,Long Parameter List
+datagear,org.datagear.web.controller,ReturnSchemaConnTableExecutor,execute,Long Parameter List
+datagear,org.datagear.web.controller,VoidSchemaConnTableExecutor,VoidSchemaConnTableExecutor,Long Parameter List
+datagear,org.datagear.web.controller,VoidSchemaConnTableExecutor,doExecute,Long Parameter List
+datagear,org.datagear.web.controller,VoidSchemaConnTableExecutor,execute,Long Parameter List
+datagear,org.datagear.web.controller,AnalysisProjectController,getByIdSilently,Empty catch clause
+datagear,org.datagear.web.controller,AnalysisProjectController,pagingQueryData,Long Statement
+datagear,org.datagear.web.controller,AuthorizationController,add,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,saveAdd,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,edit,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,saveEdit,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,view,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,delete,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,query,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,queryData,Long Parameter List
+datagear,org.datagear.web.controller,AuthorizationController,setAuthorizationQueryContext,Long Statement
+datagear,org.datagear.web.controller,AuthorizationController,checkInput,Complex Conditional
+datagear,org.datagear.web.controller,AuthorizationController,checkInput,Long Statement
+datagear,org.datagear.web.controller,ChartController,getChartShowHtmlTplDashboardWidgetHtmlRenderer,Long Identifier
+datagear,org.datagear.web.controller,ChartController,setChartShowHtmlTplDashboardWidgetHtmlRenderer,Long Identifier
+datagear,org.datagear.web.controller,ChartController,edit,Long Statement
+datagear,org.datagear.web.controller,ChartController,copy,Long Statement
+datagear,org.datagear.web.controller,ChartController,view,Long Statement
+datagear,org.datagear.web.controller,ChartController,pagingQueryData,Long Statement
+datagear,org.datagear.web.controller,ChartController,showResource,Long Identifier
+datagear,org.datagear.web.controller,ChartController,showResource,Long Parameter List
+datagear,org.datagear.web.controller,ChartController,showResource,Long Statement
+datagear,org.datagear.web.controller,ChartController,showChart,Long Identifier
+datagear,org.datagear.web.controller,ChartController,showChart,Long Parameter List
+datagear,org.datagear.web.controller,ChartController,showChart,Long Statement
+datagear,org.datagear.web.controller,ChartPluginController,getHtmlTplDashboardWidgetEntityService,Long Identifier
+datagear,org.datagear.web.controller,ChartPluginController,setHtmlTplDashboardWidgetEntityService,Long Identifier
+datagear,org.datagear.web.controller,ChartPluginController,getHtmlChartPluginScriptObjectWriter,Long Identifier
+datagear,org.datagear.web.controller,ChartPluginController,setHtmlChartPluginScriptObjectWriter,Long Identifier
+datagear,org.datagear.web.controller,ChartPluginController,uploadFile,Empty catch clause
+datagear,org.datagear.web.controller,ChartPluginController,download,Long Statement
+datagear,org.datagear.web.controller,ChartPluginController,getChartPluginManagerJs,Long Identifier
+datagear,org.datagear.web.controller,ChartPluginController,getChartPluginManagerJs,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleControllerMissingServletRequestParameterException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleControllerFileNotFoundException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleControllerDuplicateRecordException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handlePersistenceSqlParamValueVariableExpressionException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handlePersistenceSqlParamValueSqlExpressionException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handlePersistenceNonUniqueResultException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handlePersistenceNoColumnDefinedException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handlePersistencePersistenceException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleMetaTableNotFoundException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleConnectionDriverEntityManagerException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleConnectionPathDriverFactoryException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleConnectionDriverNotFoundException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisSqlDataSetUnsupportedSqlTypeException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisTemplateResolverException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisUnsupportedResultDataException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisDataSetSourceParseException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisSqlDataSetSqlExecutionException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisSqlDataSetConnectionException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisRequestContentNotNameValueObjArrayJsonException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,handleAnalysisHeaderContentNotNameValueObjArrayJsonException,Long Statement
+datagear,org.datagear.web.controller,ControllerAdvice,setOperationMessageForThrowable,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,getHtmlTplDashboardWidgetEntityService,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,setHtmlTplDashboardWidgetEntityService,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,getDashboardGlobalResRootDirectory,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,setDashboardGlobalResRootDirectory,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,add,Long Statement
+datagear,org.datagear.web.controller,DashboardController,edit,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,edit,Long Statement
+datagear,org.datagear.web.controller,DashboardController,copy,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,copy,Long Statement
+datagear,org.datagear.web.controller,DashboardController,save,Complex Conditional
+datagear,org.datagear.web.controller,DashboardController,save,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,save,Long Statement
+datagear,org.datagear.web.controller,DashboardController,saveTemplateNames,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,saveTemplateNames,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,getResourceContent,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,getResourceContent,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,listResources,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,listResources,Long Statement
+datagear,org.datagear.web.controller,DashboardController,deleteResource,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,deleteResource,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,deleteResource,Long Statement
+datagear,org.datagear.web.controller,DashboardController,saveResourceFile,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,saveResourceFile,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,saveResourceFile,Long Statement
+datagear,org.datagear.web.controller,DashboardController,inflateTemplates,Complex Method
+datagear,org.datagear.web.controller,DashboardController,saveImport,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,saveImport,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,saveImport,Long Statement
+datagear,org.datagear.web.controller,DashboardController,view,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,view,Long Statement
+datagear,org.datagear.web.controller,DashboardController,export,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,export,Long Statement
+datagear,org.datagear.web.controller,DashboardController,delete,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,pagingQueryData,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,pagingQueryData,Long Statement
+datagear,org.datagear.web.controller,DashboardController,show,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,show,Long Statement
+datagear,org.datagear.web.controller,DashboardController,showResource,Complex Method
+datagear,org.datagear.web.controller,DashboardController,showResource,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,showResource,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,showResource,Long Statement
+datagear,org.datagear.web.controller,DashboardController,showDashboard,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,showDashboard,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,showDashboard,Long Statement
+datagear,org.datagear.web.controller,DashboardController,loadChart,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,loadChart,Long Parameter List
+datagear,org.datagear.web.controller,DashboardController,loadChart,Long Statement
+datagear,org.datagear.web.controller,DashboardController,resolveTemplateEncoding,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,readResourceContent,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,readResourceContent,Long Statement
+datagear,org.datagear.web.controller,DashboardController,saveResourceContent,Long Identifier
+datagear,org.datagear.web.controller,DashboardController,mergeTemplates,Complex Method
+datagear,org.datagear.web.controller,DashboardGlobalResController,getDashboardGlobalResRootDirectory,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,setDashboardGlobalResRootDirectory,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,saveUpload,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,edit,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,saveEdit,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,saveEdit,Long Parameter List
+datagear,org.datagear.web.controller,DashboardGlobalResController,view,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,downloadFile,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,delete,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,findDashboardGlobalResItems,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,findDashboardGlobalResItems,Long Statement
+datagear,org.datagear.web.controller,DashboardGlobalResController,toDashboardGlobalResItem,Long Identifier
+datagear,org.datagear.web.controller,DashboardGlobalResController,toDashboardGlobalResItem,Long Statement
+datagear,org.datagear.web.controller,DataController,setObjectMapperBuilder,Long Identifier
+datagear,org.datagear.web.controller,DataController,query,Long Parameter List
+datagear,org.datagear.web.controller,DataController,query,Long Statement
+datagear,org.datagear.web.controller,DataController,execute,Long Parameter List
+datagear,org.datagear.web.controller,DataController,queryData,Long Identifier
+datagear,org.datagear.web.controller,DataController,queryData,Long Parameter List
+datagear,org.datagear.web.controller,DataController,queryData,Long Statement
+datagear,org.datagear.web.controller,DataController,getQuerySql,Long Parameter List
+datagear,org.datagear.web.controller,DataController,getQuerySql,Long Statement
+datagear,org.datagear.web.controller,DataController,add,Long Parameter List
+datagear,org.datagear.web.controller,DataController,add,Long Statement
+datagear,org.datagear.web.controller,DataController,saveAdd,Long Parameter List
+datagear,org.datagear.web.controller,DataController,saveAdd,Long Statement
+datagear,org.datagear.web.controller,DataController,saveAddSingle,Long Parameter List
+datagear,org.datagear.web.controller,DataController,saveAddSingle,Long Statement
+datagear,org.datagear.web.controller,DataController,saveAddBatch,Long Parameter List
+datagear,org.datagear.web.controller,DataController,saveAddBatch,Long Statement
+datagear,org.datagear.web.controller,DataController,doBatchUnit,Long Parameter List
+datagear,org.datagear.web.controller,DataController,edit,Long Parameter List
+datagear,org.datagear.web.controller,DataController,edit,Long Statement
+datagear,org.datagear.web.controller,DataController,saveEdit,Long Parameter List
+datagear,org.datagear.web.controller,DataController,saveEdit,Long Statement
+datagear,org.datagear.web.controller,DataController,delete,Long Parameter List
+datagear,org.datagear.web.controller,DataController,delete,Long Statement
+datagear,org.datagear.web.controller,DataController,view,Long Parameter List
+datagear,org.datagear.web.controller,DataController,view,Long Statement
+datagear,org.datagear.web.controller,DataController,savess,Long Parameter List
+datagear,org.datagear.web.controller,DataController,savess,Long Statement
+datagear,org.datagear.web.controller,DataController,execute,Long Statement
+datagear,org.datagear.web.controller,DataController,select,Long Parameter List
+datagear,org.datagear.web.controller,DataController,select,Long Statement
+datagear,org.datagear.web.controller,DataController,getColumnValuess,Long Parameter List
+datagear,org.datagear.web.controller,DataController,getColumnValuess,Long Statement
+datagear,org.datagear.web.controller,DataController,downloadColumnValue,Long Parameter List
+datagear,org.datagear.web.controller,DataController,downloadColumnValue,Long Statement
+datagear,org.datagear.web.controller,DataController,downloadFile,Long Statement
+datagear,org.datagear.web.controller,DataController,loadColumnValues,Long Parameter List
+datagear,org.datagear.web.controller,DataController,checkDuplicateRecord,Long Statement
+datagear,org.datagear.web.controller,DataController,setGridPageAttributes,Long Parameter List
+datagear,org.datagear.web.controller,DataController,BatchReturnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,DataController,execute,Complex Method
+datagear,org.datagear.web.controller,BatchReturnExecutor,BatchReturnExecutor,Long Parameter List
+datagear,org.datagear.web.controller,BatchReturnExecutor,execute,Complex Method
+datagear,org.datagear.web.controller,BatchReturnExecutor,execute,Long Parameter List
+datagear,org.datagear.web.controller,BatchReturnExecutor,execute,Long Statement
+datagear,org.datagear.web.controller,BatchReturnExecutor,doBatchUnit,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,impt,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptCsv,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptCsvUploadFile,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptCsvDoImport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,imptCsvDoImport,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptCsvDoImport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptSql,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptSqlUploadFile,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptSqlDoImport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,imptSqlDoImport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptJson,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptJsonUploadFile,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptJsonDoImport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,imptJsonDoImport,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptJsonDoImport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptExcel,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptExcelUploadFile,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptExcelDoImport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,imptExcelDoImport,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,imptExcelDoImport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,imptDb,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,viewLog,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,viewLog,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,getLogContent,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,getLogContent,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,expt,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptCsv,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptCsvDoExport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,exptCsvDoExport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptExcel,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptExcelDoExport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,exptExcelDoExport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptSql,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptSqlDoExport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,exptSqlDoExport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptJson,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptJsonDoExport,Complex Conditional
+datagear,org.datagear.web.controller,DataExchangeController,exptJsonDoExport,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptDownload,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,exptDownload,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,exptDownloadAll,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,exptDownloadAll,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,message,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,message,Magic Number
+datagear,org.datagear.web.controller,DataExchangeController,inflateDependentNumbers,Complex Method
+datagear,org.datagear.web.controller,DataExchangeController,inflateDependentNumbers,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,resolveSubDataExchangeDependencies,Complex Method
+datagear,org.datagear.web.controller,DataExchangeController,uploadImportFile,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,uploadImportFile,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,buildBatchDataExchange,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,getAllTableNames,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,evalSendDataExchangingMessageInterval,Magic Number
+datagear,org.datagear.web.controller,DataExchangeController,storeBatchDataExchangeInfo,Long Identifier
+datagear,org.datagear.web.controller,DataExchangeController,retrieveBatchDataExchangeInfo,Long Identifier
+datagear,org.datagear.web.controller,DataExchangeController,retrieveBatchDataExchangeInfo,Long Statement
+datagear,org.datagear.web.controller,DataExchangeController,listDataImportFileInfos,Complex Method
+datagear,org.datagear.web.controller,DataExchangeController,listDataImportFileInfos,Long Parameter List
+datagear,org.datagear.web.controller,DataExchangeController,listDataImportFileInfos,Long Statement
+datagear,org.datagear.web.controller,DataSetController,copy,Complex Conditional
+datagear,org.datagear.web.controller,DataSetController,copy,Complex Method
+datagear,org.datagear.web.controller,DataSetController,copy,Long Statement
+datagear,org.datagear.web.controller,DataSetController,edit,Complex Conditional
+datagear,org.datagear.web.controller,DataSetController,edit,Long Statement
+datagear,org.datagear.web.controller,DataSetController,downloadFile,Long Statement
+datagear,org.datagear.web.controller,DataSetController,view,Complex Conditional
+datagear,org.datagear.web.controller,DataSetController,view,Long Statement
+datagear,org.datagear.web.controller,DataSetController,pagingQueryData,Long Statement
+datagear,org.datagear.web.controller,DataSetController,setDirectoryFileDataSetDirectory,Complex Conditional
+datagear,org.datagear.web.controller,DataSetController,setDirectoryFileDataSetDirectory,Long Statement
+datagear,org.datagear.web.controller,DataSetController,checkSaveEntity,Complex Method
+datagear,org.datagear.web.controller,DataSetResDirectoryController,handleDataSetResDirectoryNotFoundException,Long Statement
+datagear,org.datagear.web.controller,DriverEntityController,export,Long Statement
+datagear,org.datagear.web.controller,DriverEntityController,downloadDriverFile,Long Statement
+datagear,org.datagear.web.controller,DriverEntityController,deleteDriverFile,Long Statement
+datagear,org.datagear.web.controller,DriverEntityController,resolveDriverClassNames,Empty catch clause
+datagear,org.datagear.web.controller,LoginController,login,Long Statement
+datagear,org.datagear.web.controller,MainController,changelog,Empty catch clause
+datagear,org.datagear.web.controller,RegisterController,doRegister,Complex Conditional
+datagear,org.datagear.web.controller,RegisterController,doRegister,Long Identifier
+datagear,org.datagear.web.controller,RegisterController,doRegister,Long Statement
+datagear,org.datagear.web.controller,RegisterController,registerSuccess,Long Identifier
+datagear,org.datagear.web.controller,ResetPasswordController,getResetPasswordCheckFileDirectory,Long Identifier
+datagear,org.datagear.web.controller,ResetPasswordController,setResetPasswordCheckFileDirectory,Long Identifier
+datagear,org.datagear.web.controller,ResetPasswordController,resetPassword,Magic Number
+datagear,org.datagear.web.controller,ResetPasswordController,fillUserInfo,Long Identifier
+datagear,org.datagear.web.controller,ResetPasswordController,fillUserInfo,Long Statement
+datagear,org.datagear.web.controller,ResetPasswordController,fillUserInfo,Magic Number
+datagear,org.datagear.web.controller,ResetPasswordController,checkUser,Complex Conditional
+datagear,org.datagear.web.controller,ResetPasswordController,checkUser,Long Identifier
+datagear,org.datagear.web.controller,ResetPasswordController,checkUser,Long Statement
+datagear,org.datagear.web.controller,ResetPasswordController,checkUser,Magic Number
+datagear,org.datagear.web.controller,ResetPasswordController,setNewPassword,Complex Conditional
+datagear,org.datagear.web.controller,ResetPasswordController,setNewPassword,Long Statement
+datagear,org.datagear.web.controller,ResetPasswordController,setNewPassword,Magic Number
+datagear,org.datagear.web.controller,SchemaController,saveEdit,Complex Conditional
+datagear,org.datagear.web.controller,SchemaController,saveEdit,Long Statement
+datagear,org.datagear.web.controller,SchemaController,pagingQueryTable,Long Parameter List
+datagear,org.datagear.web.controller,SchemaController,pagingQueryTable,Long Statement
+datagear,org.datagear.web.controller,SchemaController,getTable,Long Parameter List
+datagear,org.datagear.web.controller,SchemaController,getTable,Long Statement
+datagear,org.datagear.web.controller,SchemaController,execute,Long Parameter List
+datagear,org.datagear.web.controller,SchemaUrlBuilderController,getBuiltInDbTypeUrlTemplates,Complex Conditional
+datagear,org.datagear.web.controller,SqlEditorController,findTableNames,Long Parameter List
+datagear,org.datagear.web.controller,SqlEditorController,findTableNames,Long Statement
+datagear,org.datagear.web.controller,SqlEditorController,findColumnNames,Empty catch clause
+datagear,org.datagear.web.controller,SqlEditorController,findColumnNames,Long Identifier
+datagear,org.datagear.web.controller,SqlEditorController,findColumnNames,Long Parameter List
+datagear,org.datagear.web.controller,SqlEditorController,findColumnNames,Long Statement
+datagear,org.datagear.web.controller,SqlEditorController,execute,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,setObjectMapperBuilder,Long Identifier
+datagear,org.datagear.web.controller,SqlpadController,index,Long Statement
+datagear,org.datagear.web.controller,SqlpadController,executeSql,Long Identifier
+datagear,org.datagear.web.controller,SqlpadController,executeSql,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,executeSql,Long Statement
+datagear,org.datagear.web.controller,SqlpadController,command,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,message,Long Identifier
+datagear,org.datagear.web.controller,SqlpadController,message,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,message,Magic Number
+datagear,org.datagear.web.controller,SqlpadController,select,Long Identifier
+datagear,org.datagear.web.controller,SqlpadController,select,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,select,Long Statement
+datagear,org.datagear.web.controller,SqlpadController,select,Magic Number
+datagear,org.datagear.web.controller,SqlpadController,execute,Long Statement
+datagear,org.datagear.web.controller,SqlpadController,downloadResultField,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,downloadResultField,Long Statement
+datagear,org.datagear.web.controller,SqlpadController,downloadResultField,Magic Number
+datagear,org.datagear.web.controller,SqlpadController,pagingQuerySqlHistory,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,fileUpload,Long Parameter List
+datagear,org.datagear.web.controller,SqlpadController,replaceNameToAbsolutePath,Complex Method
+datagear,org.datagear.web.controller,SqlpadController,replaceNameToAbsolutePath,Empty catch clause
+datagear,org.datagear.web.controller,SqlpadFileDirectory,replaceNameToAbsolutePath,Complex Method
+datagear,org.datagear.web.controller,SqlpadFileDirectory,replaceNameToAbsolutePath,Empty catch clause
+datagear,org.datagear.web.controller,UserController,saveAdd,Long Statement
+datagear,org.datagear.web.controller,UserController,saveEdit,Long Statement
+datagear,org.datagear.web.controller,UserController,savePersonalSet,Long Statement
+datagear,org.datagear.web.dataexchange,MessageDataExchangeListener,resolveDataExchangeExceptionI18n,Complex Method
+datagear,org.datagear.web.dataexchange,MessageSubDataExchangeListener,MessageSubDataExchangeListener,Long Parameter List
+datagear,org.datagear.web.dataexchange,MessageSubDataExchangeListener,isTimeSendExchangingMessage,Long Identifier
+datagear,org.datagear.web.dataexchange,MessageSubDataExchangeListener,sendExchangingMessage,Long Identifier
+datagear,org.datagear.web.dataexchange,MessageSubDataExchangeListener,SubExceptionWithCount,Long Parameter List
+datagear,org.datagear.web.dataexchange,SubExceptionWithCount,SubExceptionWithCount,Long Parameter List
+datagear,org.datagear.web.dataexchange,MessageSubDataImportListener,MessageSubDataImportListener,Long Parameter List
+datagear,org.datagear.web.dataexchange,MessageSubDataImportListener,buildExceptionMessage,Long Statement
+datagear,org.datagear.web.dataexchange,MessageSubDataImportListener,buildSuccessMessage,Long Statement
+datagear,org.datagear.web.dataexchange,MessageSubDataImportListener,sendImportingMessage,Long Statement
+datagear,org.datagear.web.dataexchange,MessageSubTextDataExportListener,MessageSubTextDataExportListener,Long Parameter List
+datagear,org.datagear.web.dataexchange,MessageSubTextDataExportListener,buildExceptionMessage,Long Statement
+datagear,org.datagear.web.dataexchange,MessageSubTextDataExportListener,buildSuccessMessage,Long Statement
+datagear,org.datagear.web.dataexchange,MessageSubTextValueDataImportListener,MessageSubTextValueDataImportListener,Long Parameter List
+datagear,org.datagear.web.format,AbstractDateFormatter,parseByPatterns,Empty catch clause
+datagear,org.datagear.web.format,DateFormatter,parse,Long Statement
+datagear,org.datagear.web.format,SqlTimestampFormatter,parse,Long Statement
+datagear,org.datagear.web.freemarker,WriteJsonTemplateDirectiveModel,setObjectMapperBuilder,Long Identifier
+datagear,org.datagear.web.freemarker,WriteJsonTemplateDirectiveModel,execute,Long Identifier
+datagear,org.datagear.web.json.jackson,ObjectMapperBuilder,build,Long Statement
+datagear,org.datagear.web.json.jackson,ObjectMapperBuilder,addSerializer,Long Statement
+datagear,org.datagear.web.security,AnonymousAuthenticationFilterExt,doFilter,Long Statement
+datagear,org.datagear.web.security,AnonymousAuthenticationFilterExt,createAnonymousPrincipal,Long Identifier
+datagear,org.datagear.web.security,AnonymousAuthenticationFilterExt,createAnonymousPrincipal,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,sendSqlSuccessMessage,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,sendSqlExceptionMessage,Long Parameter List
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,run,Complex Method
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,run,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,handleSqlCommandInExecution,Complex Method
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,handleSqlCommandInExecution,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,handleSqlCommandInExecution,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,waitForCommitOrRollbackCommand,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,waitForCommitOrRollbackCommand,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,execute,Long Parameter List
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,execute,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,sendSqlCommandMessage,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionService,sleepForSqlCommand,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,run,Complex Method
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,run,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,handleSqlCommandInExecution,Complex Method
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,handleSqlCommandInExecution,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,handleSqlCommandInExecution,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,waitForCommitOrRollbackCommand,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,waitForCommitOrRollbackCommand,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,execute,Long Parameter List
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,execute,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,sendSqlCommandMessage,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionRunnable,sleepForSqlCommand,Magic Number
+datagear,org.datagear.web.sqlpad,SqlpadExecutionSubmit,SqlpadExecutionSubmit,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionSubmit,SqlpadExecutionSubmit,Long Parameter List
+datagear,org.datagear.web.sqlpad,SqlpadExecutionSubmit,setOverTimeThreashold,Long Identifier
+datagear,org.datagear.web.sqlpad,SqlpadExecutionSubmit,setOverTimeThreashold,Long Statement
+datagear,org.datagear.web.sqlpad,SqlpadExecutionSubmit,setOverTimeThreashold,Magic Number
+datagear,org.datagear.web.sqlpad,SqlPermissionChecker,resolveSqlAction,Magic Number
+datagear,org.datagear.web.util,DerbySqlClient,run,Complex Method
+datagear,org.datagear.web.util,DerbySqlClient,run,Long Statement
+datagear,org.datagear.web.util,DerbySqlClient,executeSql,Complex Method
+datagear,org.datagear.web.util,DirectoryCleaner,clean,Complex Method
+datagear,org.datagear.web.util,DirectoryCleaner,clean,Magic Number
+datagear,org.datagear.web.util,DirectoryCleaner,deleteFileIfModifiedBefore,Complex Method
+datagear,org.datagear.web.util,DirectoryFactory,init,Complex Conditional
+datagear,org.datagear.web.util,DirectoryFactory,init,Long Statement
+datagear,org.datagear.web.util,DirectoryFactory,writeToFile,Long Statement
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,DirectoryHtmlChartPluginManagerInitializer,Long Identifier
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,DirectoryHtmlChartPluginManagerInitializer,Long Statement
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,getDirectoryHtmlChartPluginManager,Long Identifier
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,setDirectoryHtmlChartPluginManager,Long Identifier
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,init,Long Identifier
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,loadHtmlChartPlugins,Long Identifier
+datagear,org.datagear.web.util,DirectoryHtmlChartPluginManagerInitializer,loadHtmlChartPlugins,Long Statement
+datagear,org.datagear.web.util,DriverInfo,toString,Long Statement
+datagear,org.datagear.web.util,KeywordMatcher,match,Complex Method
+datagear,org.datagear.web.util,MessageChannel,MessageChannel,Magic Number
+datagear,org.datagear.web.util,MessageChannel,MessageChannel,Long Statement
+datagear,org.datagear.web.util,TableCache,init,Long Statement
+datagear,org.datagear.web.util,TableCache,hashCode,Magic Number
+datagear,org.datagear.web.util,TableCache,equals,Complex Method
+datagear,org.datagear.web.util,TableCacheKey,hashCode,Magic Number
+datagear,org.datagear.web.util,TableCacheKey,equals,Complex Method
+datagear,org.datagear.web.util,WebUtils,getServerURL,Magic Number
+datagear,org.datagear.web.util,WebUtils,setCookie,Long Parameter List
+datagear,org.datagear.web.util,WebUtils,getThemeResolver,Long Statement
+datagear,org.datagear.web.util,WebUtils,escapeJavaScriptStringValue,Complex Method
+datagear,org.datagear.web.util,XmlDriverEntityManagerInitializer,init,Complex Method
+datagear,org.datagear.web.util,XmlDriverEntityManagerInitializer,init,Long Identifier
