@@ -27,6 +27,9 @@
 				text-align: center;
 
 			}
+			.layui-card{
+				margin-bottom: 30px ;
+			}
 		</style>
 	</head>
 
@@ -54,19 +57,23 @@
 								<h2><strong>Percentages of Files and LOC with Code Smells</strong></h3>
 							</div>
 							<div class="layui-card-body">
-								<!-- <img src="./img/files_codeSmell.jpg" width=80% height=80% /> -->
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with implementation smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis,
+									which contains 177 Java files, among which 83 files contain implementation smell, and the files containing implementation smell account for 46.9%. The LOC for all files was 14,078, including 9,457 for the files containing implementation smells,
+									 and 67.2% for the percentages of LOC of smelly files.</p>
+								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
-
+									
 									<thead>
 										<tr>
 											<th>Index</th>
 											<th>Project</th>
-											<th>Detected Files</th>
-											<th>Files With Code Smell</th>
-											<th>Percentages of Files with Code Smell</th>
-											<th>LOC of Detected Files</th>
-											<th>LOC Files With Code Smell</th>
-											<th>Percentages of LOC of Files with Code Smell</th>
+											<th>Files</th>
+											<th>Files With Implementation Smell</th>
+											<th>Percentages of Files with Implementation Smell</th>
+											<th>LOC of Files</th>
+											<th>LOC of Files With Implementation Smell</th>
+											<th>Percentages of LOC of Files with Implementation Smell</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -78,7 +85,7 @@
 											<td>46.9%</td>
 											<td>14,078</td>
 											<td>9,457</td>
-											<td>55.0%</td>
+											<td>67.2%</td>
 										</tr>
 										<tr>
 											<td>P2</td>
@@ -292,6 +299,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of implementation smells. Take P1 as an example, 
+									this row reports that 53.1% of files are not involved in any implementation smell, 20.3% of files participate in just one type of smell, and the 
+									 15.8%, 9.0%, 1.1%, 0.0%, 0.6% of files participate in 2, 3, 4, 5, 6 types of smells. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -603,6 +616,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of implementation smell types.
+									 Take P1 as an example, the average bug rate of files not involved in any implementation smells is 0.5, and the average bug rate of files participate in 1, 2, 3, 4, 5, 6, 7 types 
+									 of implementation smells is 0.5, 1.0, 1.9, 4.9, 15.5, 0.0, 4.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -915,6 +934,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of implementation smell types.
+									 Take P1 as an example, the average bug churn of files not involved in any implementation smells is 33.2, and the average bug churn of files participate in 1, 2, 3, 4, 5, 6, 7 types 
+									 of implementation smells is 36.4, 64.8, 124.3, 216.0, 0.0, 93.0, 0.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>

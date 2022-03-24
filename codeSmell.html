@@ -26,6 +26,10 @@
 				text-align: center;
 
 			}
+			.layui-card{
+				margin-bottom: 30px ;
+				width: 80rem;
+			}
 		</style>
 
 	</head>
@@ -49,21 +53,29 @@
 					<div class='layui-col-md12'>
 						<div class="layui-card">
 							<div class="layui-card-header">
-								<h2><strong>Percentages of Files and LOC with Code Smells</strong></h3>
+								<div>
+									<h2><strong>Percentages of Files and LOC with Code Smells</strong></h3>
+									
+								</div>
 							</div>
 							<div class="layui-card-body">
 								<!-- <img src="./img/files_codeSmell.jpg" width=80% height=80% /> -->
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with code smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis, 
+									which contains 177 Java files, among which 130 files contain code smell, and the files containing code smell account for 73.4%. The LOC for all files was 14,078, including 11,642 for the files containing code smells,
+									 and 82.7% for the percentages of LOC of smelly files.</p>
+								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
-
+									
 									<thead>
 										<tr>
 											<th>Index</th>
 											<th>Project</th>
-											<th>Detected Files</th>
+											<th>Files</th>
 											<th>Files With Code Smell</th>
 											<th>Percentages of Files with Code Smell</th>
-											<th>LOC of Detected Files</th>
-											<th>LOC Files With Code Smell</th>
+											<th>LOC of Files</th>
+											<th>LOC of Files With Code Smell</th>
 											<th>Percentages of LOC of Files with Code Smell</th>
 										</tr>
 									</thead>
@@ -288,6 +300,13 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of code smells. Take P1 as an example, 
+									this row reports that 26.6% of files are not involved in any code smell, 31.1% of files participate in just one type of smell, and the 
+									 16.9%, 13.6%, 6.8%, 2.3%, 0.0% of files participate in 2, 3, 4, 5, 6, 7 types of smells. As stated in the paper, just a few files are participating in 7 or more types of code smells. 
+									 The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -683,6 +702,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of code smell types.
+									 Take P1 as an example, the average bug rate of files not involved in any code smells is 0.6, and the average bug rate of files participate in 1, 2, 3, 4, 5, 6, 7 types 
+									 of code smells is 0.4, 1.2, 1.8, 4.0, 6.5, 10.5, 0.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -1081,6 +1106,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of code smell types.
+									 Take P1 as an example, the average bug churn of files not involved in any code smells is 38.0, and the average bug churn of files participate in 1, 2, 3, 4, 5, 6, 7 types 
+									 of code smells is 17.2, 47.9, 70.7, 164.7, 75.0, 164.8, 0.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>

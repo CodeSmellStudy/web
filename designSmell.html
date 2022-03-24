@@ -27,6 +27,9 @@
 				text-align: center;
 
 			}
+			.layui-card{
+				margin-bottom:30px ;
+			}
 		</style>
 	</head>
 
@@ -54,19 +57,22 @@
 								<h2><strong>Percentages of Files and LOC with Design Code Smells</strong></h3>
 							</div>
 							<div class="layui-card-body">
-								<!-- <img src="./img/files_codeSmell.jpg" width=80% height=80% /> -->
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with design smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis,
+									which contains 177 Java files, among which 101 files contain design smell, and the files containing design smell account for 57.1%. The LOC for all files was 14,078, including 9,052 for the files containing design smells,
+									 and 64.3% for the percentages of LOC of smelly files.</p>
+								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
-
 									<thead>
 										<tr>
-											<<th>Index</th>
+											<th>Index</th>
 											<th>Project</th>
-											<th>Detected Files</th>
-											<th>Files With Code Smell</th>
-											<th>Percentages of Files with Code Smell</th>
-											<th>LOC of Detected Files</th>
-											<th>LOC Files With Code Smell</th>
-											<th>Percentages of LOC of Files with Code Smell</th>
+											<th>Files</th>
+											<th>Files With Design Smell</th>
+											<th>Percentages of Files with Design Smell</th>
+											<th>LOC of Files</th>
+											<th>LOC of Files With Design Smell</th>
+											<th>Percentages of LOC of Files with Design Smell</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -295,6 +301,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of code smells. Take P1 as an example, 
+									this row reports that 42.9% of files are not involved in any code smell, 42.4% of files participate in just one type of smell, and the 
+									 11.9%, 2.3%, 0.6%, 0.0% of files participate in 2, 3, 4, 5 types of smells. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -522,6 +534,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of design smell types.
+									 Take P1 as an example, the average bug churn of files not involved in any design smells is 0.8, and the average bug churn of files participate in 1, 2, 3, 4, 5 types 
+									 of design smells is 1.4, 2.1, 8.3, 2.0, 0.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
@@ -750,6 +768,12 @@
 								</h2>
 							</div>
 							<div class="layui-card-body">
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of design smell types.
+									 Take P1 as an example, the average bug churn of files not involved in any design smells is 37.9, and the average bug churn of files participate in 1, 2, 3, 4, 5 types 
+									 of design smells is 85.5, 58.5, 154.3, 41.0, 0.0. The rest of the data is similar and presented in the table.
+									</p>
+								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
