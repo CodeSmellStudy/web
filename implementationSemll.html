@@ -27,8 +27,9 @@
 				text-align: center;
 
 			}
-			.layui-card{
-				margin-bottom: 30px ;
+
+			.layui-card {
+				margin-bottom: 50px;
 			}
 		</style>
 	</head>
@@ -58,12 +59,17 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with implementation smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis,
-									which contains 177 Java files, among which 83 files contain implementation smell, and the files containing implementation smell account for 46.9%. The LOC for all files was 14,078, including 9,457 for the files containing implementation smells,
-									 and 67.2% for the percentages of LOC of smelly files.</p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										reports the percentages of files with implementation smell and the percentages
+										of LOC of smelly files. Take P1 as an example, the project is named Aegis,
+										which contains 177 Java files, among which 83 files contain implementation
+										smell, and the files containing implementation smell account for 46.9%. The LOC
+										for all files was 14,078, including 9,457 for the files containing
+										implementation smells,
+										and 67.2% for the percentages of LOC of smelly files.</p>
 								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
-									
+
 									<thead>
 										<tr>
 											<th>Index</th>
@@ -290,6 +296,15 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can summarize that from 34.3% to 82.1% of files are involved in
+										implementation smells. Moreover, in 14 mobile projects, more than 50% of files
+										contain implementation smells. What's more, files involved in
+										implementation smells contain 50.1% - 84.4% of LOC. Similarly, the results have
+										demonstrated that implementation smells have a considerable impact on
+										Android mobile projects. </p>
+								</div>
 							</div>
 						</div>
 
@@ -300,9 +315,13 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of implementation smells. Take P1 as an example, 
-									this row reports that 53.1% of files are not involved in any implementation smell, 20.3% of files participate in just one type of smell, and the 
-									 15.8%, 9.0%, 1.1%, 0.0%, 0.6% of files participate in 2, 3, 4, 5, 6 types of smells. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the statistics of files involved in different numbers of implementation
+										smells. Take P1 as an example,
+										this row reports that 53.1% of files are not involved in any implementation
+										smell, 20.3% of files participate in just one type of smell, and the
+										15.8%, 9.0%, 1.1%, 0.0%, 0.6% of files participate in 2, 3, 4, 5, 6 types of
+										smells. The rest of the data is similar and presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -606,6 +625,15 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the table,
+										we can see that a few files even contain as high as 9 types of implementation
+										smells. In 18 studied projects, just from 0.1% to 7.1% of files are involved in
+										six types of implementation smells; From 17.9% to 65.7% of files don't contain
+										any implementation smells; From 17.2% to 35.8% of files are involved in one type
+										of implementation smells; The percentage of files decreases as the number of
+										implementation smell types increases.</p>
+								</div>
 							</div>
 						</div>
 
@@ -617,9 +645,14 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of implementation smell types.
-									 Take P1 as an example, the average bug rate of files not involved in any implementation smells is 0.5, and the average bug rate of files participate in 1, 2, 3, 4, 5, 6, 7 types 
-									 of implementation smells is 0.5, 1.0, 1.9, 4.9, 15.5, 0.0, 4.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the average bug rate of files with different number of implementation
+										smell types.
+										Take P1 as an example, the average bug rate of files not involved in any
+										implementation smells is 0.5, and the average bug rate of files participate in
+										1, 2, 3, 4, 5, 6, 7 types
+										of implementation smells is 0.5, 1.0, 1.9, 4.9, 15.5, 0.0, 4.0. The rest of the
+										data is similar and presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -924,6 +957,13 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can observe that files involved in implementation smells are more
+										bug-prone than the non-involved files. When files participate in more smell
+										types, they usually become more bug-prone in terms of the bug rate measure.
+									</p>
+								</div>
 							</div>
 						</div>
 
@@ -935,9 +975,14 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of implementation smell types.
-									 Take P1 as an example, the average bug churn of files not involved in any implementation smells is 33.2, and the average bug churn of files participate in 1, 2, 3, 4, 5, 6, 7 types 
-									 of implementation smells is 36.4, 64.8, 124.3, 216.0, 0.0, 93.0, 0.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the average bug churn of files with different number of implementation
+										smell types.
+										Take P1 as an example, the average bug churn of files not involved in any
+										implementation smells is 33.2, and the average bug churn of files participate in
+										1, 2, 3, 4, 5, 6, 7 types
+										of implementation smells is 36.4, 64.8, 124.3, 216.0, 0.0, 93.0, 0.0. The rest
+										of the data is similar and presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -1244,6 +1289,15 @@
 
 									</tbody>
 								</table>
+
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can observe that files involved in implementation code smells have
+										more bug churn than the non-involved files. When files participate in more
+										smells, they usually cause more bug churn in terms of the bug churn measure.
+									</p>
+								</div>
+
 							</div>
 						</div>
 

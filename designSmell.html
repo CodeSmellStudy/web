@@ -27,8 +27,9 @@
 				text-align: center;
 
 			}
-			.layui-card{
-				margin-bottom:30px ;
+
+			.layui-card {
+				margin-bottom: 50px;
 			}
 		</style>
 	</head>
@@ -58,9 +59,13 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with design smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis,
-									which contains 177 Java files, among which 101 files contain design smell, and the files containing design smell account for 57.1%. The LOC for all files was 14,078, including 9,052 for the files containing design smells,
-									 and 64.3% for the percentages of LOC of smelly files.</p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										reports the percentages of files with design smell and the percentages of LOC of
+										smelly files. Take P1 as an example, the project is named Aegis,
+										which contains 177 Java files, among which 101 files contain design smell, and
+										the files containing design smell account for 57.1%. The LOC for all files was
+										14,078, including 9,052 for the files containing design smells,
+										and 64.3% for the percentages of LOC of smelly files.</p>
 								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
 									<thead>
@@ -291,6 +296,15 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can summarize that from 42.4% to 85.7% of files are involved in design
+										smells. Moreover, in 19 projects, more than 50% of files encounter design code
+										smells, and in 3 projects, the percentages are even as high as 80%. What's more,
+										files involved in design smells contain 53.4% - 82.5% of LOC, meaning the that
+										files participated in design smells are not trivial, but occupy a large portion
+										of LOC in mobile projects as well.</p>
+								</div>
 							</div>
 						</div>
 
@@ -302,9 +316,13 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of code smells. Take P1 as an example, 
-									this row reports that 42.9% of files are not involved in any code smell, 42.4% of files participate in just one type of smell, and the 
-									 11.9%, 2.3%, 0.6%, 0.0% of files participate in 2, 3, 4, 5 types of smells. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the statistics of files involved in different numbers of design smells.
+										Take P1 as an example,
+										this row reports that 42.9% of files are not involved in any design smell, 42.4%
+										of files participate in just one type of smell, and the
+										11.9%, 2.3%, 0.6%, 0.0% of files participate in 2, 3, 4, 5 types of smells. The
+										rest of the data is similar and presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -524,6 +542,15 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can see that there is no file containing more than five types of
+										design smells. From 14.3% to 57.6% of files don't contain any design smells;
+										From 25.0% to 65.4% of files are involved in just one type of design smells; The
+										percentage of files decreases as the number of design smells types increases.
+									</p>
+								</div>
+
 							</div>
 						</div>
 
@@ -535,9 +562,13 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of design smell types.
-									 Take P1 as an example, the average bug churn of files not involved in any design smells is 0.8, and the average bug churn of files participate in 1, 2, 3, 4, 5 types 
-									 of design smells is 1.4, 2.1, 8.3, 2.0, 0.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the average bug rate of files with different number of design smell types.
+										Take P1 as an example, the average bug churn of files not involved in any design
+										smells is 0.8, and the average bug churn of files participate in 1, 2, 3, 4, 5
+										types
+										of design smells is 1.4, 2.1, 8.3, 2.0, 0.0. The rest of the data is similar and
+										presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -758,6 +789,13 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can see that files involved in design smells usually have higher
+										average bug rates, meaning that the smelly files are more bug-prone than the
+										smell-free files. Moreover, when files participate in more types of design
+										smells, their bug rates often increase. </p>
+								</div>
 							</div>
 						</div>
 
@@ -769,9 +807,14 @@
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of design smell types.
-									 Take P1 as an example, the average bug churn of files not involved in any design smells is 37.9, and the average bug churn of files participate in 1, 2, 3, 4, 5 types 
-									 of design smells is 85.5, 58.5, 154.3, 41.0, 0.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table
+										shows the average bug churn of files with different number of design smell
+										types.
+										Take P1 as an example, the average bug churn of files not involved in any design
+										smells is 37.9, and the average bug churn of files participate in 1, 2, 3, 4, 5
+										types
+										of design smells is 85.5, 58.5, 154.3, 41.0, 0.0. The rest of the data is
+										similar and presented in the table.
 									</p>
 								</div>
 								<table class="layui-table">
@@ -992,6 +1035,12 @@
 
 									</tbody>
 								</table>
+								<div>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the
+										table, we can see that files involved in design smells have more bug churn than
+										the files not in any design smells. In most cases, files contain more types of
+										design smells have more bug churn. </p>
+								</div>
 							</div>
 						</div>
 
