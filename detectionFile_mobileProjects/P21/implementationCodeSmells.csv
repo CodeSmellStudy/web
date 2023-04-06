@@ -1,0 +1,215 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+JASONETTE-Android,com.jasonette.seed.Launcher,ConfigurableStethoTree,log,Complex Method
+JASONETTE-Android,com.jasonette.seed.Launcher,ConfigurableStethoTree,log,Missing default
+JASONETTE-Android,com.jasonette.seed.Launcher,DebugLauncher,onCreate,Long Statement
+JASONETTE-Android,com.jasonette.seed.Launcher,DebugLauncher,getHttpClient,Long Statement
+JASONETTE-Android,com.jasonette.seed.Launcher,Launcher,trigger,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonAgentAction,refresh,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonAgentAction,clear,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonAgentAction,inject,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonAudioAction,duration,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonAudioAction,record,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonAudioAction,record,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonGeoAction,get,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonGeoAction,get,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonGeoAction,getLocationManagerInfo,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonGeoAction,getLocationManagerInfo,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonLogAction,log,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Action,JasonMediaAction,camera,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonMediaAction,camera,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonNetworkAction,_request,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonNetworkAction,_request,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Action,JasonNetworkAction,_request,Long Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonNetworkAction,_request,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,auth,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,auth,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,auth,Long Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,auth,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,auth,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,doInBackground,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,oauth_callback,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,oauth_callback,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,oauth_callback,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request_oauth20_access_token,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request_oauth20_access_token,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request_oauth20_access_token,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request_oauth20_access_token,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request_oauth20_access_token,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,onResponse,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request,Long Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonOauthAction,request,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonPushAction,register,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonPushAction,onComplete,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonReturnAction,next,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Action,JasonScriptAction,include,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonTimerAction,start,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,alert,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,alert,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,alert,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,run,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,run,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,run,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,onClick,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,showTimePickerDialog,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,showTimePickerDialog,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,onTimeSet,Magic Number
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,getContacts,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,getContacts,Long Statement
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,share,Complex Method
+JASONETTE-Android,com.jasonette.seed.Action,JasonUtilAction,share,Long Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonButtonComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonButtonComponent,build,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponent,build,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponent,build,Long Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponent,addListener,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponent,onClick,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Component,JasonComponentFactory,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonHtmlComponent,build,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Component,JasonHtmlComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonHtmlComponent,onTouch,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Component,JasonHtmlComponent,onTouch,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonImageComponent,resolve_url,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonImageComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonImageComponent,build,Long Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonLabelComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,build,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,build,Missing default
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,getCoordinates,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,getZoomForMetersWide,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,onMapReady,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,onInterceptTouchEvent,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Component,JasonMapComponent,onInterceptTouchEvent,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,MapReadyHandler,getZoomForMetersWide,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,MapReadyHandler,onMapReady,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonSliderComponent,build,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonSliderComponent,addListener,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonSliderComponent,onStopTrackingTouch,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonTextareaComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonTextareaComponent,build,Long Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonTextareaComponent,build,Magic Number
+JASONETTE-Android,com.jasonette.seed.Component,JasonTextfieldComponent,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Component,JasonTextfieldComponent,build,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonModel,fetch_http,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonModel,include,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonModel,resolve_reference,Long Identifier
+JASONETTE-Android,com.jasonette.seed.Core,JasonParser,processTask,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonRequire,JasonRequire,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Core,JasonRequire,remote,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onCreate,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onCreate,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onCreate,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onCreate,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onCreate,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_agents,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,clear_agents,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onPause,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onResume,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onSaveInstanceState,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,simple_trigger,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,exec,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,require,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,href,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,snapshot,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,build,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,build,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_body,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_body,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_body,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_body,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_body,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,run,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onGlobalLayout,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onLayoutChange,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onLayoutChange,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_sections,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_input,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_tabs,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_tabs,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_tabs,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_tabs,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onPrepareOptionsMenu,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onPrepareOptionsMenu,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onPrepareOptionsMenu,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onPrepareOptionsMenu,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onMenuItemClick,Long Statement
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_title,Complex Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_title,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_title,Long Method
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,setup_title,Magic Number
+JASONETTE-Android,com.jasonette.seed.Core,JasonViewActivity,onRequestPermissionsResult,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,style,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,next,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,ratio,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,pixels,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,parse_color,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,parse_color,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,permission_exception,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,readBytes,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,dispatchIntent,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,dispatchIntent,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,preserve,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,setTextViewFont,Complex Method
+JASONETTE-Android,com.jasonette.seed.Helper,JasonHelper,setTextViewFont,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Helper,JasonImageHelper,load,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonImageHelper,fetch,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonImageHelper,fetch,Magic Number
+JASONETTE-Android,com.jasonette.seed.Helper,JasonImageHelper,onResourceReady,Long Statement
+JASONETTE-Android,com.jasonette.seed.Helper,JasonImageHelper,onResourceReady,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,JasonToolbar,setTitle,Long Statement
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,init,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,refreshBackgroundDrawable,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,setBadgeCount,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,setHighLightMode,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,OvalShadow,Long Statement
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,OvalShadow,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,draw,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,setBounds,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,MaterialBadgeTextView,dp2px,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,OvalShadow,OvalShadow,Long Statement
+JASONETTE-Android,com.jasonette.seed.Lib,OvalShadow,OvalShadow,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,OvalShadow,draw,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,SemiCircleRectDrawable,setBounds,Magic Number
+JASONETTE-Android,com.jasonette.seed.Lib,SemiCircleRectDrawable,draw,Magic Number
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,onClick,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,onCreateViewHolder,Long Statement
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,onBindViewHolder,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,buildContentView,Complex Method
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,buildLayout,Complex Method
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,buildLayout,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,buildLayout,Long Method
+JASONETTE-Android,com.jasonette.seed.Section,ItemAdapter,buildLayout,Long Statement
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolder,onClick,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolderFactory,buildContentView,Complex Method
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolderFactory,buildLayout,Complex Method
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolderFactory,buildLayout,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolderFactory,buildLayout,Long Method
+JASONETTE-Android,com.jasonette.seed.Section,ViewHolderFactory,buildLayout,Long Statement
+JASONETTE-Android,com.jasonette.seed.Section,JasonLayout,autolayout,Complex Conditional
+JASONETTE-Android,com.jasonette.seed.Section,JasonLayout,autolayout,Complex Method
+JASONETTE-Android,com.jasonette.seed.Section,JasonLayout,autolayout,Empty catch clause
+JASONETTE-Android,com.jasonette.seed.Section,JasonLayout,autolayout,Long Method
+JASONETTE-Android,com.jasonette.seed.Section,JasonLayout,autolayout,Long Statement
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,postMessage,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,setup,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,setup,Long Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,setup,Long Statement
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,setup,Magic Number
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,onProgressChanged,Magic Number
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,shouldOverrideUrlLoading,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,request,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,inject,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentService,Fetcher,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Service.agent,JasonAgentInterface,postMessage,Complex Method
+JASONETTE-Android,com.jasonette.seed.Service.agent,Fetcher,Fetcher,Long Parameter List
+JASONETTE-Android,com.jasonette.seed.Service.push,JasonPushMessageService,onMessageReceived,Long Statement
+JASONETTE-Android,com.jasonette.seed.Service.push,JasonPushRegisterService,onNewToken,Long Statement
+JASONETTE-Android,com.jasonette.seed.Service.vision,JasonVisionService,startCamera,Magic Number
+JASONETTE-Android,com.jasonette.seed.Service.vision,JasonVisionService,getVerticalCameraDisplayOrientation,Magic Number
+JASONETTE-Android,com.jasonette.seed.Service.websocket,JasonWebsocketService,close,Magic Number

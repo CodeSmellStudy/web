@@ -1,0 +1,1090 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteAllMovies,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testInvalidMovieCreation,Long Statement
+Mizuu,com.miz.test,DatabaseMovieTests,testUpdateMovie,Long Statement
+Mizuu,com.miz.test,DatabaseMovieTests,testMultipleFilepathMappings,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testCountWatchlist,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testGetCertifications,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteAllCollections,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteCollection,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteAllUnidentified,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testUpdateTmdbId,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testMovieMappingExists,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testFilepathExists,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteAllFilepathsMappedToMovie,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testDeleteAllMovieFilepaths,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,testMovieFilepathsByMovieId,Magic Number
+Mizuu,com.miz.test,DatabaseMovieTests,createTestMovie,Long Statement
+Mizuu,com.miz.test,DatabaseMovieTests,createTwoTestMovies,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetAllShows,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteShowById,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllShows,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetCertifications,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testCreateEpisode,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testCreateEpisodeDuplication,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisode,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisode,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodesByShowId,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodesByShowId,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetAllEpisodes,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetAllEpisodes,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteEpisode,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteEpisode,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteEpisodeAlternate,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteEpisodeAlternate,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllEpisodesByShowId,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllEpisodesByShowId,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteSeason,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteSeason,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllEpisodes,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllEpisodes,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodeCountByShowId,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodeCountByShowId,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodeCountForSeason,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodeCountForSeason,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetSeasonCount,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetSeasonCount,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetSeasons,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetSeasons,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodesInSeason,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetEpisodesInSeason,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetLatestEpisodeAirdateByShow,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testHasUnwatchedEpisodes,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testSetSeasonWatchedStatus,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testSetEpisodeWatchedStatus,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testUpdateEpisode,Long Statement
+Mizuu,com.miz.test,DatabaseTvShowTests,testUpdateEpisode,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetFilepathsForEpisode,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetUnidentifiedFilepaths,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetAllFilepaths,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testGetAllFilepathsForShow,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteFilepathByFilepath,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllFilepathsByShowId,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllFilepaths,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testDeleteAllUnidentifiedFilepaths,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testRemoveSeason,Magic Number
+Mizuu,com.miz.test,DatabaseTvShowTests,testIgnoreSeason,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase1,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase2,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase3,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase6,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase7,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase8,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase9,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase14,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase15,Long Statement
+Mizuu,com.miz.test,MovieFilenameTests,testCase15,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase16,Magic Number
+Mizuu,com.miz.test,MovieFilenameTests,testCase17,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase4,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase5,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase6,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase7,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase7,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase8,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase9,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase11,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase12,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase12,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase13,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase14,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase15,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase16,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase16,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testCase19,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase20,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase21,Long Statement
+Mizuu,com.miz.test,TvShowFilenameTests,testCase21,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention1Single,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention1Multi,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention2Single,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention2Multi,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention3Single,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention3Multi,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention4Single,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention5Single,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testNamingConvention5Multi,Magic Number
+Mizuu,com.miz.test,TvShowFilenameTests,testReleaseYear,Magic Number
+Mizuu,com.miz.abstractclasses,AbstractFileSourceBrowser,AbstractFileSourceBrowser,Abstract Function Call From Constructor
+Mizuu,com.miz.abstractclasses,MediumBaseMovie,MediumBaseMovie,Long Parameter List
+Mizuu,com.miz.abstractclasses,MediumBaseMovie,MediumBaseMovie,Magic Number
+Mizuu,com.miz.abstractclasses,MediumBaseMovie,setRating,Magic Number
+Mizuu,com.miz.abstractclasses,MediumBaseMovie,getWeightedRating,Magic Number
+Mizuu,com.miz.abstractclasses,MediumBaseMovie,isUnidentified,Long Statement
+Mizuu,com.miz.abstractclasses,MovieFileSource,setupDbMovies,Empty catch clause
+Mizuu,com.miz.abstractclasses,MovieFileSource,setupDbMovies,Long Statement
+Mizuu,com.miz.abstractclasses,TvShowFileSource,setupDbEpisodes,Empty catch clause
+Mizuu,com.miz.abstractclasses,TvShowFileSource,setupDbEpisodes,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,search,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,search,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,searchByImdbId,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,searchByImdbId,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,get,Complex Method
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,get,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,get,Long Method
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,get,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,get,Magic Number
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteMovie,Complex Method
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteMovie,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteMovie,Long Method
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteMovie,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteMovie,Magic Number
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCovers,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCovers,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getBackdrops,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getBackdrops,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getListFromUrl,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,searchNgram,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,searchNgram,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getActors,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getActors,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getSimilarMovies,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getSimilarMovies,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteActorDetails,Complex Method
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteActorDetails,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbMovieService,getCompleteActorDetails,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,search,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,search,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,searchByImdbId,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,searchByImdbId,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,get,Complex Method
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,get,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,get,Long Method
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,get,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,get,Magic Number
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getListFromUrl,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getCovers,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getCovers,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getBackdrops,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getBackdrops,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,searchNgram,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,searchNgram,Long Statement
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getActors,Empty catch clause
+Mizuu,com.miz.apis.tmdb,TMDbTvShowService,getActors,Long Statement
+Mizuu,com.miz.apis.trakt,Movie,Movie,Empty catch clause
+Mizuu,com.miz.apis.trakt,Show,Show,Empty catch clause
+Mizuu,com.miz.apis.trakt,Trakt,getApiKey,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,performMovieCheckin,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,performEpisodeCheckin,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,markMovieAsWatched,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,markMovieAsWatched,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,markMoviesAsWatched,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,markMoviesAsWatched,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,changeSeasonWatchedStatus,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,markEpisodeAsWatched,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,markEpisodeAsWatched,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,addMoviesToLibrary,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,movieWatchlist,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,movieWatchlist,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,moviesWatchlist,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,moviesWatchlist,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,movieFavorite,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,moviesFavorite,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,tvShowFavorite,Complex Conditional
+Mizuu,com.miz.apis.trakt,Trakt,getShowSummary,Long Statement
+Mizuu,com.miz.apis.trakt,Trakt,getMovieSummary,Long Statement
+Mizuu,com.miz.base,MizActivity,setSupportActionBar,Empty catch clause
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,query,Long Parameter List
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,query,Long Statement
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,createRow,Long Parameter List
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,createRow,Long Statement
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,getSearchResults,Empty catch clause
+Mizuu,com.miz.contentprovider,MovieActorContentProvider,getSearchResults,Long Statement
+Mizuu,com.miz.contentprovider,MovieContentProvider,query,Long Parameter List
+Mizuu,com.miz.contentprovider,MovieContentProvider,query,Long Statement
+Mizuu,com.miz.contentprovider,MovieContentProvider,createRow,Long Parameter List
+Mizuu,com.miz.contentprovider,MovieContentProvider,createRow,Long Statement
+Mizuu,com.miz.contentprovider,MovieContentProvider,getSearchResults,Empty catch clause
+Mizuu,com.miz.contentprovider,MovieContentProvider,getSearchResults,Long Statement
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,query,Long Parameter List
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,query,Long Statement
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,createRow,Long Parameter List
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,createRow,Long Statement
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,getSearchResults,Empty catch clause
+Mizuu,com.miz.contentprovider,TvShowActorContentProvider,getSearchResults,Long Statement
+Mizuu,com.miz.contentprovider,TvShowContentProvider,query,Long Parameter List
+Mizuu,com.miz.contentprovider,TvShowContentProvider,query,Long Statement
+Mizuu,com.miz.contentprovider,TvShowContentProvider,createRow,Long Parameter List
+Mizuu,com.miz.contentprovider,TvShowContentProvider,createRow,Long Statement
+Mizuu,com.miz.contentprovider,TvShowContentProvider,getSearchResults,Empty catch clause
+Mizuu,com.miz.contentprovider,TvShowContentProvider,getSearchResults,Long Statement
+Mizuu,com.miz.db,DatabaseHelper,onCreate,Long Identifier
+Mizuu,com.miz.db,DatabaseHelper,onUpgrade,Magic Number
+Mizuu,com.miz.db,DatabaseHelper,upgradeMovieTable,Empty catch clause
+Mizuu,com.miz.db,DatabaseHelper,upgradeMovieTable,Long Identifier
+Mizuu,com.miz.db,DatabaseHelper,upgradeMovieTable,Long Statement
+Mizuu,com.miz.db,DatabaseHelper,movieExists,Empty catch clause
+Mizuu,com.miz.db,DatabaseHelper,movieExists,Long Statement
+Mizuu,com.miz.db,DatabaseHelper,moveTvShowDb,Empty catch clause
+Mizuu,com.miz.db,DatabaseHelper,moveTvShowDb,Long Identifier
+Mizuu,com.miz.db,DatabaseHelper,moveTvShowDb,Long Method
+Mizuu,com.miz.db,DatabaseHelper,moveTvShowDb,Long Statement
+Mizuu,com.miz.db,DatabaseHelper,moveFileSourcesDb,Empty catch clause
+Mizuu,com.miz.db,DbAdapterCollections,collectionExists,Long Statement
+Mizuu,com.miz.db,DbAdapterCollections,getCollection,Empty catch clause
+Mizuu,com.miz.db,DbAdapterCollections,getCollection,Long Statement
+Mizuu,com.miz.db,DbAdapterCollections,getMovieCount,Empty catch clause
+Mizuu,com.miz.db,DbAdapterCollections,getMovieCount,Long Statement
+Mizuu,com.miz.db,DbAdapterCollections,getCollectionsMap,Empty catch clause
+Mizuu,com.miz.db,DbAdapterCollections,getCollectionsMap,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,getAllFilepaths,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,getAllUnidentifiedFilepaths,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,getFirstFilepathForMovie,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,getFirstFilepathForMovie,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,updateTmdbId,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,exists,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,filepathExists,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,filepathExists,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,hasMultipleFilepaths,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,getMovieFilepaths,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,getMovieFilepaths,Long Statement
+Mizuu,com.miz.db,DbAdapterMovieMappings,getIdForFilepath,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovieMappings,getIdForFilepath,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,createMovie,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,createMovie,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,createOrUpdateMovie,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,createOrUpdateMovie,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,updateMovie,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,updateMovie,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,getSingleItem,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovies,editMovie,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,getCollections,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,getNewReleases,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,movieExists,Empty catch clause
+Mizuu,com.miz.db,DbAdapterMovies,createContentValues,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,createUpdateContentValues,Long Parameter List
+Mizuu,com.miz.db,DbAdapterMovies,count,Long Statement
+Mizuu,com.miz.db,DbAdapterMovies,getCertifications,Empty catch clause
+Mizuu,com.miz.db,DbAdapterSources,createSource,Long Parameter List
+Mizuu,com.miz.db,DbAdapterSources,createContentValues,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,filepathExists,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,filepathExists,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,getFirstFilepath,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,getFirstFilepath,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,getFilepathsForEpisode,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,getFilepathsForEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,getFilepathsForShow,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,hasMultipleFilepaths,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,hasMultipleFilepaths,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodeMappings,removeSeason,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,createEpisode,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,createEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,updateEpisode,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,updateEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisodes,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getAllEpisodes,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,deleteEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,deleteSeason,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisodeCount,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisodeCountForSeason,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getSeasonCount,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getSeasons,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getSeasons,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisodesInSeason,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getEpisodesInSeason,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getSingleItem,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getSingleItem,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,getLatestEpisodeAirdate,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,hasUnwatchedEpisodes,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,setSeasonWatchStatus,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,setEpisodeWatchStatus,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,createContentValues,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,editEpisode,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,editEpisode,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShowEpisodes,count,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,createShow,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShows,createShow,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,showExists,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShows,showExists,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,getSingleItem,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShows,getShowId,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,getShowTitle,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,getAllShows,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,getAllFavorites,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,count,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,createContentValues,Long Parameter List
+Mizuu,com.miz.db,DbAdapterTvShows,getCertifications,Empty catch clause
+Mizuu,com.miz.db,DbAdapterTvShows,getCertifications,Long Statement
+Mizuu,com.miz.db,DbAdapterTvShows,editShow,Long Parameter List
+Mizuu,com.miz.filesources,BrowserFile,browse,Empty catch clause
+Mizuu,com.miz.filesources,BrowserFile,compare,Empty catch clause
+Mizuu,com.miz.filesources,BrowserSmb,browse,Empty catch clause
+Mizuu,com.miz.filesources,BrowserSmb,compare,Empty catch clause
+Mizuu,com.miz.filesources,FileMovie,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,FileMovie,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,FileMovie,recursiveSearch,Complex Method
+Mizuu,com.miz.filesources,FileMovie,recursiveSearch,Empty catch clause
+Mizuu,com.miz.filesources,FileMovie,recursiveSearch,Long Statement
+Mizuu,com.miz.filesources,FileTvShow,removeUnidentifiedFiles,Complex Conditional
+Mizuu,com.miz.filesources,FileTvShow,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,FileTvShow,removeUnavailableFiles,Complex Method
+Mizuu,com.miz.filesources,FileTvShow,removeUnavailableFiles,Empty catch clause
+Mizuu,com.miz.filesources,FileTvShow,removeUnavailableFiles,Long Statement
+Mizuu,com.miz.filesources,FileTvShow,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,FileTvShow,searchFolder,Long Statement
+Mizuu,com.miz.filesources,FileTvShow,recursiveSearch,Empty catch clause
+Mizuu,com.miz.filesources,SmbMovie,removeUnidentifiedFiles,Complex Method
+Mizuu,com.miz.filesources,SmbMovie,removeUnidentifiedFiles,Empty catch clause
+Mizuu,com.miz.filesources,SmbMovie,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,SmbMovie,removeUnavailableFiles,Complex Method
+Mizuu,com.miz.filesources,SmbMovie,removeUnavailableFiles,Empty catch clause
+Mizuu,com.miz.filesources,SmbMovie,removeUnavailableFiles,Long Statement
+Mizuu,com.miz.filesources,SmbMovie,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,SmbMovie,recursiveSearch,Complex Method
+Mizuu,com.miz.filesources,SmbMovie,recursiveSearch,Empty catch clause
+Mizuu,com.miz.filesources,SmbMovie,recursiveSearch,Long Statement
+Mizuu,com.miz.filesources,SmbMovie,getRootFolder,Empty catch clause
+Mizuu,com.miz.filesources,SmbTvShow,removeUnidentifiedFiles,Complex Method
+Mizuu,com.miz.filesources,SmbTvShow,removeUnidentifiedFiles,Empty catch clause
+Mizuu,com.miz.filesources,SmbTvShow,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,SmbTvShow,removeUnavailableFiles,Complex Method
+Mizuu,com.miz.filesources,SmbTvShow,removeUnavailableFiles,Empty catch clause
+Mizuu,com.miz.filesources,SmbTvShow,removeUnavailableFiles,Long Statement
+Mizuu,com.miz.filesources,SmbTvShow,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,SmbTvShow,searchFolder,Long Statement
+Mizuu,com.miz.filesources,SmbTvShow,recursiveSearch,Empty catch clause
+Mizuu,com.miz.filesources,SmbTvShow,getRootFolder,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,removeUnidentifiedFiles,Complex Conditional
+Mizuu,com.miz.filesources,UpnpMovie,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,UpnpMovie,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,recursiveSearch,Long Statement
+Mizuu,com.miz.filesources,UpnpMovie,recursiveSearch,Magic Number
+Mizuu,com.miz.filesources,UpnpMovie,onServiceConnected,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,received,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,received,Long Statement
+Mizuu,com.miz.filesources,UpnpMovie,remoteDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,localDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,UpnpMovie,startBrowse,Long Statement
+Mizuu,com.miz.filesources,BrowseCallback,received,Empty catch clause
+Mizuu,com.miz.filesources,BrowseCallback,received,Long Statement
+Mizuu,com.miz.filesources,DeviceListRegistryListener,remoteDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,DeviceListRegistryListener,localDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,DeviceListRegistryListener,startBrowse,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,removeUnidentifiedFiles,Complex Conditional
+Mizuu,com.miz.filesources,UpnpTvShow,removeUnidentifiedFiles,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,removeUnavailableFiles,Complex Method
+Mizuu,com.miz.filesources,UpnpTvShow,removeUnavailableFiles,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,removeUnavailableFiles,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,searchFolder,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,searchFolder,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,recursiveSearch,Magic Number
+Mizuu,com.miz.filesources,UpnpTvShow,addToResults,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,onServiceConnected,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,received,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,received,Long Statement
+Mizuu,com.miz.filesources,UpnpTvShow,remoteDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,localDeviceAdded,Empty catch clause
+Mizuu,com.miz.filesources,UpnpTvShow,startBrowse,Long Statement
+Mizuu,com.miz.functions,AbstractCursorLoader,deliverResult,Complex Conditional
+Mizuu,com.miz.functions,AsyncTask,postResult,Long Statement
+Mizuu,com.miz.functions,AsyncTask,executeOnExecutor,Long Statement
+Mizuu,com.miz.functions,BlurTransformation,transform,Long Statement
+Mizuu,com.miz.functions,BlurTransformation,transform,Magic Number
+Mizuu,com.miz.functions,DbEpisode,DbEpisode,Long Parameter List
+Mizuu,com.miz.functions,DbEpisode,getFilepath,Long Statement
+Mizuu,com.miz.functions,DbMovie,DbMovie,Long Parameter List
+Mizuu,com.miz.functions,DbMovie,getFilepath,Long Statement
+Mizuu,com.miz.functions,DbMovie,isUnidentified,Long Statement
+Mizuu,com.miz.functions,FileSource,FileSource,Long Parameter List
+Mizuu,com.miz.functions,GridEpisode,GridEpisode,Long Parameter List
+Mizuu,com.miz.functions,GridEpisode,compareTo,Long Statement
+Mizuu,com.miz.functions,GridSeason,GridSeason,Long Parameter List
+Mizuu,com.miz.functions,GridSeason,GridSeason,Long Statement
+Mizuu,com.miz.functions,LibrarySectionAsyncTask,postResult,Long Statement
+Mizuu,com.miz.functions,LibrarySectionAsyncTask,executeOnExecutor,Long Statement
+Mizuu,com.miz.functions,MediumMovie,MediumMovie,Long Parameter List
+Mizuu,com.miz.functions,MediumMovie,MediumMovie,Long Statement
+Mizuu,com.miz.functions,MenuItem,MenuItem,Long Parameter List
+Mizuu,com.miz.functions,MizLib,isVideoFile,Long Statement
+Mizuu,com.miz.functions,MizLib,addSpaceByCapital,Complex Conditional
+Mizuu,com.miz.functions,MizLib,addSpaceByCapital,Long Statement
+Mizuu,com.miz.functions,MizLib,isTablet,Long Statement
+Mizuu,com.miz.functions,MizLib,isXlargeTablet,Long Statement
+Mizuu,com.miz.functions,MizLib,isWifiConnected,Complex Conditional
+Mizuu,com.miz.functions,MizLib,isWifiConnected,Long Statement
+Mizuu,com.miz.functions,MizLib,getCustomThemeBackground,Long Statement
+Mizuu,com.miz.functions,MizLib,getCustomThemeBackground,Magic Number
+Mizuu,com.miz.functions,MizLib,filesizeToString,Magic Number
+Mizuu,com.miz.functions,MizLib,addActionBarPadding,Long Statement
+Mizuu,com.miz.functions,MizLib,addActionBarAndStatusBarPadding,Long Statement
+Mizuu,com.miz.functions,MizLib,addActionBarAndStatusBarPadding,Magic Number
+Mizuu,com.miz.functions,MizLib,addActionBarPaddingBottom,Long Statement
+Mizuu,com.miz.functions,MizLib,addActionBarMargin,Long Statement
+Mizuu,com.miz.functions,MizLib,addActionBarAndStatusBarMargin,Long Statement
+Mizuu,com.miz.functions,MizLib,addActionBarAndStatusBarMargin,Magic Number
+Mizuu,com.miz.functions,MizLib,addActionBarMarginBottom,Long Statement
+Mizuu,com.miz.functions,MizLib,getThumbnailNotificationSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getLargeNotificationWidth,Magic Number
+Mizuu,com.miz.functions,MizLib,getActionBarHeight,Long Statement
+Mizuu,com.miz.functions,MizLib,md5,Magic Number
+Mizuu,com.miz.functions,MizLib,getThumbnailSize,Magic Number
+Mizuu,com.miz.functions,MizLib,resizeBitmapFileToCoverSize,Empty catch clause
+Mizuu,com.miz.functions,MizLib,resizeBitmapFileToCoverSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getImageUrlSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getBackdropUrlSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getBackdropThumbUrlSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getActorUrlSize,Magic Number
+Mizuu,com.miz.functions,MizLib,downloadFile,Empty catch clause
+Mizuu,com.miz.functions,MizLib,downloadFile,Magic Number
+Mizuu,com.miz.functions,MizLib,getJSONObject,Magic Number
+Mizuu,com.miz.functions,MizLib,removeIndexZero,Empty catch clause
+Mizuu,com.miz.functions,MizLib,getFileSources,Empty catch clause
+Mizuu,com.miz.functions,MizLib,getFileSources,Long Statement
+Mizuu,com.miz.functions,MizLib,getLoginFromFilesource,Complex Conditional
+Mizuu,com.miz.functions,MizLib,getLoginFromFilesource,Long Statement
+Mizuu,com.miz.functions,MizLib,getCustomCoverArt,Complex Conditional
+Mizuu,com.miz.functions,MizLib,getCustomCoverArt,Complex Method
+Mizuu,com.miz.functions,MizLib,getCustomCoverArt,Long Statement
+Mizuu,com.miz.functions,MizLib,getSubtitleFiles,Long Statement
+Mizuu,com.miz.functions,MizLib,createSmbLoginString,Empty catch clause
+Mizuu,com.miz.functions,MizLib,createSmbLoginString,Long Parameter List
+Mizuu,com.miz.functions,MizLib,deleteShow,Complex Method
+Mizuu,com.miz.functions,MizLib,deleteShow,Empty catch clause
+Mizuu,com.miz.functions,MizLib,deleteShow,Long Statement
+Mizuu,com.miz.functions,MizLib,getYouTubeId,Long Statement
+Mizuu,com.miz.functions,MizLib,getYTId,Magic Number
+Mizuu,com.miz.functions,MizLib,convertToHex,Magic Number
+Mizuu,com.miz.functions,MizLib,getJsonPostRequest,Long Statement
+Mizuu,com.miz.functions,MizLib,getTraktAuthenticationRequest,Long Statement
+Mizuu,com.miz.functions,MizLib,getFileSizeLimit,Magic Number
+Mizuu,com.miz.functions,MizLib,removeWikipediaNotes,Long Statement
+Mizuu,com.miz.functions,MizLib,scheduleMovieUpdate,Complex Method
+Mizuu,com.miz.functions,MizLib,scheduleMovieUpdate,Long Statement
+Mizuu,com.miz.functions,MizLib,scheduleMovieUpdate,Magic Number
+Mizuu,com.miz.functions,MizLib,scheduleShowsUpdate,Complex Method
+Mizuu,com.miz.functions,MizLib,scheduleShowsUpdate,Long Statement
+Mizuu,com.miz.functions,MizLib,scheduleShowsUpdate,Magic Number
+Mizuu,com.miz.functions,MizLib,decryptName,Complex Method
+Mizuu,com.miz.functions,MizLib,decryptName,Empty catch clause
+Mizuu,com.miz.functions,MizLib,decryptName,Magic Number
+Mizuu,com.miz.functions,MizLib,getNameFromFilename,Empty catch clause
+Mizuu,com.miz.functions,MizLib,getNameFromFilename,Magic Number
+Mizuu,com.miz.functions,MizLib,decryptYear,Empty catch clause
+Mizuu,com.miz.functions,MizLib,decryptYear,Magic Number
+Mizuu,com.miz.functions,MizLib,calculateInSampleSize,Magic Number
+Mizuu,com.miz.functions,MizLib,getRuntimeInMinutesOrHours,Magic Number
+Mizuu,com.miz.functions,MizLib,getPartNumberFromFilepath,Magic Number
+Mizuu,com.miz.functions,MizLib,getSplitParts,Complex Method
+Mizuu,com.miz.functions,MizLib,getSplitParts,Long Statement
+Mizuu,com.miz.functions,MizLib,getSplitParts,Magic Number
+Mizuu,com.miz.functions,MizLib,getRoundedCornerBitmap,Magic Number
+Mizuu,com.miz.functions,MizLib,exists,Magic Number
+Mizuu,com.miz.functions,MizLib,usesNavigationControl,Complex Method
+Mizuu,com.miz.functions,MizLib,getPrettyTime,Magic Number
+Mizuu,com.miz.functions,MizLib,getPrettyRuntime,Long Statement
+Mizuu,com.miz.functions,MizLib,getPrettyRuntime,Magic Number
+Mizuu,com.miz.functions,MizLib,getPrettyDate,Long Statement
+Mizuu,com.miz.functions,MizLib,getPrettyDate,Magic Number
+Mizuu,com.miz.functions,MizLib,getPrettyDatePrecise,Magic Number
+Mizuu,com.miz.functions,MizLib,getTmdbImageBaseUrl,Long Statement
+Mizuu,com.miz.functions,MizLib,copyDatabase,Long Statement
+Mizuu,com.miz.functions,Movie,Movie,Long Parameter List
+Mizuu,com.miz.functions,Movie,Movie,Long Statement
+Mizuu,com.miz.functions,Movie,getLocalTrailer,Complex Conditional
+Mizuu,com.miz.functions,Movie,getLocalTrailer,Empty catch clause
+Mizuu,com.miz.functions,Movie,getLocalTrailer,Long Statement
+Mizuu,com.miz.functions,PaletteLoader,doInBackground,Empty catch clause
+Mizuu,com.miz.functions,PaletteLoader,animate,Long Statement
+Mizuu,com.miz.functions,PaletteLoader,animate,Magic Number
+Mizuu,com.miz.functions,ScheduledUpdatesAlarmManager,cancelUpdate,Empty catch clause
+Mizuu,com.miz.functions,ScheduledUpdatesAlarmManager,startUpdate,Long Statement
+Mizuu,com.miz.functions,SQLiteCursorLoader,SQLiteCursorLoader,Long Parameter List
+Mizuu,com.miz.functions,TmdbTrailerSearch,doInBackground,Empty catch clause
+Mizuu,com.miz.functions,TmdbTrailerSearch,doInBackground,Long Statement
+Mizuu,com.miz.functions,TvShowLibraryUpdateCallback,onTvShowAdded,Long Parameter List
+Mizuu,com.miz.functions,WebMovie,WebMovie,Long Parameter List
+Mizuu,com.miz.functions,WebMovie,getSubtitle,Long Statement
+Mizuu,com.miz.identification,MovieIdentification,start,Complex Method
+Mizuu,com.miz.identification,MovieIdentification,createMovie,Complex Method
+Mizuu,com.miz.identification,MovieIdentification,createMovie,Long Statement
+Mizuu,com.miz.identification,MovieIdentification,addToDatabase,Long Statement
+Mizuu,com.miz.identification,MovieIdentification,updateNotification,Long Statement
+Mizuu,com.miz.identification,MovieIdentification,updateNotification,Magic Number
+Mizuu,com.miz.identification,MovieIdentification,getNotificationImageHeight,Magic Number
+Mizuu,com.miz.identification,MovieStructure,split,Magic Number
+Mizuu,com.miz.identification,ShowStructure,split,Magic Number
+Mizuu,com.miz.identification,ShowStructure,getSeasonFolderNumber,Long Statement
+Mizuu,com.miz.identification,ShowStructure,decryptEpisodes,Complex Method
+Mizuu,com.miz.identification,ShowStructure,decryptEpisodes,Long Method
+Mizuu,com.miz.identification,ShowStructure,decryptEpisodes,Long Statement
+Mizuu,com.miz.identification,ShowStructure,decryptEpisodes,Magic Number
+Mizuu,com.miz.identification,TvShowIdentification,start,Complex Method
+Mizuu,com.miz.identification,TvShowIdentification,showAddedShowNotification,Long Statement
+Mizuu,com.miz.identification,TvShowIdentification,showAddedShowNotification,Magic Number
+Mizuu,com.miz.identification,TvShowIdentification,createShow,Complex Method
+Mizuu,com.miz.identification,TvShowIdentification,createShow,Long Statement
+Mizuu,com.miz.identification,TvShowIdentification,downloadEpisode,Complex Method
+Mizuu,com.miz.identification,TvShowIdentification,downloadEpisode,Long Statement
+Mizuu,com.miz.identification,TvShowIdentification,addToDatabase,Long Statement
+Mizuu,com.miz.identification,TvShowIdentification,updateNotification,Long Statement
+Mizuu,com.miz.identification,TvShowIdentification,updateNotification,Magic Number
+Mizuu,com.miz.loader,MovieFilter,equals,Long Statement
+Mizuu,com.miz.loader,MovieLoader,setSortType,Complex Method
+Mizuu,com.miz.loader,MovieLoader,listFromCursor,Empty catch clause
+Mizuu,com.miz.loader,MovieLoader,listFromCursor,Long Statement
+Mizuu,com.miz.loader,MovieLoader,doInBackground,Complex Method
+Mizuu,com.miz.loader,MovieLoader,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,MovieLoader,doInBackground,Long Method
+Mizuu,com.miz.loader,MovieLoader,doInBackground,Long Statement
+Mizuu,com.miz.loader,MovieLoader,doInBackground,Missing default
+Mizuu,com.miz.loader,MovieLoader,setupSortType,Complex Method
+Mizuu,com.miz.loader,MovieLoader,setupSortType,Long Statement
+Mizuu,com.miz.loader,MovieLoaderAsyncTask,doInBackground,Complex Method
+Mizuu,com.miz.loader,MovieLoaderAsyncTask,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,MovieLoaderAsyncTask,doInBackground,Long Method
+Mizuu,com.miz.loader,MovieLoaderAsyncTask,doInBackground,Long Statement
+Mizuu,com.miz.loader,MovieLoaderAsyncTask,doInBackground,Missing default
+Mizuu,com.miz.loader,TvShowEpisodeLoader,setSortType,Long Statement
+Mizuu,com.miz.loader,TvShowEpisodeLoader,doInBackground,Complex Method
+Mizuu,com.miz.loader,TvShowEpisodeLoader,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,TvShowEpisodeLoader,doInBackground,Long Statement
+Mizuu,com.miz.loader,TvShowEpisodeLoader,doInBackground,Missing default
+Mizuu,com.miz.loader,TvShowEpisodeLoader,setupSortType,Long Statement
+Mizuu,com.miz.loader,TvShowEpisodeLoaderAsyncTask,doInBackground,Complex Method
+Mizuu,com.miz.loader,TvShowEpisodeLoaderAsyncTask,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,TvShowEpisodeLoaderAsyncTask,doInBackground,Long Statement
+Mizuu,com.miz.loader,TvShowEpisodeLoaderAsyncTask,doInBackground,Missing default
+Mizuu,com.miz.loader,TvShowFilter,equals,Long Statement
+Mizuu,com.miz.loader,TvShowLoader,setSortType,Complex Method
+Mizuu,com.miz.loader,TvShowLoader,listFromCursor,Empty catch clause
+Mizuu,com.miz.loader,TvShowLoader,listFromCursor,Long Statement
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Complex Method
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Long Method
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Long Statement
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Magic Number
+Mizuu,com.miz.loader,TvShowLoader,doInBackground,Missing default
+Mizuu,com.miz.loader,TvShowLoader,setupItemArray,Long Statement
+Mizuu,com.miz.loader,TvShowLoader,setupSortType,Complex Method
+Mizuu,com.miz.loader,TvShowLoader,setupSortType,Long Statement
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Complex Method
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Empty catch clause
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Long Method
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Long Statement
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Magic Number
+Mizuu,com.miz.loader,TvShowLoaderAsyncTask,doInBackground,Missing default
+Mizuu,com.miz.mizuu,ActorBrowser,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorBrowserTv,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorDetails,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorMovies,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorPhotos,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorTaggedPhotos,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ActorTvShows,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,AddFileSource,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,AddNetworkFilesourceDialog,search,Long Statement
+Mizuu,com.miz.mizuu,AddNetworkFilesourceDialog,showUserDialog,Long Statement
+Mizuu,com.miz.mizuu,AddUpnpFilesourceDialog,onCreate,Long Statement
+Mizuu,com.miz.mizuu,AddUpnpFilesourceDialog,onItemClick,Long Statement
+Mizuu,com.miz.mizuu,CancelLibraryUpdate,onCreate,Long Statement
+Mizuu,com.miz.mizuu,CancelLibraryUpdate,onClick,Long Statement
+Mizuu,com.miz.mizuu,FileSourceBrowser,onCreate,Long Statement
+Mizuu,com.miz.mizuu,FileSourceBrowser,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,FileSources,loadSources,Complex Method
+Mizuu,com.miz.mizuu,FileSources,loadSources,Empty catch clause
+Mizuu,com.miz.mizuu,FileSources,loadSources,Long Statement
+Mizuu,com.miz.mizuu,FileSources,getViewTypeCount,Magic Number
+Mizuu,com.miz.mizuu,FileSources,getView,Long Statement
+Mizuu,com.miz.mizuu,ListAdapter,getViewTypeCount,Magic Number
+Mizuu,com.miz.mizuu,ListAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu,IdentifyMovie,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,IdentifyTvShow,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,IdentifyTvShowEpisode,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,ImageViewer,onCreate,Long Statement
+Mizuu,com.miz.mizuu,ImageViewer,onCreate,Magic Number
+Mizuu,com.miz.mizuu,ImageViewer,onSystemUiVisibilityChange,Magic Number
+Mizuu,com.miz.mizuu,ImageViewer,hideSystemUi,Long Statement
+Mizuu,com.miz.mizuu,ImageViewer,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,Main,onCreate,Long Statement
+Mizuu,com.miz.mizuu,Main,loadFragment,Complex Method
+Mizuu,com.miz.mizuu,Main,setupMenuItems,Long Statement
+Mizuu,com.miz.mizuu,Main,updateLibraryCounts,Empty catch clause
+Mizuu,com.miz.mizuu,Main,run,Empty catch clause
+Mizuu,com.miz.mizuu,Main,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,Main,getViewTypeCount,Magic Number
+Mizuu,com.miz.mizuu,Main,getItemViewType,Magic Number
+Mizuu,com.miz.mizuu,Main,getItemViewType,Missing default
+Mizuu,com.miz.mizuu,Main,getView,Complex Method
+Mizuu,com.miz.mizuu,Main,getView,Long Statement
+Mizuu,com.miz.mizuu,Main,getView,Magic Number
+Mizuu,com.miz.mizuu,MenuAdapter,getViewTypeCount,Magic Number
+Mizuu,com.miz.mizuu,MenuAdapter,getItemViewType,Magic Number
+Mizuu,com.miz.mizuu,MenuAdapter,getItemViewType,Missing default
+Mizuu,com.miz.mizuu,MenuAdapter,getView,Complex Method
+Mizuu,com.miz.mizuu,MenuAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu,MenuAdapter,getView,Magic Number
+Mizuu,com.miz.mizuu,MizuuApplication,getOkHttpClient,Magic Number
+Mizuu,com.miz.mizuu,MovieCollection,onCreate,Long Statement
+Mizuu,com.miz.mizuu,MovieCollection,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,MovieCoverFanartBrowser,onCreate,Magic Number
+Mizuu,com.miz.mizuu,MovieCoverFanartBrowser,getItem,Missing default
+Mizuu,com.miz.mizuu,MovieCoverFanartBrowser,getCount,Magic Number
+Mizuu,com.miz.mizuu,MovieCoverFanartBrowser,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu,MovieCoverFanartBrowser,doInBackground,Long Statement
+Mizuu,com.miz.mizuu,PagerAdapter,getItem,Missing default
+Mizuu,com.miz.mizuu,PagerAdapter,getCount,Magic Number
+Mizuu,com.miz.mizuu,MovieLoader,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu,MovieLoader,doInBackground,Long Statement
+Mizuu,com.miz.mizuu,MovieDetails,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,MovieDetails,onActivityResult,Magic Number
+Mizuu,com.miz.mizuu,Preferences,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,Preferences,onBuildHeaders,Empty catch clause
+Mizuu,com.miz.mizuu,SearchForNetworkShares,onCreate,Empty catch clause
+Mizuu,com.miz.mizuu,SearchForNetworkShares,onCreate,Magic Number
+Mizuu,com.miz.mizuu,SearchForNetworkShares,run,Empty catch clause
+Mizuu,com.miz.mizuu,SearchForNetworkShares,run,Magic Number
+Mizuu,com.miz.mizuu,SearchForNetworkShares,isReachableByPing,Empty catch clause
+Mizuu,com.miz.mizuu,ShowCoverFanartBrowser,onCreate,Magic Number
+Mizuu,com.miz.mizuu,ShowCoverFanartBrowser,getItem,Missing default
+Mizuu,com.miz.mizuu,ShowCoverFanartBrowser,getCount,Magic Number
+Mizuu,com.miz.mizuu,SimilarMovies,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,SplashScreen,onCreate,Long Statement
+Mizuu,com.miz.mizuu,TvShow,TvShow,Long Parameter List
+Mizuu,com.miz.mizuu,TvShow,TvShow,Magic Number
+Mizuu,com.miz.mizuu,TvShow,setRating,Magic Number
+Mizuu,com.miz.mizuu,TvShow,getWeightedRating,Magic Number
+Mizuu,com.miz.mizuu,TvShow,getFirstAirdateYear,Magic Number
+Mizuu,com.miz.mizuu,TvShowDetails,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,TvShowEpisode,TvShowEpisode,Long Parameter List
+Mizuu,com.miz.mizuu,TvShowEpisode,setRating,Magic Number
+Mizuu,com.miz.mizuu,TvShowEpisode,compareTo,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,onCreate,Empty catch clause
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,onCreate,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,onPageSelected,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,onScrollChanged,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,TvShowEpisodeDetails,getItem,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodeDetailsAdapter,getItem,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodes,onCreate,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodes,onPageSelected,Long Statement
+Mizuu,com.miz.mizuu,TvShowEpisodes,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,TvShowEpisodes,doInBackground,Long Statement
+Mizuu,com.miz.mizuu,SeasonLoader,doInBackground,Long Statement
+Mizuu,com.miz.mizuu,TvShowSeasons,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,UnidentifiedMovies,onCreate,Long Statement
+Mizuu,com.miz.mizuu,UnidentifiedMovies,loadData,Empty catch clause
+Mizuu,com.miz.mizuu,UnidentifiedMovies,onOptionsItemSelected,Long Statement
+Mizuu,com.miz.mizuu,UnidentifiedMovies,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,UnidentifiedTvShows,onCreate,Long Statement
+Mizuu,com.miz.mizuu,UnidentifiedTvShows,loadData,Empty catch clause
+Mizuu,com.miz.mizuu,UnidentifiedTvShows,onOptionsItemSelected,Long Statement
+Mizuu,com.miz.mizuu,UnidentifiedTvShows,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu,Update,onResume,Long Statement
+Mizuu,com.miz.mizuu,Update,startUpdate,Long Statement
+Mizuu,com.miz.mizuu,Update,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu.fragments,AccountsFragment,doInBackground,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,AccountsFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,TraktLogin,doInBackground,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,TraktLogin,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserFragment,onItemClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ImageAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserTvFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserTvFragment,onItemClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserTvFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorBrowserTvFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,GetActorDetails,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,onClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,onScrollChanged,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,fillViews,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,onGlobalLayout,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,loadImages,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,loadImages,Magic Number
+Mizuu,com.miz.mizuu.fragments,ActorDetailsFragment,onSuccess,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorMoviesFragment,onCreateOptionsMenu,Magic Number
+Mizuu,com.miz.mizuu.fragments,ActorMoviesFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorMoviesFragment,onItemClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorMoviesFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorPhotoFragment,onViewCreated,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,ActorPhotoFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorPhotosFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorTaggedPhotosFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ActorTvShowsFragment,onCreateOptionsMenu,Magic Number
+Mizuu,com.miz.mizuu.fragments,CollectionCoverSearchFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionCoverSearchFragment,loadJson,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,CollectionCoverSearchFragment,loadJson,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionCoverSearchFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onCreate,Magic Number
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onActivityCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onCreateLoader,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onLoadFinished,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onLoadFinished,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onGlobalLayout,Magic Number
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onActivityResult,Magic Number
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onSharedPreferenceChanged,Long Statement
+Mizuu,com.miz.mizuu.fragments,CollectionLibraryFragment,onSharedPreferenceChanged,Magic Number
+Mizuu,com.miz.mizuu.fragments,LoaderAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,CoverSearchFragment,loadJson,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,CoverSearchFragment,loadJson,Long Statement
+Mizuu,com.miz.mizuu.fragments,CoverSearchFragment,showContent,Long Statement
+Mizuu,com.miz.mizuu.fragments,CoverSearchFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,CoverSearchFragment,onOptionsItemSelected,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,setupValues,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,loadMovie,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,loadMovie,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,showRuntimeDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,showRatingDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,showDatePickerDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,saveChanges,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,saveChanges,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditMovieFragment,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,setupValues,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,setupValues,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,loadTvShowEpisode,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,loadTvShowEpisode,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,showRatingDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,showDatePickerDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,saveChanges,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditTvShowEpisodeFragment,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,setupValues,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,loadTvShow,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,loadTvShow,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,showRuntimeDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,showRatingDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,showDatePickerDialog,Magic Number
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,saveChanges,Long Statement
+Mizuu,com.miz.mizuu.fragments,EditTvShowFragment,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu.fragments,FanartSearchFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,FanartSearchFragment,loadJson,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,FanartSearchFragment,loadJson,Long Statement
+Mizuu,com.miz.mizuu.fragments,FanartSearchFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,FanartSearchFragmentTv,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,newInstanceSmbFile,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,addFileSource,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,onItemClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,loadFilesource,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,onPreExecute,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,onPostExecute,Complex Method
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,goBack,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,onServiceConnected,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,startBrowse,Long Statement
+Mizuu,com.miz.mizuu.fragments,FileSourceBrowserFragment,ContentBrowseCallback,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,BrowseFolder,onPreExecute,Long Statement
+Mizuu,com.miz.mizuu.fragments,BrowseFolder,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,BrowseFolder,onPostExecute,Complex Method
+Mizuu,com.miz.mizuu.fragments,ContentBrowseCallback,ContentBrowseCallback,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,onViewCreated,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,onEditorAction,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,onEditorAction,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,getView,Magic Number
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,Result,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,IdentifyMovieFragment,LanguageAdapter,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieSearch,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,MovieSearch,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,ListAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ListAdapter,getView,Magic Number
+Mizuu,com.miz.mizuu.fragments,Result,Result,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,LanguageAdapter,LanguageAdapter,Magic Number
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,onViewCreated,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,onEditorAction,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,onEditorAction,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,getView,Magic Number
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,Result,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowEpisodeFragment,LanguageAdapter,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowSearch,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,TvShowSearch,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,onViewCreated,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,onEditorAction,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,onEditorAction,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,getView,Magic Number
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,Result,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,IdentifyTvShowFragment,LanguageAdapter,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onCreate,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onResume,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onViewCreated,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onViewCreated,Long Method
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onScrollChanged,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,loadImages,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onSuccess,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onError,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onCreateOptionsMenu,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onOptionsItemSelected,Missing default
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,deleteMovie,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,deleteMovie,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,deleteMovie,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,onClick,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,favAction,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,watched,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,playMovie,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieDetailsFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,GetSplitFiles,doInBackground,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,GetSplitFiles,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,SplitAdapter,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onCreateView,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onCreateView,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onActionItemClicked,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onActionItemClicked,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,showEmptyView,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieLibraryFragment,showEmptyView,Long Statement
+Mizuu,com.miz.mizuu.fragments,MovieLibraryOverviewFragment,onCreateView,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieLibraryOverviewFragment,getItem,Complex Method
+Mizuu,com.miz.mizuu.fragments,MovieLibraryOverviewFragment,getItem,Magic Number
+Mizuu,com.miz.mizuu.fragments,MovieLibraryOverviewFragment,getItem,Missing default
+Mizuu,com.miz.mizuu.fragments,PagerAdapter,getItem,Complex Method
+Mizuu,com.miz.mizuu.fragments,PagerAdapter,getItem,Magic Number
+Mizuu,com.miz.mizuu.fragments,PagerAdapter,getItem,Missing default
+Mizuu,com.miz.mizuu.fragments,Prefs,onCreate,Complex Method
+Mizuu,com.miz.mizuu.fragments,Prefs,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,Prefs,onCreate,Magic Number
+Mizuu,com.miz.mizuu.fragments,Prefs,onPreferenceClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,Prefs,onPreferenceClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,ScheduledUpdatesFragment,updateNextMovieUpdateText,Long Statement
+Mizuu,com.miz.mizuu.fragments,ScheduledUpdatesFragment,updateNextMovieUpdateText,Magic Number
+Mizuu,com.miz.mizuu.fragments,ScheduledUpdatesFragment,updateNextShowsUpdateText,Long Statement
+Mizuu,com.miz.mizuu.fragments,ScheduledUpdatesFragment,updateNextShowsUpdateText,Magic Number
+Mizuu,com.miz.mizuu.fragments,SimilarMoviesFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,onScrollChanged,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,setupFields,Complex Method
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,setupFields,Long Method
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,setupFields,Long Statement
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,setupFields,Magic Number
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,onClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,onClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,onGlobalLayout,Long Statement
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,loadImages,Long Statement
+Mizuu,com.miz.mizuu.fragments,TmdbMovieDetailsFragment,onError,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onCreate,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onViewCreated,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onViewCreated,Long Method
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onScrollChanged,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,loadImages,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onSuccess,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onError,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,loadSeasons,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onPostExecute,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,onCreateOptionsMenu,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,identifyShow,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,favAction,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,deleteShow,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,playFirstEpisode,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,playFirstEpisode,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowDetailsFragment,play,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,loadEpisode,Complex Conditional
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,loadEpisode,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onViewCreated,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onScrollChanged,Long Parameter List
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onScrollChanged,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onError,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onSuccess,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onError,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,loadData,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,loadData,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,loadData,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onClick,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,play,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onResume,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onCreateOptionsMenu,Empty catch clause
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,deleteEpisode,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,onClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,watched,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodeDetailsFragment,run,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,onCreateOptionsMenu,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,onViewCreated,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,onViewCreated,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,onGlobalLayout,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,identify,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,getView,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowEpisodesFragment,getView,Long Statement
+Mizuu,com.miz.mizuu.fragments,ImageAdapter,getView,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryFragment,onOptionsItemSelected,Complex Method
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryFragment,showEmptyView,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryOverviewFragment,onCreateView,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryOverviewFragment,getItem,Magic Number
+Mizuu,com.miz.mizuu.fragments,TvShowLibraryOverviewFragment,getItem,Missing default
+Mizuu,com.miz.mizuu.fragments,TvShowSeasonsFragment,onCreate,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowSeasonsFragment,onViewCreated,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowSeasonsFragment,onItemClick,Long Statement
+Mizuu,com.miz.mizuu.fragments,TvShowSeasonsFragment,doInBackground,Long Statement
+Mizuu,com.miz.mizuu.fragments,SeasonLoader,doInBackground,Long Statement
+Mizuu,com.miz.service,DeleteFile,onHandleIntent,Complex Method
+Mizuu,com.miz.service,DeleteFile,onHandleIntent,Empty catch clause
+Mizuu,com.miz.service,DeleteFile,onHandleIntent,Long Statement
+Mizuu,com.miz.service,DownloadImageService,dismiss,Long Statement
+Mizuu,com.miz.service,IdentifyMovieService,onDestroy,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowEpisodeService,onDestroy,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowEpisodeService,onTvShowAdded,Long Parameter List
+Mizuu,com.miz.service,IdentifyTvShowEpisodeService,updateEpisodeAddedNotification,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowEpisodeService,updateEpisodeAddedNotification,Magic Number
+Mizuu,com.miz.service,IdentifyTvShowService,onDestroy,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowService,setupList,Empty catch clause
+Mizuu,com.miz.service,IdentifyTvShowService,setupList,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowService,onTvShowAdded,Long Parameter List
+Mizuu,com.miz.service,IdentifyTvShowService,updateEpisodeAddedNotification,Long Statement
+Mizuu,com.miz.service,IdentifyTvShowService,updateEpisodeAddedNotification,Magic Number
+Mizuu,com.miz.service,MovieLibraryUpdate,onDestroy,Complex Conditional
+Mizuu,com.miz.service,MovieLibraryUpdate,onDestroy,Long Statement
+Mizuu,com.miz.service,MovieLibraryUpdate,onHandleIntent,Complex Method
+Mizuu,com.miz.service,MovieLibraryUpdate,loadFileSources,Empty catch clause
+Mizuu,com.miz.service,MovieLibraryUpdate,loadFileSources,Long Statement
+Mizuu,com.miz.service,MovieLibraryUpdate,setup,Long Statement
+Mizuu,com.miz.service,MovieLibraryUpdate,updateMovieAddedNotification,Long Statement
+Mizuu,com.miz.service,MovieLibraryUpdate,updateMovieAddedNotification,Magic Number
+Mizuu,com.miz.service,MovieLibraryUpdate,showPostUpdateNotification,Long Statement
+Mizuu,com.miz.service,TraktMoviesSyncService,loadMovieLibrary,Empty catch clause
+Mizuu,com.miz.service,TraktMoviesSyncService,loadMovieLibrary,Long Statement
+Mizuu,com.miz.service,TraktMoviesSyncService,downloadMovieCollection,Empty catch clause
+Mizuu,com.miz.service,TraktMoviesSyncService,downloadWatchedMovies,Empty catch clause
+Mizuu,com.miz.service,TraktMoviesSyncService,updateWatchedMovies,Long Statement
+Mizuu,com.miz.service,TraktMoviesSyncService,downloadMovieFavorites,Empty catch clause
+Mizuu,com.miz.service,TraktMoviesSyncService,updateMovieFavorites,Long Statement
+Mizuu,com.miz.service,TraktMoviesSyncService,downloadWatchlist,Empty catch clause
+Mizuu,com.miz.service,TraktMoviesSyncService,updateWatchlist,Long Statement
+Mizuu,com.miz.service,TraktMoviesSyncService,showPostUpdateNotification,Magic Number
+Mizuu,com.miz.service,TraktMoviesSyncService,showNoInternetNotification,Magic Number
+Mizuu,com.miz.service,TraktTvShowsSyncService,loadTvShowLibrary,Complex Method
+Mizuu,com.miz.service,TraktTvShowsSyncService,loadTvShowLibrary,Empty catch clause
+Mizuu,com.miz.service,TraktTvShowsSyncService,loadTvShowLibrary,Long Statement
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadTvShowCollection,Empty catch clause
+Mizuu,com.miz.service,TraktTvShowsSyncService,updateTvShowCollection,Complex Method
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadWatchedTvShows,Complex Method
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadWatchedTvShows,Empty catch clause
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadWatchedTvShows,Long Statement
+Mizuu,com.miz.service,TraktTvShowsSyncService,updateWatchedTvShows,Complex Method
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadTvShowFavorites,Empty catch clause
+Mizuu,com.miz.service,TraktTvShowsSyncService,downloadTvShowFavorites,Long Statement
+Mizuu,com.miz.service,TraktTvShowsSyncService,updateTvShowFavorites,Long Statement
+Mizuu,com.miz.service,TraktTvShowsSyncService,showPostUpdateNotification,Magic Number
+Mizuu,com.miz.service,TraktTvShowsSyncService,showNoInternetNotification,Magic Number
+Mizuu,com.miz.service,TvShowsLibraryUpdate,onDestroy,Complex Conditional
+Mizuu,com.miz.service,TvShowsLibraryUpdate,onDestroy,Long Statement
+Mizuu,com.miz.service,TvShowsLibraryUpdate,onHandleIntent,Complex Method
+Mizuu,com.miz.service,TvShowsLibraryUpdate,loadFileSources,Empty catch clause
+Mizuu,com.miz.service,TvShowsLibraryUpdate,loadFileSources,Long Statement
+Mizuu,com.miz.service,TvShowsLibraryUpdate,setup,Long Statement
+Mizuu,com.miz.service,TvShowsLibraryUpdate,onTvShowAdded,Long Parameter List
+Mizuu,com.miz.service,TvShowsLibraryUpdate,updateEpisodeAddedNotification,Long Statement
+Mizuu,com.miz.service,TvShowsLibraryUpdate,updateEpisodeAddedNotification,Magic Number
+Mizuu,com.miz.service,TvShowsLibraryUpdate,updateTvShowAddedNotification,Long Parameter List
+Mizuu,com.miz.service,TvShowsLibraryUpdate,updateTvShowAddedNotification,Long Statement
+Mizuu,com.miz.service,TvShowsLibraryUpdate,updateTvShowAddedNotification,Magic Number
+Mizuu,com.miz.service,TvShowsLibraryUpdate,showPostUpdateNotification,Long Statement
+Mizuu,com.miz.smbstreamer,Streamer,serve,Complex Method
+Mizuu,com.miz.smbstreamer,Streamer,serve,Empty catch clause
+Mizuu,com.miz.smbstreamer,Streamer,serve,Long Parameter List
+Mizuu,com.miz.smbstreamer,Streamer,getNameFromPath,Magic Number
+Mizuu,com.miz.smbstreamer,StreamServer,serve,Long Parameter List
+Mizuu,com.miz.smbstreamer,StreamServer,StreamServer,Empty catch clause
+Mizuu,com.miz.smbstreamer,StreamServer,run,Empty catch clause
+Mizuu,com.miz.smbstreamer,StreamServer,stop,Empty catch clause
+Mizuu,com.miz.smbstreamer,StreamServer,handleResponse,Empty catch clause
+Mizuu,com.miz.smbstreamer,StreamServer,decodeHeader,Complex Method
+Mizuu,com.miz.smbstreamer,StreamServer,decodePercent,Magic Number
+Mizuu,com.miz.smbstreamer,StreamServer,decodePercent,Missing default
+Mizuu,com.miz.smbstreamer,StreamServer,sendResponse,Complex Method
+Mizuu,com.miz.smbstreamer,StreamServer,sendResponse,Empty catch clause
+Mizuu,com.miz.smbstreamer,StreamServer,sendResponse,Long Parameter List
+Mizuu,com.miz.smbstreamer,HTTPSession,run,Empty catch clause
+Mizuu,com.miz.smbstreamer,HTTPSession,handleResponse,Empty catch clause
+Mizuu,com.miz.smbstreamer,HTTPSession,decodeHeader,Complex Method
+Mizuu,com.miz.smbstreamer,HTTPSession,decodePercent,Magic Number
+Mizuu,com.miz.smbstreamer,HTTPSession,decodePercent,Missing default
+Mizuu,com.miz.smbstreamer,HTTPSession,sendResponse,Complex Method
+Mizuu,com.miz.smbstreamer,HTTPSession,sendResponse,Empty catch clause
+Mizuu,com.miz.smbstreamer,HTTPSession,sendResponse,Long Parameter List
+Mizuu,com.miz.smbstreamer,StreamSource,StreamSource,Magic Number
+Mizuu,com.miz.utils,FileUtils,copyFile,Magic Number
+Mizuu,com.miz.utils,FileUtils,getTvShowEpisode,Long Statement
+Mizuu,com.miz.utils,FileUtils,getOfflineFile,Long Statement
+Mizuu,com.miz.utils,IntentUtils,getActorTaggedPhotoIntent,Long Statement
+Mizuu,com.miz.utils,IntentUtils,getTvShowSeasonIntent,Long Parameter List
+Mizuu,com.miz.utils,LocalBroadcastUtils,updateTvShowSeasonsOverview,Long Identifier
+Mizuu,com.miz.utils,LocalBroadcastUtils,updateTvShowEpisodesOverview,Long Identifier
+Mizuu,com.miz.utils,LocalBroadcastUtils,updateTvShowEpisodeDetailsView,Long Identifier
+Mizuu,com.miz.utils,MovieDatabaseUtils,deleteMovie,Long Statement
+Mizuu,com.miz.utils,MovieDatabaseUtils,setMoviesFavourite,Long Statement
+Mizuu,com.miz.utils,MovieDatabaseUtils,setMoviesWatched,Long Statement
+Mizuu,com.miz.utils,MovieDatabaseUtils,setMoviesWatchlist,Long Statement
+Mizuu,com.miz.utils,NetworkUtils,getIPAddress,Empty catch clause
+Mizuu,com.miz.utils,TvShowDatabaseUtils,deleteEpisode,Empty catch clause
+Mizuu,com.miz.utils,TvShowDatabaseUtils,deleteEpisode,Long Statement
+Mizuu,com.miz.utils,TvShowDatabaseUtils,setTvShowsFavourite,Long Statement
+Mizuu,com.miz.utils,TvShowDatabaseUtils,setTvShowsWatched,Empty catch clause
+Mizuu,com.miz.utils,TvShowDatabaseUtils,setTvShowsWatched,Long Statement
+Mizuu,com.miz.utils,TvShowDatabaseUtils,run,Empty catch clause
+Mizuu,com.miz.utils,TvShowDatabaseUtils,run,Long Statement
+Mizuu,com.miz.utils,VideoUtils,playNetworkFile,Empty catch clause
+Mizuu,com.miz.utils,VideoUtils,playNetworkFile,Long Statement
+Mizuu,com.miz.utils,VideoUtils,playNetworkFile,Magic Number
+Mizuu,com.miz.utils,VideoUtils,run,Empty catch clause
+Mizuu,com.miz.utils,VideoUtils,run,Long Statement
+Mizuu,com.miz.utils,VideoUtils,startSmbServer,Empty catch clause
+Mizuu,com.miz.utils,VideoUtils,startSmbServer,Long Statement
+Mizuu,com.miz.utils,VideoUtils,startSmbServer,Magic Number
+Mizuu,com.miz.utils,VideoUtils,playTrailer,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupActorCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupMovieCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,onClick,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupTvShowCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupTvShowSeasonCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupPhotoCard,Long Parameter List
+Mizuu,com.miz.utils,ViewUtils,setupPhotoCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setupTaggedPhotoCard,Long Parameter List
+Mizuu,com.miz.utils,ViewUtils,setupTaggedPhotoCard,Long Statement
+Mizuu,com.miz.utils,ViewUtils,animateTextViewMaxLines,Magic Number
+Mizuu,com.miz.utils,ViewUtils,animateFabJump,Empty catch clause
+Mizuu,com.miz.utils,ViewUtils,animateFabJump,Magic Number
+Mizuu,com.miz.utils,ViewUtils,updateToolbarBackground,Long Parameter List
+Mizuu,com.miz.utils,ViewUtils,updateToolbarBackground,Magic Number
+Mizuu,com.miz.utils,ViewUtils,darkenColor,Magic Number
+Mizuu,com.miz.utils,ViewUtils,getNavigationDrawerWidth,Magic Number
+Mizuu,com.miz.utils,ViewUtils,setProperToolbarSize,Long Statement
+Mizuu,com.miz.utils,ViewUtils,setLayoutParamsForDetailsEmptyView,Long Parameter List
+Mizuu,com.miz.utils,ViewUtils,handleOnScrollChangedEvent,Long Parameter List
+Mizuu,com.miz.utils,ViewUtils,handleOnScrollChangedEvent,Long Statement
+Mizuu,com.miz.utils,ViewUtils,handleOnScrollChangedEvent,Magic Number
+Mizuu,com.miz.utils,ViewUtils,getGridViewThumbSize,Long Statement
+Mizuu,com.miz.utils,ViewUtils,getGridViewThumbSize,Magic Number
+Mizuu,com.miz.views,AspectRatioImageViewBackdrop,onMeasure,Magic Number
+Mizuu,com.miz.views,AspectRatioImageViewBackdropLarge,onMeasure,Magic Number
+Mizuu,com.miz.views,AspectRatioImageViewCover,onMeasure,Magic Number
+Mizuu,com.miz.views,EpisodePhotoImageView,onMeasure,Magic Number
+Mizuu,com.miz.views,ForegroundLinearLayout,onLayout,Long Parameter List
+Mizuu,com.miz.views,ForegroundLinearLayout,draw,Long Statement
+Mizuu,com.miz.views,GridItemImageView,onMeasure,Magic Number
+Mizuu,com.miz.views,HorizontalCardLayout,loadItems,Complex Method
+Mizuu,com.miz.views,HorizontalCardLayout,loadItems,Long Parameter List
+Mizuu,com.miz.views,LargeGridItemImageView,onMeasure,Magic Number
+Mizuu,com.miz.views,ObservableScrollView,onScrollChanged,Long Parameter List
+Mizuu,com.miz.views,OnScrollChangedListener,onScrollChanged,Long Parameter List
+Mizuu,com.miz.views,SeasonCoverImageView,onMeasure,Magic Number

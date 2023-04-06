@@ -1,0 +1,4094 @@
+commit 82e1764f22f96bf622f98c190290a8a5f8223388
+Merge: 5274329 c2239ba
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Jan 15 15:37:48 2020 +0200
+
+    Merge pull request #48 from bookdash/develop
+    
+    Develop -> Master
+
+commit c2239baa836fbed7727f46f1bef7999f32f918f1
+Merge: 8bd9f10 eb8afb3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Jan 15 15:36:59 2020 +0200
+
+    Merge pull request #45 from the-reach-trust/develop
+    
+    Bug fixes and migration to androidx
+
+commit eb8afb32e0698dfe86c2751106fb782129d3271a
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Tue Jan 14 11:07:56 2020 +0200
+
+    UPDATE Version name and build number for the 2.8.0 Play Store release.
+
+2	2	build.gradle
+
+commit d25d4a7758df4cc18cef5dabd5eb8982871c74e8
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Fri Dec 13 08:49:17 2019 +0200
+
+    MIGRATE Firebase Invites deprecated (will be sunset 24th of Jan 2020), rather use a "chooser" intent when the user wants to invite friends.
+
+1	1	app/build.gradle
+8	76	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+4	2	app/src/main/res/values/strings.xml
+
+commit ffecf9f2bf9fd524555c54c2885f5d4f85c1a9bf
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Thu Dec 12 11:57:36 2019 +0200
+
+    BUGFIX NullPointer in ListBooksPresenter.loadBooksForLanguage() when there was an error downloading books. Added null check.
+
+8	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+
+commit 647dd13e28157c420b41b930336e29d09a62b6b5
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Thu Dec 12 11:38:13 2019 +0200
+
+    FIX AboutFragmentTest after androidx migration/library updates.
+
+2	2	app/src/androidTest/java/org/bookdash/android/presentation/about/AboutFragmentTest.java
+
+commit d9e1c6697df8657b495f4290bce41c99c6c37ea4
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Thu Dec 12 08:51:52 2019 +0200
+
+    BUGFIX Crash when trying to open app rating when the user doesn't have Play Store or an internet browser installed.
+
+6	2	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+1	0	app/src/main/res/values/strings.xml
+
+commit b59376bb66e41ac8a6870bd4d5ce9ae3aa34f3a3
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Thu Dec 12 08:08:45 2019 +0200
+
+    BUGFIX Crash in BookDetailActivity.onCreate() when bookPages is null. Suspecting threading issue - added local variable to ensure value stays the same after null check.
+
+4	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit f7cfd67499bef9953c78e46d045ff4ed0ccbb162
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Wed Dec 11 17:40:32 2019 +0200
+
+    BUGFIX Crash when calling ZoneId.systemDefault() when time zone is unknown to ZoneRulesProvider.getProvider(). E.g. "America/Punta_Arenas". Added fallback.
+
+9	1	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+
+commit 4913ac15eeae636aabfc124c0e5a21f8c78a0244
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Wed Dec 11 15:32:32 2019 +0200
+
+    BUGFIX pointerIndex out of range crash in CirclePageIndicator.onTouchEvent() when calling MotionEventCompat.getX(event, pointerIndex). Remove onTouchEvent() method altogether - it's not adding any useful functionality to the app currently.
+
+87	90	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/view/CirclePageIndicator.java
+
+commit e4d0ad5940cce4960f2a071127573d6aa0733f30
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Tue Dec 10 09:38:19 2019 +0200
+
+    ADD Material Intro Tutorial library as a module and migrate it to Androidx and Glide V4. The library was is deprecated so maintenance will now be within this project.
+
+9	8	app/build.gradle
+3	0	build.gradle
+2	2	fabbutton/build.gradle
+1	0	materialhelptutorial/.gitignore
+46	0	materialhelptutorial/build.gradle
+25	0	materialhelptutorial/src/main/AndroidManifest.xml
+121	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/MaterialTutorialFragment.java
+151	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/TutorialItem.java
+54	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/adapter/MaterialTutorialAdapter.java
+180	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/tutorial/MaterialTutorialActivity.java
+54	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/tutorial/MaterialTutorialContract.java
+124	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/tutorial/MaterialTutorialPresenter.java
+556	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/view/CirclePageIndicator.java
+63	0	materialhelptutorial/src/main/java/za/co/riggaroo/materialhelptutorial/view/PageIndicator.java
+-	-	materialhelptutorial/src/main/res/drawable-hdpi/ic_navigate_next.png
+-	-	materialhelptutorial/src/main/res/drawable-mdpi/ic_navigate_next.png
+-	-	materialhelptutorial/src/main/res/drawable-xhdpi/ic_navigate_next.png
+-	-	materialhelptutorial/src/main/res/drawable-xxhdpi/ic_navigate_next.png
+-	-	materialhelptutorial/src/main/res/drawable-xxxhdpi/ic_navigate_next.png
+84	0	materialhelptutorial/src/main/res/layout-land/fragment_help_tutorial_image.xml
+113	0	materialhelptutorial/src/main/res/layout/activity_help_tutorial.xml
+84	0	materialhelptutorial/src/main/res/layout/fragment_help_tutorial_image.xml
+73	0	materialhelptutorial/src/main/res/values/attrs.xml
+26	0	materialhelptutorial/src/main/res/values/strings.xml
+28	0	materialhelptutorial/src/main/res/values/values.xml
+1	1	settings.gradle
+
+commit a9414c216a3bcaedd0b28bc7c983c9be68269bd5
+Author: HeinrichWesson <heinrich@thereachtrust.org>
+Date:   Mon Dec 9 08:26:34 2019 +0200
+
+    [BROKEN COMMIT - MaterialHelpTutorial expects Glide V3 but project has V4] MIGRATE Update all libraries and migrate to androidx and API 28. CHANGES (to fix project after androidx update) 1) Changed naming FireBookDetails.contributors to FireBookDetails.contributorsIndexedKeys as FirebaseDatabase tries to marshall contributors data onto FireBookDetails.contributors which causes exception "expected List but found HashMap" when R8 optimizer applied. 2) Remove FixedFragmentStatePagerAdapter as androidx package is different and bug should be fixed by now. 3) Clean up dependencies.
+
+35	68	app/build.gradle
+2	1	app/src/androidTest/java/org/bookdash/android/presentation/CustomTestRunner.java
+15	14	app/src/androidTest/java/org/bookdash/android/presentation/about/AboutFragmentTest.java
+11	11	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+5	5	app/src/androidTest/java/org/bookdash/android/presentation/utils/NavigationUtils.java
+9	8	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+17	17	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+12	11	app/src/androidTestMock/java/org.bookdash.android/presentation/search/SearchActivityTest.java
+7	7	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+1	1	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/util/ElapsedTimeIdlingResource.java
+0	20	app/src/main/java/android/support/v4/app/FixedFragmentStatePagerAdapter.java
+7	3	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	1	app/src/main/java/org/bookdash/android/config/FirebaseConfig.java
+1	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+2	1	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+1	1	app/src/main/java/org/bookdash/android/data/book/RxFirebaseStorage.java
+3	8	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.kt
+1	1	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositories.java
+1	1	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositoryImpl.java
+1	1	app/src/main/java/org/bookdash/android/data/tracking/BookDashFirebaseAnalytics.java
+1	1	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepositories.java
+5	5	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+6	5	app/src/main/java/org/bookdash/android/presentation/about/AboutFragment.java
+1	2	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+28	21	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+3	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+2	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorViewHolder.java
+3	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+11	9	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+2	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+4	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+3	2	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+11	9	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+11	10	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/main/NavDrawerInterface.java
+3	4	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.kt
+4	4	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+3	6	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.kt
+1	2	app/src/main/java/org/bookdash/android/presentation/readbook/ReadBookViewModel.kt
+12	9	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+7	6	app/src/main/java/org/bookdash/android/presentation/settings/SettingsFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/splash/SplashActivity.java
+10	6	app/src/main/java/org/bookdash/android/presentation/utils/SingleLiveEvent.java
+13	13	app/src/main/res/layout-land/activity_book_information.xml
+11	11	app/src/main/res/layout/activity_about.xml
+1	1	app/src/main/res/layout/activity_book_details.xml
+15	15	app/src/main/res/layout/activity_book_information.xml
+3	3	app/src/main/res/layout/activity_main.xml
+6	6	app/src/main/res/layout/activity_search.xml
+2	2	app/src/main/res/layout/activity_tutorial.xml
+7	7	app/src/main/res/layout/fragment_downloads.xml
+6	6	app/src/main/res/layout/fragment_list_books.xml
+2	2	app/src/main/res/layout/fragment_page.xml
+3	3	app/src/main/res/layout/fragment_preferences.xml
+3	3	app/src/main/res/layout/fragment_settings.xml
+4	4	app/src/main/res/layout/list_item_book.xml
+2	2	app/src/main/res/layout/list_item_contributor.xml
+2	2	app/src/main/res/layout/list_item_download.xml
+1	1	app/src/main/res/menu/menu_search.xml
+4	4	app/src/main/res/xml/app_preferences.xml
+1	1	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+6	15	build.gradle
+3	4	fabbutton/build.gradle
+2	1	fabbutton/src/main/java/mbanje/kurt/fabbutton/AnimationUtils.java
+8	8	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabButton.java
+2	0	gradle.properties
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 8bd9f1074e6de60d24d650f68d5283c40c795bff
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun May 6 20:55:18 2018 +0200
+
+    Set SearchActivity bar colors.
+
+17	5	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+
+commit 8b0a2ff9f6189b0d14eb6e8b10c0e6e9134d2c79
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun May 6 20:12:01 2018 +0200
+
+    Updated Glide and made padding on all cardviews 8dp
+
+5	5	app/build.gradle
+0	3	app/src/main/AndroidManifest.xml
+26	0	app/src/main/java/org/bookdash/android/config/MyGlideModule.kt
+43	22	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+2	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+2	5	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+4	5	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+0	23	app/src/main/java/org/bookdash/android/presentation/utils/GlideLoadingModule.java
+96	94	app/src/main/res/layout-land/activity_book_information.xml
+91	88	app/src/main/res/layout/activity_about.xml
+75	71	app/src/main/res/layout/activity_book_information.xml
+44	43	app/src/main/res/layout/list_item_book.xml
+
+commit 036d6d312f0f4a9dcecd9b4b34a473204d20f828
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun May 6 19:37:33 2018 +0200
+
+    Enabled multidex.
+
+4	3	app/build.gradle
+11	6	app/src/main/java/org/bookdash/android/BookDashApplication.java
+
+commit dab2486c0886299ab12caaa08f6fff422fd938b2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 4 21:27:49 2018 +0200
+
+    updated dependency versions.
+    
+    (cherry picked from commit d4bae90)
+
+13	10	app/build.gradle
+6	5	build.gradle
+2	2	fabbutton/build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 363707f5e5f3aaa94bb680720779f4288accb90b
+Merge: 4253a9f 92f68bd
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:29:43 2018 +0200
+
+    Finish Release-2.7.0
+
+commit 5274329a5aaa70636f080e99e5c554693246abbb
+Merge: a39f3f0 92f68bd
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:29:42 2018 +0200
+
+    Finish Release-2.7.0
+
+commit 92f68bde0a454066eaeb24b7290677c96f84bad4
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:29:25 2018 +0200
+
+    release 2.7.0
+
+2	2	build.gradle
+
+commit 4253a9fb3d13a885541a3b5e23dc166af670481b
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:19:56 2018 +0200
+
+    Added circle.ci build server
+
+30	0	.circleci/config.yml
+
+commit 3fb773c12f1f9c8a8453b0815e0a7035d4865754
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:17:14 2018 +0200
+
+    Added Firebase Performance
+
+2	1	app/build.gradle
+3	3	build.gradle
+
+commit 6e904e094e31bb6c9c77b3bd4d68d5b1da188c1b
+Author: Rebecca Franks <hello@riggaroo.co.za>
+Date:   Sat Feb 17 22:11:44 2018 +0200
+
+    Updated libraries in gradle and fixed "no books" message.
+
+7	11	app/build.gradle
+0	144	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+112	0	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.kt
+4	4	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.kt
+3	3	app/src/main/res/values/strings.xml
+5	5	build.gradle
+4	4	fabbutton/build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit a39f3f0288fc5f72c322444f6112ccd447731ee4
+Merge: 559d680 6de88b5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 17:15:45 2017 +0200
+
+    Merge pull request #39 from bookdash/develop
+    
+    Proguard issue fix.
+
+commit 6de88b578052b718333fa97458bab076c80da012
+Merge: 0f8005f 559d680
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 17:14:10 2017 +0200
+
+    Merge branch 'master' into develop
+    
+    # Conflicts:
+    #       build.gradle
+
+commit 0f8005fda38dd5b3badd3b9a9aab5e9a683d6868
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 17:10:54 2017 +0200
+
+    Fixed Proguard Issues.
+    
+    Excluding the Android architecture components from Proguard.
+
+2	1	app/proguard-rules.pro
+2	2	build.gradle
+
+commit 559d680b713e5148151aca25f7e9059c36415eb4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 16:18:47 2017 +0200
+
+    New Release 2.6.0 (#37)
+    
+    * Removed watch faces from README.md
+    
+    * Updated to new version number 2.5.0
+    
+    * Fixed applicationId insert
+    
+    * Updated App Icon to use new Android O Adaptive Icons
+    
+    * Updated to version 2.5.1
+    
+    * updated to new gradle
+    
+    * Fixed gradle versions
+    
+    * Clean up of repo and using ConstraintLayout for more layouts
+    
+    * Removed the need for SquareImageView and using ConstraintLayout instead
+    
+    * update to stable AS
+    
+    * Added ability to navigate pages of the book using Switch access.
+    
+    - Fixed issue on download button where two clickable areas were shown.
+    Now only one is shown
+    - Added click listeners on pages of book to navigate them easily using
+    Switch Access, by using ViewModels in Android.
+    - Migrated two files to use Kotlin
+    
+    * Updated versions of Google Play Services, and some libraries.
+    
+    Updated to version 31 - 2.6.0
+
+13	7	app/build.gradle
+3	4	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+2	3	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+4	7	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+6	6	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+0	55	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+72	0	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.kt
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+0	67	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+77	0	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.kt
+18	0	app/src/main/java/org/bookdash/android/presentation/readbook/ReadBookViewModel.kt
+59	0	app/src/main/java/org/bookdash/android/presentation/utils/SingleLiveEvent.java
+0	46	app/src/main/java/org/bookdash/android/presentation/view/ObservableScrollViewCallbacks.java
+0	38	app/src/main/java/org/bookdash/android/presentation/view/ScrollState.java
+0	56	app/src/main/java/org/bookdash/android/presentation/view/Scrollable.java
+0	22	app/src/main/java/org/bookdash/android/presentation/view/SquareImageView.java
+0	1	app/src/main/res/layout/activity_book_information.xml
+1	1	app/src/main/res/layout/fragment_downloads.xml
+1	0	app/src/main/res/layout/fragment_list_books.xml
+13	0	app/src/main/res/layout/fragment_page.xml
+27	28	app/src/main/res/layout/list_item_book.xml
+31	31	app/src/main/res/layout/list_item_contributor.xml
+61	72	app/src/main/res/layout/list_item_download.xml
+1	0	app/src/main/res/values/strings.xml
+8	11	build.gradle
+1	1	fabbutton/build.gradle
+
+commit b8c93bb7456336cc1fbf19dc9719bb4cd1a20a27
+Merge: 3b782db 43de2d9
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 16:18:03 2017 +0200
+
+    Merge branch 'master' into develop
+    
+    # Conflicts:
+    #       build.gradle
+
+commit 3b782db192300deec10b41a6683bfadf0d1b8cf6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 16:15:15 2017 +0200
+
+    Updated versions of Google Play Services, and some libraries.
+    
+    Updated to version 31 - 2.6.0
+
+4	4	app/build.gradle
+0	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	9	build.gradle
+
+commit b72548a9c983424b2b14b6b3b779c6af90fae13a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Oct 28 15:55:55 2017 +0200
+
+    Added ability to navigate pages of the book using Switch access.
+    
+    - Fixed issue on download button where two clickable areas were shown.
+    Now only one is shown
+    - Added click listeners on pages of book to navigate them easily using
+    Switch Access, by using ViewModels in Android.
+    - Migrated two files to use Kotlin
+
+8	2	app/build.gradle
+3	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+0	54	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+72	0	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.kt
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+0	67	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+77	0	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.kt
+18	0	app/src/main/java/org/bookdash/android/presentation/readbook/ReadBookViewModel.kt
+59	0	app/src/main/java/org/bookdash/android/presentation/utils/SingleLiveEvent.java
+0	1	app/src/main/res/layout/activity_book_information.xml
+13	0	app/src/main/res/layout/fragment_page.xml
+3	1	build.gradle
+
+commit 9dfbe0cb0bc9305000a464c2ee246e5c707a0a04
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Oct 25 19:15:37 2017 +0200
+
+    update to stable AS
+
+0	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+1	1	build.gradle
+
+commit d2bd3dd3433d3a120a3e4df0310b9e309bfe1d8b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Oct 24 09:07:29 2017 +0200
+
+    Removed the need for SquareImageView and using ConstraintLayout instead
+
+7	6	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+0	46	app/src/main/java/org/bookdash/android/presentation/view/ObservableScrollViewCallbacks.java
+0	38	app/src/main/java/org/bookdash/android/presentation/view/ScrollState.java
+0	56	app/src/main/java/org/bookdash/android/presentation/view/Scrollable.java
+0	22	app/src/main/java/org/bookdash/android/presentation/view/SquareImageView.java
+1	0	app/src/main/res/layout/fragment_list_books.xml
+10	11	app/src/main/res/layout/list_item_book.xml
+
+commit 07f975b1950f5c52d714e14a62afec2f9697f040
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Oct 24 08:46:05 2017 +0200
+
+    Clean up of repo and using ConstraintLayout for more layouts
+
+2	3	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+4	7	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+2	3	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+1	1	app/src/main/res/layout/fragment_downloads.xml
+21	21	app/src/main/res/layout/list_item_book.xml
+31	31	app/src/main/res/layout/list_item_contributor.xml
+61	72	app/src/main/res/layout/list_item_download.xml
+1	0	app/src/main/res/values/strings.xml
+
+commit 056f64026d7571af121fd36c59e6ad6643c57da3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Oct 23 20:48:34 2017 +0200
+
+    Fixed gradle versions
+
+1	1	app/build.gradle
+1	1	fabbutton/build.gradle
+
+commit 43de2d9c70b5b53d59229c4a632c06ed31ddeb2f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Oct 23 18:50:25 2017 +0200
+
+    Develop (#36)
+    
+    * Removed watch faces from README.md
+    
+    * Updated to new version number 2.5.0
+    
+    * Fixed applicationId insert
+    
+    * Updated App Icon to use new Android O Adaptive Icons
+    
+    * Updated to version 2.5.1
+    
+    * updated to new gradle
+
+2	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 948998c1816bf3270aed72ee167bae5e8ada2ef5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Oct 23 18:48:57 2017 +0200
+
+    updated to new gradle
+
+2	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 1605787a7e68d64fba7d145391576b30bf1e06ed
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 15 19:22:40 2017 +0200
+
+    Added Adaptive Icon for Android O Support. (#32)
+    
+    * Removed watch faces from README.md
+    
+    * Updated to new version number 2.5.0
+    
+    * Fixed applicationId insert
+    
+    * Updated App Icon to use new Android O Adaptive Icons
+    
+    * Updated to version 2.5.1
+
+1	0	app/src/main/AndroidManifest.xml
+-	-	app/src/main/ic_launcher-web.png
+5	0	app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+5	0	app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+2	2	build.gradle
+
+commit 61d3d9575364fc72fbc98dbe5cc6c475259fe955
+Merge: 3d757c4 74421d5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 15 19:22:34 2017 +0200
+
+    Merge branch 'master' into develop
+
+commit 3d757c4d27cefc42b73a48854b878bef66c3b7f9
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 15 19:18:43 2017 +0200
+
+    Updated to version 2.5.1
+
+2	2	build.gradle
+
+commit 18020362eab78869bc11f8c489ceb086fc61d2d6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 15 19:17:54 2017 +0200
+
+    Updated App Icon to use new Android O Adaptive Icons
+
+1	0	app/src/main/AndroidManifest.xml
+-	-	app/src/main/ic_launcher-web.png
+5	0	app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+5	0	app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+
+commit 74421d56f4056e40c07f73e8820849c2bb362199
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Aug 14 17:30:53 2017 +0200
+
+    Develop (#31)
+    
+    * Removed watch faces from README.md
+    
+    * Updated to new version number 2.5.0
+    
+    * Fixed applicationId insert
+
+2	2	app/src/main/AndroidManifest.xml
+
+commit 3b6eacf68a89ecd222f26311e4dbd14df5e46122
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Aug 14 17:13:40 2017 +0200
+
+    Fixed applicationId insert
+
+2	2	app/src/main/AndroidManifest.xml
+
+commit d745a233c02af57f08a3495657b008ca0a8affd6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:47:40 2017 +0200
+
+    Updated to version 2.5.0 (#29)
+    
+    * Removed watch faces from README.md
+    
+    * Updated to new version number 2.5.0
+
+2	2	build.gradle
+
+commit 544a7f8a97aab4bc4cbb009dd0efa9a8816482f5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:46:29 2017 +0200
+
+    Updated to new version number 2.5.0
+
+2	2	build.gradle
+
+commit e10687a0010875f0a331fa6bfb12223357aa5c85
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:41:21 2017 +0200
+
+    Removed watch faces from README.md (#28)
+
+1	2	README.md
+-	-	art/fox_round.png
+-	-	art/fox_square.png
+-	-	art/owl_round.png
+-	-	art/owl_square.png
+
+commit ca84c7283af3b108233668330b91ac924e337a6a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:39:26 2017 +0200
+
+    Removed watch faces from README.md
+
+1	2	README.md
+-	-	art/fox_round.png
+-	-	art/fox_square.png
+-	-	art/owl_round.png
+-	-	art/owl_square.png
+
+commit 2a3235930f0614e2f2d9021a2bf5a0dde2cac887
+Merge: adb17c7 3bcdbaa
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:37:46 2017 +0200
+
+    Merge branch 'master' into develop
+
+commit 3bcdbaacbcb68089c72df1b87fe47f61d7e427a6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 13 16:36:00 2017 +0200
+
+    Removed watch face, updated versions of libraries, fixed bug on settings
+
+54	88	app/build.gradle
+5	5	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+56	0	app/src/main/java/org/bookdash/android/presentation/settings/SettingsFragment.java
+26	0	app/src/main/res/layout/fragment_preferences.xml
+21	14	app/src/main/res/layout/fragment_settings.xml
+8	9	build.gradle
+4	92	fabbutton/build.gradle
+0	24	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabButton.java
+2	2	gradle/wrapper/gradle-wrapper.properties
+1	1	settings.gradle
+0	1	watchface/.gitignore
+0	55	watchface/build.gradle
+0	17	watchface/proguard-rules.pro
+0	61	watchface/src/main/AndroidManifest.xml
+-	-	watchface/src/main/assets/fonts/minyna.ttf
+0	27	watchface/src/main/java/org/bookdash/android/BatteryStatusHelper.java
+0	355	watchface/src/main/java/org/bookdash/android/FoxWatchFace.java
+0	370	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+-	-	watchface/src/main/res/drawable-nodpi/fox.png
+-	-	watchface/src/main/res/drawable-nodpi/fox_watch_face_circular.png
+-	-	watchface/src/main/res/drawable-nodpi/lonely_owl_thick.png
+-	-	watchface/src/main/res/drawable-nodpi/owl.jpg
+-	-	watchface/src/main/res/drawable-nodpi/owl_round.png
+-	-	watchface/src/main/res/drawable-nodpi/owl_square.png
+-	-	watchface/src/main/res/drawable-nodpi/slim_fox.png
+-	-	watchface/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-xxhdpi/ic_launcher.png
+0	6	watchface/src/main/res/values/colors.xml
+0	33	watchface/src/main/res/values/dimens.xml
+0	5	watchface/src/main/res/values/strings.xml
+0	2	watchface/src/main/res/xml/watch_face.xml
+
+commit d9d510910269be40c7bff1ee8bac085ebfaaacbb
+Merge: 7be841c 0ed3f2a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 19:14:02 2017 +0200
+
+    Finish Release-2.4.0
+    
+    # Conflicts:
+    #       build.gradle
+
+commit 0ed3f2a56ad10ddf56e1da7b7a4bcf77720af0e9
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 19:13:25 2017 +0200
+
+    up'ed version
+
+2	2	build.gradle
+
+commit adb17c75f668ccd55981e285120994da6cf3008c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 17:50:37 2017 +0200
+
+    Fixed QA build.
+
+7	5	app/src/qa/java/org/bookdash/android/Injection.java
+
+commit ced1dfb3d6e798ea17714867eb2c4b7c074b1494
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 17:14:28 2017 +0200
+
+    Fixed mock variant to return correct fake settings etc.
+
+7	6	app/src/mock/java/org.bookdash.android/Injection.java
+10	0	app/src/mock/java/org.bookdash.android/data/analytics/MockAnalytics.java
+13	4	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+
+commit a8e2fd9c775140efc5d61116658ab7d62b6e9f0c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 13:45:43 2017 +0200
+
+    Added the ability to subscribe and unsubscribe from the "New Book notification" topic.
+    This topic will be used to send targeting notifications for when a new book is added to the system.
+    By default, this notification should be on, and a user can toggle this in the settings section of the app.
+
+21	0	app/src/main/java/org/bookdash/android/BookDashApplication.java
+3	0	app/src/main/java/org/bookdash/android/data/settings/SettingsApi.java
+25	1	app/src/main/java/org/bookdash/android/data/settings/SettingsApiImpl.java
+7	4	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositories.java
+6	0	app/src/main/java/org/bookdash/android/data/settings/SettingsRepository.java
+48	1	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositoryImpl.java
+4	0	app/src/main/java/org/bookdash/android/data/tracking/Analytics.java
+15	0	app/src/main/java/org/bookdash/android/data/tracking/BookDashFirebaseAnalytics.java
+0	3	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepositories.java
+1	3	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepository.java
+12	11	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepositoryImpl.java
+3	3	app/src/main/java/org/bookdash/android/presentation/settings/SettingsContract.java
+23	11	app/src/main/java/org/bookdash/android/presentation/settings/SettingsFragment.java
+35	6	app/src/main/java/org/bookdash/android/presentation/settings/SettingsPresenter.java
+2	0	app/src/main/res/values/strings.xml
+7	1	app/src/main/res/xml/app_preferences.xml
+4	2	app/src/prod/java/org/bookdash/android/Injection.java
+41	8	app/src/test/java/org/bookdash/android/presentation/settings/SettingsPresenterTest.java
+
+commit d634e34a5eefa1764bbcb0a2154e841b12a9ffc1
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri May 5 11:56:03 2017 +0200
+
+    Updated versions of plugins.
+
+3	3	app/build.gradle
+3	3	build.gradle
+
+commit bb6ffc5b85d3cf60cce9819dfba4629dfea3b1e3
+Author: Michel Onwordi <petros342@gmail.com>
+Date:   Fri Mar 24 21:26:04 2017 +0100
+
+    Issue 22 make help tutorial available (#25)
+    
+    * Up'ed to version 2.2.0
+    
+    * changed to version code 27
+    
+    * Add Settings Feature Package
+    Add Settings Contract, Presenter & Fragment
+    Add preferences xml with basic "show tutorial" preference
+    
+    * Fixed crash with loading preferences in the settings fragment
+    
+    * Bump android gradle plugin version to 2.3
+    
+    * Implement tutorial display from settings screen feature
+    
+    * Refactor code to conform with contribution guidelines
+    
+    * Add unit test
+    
+    * Fix PR Comments: rename variables, extract strings
+    
+    * Fix missing symbol on QA Release variant
+    
+    * Add toolbar to settings preference fragment
+    Add material design theme to settings fragment
+    
+    * removed unnecessary preference category
+
+2	0	app/build.gradle
+23	0	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepositories.java
+13	0	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepository.java
+44	0	app/src/main/java/org/bookdash/android/data/tutorial/TutorialsRepositoryImpl.java
+1	1	app/src/main/java/org/bookdash/android/presentation/about/AboutFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+9	4	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+4	0	app/src/main/java/org/bookdash/android/presentation/main/MainContract.java
+4	1	app/src/main/java/org/bookdash/android/presentation/main/MainPresenter.java
+23	0	app/src/main/java/org/bookdash/android/presentation/settings/SettingsContract.java
+50	0	app/src/main/java/org/bookdash/android/presentation/settings/SettingsFragment.java
+24	0	app/src/main/java/org/bookdash/android/presentation/settings/SettingsPresenter.java
+0	0	app/src/main/res/drawable/{ic_menu_black_24dp.xml => ic_menu_24dp.xml}
+1	1	app/src/main/res/drawable/ic_settings_black_24dp.xml
+38	38	app/src/main/res/layout/activity_tutorial.xml
+24	0	app/src/main/res/layout/fragment_settings.xml
+12	12	app/src/main/res/menu/menu_drawer.xml
+3	0	app/src/main/res/values/strings.xml
+8	0	app/src/main/res/values/styles.xml
+9	0	app/src/main/res/xml/app_preferences.xml
+6	0	app/src/mock/java/org.bookdash.android/Injection.java
+5	0	app/src/prod/java/org/bookdash/android/Injection.java
+6	0	app/src/qa/java/org/bookdash/android/Injection.java
+65	0	app/src/test/java/org/bookdash/android/presentation/settings/SettingsPresenterTest.java
+2	2	build.gradle
+2	1	gradle/wrapper/gradle-wrapper.properties
+
+commit 7be841c06b251a9a507e9df277b70b80c2b8c711
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 19:50:29 2016 +0200
+
+    changed to version code 27
+
+1	1	build.gradle
+
+commit bb0cda762c7e146c1b6ff64473ff3f8248d0e11f
+Merge: 95b0286 ef13bfe
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 19:49:00 2016 +0200
+
+    Finish Release-2.2.0
+    
+    # Conflicts:
+    #       build.gradle
+
+commit f9ce2bf112a6a1f640bbc0e8f2f84974531a6253
+Merge: e2ba025 fa0a2b3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 19:25:41 2016 +0200
+
+    Finish Release-2.3.0
+
+commit 95b02863a585eb014b631618d02875e01f21b3f6
+Merge: 3a84c07 fa0a2b3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 19:25:41 2016 +0200
+
+    Finish Release-2.3.0
+
+commit fa0a2b3aa3930f0ab3c3f9670ac44a6ab4b9432b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 19:25:32 2016 +0200
+
+    chore: changed to version 2.3.0
+
+2	2	build.gradle
+
+commit e2ba025148d9270fb58d97597d7a28adfd9966a3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 18:53:09 2016 +0200
+
+    fixed failing tests.
+
+2	2	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+
+commit 73790bf53fe978601dda6812ee9d9af2518da7fd
+Merge: 0c935a3 deacd93
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 18:27:57 2016 +0200
+
+    Finish Feature-SearchBooks
+
+commit deacd934010108b82247574f204a442d64c10a38
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 18:19:05 2016 +0200
+
+    fixed issue with books not being refreshed.
+
+16	2	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+
+commit 0044c848162cebbb6afcb212eb406ab5456ee11b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 17:43:33 2016 +0200
+
+    feat: Search
+    Ignoring empty search strings.
+
+9	0	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+
+commit e32a9a7bd512cc01612f681fd5845a564d1fa020
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 17:06:55 2016 +0200
+
+    feat: search
+    
+    added espresso tests for searching.
+
+59	6	app/src/androidTestMock/java/org.bookdash.android/presentation/search/SearchActivityTest.java
+
+commit 737bedb561dc42848d049d358400e46e98bd0188
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Dec 21 14:54:21 2016 +0200
+
+    feat: Search - Fixed padding issue on Search results.
+
+1	2	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+2	3	app/src/main/res/layout/activity_search.xml
+4	3	app/src/main/res/layout/fragment_list_books.xml
+
+commit ab8899f3e7152f267581ede53629d4071e33fee6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 19 20:04:42 2016 +0200
+
+    feat: Search - Fixed back icon & title when search term is entered.
+
+3	1	app/src/main/AndroidManifest.xml
+0	1	app/src/main/java/org/bookdash/android/BookDashApplication.java
+40	23	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+9	0	app/src/main/res/drawable/ic_arrow_back.xml
+1	1	app/src/main/res/menu/menu_search.xml
+
+commit 14a2332b36b61dc372c7a2ed27151de1ae864bc2
+Merge: d738622 0c935a3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 19 18:00:34 2016 +0200
+
+    Merged 'develop'.
+    
+    # Conflicts:
+    #       app/src/main/java/org/bookdash/android/BookDashApplication.java
+
+commit 0c935a3287727027d3d7ee7db6195f2174c7afef
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 19 17:46:29 2016 +0200
+
+    feat: remove custom font. #23.
+
+0	3	app/build.gradle
+-	-	app/src/main/assets/fonts/minyna.ttf
+1	7	app/src/main/java/org/bookdash/android/BookDashApplication.java
+1	5	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+1	6	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+
+commit d738622870409c6e7e7e42d67fa07c6c36c3dadd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Dec 11 13:59:40 2016 +0200
+
+    feat: ability to search for books.
+    
+    -Added presenters, views, unit tests and client side filtering of books for search.
+
+2	1	app/build.gradle
+10	2	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+23	0	app/src/androidTestMock/java/org.bookdash.android/presentation/search/SearchActivityTest.java
+6	10	app/src/main/AndroidManifest.xml
+9	0	app/src/main/java/org/bookdash/android/BookDashApplication.java
+26	0	app/src/main/java/org/bookdash/android/config/CrashlyticsTree.java
+2	0	app/src/main/java/org/bookdash/android/data/book/BookService.java
+15	0	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+1	0	app/src/main/java/org/bookdash/android/data/database/firebase/BookDatabase.java
+4	1	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+7	0	app/src/main/java/org/bookdash/android/data/tracking/Analytics.java
+35	1	app/src/main/java/org/bookdash/android/data/tracking/BookDashFirebaseAnalytics.java
+7	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+3	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+13	11	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+5	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+0	24	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+199	0	app/src/main/java/org/bookdash/android/presentation/search/SearchActivity.java
+40	0	app/src/main/java/org/bookdash/android/presentation/search/SearchContract.java
+70	0	app/src/main/java/org/bookdash/android/presentation/search/SearchPresenter.java
+9	0	app/src/main/res/drawable/ic_search.xml
+103	0	app/src/main/res/layout/activity_search.xml
+13	7	app/src/main/res/menu/menu_main.xml
+11	0	app/src/main/res/menu/menu_search.xml
+7	0	app/src/main/res/values/strings.xml
+20	0	app/src/mock/java/org.bookdash.android/data/analytics/MockAnalytics.java
+5	0	app/src/mock/java/org.bookdash.android/data/book/FakeBookServiceApiImpl.java
+124	0	app/src/test/java/org/bookdash/android/presentation/search/SearchPresenterTest.java
+
+commit 162fe97f32597f26eec4d20368c738010c1bd465
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Dec 11 11:11:40 2016 +0200
+
+    feat: filtering books by language on the server instead of client side.
+
+1	17	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+2	0	app/src/main/java/org/bookdash/android/data/database/firebase/BookDatabase.java
+7	3	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+2	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+2	2	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+
+commit bc4eaf504d93cfb64227641607dda962a36ec622
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 10 19:19:49 2016 +0200
+
+    bug: #18 Fixed flickering of download icon on BookDetailActivity.
+
+1	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+
+commit 8f511e657b8d138a1490aeb96b236e8224231553
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 10 18:48:17 2016 +0200
+
+    bug: #17 fixed.
+    Items in the menu where checked even if you weren't on the correct NavigationView item.
+
+21	17	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+7	2	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+
+commit ef13bfe2014f511e2f4c47db1a59ea96bb3d3e8b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 6 12:56:47 2016 +0200
+
+    Up'ed to version 2.2.0
+
+2	2	build.gradle
+
+commit a0c2e7d6d90bb3b13270315462fb317815d29f00
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 5 20:39:43 2016 +0200
+
+    chore: fixed qa build.
+
+10	0	app/src/qa/java/org/bookdash/android/Injection.java
+
+commit cef7ce9e0b1c95779ac706b2ea266d60ee364c8f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 5 20:20:03 2016 +0200
+
+    feat: added Firebase analytics tracking to screens
+
+34	0	app/src/main/java/org/bookdash/android/data/tracking/Analytics.java
+125	0	app/src/main/java/org/bookdash/android/data/tracking/BookDashFirebaseAnalytics.java
+0	7	app/src/main/java/org/bookdash/android/data/utils/GAnalytics.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+14	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+85	84	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+44	35	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+82	78	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+7	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+33	33	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+8	0	app/src/main/java/org/bookdash/android/presentation/main/MainContract.java
+25	1	app/src/main/java/org/bookdash/android/presentation/main/MainPresenter.java
+10	6	app/src/mock/java/org.bookdash.android/Injection.java
+76	0	app/src/mock/java/org.bookdash.android/data/analytics/MockAnalytics.java
+13	1	app/src/prod/java/org/bookdash/android/Injection.java
+26	15	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+11	5	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+6	3	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit 41e2a450fb7297c5fd309e3962203153e0302863
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 3 17:35:49 2016 +0200
+
+    chore: changed to latest api version and fixed build.
+
+6	4	app/build.gradle
+89	96	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+1	0	app/src/mock/java/org.bookdash.android/Injection.java
+4	4	build.gradle
+4	5	fabbutton/build.gradle
+
+commit 3ae35d6f2687425f674afb17067e6af35fc3d569
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 3 16:46:52 2016 +0200
+
+    chore: copying google-services.json file for QA builds too.
+
+3	1	buddybuild_prebuild.sh
+
+commit b1ae879edbf58058f386b1c60b9cb137156d6bcf
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 3 12:05:48 2016 +0200
+
+    chore: added qa firebase project so as not to hit production when testing.
+
+11	7	app/build.gradle
+0	1	app/src/main/java/org/bookdash/android/config/FirebaseConfig.java
+10	12	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+2	1	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+1	0	app/src/mock/.gitignore
+1	0	app/src/prod/.gitignore
+1	0	app/src/prod/java/org/bookdash/android/Injection.java
+1	0	app/src/qa/.gitignore
+72	0	app/src/qa/java/org/bookdash/android/Injection.java
+1	1	build.gradle
+35	0	server/book-dash-a93c3-export.json
+
+commit 3a84c070f5b7edbe8286a5209d01710d17207b5c
+Merge: aec3db7 a60c9e8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 18 14:36:53 2016 -0800
+
+    Finish Release-2.1.2
+
+commit a60c9e83a7361ea91b289061d6a37eb8e16b26fd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 18 14:34:32 2016 -0800
+
+    Removed circle ci config file.
+
+0	44	circle.yml
+
+commit 7aec0e654c0c605c2a94970bf15359b3efe8c857
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 18 14:32:25 2016 -0800
+
+    Added CircleCI config badge.
+
+1	1	README.md
+
+commit ec43a1bc1c246af6d52d097b2b2b4e8583264b47
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 18 13:56:59 2016 -0800
+
+    Issue #20 - Updated readme to include more details around book uploading and a sample book.
+
+6	3	README.md
+1990	0	server/book-dash-a93c3-export.json
+0	230	server/firebase-sample-data.json
+-	-	server/simaandsiza-en.zip
+
+commit aec3db788b2201de39f08441e4336bb1b1885df7
+Merge: dc4422f 600f898
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Oct 25 20:34:42 2016 +0200
+
+    Finish Release-2.1.1
+
+commit 600f898229a3d8ebcebca47bb3cce94a9428a955
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Oct 25 20:32:53 2016 +0200
+
+    chore: updated screenshots for watch faces and changed to version 2.1.1
+
+2	2	README.md
+-	-	art/fox_round.png
+-	-	art/fox_square.png
+-	-	art/fox_watch_face.png
+-	-	art/owl_round.png
+-	-	art/owl_square.png
+-	-	art/owl_watch_ambient.png
+-	-	art/owl_watch_face.png
+2	2	build.gradle
+1	1	watchface/src/main/AndroidManifest.xml
+-	-	watchface/src/main/res/drawable-nodpi/owl_round.png
+-	-	watchface/src/main/res/drawable-nodpi/owl_square.png
+-	-	watchface/src/main/res/drawable-nodpi/owl_watch_face_circular.png
+
+commit e61eb39184305ddcc7847cae16f2aa6315cef9b7
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Oct 25 20:23:08 2016 +0200
+
+    bug: fix watch faces to scale properly to different dimensions.
+
+42	29	watchface/src/main/java/org/bookdash/android/FoxWatchFace.java
+16	13	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+13	23	watchface/src/main/res/values/dimens.xml
+
+commit 46c845f112120c34933724e47b0e8e410d6222e4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Oct 19 20:53:57 2016 +0200
+
+    chore: fixed signing of watch face app and changed to version 2.1.0
+
+2	2	build.gradle
+18	1	watchface/build.gradle
+
+commit 6c6c941fc3bbc8da5dbb907f37a7cc509354f2db
+Merge: 5e70a76 4b938bf
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Oct 19 09:11:49 2016 +0200
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+commit 5e70a76ff26048556ba5a75376d50693b9fec5aa
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Oct 19 09:10:45 2016 +0200
+
+    chore: fixed watch face to package with android app.
+
+1	1	app/build.gradle
+2	2	build.gradle
+
+commit 4b938bf5887c8e3c6345b2804f9c876ac0a5ac72
+Merge: 5aad164 ad7ea92
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Oct 19 09:08:23 2016 +0200
+
+    Merge pull request #14 from skrzyneckik/develop
+    
+    refactor: Removed rubbish after Parse to make project fully Parse free!
+
+commit ad7ea92d2dd04244f99ee01e70c99f18c900d2e8
+Author: Krzysztof Skrzynecki <krzysztof@digi.me>
+Date:   Tue Oct 18 23:11:29 2016 +0100
+
+    refactor: Removed rubbish after Parse to make project fully Parse free!
+
+0	2	app/build.gradle
+0	1	app/proguard-rules.pro
+0	2	app/src/main/AndroidManifest.xml
+0	2	gradle.properties
+
+commit dc4422fc81371c625c4808db8eb61a71cfa8f75e
+Merge: b2fcb61 5aad164
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 22:49:52 2016 +0200
+
+    Finish Release-2.0.1
+
+commit 5aad1640f5988c8dfb4944b52f675d4193506d0c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 22:49:05 2016 +0200
+
+    chore: added proguard rules and changed to version 2.0.1
+
+7	0	app/proguard-rules.pro
+2	2	build.gradle
+
+commit b2fcb61c1f260948a1ec3dabc491f7ea26b49f87
+Merge: 7e92fa0 12cbc32
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 21:34:11 2016 +0200
+
+    Finish Hotfix-FixBuildScript
+
+commit e99110d33cfc6d5b1d1ae3766419757763c4ecc5
+Merge: 3643513 12cbc32
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 21:34:11 2016 +0200
+
+    Finish Hotfix-FixBuildScript
+
+commit 12cbc32b40ac0a2a5b3a8f75c69650dbdbe464c0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 21:33:58 2016 +0200
+
+    chore: fixed gradle build scripts with watchface.
+
+21	8	app/build.gradle
+1	1	build.gradle
+9	3	watchface/build.gradle
+
+commit 7e92fa0b171fe106d38bc5c2a87dd77d74fc5860
+Merge: ca55221 6ffbb55
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 20:50:49 2016 +0200
+
+    Finish Hotfix-DownloadsActivity
+
+commit 3643513560068aad536845b6eeec6e6deea2cb50
+Merge: e1f3afb 6ffbb55
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 20:50:49 2016 +0200
+
+    Finish Hotfix-DownloadsActivity
+
+commit 6ffbb55a4a3da9cb356be0ec4b7a07e3d9c6104f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 20:50:37 2016 +0200
+
+    fix: download activity crashing without firebase image downloader.
+
+2	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+
+commit ca55221e3a6fdf67cc0c8ae24c7119504b156fa5
+Merge: 5347fa0 e1f3afb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 19:55:41 2016 +0200
+
+    Finish Release-2.0.0
+
+commit e1f3afb42bd412cbfc7a84d63fa200de7c6c1ac3
+Merge: 52db73b 6c4631a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 19:27:18 2016 +0200
+
+    Merge pull request #13 from bookdash/polyglotprogramminginc-feature/firebase_tweaks
+    
+     feature/firebase tweaks - new Pull request after merge conflict.
+
+commit 6c4631a66da3bc1b0b19714b969f1673d4f612fd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 18:47:31 2016 +0200
+
+    chore: fixed failing tests and refactored naming of variables.
+
+2	4	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+9	16	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+0	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+
+commit de8a8c324b530d3fa056313b8cbf2e025be28842
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 17:34:52 2016 +0200
+
+    feature: migrating to use correct firebase storage methods for loading books, avatars and book cover pages.
+
+10	7	app/build.gradle
+4	1	app/src/main/java/org/bookdash/android/config/FirebaseConfig.java
+1	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+2	2	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+0	2	app/src/main/java/org/bookdash/android/data/database/firebase/BookDatabase.java
+5	12	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+18	12	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+13	6	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+5	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+8	5	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+2	2	app/src/main/res/xml/firebase_remote_config_defaults.xml
+1	1	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+2	3	build.gradle
+
+commit c2cb011b38ed71dd5957bf57440bcc499847eaf9
+Merge: 52db73b adfce4d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Oct 16 15:12:01 2016 +0200
+
+    Merge branch 'feature/firebase_tweaks' of https://github.com/polyglotprogramminginc/BookdashAndroidApp into polyglotprogramminginc-feature/firebase_tweaks
+    
+    # Conflicts:
+    #       gradle/wrapper/gradle-wrapper.properties
+
+commit 52db73b2850ab8c52c671c3a5f4d5614eb34da40
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Oct 6 19:08:29 2016 +0200
+
+    Fixed build - updated gradle version.
+
+5	2	app/build.gradle
+12	1	app/proguard-rules.pro
+1	1	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+9	9	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit adfce4d6e31534fa2c8b28bea30cbbb4ae566260
+Author: Lance Gleason <lgleasain@yahoo.com>
+Date:   Sun Oct 2 02:28:27 2016 -0400
+
+    a hacky spike that adjusts for the final Firbase imported data format.  Will need to get rid of the hard coded url prefixes to clean this up
+
+1	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+6	3	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+2	0	app/src/main/java/org/bookdash/android/data/database/firebase/BookDatabase.java
+10	4	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+21	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+6	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+2	2	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 8c038a004a0a644013c1f0f5ba87362cfc394677
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Sep 10 19:47:15 2016 +0200
+
+    chore: added work around for data binding espresso errors
+
+19	1	app/build.gradle
+
+commit 6d74b0f270b06ad5bce93d259d33ae92284a9728
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 24 20:59:45 2016 +0200
+
+    bug: fixed tests
+
+1	1	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+4	4	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+4	2	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit fb8c7129c5a2d7db0249692327c442cdcdff319b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 24 20:46:45 2016 +0200
+
+    chore: adding prebuild.sh for buddy build.
+
+2	0	buddybuild_prebuild.sh
+
+commit 34ec10f8db0a2029a87331902bd8405c9ac4a9c8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 24 20:15:35 2016 +0200
+
+    bug: Fixed mock objects.
+
+4	3	app/src/mock/java/org.bookdash.android/data/book/FakeBookServiceApiImpl.java
+
+commit 0393100f7f821af0c5123315ecc8ffd1b58e5674
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 24 19:15:28 2016 +0200
+
+    chore: Changed to use jpg instead for images in readme
+
+3	3	README.md
+
+commit 5bb8abef7ec196afe28fbfbb5418f64658da6a39
+Merge: f175243 2d24794
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 24 18:36:55 2016 +0200
+
+    Finish Feature-FirebaseDocumentation
+
+commit 2d24794fbc469bd343133799390898457de6954a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 23 20:00:30 2016 +0200
+
+    chore: added documentation for firebase setup.
+    
+    Removed parse docs. Added new screenshots.
+
+20	0	CONTRIBUTING.md
+26	23	README.md
+-	-	art/bookdetail.jpg
+-	-	art/booklisting.jpg
+-	-	art/reading_book.jpg
+2	2	build.gradle
+0	293	parse_data_example_json/Book.json
+0	622	parse_data_example_json/BookContributor.json
+0	581	parse_data_example_json/BookDetails.json
+0	468	parse_data_example_json/Contributor.json
+0	72	parse_data_example_json/Language.json
+-	-	screenshots/demo.gif
+-	-	screenshots/screen_bookdetail_phone.png
+-	-	screenshots/screen_bookdetail_tablet.png
+-	-	screenshots/screen_bookread_phone.png
+-	-	screenshots/screen_bookread_tablet.png
+-	-	screenshots/screen_listbooks_phone.png
+-	-	screenshots/screen_listbooks_tablet.png
+6	0	server/database.rules.json
+230	0	server/firebase-sample-data.json
+9	0	server/storage.rules
+
+commit f175243e8506f6b910514c9cded5af3cb7335ff8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 14 19:37:39 2016 +0200
+
+    Added createdDate onto server objects. Sorting books by createdDate DESC.
+
+1	1	app/build.gradle
+7	8	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	3	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+37	4	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+2	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+3	3	app/src/main/res/layout-land/activity_book_information.xml
+15	15	app/src/main/res/layout/activity_book_information.xml
+
+commit 16208d0d5635ddeb8019fa4675e6c695fc9e42d0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Aug 7 16:32:06 2016 +0200
+
+    Changed timeout of mock debug task
+
+3	3	circle.yml
+
+commit 9337e809b15314a922bd6e71cc5e6a546286cde1
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Aug 4 07:57:27 2016 +0200
+
+    Increased timout time.
+
+3	0	circle.yml
+
+commit 6c03f89f426c247ce9a0a8e619854b0d89efc2ec
+Merge: 0a8a985 715b5a0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 3 21:08:57 2016 +0200
+
+    Finish FeatureWatchFace
+
+commit 715b5a0d02b84ec10e6c6ecfcbcd653b151eed87
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 3 21:04:08 2016 +0200
+
+    Added square watch face dimensions for fox and owl watch faces.
+
+-	-	art/owl_square.png
+1	1	watchface/src/main/AndroidManifest.xml
+7	6	watchface/src/main/java/org/bookdash/android/FoxWatchFace.java
+11	5	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+-	-	watchface/src/main/res/drawable-nodpi/owl_square.png
+26	9	watchface/src/main/res/values/dimens.xml
+
+commit 06fe78097f67b3e06c3c7d97300524f85ff5ddcc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 3 20:30:15 2016 +0200
+
+    Added Fox Watch Face.
+    Migrated version number into a constant out side of app/build.gradle.
+    Made ambient mode designs use less than 5% white pixels.
+
+12	15	app/build.gradle
+-	-	art/fox_watch_face.png
+-	-	art/owl_watch_ambient.png
+-	-	art/owl_watch_face.png
+7	0	build.gradle
+5	5	watchface/build.gradle
+21	2	watchface/src/main/AndroidManifest.xml
+341	0	watchface/src/main/java/org/bookdash/android/FoxWatchFace.java
+5	6	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+-	-	watchface/src/main/res/drawable-nodpi/fox.png
+-	-	watchface/src/main/res/drawable-nodpi/fox_watch_face_circular.png
+-	-	watchface/src/main/res/drawable-nodpi/lonely_owl_thick.png
+-	-	watchface/src/main/res/drawable-nodpi/owl_watch_face_circular.png
+-	-	watchface/src/main/res/drawable-nodpi/owl_watchface_withtrees.png
+-	-	watchface/src/main/res/drawable-nodpi/preview_digital.png
+-	-	watchface/src/main/res/drawable-nodpi/preview_digital_circular.png
+-	-	watchface/src/main/res/drawable-nodpi/slim_fox.png
+10	0	watchface/src/main/res/values/dimens.xml
+1	0	watchface/src/main/res/values/strings.xml
+
+commit c52a2d83e13dda778c4325e99bda545b4d0ad1cc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 3 16:38:54 2016 +0200
+
+    Added ambient mode owl. Added battery status indicator.
+
+1	1	build.gradle
+3	0	watchface/build.gradle
+27	0	watchface/src/main/java/org/bookdash/android/BatteryStatusHelper.java
+23	2	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+-	-	watchface/src/main/res/drawable-nodpi/owl_watchface_withtrees.png
+6	3	watchface/src/main/res/values/dimens.xml
+
+commit 27b24c911416cc924d55cad6549ff54f1141504a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Aug 3 14:07:30 2016 +0200
+
+    Refactored watch face. Added date to watch face.
+
+2	0	watchface/build.gradle
+78	59	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+6	1	watchface/src/main/res/values/dimens.xml
+1	1	watchface/src/main/res/values/strings.xml
+
+commit 07524baea0c49392383b0cb987ab0881d7a60c8b
+Merge: 43cb07d 0a8a985
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Aug 2 21:48:47 2016 +0200
+
+    Merged 'develop'.
+
+commit 0a8a985efccb73b0bcb20cd6bf536124100f8961
+Merge: 1864c57 c8dfaf7
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Aug 1 19:10:56 2016 +0200
+
+    Finish FirebaseMigration
+
+commit c8dfaf73e84f8e5d7e8dd59fa681484b81ffd628
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 19:36:25 2016 +0200
+
+    Enabled test coverage again.
+
+1	1	app/build.gradle
+1	1	circle.yml
+
+commit a9e368ccd534ed5dc7ef9abbdbe2d88c08ae31bb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 19:07:37 2016 +0200
+
+    reverted back to activitytestrule
+
+5	30	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+
+commit 4d2685fd2a851192edb7e54160839fe0a1b3119c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 18:12:16 2016 +0200
+
+    changed to intentsTestRule
+
+6	6	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+
+commit aa45c65990fbeeff58f24b4e665656e781d44333
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 17:49:30 2016 +0200
+
+    Adding empty bundle to try fix failing test
+
+2	1	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+
+commit 9fa387d211b09e107888e5acabbca0a03c4ca725
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 16:32:04 2016 +0200
+
+    reset settings back to english on the start of every test.
+
+5	8	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+3	1	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+
+commit 01aaaf355f203e21bf6ed3a22c3a97f4e911c5d8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 16:05:55 2016 +0200
+
+    Fixed flickering on download icon
+
+10	10	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/res/layout/activity_book_information.xml
+89	99	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabButton.java
+37	32	fabbutton/src/main/java/mbanje/kurt/fabbutton/ProgressRingView.java
+
+commit 441cded500242dffa1d8c756bddab5f663091a80
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 15:03:41 2016 +0200
+
+    Fixed Mock tests.
+
+1	2	app/src/androidTest/java/org/bookdash/android/presentation/about/AboutFragmentTest.java
+2	3	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+14	13	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+0	76	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+1	5	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+
+commit 855cb5810f36e5eac4df4d2ea228d033fd591971
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 14:48:59 2016 +0200
+
+    Fixed injection class.
+
+0	22	app/src/main/java/org/bookdash/android/FakeDownloadService.java
+22	2	app/src/mock/java/org.bookdash.android/Injection.java
+4	1	app/src/mock/java/org.bookdash.android/data/book/FakeBookServiceApiImpl.java
+
+commit 1e04f43e23c80060213500b53e5f1fb477df76dc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 14:38:43 2016 +0200
+
+    Added FakeBooks to return from fake book service.
+
+40	3	app/src/mock/java/org.bookdash.android/data/book/FakeBookServiceApiImpl.java
+1	1	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+
+commit 43cb07dadda0781523bdbce62d191742d54c5101
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 31 14:17:39 2016 +0200
+
+    Added owl watch face
+
+9	13	app/src/main/AndroidManifest.xml
+1	1	settings.gradle
+1	0	watchface/.gitignore
+27	0	watchface/build.gradle
+17	0	watchface/proguard-rules.pro
+42	0	watchface/src/main/AndroidManifest.xml
+-	-	watchface/src/main/assets/fonts/minyna.ttf
+322	0	watchface/src/main/java/org/bookdash/android/OwlWatchFace.java
+-	-	watchface/src/main/res/drawable-nodpi/owl.jpg
+-	-	watchface/src/main/res/drawable-nodpi/preview_digital.png
+-	-	watchface/src/main/res/drawable-nodpi/preview_digital_circular.png
+-	-	watchface/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	watchface/src/main/res/mipmap-xxhdpi/ic_launcher.png
+6	0	watchface/src/main/res/values/colors.xml
+8	0	watchface/src/main/res/values/dimens.xml
+4	0	watchface/src/main/res/values/strings.xml
+2	0	watchface/src/main/res/xml/watch_face.xml
+
+commit b4faae9f4a7a9ef6b824c8ba1001cd1d16d8bac5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jul 19 11:10:02 2016 +0200
+
+    Fixing tests and mock build.
+
+9	9	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+20	26	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+4	13	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+22	0	app/src/main/java/org/bookdash/android/FakeDownloadService.java
+13	3	app/src/mock/java/org.bookdash.android/Injection.java
+32	0	app/src/mock/java/org.bookdash.android/data/book/FakeBookServiceApiImpl.java
+0	123	app/src/mock/java/org.bookdash.android/data/books/FakeBookDetailApiImpl.java
+11	5	app/src/mock/java/org.bookdash.android/data/settings/FakeSettingsApiImpl.java
+1	1	circle.yml
+
+commit fc7b9f39327aba1f961a1b69fcdd2e735f80a305
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jul 19 09:37:40 2016 +0200
+
+    Fixed circle.yml
+
+3	2	circle.yml
+
+commit f038d9770b2022439a31ebda3e6c737af1eadbee
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jul 19 09:36:08 2016 +0200
+
+    Added Java version to 1.8
+
+2	1	circle.yml
+
+commit 837bd82938779d4621c532ec1f4f2a6318e6b447
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jul 19 09:03:22 2016 +0200
+
+    included circle.yml 24.0.1
+
+1	1	circle.yml
+
+commit bb4a92f6d53ff7667b72aa46d5c01bc7c1350223
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jul 19 08:54:53 2016 +0200
+
+    Uped to build tools 24.0.1
+
+1	1	app/build.gradle
+1	1	fabbutton/build.gradle
+
+commit 983429783600d495e15467128e1004b739b53d41
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Jul 18 20:15:14 2016 +0200
+
+    Added default background image for kids. Added no downloads text box.
+
+-	-	app/src/main/res/drawable-hdpi/lightestbackground.jpg
+-	-	app/src/main/res/drawable-hdpi/owl_reading_nobooks.png
+-	-	app/src/main/res/drawable-hdpi/textbox.9.png
+-	-	app/src/main/res/drawable-mdpi/textbox.9.png
+-	-	app/src/main/res/drawable-xhdpi/textbox.9.png
+-	-	app/src/main/res/drawable-xxhdpi/textbox.9.png
+-	-	app/src/main/res/drawable-xxxhdpi/textbox.9.png
+1	1	app/src/main/res/drawable/appbackground.xml
+10	1	app/src/main/res/layout/fragment_downloads.xml
+2	1	app/src/main/res/values/strings.xml
+
+commit 6c2bae79f5bc811c5a6d2eacb8470720bac736c9
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 17 20:54:04 2016 +0200
+
+    Added cute kids background to all pages.
+
+1	1	app/build.gradle
+8	8	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+5	0	app/src/main/res/drawable/appbackground.xml
+-	-	app/src/main/res/drawable/background_newkids.jpg
+5	0	app/src/main/res/layout-land/activity_book_information.xml
+63	57	app/src/main/res/layout/activity_about.xml
+1	4	app/src/main/res/layout/activity_book_details.xml
+20	14	app/src/main/res/layout/activity_book_information.xml
+5	1	app/src/main/res/layout/fragment_downloads.xml
+5	0	app/src/main/res/layout/fragment_list_books.xml
+3	0	app/src/main/res/values/strings.xml
+
+commit 69bdffc48b70ff180ce3be1f91e71c773aa644d0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 17 17:28:48 2016 +0200
+
+    Added tests for listing of books.
+
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+36	32	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+49	7	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+0	8	app/src/test/java/org/bookdash/android/presentation/tutorial/TutorialPresenterTest.java
+
+commit b0872e86a9c29f6287f29506e9c9af1d7b85b7f6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 17 16:12:34 2016 +0200
+
+    Added tests for BookInfoPresenter and AboutPresenter.
+
+6	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+25	21	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+1	0	app/src/main/res/values/strings.xml
+13	15	app/src/test/java/org/bookdash/android/presentation/about/AboutPresenterTest.java
+126	1	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+
+commit 88ab78154a309dde6a964d03d20f742a3a8e3e97
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Jul 16 20:14:41 2016 +0200
+
+    Filtering by enabled language and enabled books
+
+48	17	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+15	6	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+17	7	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+3	24	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit 298918b222785ba906f188dd10b06737d23fcd31
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Jul 16 19:38:59 2016 +0200
+
+    Deleted broken tests. Started writing tests for new functionality
+
+47	47	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+2	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+8	17	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+5	3	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+25	0	app/src/test/java/org/bookdash/android/data/book/DownloadServiceImplTest.java
+0	41	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+3	12	app/src/test/java/org/bookdash/android/presentation/about/AboutPresenterTest.java
+11	46	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+75	39	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+7	42	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+2	1	app/src/test/java/org/bookdash/android/presentation/splash/SplashPresenterTest.java
+
+commit 745ec41975060cea8457cfdadb6c0b97d078be1d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 18:46:07 2016 +0200
+
+    downloading google repository
+
+1	1	circle.yml
+
+commit 352cc73df830aa8d70f57c97c1aeae04037089a5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 18:36:39 2016 +0200
+
+    Upgrade firebase version
+
+1	1	app/build.gradle
+1	1	build.gradle
+
+commit 538052b40b2ea821f904e912f04225f4917ad190
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 14:56:37 2016 +0200
+
+    added play store dependency download
+
+1	1	circle.yml
+
+commit a4bff58e8cdfc46178f1801b6fa123fff1c850ca
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 14:38:16 2016 +0200
+
+    Fixed build tools for fab
+
+4	4	fabbutton/build.gradle
+
+commit 6fc83387b5bb5fecc7d0193df54cd417efcd9038
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 13:57:53 2016 +0200
+
+    Up'ed the build tools number
+
+1	1	circle.yml
+
+commit db6719c8a014fa112904b9bc9c22d2e3632bc04e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 15 13:27:50 2016 +0200
+
+    Added error handling to urls that are not firebase urls.
+    Tried to fix build.
+
+43	41	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+112	107	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+2	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+8	38	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+1	1	app/src/main/res/values/strings.xml
+2	2	circle.yml
+
+commit 333de7aff67530a292ab3c01ec5ca8023d5ffe30
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Jul 14 21:07:56 2016 +0200
+
+    Added additional checks to see if the book is downloaded already, then we are just opening the file.
+
+17	0	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+9	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+11	35	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit 1dbe30393a52d3a9ce51e256ced28945463c0106
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Jul 14 20:56:28 2016 +0200
+
+    Code Cleanup.
+
+1	4	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+0	2	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+0	1	app/src/main/java/org/bookdash/android/data/settings/SettingsApiImpl.java
+1	40	app/src/main/java/org/bookdash/android/data/utils/FileManager.java
+1	4	app/src/main/java/org/bookdash/android/data/utils/GAnalytics.java
+1	4	app/src/main/java/org/bookdash/android/data/utils/ZipManager.java
+0	4	app/src/main/java/org/bookdash/android/domain/model/gson/BookPages.java
+0	4	app/src/main/java/org/bookdash/android/domain/model/gson/Page.java
+1	4	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+1	4	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+1	4	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+1	4	app/src/main/java/org/bookdash/android/presentation/utils/GlideLoadingModule.java
+
+commit 2389e3f99d17eaef78ac4106a6be1466b69f7f9f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Jul 14 20:51:51 2016 +0200
+
+    Added delete functionality.
+    Deleted unnessecary files. Code Cleanup.
+
+13	12	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+2	0	app/src/main/java/org/bookdash/android/data/book/DownloadService.java
+19	0	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+0	26	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+0	93	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+0	23	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositories.java
+0	42	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+0	60	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+17	9	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+0	2	app/src/mock/java/org.bookdash.android/Injection.java
+1	7	app/src/prod/java/org/bookdash/android/Injection.java
+0	1	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+0	1	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+0	2	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit aa4b8fb77ac5490cc69d567fbeccc358b002b921
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Jul 14 20:38:22 2016 +0200
+
+    Added getting a list of downloaded books.
+
+1	2	app/src/main/java/org/bookdash/android/data/book/BookService.java
+10	5	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+5	3	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+12	2	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+33	22	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+
+commit 2ce361e7417ec696c13608ef9d42afd3eeba3b6b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Jul 14 20:22:24 2016 +0200
+
+    Fixed downloading of book and unzipping into local folder.
+
+2	1	app/src/main/java/org/bookdash/android/data/book/DownloadService.java
+12	11	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+5	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit 7611a503e0c3f7e8063adbbbd727b8692e398ee2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Jul 11 14:07:16 2016 +0200
+
+    Worked on Downloading book from Firebase storage.
+
+8	8	app/build.gradle
+65	3	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+0	7	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+0	88	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+0	14	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+0	19	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+2	2	app/src/main/java/org/bookdash/android/data/utils/FileManager.java
+17	2	app/src/main/java/org/bookdash/android/domain/model/DownloadProgressItem.java
+1	2	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+7	0	app/src/main/java/org/bookdash/android/domain/model/gson/BookPages.java
+10	0	app/src/main/java/org/bookdash/android/domain/model/gson/Page.java
+7	4	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit 4ba236e9253aaa92b567716c09450d815846f950
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Jul 9 19:17:16 2016 +0200
+
+    Code Cleanup
+
+0	5	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+3	1	app/src/main/java/org/bookdash/android/data/book/DownloadService.java
+3	68	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+3	5	app/src/main/java/org/bookdash/android/data/book/RxFirebaseStorage.java
+15	0	app/src/main/java/org/bookdash/android/domain/model/DownloadProgressItem.java
+
+commit 25d88056acab2d566d245fb9c99d7f9da30507cb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Jul 9 17:46:58 2016 +0200
+
+    Added Downloading of a file from Firebase Storage.
+
+2	1	app/src/main/java/org/bookdash/android/BookDashApplication.java
+1	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+70	52	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+60	0	app/src/main/java/org/bookdash/android/data/book/RxFirebaseStorage.java
+3	3	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+66	16	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+71	28	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	12	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+54	95	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+9	0	app/src/prod/java/org/bookdash/android/Injection.java
+
+commit 14e3c5d3b229df20e76f1212383c1346379ee14c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Jul 9 13:51:51 2016 +0200
+
+    Changed default font to minyna.ttf and increased padding on book items.
+
+-	-	app/src/main/assets/fonts/ComingSoon.ttf
+-	-	app/src/main/assets/fonts/minyna.ttf
+1	1	app/src/main/java/org/bookdash/android/BookDashApplication.java
+1	1	app/src/main/res/layout/list_item_book.xml
+
+commit ef81eec43c120ceb2f37b05c4e3447d720e855cd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jul 8 15:24:39 2016 +0200
+
+    Added start of downloading of books.
+
+3	5	app/build.gradle
+14	5	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	0	app/src/main/java/org/bookdash/android/data/book/BookService.java
+18	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+8	0	app/src/main/java/org/bookdash/android/data/book/DownloadService.java
+93	0	app/src/main/java/org/bookdash/android/data/book/DownloadServiceImpl.java
+93	76	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+3	3	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+1	1	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+4	1	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+1	1	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+17	13	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit f645da55f3a0b0784b7e3d469642f8eb78beff9b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 20:57:23 2016 +0200
+
+    Refactored the joining logic into Book Service, and left FirebaseDatabase to handle only Db logic.
+
+1	0	app/build.gradle
+67	3	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+4	2	app/src/main/java/org/bookdash/android/data/database/firebase/BookDatabase.java
+12	67	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+
+commit 182b30c796958d17b52788494de0039ec5cb3a92
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 20:35:11 2016 +0200
+
+    Added the getting of roles into a contributor.
+
+3	0	app/build.gradle
+64	21	app/src/main/java/org/bookdash/android/data/database/firebase/FirebaseBookDatabase.java
+23	17	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+9	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireRole.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+
+commit ed1ee3931d12e6cfcabe8ba6c1945a0464ccd86f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 18:33:03 2016 +0200
+
+    cleanup + Adding FireRole
+
+1	3	app/src/main/java/org/bookdash/android/config/FirebaseConfig.java
+12	9	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+22	0	app/src/main/java/org/bookdash/android/domain/model/firebase/FireRole.java
+7	10	app/src/prod/java/org/bookdash/android/Injection.java
+
+commit bb719c745146f28110feba23c51e27c0b0bdcd11
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 18:05:35 2016 +0200
+
+    Added Remote Config for default English language values.
+
+3	0	app/build.gradle
+5	0	app/src/main/java/org/bookdash/android/BookDashApplication.java
+69	0	app/src/main/java/org/bookdash/android/config/FirebaseConfig.java
+11	0	app/src/main/java/org/bookdash/android/config/RemoteConfigSettingsApi.java
+5	2	app/src/main/java/org/bookdash/android/data/settings/SettingsApiImpl.java
+16	0	app/src/main/res/xml/firebase_remote_config_defaults.xml
+14	3	app/src/prod/java/org/bookdash/android/Injection.java
+
+commit 153c14705f045150ef36722f7530e03efc9f7e53
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 16:53:26 2016 +0200
+
+    Added BasePresenter and BaseView.
+    Refactored the way saving language preference is done. Saving whole Firebase Language object to preferences and using default as English ID.
+
+1	1	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+1	1	app/src/main/java/org/bookdash/android/data/database/{ => firebase}/BookDatabase.java
+23	2	app/src/main/java/org/bookdash/android/data/database/{ => firebase}/FirebaseBookDatabase.java
+7	2	app/src/main/java/org/bookdash/android/data/settings/SettingsApi.java
+38	8	app/src/main/java/org/bookdash/android/data/settings/SettingsApiImpl.java
+6	2	app/src/main/java/org/bookdash/android/data/settings/SettingsRepository.java
+8	4	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositoryImpl.java
+6	1	app/src/main/java/org/bookdash/android/domain/model/firebase/FireLanguage.java
+48	0	app/src/main/java/org/bookdash/android/presentation/base/BasePresenter.java
+9	0	app/src/main/java/org/bookdash/android/presentation/base/BaseView.java
+8	0	app/src/main/java/org/bookdash/android/presentation/base/MvpPresenter.java
+4	0	app/src/main/java/org/bookdash/android/presentation/base/MvpView.java
+4	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+5	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+85	37	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+1	1	app/src/prod/java/org/bookdash/android/Injection.java
+1	1	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+
+commit f829c5948bc63473230cb4675a8f3a03f296dd27
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 15:55:26 2016 +0200
+
+    chore: removed parse code and references.
+
+-	-	app/libs/Parse-1.13.0.jar
+-	-	app/libs/bolts-tasks-1.4.0.jar
+0	13	app/src/main/java/org/bookdash/android/BookDashApplication.java
+4	6	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+0	26	app/src/main/java/org/bookdash/android/domain/model/Book.java
+0	25	app/src/main/java/org/bookdash/android/domain/model/BookContributor.java
+0	36	app/src/main/java/org/bookdash/android/domain/model/Contributor.java
+0	34	app/src/main/java/org/bookdash/android/presentation/utils/BindingUtils.java
+
+commit 2c14165e7a54b87e3c8aedf3d7f8686cff401a05
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 15:40:10 2016 +0200
+
+    Upgraded to use Firebase Analytics, Firebase App Invites and removed app indexing code.
+
+5	6	app/build.gradle
+9	16	app/src/main/java/org/bookdash/android/BookDashApplication.java
+0	29	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+
+commit f6920f84c0e01b503ac99c8c04cf7cc5e1485842
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 14:55:52 2016 +0200
+
+    chore: code cleanup
+
+2	2	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+0	7	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+0	110	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+2	2	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositories.java
+4	20	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+0	64	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+0	8	app/src/main/java/org/bookdash/android/data/database/FirebaseBookDatabase.java
+
+commit de556ba149d3cabb403cb52e65da56ea2af7251d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jul 3 14:50:19 2016 +0200
+
+    feat: migrated to use firebase for loading contributors. Yay.
+
+3	0	app/src/main/java/org/bookdash/android/data/book/BookService.java
+5	0	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+49	1	app/src/main/java/org/bookdash/android/data/database/FirebaseBookDatabase.java
+16	1	app/src/main/java/org/bookdash/android/domain/model/firebase/FireBookDetails.java
+18	6	app/src/main/java/org/bookdash/android/domain/model/firebase/FireContributor.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+34	44	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+3	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+3	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+12	7	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+3	4	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+
+commit 55a1068d3db34e50d32fb8f1df5a8851203b9fd4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jun 28 20:21:13 2016 +0200
+
+    fixed issue with fetching languages from language db.
+
+2	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+
+commit efbc9c3d20a6aad95c6f77509620e959996ae8ce
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Jun 28 20:06:59 2016 +0200
+
+    Fetching Books from Book Dash Database.
+
+6	2	app/build.gradle
+1	1	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+4	4	app/src/main/java/org/bookdash/android/BookDashApplication.java
+17	0	app/src/main/java/org/bookdash/android/data/book/BookService.java
+29	0	app/src/main/java/org/bookdash/android/data/book/BookServiceImpl.java
+6	7	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+45	58	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+7	8	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+9	10	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+20	0	app/src/main/java/org/bookdash/android/data/database/BookDatabase.java
+81	0	app/src/main/java/org/bookdash/android/data/database/FirebaseBookDatabase.java
+28	0	app/src/main/java/org/bookdash/android/data/utils/firebase/FirebaseObservableListeners.java
+53	0	app/src/main/java/org/bookdash/android/data/utils/firebase/ListenToSingleValueOnSubscribe.java
+59	0	app/src/main/java/org/bookdash/android/data/utils/firebase/ListenToValueEventsOnSubscribe.java
+46	0	app/src/main/java/org/bookdash/android/data/utils/firebase/RemoveValueOnSubscribe.java
+49	0	app/src/main/java/org/bookdash/android/data/utils/firebase/SetValueOnSubscribe.java
+2	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/Book.java
+2	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/BookContributor.java
+2	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/Contributor.java
+2	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/firebase/FireBookDetails.java
+2	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/firebase/FireContributor.java
+1	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/firebase/FireLanguage.java
+1	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/gson/BookPages.java
+1	1	app/src/main/java/org/bookdash/android/domain/{pojo => model}/gson/Page.java
+6	6	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	4	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+13	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+2	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+36	36	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+1	1	app/src/main/res/layout-land/activity_book_information.xml
+1	1	app/src/main/res/layout/activity_book_information.xml
+2	2	app/src/main/res/layout/fragment_page.xml
+6	6	app/src/mock/java/org.bookdash.android/data/books/FakeBookDetailApiImpl.java
+34	0	app/src/prod/java/org/bookdash/android/Injection.java
+74	0	app/src/test/java/org/bookdash/android/data/book/BookServiceImplTest.java
+7	7	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+2	4	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+2	2	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+1	1	build.gradle
+
+commit 2bd8d0212d96f640e2f34ed441bc508425f55f7e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jun 17 21:51:32 2016 +0200
+
+    Refactored the Contributor list to use a RecyclerViewAdapter.
+
+13	38	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+3	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+10	8	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+47	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorAdapter.java
+24	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/ContributorViewHolder.java
+4	3	app/src/main/res/layout-land/activity_book_information.xml
+3	3	app/src/main/res/layout/activity_book_information.xml
+2	4	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+
+commit 4119c315c20071e111c12a6b584f7a1bc533b784
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jun 17 21:27:28 2016 +0200
+
+    Removed seperate Parcelable object, just using firebase object. Loading data into Book Info Activtity. Fixed some tests.
+
+5	3	app/build.gradle
+-	-	app/src/main/assets/fonts/ComingSoon.ttf
+3	5	app/src/main/java/org/bookdash/android/BookDashApplication.java
+0	90	app/src/main/java/org/bookdash/android/domain/pojo/BookDetailParcelable.java
+0	46	app/src/main/java/org/bookdash/android/domain/pojo/Language.java
+47	13	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireBookDetails.java
+5	0	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireLanguage.java
+8	5	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+7	23	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+1	0	app/src/main/java/org/bookdash/android/presentation/view/SquareImageView.java
+1	1	app/src/main/res/layout-land/activity_book_information.xml
+2	2	app/src/main/res/layout/activity_book_information.xml
+0	1	app/src/main/res/layout/list_item_book.xml
+1	0	app/src/main/res/values/styles.xml
+0	1	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+3	5	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+11	12	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+4	3	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+2	2	build.gradle
+
+commit 6f7f2da5f3b94e3d2dee6305fe40bd0c02043f32
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat May 28 22:18:50 2016 +0200
+
+    Added firebase notifications.
+
+1	0	app/build.gradle
+
+commit d3ab640c61eede2d57fcff2a50538f4b91a957cb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat May 28 22:08:00 2016 +0200
+
+    Some refactoring on firebase implementation
+
+13	15	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+26	25	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireBookDetails.java
+41	0	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireContributor.java
+24	3	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireLanguage.java
+
+commit 9e12a0db79e43f22836788ce75d90dba25ab3fb1
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat May 28 21:46:41 2016 +0200
+
+    Started migrating Books to use firebase.
+
+0	2	app/src/main/java/org/bookdash/android/BookDashApplication.java
+6	7	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+47	29	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+6	7	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+9	10	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+0	116	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+90	0	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireBookDetails.java
+11	10	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+5	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+9	13	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+6	6	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+3	3	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+4	4	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+4	4	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+2	2	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+4	4	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+2	2	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+2	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+3	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+2	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+2	23	app/src/main/java/org/bookdash/android/presentation/utils/BindingUtils.java
+229	225	app/src/main/res/layout-land/activity_book_information.xml
+12	12	app/src/main/res/layout/activity_book_information.xml
+26	26	app/src/mock/java/org.bookdash.android/data/books/FakeBookDetailApiImpl.java
+0	4	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+0	1	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+0	1	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+0	2	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit 1fb865415bc694e28cbcaab084a68f3473d8e8cd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat May 28 20:33:44 2016 +0200
+
+    Started work on migrating to use firebase. Migrated Languages to use firebase.
+
+3	1	app/build.gradle
+2	1	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	1	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+24	11	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+2	1	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+3	2	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+26	0	app/src/main/java/org/bookdash/android/domain/pojo/firebase/FireLanguage.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+3	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+4	4	build.gradle
+
+commit 1864c57866a61a4ef55e1d00c1a317e582b324d0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon May 2 14:19:44 2016 +0200
+
+    Smaller header image.
+
+-	-	app/src/main/res/drawable-hdpi/headerimage.jpg
+
+commit 5347fa0dd275127eb1be41c6c9971e11de86e65c
+Merge: fbd962c dfec726
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon May 2 10:43:37 2016 +0200
+
+    Finish Release-1.1.2
+
+commit 23866aeceb43ded29d5a342743018da0bcafbe5f
+Merge: 9e60733 dfec726
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon May 2 10:43:37 2016 +0200
+
+    Finish Release-1.1.2
+
+commit dfec7263734dc9cbf96017e0525630d1cc8d304d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon May 2 10:43:26 2016 +0200
+
+    Up'ed to version 1.1.2
+
+2	2	app/build.gradle
+
+commit 9e607334511708d93f2bb0696d740d162dd473a1
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun May 1 20:59:07 2016 +0200
+
+    Changed header image to use image from Shongololo shoes.
+
+12	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+0	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+-	-	app/src/main/res/drawable-hdpi/headerimage.jpg
+16	0	app/src/main/res/drawable/bookdash_b_vector.xml
+33	7	app/src/main/res/layout/drawer_header.xml
+3	0	app/src/main/res/values/dimens.xml
+1	0	app/src/main/res/values/strings.xml
+
+commit 90422b91a98eef3a7c9f7f9b7ac4d90c02a76e01
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 19:42:06 2016 +0200
+
+    Saying no to creating a custom hardward profile
+
+1	1	circle.yml
+
+commit 32949ebb8793666c9c9f3cfb55e3b0b4b4ea4220
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 19:38:43 2016 +0200
+
+    correct abi tag.
+
+1	1	circle.yml
+
+commit d54bec28486ca54020fd4a3623bd0edc3c2bb1fa
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 19:35:14 2016 +0200
+
+    changed target emulator
+
+1	1	circle.yml
+
+commit 5be9e548efbe53f9af20da6a141810bdbc1556ce
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 19:23:20 2016 +0200
+
+    Code Clean up and Circle yml config change.
+
+1	4	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	0	app/src/main/java/org/bookdash/android/data/settings/SettingsApi.java
+2	0	app/src/main/java/org/bookdash/android/data/settings/SettingsRepository.java
+4	3	app/src/main/java/org/bookdash/android/domain/pojo/Contributor.java
+1	1	app/src/main/java/org/bookdash/android/domain/pojo/gson/Page.java
+0	2	app/src/main/java/org/bookdash/android/presentation/about/AboutPresenter.java
+2	4	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+9	4	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+0	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+0	4	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+7	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+63	26	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+0	7	app/src/main/java/org/bookdash/android/presentation/main/MainPresenter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+2	2	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+1	1	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+4	5	app/src/main/java/org/bookdash/android/presentation/splash/SplashActivity.java
+3	0	app/src/main/java/org/bookdash/android/presentation/splash/SplashContract.java
+1	2	app/src/main/java/org/bookdash/android/presentation/utils/BindingUtils.java
+1	1	app/src/main/java/org/bookdash/android/presentation/utils/GlideLoadingModule.java
+0	66	app/src/main/java/org/bookdash/android/presentation/view/AutofitHeightRecyclerView.java
+0	475	app/src/main/java/org/bookdash/android/presentation/view/AutofitRecyclerView.java
+0	321	app/src/main/java/org/bookdash/android/presentation/view/WrapContentLinearLayoutManager.java
+1	1	circle.yml
+
+commit fbd962c421ec7e46dcf8f129f5b64841ec45f083
+Merge: adccd70 df1df7f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 18:22:32 2016 +0200
+
+    Finish Release-1.1.1
+
+commit e3083d22ea342a96f30c5316cd8c590fec2fb98b
+Merge: 27f201a df1df7f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 18:22:32 2016 +0200
+
+    Finish Release-1.1.1
+
+commit df1df7fcaebf8967739c3048114c4770ebac80ab
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 18:20:43 2016 +0200
+
+    Up'ed version number.
+
+2	2	app/build.gradle
+
+commit 27f201a273cb38444a7990839334b9a7563cbd87
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 17:58:59 2016 +0200
+
+    Removing incorrect circl yml config.
+
+1	11	circle.yml
+
+commit d6b5eca4e752109daa1096c23247c9a79cd078cb
+Merge: 3c7f875 12a23cf
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 17:56:03 2016 +0200
+
+    Finish Feature-UITweaks
+
+commit 12a23cfee5878d24d0b8aac686bca9c22e25f9b3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 17:54:35 2016 +0200
+
+    Fixed issue with retry button being covered by recyclerview.
+
+9	8	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+
+commit 761cea1d4613c9e1fd2c032a2e2b71eeb3b1159c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 30 17:10:36 2016 +0200
+
+    Not animating the fab on every progress change.
+
+2	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+26	26	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabUtil.java
+
+commit 0f8f4675d60be20896a22add8dc7b4fca102c2c2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Apr 27 21:14:19 2016 +0200
+
+    Ordering languages by language order now instead of language_id as language_id was a string.
+
+2	2	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+1	0	app/src/main/java/org/bookdash/android/domain/pojo/Language.java
+
+commit 6cf03ea9b2d9088426c39c02754256a2bbd02e1a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Apr 27 21:01:34 2016 +0200
+
+    Switched to using a SVG for the bookdash logo. Fixed Book Detail Screen not to cut poster images and the status bar colour to be correct.
+
+3	37	app/src/main/AndroidManifest.xml
+0	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+4	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+-	-	app/src/main/res/drawable-hdpi/bookdashlogo.png
+197	0	app/src/main/res/drawable/bookdash_logo.xml
+1	1	app/src/main/res/layout/activity_about.xml
+0	1	app/src/main/res/layout/activity_book_information.xml
+10	7	app/src/main/res/layout/drawer_header.xml
+
+commit 1a1dc3e7732e091800bce430ea90d30afcf07bfa
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Apr 27 19:28:33 2016 +0200
+
+    Tweaked some of the UI for better padding & better layout style for app bar layout.
+
+2	1	app/build.gradle
+1	1	app/src/main/AndroidManifest.xml
+0	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+1	1	app/src/main/java/org/bookdash/android/presentation/{listbooks => view}/SquareImageView.java
+0	21	app/src/main/java/org/bookdash/android/presentation/widget/SpacesItemDecoration.java
+4	1	app/src/main/res/layout/activity_main.xml
+60	60	app/src/main/res/layout/fragment_list_books.xml
+2	2	app/src/main/res/layout/list_item_book.xml
+6	22	app/src/main/res/values-v21/styles.xml
+2	1	app/src/main/res/values/dimens.xml
+1	1	app/src/main/res/values/integers.xml
+11	9	app/src/main/res/values/styles.xml
+10	0	circle.yml
+
+commit adccd708bcacdadf179cf3566dae8d4d6d7e85f3
+Merge: a356df9 51de0ec
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 24 11:57:52 2016 +0200
+
+    Finish Release-1.1.0
+
+commit 3c7f87540911d6a6f2dba0ff7de692b74b26ce5f
+Merge: dbe73de 51de0ec
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 24 11:57:52 2016 +0200
+
+    Finish Release-1.1.0
+
+commit 51de0ec21495520d48dc224bca37e96bd74b2e1e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 24 11:40:45 2016 +0200
+
+    Fixed crash on Book Adapter
+
+4	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+
+commit d8bcebb9f5726efdd903f14bce442fb9ac41e310
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 24 11:16:08 2016 +0200
+
+    Fixed issue where download icon wasn't updated on back press of book detail activity
+
+16	5	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+
+commit 5b99bfd64321a7c91591fc905f8eafd2562378ee
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 24 10:34:01 2016 +0200
+
+    Fixed styling issue with landscape mode of tablets.
+
+3	5	app/src/main/res/layout-land/activity_book_information.xml
+
+commit c4c146337c73933d46c4943edfb680a574949bd3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 21:47:06 2016 +0200
+
+    Up'ed to version 1.1.0
+
+2	2	app/build.gradle
+
+commit dbe73def6b5febaeb88fc8d8ff40d661b037accb
+Merge: da551ed bfa2b19
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 21:33:45 2016 +0200
+
+    Finish Feature-RemoveBook
+
+commit bfa2b19fb3a8aebdee87fcb7d58ce097432b84b3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 20:57:47 2016 +0200
+
+    Removed sad cloud from fragment downloads.
+
+0	6	app/src/main/res/layout/fragment_downloads.xml
+
+commit 406545a9b1c40185efbdc54591d82800975be1fb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 16:46:51 2016 +0200
+
+    Moved AboutActivity to Fragment.
+
+13	18	app/src/androidTest/java/org/bookdash/android/presentation/about/{AboutActivityTest.java => AboutFragmentTest.java}
+6	29	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+29	0	app/src/androidTest/java/org/bookdash/android/presentation/utils/NavigationUtils.java
+3	49	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+7	33	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+7	56	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+1	10	app/src/main/AndroidManifest.xml
+0	69	app/src/main/java/org/bookdash/android/presentation/about/AboutActivity.java
+101	0	app/src/main/java/org/bookdash/android/presentation/about/AboutFragment.java
+6	6	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+
+commit 188f8c8d5899fe852273b1fcee7bbe696bb03c2f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 15:42:37 2016 +0200
+
+    Fixed back button press on Book Info Activity
+
+13	12	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+
+commit 8a716761971510e9d7e815307dd5691e52c92a66
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 15:40:53 2016 +0200
+
+    Init parse code.
+
+1	1	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+9	4	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+
+commit 682b462d6b4ee27e4d11dd7400724c93df9d33bc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 15:34:06 2016 +0200
+
+    Added the ability to redownload a book.
+
+3	1	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+2	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+7	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+8	5	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+4	2	app/src/main/res/layout/fragment_downloads.xml
+20	11	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+
+commit bda1729b77641bf94f8eb3518e025ee7c20b5f62
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 14:51:19 2016 +0200
+
+    Fixed removing of book to actually delete the files.
+
+2	1	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+3	3	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+1	0	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+11	7	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+1	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit 504511be10ac56437b47242bfbb954eed4af2427
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 13:53:37 2016 +0200
+
+    Updated fab button to use 23.0.2 build tools
+
+14	4	app/src/main/java/org/bookdash/android/data/utils/FileManager.java
+2	2	fabbutton/build.gradle
+
+commit e6adc4442cb529ef6eb8ae1cdc0ebf4589f6734b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 13:41:33 2016 +0200
+
+    Updated circle ci to include updating support repository
+
+1	1	app/build.gradle
+3	1	circle.yml
+
+commit d09325b0e1567765cde8bfa2d07b0c026bbd3cfb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 23 13:28:10 2016 +0200
+
+    Added basic presenter tests for download presenter
+
+0	2	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+5	1	app/src/main/res/layout/activity_about.xml
+18	0	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+
+commit 08c854a6904521f7a6065b778964482da8047d32
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 22:27:39 2016 +0200
+
+    Added logic for download checking if download is on the device.
+
+4	1	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+34	7	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+5	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+4	1	app/src/main/res/layout-land/activity_book_information.xml
+
+commit 8d23938a427a946f373fa6f43a75212a0e02813a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 21:47:42 2016 +0200
+
+    Applied style only to v21 for translucent bar.
+
+1	1	app/src/main/res/layout/activity_book_information.xml
+83	98	app/src/main/res/layout/fragment_downloads.xml
+84	94	app/src/main/res/layout/fragment_list_books.xml
+3	2	app/src/main/res/layout/list_item_book.xml
+27	0	app/src/main/res/values-v21/styles.xml
+0	8	app/src/main/res/values/styles.xml
+
+commit 3b9fbd6cbc1187978d78b00e7f36a59d607cbeaa
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 21:22:36 2016 +0200
+
+    Added better placeholder image.
+
+1	0	app/build.gradle
+5	1	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+-	-	app/src/main/res/drawable-hdpi/bookdash_placeholder.png
+-	-	app/src/main/res/drawable/bookdash_outline.png
+9	0	app/src/main/res/drawable/ic_chrome_reader_mode_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_file_download_black.xml
+26	26	app/src/main/res/layout/activity_book_information.xml
+2	2	app/src/main/res/layout/list_item_book.xml
+1	1	build.gradle
+1	1	gradle.properties
+
+commit 07f24f3ef2a8a9699b59efcc913bb70ad2d69be8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 16:18:20 2016 +0200
+
+    Made the status bar translucent.
+
+2	0	app/src/main/res/values/styles.xml
+
+commit 47e0f7f576e75223101c5364ae29dfec7148a0c8
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 16:00:50 2016 +0200
+
+    Fixed some unit tests and removed unused resources.
+
+1	1	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+1	1	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+1	4	app/src/main/java/org/bookdash/android/presentation/widget/SpacesItemDecoration.java
+0	0	app/src/main/kotlin/org.bookdash.android/data/BookDetailRepositoryExtenstion.kt
+5	0	app/src/mock/java/org.bookdash.android/data/books/FakeBookDetailApiImpl.java
+2	2	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+
+commit 55e6f29e6fa49acc82c744c18001746c67c8c60a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 15:28:23 2016 +0200
+
+    Fixed issue with list item. Made an imageview that keeps a square aspect ratio.
+
+3	3	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+2	9	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+21	0	app/src/main/java/org/bookdash/android/presentation/listbooks/SquareImageView.java
+24	0	app/src/main/java/org/bookdash/android/presentation/widget/SpacesItemDecoration.java
+5	7	app/src/main/res/layout/list_item_book.xml
+4	0	app/src/main/res/values-sw600dp-port/integers.xml
+1	1	app/src/main/res/values-sw600dp/integers.xml
+2	0	app/src/main/res/values/integers.xml
+
+commit 16b57ff08d9418747c4952f18db9c09a84fdf356
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 22 14:47:09 2016 +0200
+
+    Started trying to reformat the layout of the books to take up the screen size.
+
+9	5	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+0	2	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+8	8	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+-	-	app/src/main/res/drawable/bookdash_outline.png
+1	5	app/src/main/res/layout/fragment_list_books.xml
+29	46	app/src/main/res/layout/list_item_book.xml
+5	0	app/src/main/res/values-land/integers.xml
+4	0	app/src/main/res/values-sw600dp/integers.xml
+4	0	app/src/main/res/values/integers.xml
+1	1	build.gradle
+
+commit b863704d0324d593e201985ce5f44690593b3054
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Apr 21 21:56:04 2016 +0200
+
+    Added a gray selector to the book list from downloads.
+
+10	0	app/src/main/res/drawable-v21/download_selector.xml
+6	0	app/src/main/res/drawable/download_selector.xml
+1	1	app/src/main/res/layout/list_item_download.xml
+2	0	app/src/main/res/values/colors.xml
+
+commit 3d09533246814ec4795fb3edd77c9916924eafb5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Apr 21 21:49:33 2016 +0200
+
+    Added click listener to the download click on item.
+
+8	4	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+21	7	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+3	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+39	31	app/src/main/res/layout/list_item_download.xml
+
+commit fdf095efff082bcc40acfd753468f964c3425ffc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Apr 21 21:37:10 2016 +0200
+
+    Tied click on language option to open language popover. Removed language option from downloads section.
+
+51	3	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+41	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+24	18	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+12	0	app/src/main/java/org/bookdash/android/presentation/main/NavDrawerInterface.java
+
+commit a2daf545701d7078d55ee4ec2bcd45af474bc8b6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Apr 21 20:26:06 2016 +0200
+
+    Added Downloads Fragment which displays a list of downloads. Fixed the titles of the action bar to load correctly.
+
+3	2	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+0	1	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+3	2	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+2	1	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+3	3	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+1	0	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+24	0	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+10	1	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+15	0	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+16	2	app/src/main/java/org/bookdash/android/data/utils/FileManager.java
+7	2	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+2	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+45	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+12	1	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+4	2	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+12	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+2	1	app/src/main/java/org/bookdash/android/presentation/main/MainActivity.java
+2	1	app/src/main/res/layout/fragment_downloads.xml
+39	22	app/src/main/res/layout/list_item_download.xml
+1	0	app/src/main/res/values/colors.xml
+5	0	app/src/main/res/values/strings.xml
+4	0	app/src/main/res/values/styles.xml
+5	0	app/src/mock/java/org.bookdash.android/data/books/FakeBookDetailApiImpl.java
+1	1	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+5	5	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+4	4	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit a34f4520fd50ad0e46836d4e217ea8e9f48ce08b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Apr 20 19:44:11 2016 +0200
+
+    Split out the fragment for a list of books and the downloads section.
+
+1	0	app/build.gradle
+2	11	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+68	53	app/src/main/AndroidManifest.xml
+2	0	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+37	4	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+4	1	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+17	14	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+53	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsAdapter.java
+28	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsContract.java
+93	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsFragment.java
+38	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsPresenter.java
+24	0	app/src/main/java/org/bookdash/android/presentation/downloads/DownloadsViewHolder.java
+2	5	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+159	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksFragment.java
+7	7	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+28	172	app/src/main/java/org/bookdash/android/presentation/{listbooks/ListBooksActivity.java => main/MainActivity.java}
+25	0	app/src/main/java/org/bookdash/android/presentation/main/MainContract.java
+30	0	app/src/main/java/org/bookdash/android/presentation/main/MainPresenter.java
+3	2	app/src/main/java/org/bookdash/android/presentation/splash/SplashActivity.java
+9	0	app/src/main/res/drawable/ic_delete.xml
+9	97	app/src/main/res/layout/activity_main.xml
+108	0	app/src/main/res/layout/fragment_downloads.xml
+114	0	app/src/main/res/layout/fragment_list_books.xml
+57	0	app/src/main/res/layout/list_item_download.xml
+72	0	app/src/test/java/org/bookdash/android/presentation/downloads/DownloadsPresenterTest.java
+
+commit da551ed86783f92462c6e47e9bd274e26fb4ba39
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 16:16:30 2016 +0200
+
+    switching to using a version 22 of emulator
+
+5	5	circle.yml
+
+commit 6c2cdc6a02def5a138331b9d1a746a9555975fc5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 15:16:47 2016 +0200
+
+    up'ed emulator memory to 512
+
+2	2	circle.yml
+
+commit 4998bbd523b24d831b2e9ba08f51fbdd4a28c450
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 14:53:46 2016 +0200
+
+    Added heapSize and ramSize to emulator config.
+
+2	0	circle.yml
+
+commit 09314849df76a418a298c569216f687867465e50
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 14:48:39 2016 +0200
+
+    outputting the values of the .ini file for the emulator.
+
+1	1	circle.yml
+
+commit 89d785bf55b6189605c8ef0ac17ce9d7cf542164
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 14:00:14 2016 +0200
+
+    giving the emulator more memory
+
+1	1	circle.yml
+
+commit 481fd63239bb2d545b78c9096798ee38c607cddc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 10 11:35:42 2016 +0200
+
+    Code Cleanup and adding coveralls.
+
+1	0	app/build.gradle
+17	12	app/src/androidTest/java/org/bookdash/android/presentation/CustomTestRunner.java
+6	5	app/src/mock/AndroidManifest.xml
+
+commit c4839e2e9b0a7abe7c5cd99dad2bec726b010447
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 18:54:00 2016 +0200
+
+    Added a custom test runner to support running of Espresso tests - disabling the keyguard, the fact that the phone goes into sleep mode and disabling animations.
+
+34	14	app/build.gradle
+99	0	app/src/androidTest/java/org/bookdash/android/presentation/CustomTestRunner.java
+14	0	app/src/mock/AndroidManifest.xml
+1	1	build.gradle
+0	2	circle.yml
+24	0	set_animation_permissions.sh
+
+commit 701581cf207f02768391401abfcc14906043e9ae
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 17:42:21 2016 +0200
+
+    removed cache directories
+
+0	2	circle.yml
+
+commit c13b4aab0285696bd92e9cf263bae67b6e93d101
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 16:23:33 2016 +0200
+
+    switched to using api 21
+
+2	2	circle.yml
+
+commit 6e0e1092a2fb6b11f1a490f3ed658c5f7a230484
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 15:38:04 2016 +0200
+
+    Only using google_apis as tag
+
+1	1	circle.yml
+
+commit f51eb9cb5302cbd68b97cac5f410e79c78d5aac4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 15:35:31 2016 +0200
+
+    added tag attribute
+
+1	1	circle.yml
+
+commit ea561fada4c0384e52aa310b698e1d0f68cb5eb6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 15:16:17 2016 +0200
+
+    name with no dashes in it for building.
+
+2	2	circle.yml
+
+commit a070277d3e70829a4ee752368b6695cf45118b21
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 14:49:21 2016 +0200
+
+    replacing with correct target id.
+
+1	1	circle.yml
+
+commit a6f7d7bef04245eb02ce6f2090a6d03a5254f5e6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 14:46:15 2016 +0200
+
+    Adding target name without brackets
+
+1	1	circle.yml
+
+commit a6ab5cde7e013770172ba7a9470a903ed4f9fd4b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 14:41:42 2016 +0200
+
+    list android targets
+
+1	0	circle.yml
+
+commit 5c24bd4cdba4f0651d448ef270683ccbb8cfeced
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 14:37:18 2016 +0200
+
+    specifying the target using text not name.
+
+1	1	circle.yml
+
+commit 9a6857ccba156127dcf71c74181cef3fc1140572
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 14:30:02 2016 +0200
+
+    Using a new emulator to run tests as the old emulator didn't have google apis.
+    Also added keep awake option
+
+4	2	circle.yml
+
+commit 7b57711a28ddf2bd8ca67cb20b6621ebf50b9acd
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 13:42:12 2016 +0200
+
+    Disabling animations on the emulator to produce more reliable test results.
+
+4	1	circle.yml
+
+commit a02f172f0890d9d4c3bfcebf8f41a9e1d59713bf
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 9 13:01:25 2016 +0200
+
+    Using coveralls to upload test coverage.
+
+1	2	circle.yml
+
+commit 6846c35f5f20b76c27df70504563f873d5b99ad7
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 8 17:13:53 2016 +0200
+
+    Added uploading code coverage reports to codecov
+
+8	4	circle.yml
+
+commit 7eafb6a381a07dc4eaceb37df82eb40eadd0ffda
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Apr 8 16:47:40 2016 +0200
+
+    Archiving the coverage report too.
+
+3	2	circle.yml
+
+commit 7651dbdc8846bad04bbbd300defcf9eba96418a0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Apr 5 19:40:19 2016 +0200
+
+    Added cache of directories
+
+4	2	circle.yml
+
+commit fdd2f4389d6b5f277a04a7e4beab557b036b0c7a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Apr 5 19:10:19 2016 +0200
+
+    Added running of more tests and archiving their results
+
+5	1	circle.yml
+
+commit 47912118c896510f0c85eac03527c952e9efcb06
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Apr 5 18:46:41 2016 +0200
+
+    Archiving different folder for androidTest results.
+
+0	12	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+1	1	circle.yml
+
+commit 289253299ecf2001e3e41f83c9ab02afec0b166c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Apr 5 17:30:56 2016 +0200
+
+    Unlock android device
+
+1	0	circle.yml
+
+commit 5851012ef564599b8ad86fb41c4c291958fc0cdc
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Apr 4 19:33:47 2016 +0200
+
+    only running mock debug test
+
+1	1	circle.yml
+
+commit a1b27a733ae036c54e12cdb162aca19e28168ba3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Apr 4 19:02:01 2016 +0200
+
+    added the booting up of an  emulator & running of connected tests
+
+8	1	circle.yml
+
+commit a356df92e703fe22fca1b1b2d7bed01749b3794d
+Merge: d6b62a2 f6dc91f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 20:11:16 2016 +0200
+
+    Finish Release-1.0.16
+
+commit 94d0d1ef9c9e463b4c195467b188dee45ced51a9
+Merge: 81c79f4 f6dc91f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 20:11:16 2016 +0200
+
+    Finish Release-1.0.16
+
+commit f6dc91fcfd35eec2cdbce1c6b23f4fcb31810526
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 20:10:08 2016 +0200
+
+    Up'ed to version 1.0.17
+
+2	2	app/build.gradle
+
+commit 81c79f4d9ea86983cab97f534fc78fa339bb6ae3
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 20:07:26 2016 +0200
+
+    Included Circle CI Badge in Readme
+
+2	0	README.md
+
+commit 393e6440740fc2a984aa3078108267d6f2d29a7f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:59:39 2016 +0200
+
+    reverted back to previous build circle.yml
+
+2	17	circle.yml
+
+commit cff2230f82c68a7d29e868b0d6d7d47300848e5e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:56:50 2016 +0200
+
+    removed timeout on circle.yml
+
+4	6	circle.yml
+
+commit 389d91ac15d23ccafc1c49bbdb02baee9a0dfb03
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:54:12 2016 +0200
+
+    Fixed issues in circle.yml spacing
+
+14	16	circle.yml
+
+commit 77cc67f8cea7b118169797228de008aafe69955d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:47:38 2016 +0200
+
+    Added running of the tests on an emulator and copying the output files
+
+20	1	circle.yml
+31	0	environmentSetup.sh
+
+commit 29be510fc9188fea83343f4d91de9e6d7a3c887e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:32:43 2016 +0200
+
+    Changed the build to assembleDebug as signing has not been set up yet.
+
+1	1	circle.yml
+
+commit db9fcf10b4c664ddc01e560dd1aadda0f0b155b5
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:22:11 2016 +0200
+
+    Adding the ability to keep build outputs into the circle artifacts.
+
+4	0	circle.yml
+
+commit 657f2dfafc807e4ac7c0a74cd0e5803c76660619
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:15:06 2016 +0200
+
+    Fixed broken Unit tests, to account for if a book is downloaded or not
+
+6	5	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+1	1	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+5	5	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+
+commit 4a2fafc3b67eea0b59694e8a7b09a23a14a8fbba
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 19:03:37 2016 +0200
+
+    Removed parse subscribe in background. creating google services json file from env variable.
+
+1	10	app/src/main/java/org/bookdash/android/BookDashApplication.java
+2	0	circle.yml
+
+commit 7994d034cad8006b2e9bd4edd4665df761d9685c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 10:20:29 2016 +0200
+
+    fixed issue with test section
+
+0	4	circle.yml
+
+commit ed5da0702365077edaa532e60f9af9e16b590c47
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Apr 3 10:11:13 2016 +0200
+
+    Added some more circle ci configuration in order to try fix the build
+
+1	1	app/build.gradle
+5	1	circle.yml
+
+commit 4b51f9327812a4fea6d4c8b93ddd24defd2fa350
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:33:23 2016 +0200
+
+    only download the build tools
+
+0	1	circle.yml
+
+commit f86c7f9ae120d282897a2e7dc767a08f460a4791
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:16:58 2016 +0200
+
+    Added circle.yml file for building
+
+0	18	.travis.yml
+10	0	circle.yml
+
+commit d6b62a27c266adb01fb70f862596c066fc1eca84
+Merge: 4afc6f4 86e0e2d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:10:50 2016 +0200
+
+    Finish Release-1.0.16
+
+commit c84354bdb509546edd7b2a6e655cf86305b21bf8
+Merge: 4a66526 86e0e2d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:10:50 2016 +0200
+
+    Finish Release-1.0.16
+
+commit 86e0e2d12298f54abd3add70a7428e664fc06c63
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:10:35 2016 +0200
+
+    Up'ed version no to 1.0.16
+
+2	2	app/build.gradle
+
+commit 4a66526e0f86d2dde60fe9e0d09d23bd684ef393
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 20:08:36 2016 +0200
+
+    added google play store upload plugin
+
+3	3	app/build.gradle
+
+commit 6cabf48f20e558ec518c765e92a487391a4c2910
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 19:54:34 2016 +0200
+
+    Up'ed to new version of build tools, and started work on fixing the build to work from circle ci.
+
+7	3	app/build.gradle
+3	0	app/src/main/AndroidManifest.xml
+3	1	build.gradle
+
+commit 79fcbd10fad9d3b1c9ba8307387be742cba6e38d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Apr 2 15:50:13 2016 +0200
+
+    Up'ed version of bookdash gradle build tools
+
+1	1	build.gradle
+
+commit 85679aa7639f21f48089bd6003d2bdfb883e43bc
+Merge: 1855b10 4afc6f4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Mar 30 19:11:57 2016 +0200
+
+    Merge branch 'master' into develop
+
+commit 4afc6f420b058548f12cca1588be1eedc1e81fd8
+Merge: 09fc3c7 5d2c5ae
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Feb 15 08:19:47 2016 +0200
+
+    Finish Release-1.0.14
+
+commit 1855b1052c2ba09356ccb878de458b8ea2135229
+Merge: b7c3614 5d2c5ae
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Feb 15 08:19:47 2016 +0200
+
+    Finish Release-1.0.14
+
+commit 5d2c5ae8ffdb3545bbbe963fdf387bbe08568868
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Feb 15 08:19:30 2016 +0200
+
+    Up'ed to version 1.0.14
+
+2	2	app/build.gradle
+
+commit b7c36145b5123bd7c422575e8e570f7eae733551
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Feb 15 08:15:45 2016 +0200
+
+    Updated readme to include information about Parse. Including API Keys for Book Dash Parse app as you are no longer able to create new apps on Parse. Added background colour to theme as some phones were showing a pure white background.
+
+4	7	README.md
+3	0	app/src/main/res/values/styles.xml
+2	3	gradle.properties
+
+commit fd2d1b0d8aff6f527b729d36670b2f47cb3d09a2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Feb 12 12:38:43 2016 +0200
+
+    Removed background on layouts to optimize the layouts.
+
+1	2	app/src/main/res/layout-land/activity_book_information.xml
+0	1	app/src/main/res/layout/activity_book_information.xml
+0	1	app/src/main/res/layout/activity_main.xml
+
+commit 729e37c723203a4763f374f7a8c28ebde21b1544
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Feb 7 19:12:46 2016 +0200
+
+    Using never version of Parse library & fixed issue with databinding library that would fail to rebuild after building once.
+
+3	3	app/build.gradle
+-	-	app/libs/Parse-1.13.0.jar
+-	-	app/libs/bolts-tasks-1.4.0.jar
+1	2	build.gradle
+
+commit 09fc3c70a9d8d9c8a67a36259246a0130c3d2943
+Merge: 0384275 5dd1afb
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Feb 7 11:02:44 2016 +0200
+
+    Finish Release-1.0.13
+
+commit 5dd1afb14628e642247dfd09eef26d6e820d4690
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Feb 7 10:45:35 2016 +0200
+
+    Fix issue with Crash on BookInfoActivity when trying to share a book but the book information hasn't loaded yet.
+    
+    Refactor BookViewHolder
+    Change gradle build tools to alpha9
+
+2	2	app/build.gradle
+7	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+5	5	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+12	11	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+1	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+0	3	app/src/main/java/org/bookdash/android/presentation/splash/SplashContract.java
+1	0	app/src/main/res/values/strings.xml
+2	2	build.gradle
+1	1	gradle/wrapper/gradle-wrapper.properties
+
+commit 919a1d04f7acfe7a532cc84158bb2fdc63f73f2d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Jan 8 15:49:58 2016 +0200
+
+    fixed issue with build tools not finding correct versions.
+
+2	2	build.gradle
+1	1	gradle/wrapper/gradle-wrapper.properties
+
+commit 0384275b725f3ef01a74dac1c58daa07ae2a4abb
+Merge: d4fb4aa 001e432
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jan 3 18:44:11 2016 +0200
+
+    Finish Release-1.0.12
+
+commit 2137f66ae0c93922edc4b831954a86c4ea8aab6d
+Merge: 604ff1e 001e432
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jan 3 18:44:11 2016 +0200
+
+    Finish Release-1.0.12
+
+commit 001e432613ee16f1fcb9f166a50d7624535b0ac7
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Jan 3 18:43:08 2016 +0200
+
+    Up'ed version number for release to 1.0.12
+
+2	2	app/build.gradle
+
+commit 604ff1ed80cee6f82c8fa99dcc80816bddacc85c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Dec 28 20:46:56 2015 +0200
+
+    Added side navigation to the list books activity. Added an option to view only downloaded books. Fixed tests for side nav.
+
+1	2	app/build.gradle
+20	24	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+1	1	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+6	1	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+1	1	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+1	1	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+19	4	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+1	1	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+22	7	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	0	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+3	0	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+145	19	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+3	3	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+9	8	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+0	0	app/src/main/kotlin/org.bookdash.android/data/BookDetailRepositoryExtenstion.kt
+-	-	app/src/main/res/drawable-hdpi/bookdashlogo.png
+-	-	app/src/main/res/drawable-hdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-hdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-hdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-mdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-mdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-mdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable/book_dash_logo.png
+9	0	app/src/main/res/drawable/ic_check_circle_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_cloud_download_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_collections_bookmark_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_file_download_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_grade_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_group_add_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_info_outline_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_menu_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_people_outline_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_public_black_24dp.xml
+9	0	app/src/main/res/drawable/ic_settings_black_24dp.xml
+1	2	app/src/main/res/layout-land/activity_book_information.xml
+1	1	app/src/main/res/layout/activity_about.xml
+2	2	app/src/main/res/layout/activity_book_information.xml
+104	87	app/src/main/res/layout/activity_main.xml
+19	0	app/src/main/res/layout/drawer_header.xml
+11	1	app/src/main/res/layout/list_item_book.xml
+50	0	app/src/main/res/menu/menu_drawer.xml
+1	21	app/src/main/res/menu/menu_main.xml
+4	0	app/src/main/res/values/strings.xml
+5	2	fabbutton/src/main/java/mbanje/kurt/fabbutton/ProgressRingView.java
+10	27	gradle.properties
+
+commit b47e6e59bb2bba92e63925d38e6e721a458479be
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Dec 6 19:33:16 2015 +0200
+
+    Added Google Analytics back to the app. Updated the readme
+
+5	3	README.md
+2	0	app/build.gradle
+6	4	app/src/main/java/org/bookdash/android/BookDashApplication.java
+1	9	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+1	0	app/src/main/res/layout/activity_tutorial.xml
+1	1	app/src/main/res/values/strings.xml
+
+commit 80956169c9a6450d919002681e0caca11222eae4
+Merge: e9e97ce af03cbf
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Dec 6 11:37:13 2015 +0200
+
+    Finish Feature-DeepLinkingAppIndexing
+
+commit af03cbf7f104318a08f9cf8bbdb75f0318851304
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Dec 6 11:36:15 2015 +0200
+
+    Added app invite deep linking check, if we decide to start sending deep links in app invites the app will work.
+
+13	6	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+36	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+8	4	app/src/main/java/org/bookdash/android/presentation/splash/SplashActivity.java
+
+commit d840cc61c4b9d36f9c1a1d50bce4f26bef35e172
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 5 18:05:20 2015 +0200
+
+    Added App Invites when clicking on the menu option "Invite Friends".
+
+3	2	app/build.gradle
+44	8	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+5	0	app/src/main/res/menu/menu_main.xml
+5	0	app/src/main/res/values/strings.xml
+1	0	build.gradle
+
+commit 855e22177ecab3687774413fc854405559da524b
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Dec 5 16:17:55 2015 +0200
+
+    Added deep linking and sharing of the books. At the moment it just shares a link to th e playstore to download the book.
+    Need the website to implement book loading according to the same database before we can do proper deep linked. Sad face.
+
+2	0	app/build.gradle
+23	0	app/src/main/AndroidManifest.xml
+6	0	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+11	0	app/src/main/java/org/bookdash/android/domain/pojo/BookDetailParcelable.java
+118	89	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+3	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+6	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+9	0	app/src/main/res/drawable/ic_share.xml
+11	0	app/src/main/res/menu/menu_book_info.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_share.png
+-	-	app/src/main/res/mipmap-mdpi/ic_share.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_share.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_share.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_share.png
+3	0	app/src/main/res/values/strings.xml
+
+commit e9e97ce4dc25d0926882c296ebfb83c5353ae89c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 19:54:18 2015 +0200
+
+    Removed GA from imports and dependencies
+
+0	3	app/build.gradle
+0	2	app/src/main/java/org/bookdash/android/BookDashApplication.java
+0	5	app/src/main/java/org/bookdash/android/presentation/about/AboutPresenter.java
+0	2	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+0	2	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+0	2	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+
+commit 12fb099202f8cd3d1a8779ea8059011b59c493be
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 19:42:22 2015 +0200
+
+    removed properties check for fab button as its failing the build.
+
+3	0	fabbutton/build.gradle
+
+commit 4a75cff03b9b596f7b6cb0529af5d5afec6a3d85
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 19:33:59 2015 +0200
+
+    up'ed version of build tools in fab button to 23
+
+4	4	fabbutton/build.gradle
+2	2	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabButton.java
+
+commit 92662b8501bcd98fd87030bb40f6eae5a02e57ad
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 19:12:13 2015 +0200
+
+    Only setting signing config when its present in the settings
+
+2	1	app/build.gradle
+
+commit 035a917f637fccefb069e6d625c20eefa9288a23
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 19:03:01 2015 +0200
+
+    Removed appconfig-sample.properties, properties are now defined in the gradle.properties file, and this can be editted to your Parse API key and client id.
+
+1	1	.travis.yml
+3	6	app/build.gradle
+0	2	appconfig-sample.properties
+4	1	gradle.properties
+
+commit 27a23f3f5ce4e4e81d381869e326d0ce6616fb8a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 18:44:21 2015 +0200
+
+    Updated proguard and checking if release-keystore.properties file exists to get the signing configs before attempting to use properties from the file.
+
+17	14	app/build.gradle
+37	1	app/proguard-rules.pro
+
+commit d4fb4aac747f12db7866fdd7cdd62b1134d325b4
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Tue Dec 1 11:36:56 2015 +0200
+
+    Update README.md
+
+2	0	README.md
+
+commit ec8ebc22514f31d9611f7808f320939e830f9cd0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 22:04:35 2015 +0200
+
+    Added travis.yml file
+
+18	0	.travis.yml
+
+commit c59f3499b8919a463c91673b8336232660c56336
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 21:42:54 2015 +0200
+
+    Fixed tests for Language settings.
+    Fixed Fake Book Data to load correctly.
+
+7	1	app/src/androidTest/java/org/bookdash/android/presentation/about/AboutActivityTest.java
+8	0	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+7	3	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+2	4	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+3	1	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+1	0	app/src/main/res/menu/menu_main.xml
+0	0	app/src/mock/java/{org.bookdash.bookdash => org.bookdash.android}/Injection.java
+5	5	app/src/mock/java/{org.bookdash.bookdash => org.bookdash.android}/data/books/FakeBookDetailApiImpl.java
+0	0	app/src/mock/java/{org.bookdash.bookdash => org.bookdash.android}/data/settings/FakeSettingsApiImpl.java
+
+commit ed12b5a62d1f7d07c5953650763cb2399579d077
+Merge: fff5d6f f4cf96d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 20:22:22 2015 +0200
+
+    Finish Release-1.0.11
+
+commit a8dc73d9e54bf8ea6e48bcea800f4cd6dc07bde7
+Merge: cd54a36 f4cf96d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 20:22:22 2015 +0200
+
+    Finish Release-1.0.11
+
+commit f4cf96d8eeb33fe1824b942aa8f817fe61a79778
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 20:20:31 2015 +0200
+
+    Up'ed version to v1.0.11
+
+3	4	app/build.gradle
+
+commit cd54a36767e99e9415e9fb0da99089eb59f23fd6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Mon Nov 30 19:27:58 2015 +0200
+
+    Updated Parse to 1.11.0 to fix issue with clearing the cache of the app and not being able to use the local datastore anymore.
+    Adjusted width of progress bar on floating action button so as to make it more visible.
+    Added @NonNull annotations to the book API
+
+3	3	app/build.gradle
+-	-	app/libs/Parse-1.9.3.jar
+1	1	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+1	1	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+2	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+1	1	app/src/main/res/layout-land/activity_book_information.xml
+1	1	app/src/main/res/layout/activity_book_information.xml
+
+commit b8e1ec4efdc4ea8573d26f93912baada2f25c84f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 19:39:43 2015 +0200
+
+    Fixed issue where clicking the download button twice really quickly would cause issues with the download.
+
+6	2	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+12	1	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+7	2	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+9	3	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+
+commit fff5d6f0b34975db69cb8ac6c234213c1b7ef20e
+Merge: f1c2ce6 89c4355
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 15:43:58 2015 +0200
+
+    Finish Release-1.0.10
+
+commit 7d44566875a0b2d3fae15f8f53c7f06b0f6d449a
+Merge: 1c36a7e 89c4355
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 15:43:58 2015 +0200
+
+    Finish Release-1.0.10
+
+commit 89c4355434acb706561e5e9dbd38ce8153fe7d2a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 15:39:25 2015 +0200
+
+    up'ed version to 1.0.10
+
+2	2	app/build.gradle
+
+commit 1c36a7e7536e8249d67ed9f23774e1bb233ad250
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 14:10:17 2015 +0200
+
+    Added elevation on reading the actual book
+
+2	1	app/src/main/res/layout/fragment_page.xml
+
+commit ab225b08d53fe057ec34c69006f15e5acb997021
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 13:56:00 2015 +0200
+
+    Disabled crashlytics for debug builds.
+
+2	0	app/build.gradle
+5	1	app/src/main/java/org/bookdash/android/BookDashApplication.java
+6	0	app/src/main/res/values/dimens.xml
+
+commit 894e78af56e129fb87fce40d2df6efd10808b242
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sun Nov 29 12:12:39 2015 +0200
+
+    Removed Gradient on the Book detail page. Refactored the API to use the constants defined in the individual objects.
+
+3	13	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+16	16	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+1	0	app/src/main/java/org/bookdash/android/domain/pojo/BookContributor.java
+2	0	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+1	1	app/src/main/java/org/bookdash/android/domain/pojo/Language.java
+1	2	app/src/main/res/layout/activity_book_information.xml
+
+commit 7e3700a6af94f5f97ddb40649f3af909f8af65e0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Nov 28 23:19:02 2015 +0200
+
+    fixed layout of actual books when reading to reduce the whitespace around the book.
+
+95	88	app/src/main/res/layout/fragment_page.xml
+
+commit f1c2ce68ee64791ec07cda23ab3138aed31823f4
+Merge: 5f8a0b9 acac058
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Nov 28 11:31:44 2015 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 5f8a0b9b5063e3617eb1042ba38d2f1058124e0f
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Nov 28 11:30:58 2015 +0200
+
+    Added the language option back into the main toolbar.
+
+1	1	app/src/main/res/menu/menu_main.xml
+
+commit ef99b93e651ff7644ef1c2e496210c1aee773c66
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Sat Nov 28 11:26:31 2015 +0200
+
+    Removed divider on the Book Detail Page as it didn't look good, removed padding on images too.
+
+0	7	app/src/main/res/layout/fragment_page.xml
+
+commit acac0587ee5a64c7ba22ddd148df20f6560b266c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 27 09:29:17 2015 +0200
+
+    Update README.md
+
+2	0	README.md
+
+commit 8ac9947f74ac9ac2be97616abea20354394bd1a2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Fri Nov 27 09:27:59 2015 +0200
+
+    Update README.md
+
+3	0	README.md
+
+commit fb1fbbc40e7072836d54b2f72354f3d5a3d2ce36
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Nov 26 18:51:50 2015 +0200
+
+    Update README.md
+
+2	0	README.md
+
+commit 5407abacc86336f2b7356058a08c6da301996869
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Thu Nov 26 18:35:14 2015 +0200
+
+    Up'ed version number to 1.0.9
+
+2	2	app/build.gradle
+
+commit b7eaa887dc929e302c017306fa0022862192ae42
+Merge: e85638f 062444d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:44:43 2015 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit e85638f770faf2bada8e2466c3fe9ecda5c7030a
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:44:12 2015 +0200
+
+    Added Example Parse Data. This can be used for recreating the database on parse.
+
+293	0	parse_data_example_json/Book.json
+622	0	parse_data_example_json/BookContributor.json
+581	0	parse_data_example_json/BookDetails.json
+468	0	parse_data_example_json/Contributor.json
+72	0	parse_data_example_json/Language.json
+
+commit 062444d8b24f025be7f0c541a75665d40e6cf9a6
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:43:43 2015 +0200
+
+    Update README.md
+
+10	6	README.md
+
+commit 69c5744776fcc4c2429f53f067bc7f606ecc780d
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:20:47 2015 +0200
+
+    Update README.md
+
+2	1	README.md
+
+commit 755eaa7a24f7c4ab40bb888fb4e5c71384fdaed0
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:19:47 2015 +0200
+
+    Update README.md
+
+4	4	README.md
+
+commit 451c2252d693ac8a6d75749085ca661c68f2dbe2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:18:58 2015 +0200
+
+    Update README.md
+
+7	4	README.md
+
+commit 3d312bacc9076e847f42b1733dbbde2b8614432c
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:13:15 2015 +0200
+
+    Update README.md
+
+2	2	README.md
+
+commit dfd503a9c1cf8b5fffd1073dc175b7aea894df85
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:12:06 2015 +0200
+
+    updated readme
+
+5	5	README.md
+
+commit 936c513e152c618d804b400b44e84693ac8394d2
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:10:52 2015 +0200
+
+    updated readme
+
+6	5	README.md
+
+commit f49b7869523c961c1760d4858012fc6aa7fd8264
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 21:00:16 2015 +0200
+
+    updated readme again
+
+5	5	README.md
+-	-	screenshots/device-recording.mp4
+
+commit 30074d52d0de8f15b555c9d6f9bf810eccd033f7
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 20:48:13 2015 +0200
+
+    added screenshots and updated readme
+
+45	4	README.md
+-	-	screenshots/demo.gif
+-	-	screenshots/device-recording.mp4
+-	-	screenshots/screen_bookdetail_phone.png
+-	-	screenshots/screen_bookdetail_tablet.png
+-	-	screenshots/screen_bookread_phone.png
+-	-	screenshots/screen_bookread_tablet.png
+-	-	screenshots/screen_listbooks_phone.png
+-	-	screenshots/screen_listbooks_tablet.png
+
+commit 3933821765d5bd5512ce89fd2f90c8e67ab43e55
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 19:58:26 2015 +0200
+
+    Create README.md
+
+13	0	README.md
+
+commit 6c2c986e41ced568014bebc0463a1765007e2f1e
+Author: Rebecca Franks <franks.rebecca@gmail.com>
+Date:   Wed Nov 25 19:51:12 2015 +0200
+
+    Added initial project.
+
+14	0	.gitignore
+3	0	app/.gitignore
+165	0	app/build.gradle
+2	0	app/fabric-sample.properties
+-	-	app/libs/Parse-1.9.3.jar
+0	0	app/proguard-project.txt
+19	0	app/proguard-rules.pro
+81	0	app/src/androidTest/java/org/bookdash/android/presentation/about/AboutActivityTest.java
+133	0	app/src/androidTest/java/org/bookdash/android/presentation/listbooks/OverflowMenuOptionsTest.java
+109	0	app/src/androidTestMock/java/org.bookdash.android/presentation/bookinfo/BookInfoActivityTest.java
+147	0	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksActivityTest.java
+133	0	app/src/androidTestMock/java/org.bookdash.android/presentation/listbooks/ListBooksFailActivityTest.java
+97	0	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/SplashScreenTest.java
+39	0	app/src/androidTestMock/java/org.bookdash.android/presentation/splash/util/ElapsedTimeIdlingResource.java
+105	0	app/src/main/AndroidManifest.xml
+20	0	app/src/main/java/android/support/v4/app/FixedFragmentStatePagerAdapter.java
+74	0	app/src/main/java/org/bookdash/android/BookDashApplication.java
+37	0	app/src/main/java/org/bookdash/android/data/books/BookDetailApi.java
+214	0	app/src/main/java/org/bookdash/android/data/books/BookDetailApiImpl.java
+23	0	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositories.java
+60	0	app/src/main/java/org/bookdash/android/data/books/BookDetailRepository.java
+111	0	app/src/main/java/org/bookdash/android/data/books/BookDetailRepositoryImpl.java
+13	0	app/src/main/java/org/bookdash/android/data/settings/SettingsApi.java
+45	0	app/src/main/java/org/bookdash/android/data/settings/SettingsApiImpl.java
+23	0	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositories.java
+14	0	app/src/main/java/org/bookdash/android/data/settings/SettingsRepository.java
+39	0	app/src/main/java/org/bookdash/android/data/settings/SettingsRepositoryImpl.java
+47	0	app/src/main/java/org/bookdash/android/data/utils/FileManager.java
+10	0	app/src/main/java/org/bookdash/android/data/utils/GAnalytics.java
+109	0	app/src/main/java/org/bookdash/android/data/utils/ZipManager.java
+25	0	app/src/main/java/org/bookdash/android/domain/pojo/Book.java
+23	0	app/src/main/java/org/bookdash/android/domain/pojo/BookContributor.java
+92	0	app/src/main/java/org/bookdash/android/domain/pojo/BookDetail.java
+79	0	app/src/main/java/org/bookdash/android/domain/pojo/BookDetailParcelable.java
+34	0	app/src/main/java/org/bookdash/android/domain/pojo/Contributor.java
+45	0	app/src/main/java/org/bookdash/android/domain/pojo/Language.java
+63	0	app/src/main/java/org/bookdash/android/domain/pojo/gson/BookPages.java
+123	0	app/src/main/java/org/bookdash/android/domain/pojo/gson/Page.java
+69	0	app/src/main/java/org/bookdash/android/presentation/about/AboutActivity.java
+16	0	app/src/main/java/org/bookdash/android/presentation/about/AboutContract.java
+30	0	app/src/main/java/org/bookdash/android/presentation/about/AboutPresenter.java
+24	0	app/src/main/java/org/bookdash/android/presentation/activity/BaseAppCompatActivity.java
+431	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoActivity.java
+57	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoContract.java
+154	0	app/src/main/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenter.java
+54	0	app/src/main/java/org/bookdash/android/presentation/listbooks/BookAdapter.java
+29	0	app/src/main/java/org/bookdash/android/presentation/listbooks/BookViewHolder.java
+258	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksActivity.java
+31	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksContract.java
+98	0	app/src/main/java/org/bookdash/android/presentation/listbooks/ListBooksPresenter.java
+60	0	app/src/main/java/org/bookdash/android/presentation/readbook/BookDetailActivity.java
+45	0	app/src/main/java/org/bookdash/android/presentation/readbook/PageAdapter.java
+70	0	app/src/main/java/org/bookdash/android/presentation/readbook/PageFragment.java
+59	0	app/src/main/java/org/bookdash/android/presentation/splash/SplashActivity.java
+27	0	app/src/main/java/org/bookdash/android/presentation/splash/SplashContract.java
+62	0	app/src/main/java/org/bookdash/android/presentation/splash/SplashPresenter.java
+56	0	app/src/main/java/org/bookdash/android/presentation/utils/BindingUtils.java
+26	0	app/src/main/java/org/bookdash/android/presentation/utils/GlideLoadingModule.java
+321	0	app/src/main/java/org/bookdash/android/presentation/view/AutoResizeTextView.java
+66	0	app/src/main/java/org/bookdash/android/presentation/view/AutofitHeightRecyclerView.java
+475	0	app/src/main/java/org/bookdash/android/presentation/view/AutofitRecyclerView.java
+46	0	app/src/main/java/org/bookdash/android/presentation/view/ObservableScrollViewCallbacks.java
+38	0	app/src/main/java/org/bookdash/android/presentation/view/ScrollState.java
+56	0	app/src/main/java/org/bookdash/android/presentation/view/Scrollable.java
+321	0	app/src/main/java/org/bookdash/android/presentation/view/WrapContentLinearLayoutManager.java
+7	0	app/src/main/res/anim/grid_layout_animation.xml
+9	0	app/src/main/res/anim/slide_in_bottom.xml
+-	-	app/src/main/res/drawable-hdpi-v11/ic_stat_book.png
+-	-	app/src/main/res/drawable-hdpi/bookdash_icon.png
+-	-	app/src/main/res/drawable-hdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-hdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-hdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-hdpi/ic_file_download.png
+-	-	app/src/main/res/drawable-hdpi/ic_hardware_keyboard_arrow_right.png
+-	-	app/src/main/res/drawable-hdpi/ic_open_book.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_1_background.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_1_front.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_2_background.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_2_front.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_3_background.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_3_foreground.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_4_background.png
+-	-	app/src/main/res/drawable-hdpi/tut_page_4_foreground.png
+-	-	app/src/main/res/drawable-mdpi-v11/ic_stat_book.png
+-	-	app/src/main/res/drawable-mdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-mdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-mdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-mdpi/ic_file_download.png
+-	-	app/src/main/res/drawable-mdpi/ic_hardware_keyboard_arrow_right.png
+-	-	app/src/main/res/drawable-mdpi/ic_open_book.png
+9	0	app/src/main/res/drawable-v21/book_selector.xml
+-	-	app/src/main/res/drawable-xhdpi-v11/ic_stat_book.png
+-	-	app/src/main/res/drawable-xhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xhdpi/ic_file_download.png
+-	-	app/src/main/res/drawable-xhdpi/ic_hardware_keyboard_arrow_right.png
+-	-	app/src/main/res/drawable-xhdpi/ic_open_book.png
+-	-	app/src/main/res/drawable-xxhdpi-v11/ic_stat_book.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_file_download.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_hardware_keyboard_arrow_right.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_open_book.png
+-	-	app/src/main/res/drawable-xxxhdpi-v11/ic_stat_book.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_action_book.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_action_language.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_file_cloud_download.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_file_download.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_hardware_keyboard_arrow_right.png
+-	-	app/src/main/res/drawable-xxxhdpi/ic_open_book.png
+8	0	app/src/main/res/drawable/background_gradient.xml
+-	-	app/src/main/res/drawable/book_dash_logo.png
+6	0	app/src/main/res/drawable/book_selector.xml
+-	-	app/src/main/res/drawable/lb_ic_sad_cloud.png
+-	-	app/src/main/res/drawable/placeholder_avatar.png
+22	0	app/src/main/res/drawable/progress_bar.xml
+287	0	app/src/main/res/layout-land/activity_book_information.xml
+174	0	app/src/main/res/layout/activity_about.xml
+18	0	app/src/main/res/layout/activity_book_details.xml
+278	0	app/src/main/res/layout/activity_book_information.xml
+98	0	app/src/main/res/layout/activity_main.xml
+16	0	app/src/main/res/layout/activity_splash.xml
+92	0	app/src/main/res/layout/activity_tutorial.xml
+108	0	app/src/main/res/layout/fragment_page.xml
+74	0	app/src/main/res/layout/list_item_book.xml
+52	0	app/src/main/res/layout/list_item_contributor.xml
+9	0	app/src/main/res/menu/menu_about.xml
+28	0	app/src/main/res/menu/menu_main.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+10	0	app/src/main/res/values-sw600dp/dimens.xml
+8	0	app/src/main/res/values-w820dp/dimens.xml
+6	0	app/src/main/res/values/attrs.xml
+27	0	app/src/main/res/values/colors.xml
+19	0	app/src/main/res/values/dimens.xml
+73	0	app/src/main/res/values/strings.xml
+32	0	app/src/main/res/values/styles.xml
+26	0	app/src/mock/java/org.bookdash.bookdash/Injection.java
+113	0	app/src/mock/java/org.bookdash.bookdash/data/books/FakeBookDetailApiImpl.java
+42	0	app/src/mock/java/org.bookdash.bookdash/data/settings/FakeSettingsApiImpl.java
+25	0	app/src/prod/java/org/bookdash/android/Injection.java
+46	0	app/src/test/java/org/bookdash/android/data/books/BookDetailRepositoryImplTest.java
+62	0	app/src/test/java/org/bookdash/android/presentation/about/AboutPresenterTest.java
+101	0	app/src/test/java/org/bookdash/android/presentation/bookinfo/BookInfoPresenterTest.java
+108	0	app/src/test/java/org/bookdash/android/presentation/listbooks/ListBooksPresenterTest.java
+48	0	app/src/test/java/org/bookdash/android/presentation/splash/SplashPresenterTest.java
+8	0	app/src/test/java/org/bookdash/android/presentation/tutorial/TutorialPresenterTest.java
+2	0	appconfig-sample.properties
+36	0	build.gradle
+1	0	fabbutton/.gitignore
+134	0	fabbutton/build.gradle
+29	0	fabbutton/src/main/AndroidManifest.xml
+42	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/AnimationUtils.java
+270	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/CircleImageView.java
+367	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabButton.java
+138	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/FabUtil.java
+288	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/ProgressRingView.java
+57	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/ViewGroupUtils.java
+53	0	fabbutton/src/main/java/mbanje/kurt/fabbutton/ViewGroupUtilsHoneycomb.java
+-	-	fabbutton/src/main/res/drawable-hdpi/ic_fab_complete.png
+-	-	fabbutton/src/main/res/drawable-mdpi/ic_fab_complete.png
+-	-	fabbutton/src/main/res/drawable-xhdpi/ic_fab_complete.png
+-	-	fabbutton/src/main/res/drawable-xxhdpi/ic_fab_complete.png
+51	0	fabbutton/src/main/res/layout/widget_fab_button.xml
+43	0	fabbutton/src/main/res/values/attrs.xml
+3	0	fabbutton/src/main/res/values/dimens.xml
+29	0	fabbutton/src/main/res/values/strings.xml
+37	0	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+164	0	gradlew
+90	0	gradlew.bat
+8	0	release-keystore.properties.sample
+1	0	settings.gradle

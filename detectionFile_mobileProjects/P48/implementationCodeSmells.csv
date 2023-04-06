@@ -1,0 +1,218 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+todo.txt-android,uk.co.senab.actionbarpulltorefresh.library,ExampleUnitTest,addition_isCorrect,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxAPIStub,getThumbnail,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxAPIStub,metadata,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxAPIStub,putFile,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxAPIStub,putFileRequest,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,setUp,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,notFoundException,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testRemoteFileMissing,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,metadata,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testRemoteFileDeleted,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testRemoteFileUpToDate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testRemoteFileDownloadError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothFilesMissing,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothFilesMissing,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileExists,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileExists,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothRemoteFilesExist,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothRemoteFilesExist,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileUpToDate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileUpToDate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileUpToDate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileUpToDate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothRemoteFilesUpToDate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testBothRemoteFilesUpToDate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testFirstRemoteFileError,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileDownloaderTest,testSecondRemoteFileError,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,setUp,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,notFoundException,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileMissing,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,metadata,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,putFile,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileDeleted,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileUppercase,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileConflict,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileOverwrite,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testRemoteFileUploadError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothFilesMissing,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothFilesMissing,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileExists,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileExists,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileExists,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothRemoteFilesExist,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothRemoteFilesExist,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileError,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileError,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileError,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileConflict,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testFirstRemoteFileConflict,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileConflict,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testSecondRemoteFileConflict,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothRemoteFilesOverwrite,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxFileUploaderTest,testBothRemoteFilesOverwrite,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxRemoteClient,pullTodo,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxRemoteClient,pullTodo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxRemoteClient,pushTodo,Complex Method
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxRemoteClient,pushTodo,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.remote,DropboxRemoteClient,pushTodo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ByContextFilterTest,testConstructor_valid,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ByPriorityFilterTest,testConstructor_valid,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ByProjectFilterTest,testConstructor_valid,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ContextParserTest,test_withMultipleContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ContextParserTest,test_withInterspersedContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,LinkParserTest,test_withMultipleLinks,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,LinkParserTest,test_withInterspersedLinks,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,LinkParserTest,test_withInterspersedLinks,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,MailAddressParserTest,test_withMultipleMailAddresses,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,MailAddressParserTest,test_withInterspersedMailAddresses,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PhoneNumberParserTest,test_withMultipleUSPhoneNumbers,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PhoneNumberParserTest,test_withMultipleGermanPhoneNumbers,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PhoneNumberParserTest,test_withFormattedUSPhoneNumbers,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PhoneNumberParserTest,test_withFormattedGermanPhoneNumbers,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PriorityTest,testRange_EK,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PriorityTest,testRange_ZX,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PriorityTest,testRangeInCode_AD,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ProjectParserTest,test_withMultipleContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,ProjectParserTest,test_withInterspersedContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,setUp,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_priorityDescending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_idDescending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_idAscending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_textAscending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_dateAscending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,SortTest,testSort_dateDescending,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskBagImplTest,setUp,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskBagImplTest,testReload,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskBagImplTest,testReloadNotModified,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskBagImplTest,testAddAsTaskToExistingList,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskBagImplTest,testUpdate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withMultipleContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withInterspersedContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withMultipleProjects,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withInterspersedProjects,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withMultipleLinks,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withInterspersedLinks,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_withInterspersedLinks,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_complex,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_complex,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_completedTask,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_completedTask,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_completedTask_upperCase,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testConstructor_completedTask_upperCase,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testCopyInto,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkComplete,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkComplete,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkComplete_twice,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkComplete_twice,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkIncomplete,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkIncomplete_twice,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testMarkIncomplete_withPrependedDate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testUpdate_simpleToWithContexts,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TaskTest,testUpdate_simpleToWithProjects,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,FilterFactory,generateAndFilter,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.task,PhoneNumberParser,parse,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,PriorityTextSplitter,split,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,Task,init,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.task,Task,equals,Complex Method
+todo.txt-android,com.todotxt.todotxttouch.task,Task,hashCode,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.task,Task,hashCode,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TextSplitter,split,Complex Method
+todo.txt-android,com.todotxt.todotxttouch.task,TextSplitter,split,Long Identifier
+todo.txt-android,com.todotxt.todotxttouch.task,TextSplitter,split,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.task,TextSplitter,SplitResult,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.task,SplitResult,SplitResult,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,finalize,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,startPush,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,run,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,startPull,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultiple,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayed,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayed,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,pushToRemote,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,pushToRemote,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayedWithPull,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayedWithPull,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayedThenPull,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,testPushToRemoteMultipleDelayedThenPull,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,test,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.test,TodoApplicationTest,doWait,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.test,Waiter,doWait,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.util,CursorPositionCalculatorTest,testCalculate_nullPrior,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,CursorPositionCalculatorTest,testCalculate_simpleBegin,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,CursorPositionCalculatorTest,testCalculate_simpleEnd,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,CursorPositionCalculatorTest,testCalculate_emptyPrior,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,CursorPositionCalculatorTest,testCalculate_nonsense1,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,RelativeDateTest,test2DaysAgo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,RelativeDateTest,test29DaysAgo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,RelativeDateTest,test60DaysAgo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,RelativeDateTest,test364DaysAgo,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_null,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_blank,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_invalidInsertionPoint_toosmall,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_invalidInsertionPoint_toolarge,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_invalidInsertionPoint_toolarge,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_simple,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_simpleEnd,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_prepadded,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_prepaddedEnd1,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPadded_prepaddedEnd2,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPaddedIfNeeded_alreadyThere,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,StringsTest,testInsertPaddedIfNeeded_supersetThere,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,TaskIOTest,testReadLineLFLFBetween,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.util,RelativeDate,getRelativeDate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,Strings,insertPaddedIfNeeded,Complex Conditional
+todo.txt-android,com.todotxt.todotxttouch.util,Strings,insertPaddedIfNeeded,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.util,Util,getInputStreamFromUrl,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,Util,fetchContent,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,Util,readStream,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,Util,writeFile,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.util,Util,createMultiChoiceDialog,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch,AddTask,onCreate,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,AddTask,onCreate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,AddTask,onCreate,Magic Number
+todo.txt-android,com.todotxt.todotxttouch,AddTask,onCreate,Missing default
+todo.txt-android,com.todotxt.todotxttouch,Preferences,onCreate,Empty catch clause
+todo.txt-android,com.todotxt.todotxttouch,Preferences,onCreate,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,RelativeLayoutCheckable,setChecked,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoLocationPreference,initFolderTree,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoLocationPreference,upToParent,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoPreferences,storeFilters,Long Parameter List
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onCreate,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,updateNavigationDrawer,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,addToCalendar,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,prioritizeTasks,Magic Number
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onClick,Magic Number
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,doInBackground,Magic Number
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onMenuItemSelected,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onMenuItemSelected,Missing default
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onCreateDialog,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onClick,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,showContextActionBarIfNeeded,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,showContextActionBarIfNeeded,Long Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,showContextActionBarIfNeeded,Missing default
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onActionItemClicked,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,onActionItemClicked,Missing default
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,setFilteredTasks,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,setFilteredTasks,Long Statement
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,setDrawerChoices,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,getView,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoTxtTouch,getView,Missing default
+todo.txt-android,com.todotxt.todotxttouch,TaskAdapter,getView,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TaskAdapter,getView,Missing default
+todo.txt-android,com.todotxt.todotxttouch,TodoWidgetProvider,updateWidgetContent,Complex Method
+todo.txt-android,com.todotxt.todotxttouch,TodoWidgetProvider,updateWidgetContent,Magic Number
+todo.txt-android,com.todotxt.todotxttouch,TodoWidgetProvider,updateWidgetContent,Missing default
+todo.txt-android,com.todotxt.todotxttouch,UpgradeHandler,initHandlers,Magic Number
+todo.txt-android,com.todotxt.todotxttouch.widget,ListWidgetProvider,buildLayout,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.widget,ListRemoteViewsFactory,onDataSetChanged,Long Statement
+todo.txt-android,com.todotxt.todotxttouch.widget,ListRemoteViewsFactory,getViewAt,Complex Conditional
+todo.txt-android,com.todotxt.todotxttouch.widget,ListRemoteViewsFactory,getViewAt,Missing default

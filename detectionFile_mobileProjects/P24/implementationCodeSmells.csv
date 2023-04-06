@@ -1,0 +1,1669 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,BaseFileAdapter,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,BaseFileAdapter,Missing default
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,bindView,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,bindView,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,asyncSelectAll,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,asyncSelectAll,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,asyncInvertSelection,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,asyncInvertSelection,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,getSelectedItems,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,markSelectedItemsAsDeleted,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,newImageIconOnClickListener,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,onClick,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,BaseFileAdapter,onLongClick,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,newInstance,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onCreate,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onCreate,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onPrepareOptionsMenu,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onPrepareOptionsMenu,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onCreateLoader,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onLoadFinished,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,doInBackground,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,setupHeader,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,setupHeader,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,setupViewFiles,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,setupViewFiles,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,setupFooter,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,showFooterView,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,initGestureDetector,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,initGestureDetector,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,initGestureDetector,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,initGestureDetector,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onFling,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onFling,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onFling,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,loadInitialPath,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,loadInitialPath,Long Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,loadInitialPath,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,doInBackground,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,cancelPreviousLoader,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,showCannotConnectToServiceAndWaitForTheUserToFinish,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,resortViewFiles,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,resortViewFiles,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,checkConditionsThenConfirmUserToCreateNewDir,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,showNewDirectoryCreationDialog,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onClick,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,deleteFile,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,notifyFileDeleted,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onCancelled,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onPostExecute,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,checkSaveasFilenameAndFinish,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,checkSaveasFilenameAndFinish,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,goTo,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,updateDbHistory,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,updateDbHistory,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,buildAddressBar,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,buildAddressBar,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,buildAddressBar,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onProgressUpdate,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onProgressUpdate,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,finish,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onItemLongClick,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,onItemLongClick,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,createFileSelector,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,createFileSelector,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,createFileSelector,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,createFileSelector,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,doInBackground,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser,FragmentFiles,doInBackground,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser.prefs,DisplayPrefs,getViewType,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.prefs,DisplayPrefs,getSortType,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.prefs,DisplayPrefs,isSortAscending,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.prefs,DisplayPrefs,isShowTimeForOldDaysThisYear,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.prefs,DisplayPrefs,isShowTimeForOldDays,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,getProviderId,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,getProviderName,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,getProviderIconId,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,fileExists,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,getDefaultPath,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,getParentFile,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,isAncestorOf,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,BaseFileProviderUtils,cancelTask,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,DbUtils,rawSqlEscapeString,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers,ProviderUtils,getBooleanQueryParam,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.providers,ProviderUtils,getBooleanQueryParam,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.basefile,BaseFileProvider,getType,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.basefile,BaseFileProvider,query,Long Parameter List
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryHelper,onCreate,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,getType,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,delete,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,insert,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,query,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,query,Long Parameter List
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,query,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,query,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,update,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProvider,appendNameAndRealUri,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProviderUtils,doCleanupOutdatedHistoryItems,Empty catch clause
+keepass2,group.pals.android.lib.ui.filechooser.providers.history,HistoryProviderUtils,doCleanupOutdatedHistoryItems,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,FileObserverEx,onEvent,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,FileObserverEx,onEvent,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,delete,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,delete,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,delete,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,insert,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,insert,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,query,Long Parameter List
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,query,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,query,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doAnswerApiCommand,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doAnswerApiCommand,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doListFiles,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doListFiles,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doListFiles,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doRetrieveFileInfo,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,listFiles,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,listFiles,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,listFiles,Long Parameter List
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,accept,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,sortFiles,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,compare,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,deleteFile,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,deleteFile,Empty catch clause
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doCheckAncestor,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,doCheckAncestor,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.providers.localfile,LocalFileProvider,extractFile,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.ui.widget,AfcSearchView,AfcSearchView,Long Identifier
+keepass2,group.pals.android.lib.ui.filechooser.utils,Converter,sizeToStr,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser.utils,DateUtils,formatDate,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils,E,show,Empty catch clause
+keepass2,group.pals.android.lib.ui.filechooser.utils,E,show,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils,E,onClick,Empty catch clause
+keepass2,group.pals.android.lib.ui.filechooser.utils,FileUtils,getResIcon,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils,FileUtils,getResIcon,Missing default
+keepass2,group.pals.android.lib.ui.filechooser.utils,Utils,hasPermissions,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils.history,HistoryStore,truncateAfter,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,ContextMenuUtils,showContextMenu,Long Parameter List
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,calcFlingDirection,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,calcFlingDirection,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,calcFlingDirection,Magic Number
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,setupGestureDetector,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,setupGestureDetector,Complex Method
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,setupGestureDetector,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,getSubViewId,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,onSingleTapConfirmed,Long Statement
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,GestureUtils,onFling,Complex Conditional
+keepass2,group.pals.android.lib.ui.filechooser.utils.ui,Ui,adjustDialogSizeForLargeScreen,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileChooserBridge,getLaunchFileChooserIntent,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,delete,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,delete,Missing default
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,insert,Missing default
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,query,Long Parameter List
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,query,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,query,Missing default
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,doAnswerApiCommand,Complex Method
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,doListFiles,Complex Method
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,doListFiles,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,doListFiles,Magic Number
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,sortFiles,Complex Method
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,compare,Complex Method
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,extractFile,Long Statement
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,getParentPath,Magic Number
+keepass2,keepass2android.kp2afilechooser,Kp2aFileProvider,listFiles,Long Parameter List
+keepass2,keepass2android.kp2afilechooser,StorageFileProvider,listFiles,Long Parameter List
+keepass2,com.jcraft.jsch,Buffer,Buffer,Magic Number
+keepass2,com.jcraft.jsch,Buffer,putInt,Magic Number
+keepass2,com.jcraft.jsch,Buffer,putLong,Magic Number
+keepass2,com.jcraft.jsch,Buffer,putMPInt,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getLong,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getInt,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getUInt,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getShort,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getByte,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getMPInt,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getMPIntBits,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getString,Magic Number
+keepass2,com.jcraft.jsch,Buffer,getCommand,Magic Number
+keepass2,com.jcraft.jsch,Buffer,checkFreeSize,Magic Number
+keepass2,com.jcraft.jsch,Buffer,fromBytes,Magic Number
+keepass2,com.jcraft.jsch,Channel,getChannel,Complex Method
+keepass2,com.jcraft.jsch,Channel,getInputStream,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,getInputStream,Magic Number
+keepass2,com.jcraft.jsch,Channel,getExtInputStream,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,getExtInputStream,Magic Number
+keepass2,com.jcraft.jsch,Channel,getOutputStream,Complex Method
+keepass2,com.jcraft.jsch,Channel,getOutputStream,Magic Number
+keepass2,com.jcraft.jsch,Channel,init,Magic Number
+keepass2,com.jcraft.jsch,Channel,write,Magic Number
+keepass2,com.jcraft.jsch,Channel,checkSpace,Complex Method
+keepass2,com.jcraft.jsch,Channel,checkSpace,Magic Number
+keepass2,com.jcraft.jsch,Channel,write,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,write_ext,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,eof_remote,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,eof,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,eof,Magic Number
+keepass2,com.jcraft.jsch,Channel,close,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,close,Magic Number
+keepass2,com.jcraft.jsch,Channel,disconnect,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,sendOpenConfirmation,Long Identifier
+keepass2,com.jcraft.jsch,Channel,sendOpenConfirmation,Magic Number
+keepass2,com.jcraft.jsch,Channel,sendOpenFailure,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,sendOpenFailure,Magic Number
+keepass2,com.jcraft.jsch,Channel,genChannelOpenPacket,Magic Number
+keepass2,com.jcraft.jsch,Channel,sendChannelOpen,Complex Method
+keepass2,com.jcraft.jsch,Channel,sendChannelOpen,Empty catch clause
+keepass2,com.jcraft.jsch,Channel,sendChannelOpen,Magic Number
+keepass2,com.jcraft.jsch,MyPipedInputStream,checkSpace,Complex Method
+keepass2,com.jcraft.jsch,MyPipedInputStream,checkSpace,Magic Number
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,write,Complex Method
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,write,Long Identifier
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,write,Long Method
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,write,Magic Number
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,send,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelAgentForwarding,send,Magic Number
+keepass2,com.jcraft.jsch,ChannelDirectTCPIP,run,Magic Number
+keepass2,com.jcraft.jsch,ChannelDirectTCPIP,genChannelOpenPacket,Magic Number
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,run,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,run,Long Statement
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,run,Magic Number
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,getData,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,addPort,Long Parameter List
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,delPort,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelForwardedTCPIP,delPort,Magic Number
+keepass2,com.jcraft.jsch,ChannelSession,setPtySize,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSession,setPtyType,Magic Number
+keepass2,com.jcraft.jsch,ChannelSession,setPtyType,Long Parameter List
+keepass2,com.jcraft.jsch,ChannelSession,run,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSession,run,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,start,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,start,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,lcd,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSftp,put,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,put,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSftp,_put,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,_put,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSftp,_put,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,_put,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,put,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,put,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,write,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,write,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,get,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,get,Long Parameter List
+keepass2,com.jcraft.jsch,ChannelSftp,_get,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,_get,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,_get,Long Parameter List
+keepass2,com.jcraft.jsch,ChannelSftp,_get,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,get,Complex Conditional
+keepass2,com.jcraft.jsch,ChannelSftp,get,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,get,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,read,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,read,Complex Conditional
+keepass2,com.jcraft.jsch,ChannelSftp,read,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,read,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,ls,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,ls,Long Method
+keepass2,com.jcraft.jsch,ChannelSftp,ls,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,readlink,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,readlink,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,symlink,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,symlink,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,hardlink,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,rename,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,rename,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,isRemoteDir,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSftp,_statVFS,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,_realpath,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendINIT,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendSETSTAT,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendMKDIR,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendOPEN,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendPacketPath,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendWRITE,Long Parameter List
+keepass2,com.jcraft.jsch,ChannelSftp,sendWRITE,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,sendREAD,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,putHEAD,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,glob_remote,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,glob_remote,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,glob_local,Complex Conditional
+keepass2,com.jcraft.jsch,ChannelSftp,glob_local,Complex Method
+keepass2,com.jcraft.jsch,ChannelSftp,glob_local,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelSftp,throwStatusError,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,header,Magic Number
+keepass2,com.jcraft.jsch,ChannelSftp,setFilenameEncoding,Complex Conditional
+keepass2,com.jcraft.jsch,ChannelSftp,setFilenameEncoding,Magic Number
+keepass2,com.jcraft.jsch,ChannelX11,setCookie,Magic Number
+keepass2,com.jcraft.jsch,ChannelX11,getFakedCookie,Magic Number
+keepass2,com.jcraft.jsch,ChannelX11,run,Empty catch clause
+keepass2,com.jcraft.jsch,ChannelX11,run,Magic Number
+keepass2,com.jcraft.jsch,ChannelX11,write,Complex Method
+keepass2,com.jcraft.jsch,ChannelX11,write,Magic Number
+keepass2,com.jcraft.jsch,Cipher,update,Long Parameter List
+keepass2,com.jcraft.jsch,CipherNone,update,Long Parameter List
+keepass2,com.jcraft.jsch,DHEC256,DHEC256,Magic Number
+keepass2,com.jcraft.jsch,DHEC384,DHEC384,Magic Number
+keepass2,com.jcraft.jsch,DHEC521,DHEC521,Magic Number
+keepass2,com.jcraft.jsch,DHECN,init,Long Parameter List
+keepass2,com.jcraft.jsch,DHECN,next,Long Statement
+keepass2,com.jcraft.jsch,DHECN,next,Magic Number
+keepass2,com.jcraft.jsch,DHG1,init,Long Parameter List
+keepass2,com.jcraft.jsch,DHG1,next,Long Statement
+keepass2,com.jcraft.jsch,DHG1,next,Magic Number
+keepass2,com.jcraft.jsch,DHG14,init,Long Parameter List
+keepass2,com.jcraft.jsch,DHG14,next,Long Statement
+keepass2,com.jcraft.jsch,DHG14,next,Magic Number
+keepass2,com.jcraft.jsch,DHGEX,init,Long Parameter List
+keepass2,com.jcraft.jsch,DHGEX,next,Long Statement
+keepass2,com.jcraft.jsch,DHGEX,next,Magic Number
+keepass2,com.jcraft.jsch,DHGEX,check2048,Empty catch clause
+keepass2,com.jcraft.jsch,DHGEX,check2048,Magic Number
+keepass2,com.jcraft.jsch,HostKey,HostKey,Long Parameter List
+keepass2,com.jcraft.jsch,HostKey,HostKey,Magic Number
+keepass2,com.jcraft.jsch,HostKey,getType,Complex Conditional
+keepass2,com.jcraft.jsch,IdentityRepository,add,Complex Conditional
+keepass2,com.jcraft.jsch,IdentityRepository,add,Empty catch clause
+keepass2,com.jcraft.jsch,Wrapper,add,Complex Conditional
+keepass2,com.jcraft.jsch,Wrapper,add,Empty catch clause
+keepass2,com.jcraft.jsch,IO,out_close,Empty catch clause
+keepass2,com.jcraft.jsch,IO,close,Empty catch clause
+keepass2,com.jcraft.jsch,JSch,getSession,Magic Number
+keepass2,com.jcraft.jsch,KeyExchange,init,Long Parameter List
+keepass2,com.jcraft.jsch,KeyExchange,guess,Complex Method
+keepass2,com.jcraft.jsch,KeyExchange,guess,Long Statement
+keepass2,com.jcraft.jsch,KeyExchange,guess,Magic Number
+keepass2,com.jcraft.jsch,KeyExchange,normalize,Complex Conditional
+keepass2,com.jcraft.jsch,KeyExchange,normalize,Magic Number
+keepass2,com.jcraft.jsch,KeyExchange,verify,Complex Conditional
+keepass2,com.jcraft.jsch,KeyExchange,verify,Long Method
+keepass2,com.jcraft.jsch,KeyExchange,verify,Long Statement
+keepass2,com.jcraft.jsch,KeyExchange,verify,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,genKeyPair,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,writePrivateKey,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,writePrivateKey,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,writePublicKey,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,writeSECSHPublicKey,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,writeSECSHPublicKey,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,encrypt,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,decrypt,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,writeSEQUENCE,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,writeINTEGER,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,writeOCTETSTRING,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,countLength,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,writeLength,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,genHash,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,genCipher,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,genKey,Complex Method
+keepass2,com.jcraft.jsch,KeyPair,genKey,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,load,Complex Conditional
+keepass2,com.jcraft.jsch,KeyPair,load,Complex Method
+keepass2,com.jcraft.jsch,KeyPair,load,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPair,load,Long Method
+keepass2,com.jcraft.jsch,KeyPair,load,Long Statement
+keepass2,com.jcraft.jsch,KeyPair,load,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,a2b,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,b2a,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,loadPPK,Complex Method
+keepass2,com.jcraft.jsch,KeyPair,parseLines,Complex Method
+keepass2,com.jcraft.jsch,KeyPair,parseLines,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,parseHeader,Complex Method
+keepass2,com.jcraft.jsch,KeyPair,parseHeader,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,getType,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,isSEQUENCE,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,isINTEGER,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,isOBJECT,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,isOCTETSTRING,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,getLength,Magic Number
+keepass2,com.jcraft.jsch,KeyPair,getContents,Magic Number
+keepass2,com.jcraft.jsch,ASN1,getType,Magic Number
+keepass2,com.jcraft.jsch,ASN1,isSEQUENCE,Magic Number
+keepass2,com.jcraft.jsch,ASN1,isINTEGER,Magic Number
+keepass2,com.jcraft.jsch,ASN1,isOBJECT,Magic Number
+keepass2,com.jcraft.jsch,ASN1,isOCTETSTRING,Magic Number
+keepass2,com.jcraft.jsch,ASN1,getLength,Magic Number
+keepass2,com.jcraft.jsch,ASN1,getContents,Magic Number
+keepass2,com.jcraft.jsch,KeyPairDSA,KeyPairDSA,Long Parameter List
+keepass2,com.jcraft.jsch,KeyPairDSA,getPrivateKey,Long Statement
+keepass2,com.jcraft.jsch,KeyPairDSA,parse,Complex Method
+keepass2,com.jcraft.jsch,KeyPairDSA,parse,Long Method
+keepass2,com.jcraft.jsch,KeyPairDSA,parse,Magic Number
+keepass2,com.jcraft.jsch,KeyPairDSA,getPublicKeyBlob,Magic Number
+keepass2,com.jcraft.jsch,KeyPairDSA,getSignature,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairDSA,getSignature,Magic Number
+keepass2,com.jcraft.jsch,KeyPairDSA,getVerifier,Complex Conditional
+keepass2,com.jcraft.jsch,KeyPairDSA,getVerifier,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairDSA,fromSSHAgent,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,KeyPairECDSA,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,KeyPairECDSA,Long Parameter List
+keepass2,com.jcraft.jsch,KeyPairECDSA,generate,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,getPrivateKey,Long Statement
+keepass2,com.jcraft.jsch,KeyPairECDSA,getPrivateKey,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,parse,Complex Method
+keepass2,com.jcraft.jsch,KeyPairECDSA,parse,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,getPublicKeyBlob,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,getSignature,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairECDSA,getSignature,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,getVerifier,Complex Conditional
+keepass2,com.jcraft.jsch,KeyPairECDSA,getVerifier,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairECDSA,fromSSHAgent,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,toPoint,Magic Number
+keepass2,com.jcraft.jsch,KeyPairECDSA,fromPoint,Magic Number
+keepass2,com.jcraft.jsch,KeyPairPKCS8,parse,Complex Method
+keepass2,com.jcraft.jsch,KeyPairPKCS8,parse,Magic Number
+keepass2,com.jcraft.jsch,KeyPairPKCS8,decrypt,Complex Method
+keepass2,com.jcraft.jsch,KeyPairPKCS8,decrypt,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairRSA,getPrivateKey,Long Statement
+keepass2,com.jcraft.jsch,KeyPairRSA,parse,Complex Method
+keepass2,com.jcraft.jsch,KeyPairRSA,parse,Long Method
+keepass2,com.jcraft.jsch,KeyPairRSA,parse,Magic Number
+keepass2,com.jcraft.jsch,KeyPairRSA,getPublicKeyBlob,Magic Number
+keepass2,com.jcraft.jsch,KeyPairRSA,getSignature,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairRSA,getSignature,Magic Number
+keepass2,com.jcraft.jsch,KeyPairRSA,getVerifier,Complex Conditional
+keepass2,com.jcraft.jsch,KeyPairRSA,getVerifier,Empty catch clause
+keepass2,com.jcraft.jsch,KeyPairRSA,fromSSHAgent,Magic Number
+keepass2,com.jcraft.jsch,KnownHosts,setKnownHosts,Empty catch clause
+keepass2,com.jcraft.jsch,KnownHosts,setKnownHosts,Complex Method
+keepass2,com.jcraft.jsch,KnownHosts,setKnownHosts,Long Method
+keepass2,com.jcraft.jsch,KnownHosts,setKnownHosts,Magic Number
+keepass2,com.jcraft.jsch,KnownHosts,check,Complex Conditional
+keepass2,com.jcraft.jsch,KnownHosts,add,Complex Conditional
+keepass2,com.jcraft.jsch,KnownHosts,add,Complex Method
+keepass2,com.jcraft.jsch,KnownHosts,getHostKey,Complex Conditional
+keepass2,com.jcraft.jsch,KnownHosts,remove,Complex Conditional
+keepass2,com.jcraft.jsch,KnownHosts,remove,Empty catch clause
+keepass2,com.jcraft.jsch,KnownHosts,remove,Long Statement
+keepass2,com.jcraft.jsch,KnownHosts,HashedHostKey,Long Parameter List
+keepass2,com.jcraft.jsch,KnownHosts,HashedHostKey,Magic Number
+keepass2,com.jcraft.jsch,KnownHosts,hash,Empty catch clause
+keepass2,com.jcraft.jsch,KnownHosts,hash,Long Statement
+keepass2,com.jcraft.jsch,HashedHostKey,HashedHostKey,Long Parameter List
+keepass2,com.jcraft.jsch,HashedHostKey,HashedHostKey,Magic Number
+keepass2,com.jcraft.jsch,HashedHostKey,hash,Empty catch clause
+keepass2,com.jcraft.jsch,HashedHostKey,hash,Long Statement
+keepass2,com.jcraft.jsch,LocalIdentityRepository,removeDupulicates,Complex Method
+keepass2,com.jcraft.jsch,OpenSSHConfig,_parse,Magic Number
+keepass2,com.jcraft.jsch,OpenSSHConfig,MyConfig,Complex Method
+keepass2,com.jcraft.jsch,OpenSSHConfig,getPort,Empty catch clause
+keepass2,com.jcraft.jsch,MyConfig,MyConfig,Complex Method
+keepass2,com.jcraft.jsch,MyConfig,getPort,Empty catch clause
+keepass2,com.jcraft.jsch,Packet,reset,Magic Number
+keepass2,com.jcraft.jsch,Packet,padding,Magic Number
+keepass2,com.jcraft.jsch,Packet,shift,Magic Number
+keepass2,com.jcraft.jsch,Packet,unshift,Magic Number
+keepass2,com.jcraft.jsch,PortWatcher,getPort,Complex Conditional
+keepass2,com.jcraft.jsch,PortWatcher,addPort,Long Parameter List
+keepass2,com.jcraft.jsch,PortWatcher,PortWatcher,Long Parameter List
+keepass2,com.jcraft.jsch,PortWatcher,run,Empty catch clause
+keepass2,com.jcraft.jsch,PortWatcher,delete,Empty catch clause
+keepass2,com.jcraft.jsch,ProxyHTTP,ProxyHTTP,Empty catch clause
+keepass2,com.jcraft.jsch,ProxyHTTP,connect,Complex Method
+keepass2,com.jcraft.jsch,ProxyHTTP,connect,Empty catch clause
+keepass2,com.jcraft.jsch,ProxyHTTP,connect,Magic Number
+keepass2,com.jcraft.jsch,ProxyHTTP,close,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS4,ProxySOCKS4,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS4,connect,Complex Method
+keepass2,com.jcraft.jsch,ProxySOCKS4,connect,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS4,connect,Magic Number
+keepass2,com.jcraft.jsch,ProxySOCKS4,close,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS5,ProxySOCKS5,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS5,connect,Complex Method
+keepass2,com.jcraft.jsch,ProxySOCKS5,connect,Empty catch clause
+keepass2,com.jcraft.jsch,ProxySOCKS5,connect,Long Method
+keepass2,com.jcraft.jsch,ProxySOCKS5,connect,Magic Number
+keepass2,com.jcraft.jsch,ProxySOCKS5,connect,Missing default
+keepass2,com.jcraft.jsch,ProxySOCKS5,close,Empty catch clause
+keepass2,com.jcraft.jsch,Request,write,Empty catch clause
+keepass2,com.jcraft.jsch,Request,write,Magic Number
+keepass2,com.jcraft.jsch,RequestExec,request,Magic Number
+keepass2,com.jcraft.jsch,Session,Session,Empty catch clause
+keepass2,com.jcraft.jsch,Session,connect,Complex Conditional
+keepass2,com.jcraft.jsch,Session,connect,Complex Method
+keepass2,com.jcraft.jsch,Session,connect,Empty catch clause
+keepass2,com.jcraft.jsch,Session,connect,Long Method
+keepass2,com.jcraft.jsch,Session,connect,Long Statement
+keepass2,com.jcraft.jsch,Session,connect,Magic Number
+keepass2,com.jcraft.jsch,Session,receive_kexinit,Complex Conditional
+keepass2,com.jcraft.jsch,Session,receive_kexinit,Long Statement
+keepass2,com.jcraft.jsch,Session,receive_kexinit,Magic Number
+keepass2,com.jcraft.jsch,Session,send_kexinit,Complex Method
+keepass2,com.jcraft.jsch,Session,send_kexinit,Magic Number
+keepass2,com.jcraft.jsch,Session,checkHost,Complex Conditional
+keepass2,com.jcraft.jsch,Session,checkHost,Complex Method
+keepass2,com.jcraft.jsch,Session,checkHost,Long Statement
+keepass2,com.jcraft.jsch,Session,checkHost,Magic Number
+keepass2,com.jcraft.jsch,Session,openChannel,Empty catch clause
+keepass2,com.jcraft.jsch,Session,encode,Magic Number
+keepass2,com.jcraft.jsch,Session,read,Complex Method
+keepass2,com.jcraft.jsch,Session,read,Long Method
+keepass2,com.jcraft.jsch,Session,read,Long Statement
+keepass2,com.jcraft.jsch,Session,read,Magic Number
+keepass2,com.jcraft.jsch,Session,start_discard,Long Parameter List
+keepass2,com.jcraft.jsch,Session,updateKeys,Magic Number
+keepass2,com.jcraft.jsch,Session,expandKey,Long Parameter List
+keepass2,com.jcraft.jsch,Session,write,Complex Method
+keepass2,com.jcraft.jsch,Session,write,Empty catch clause
+keepass2,com.jcraft.jsch,Session,write,Magic Number
+keepass2,com.jcraft.jsch,Session,write,Complex Conditional
+keepass2,com.jcraft.jsch,Session,write,Long Statement
+keepass2,com.jcraft.jsch,Session,run,Complex Conditional
+keepass2,com.jcraft.jsch,Session,run,Complex Method
+keepass2,com.jcraft.jsch,Session,run,Empty catch clause
+keepass2,com.jcraft.jsch,Session,run,Long Identifier
+keepass2,com.jcraft.jsch,Session,run,Long Method
+keepass2,com.jcraft.jsch,Session,run,Long Statement
+keepass2,com.jcraft.jsch,Session,run,Magic Number
+keepass2,com.jcraft.jsch,Session,run,Missing default
+keepass2,com.jcraft.jsch,Session,disconnect,Complex Method
+keepass2,com.jcraft.jsch,Session,disconnect,Empty catch clause
+keepass2,com.jcraft.jsch,Session,setPortForwardingL,Long Parameter List
+keepass2,com.jcraft.jsch,Session,setPortForwardingR,Long Parameter List
+keepass2,com.jcraft.jsch,Session,parseForwarding,Complex Method
+keepass2,com.jcraft.jsch,Session,_setPortForwardingR,Empty catch clause
+keepass2,com.jcraft.jsch,Session,_setPortForwardingR,Magic Number
+keepass2,com.jcraft.jsch,Session,initDeflater,Complex Conditional
+keepass2,com.jcraft.jsch,Session,initDeflater,Empty catch clause
+keepass2,com.jcraft.jsch,Session,initDeflater,Magic Number
+keepass2,com.jcraft.jsch,Session,initInflater,Complex Conditional
+keepass2,com.jcraft.jsch,Session,checkCiphers,Complex Method
+keepass2,com.jcraft.jsch,Session,checkKexes,Complex Method
+keepass2,com.jcraft.jsch,Session,applyConfig,Complex Method
+keepass2,com.jcraft.jsch,Session,applyConfig,Empty catch clause
+keepass2,com.jcraft.jsch,SftpATTRS,getPermissionsString,Complex Method
+keepass2,com.jcraft.jsch,SftpATTRS,getPermissionsString,Magic Number
+keepass2,com.jcraft.jsch,SftpATTRS,getAtimeString,Magic Number
+keepass2,com.jcraft.jsch,SftpATTRS,getMtimeString,Magic Number
+keepass2,com.jcraft.jsch,SftpATTRS,getATTR,Complex Method
+keepass2,com.jcraft.jsch,SftpATTRS,getATTR,Magic Number
+keepass2,com.jcraft.jsch,SftpATTRS,length,Complex Method
+keepass2,com.jcraft.jsch,SftpATTRS,length,Magic Number
+keepass2,com.jcraft.jsch,SftpATTRS,dump,Complex Method
+keepass2,com.jcraft.jsch,SftpATTRS,dump,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getStatVFS,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getSize,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getUsed,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getAvailForNonRoot,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getAvail,Magic Number
+keepass2,com.jcraft.jsch,SftpStatVFS,getCapacity,Magic Number
+keepass2,com.jcraft.jsch,UIKeyboardInteractive,promptKeyboardInteractive,Long Parameter List
+keepass2,com.jcraft.jsch,UserAuthGSSAPIWithMIC,start,Complex Method
+keepass2,com.jcraft.jsch,UserAuthGSSAPIWithMIC,start,Long Identifier
+keepass2,com.jcraft.jsch,UserAuthGSSAPIWithMIC,start,Long Method
+keepass2,com.jcraft.jsch,UserAuthGSSAPIWithMIC,start,Magic Number
+keepass2,com.jcraft.jsch,UserAuthKeyboardInteractive,start,Complex Conditional
+keepass2,com.jcraft.jsch,UserAuthKeyboardInteractive,start,Complex Method
+keepass2,com.jcraft.jsch,UserAuthKeyboardInteractive,start,Long Method
+keepass2,com.jcraft.jsch,UserAuthKeyboardInteractive,start,Magic Number
+keepass2,com.jcraft.jsch,UserAuthNone,start,Complex Method
+keepass2,com.jcraft.jsch,UserAuthNone,start,Empty catch clause
+keepass2,com.jcraft.jsch,UserAuthNone,start,Magic Number
+keepass2,com.jcraft.jsch,UserAuthPassword,start,Complex Method
+keepass2,com.jcraft.jsch,UserAuthPassword,start,Long Identifier
+keepass2,com.jcraft.jsch,UserAuthPassword,start,Long Method
+keepass2,com.jcraft.jsch,UserAuthPassword,start,Magic Number
+keepass2,com.jcraft.jsch,UserAuthPublicKey,start,Complex Method
+keepass2,com.jcraft.jsch,UserAuthPublicKey,start,Long Method
+keepass2,com.jcraft.jsch,UserAuthPublicKey,start,Magic Number
+keepass2,com.jcraft.jsch,Util,fromBase64,Magic Number
+keepass2,com.jcraft.jsch,Util,toBase64,Magic Number
+keepass2,com.jcraft.jsch,Util,glob0,Magic Number
+keepass2,com.jcraft.jsch,Util,glob,Complex Method
+keepass2,com.jcraft.jsch,Util,quote,Complex Conditional
+keepass2,com.jcraft.jsch,Util,getFingerPrint,Magic Number
+keepass2,com.jcraft.jsch,Util,createSocket,Empty catch clause
+keepass2,com.jcraft.jsch,Util,run,Empty catch clause
+keepass2,com.jcraft.jsch,Util,toHex,Magic Number
+keepass2,com.jcraft.jsch,Util,checkTilde,Empty catch clause
+keepass2,com.jcraft.jsch,Util,skipUTF8Char,Magic Number
+keepass2,com.jcraft.jsch.jce,AES128CBC,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES128CBC,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,AES128CTR,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES128CTR,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,AES192CBC,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES192CBC,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,AES192CTR,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES192CTR,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,AES256CBC,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES256CBC,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,AES256CTR,init,Long Statement
+keepass2,com.jcraft.jsch.jce,AES256CTR,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,ARCFOUR,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,ARCFOUR128,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,ARCFOUR256,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,BlowfishCBC,init,Long Statement
+keepass2,com.jcraft.jsch.jce,BlowfishCBC,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,ECDH256,init,Magic Number
+keepass2,com.jcraft.jsch.jce,ECDH384,init,Magic Number
+keepass2,com.jcraft.jsch.jce,ECDH521,init,Magic Number
+keepass2,com.jcraft.jsch.jce,ECDHN,toPoint,Magic Number
+keepass2,com.jcraft.jsch.jce,ECDHN,insert0,Magic Number
+keepass2,com.jcraft.jsch.jce,HMAC,update,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACMD5,HMACMD5,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACMD596,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACMD596,doFinal,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACSHA1,HMACSHA1,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACSHA196,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACSHA196,doFinal,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACSHA256,HMACSHA256,Magic Number
+keepass2,com.jcraft.jsch.jce,HMACSHA512,HMACSHA512,Magic Number
+keepass2,com.jcraft.jsch.jce,KeyPairGenECDSA,init,Complex Method
+keepass2,com.jcraft.jsch.jce,KeyPairGenECDSA,init,Magic Number
+keepass2,com.jcraft.jsch.jce,KeyPairGenECDSA,chop0,Magic Number
+keepass2,com.jcraft.jsch.jce,MD5,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,PBKDF,getKey,Empty catch clause
+keepass2,com.jcraft.jsch.jce,PBKDF,getKey,Magic Number
+keepass2,com.jcraft.jsch.jce,SHA1,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,SHA256,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,SHA384,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,SHA512,getBlockSize,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureDSA,setPubKey,Long Statement
+keepass2,com.jcraft.jsch.jce,SignatureDSA,setPrvKey,Long Statement
+keepass2,com.jcraft.jsch.jce,SignatureDSA,sign,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureDSA,verify,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureDSA,normalize,Complex Conditional
+keepass2,com.jcraft.jsch.jce,SignatureDSA,normalize,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,setPubKey,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,setPrvKey,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,sign,Complex Conditional
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,sign,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,verify,Complex Conditional
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,verify,Magic Number
+keepass2,com.jcraft.jsch.jce,SignatureECDSAN,insert0,Magic Number
+keepass2,com.jcraft.jsch.jce,TripleDESCBC,init,Long Statement
+keepass2,com.jcraft.jsch.jce,TripleDESCBC,update,Long Parameter List
+keepass2,com.jcraft.jsch.jce,TripleDESCTR,init,Long Statement
+keepass2,com.jcraft.jsch.jce,TripleDESCTR,update,Long Parameter List
+keepass2,com.jcraft.jsch.jcraft,Compression,compress,Magic Number
+keepass2,com.jcraft.jsch.jcraft,Compression,compress,Missing default
+keepass2,com.jcraft.jsch.jcraft,Compression,uncompress,Magic Number
+keepass2,com.jcraft.jsch.jcraft,Compression,uncompress,Missing default
+keepass2,com.jcraft.jsch.jcraft,HMAC,init,Magic Number
+keepass2,com.jcraft.jsch.jcraft,HMAC,update,Magic Number
+keepass2,com.jcraft.jsch.jcraft,HMAC,doFinal,Empty catch clause
+keepass2,com.jcraft.jzlib,Adler32,reset,Magic Number
+keepass2,com.jcraft.jzlib,Adler32,getValue,Magic Number
+keepass2,com.jcraft.jzlib,Adler32,update,Magic Number
+keepass2,com.jcraft.jzlib,Adler32,combine,Magic Number
+keepass2,com.jcraft.jzlib,CRC32,update,Magic Number
+keepass2,com.jcraft.jzlib,CRC32,reset,Magic Number
+keepass2,com.jcraft.jzlib,CRC32,getValue,Magic Number
+keepass2,com.jcraft.jzlib,CRC32,combine,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,Config,Long Parameter List
+keepass2,com.jcraft.jzlib,Deflate,Deflate,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,lm_init,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,tr_init,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,init_block,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,smaller,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,scan_tree,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,scan_tree,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,build_bl_tree,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,send_all_trees,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,send_tree,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,send_tree,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,put_short,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,putShortMSB,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,send_code,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,send_bits,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,_tr_align,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,_tr_tally,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,compress_block,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,set_data_type,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,bi_flush,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,bi_windup,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,copy_block,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflate_stored,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,deflate_stored,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,_tr_stored_block,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,_tr_flush_block,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,fill_window,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,fill_window,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,fill_window,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflate_fast,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,deflate_fast,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflate_slow,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,deflate_slow,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,deflate_slow,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,longest_match,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,longest_match,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,longest_match,Long Statement
+keepass2,com.jcraft.jzlib,Deflate,longest_match,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflateInit,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,deflateInit,Long Parameter List
+keepass2,com.jcraft.jzlib,Deflate,deflateInit,Long Statement
+keepass2,com.jcraft.jzlib,Deflate,deflateInit,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflateEnd,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,deflateParams,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,deflateParams,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflateSetDictionary,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflate,Complex Conditional
+keepass2,com.jcraft.jzlib,Deflate,deflate,Complex Method
+keepass2,com.jcraft.jzlib,Deflate,deflate,Long Method
+keepass2,com.jcraft.jzlib,Deflate,deflate,Long Statement
+keepass2,com.jcraft.jzlib,Deflate,deflate,Magic Number
+keepass2,com.jcraft.jzlib,Deflate,deflate,Missing default
+keepass2,com.jcraft.jzlib,Deflate,deflateCopy,Empty catch clause
+keepass2,com.jcraft.jzlib,Config,Config,Long Parameter List
+keepass2,com.jcraft.jzlib,Deflater,init,Magic Number
+keepass2,com.jcraft.jzlib,DeflaterOutputStream,write,Magic Number
+keepass2,com.jcraft.jzlib,DeflaterOutputStream,deflate,Missing default
+keepass2,com.jcraft.jzlib,GZIPHeader,setOS,Complex Conditional
+keepass2,com.jcraft.jzlib,GZIPHeader,setOS,Magic Number
+keepass2,com.jcraft.jzlib,GZIPHeader,put,Complex Method
+keepass2,com.jcraft.jzlib,GZIPHeader,put,Magic Number
+keepass2,com.jcraft.jzlib,GZIPInputStream,GZIPInputStream,Magic Number
+keepass2,com.jcraft.jzlib,GZIPInputStream,getCRC,Magic Number
+keepass2,com.jcraft.jzlib,GZIPInputStream,readHeader,Complex Method
+keepass2,com.jcraft.jzlib,GZIPInputStream,readHeader,Magic Number
+keepass2,com.jcraft.jzlib,GZIPInputStream,fill,Empty catch clause
+keepass2,com.jcraft.jzlib,GZIPOutputStream,GZIPOutputStream,Magic Number
+keepass2,com.jcraft.jzlib,GZIPOutputStream,check,Magic Number
+keepass2,com.jcraft.jzlib,GZIPOutputStream,getCRC,Magic Number
+keepass2,com.jcraft.jzlib,InfBlocks,InfBlocks,Magic Number
+keepass2,com.jcraft.jzlib,InfBlocks,proc,Complex Conditional
+keepass2,com.jcraft.jzlib,InfBlocks,proc,Complex Method
+keepass2,com.jcraft.jzlib,InfBlocks,proc,Long Method
+keepass2,com.jcraft.jzlib,InfBlocks,proc,Magic Number
+keepass2,com.jcraft.jzlib,InfBlocks,proc,Missing default
+keepass2,com.jcraft.jzlib,InfBlocks,inflate_flush,Complex Method
+keepass2,com.jcraft.jzlib,InfCodes,init,Long Parameter List
+keepass2,com.jcraft.jzlib,InfCodes,proc,Complex Method
+keepass2,com.jcraft.jzlib,InfCodes,proc,Long Method
+keepass2,com.jcraft.jzlib,InfCodes,proc,Magic Number
+keepass2,com.jcraft.jzlib,InfCodes,proc,Missing default
+keepass2,com.jcraft.jzlib,InfCodes,inflate_fast,Complex Method
+keepass2,com.jcraft.jzlib,InfCodes,inflate_fast,Long Method
+keepass2,com.jcraft.jzlib,InfCodes,inflate_fast,Long Parameter List
+keepass2,com.jcraft.jzlib,InfCodes,inflate_fast,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,inflateInit,Complex Method
+keepass2,com.jcraft.jzlib,Inflate,inflateInit,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,inflate,Complex Conditional
+keepass2,com.jcraft.jzlib,Inflate,inflate,Complex Method
+keepass2,com.jcraft.jzlib,Inflate,inflate,Long Method
+keepass2,com.jcraft.jzlib,Inflate,inflate,Long Statement
+keepass2,com.jcraft.jzlib,Inflate,inflate,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,inflate,Missing default
+keepass2,com.jcraft.jzlib,Inflate,inflateSetDictionary,Complex Conditional
+keepass2,com.jcraft.jzlib,Inflate,inflateSync,Complex Method
+keepass2,com.jcraft.jzlib,Inflate,inflateSync,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,readBytes,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,checksum,Magic Number
+keepass2,com.jcraft.jzlib,Inflate,inParsingHeader,Complex Method
+keepass2,com.jcraft.jzlib,Inflate,inParsingHeader,Missing default
+keepass2,com.jcraft.jzlib,Inflater,init,Magic Number
+keepass2,com.jcraft.jzlib,Inflater,finished,Magic Number
+keepass2,com.jcraft.jzlib,InflaterInputStream,read,Magic Number
+keepass2,com.jcraft.jzlib,InflaterInputStream,read,Complex Conditional
+keepass2,com.jcraft.jzlib,InflaterInputStream,read,Complex Method
+keepass2,com.jcraft.jzlib,InflaterInputStream,read,Missing default
+keepass2,com.jcraft.jzlib,InfTree,huft_build,Complex Method
+keepass2,com.jcraft.jzlib,InfTree,huft_build,Long Method
+keepass2,com.jcraft.jzlib,InfTree,huft_build,Long Parameter List
+keepass2,com.jcraft.jzlib,InfTree,huft_build,Magic Number
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_bits,Long Parameter List
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_bits,Magic Number
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_dynamic,Complex Conditional
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_dynamic,Complex Method
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_dynamic,Long Parameter List
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_dynamic,Magic Number
+keepass2,com.jcraft.jzlib,InfTree,inflate_trees_fixed,Long Parameter List
+keepass2,com.jcraft.jzlib,InfTree,initWorkArea,Magic Number
+keepass2,com.jcraft.jzlib,StaticTree,StaticTree,Long Parameter List
+keepass2,com.jcraft.jzlib,Tree,d_code,Magic Number
+keepass2,com.jcraft.jzlib,Tree,gen_bitlen,Complex Method
+keepass2,com.jcraft.jzlib,Tree,gen_bitlen,Magic Number
+keepass2,com.jcraft.jzlib,Tree,build_tree,Magic Number
+keepass2,com.jcraft.jzlib,Tree,gen_codes,Magic Number
+keepass2,com.jcraft.jzlib,ZInputStream,read,Magic Number
+keepass2,com.jcraft.jzlib,ZInputStream,skip,Magic Number
+keepass2,com.jcraft.jzlib,ZOutputStream,end,Empty catch clause
+keepass2,com.jcraft.jzlib,ZOutputStream,close,Empty catch clause
+keepass2,com.jcraft.jzlib,ZStream,inflateInit,Magic Number
+keepass2,com.jcraft.jzlib,ZStream,inflateFinished,Magic Number
+keepass2,com.jcraft.jzlib,ZStream,deflateInit,Magic Number
+keepass2,com.jcraft.jzlib,ZStream,flush_pending,Complex Conditional
+keepass2,com.jcraft.jzlib,ZStream,flush_pending,Long Statement
+keepass2,com.jcraft.jzlib,ZStream,setInput,Complex Conditional
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,DropboxV2Storage,Long Parameter List
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,initialize,Long Parameter List
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,convertException,Complex Method
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,getKeysV1,Magic Number
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,onResume,Long Statement
+keepass2,keepass2android.javafilestorage,DropboxV2Storage,removeProtocol,Magic Number
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,verify,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,getDisplayName,Empty catch clause
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,getGDriveId,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,getFilename,Empty catch clause
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,listFiles,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,convertException,Magic Number
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,createDriveService,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,onActivityResult,Complex Conditional
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,initializeAccountOrPath,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,doInBackground,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,startSelectFile,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,prepareFileUsage,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,onRequestPermissionsResult,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,onCreate,Long Statement
+keepass2,keepass2android.javafilestorage,GoogleDriveFileStorage,onCreate,Magic Number
+keepass2,keepass2android.javafilestorage,GDrivePath,verify,Long Statement
+keepass2,keepass2android.javafilestorage,GDrivePath,getDisplayName,Empty catch clause
+keepass2,keepass2android.javafilestorage,GDrivePath,getGDriveId,Long Statement
+keepass2,keepass2android.javafilestorage,GDrivePath,getFilename,Empty catch clause
+keepass2,keepass2android.javafilestorage,JavaFileStorage,hashCode,Magic Number
+keepass2,keepass2android.javafilestorage,JavaFileStorage,equals,Complex Method
+keepass2,keepass2android.javafilestorage,FileEntry,hashCode,Magic Number
+keepass2,keepass2android.javafilestorage,FileEntry,equals,Complex Method
+keepass2,keepass2android.javafilestorage,JavaFileStorageBase,decode,Long Statement
+keepass2,keepass2android.javafilestorage,NotifSlave,onStart,Complex Conditional
+keepass2,keepass2android.javafilestorage,OneDriveStorage,initAuthenticator,Long Statement
+keepass2,keepass2android.javafilestorage,OneDriveStorage,getPathFromSkydrivePath,Empty catch clause
+keepass2,keepass2android.javafilestorage,OneDriveStorage,removeProtocol,Magic Number
+keepass2,keepass2android.javafilestorage,OneDriveStorage,getDisplayName,Long Statement
+keepass2,keepass2android.javafilestorage,OneDriveStorage,listFiles,Long Statement
+keepass2,keepass2android.javafilestorage,OneDriveStorage,getFileEntry,Long Statement
+keepass2,keepass2android.javafilestorage,OneDriveStorage,onStart,Long Statement
+keepass2,keepass2android.javafilestorage,PCloudFileStorage,uploadFile,Long Statement
+keepass2,keepass2android.javafilestorage,PCloudFileStorage,onResume,Long Identifier
+keepass2,keepass2android.javafilestorage,PCloudFileStorage,onActivityResult,Long Identifier
+keepass2,keepass2android.javafilestorage,PCloudFileStorage,convertApiError,Complex Conditional
+keepass2,keepass2android.javafilestorage,SftpStorage,openFileForRead,Magic Number
+keepass2,keepass2android.javafilestorage,SftpStorage,tryDisconnect,Empty catch clause
+keepass2,keepass2android.javafilestorage,SftpStorage,uploadFile,Empty catch clause
+keepass2,keepass2android.javafilestorage,SftpStorage,setFromAttrs,Magic Number
+keepass2,keepass2android.javafilestorage,SftpStorage,init,Empty catch clause
+keepass2,keepass2android.javafilestorage,SftpStorage,createKeyPair,Magic Number
+keepass2,keepass2android.javafilestorage,SftpStorage,buildFullPath,Long Parameter List
+keepass2,keepass2android.javafilestorage,SftpUserInfo,dance,Long Statement
+keepass2,keepass2android.javafilestorage,SftpUserInfo,run,Long Statement
+keepass2,keepass2android.javafilestorage,WebDavStorage,buildFullPath,Magic Number
+keepass2,keepass2android.javafilestorage,WebDavStorage,splitStringToConnectionInfo,Magic Number
+keepass2,keepass2android.javafilestorage,WebDavStorage,getClient,Long Statement
+keepass2,keepass2android.javafilestorage,WebDavStorage,getClient,Magic Number
+keepass2,keepass2android.javafilestorage,WebDavStorage,uploadFile,Long Statement
+keepass2,keepass2android.javafilestorage,WebDavStorage,listFiles,Complex Method
+keepass2,keepass2android.javafilestorage,WebDavStorage,listFiles,Long Statement
+keepass2,keepass2android.javafilestorage,WebDavStorage,buildPathFromHref,Magic Number
+keepass2,keepass2android.javafilestorage,WebDavStorage,checkStatus,Magic Number
+keepass2,keepass2android.javafilestorage,WebDavStorage,getDisplayNameFromHref,Empty catch clause
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAccountInfo,getServiceRoot,Long Identifier
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAuthenticator,login,Long Statement
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAuthenticator,loginSilent,Long Statement
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAuthenticator,loginSilent,Magic Number
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAuthenticator,onAuthComplete,Long Statement
+keepass2,keepass2android.javafilestorage.onedrive,MyMSAAuthenticator,logout,Long Statement
+keepass2,keepass2android.javafilestorage.webdav,DecoratedHostnameVerifier,verify,Long Statement
+keepass2,keepass2android.javafilestorage.webdav,PropfindXmlParser,isOk,Magic Number
+keepass2,keepass2android.javafilestorage.webdav,Response,isOk,Magic Number
+keepass2,keepass2android.javafilestorage.webdav,PropStat,isOk,Magic Number
+keepass2,keepass2android.javafilestorage.webdav,WebDavUtil,parseDate,Empty catch clause
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,doInBackground,Complex Method
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,doInBackground,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,doInBackground,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,checkFileList,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,checkFileList,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,checkFileIsContained,Complex Conditional
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,checkFileIsContained,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onCreate,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onCreate,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onClick,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onClick,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,run,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onActivityResult,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onReceivePathForFileSelect,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,onReceivePathForFileSelect,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,readStream,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,MainActivity,performManualFileSelect,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,doInBackground,Complex Method
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,doInBackground,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,doInBackground,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,checkFileList,Long Statement
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,checkFileList,Magic Number
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,checkFileIsContained,Complex Conditional
+keepass2,com.crocoapps.javafilestoragetest,PerformTestTask,checkFileIsContained,Long Statement
+keepass2,keepass2android.pluginsdk,AccessManager,storeAccessToken,Long Statement
+keepass2,keepass2android.pluginsdk,AccessManager,storeAccessToken,Magic Number
+keepass2,keepass2android.pluginsdk,AccessManager,getAllHostPackages,Empty catch clause
+keepass2,keepass2android.pluginsdk,Kp2aControl,getAddEntryIntent,Long Statement
+keepass2,keepass2android.pluginsdk,PluginActionBroadcastReceiver,addEntryFieldAction,Long Parameter List
+keepass2,keepass2android.pluginsdk,PluginActionBroadcastReceiver,onReceive,Complex Conditional
+keepass2,keepass2android.pluginsdk,PluginActionBroadcastReceiver,onReceive,Long Statement
+keepass2,keepass2android.pluginsdk,OpenEntryAction,addEntryFieldAction,Long Parameter List
+keepass2,com.keepassdroid.crypto,CipherFactory,getInstance,Complex Conditional
+keepass2,com.keepassdroid.crypto,CipherFactory,getInstance,Empty catch clause
+keepass2,com.keepassdroid.crypto,CipherFactory,getInstance,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,run,Empty catch clause
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,engineDoFinal,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,doFinal,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,nFinal,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,engineInit,Magic Number
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,engineUpdate,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,update,Long Parameter List
+keepass2,com.keepassdroid.crypto,NativeAESCipherSpi,nUpdate,Long Parameter List
+keepass2,com.keepassdroid.crypto,Cleanup,run,Empty catch clause
+keepass2,com.keepassdroid.crypto.finalkey,FinalKeyFactory,createFinalKey,Complex Conditional
+keepass2,com.keepassdroid.database,PwDatabaseV3,getFileKey,Complex Method
+keepass2,com.keepassdroid.database,PwDatabaseV3,getFileKey,Magic Number
+keepass2,com.keepassdroid.database,PwDatabaseV3,hexStringToByteArray,Magic Number
+keepass2,com.keepassdroid.database,PwDate,readTime,Magic Number
+keepass2,com.keepassdroid.database,PwDate,writeTime,Magic Number
+keepass2,com.keepassdroid.database,PwDate,IsSameDate,Long Statement
+keepass2,com.keepassdroid.database,PwDbHeaderV3,loadFromFile,Magic Number
+keepass2,com.keepassdroid.database,PwDbHeaderV3,PwDbHeaderV3,Magic Number
+keepass2,com.keepassdroid.database,PwDbHeaderV3,compatibleHeaders,Magic Number
+keepass2,com.keepassdroid.database,PwEntryV3,getDefaultDate,Magic Number
+keepass2,com.keepassdroid.database,PwEntryV3,getNeverExpire,Magic Number
+keepass2,com.keepassdroid.database,PwEntryV3,getNeverExpireBug,Magic Number
+keepass2,com.keepassdroid.database,PwEntryV3,PwEntryV3,Magic Number
+keepass2,com.keepassdroid.database,PwEntryV3,isMetaStream,Complex Method
+keepass2,com.keepassdroid.database,PwEntryV3,populateBlankFields,Complex Method
+keepass2,com.keepassdroid.database,PwIconStandard,hashCode,Magic Number
+keepass2,com.keepassdroid.database.load,ImporterV3,openDatabase,Complex Method
+keepass2,com.keepassdroid.database.load,ImporterV3,openDatabase,Long Method
+keepass2,com.keepassdroid.database.load,ImporterV3,openDatabase,Long Statement
+keepass2,com.keepassdroid.database.load,ImporterV3,openDatabase,Magic Number
+keepass2,com.keepassdroid.database.load,ImporterV3,makePad,Magic Number
+keepass2,com.keepassdroid.database.load,ImporterV3,bsw32,Magic Number
+keepass2,com.keepassdroid.database.load,ImporterV3,readGroupField,Complex Method
+keepass2,com.keepassdroid.database.load,ImporterV3,readGroupField,Long Parameter List
+keepass2,com.keepassdroid.database.load,ImporterV3,readGroupField,Magic Number
+keepass2,com.keepassdroid.database.load,ImporterV3,readEntryField,Complex Method
+keepass2,com.keepassdroid.database.load,ImporterV3,readEntryField,Magic Number
+keepass2,com.keepassdroid.database.save,PwEntryOutputV3,output,Magic Number
+keepass2,com.keepassdroid.stream,BetterCipherInputStream,read,Magic Number
+keepass2,com.keepassdroid.stream,BetterCipherInputStream,close,Empty catch clause
+keepass2,com.keepassdroid.stream,HashedBlockInputStream,ReadHashedBlock,Complex Method
+keepass2,com.keepassdroid.stream,HashedBlockInputStream,ReadHashedBlock,Magic Number
+keepass2,com.keepassdroid.stream,LEDataInputStream,readLong,Magic Number
+keepass2,com.keepassdroid.stream,LEDataInputStream,readUShort,Magic Number
+keepass2,com.keepassdroid.stream,LEDataInputStream,readLong,Long Statement
+keepass2,com.keepassdroid.stream,LEDataInputStream,readInt,Magic Number
+keepass2,com.keepassdroid.stream,LEDataInputStream,readInt,Long Statement
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeLong,Magic Number
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeInt,Magic Number
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeUShort,Magic Number
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeIntBuf,Magic Number
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeUShortBuf,Magic Number
+keepass2,com.keepassdroid.stream,LEDataOutputStream,writeLongBuf,Magic Number
+keepass2,com.keepassdroid,UpdateStatus,updateMessage,Complex Conditional
+keepass2,com.keepassdroid.utils,Types,readUByte,Magic Number
+keepass2,com.keepassdroid.utils,Types,writeUByte,Magic Number
+keepass2,com.keepassdroid.utils,Types,bytestoUUID,Magic Number
+keepass2,com.keepassdroid.utils,Types,UUIDtoBytes,Magic Number
+keepass2,org.apache.commons.collections.keyvalue,AbstractMapEntry,equals,Long Statement
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,AbstractHashedMap,Magic Number
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,containsValue,Complex Method
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,hash,Magic Number
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,reuseEntry,Long Parameter List
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,checkCapacity,Magic Number
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,equals,Long Statement
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,equals,Complex Method
+keepass2,org.apache.commons.collections.map,AbstractHashedMap,toString,Magic Number
+keepass2,org.apache.commons.collections.map,HashEntry,equals,Long Statement
+keepass2,org.apache.commons.collections.map,AbstractReferenceMap,AbstractReferenceMap,Long Parameter List
+keepass2,org.apache.commons.collections.map,AbstractReferenceMap,ReferenceEntry,Long Parameter List
+keepass2,org.apache.commons.collections.map,AbstractReferenceMap,toReference,Missing default
+keepass2,org.apache.commons.collections.map,ReferenceEntry,ReferenceEntry,Long Parameter List
+keepass2,org.apache.commons.collections.map,ReferenceEntry,toReference,Missing default
+keepass2,org.apache.commons.collections.map,ReferenceMap,ReferenceMap,Long Parameter List
+keepass2,org.bouncycastle.asn1,ASN1InputStream,buildObject,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1InputStream,buildObject,Missing default
+keepass2,org.bouncycastle.asn1,ASN1InputStream,readObject,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1InputStream,readObject,Missing default
+keepass2,org.bouncycastle.asn1,ASN1InputStream,readTagNumber,Magic Number
+keepass2,org.bouncycastle.asn1,ASN1InputStream,readLength,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1InputStream,readLength,Magic Number
+keepass2,org.bouncycastle.asn1,ASN1InputStream,createPrimitiveDERObject,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1InputStream,createPrimitiveDERObject,Missing default
+keepass2,org.bouncycastle.asn1,ASN1Sequence,hashCode,Magic Number
+keepass2,org.bouncycastle.asn1,ASN1Sequence,asn1Equals,Complex Conditional
+keepass2,org.bouncycastle.asn1,ASN1Set,hashCode,Magic Number
+keepass2,org.bouncycastle.asn1,ASN1Set,asn1Equals,Complex Conditional
+keepass2,org.bouncycastle.asn1,ASN1Set,lessThanOrEqual,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1Set,lessThanOrEqual,Magic Number
+keepass2,org.bouncycastle.asn1,ASN1StreamParser,readObject,Complex Method
+keepass2,org.bouncycastle.asn1,ASN1StreamParser,readObject,Missing default
+keepass2,org.bouncycastle.asn1,ASN1TaggedObject,asn1Equals,Complex Conditional
+keepass2,org.bouncycastle.asn1,BERConstructedOctetString,toBytes,Long Statement
+keepass2,org.bouncycastle.asn1,BERConstructedOctetString,encode,Magic Number
+keepass2,org.bouncycastle.asn1,BERConstructedSequence,encode,Magic Number
+keepass2,org.bouncycastle.asn1,BERGenerator,writeHdr,Magic Number
+keepass2,org.bouncycastle.asn1,BERInputStream,readObject,Complex Method
+keepass2,org.bouncycastle.asn1,BERInputStream,readObject,Magic Number
+keepass2,org.bouncycastle.asn1,BERInputStream,readObject,Missing default
+keepass2,org.bouncycastle.asn1,BEROctetStringGenerator,getOctetOutputStream,Magic Number
+keepass2,org.bouncycastle.asn1,BERSequence,encode,Magic Number
+keepass2,org.bouncycastle.asn1,BERSet,encode,Magic Number
+keepass2,org.bouncycastle.asn1,BERTaggedObject,encode,Complex Method
+keepass2,org.bouncycastle.asn1,BERTaggedObject,encode,Magic Number
+keepass2,org.bouncycastle.asn1,BERTaggedObjectParser,getObjectParser,Complex Method
+keepass2,org.bouncycastle.asn1,BERTaggedObjectParser,getDERObject,Long Statement
+keepass2,org.bouncycastle.asn1,ConstructedOctetStream,read,Complex Method
+keepass2,org.bouncycastle.asn1,DERApplicationSpecific,getLengthOfLength,Magic Number
+keepass2,org.bouncycastle.asn1,DERApplicationSpecific,getObject,Magic Number
+keepass2,org.bouncycastle.asn1,DERApplicationSpecific,replaceTagNumber,Magic Number
+keepass2,org.bouncycastle.asn1,DERBitString,getPadBits,Magic Number
+keepass2,org.bouncycastle.asn1,DERBitString,getBytes,Magic Number
+keepass2,org.bouncycastle.asn1,DERBitString,intValue,Magic Number
+keepass2,org.bouncycastle.asn1,DERBitString,getString,Magic Number
+keepass2,org.bouncycastle.asn1,DERBMPString,DERBMPString,Magic Number
+keepass2,org.bouncycastle.asn1,DERBMPString,encode,Magic Number
+keepass2,org.bouncycastle.asn1,DERBoolean,DERBoolean,Magic Number
+keepass2,org.bouncycastle.asn1,DERExternal,DERExternal,Long Parameter List
+keepass2,org.bouncycastle.asn1,DERExternal,asn1Equals,Complex Method
+keepass2,org.bouncycastle.asn1,DERExternal,setEncoding,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,DERGeneralizedTime,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,getTime,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,calculateGMTOffset,Empty catch clause
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,calculateGMTOffset,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,convert,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,getDate,Complex Method
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,getDate,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralizedTime,hasFractionalSeconds,Magic Number
+keepass2,org.bouncycastle.asn1,DERGeneralString,DERGeneralString,Magic Number
+keepass2,org.bouncycastle.asn1,DERGenerator,writeLength,Magic Number
+keepass2,org.bouncycastle.asn1,DERIA5String,DERIA5String,Magic Number
+keepass2,org.bouncycastle.asn1,DERIA5String,isIA5String,Magic Number
+keepass2,org.bouncycastle.asn1,DERInputStream,readLength,Complex Method
+keepass2,org.bouncycastle.asn1,DERInputStream,readLength,Magic Number
+keepass2,org.bouncycastle.asn1,DERInputStream,buildObject,Complex Method
+keepass2,org.bouncycastle.asn1,DERInputStream,buildObject,Empty catch clause
+keepass2,org.bouncycastle.asn1,DERInputStream,buildObject,Long Method
+keepass2,org.bouncycastle.asn1,DERInputStream,buildObject,Magic Number
+keepass2,org.bouncycastle.asn1,DERInputStream,buildObject,Missing default
+keepass2,org.bouncycastle.asn1,DERInteger,hashCode,Magic Number
+keepass2,org.bouncycastle.asn1,DERNumericString,DERNumericString,Magic Number
+keepass2,org.bouncycastle.asn1,DERNumericString,isNumericString,Complex Conditional
+keepass2,org.bouncycastle.asn1,DERNumericString,isNumericString,Magic Number
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,DERObjectIdentifier,Complex Method
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,DERObjectIdentifier,Magic Number
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,DERObjectIdentifier,Missing default
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,writeField,Complex Method
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,writeField,Magic Number
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,encode,Magic Number
+keepass2,org.bouncycastle.asn1,DERObjectIdentifier,isValidIdentifier,Magic Number
+keepass2,org.bouncycastle.asn1,DEROutputStream,writeLength,Magic Number
+keepass2,org.bouncycastle.asn1,DEROutputStream,writeTag,Magic Number
+keepass2,org.bouncycastle.asn1,DERPrintableString,DERPrintableString,Magic Number
+keepass2,org.bouncycastle.asn1,DERPrintableString,isPrintableString,Complex Method
+keepass2,org.bouncycastle.asn1,DERPrintableString,isPrintableString,Magic Number
+keepass2,org.bouncycastle.asn1,DERT61String,DERT61String,Magic Number
+keepass2,org.bouncycastle.asn1,DERUniversalString,getString,Magic Number
+keepass2,org.bouncycastle.asn1,DERUTCTime,DERUTCTime,Magic Number
+keepass2,org.bouncycastle.asn1,DERUTCTime,getTime,Magic Number
+keepass2,org.bouncycastle.asn1,DERVisibleString,DERVisibleString,Magic Number
+keepass2,org.bouncycastle.asn1,IndefiniteLengthInputStream,checkForEof,Complex Conditional
+keepass2,org.bouncycastle.asn1,IndefiniteLengthInputStream,read,Magic Number
+keepass2,org.bouncycastle.asn1.pkcs,RSAPrivateKeyStructure,RSAPrivateKeyStructure,Long Parameter List
+keepass2,org.bouncycastle.asn1.pkcs,SafeBag,SafeBag,Magic Number
+keepass2,org.bouncycastle.asn1.pkcs,SignedData,SignedData,Long Parameter List
+keepass2,org.bouncycastle.asn1.pkcs,SignedData,SignedData,Missing default
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,_dumpAsString,Complex Method
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,_dumpAsString,Long Method
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,_dumpAsString,Long Statement
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,_dumpAsString,Magic Number
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,outputApplicationSpecific,Long Parameter List
+keepass2,org.bouncycastle.asn1.util,ASN1Dump,outputApplicationSpecific,Long Statement
+keepass2,org.bouncycastle.crypto,BufferedBlockCipher,BufferedBlockCipher,Long Statement
+keepass2,org.bouncycastle.crypto,BufferedBlockCipher,getUpdateOutputSize,Magic Number
+keepass2,org.bouncycastle.crypto,BufferedBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto,PBEParametersGenerator,PKCS12PasswordToBytes,Magic Number
+keepass2,org.bouncycastle.crypto,StreamBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto,StreamCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto.digests,GeneralDigest,GeneralDigest,Magic Number
+keepass2,org.bouncycastle.crypto.digests,GeneralDigest,finish,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD2Digest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD2Digest,update,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD2Digest,processCheckSum,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD2Digest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD2Digest,getByteLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,processWord,Long Statement
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,processWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,processLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,unpackWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,reset,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,rotateLeft,Magic Number
+keepass2,org.bouncycastle.crypto.digests,MD5Digest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,processWord,Long Statement
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,processWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,processLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,unpackWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,reset,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,RL,Magic Number
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,processBlock,Long Method
+keepass2,org.bouncycastle.crypto.digests,RIPEMD160Digest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA1Digest,processWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA1Digest,processLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA1Digest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA1Digest,reset,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA1Digest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,processWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,processLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,reset,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,Sum0,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,Sum1,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,Theta0,Magic Number
+keepass2,org.bouncycastle.crypto.digests,SHA256Digest,Theta1,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,processWord,Long Statement
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,processWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,update,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,roundABC,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,roundBCA,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,roundCAB,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,keySchedule,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,processBlock,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,unpackWord,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,processLength,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,finish,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.digests,TigerDigest,reset,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,init,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,returnByte,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,processBytes,Complex Method
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,processBytes,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,setKey,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,salsa20WordToByte,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,intToByteLittle,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,byteToIntLittle,Magic Number
+keepass2,org.bouncycastle.crypto.engines,Salsa20Engine,limitExceeded,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,TwofishEngine,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,init,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,setKey,Complex Method
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,setKey,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,encryptBlock,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,decryptBlock,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,F32,Long Statement
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,F32,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,RS_MDS_Encode,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,RS_rem,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,LFSR2,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,b0,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,b1,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,b2,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,b3,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,Fe32_0,Long Statement
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,Fe32_0,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,Fe32_3,Long Statement
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,Fe32_3,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,BytesTo32Bits,Magic Number
+keepass2,org.bouncycastle.crypto.engines,TwofishEngine,Bits32ToBytes,Magic Number
+keepass2,org.bouncycastle.crypto.generators,OpenSSLPBEParametersGenerator,generateDerivedParameters,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS12ParametersGenerator,adjust,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS12ParametersGenerator,generateDerivedKey,Complex Method
+keepass2,org.bouncycastle.crypto.generators,PKCS12ParametersGenerator,generateDerivedParameters,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS12ParametersGenerator,generateDerivedMacParameters,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS5S1ParametersGenerator,generateDerivedParameters,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS5S2ParametersGenerator,F,Long Parameter List
+keepass2,org.bouncycastle.crypto.generators,PKCS5S2ParametersGenerator,intToOctet,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS5S2ParametersGenerator,generateDerivedKey,Magic Number
+keepass2,org.bouncycastle.crypto.generators,PKCS5S2ParametersGenerator,generateDerivedParameters,Magic Number
+keepass2,org.bouncycastle.crypto.modes,AEADBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto.modes,CFBBlockCipher,CFBBlockCipher,Magic Number
+keepass2,org.bouncycastle.crypto.modes,CFBBlockCipher,getAlgorithmName,Magic Number
+keepass2,org.bouncycastle.crypto.modes,CTSBlockCipher,CTSBlockCipher,Magic Number
+keepass2,org.bouncycastle.crypto.modes,CTSBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto.modes,CTSBlockCipher,doFinal,Complex Method
+keepass2,org.bouncycastle.crypto.modes,OFBBlockCipher,OFBBlockCipher,Magic Number
+keepass2,org.bouncycastle.crypto.modes,OFBBlockCipher,getAlgorithmName,Magic Number
+keepass2,org.bouncycastle.crypto.paddings,PaddedBufferedBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.crypto.paddings,PaddedBufferedBlockCipher,doFinal,Magic Number
+keepass2,org.bouncycastle.crypto.paddings,PKCS7Padding,padCount,Magic Number
+keepass2,org.bouncycastle.crypto.params,DESParameters,setOddParity,Long Statement
+keepass2,org.bouncycastle.crypto.params,DESParameters,setOddParity,Magic Number
+keepass2,org.bouncycastle.crypto.params,DHParameters,DHParameters,Long Parameter List
+keepass2,org.bouncycastle.crypto.params,RSAPrivateCrtKeyParameters,RSAPrivateCrtKeyParameters,Long Parameter List
+keepass2,org.bouncycastle.crypto.util,Pack,bigEndianToInt,Magic Number
+keepass2,org.bouncycastle.crypto.util,Pack,intToBigEndian,Magic Number
+keepass2,org.bouncycastle.crypto.util,Pack,bigEndianToLong,Magic Number
+keepass2,org.bouncycastle.crypto.util,Pack,longToBigEndian,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,JCEBlockCipher,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineGetKeySize,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineSetMode,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineInit,Complex Method
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineInit,Missing default
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineInit,Empty catch clause
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineUpdate,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,engineDoFinal,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,GenericBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,BufferedGenericBlockCipher,processBytes,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEPBEKey,JCEPBEKey,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,engineGetKeySize,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,engineInit,Complex Method
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,engineInit,Missing default
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,engineUpdate,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,engineDoFinal,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,Twofish_CFB8,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,Twofish_OFB8,Magic Number
+keepass2,org.bouncycastle.jce.provider,JCEStreamCipher,Salsa20,Magic Number
+keepass2,org.bouncycastle.jce.provider,Twofish_CFB8,Twofish_CFB8,Magic Number
+keepass2,org.bouncycastle.jce.provider,Twofish_OFB8,Twofish_OFB8,Magic Number
+keepass2,org.bouncycastle.jce.provider,Salsa20,Salsa20,Magic Number
+keepass2,org.bouncycastle.jce.provider,PBE,makePBEGenerator,Complex Method
+keepass2,org.bouncycastle.jce.provider,PBE,makePBEGenerator,Missing default
+keepass2,org.bouncycastle.jce.provider,PBE,makePBEParameters,Magic Number
+keepass2,org.bouncycastle.jce.provider,PBE,makePBEMacParameters,Magic Number
+keepass2,org.bouncycastle.jce.provider,PBE,makePBEParameters,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,Util,makePBEGenerator,Complex Method
+keepass2,org.bouncycastle.jce.provider,Util,makePBEGenerator,Missing default
+keepass2,org.bouncycastle.jce.provider,Util,makePBEParameters,Magic Number
+keepass2,org.bouncycastle.jce.provider,Util,makePBEMacParameters,Magic Number
+keepass2,org.bouncycastle.jce.provider,Util,makePBEParameters,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,WrapCipherSpi,engineInit,Complex Method
+keepass2,org.bouncycastle.jce.provider,WrapCipherSpi,engineInit,Missing default
+keepass2,org.bouncycastle.jce.provider,WrapCipherSpi,engineInit,Empty catch clause
+keepass2,org.bouncycastle.jce.provider,WrapCipherSpi,engineUpdate,Long Parameter List
+keepass2,org.bouncycastle.jce.provider,WrapCipherSpi,engineDoFinal,Long Parameter List
+keepass2,org.bouncycastle.util,Arrays,hashCode,Magic Number
+keepass2,org.bouncycastle.util,Strings,fromUTF8ByteArray,Complex Method
+keepass2,org.bouncycastle.util,Strings,fromUTF8ByteArray,Long Statement
+keepass2,org.bouncycastle.util,Strings,fromUTF8ByteArray,Magic Number
+keepass2,org.bouncycastle.util,Strings,toUTF8ByteArray,Magic Number
+keepass2,org.bouncycastle.util.encoders,HexEncoder,encode,Magic Number
+keepass2,org.bouncycastle.util.encoders,HexEncoder,decode,Magic Number
+keepass2,keepass2android.autofill,AutoFillService,check,Long Statement
+keepass2,keepass2android.autofill,AutoFillService,handleAccessibilityEvent,Complex Conditional
+keepass2,keepass2android.autofill,AutoFillService,handleAccessibilityEvent,Complex Method
+keepass2,keepass2android.autofill,AutoFillService,handleAccessibilityEvent,Long Statement
+keepass2,keepass2android.autofill,AutoFillService,handleAccessibilityEvent,Magic Number
+keepass2,keepass2android.autofill,AutoFillService,AskFillPassword,Long Statement
+keepass2,keepass2android.autofill,AutoFillService,AskFillPassword,Magic Number
+keepass2,keepass2android.autofill,AutoFillService,FillPassword,Magic Number
+keepass2,keepass2android.autofill,AutoFillService,fillDataInTextField,Magic Number
+keepass2,keepass2android.autofill,AutoFillService,getHost,Magic Number
+keepass2,keepass2android.autofill,SystemUiCondition,check,Long Statement
+keepass2,keepass2android.kbbridge,ImeSwitcher,switchToKeyboard,Complex Method
+keepass2,keepass2android.kbbridge,ImeSwitcher,switchToKeyboard,Long Statement
+keepass2,keepass2android.kbbridge,LocaleHelper,isWhitelisted,Complex Conditional
+keepass2,keepass2android.kbbridge,LocaleHelper,isWhitelisted,Magic Number
+keepass2,keepass2android.kbbridge,LocaleHelper,getUniqueLocales,Complex Method
+keepass2,keepass2android.kbbridge,LocaleHelper,getUniqueLocales,Long Statement
+keepass2,keepass2android.kbbridge,LocaleHelper,getUniqueLocales,Magic Number
+keepass2,keepass2android.softkeyboard,AutoDictionary,addWord,Magic Number
+keepass2,keepass2android.softkeyboard,AutoDictionary,onCreate,Long Statement
+keepass2,keepass2android.softkeyboard,AutoDictionary,onUpgrade,Long Statement
+keepass2,keepass2android.softkeyboard,AutoDictionary,getContentValues,Magic Number
+keepass2,keepass2android.softkeyboard,DatabaseHelper,onCreate,Long Statement
+keepass2,keepass2android.softkeyboard,DatabaseHelper,onUpgrade,Long Statement
+keepass2,keepass2android.softkeyboard,UpdateDbTask,getContentValues,Magic Number
+keepass2,keepass2android.softkeyboard,BinaryDictionary,BinaryDictionary,Complex Conditional
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getSuggestionsNative,Long Parameter List
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getBigramsNative,Long Parameter List
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getBigrams,Long Statement
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getWords,Complex Method
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getWords,Long Statement
+keepass2,keepass2android.softkeyboard,BinaryDictionary,getWords,Magic Number
+keepass2,keepass2android.softkeyboard,CandidateView,onLongPress,Magic Number
+keepass2,keepass2android.softkeyboard,CandidateView,onDraw,Complex Conditional
+keepass2,keepass2android.softkeyboard,CandidateView,onDraw,Complex Method
+keepass2,keepass2android.softkeyboard,CandidateView,onDraw,Magic Number
+keepass2,keepass2android.softkeyboard,CandidateView,onTouchEvent,Complex Method
+keepass2,keepass2android.softkeyboard,CandidateView,showPreview,Long Statement
+keepass2,keepass2android.softkeyboard,CandidateView,showPreview,Magic Number
+keepass2,keepass2android.softkeyboard,CandidateView,longPressFirstWord,Magic Number
+keepass2,keepass2android.softkeyboard,CandidateStripGestureListener,onLongPress,Magic Number
+keepass2,keepass2android.softkeyboard,ContactsDictionary,startDictionaryLoadingTaskLocked,Magic Number
+keepass2,keepass2android.softkeyboard,ContactsDictionary,addWords,Complex Conditional
+keepass2,keepass2android.softkeyboard,ContactsDictionary,addWords,Complex Method
+keepass2,keepass2android.softkeyboard,Design,updateTheme,Magic Number
+keepass2,keepass2android.softkeyboard,Dictionary,addWord,Long Parameter List
+keepass2,keepass2android.softkeyboard,WordCallback,addWord,Long Parameter List
+keepass2,keepass2android.softkeyboard,EditingUtil,appendText,Complex Conditional
+keepass2,keepass2android.softkeyboard,EditingUtil,getWordRangeAtCursor,Magic Number
+keepass2,keepass2android.softkeyboard,EditingUtil,getPreviousWord,Magic Number
+keepass2,keepass2android.softkeyboard,EditingUtil,getWordAtCursorOrSelection,Complex Method
+keepass2,keepass2android.softkeyboard,EditingUtil,initializeMethodsForReflection,Empty catch clause
+keepass2,keepass2android.softkeyboard,EditingUtil,getSelectedText,Empty catch clause
+keepass2,keepass2android.softkeyboard,EditingUtil,underlineWord,Empty catch clause
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,addWordRec,Long Parameter List
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,addWordRec,Magic Number
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWords,Magic Number
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWordsRec,Complex Conditional
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWordsRec,Complex Method
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWordsRec,Long Parameter List
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWordsRec,Long Statement
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,getWordsRec,Magic Number
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,waitForDictionaryLoading,Empty catch clause
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,waitForDictionaryLoading,Magic Number
+keepass2,keepass2android.softkeyboard,ExpandableDictionary,toLowerCase,Magic Number
+keepass2,keepass2android.softkeyboard,Hints,showPunctuationHintIfNecessary,Complex Conditional
+keepass2,keepass2android.softkeyboard,Hints,showPunctuationHintIfNecessary,Long Identifier
+keepass2,keepass2android.softkeyboard,Hints,showPunctuationHintIfNecessary,Long Statement
+keepass2,keepass2android.softkeyboard,Hints,registerVoiceResult,Long Identifier
+keepass2,keepass2android.softkeyboard,Hints,isFromToday,Long Statement
+keepass2,keepass2android.softkeyboard,Hints,showHint,Long Identifier
+keepass2,keepass2android.softkeyboard,InputLanguageSelection,onCreate,Magic Number
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,makeSymbolsId,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,makeSymbolsId,Long Statement
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,makeSymbolsShiftedId,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,makeSymbolsShiftedId,Long Statement
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,equals,Long Statement
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,getKeyboardId,Complex Method
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,getKeyboardId,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,getKeyboardId,Long Statement
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,onCancelInput,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,onCancelInput,Long Statement
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,toggleSymbols,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,setAutoModeSwitchStateMomentary,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,isInMomentaryAutoModeSwitchState,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,isInChordingAutoModeSwitchState,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,onKey,Complex Conditional
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,onKey,Complex Method
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,onKey,Long Identifier
+keepass2,keepass2android.softkeyboard,KeyboardSwitcher,changeLatinKeyboardView,Complex Conditional
+keepass2,keepass2android.softkeyboard,KeyboardId,equals,Long Statement
+keepass2,keepass2android.softkeyboard,Kp2aDialog,onCreate,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onCreate,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onStartInputView,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateKeyboardMode,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateKeyboardMode,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateKeyboardMode,Missing default
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,tryKp2aAutoFill,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,commitKp2aString,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onUpdateSelection,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onUpdateSelection,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onUpdateSelection,Long Parameter List
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onUpdateSelection,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,setCandidatesViewShownInternal,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKeyDown,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKeyUp,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKeyUp,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,postUpdateShiftKeyState,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateShiftKeyState,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,getCursorCapsMode,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,swapPunctuationAndSpace,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,swapPunctuationAndSpace,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,swapPunctuationAndSpace,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,reswapPeriodAndSpace,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,reswapPeriodAndSpace,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,reswapPeriodAndSpace,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,doubleSpace,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,doubleSpace,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,doubleSpace,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,maybeRemovePreviousPeriod,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,maybeRemovePreviousPeriod,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,removeTrailingSpace,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKey,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKey,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKey,Missing default
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onEnterKey,Long Identifier
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKp2aPasswordKeyPressed,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKp2aNextFieldsPressed,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateKp2aKeyLabels,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateKp2aKeyLabels,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKp2aKeyPressed,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onKp2aKeyPressed,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,showKp2aDialog,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,showKp2aDialog,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleBackspace,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleCharacter,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleCharacter,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleSeparator,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleSeparator,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,handleSeparator,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,postUpdateSuggestions,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,postUpdateOldSuggestions,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,showSuggestions,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,showSuggestions,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,pickSuggestionManually,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,pickSuggestionManually,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,pickSuggestionManually,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,pickSuggestion,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,pickSuggestion,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,applyTypedAlternatives,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,applyTypedAlternatives,Complex Method
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,applyTypedAlternatives,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,setOldSuggestions,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,isCursorTouchingWord,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,revertLastWord,Complex Conditional
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,onSharedPreferenceChanged,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,vibrate,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateCorrectionMode,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,updateAutoTextEnabled,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,loadSettings,Long Identifier
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,loadSettings,Long Statement
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,newArrayList,Magic Number
+keepass2,keepass2android.softkeyboard,KP2AKeyboard,measureCps,Magic Number
+keepass2,keepass2android.softkeyboard,LanguageSwitcher,constructLocales,Magic Number
+keepass2,keepass2android.softkeyboard,LatinIMESettings,onCreateDialog,Missing default
+keepass2,keepass2android.softkeyboard,LatinIMEUtil,hasMultipleEnabledIMEs,Long Statement
+keepass2,keepass2android.softkeyboard,LatinIMEUtil,getPreviousX,Magic Number
+keepass2,keepass2android.softkeyboard,LatinIMEUtil,getPreviousY,Magic Number
+keepass2,keepass2android.softkeyboard,RingCharBuffer,getPreviousX,Magic Number
+keepass2,keepass2android.softkeyboard,RingCharBuffer,getPreviousY,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,initializeNumberHintResources,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,createKeyFromXml,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboard,createKeyFromXml,Long Parameter List
+keepass2,keepass2android.softkeyboard,LatinKeyboard,createKeyFromXml,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,setImeOptions,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboard,setImeOptions,Missing default
+keepass2,keepass2android.softkeyboard,LatinKeyboard,updateSpaceBarForLocale,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboard,drawSynthesizedSettingsHintImage,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,layoutSpaceBar,Long Identifier
+keepass2,keepass2android.softkeyboard,LatinKeyboard,layoutSpaceBar,Long Parameter List
+keepass2,keepass2android.softkeyboard,LatinKeyboard,layoutSpaceBar,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,drawSpaceBar,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboard,drawSpaceBar,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,getLanguageChangeDirection,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboard,getLanguageChangeDirection,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboard,getLanguageChangeDirection,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,setLanguageSwitcher,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboard,setLanguageSwitcher,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboard,isInside,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboard,isInside,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,distanceFrom,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,LatinKey,Long Parameter List
+keepass2,keepass2android.softkeyboard,LatinKeyboard,squaredDistanceFrom,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,SlidingLocaleDrawable,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboard,draw,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKey,LatinKey,Long Parameter List
+keepass2,keepass2android.softkeyboard,LatinKey,squaredDistanceFrom,Magic Number
+keepass2,keepass2android.softkeyboard,SlidingLocaleDrawable,SlidingLocaleDrawable,Magic Number
+keepass2,keepass2android.softkeyboard,SlidingLocaleDrawable,draw,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Long Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,LatinKeyboardBaseView,Missing default
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onFling,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onFling,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onFling,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,adjustCase,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,adjustCase,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onMeasure,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,computeProximityThreshold,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onDraw,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Long Identifier
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Long Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onBufferDraw,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showPreview,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showPreview,Long Identifier
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showPreview,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showKey,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showKey,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,showKey,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,invalidateKey,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,inflateMiniKeyboardContainer,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onLongPress,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onLongPress,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,isNumberAtLeftmostPopupChar,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,isNumberAtRightmostPopupChar,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,isNumberAtRightmostPopupChar,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,isAsciiDigit,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onTouchEvent,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onTouchEvent,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardBaseView,onTouchEvent,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,setKeyboard,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,invokeOnKey,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,adjustCase,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,adjustCase,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,adjustCase,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,handleSuddenJump,Complex Conditional
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,handleSuddenJump,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,handleSuddenJump,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,onTouchEvent,Long Statement
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,setKeyboardLocal,Complex Method
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,setKeyboardLocal,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,handleMessage,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,findKeys,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,startPlaying,Magic Number
+keepass2,keepass2android.softkeyboard,LatinKeyboardView,draw,Magic Number
+keepass2,keepass2android.softkeyboard,MiniKeyboardKeyDetector,MiniKeyboardKeyDetector,Magic Number
+keepass2,keepass2android.softkeyboard,PluginManager,doGarbageCollection,Magic Number
+keepass2,keepass2android.softkeyboard,PluginManager,getSoftKeyboardDictionaries,Complex Conditional
+keepass2,keepass2android.softkeyboard,PluginManager,getSoftKeyboardDictionaries,Complex Method
+keepass2,keepass2android.softkeyboard,PluginManager,getSoftKeyboardDictionaries,Long Method
+keepass2,keepass2android.softkeyboard,PluginManager,getHKDictionaries,Complex Method
+keepass2,keepass2android.softkeyboard,PluginManager,getDictionary,Magic Number
+keepass2,keepass2android.softkeyboard,PointerTracker,PointerTracker,Complex Conditional
+keepass2,keepass2android.softkeyboard,PointerTracker,PointerTracker,Long Parameter List
+keepass2,keepass2android.softkeyboard,PointerTracker,onMoveEvent,Complex Method
+keepass2,keepass2android.softkeyboard,PointerTracker,isMinorMoveBounce,Long Statement
+keepass2,keepass2android.softkeyboard,PointerTracker,startLongPressTimer,Magic Number
+keepass2,keepass2android.softkeyboard,PointerTracker,detectAndSendKey,Complex Conditional
+keepass2,keepass2android.softkeyboard,PointerTracker,detectAndSendKey,Complex Method
+keepass2,keepass2android.softkeyboard,PointerTracker,detectAndSendKey,Magic Number
+keepass2,keepass2android.softkeyboard,PointerTracker,debugLog,Long Statement
+keepass2,keepass2android.softkeyboard,ProximityKeyDetector,getKeyIndexAndNearbyCodes,Complex Conditional
+keepass2,keepass2android.softkeyboard,ProximityKeyDetector,getKeyIndexAndNearbyCodes,Complex Method
+keepass2,keepass2android.softkeyboard,ProximityKeyDetector,getKeyIndexAndNearbyCodes,Long Statement
+keepass2,keepass2android.softkeyboard,ProximityKeyDetector,getKeyIndexAndNearbyCodes,Magic Number
+keepass2,keepass2android.softkeyboard,SharedPreferencesCompat,findApplyMethod,Empty catch clause
+keepass2,keepass2android.softkeyboard,SharedPreferencesCompat,apply,Empty catch clause
+keepass2,keepass2android.softkeyboard,Suggest,setMaxSuggestions,Magic Number
+keepass2,keepass2android.softkeyboard,Suggest,haveSufficientCommonality,Magic Number
+keepass2,keepass2android.softkeyboard,Suggest,getSuggestions,Complex Conditional
+keepass2,keepass2android.softkeyboard,Suggest,getSuggestions,Complex Method
+keepass2,keepass2android.softkeyboard,Suggest,getSuggestions,Long Statement
+keepass2,keepass2android.softkeyboard,Suggest,getSuggestions,Magic Number
+keepass2,keepass2android.softkeyboard,Suggest,removeDupes,Magic Number
+keepass2,keepass2android.softkeyboard,Suggest,addWord,Complex Conditional
+keepass2,keepass2android.softkeyboard,Suggest,addWord,Complex Method
+keepass2,keepass2android.softkeyboard,Suggest,addWord,Long Parameter List
+keepass2,keepass2android.softkeyboard,Suggest,addWord,Long Statement
+keepass2,keepass2android.softkeyboard,SwipeTracker,computeCurrentVelocity,Magic Number
+keepass2,keepass2android.softkeyboard,TextEntryState,endSession,Empty catch clause
+keepass2,keepass2android.softkeyboard,TextEntryState,endSession,Long Statement
+keepass2,keepass2android.softkeyboard,TextEntryState,typedCharacter,Complex Method
+keepass2,keepass2android.softkeyboard,TextEntryState,keyPressedAt,Complex Conditional
+keepass2,keepass2android.softkeyboard,TextEntryState,keyPressedAt,Empty catch clause
+keepass2,keepass2android.softkeyboard,TextEntryState,keyPressedAt,Long Statement
+keepass2,keepass2android.softkeyboard,TextEntryState,keyPressedAt,Magic Number
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,waitUntilUpdateDBDone,Empty catch clause
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,waitUntilUpdateDBDone,Magic Number
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,query,Long Statement
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,onCreate,Long Statement
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,doInBackground,Long Statement
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,getContentValues,Magic Number
+keepass2,keepass2android.softkeyboard,UserBigramDictionary,getFrequencyContentValues,Magic Number
+keepass2,keepass2android.softkeyboard,UpdateDbTask,doInBackground,Long Statement
+keepass2,keepass2android.softkeyboard,UpdateDbTask,getFrequencyContentValues,Magic Number
+keepass2,keepass2android.softkeyboard,UserDictionary,addWord,Magic Number
+keepass2,keepass2android.softkeyboard,WordComposer,WordComposer,Magic Number
+keepass2,keepass2android.softkeyboard,WordComposer,correctPrimaryJuxtapos,Complex Conditional
+keepass2,keepass2android.softkeyboard,WordComposer,correctPrimaryJuxtapos,Magic Number
+keepass2,keepass2android.yubiclip.scancode,KeyboardLayout,fromScanCodes,Magic Number
+keepass2,com.google.zxing.client.android,CaptureActivity,onResume,Complex Conditional
+keepass2,com.google.zxing.client.android,CaptureActivity,onResume,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivity,onKeyDown,Complex Conditional
+keepass2,com.google.zxing.client.android,CaptureActivity,onKeyDown,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivity,onOptionsItemSelected,Missing default
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecode,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecode,Long Statement
+keepass2,com.google.zxing.client.android,CaptureActivity,drawResultPoints,Complex Conditional
+keepass2,com.google.zxing.client.android,CaptureActivity,drawResultPoints,Long Statement
+keepass2,com.google.zxing.client.android,CaptureActivity,drawResultPoints,Magic Number
+keepass2,com.google.zxing.client.android,CaptureActivity,drawLine,Long Parameter List
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeInternally,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeInternally,Magic Number
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeExternally,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeExternally,Long Identifier
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeExternally,Long Statement
+keepass2,com.google.zxing.client.android,CaptureActivity,handleDecodeExternally,Magic Number
+keepass2,com.google.zxing.client.android,CaptureActivityHandler,CaptureActivityHandler,Long Parameter List
+keepass2,com.google.zxing.client.android,CaptureActivityHandler,CaptureActivityHandler,Long Statement
+keepass2,com.google.zxing.client.android,CaptureActivityHandler,handleMessage,Complex Method
+keepass2,com.google.zxing.client.android,CaptureActivityHandler,quitSynchronously,Empty catch clause
+keepass2,com.google.zxing.client.android,CaptureActivityHandler,quitSynchronously,Magic Number
+keepass2,com.google.zxing.client.android,DecodeFormatManager,parseDecodeFormats,Complex Conditional
+keepass2,com.google.zxing.client.android,DecodeFormatManager,parseDecodeFormats,Complex Method
+keepass2,com.google.zxing.client.android,DecodeFormatManager,parseDecodeFormats,Empty catch clause
+keepass2,com.google.zxing.client.android,DecodeHandler,decode,Empty catch clause
+keepass2,com.google.zxing.client.android,DecodeHandler,bundleThumbnail,Magic Number
+keepass2,com.google.zxing.client.android,DecodeHintManager,splitQuery,Complex Method
+keepass2,com.google.zxing.client.android,DecodeHintManager,parseDecodeHints,Complex Conditional
+keepass2,com.google.zxing.client.android,DecodeHintManager,parseDecodeHints,Complex Method
+keepass2,com.google.zxing.client.android,DecodeHintManager,parseDecodeHints,Long Statement
+keepass2,com.google.zxing.client.android,DecodeThread,DecodeThread,Long Parameter List
+keepass2,com.google.zxing.client.android,DecodeThread,getHandler,Empty catch clause
+keepass2,com.google.zxing.client.android,HttpHelper,downloadViaHttp,Missing default
+keepass2,com.google.zxing.client.android,HttpHelper,downloadViaHttp,Magic Number
+keepass2,com.google.zxing.client.android,HttpHelper,consume,Empty catch clause
+keepass2,com.google.zxing.client.android,HttpHelper,consume,Magic Number
+keepass2,com.google.zxing.client.android,HttpHelper,unredirect,Complex Method
+keepass2,com.google.zxing.client.android,HttpHelper,unredirect,Empty catch clause
+keepass2,com.google.zxing.client.android,HttpHelper,unredirect,Magic Number
+keepass2,com.google.zxing.client.android,InactivityTimer,doInBackground,Empty catch clause
+keepass2,com.google.zxing.client.android,InactivityAsyncTask,doInBackground,Empty catch clause
+keepass2,com.google.zxing.client.android,LocaleManager,getProductSearchCountryTLD,Long Identifier
+keepass2,com.google.zxing.client.android,LocaleManager,getBookSearchCountryTLD,Long Identifier
+keepass2,com.google.zxing.client.android,LocaleManager,getTranslatedAssetLanguage,Long Identifier
+keepass2,com.google.zxing.client.android,LocaleManager,getCountry,Complex Conditional
+keepass2,com.google.zxing.client.android,PreferencesFragment,disableLastCheckedPref,Magic Number
+keepass2,com.google.zxing.client.android,ScanFromWebPageManager,replace,Empty catch clause
+keepass2,com.google.zxing.client.android,ViewfinderView,ViewfinderView,Magic Number
+keepass2,com.google.zxing.client.android,ViewfinderView,onDraw,Complex Method
+keepass2,com.google.zxing.client.android,ViewfinderView,onDraw,Long Statement
+keepass2,com.google.zxing.client.android,ViewfinderView,onDraw,Magic Number
+keepass2,com.google.zxing.client.android,ViewfinderView,addPossibleResultPoint,Magic Number
+keepass2,com.google.zxing.client.android.book,BrowseBookListener,onItemClick,Long Statement
+keepass2,com.google.zxing.client.android.camera,AutoFocusManager,AutoFocusManager,Long Statement
+keepass2,com.google.zxing.client.android.camera,AutoFocusManager,doInBackground,Empty catch clause
+keepass2,com.google.zxing.client.android.camera,AutoFocusTask,doInBackground,Empty catch clause
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,setDesiredCameraParameters,Complex Conditional
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,setDesiredCameraParameters,Complex Method
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,setDesiredCameraParameters,Long Statement
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,setDesiredCameraParameters,Magic Number
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,getTorchState,Long Statement
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,doSetTorch,Long Statement
+keepass2,com.google.zxing.client.android.camera,CameraConfigurationManager,findBestPreviewSizeValue,Complex Method
+keepass2,com.google.zxing.client.android.camera,CameraManager,getFramingRect,Magic Number
+keepass2,com.google.zxing.client.android.camera,CameraManager,findDesiredDimensionInRange,Magic Number
+keepass2,com.google.zxing.client.android.camera,CameraManager,setManualFramingRect,Magic Number
+keepass2,com.google.zxing.client.android.encode,ContactEncoder,encode,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,ContactEncoder,doAppend,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,ContactEncoder,doAppendUpToUnique,Complex Conditional
+keepass2,com.google.zxing.client.android.encode,ContactEncoder,doAppendUpToUnique,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,ContactEncoder,doAppendUpToUnique,Magic Number
+keepass2,com.google.zxing.client.android.encode,EncodeActivity,onOptionsItemSelected,Missing default
+keepass2,com.google.zxing.client.android.encode,EncodeActivity,share,Empty catch clause
+keepass2,com.google.zxing.client.android.encode,EncodeActivity,onResume,Magic Number
+keepass2,com.google.zxing.client.android.encode,MECARDContactEncoder,encode,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,MECARDContactEncoder,encode,Magic Number
+keepass2,com.google.zxing.client.android.encode,MECARDContactEncoder,appendUpToUnique,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,encodeContentsFromZXingIntent,Empty catch clause
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,encodeFromTextExtras,Complex Method
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,encodeFromStreamExtra,Magic Number
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,encodeQRCodeContents,Complex Method
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,encodeQRCodeContents,Long Statement
+keepass2,com.google.zxing.client.android.encode,QRCodeEncoder,guessAppropriateEncoding,Magic Number
+keepass2,com.google.zxing.client.android.encode,VCardContactEncoder,encode,Long Parameter List
+keepass2,com.google.zxing.client.android.encode,VCardContactEncoder,encode,Magic Number
+keepass2,com.google.zxing.client.android.encode,VCardContactEncoder,appendUpToUnique,Long Parameter List
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,AddressBookResultHandler,Magic Number
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,handleButtonPress,Long Statement
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,handleButtonPress,Magic Number
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,handleButtonPress,Missing default
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,parseDate,Empty catch clause
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,getDisplayContents,Complex Method
+keepass2,com.google.zxing.client.android.result,AddressBookResultHandler,getDisplayContents,Magic Number
+keepass2,com.google.zxing.client.android.result,CalendarResultHandler,handleButtonPress,Long Statement
+keepass2,com.google.zxing.client.android.result,CalendarResultHandler,addCalendarEvent,Long Parameter List
+keepass2,com.google.zxing.client.android.result,CalendarResultHandler,addCalendarEvent,Magic Number
+keepass2,com.google.zxing.client.android.result,CalendarResultHandler,getDisplayContents,Magic Number
+keepass2,com.google.zxing.client.android.result,CalendarResultHandler,format,Long Statement
+keepass2,com.google.zxing.client.android.result,EmailAddressResultHandler,handleButtonPress,Long Statement
+keepass2,com.google.zxing.client.android.result,ISBNResultHandler,handleButtonPress,Magic Number
+keepass2,com.google.zxing.client.android.result,ProductResultHandler,handleButtonPress,Magic Number
+keepass2,com.google.zxing.client.android.result,ResultHandler,addContact,Complex Method
+keepass2,com.google.zxing.client.android.result,ResultHandler,addContact,Long Parameter List
+keepass2,com.google.zxing.client.android.result,ResultHandler,getDirections,Long Statement
+keepass2,com.google.zxing.client.android.result,ResultHandler,openProductSearch,Long Statement
+keepass2,com.google.zxing.client.android.result,ResultHandler,openURL,Magic Number
+keepass2,com.google.zxing.client.android.result,ResultHandler,fillInCustomSearchURL,Empty catch clause
+keepass2,com.google.zxing.client.android.result,ResultHandlerFactory,makeResultHandler,Complex Method
+keepass2,com.google.zxing.client.android.result,ResultHandlerFactory,makeResultHandler,Missing default
+keepass2,com.google.zxing.client.android.result,SMSResultHandler,getDisplayContents,Magic Number
+keepass2,com.google.zxing.client.android.result,TextResultHandler,handleButtonPress,Magic Number
+keepass2,com.google.zxing.client.android.result,URIResultHandler,handleButtonPress,Magic Number
+keepass2,com.google.zxing.client.android.result,WifiResultHandler,getDisplayContents,Magic Number
+keepass2,com.google.zxing.client.android.wifi,WifiConfigManager,doInBackground,Complex Method
+keepass2,com.google.zxing.client.android.wifi,WifiConfigManager,doInBackground,Empty catch clause
+keepass2,com.google.zxing.client.android.wifi,WifiConfigManager,doInBackground,Magic Number
+keepass2,com.google.zxing.client.android.wifi,WifiConfigManager,changeNetworkWEP,Magic Number
+keepass2,com.google.zxing.client.android.wifi,WifiConfigManager,changeNetworkWPA,Magic Number
+keepass2,keepass2android.plugin.qr,ActionReceiver,openEntry,Long Statement
+keepass2,keepass2android.plugin.qr,ActionReceiver,entryOutputModified,Long Statement
+keepass2,keepass2android.plugin.qr,MainActivity,onOptionsItemSelected,Long Statement
+keepass2,keepass2android.plugin.qr,MainActivity,onActivityResult,Complex Conditional
+keepass2,keepass2android.plugin.qr,MainActivity,onActivityResult,Complex Method
+keepass2,keepass2android.plugin.qr,MainActivity,onActivityResult,Magic Number
+keepass2,keepass2android.plugin.qr,MainActivity,onClick,Complex Conditional
+keepass2,keepass2android.plugin.qr,MainActivity,onCreateView,Magic Number
+keepass2,keepass2android.plugin.qr,MainActivity,onClick,Magic Number
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,onCreateView,Magic Number
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,onClick,Magic Number
+keepass2,keepass2android.plugin.qr,QRActivity,onCreate,Long Statement
+keepass2,keepass2android.plugin.qr,QRActivity,updateQrCode,Long Statement
+keepass2,keepass2android.plugin.qr,QRActivity,zoomImageFromThumb,Long Statement
+keepass2,keepass2android.plugin.qr,QRActivity,zoomImageFromThumb,Magic Number
+keepass2,keepass2android.plugin.qr,QRActivity,onClick,Long Statement
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,updateQrCode,Long Statement
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,zoomImageFromThumb,Long Statement
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,zoomImageFromThumb,Magic Number
+keepass2,keepass2android.plugin.qr,PlaceholderFragment,onClick,Long Statement
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,QRCodeEncoder,Long Parameter List
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,encodeContents,Empty catch clause
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,encodeQRCodeContents,Complex Method
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,encodeQRCodeContents,Long Method
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,encodeQRCodeContents,Magic Number
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,encodeAsBitmap,Magic Number
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,guessAppropriateEncoding,Magic Number
+keepass2,keepass2android.plugin.qr,QRCodeEncoder,escapeMECARD,Complex Conditional

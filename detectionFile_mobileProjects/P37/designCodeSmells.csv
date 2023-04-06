@@ -1,0 +1,21 @@
+Project Name,Package Name,Type Name,Code Smell
+Pedometer,de.j4velin.pedometer.ui,Dialog_Split,Cyclic-Dependent Modularization
+Pedometer,de.j4velin.pedometer.ui,Dialog_Statistics,Cyclic-Dependent Modularization
+Pedometer,de.j4velin.pedometer.ui,Fragment_Overview,Deficient Encapsulation
+Pedometer,de.j4velin.pedometer.ui,Fragment_Overview,Cyclic-Dependent Modularization
+Pedometer,de.j4velin.pedometer.ui,Fragment_Settings,Insufficient Modularization
+Pedometer,de.j4velin.pedometer.ui,Activity_Main,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.util,API26Wrapper,Deficient Encapsulation
+Pedometer,de.j4velin.pedometer.util,GoogleFit,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.util,Sync,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.util,PlayServices,Imperative Abstraction
+Pedometer,de.j4velin.pedometer.util,PlaySettingsWrapper,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer,AppUpdatedReceiver,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer,BootReceiver,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer,Database,Insufficient Modularization
+Pedometer,de.j4velin.pedometer,SensorListener,Deficient Encapsulation
+Pedometer,de.j4velin.pedometer,ShutdownRecevier,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.widget,DashClock,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.widget,Widget,Cyclic-Dependent Modularization
+Pedometer,de.j4velin.pedometer.widget,WidgetConfig,Unutilized Abstraction
+Pedometer,de.j4velin.pedometer.widget,WidgetUpdateService,Cyclic-Dependent Modularization

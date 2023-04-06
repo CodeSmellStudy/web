@@ -1,0 +1,4724 @@
+commit 5098ae8fe32e1e40f2e33a7504bb6f5c5f59f85f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 17 13:23:24 2018 +0800
+
+    Update README.md
+
+6	0	server/README.md
+
+commit 1670f9a38c314e58f3132b3c7daeef62e913e8f1
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 3 20:57:11 2017 +0800
+
+    Update README.md
+
+1	0	server/README.md
+
+commit 5b36b189a5c3ab3c8334c5a26152ac500d8d1c7d
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 3 20:52:25 2017 +0800
+
+    Update README.md
+
+2	0	server/README.md
+
+commit 7031fcee2e50e563ce75e7e6c6f882022b8accd1
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 3 20:51:53 2017 +0800
+
+    Update README.md
+
+1	1	server/README.md
+
+commit 83d851a8b2adda9d60f60bc1efda6aa4031aee4c
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 3 20:39:46 2017 +0800
+
+    Update README.md
+
+5	1	server/README.md
+
+commit b7cf0023897c2350ea12bb22cc1b74fe219f7ed0
+Author: wingjay <jay@glowing.com>
+Date:   Wed Jun 21 11:46:33 2017 +0800
+
+    Rename configure_server.md to README.md
+
+0	0	server/{configure_server.md => README.md}
+
+commit b321dc64e0da1e7b1593b968119cf2846c0d1edf
+Author: wingjay <jay@glowing.com>
+Date:   Wed Jun 21 11:46:21 2017 +0800
+
+    Update configure_server.md
+
+12	1	server/configure_server.md
+
+commit da784f9311d129e3448e2af40b54620e2751e503
+Author: wingjay <jay@glowing.com>
+Date:   Wed Jun 21 11:45:19 2017 +0800
+
+    Delete README.md
+
+0	8	server/README.md
+
+commit 4c164050767cce253ec77b30f729a89116ae74c1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Feb 23 10:26:24 2017 +0800
+
+    tweak
+
+13	10	server/server/data/poems.py
+2	2	server/server/www/user.py
+
+commit 4f53d059e883e95ec311782839dc8b28060acad2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Feb 23 10:07:00 2017 +0800
+
+    add jitpack maven
+
+1	0	android/build.gradle
+
+commit a8534fa84a3d080b93fd8f67ae2f2a4d8e5be107
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Feb 22 21:18:47 2017 +0800
+
+    remove unuseful library
+
+7	3	android/app/build.gradle
+0	1	android/app/src/main/AndroidManifest.xml
+0	5	android/build.gradle
+
+commit 35a71c9a76536fbd7630f1981d39c7bef70568d9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Feb 14 12:06:33 2017 +0800
+
+    tweak
+
+1	1	server/server/data/images.py
+
+commit 8c117f5ca64b22898868b8ed3c4be78e2b5082ae
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Feb 14 11:55:28 2017 +0800
+
+    tweak
+
+13	1	server/server/data/images.py
+12	1	server/server/data/poems.py
+
+commit 206279937871a37c3b1b9997afb5ce7d201a35ed
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Feb 5 21:42:11 2017 +0800
+
+    tweak
+
+1	1	server/server/data/images.py
+12	5	server/server/data/poems.py
+2	2	server/server/www/user.py
+
+commit e514aace129b3d03672618b99bbfcaec32c86fa6
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Jan 20 11:39:58 2017 +0800
+
+    tweak
+
+0	2	server/server/data/poems.py
+
+commit b1eddfd7320e50533e5fb0a85e68c2bfb7e74cf7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Jan 20 10:44:25 2017 +0800
+
+    tweak
+
+20	2	server/server/data/images.py
+17	8	server/server/data/poems.py
+1	1	server/server/www/user.py
+
+commit 398055221fa2af81ae64fc0b57b57ad1b8a23918
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Jan 17 11:53:35 2017 +0800
+
+    tweak pay developer text
+
+1	1	server/server/www/user.py
+
+commit ac6e4a0df8f0d95558aae9838c5f598c1fa34140
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Jan 17 11:12:08 2017 +0800
+
+    server 2.2.0
+
+2	2	server/server/data/android_version.py
+
+commit d397b6f764dd8f1ef3a3cdcec25c51a88bdd54c4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Jan 16 00:17:45 2017 +0800
+
+    app -> 2.2.0
+
+2	2	android/app/build.gradle
+
+commit ae967139c6ec213fffd3c46c67191dd2bdec0ffb
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Jan 16 00:14:27 2017 +0800
+
+    change pay developer description
+
+3	2	server/server/www/user.py
+
+commit b7ded2b8a1d6737c2e08d4b52633aff55a8a8c4f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Jan 16 00:08:26 2017 +0800
+
+    add pay developer
+
+2	2	android/app/build.gradle
+55	0	android/app/src/main/java/com/wingjay/jianshi/bean/PayDeveloperDialogData.java
+116	0	android/app/src/main/java/com/wingjay/jianshi/manager/PayDeveloperManager.java
+5	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+26	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+28	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+29	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+27	0	android/app/src/main/res/layout/activity_setting.xml
+10	0	android/app/src/main/res/values/strings.xml
+3	2	server/server/db/diary.py
+1	1	server/server/db/event_log.py
+1	1	server/server/logic/diary.py
+1	1	server/server/test/__init__.py
+21	1	server/server/www/user.py
+
+commit e96906d1da2f643a1297b09660d507b68f2dc8a1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Jan 1 11:41:13 2017 +0800
+
+    tweak
+
+1	1	server/server/data/images.py
+9	7	server/server/data/poems.py
+
+commit d55be1c1f714780035f55c984542218b2e94dd97
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Dec 30 16:38:49 2016 +0800
+
+    tweak image
+
+1	1	server/server/data/images.py
+1	4	server/server/data/poems.py
+
+commit ee7c140c0bb1b4eddb7f0f7c7d8c20abf6de2deb
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Dec 22 12:29:26 2016 +0800
+
+    tweak poem
+
+13	5	server/server/data/poems.py
+
+commit 382626da64091b01c32df43591732e0b6703a89f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Dec 20 16:16:19 2016 +0800
+
+    material tweak
+
+8	4	server/server/data/poems.py
+
+commit c3c88637bcba9a2a508c939e55ec8da4661b2c11
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Dec 20 15:40:06 2016 +0800
+
+    jianshi_images = christmas + winter
+
+1	1	server/server/data/images.py
+
+commit 2f3cbde663e74ee8d7e9f4f6d45b1e134f6809ad
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Dec 16 18:15:06 2016 +0800
+
+    upgrade -> 2.1.1
+
+3	0	android/CHANGELOG.md
+1	1	android/app/build.gradle
+
+commit 7fe84ea2f360e243455487ec6e0e4b156439fb72
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Dec 16 17:03:01 2016 +0800
+
+    [android] clear database when loging out
+
+4	1	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+
+commit 2aafe347e41fb34e849f077934b6b9f78188ed9a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Dec 15 12:08:51 2016 +0800
+
+    home image material change
+
+11	3	server/server/data/image_preview_script.py
+94	26	server/server/data/images.py
+1	1	server/server/data/preview.html
+1	3	server/server/www/user.py
+
+commit b819bad43d72e1519671f94dd01d866a64684054
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 22:36:33 2016 +0800
+
+    tweak
+
+1	1	server/conf/prod.py
+
+commit bbe11bcc90aad1a1665bd8abf5bcdda8a04e567f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 22:34:19 2016 +0800
+
+    tweak poems
+
+3	0	server/server/data/poems.py
+
+commit 1773dd86cdc714d8a05182a417d9c731dcbe43a8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 22:20:50 2016 +0800
+
+    image poem change by 1 min
+
+1	1	server/conf/prod.py
+
+commit cb3b84a833a06363b622b9cbe6e3ff526694bc7b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 22:00:54 2016 +0800
+
+    tweak for weibo
+
+0	4	server/server/data/poems.py
+
+commit 01d4ac731e104fff1d57b4c78021e076616b7032
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 21:59:17 2016 +0800
+
+    tweak poems for weibo
+
+15	1	server/server/data/poems.py
+1	1	server/server/data/share.py
+
+commit 7402d070c59c9682c2cbc14b691b33b1f5a69225
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 01:30:24 2016 +0800
+
+    upgrade text tweak
+
+1	1	server/server/data/android_version.py
+
+commit 2c6f47a2e5aeef94b405a9d6aad2ddbbf7dabe7d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 01:22:00 2016 +0800
+
+    new version in server to notify user
+
+7	2	server/server/data/android_version.py
+
+commit 24d147d524a9eaf9d3db9daf7fdd6a5bda6e9a00
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 01:19:48 2016 +0800
+
+    upgrade to 2.1
+
+3	0	android/CHANGELOG.md
+1	1	android/app/build.gradle
+
+commit ac1f7f2dec9e03e7fa0d6adfaccd03f560381e4e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 01:17:49 2016 +0800
+
+    show home imagepoem by default
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+
+commit 2c88d5bb11fc739b1c71023e846192c734e7ad3a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 01:17:14 2016 +0800
+
+    hide statusbar
+
+0	1	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	6	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+2	21	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+1	2	android/app/src/main/res/values-v21/styles.xml
+0	2	android/app/src/main/res/values/styles.xml
+
+commit 3e352eb06f9d7e4ab86af1fc86479d950f8ccdc1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 12 00:34:41 2016 +0800
+
+    add dialog for upgrading in home page
+
+0	14	android/app/src/main/java/com/wingjay/jianshi/manager/UpgradeManager.java
+2	3	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+35	0	android/app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+51	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	0	android/app/src/main/res/values/strings.xml
+
+commit f18404a285b5c9e44d677f49201dc80bf51e7c52
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Dec 11 23:57:48 2016 +0800
+
+    make setting page scrollable
+
+137	131	android/app/src/main/res/layout/activity_setting.xml
+
+commit d2353ac073eb8931b816c4f073ae9aebf0178988
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Dec 11 23:52:08 2016 +0800
+
+    change statusbar based on choosed theme
+
+2	1	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+6	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+26	1	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+1	1	android/app/src/main/res/layout/activity_splash.xml
+17	0	android/app/src/main/res/values-v21/styles.xml
+1	1	android/app/src/main/res/values/color.xml
+3	2	android/app/src/main/res/values/styles.xml
+
+commit 6942545c6f62c814b6c5f5be09d699617cdf53b0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Dec 11 23:24:25 2016 +0800
+
+    proper toast msg for signup/login error
+
+4	3	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+
+commit f1724d486d4face69e40e8e3fd134a516439014d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Dec 11 23:02:30 2016 +0800
+
+    move FullDateManager,ScreenshotManager into manager folder
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/{util => manager}/FullDateManager.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/{util => manager}/ScreenshotManager.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+1	0	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+
+commit 3a851e229278f1d5c3f58f79e75aea6e13ea5942
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Dec 11 22:48:48 2016 +0800
+
+    remove customizeTextView/EditText; depend on calligraphy library to manage font loading
+
+3	0	android/app/build.gradle
+8	2	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+5	5	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+7	0	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+2	3	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/ui/widget/TextPointView.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+0	46	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+0	38	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+0	43	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+2	2	android/app/src/main/res/layout/activity_edit.xml
+9	9	android/app/src/main/res/layout/activity_setting.xml
+7	7	android/app/src/main/res/layout/activity_signup.xml
+3	3	android/app/src/main/res/layout/activity_splash.xml
+2	2	android/app/src/main/res/layout/activity_view.xml
+3	3	android/app/src/main/res/layout/view_day_chooser.xml
+0	6	android/app/src/main/res/values/attrs.xml
+
+commit 9dea1fc3f33efc1e415976fd19ea6fba041200b1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Dec 6 11:18:02 2016 +0800
+
+    update images
+
+23	0	server/server/data/images.py
+1	1	server/server/data/preview.html
+
+commit 53462580e5b3954a84d9993a0d535fbe2bd4e130
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Dec 5 20:02:27 2016 +0800
+
+    update poems material
+
+1	0	server/server/data/images.py
+22	0	server/server/data/poems.py
+
+commit 238eadcba91bcb1adc398e17e75a0d0e445da731
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 27 01:48:42 2016 +0800
+
+    Update configure_server.md
+
+13	11	server/configure_server.md
+
+commit 3209a855a1f552047566b2912333a4378dcb185f
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 27 01:11:14 2016 +0800
+
+    Update configure_server.md
+
+2	1	server/configure_server.md
+
+commit 7c650c228cd485bea709d9c16fc5b47eb35b885b
+Author: wingjay <jay@glowing.com>
+Date:   Sat Nov 26 23:09:39 2016 +0800
+
+    Update configure_server.md
+
+1	2	server/configure_server.md
+
+commit 07872499d1b188e3cc980a16ef14afd20c4d7fc4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 26 16:22:16 2016 +0800
+
+    [server]format email
+
+12	0	server/server/__init__.py
+
+commit 5a14f15c598d50e74261fe5dc86a5b61f2dfc866
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 26 16:00:27 2016 +0800
+
+    remove backup RotatingFileHandler
+
+1	1	server/server/__init__.py
+1	1	server/server/www/base.py
+
+commit 9f14eb1893d9e038b3f387fd2e84794b8a49654f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 26 14:50:34 2016 +0800
+
+    [server]change logger.error -> logger.exception to send traceback to email
+
+6	6	server/server/db/diary.py
+1	1	server/server/db/event_log.py
+4	4	server/server/db/user.py
+1	1	server/server/www/base.py
+
+commit a365e55968339979b50e4778c37240a821dcc920
+Merge: 6e1c0ca 6979f04
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 22 14:11:57 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 6e1c0ca9f3642c262f789a84a53790c608e141ba
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 22 14:11:49 2016 +0800
+
+    [material]new images
+
+2	1	server/server/data/images.py
+
+commit 6979f048e5ed6f938a19f74a4f6f18b94e27de38
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 20 13:25:40 2016 +0800
+
+    Update CN_README.md
+
+5	1	CN_README.md
+
+commit 5113f2777cd039a61e49a9a56915f65a9dce1849
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 20 13:25:23 2016 +0800
+
+    Update README.md
+
+6	1	README.md
+
+commit ac3fc4355a431529127f16b29d19964285f41578
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 16 15:44:24 2016 +0800
+
+    Update README.md
+
+1	9	server/README.md
+
+commit 115d7ad179c8668568407ef32d2e07fc1aad0275
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 16 15:43:53 2016 +0800
+
+    Update README.md
+
+12	12	android/README.md
+
+commit 0060d29070ff33b946c588ee3313c1c358ac38d6
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 16 15:38:16 2016 +0800
+
+    add license
+
+10	8	CN_README.md
+12	9	README.md
+62	30	android/README.md
+3	1	server/README.md
+
+commit 038db12c7d410c5771d8360365335b0d3efd087d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 16 15:33:12 2016 +0800
+
+    [copyright] add copyright in android code
+
+10	0	android/app/src/androidTest/java/com/wingjay/jianshi/ApplicationTest.java
+10	0	android/app/src/debug/res/values/strings.xml
+10	0	android/app/src/main/AndroidManifest.xml
+10	0	android/app/src/main/java/com/wingjay/jianshi/Constants.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/bean/ImagePoem.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/bean/ShareContent.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/bean/SyncModel.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/bean/User.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/bean/VersionUpgrade.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/JianshiDatabase.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/model/EventLog.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/model/PushData.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/di/ForApplication.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/di/MiscComponent.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/events/InvalidUserTokenEvent.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/log/Blaster.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/log/LoggingData.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/manager/UpgradeManager.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/DiaryResponse.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/JsonDataResponse.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/UnStripable.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/Change.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/ChangedData.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/LocalUpdater.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/Operation.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncService.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseFragment.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/TextPointView.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/DeviceUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/FullDateManager.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/IntentUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/RequestUtils.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/RxUtil.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/ScreenshotManager.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+10	0	android/app/src/main/res/drawable/circle_corner_bg.xml
+10	0	android/app/src/main/res/drawable/ic_jianshi_stamp.xml
+10	0	android/app/src/main/res/drawable/jianshi_logo.xml
+10	0	android/app/src/main/res/drawable/light_grey_corner_bg.xml
+10	0	android/app/src/main/res/drawable/white_border.xml
+10	0	android/app/src/main/res/layout/activity_diary_list.xml
+10	0	android/app/src/main/res/layout/activity_edit.xml
+10	0	android/app/src/main/res/layout/activity_main.xml
+10	0	android/app/src/main/res/layout/activity_setting.xml
+10	0	android/app/src/main/res/layout/activity_signup.xml
+10	0	android/app/src/main/res/layout/activity_splash.xml
+10	0	android/app/src/main/res/layout/activity_view.xml
+10	0	android/app/src/main/res/layout/fragment_bg_color_pick.xml
+10	0	android/app/src/main/res/layout/fragment_date_pick.xml
+10	0	android/app/src/main/res/layout/fragment_day_pick.xml
+10	0	android/app/src/main/res/layout/item_diary_list.xml
+10	0	android/app/src/main/res/layout/view_bg_color_pick.xml
+10	0	android/app/src/main/res/layout/view_day_chooser.xml
+10	0	android/app/src/main/res/layout/view_three_line_poem.xml
+10	0	android/app/src/main/res/menu/menu_base.xml
+10	0	android/app/src/main/res/menu/menu_date_choose.xml
+10	0	android/app/src/main/res/menu/menu_diary_list.xml
+10	0	android/app/src/main/res/menu/menu_edit.xml
+10	0	android/app/src/main/res/menu/menu_main.xml
+10	0	android/app/src/main/res/menu/menu_setting.xml
+10	0	android/app/src/main/res/menu/menu_splash.xml
+10	0	android/app/src/main/res/menu/menu_view.xml
+10	0	android/app/src/main/res/values-w820dp/dimens.xml
+10	0	android/app/src/main/res/values/attrs.xml
+10	0	android/app/src/main/res/values/color.xml
+10	0	android/app/src/main/res/values/dimens.xml
+10	0	android/app/src/main/res/values/strings.xml
+10	0	android/app/src/main/res/values/styles.xml
+
+commit 5094929831c5feb483c2fc900c6a10f3b304ebf1
+Merge: 6af4bd9 23e6267
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 16 10:28:34 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 6af4bd9168df5aa80650dd022861d02ab33d189d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 16 10:28:15 2016 +0800
+
+    fix local BASE_URL for those who don't setup local server
+
+3	1	android/app/build.gradle
+1	1	android/app/src/main/res/layout/activity_signup.xml
+
+commit 23e62673b1a2a6d14d055f4ffcbbf18e68e22132
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 14 21:36:18 2016 +0800
+
+    Update CN_README.md
+
+11	8	CN_README.md
+
+commit b2fd33adf13b7e368c245111953e588d32861ce8
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 14 21:35:36 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 6fc4cc16a011459102b1ed770a5445ffe17c8778
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 14 21:35:04 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit a12ab14686058ff2e9e40e3124f06bc0b348eb4e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 13 20:56:18 2016 +0800
+
+    tweak
+
+1	1	server/conf/prod.py
+
+commit 8b48d369ec05c821d0006b7d20034c103cc24ff3
+Merge: ab1eaa3 6bc8bcf
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 13 20:35:57 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit ab1eaa3d1d97926417d83b6b8355d07bbbe9977e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 13 20:35:28 2016 +0800
+
+    [material] tweak
+
+1	1	server/conf/prod.py
+14	0	server/server/data/image_preview_script.py
+2	15	server/server/data/images.py
+8	0	server/server/data/poems.py
+1	0	server/server/data/preview.html
+
+commit 6bc8bcfc50363dc7503a20e016a312d26ad5f20f
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 13 14:08:21 2016 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 8885189aa9ce64206cbd98f6a028dbc6996a4132
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 13 14:06:28 2016 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit b4a02b74b3bfb002f6dc14b6c083c5b09d0bcc92
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 13 14:05:24 2016 +0800
+
+    Update README.md
+
+9	8	README.md
+
+commit be653fed7434a38494915155b5f75bb7c780a4a8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 13 12:13:35 2016 +0800
+
+    [materail] rename
+
+-	-	material/screenshots/with_phone/{IMG_4652.PNG => 1.PNG}
+-	-	material/screenshots/with_phone/{IMG_4650.PNG => 2.PNG}
+-	-	material/screenshots/with_phone/{IMG_4648.PNG => 3.PNG}
+-	-	material/screenshots/with_phone/{IMG_4651.PNG => 4.PNG}
+-	-	material/screenshots/with_phone/5.jpg
+-	-	material/screenshots/with_phone/6.png
+-	-	material/screenshots/with_phone/{IMG_4646.PNG => 7.PNG}
+-	-	material/screenshots/with_phone/{IMG_4647.PNG => 8.PNG}
+
+commit 488f72221de458cba6554780e55430a566a569d7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 13 11:49:45 2016 +0800
+
+    [materail] tweak
+
+-	-	material/screenshots/with_phone/IMG_4646.PNG
+-	-	material/screenshots/with_phone/IMG_4647.PNG
+-	-	material/screenshots/with_phone/IMG_4648.PNG
+-	-	material/screenshots/with_phone/IMG_4649.PNG
+-	-	material/screenshots/with_phone/IMG_4650.PNG
+-	-	material/screenshots/with_phone/IMG_4651.PNG
+-	-	material/screenshots/with_phone/IMG_4652.PNG
+3	1	server/server/data/images.py
+
+commit 01046f8f759ae564fe63f0ebb0da79b655c0aa3c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Nov 10 21:27:12 2016 +0800
+
+    [material] add images
+
+-	-	material/icon_136_136.png
+-	-	material/icon_168_168.png
+-	-	material/icon_192_192.png
+-	-	material/icon_224_224.png
+-	-	material/icon_90_90.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-45-16.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-45-48.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-46-02.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-46-09.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-48-11.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-18-48-18.png
+-	-	material/screenshots/xiaomi/Screenshot_2016-11-10-19-11-11.png
+-	-	material/screenshots/xiaomi/temp(17).jpg
+
+commit 37dff83fdf6bca191f35972bd63a23d8a82c11cc
+Merge: e300cb6 04fcc5d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Nov 10 11:06:04 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi
+
+commit 04fcc5de5b04fd2c220f40d804aaa22b25096101
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Nov 10 10:44:08 2016 +0800
+
+    [server] tweak unspalsh image crop
+
+1	1	server/server/data/images.py
+
+commit d5ed3e800bcca6fe6b431e76b62a9e9680f2fc1a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Nov 10 10:21:45 2016 +0800
+
+    [material]
+
+-	-	material/icon_16_16.png
+-	-	material/screenshots/3 copy.png
+-	-	material/xiaomilogo.png
+
+commit 47e325f458d6b6e330802edb5645baf347e69bc8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Nov 10 10:21:03 2016 +0800
+
+    tweak
+
+1	1	server/server/__init__.py
+
+commit e300cb6d7f97b0662c03b576d882c90b1587a5d5
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 21:23:01 2016 +0800
+
+    Update README.md
+
+7	4	README.md
+
+commit ee620380f1f01abccb5cf945d49d85d42c0aaaf0
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 21:22:56 2016 +0800
+
+    Update CN_README.md
+
+67	1	CN_README.md
+
+commit 725aff33a5e3d01521013c253afc68e0f06c7fa0
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:52:57 2016 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 68f40c50b56c3648ff16af1f91259620bc190b63
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:52:13 2016 +0800
+
+    Update README.md
+
+38	10	README.md
+
+commit cf04154866f5aeaf1230b72c4d86005206a51c82
+Merge: f2781a6 a941095
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:45:49 2016 +0800
+
+    Merge pull request #54 from wingjay/v2.0
+    
+    V2.0
+
+commit a9410959bdabd22c70a39f7a46a4b385d5d8b21d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 19:45:17 2016 +0800
+
+    tweak
+
+-	-	material/tech/server-architecture.png
+-	-	material/tech/server-architecture.tiff
+
+commit a2d06c12cc8d7c990118560dc3878bfa4ae21510
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 19:44:27 2016 +0800
+
+    [material] add server structure image
+
+-	-	material/tech/server-architecture.tiff
+
+commit f2781a62d913ec2e437a1d6367e217840e7d0c12
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:25:00 2016 +0800
+
+    Rename CN_README to CN_README.md
+
+0	0	CN_README => CN_README.md
+
+commit 033a400dfae3e95b6e8f66d204bcc9111be31cb6
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:24:48 2016 +0800
+
+    Create CN_README
+
+1	0	CN_README
+
+commit 0094e7cd1da931e55bc4d0f9a4d1f1c852c4a9e2
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:21:11 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 6b3c152459e513539e3071b09e50b7edb2d2f0cf
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:20:29 2016 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 401a5bfd94bd866127880541f11b3320b6ecb570
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:18:19 2016 +0800
+
+    Update README.md
+
+8	4	README.md
+
+commit 8a43e45c762cfb5f07e82d36d931e7d99d8f452d
+Merge: 5e7df01 09a0d14
+Author: wingjay <jay@glowing.com>
+Date:   Wed Nov 9 19:14:46 2016 +0800
+
+    Merge pull request #53 from wingjay/v2.0
+    
+    V2.0!!!
+
+commit 09a0d14dcef7653610158dbe1eee4edd6b53cbe9
+Merge: 6dd03de 5e7df01
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 19:11:40 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi into v2.0
+
+commit 6dd03deae61184632103a343080fd7d2409b3a48
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 18:18:28 2016 +0800
+
+    tweak
+
+13	9	server/server/www/user.py
+
+commit 124b45f6c020dda0d738b996390aa292e1d4b6d7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 18:12:16 2016 +0800
+
+    app -> 2.0.0. Finally~
+
+3	3	android/app/build.gradle
+3	3	server/server/data/android_version.py
+
+commit 4a06fc8d290109e80ea5a00e59b268fc9cf0a1ed
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 17:52:14 2016 +0800
+
+    tweak
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/bean/ShareContent.java
+1	1	android/app/src/main/res/values/strings.xml
+-	-	material/icon.png
+-	-	material/screenshots/2 copy.jpg
+-	-	material/screenshots/Login.png
+-	-	material/screenshots/banner.png
+
+commit 5e3015957d93dddb62d8ec72275980392556474a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 17:08:09 2016 +0800
+
+    [material] tweak images
+
+-	-	material/screenshots/1.png
+-	-	material/screenshots/2 copy.jpg
+
+commit 541318b6f3542aefa3bdf79d8c4dc25a4a04caea
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 16:55:31 2016 +0800
+
+    [material] update screenshots
+
+-	-	material/screenshots/1.jpeg
+-	-	material/screenshots/1.png
+-	-	material/screenshots/2.jpeg
+-	-	material/screenshots/2.jpg
+-	-	material/screenshots/3.jpeg
+-	-	material/screenshots/3.png
+-	-	material/screenshots/4.png
+-	-	material/screenshots/5.png
+-	-	material/screenshots/6.png
+-	-	material/screenshots/7.png
+-	-	material/screenshots/8.png
+-	-	material/screenshots/category.png
+
+commit b54b42f1920901ba33d3d36bb7dc2fdbbe4c8fc8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 16:38:26 2016 +0800
+
+    tweak
+
+2	0	android/.gitignore
+
+commit f4e96639a102c8537f831fd2817449f57be91989
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 15:13:08 2016 +0800
+
+    app->1.9.4
+
+1	1	android/app/build.gradle
+1	1	server/server/data/android_version.py
+
+commit 220531bc52bfdd3b452c293044bfe4bb78bc3caf
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 15:10:21 2016 +0800
+
+    [android] add write file permission
+
+1	0	android/app/src/main/AndroidManifest.xml
+1	1	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+2	0	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+4	2	android/app/src/main/java/com/wingjay/jianshi/util/ScreenshotManager.java
+
+commit 2dc974befc040a7be2b1fb91859e60a72f96d4c9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 14:50:38 2016 +0800
+
+    [android] add random string in http request to invalidate http cache
+
+11	4	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+29	0	android/app/src/main/java/com/wingjay/jianshi/util/RequestUtils.java
+
+commit 66da843fab8b175dabd4495b4dd131dc0ba965af
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 9 14:46:26 2016 +0800
+
+    [android+Server] refactor share logic, make share_text controlled by server
+
+23	0	android/app/src/main/java/com/wingjay/jianshi/bean/ShareContent.java
+23	19	android/app/src/main/java/com/wingjay/jianshi/manager/UpgradeManager.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+45	30	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+0	76	android/app/src/main/java/com/wingjay/jianshi/util/CaptureViewUtil.java
+4	2	android/app/src/main/java/com/wingjay/jianshi/util/IntentUtil.java
+98	0	android/app/src/main/java/com/wingjay/jianshi/util/ScreenshotManager.java
+4	0	android/app/src/main/res/values/strings.xml
+4	0	server/server/data/share.py
+13	1	server/server/www/user.py
+
+commit 33ff091b22299933d7f009d97d06591eaf120f57
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 23:18:46 2016 +0800
+
+    [material] tweak images
+
+-	-	material/screenshots/Login.png
+-	-	material/screenshots/View.png
+
+commit 5e7914463409cf7de301fa3d08d1491a71f3a5ef
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 23:11:21 2016 +0800
+
+    app->1.9.3
+
+1	1	android/app/build.gradle
+1	1	server/server/data/android_version.py
+
+commit 983a30d5e05ab8d32382c93682f6d5f0cbcd17c9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 23:04:15 2016 +0800
+
+    [server]tweak logging
+
+4	4	server/server/__init__.py
+
+commit aa84137199e786112ab18694078c43b7f44e23ff
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 22:48:23 2016 +0800
+
+    tweak
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+6	0	server/server/www/base.py
+
+commit a1728ec52020467b2845edf4ad28532ee4c340e2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 22:32:10 2016 +0800
+
+    [server] newest android version -> 1.9.2
+
+6	1	server/server/data/android_version.py
+2	1	server/server/data/images.py
+
+commit ecf27a5e2268b89e8afec698e24320cc4532339e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 22:29:55 2016 +0800
+
+    app -> 1.9.2
+
+1	1	android/app/build.gradle
+
+commit 40d394d3e225c9afa02114ca6af0dd48469836f1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 22:11:34 2016 +0800
+
+    [android+server] make home image_poem fetch time gap controlled by server
+
+0	3	android/app/src/main/java/com/wingjay/jianshi/Constants.java
+7	0	android/app/src/main/java/com/wingjay/jianshi/bean/ImagePoem.java
+8	9	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+37	30	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+3	0	server/conf/prod.py
+1	1	server/server/data/images.py
+5	2	server/server/www/user.py
+
+commit dc8f6d1436a5ac66f7495a1c1b482faf7e5a4e57
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 21:51:36 2016 +0800
+
+    [android+server] home image fetched by phoen screen width height
+
+1	1	android/app/build.gradle
+7	0	android/app/src/main/java/com/wingjay/jianshi/log/LoggingData.java
+2	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+31	22	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+8	1	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+1	1	android/app/src/main/res/layout/activity_main.xml
+61	48	server/server/data/images.py
+7	2	server/server/www/user.py
+
+commit 02b859c7568c74cfa918d55a524a704e23ef1d1a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 00:53:47 2016 +0800
+
+    [doc] improve doc
+
+36	0	server/configure_server.md
+
+commit 5a878259807b97ad1e0968212cf44ddf14f3fa0c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 00:33:10 2016 +0800
+
+    [server]tweak
+
+1	0	server/server/__init__.py
+
+commit 980defe05f91dddce4ae21f4e93548ac46eb16f4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 8 00:29:11 2016 +0800
+
+    [server] server error email reporter
+
+2	1	server/conf/all.py
+10	0	server/server/__init__.py
+
+commit fb9998d37d7b2c052ca1e18a4030c49d8a7481a7
+Merge: b620a91 1df9f9d
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 23:12:27 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit b620a910bd0c323c110e2dc0e16fd906387e60da
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 23:12:03 2016 +0800
+
+    [Android] optimize Share experience
+
+29	31	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	1	server/server/www/user.py
+
+commit 1df9f9d5ec8e75d3c70096a9d8278abd88823dd2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 23:05:57 2016 +0800
+
+    [android]tweak wording for signup login
+
+15	12	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+5	1	android/app/src/main/res/values/strings.xml
+
+commit 454138f0e3316bc1d623e23743ce64febf40ccf1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 23:01:07 2016 +0800
+
+    [android] password must longger than 6
+
+6	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+1	0	android/app/src/main/res/values/strings.xml
+
+commit 9a5ba134cb6a92ab375a668d426738801c7d8d59
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 22:52:02 2016 +0800
+
+    [android] loading when login or signup
+
+17	3	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+2	0	android/app/src/main/res/values/strings.xml
+
+commit 2bd40da1506def48aebe40c24b06a2dfeeced19b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 22:51:46 2016 +0800
+
+    [server] make server support both ip address & domain name
+
+1	1	server/configure_server.md
+
+commit a58adbd8ba9802bcf079a3d74ebeb0670a3d452f
+Merge: cdba42a 9796501
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 22:39:18 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit cdba42af4d93a2fdc614cde70967f8bf04eddb07
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 22:33:23 2016 +0800
+
+    [Android + Server] download link
+
+1	1	README.md
+1	1	android/app/build.gradle
+3	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+36	6	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+5	1	server/server/www/user.py
+
+commit 97965017dddf4050b4df844cf6cb928e8ee1afb7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 22:28:15 2016 +0800
+
+    [android+server] finish app upgrade logic
+
+30	0	android/app/src/main/java/com/wingjay/jianshi/bean/VersionUpgrade.java
+66	0	android/app/src/main/java/com/wingjay/jianshi/manager/UpgradeManager.java
+2	0	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+6	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+17	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+5	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+80	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	62	android/app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+32	0	android/app/src/main/res/layout/activity_setting.xml
+1	0	android/app/src/main/res/values/dimens.xml
+7	1	android/app/src/main/res/values/strings.xml
+1	0	server/server/__init__.py
+17	0	server/server/data/android_version.py
+160	0	server/server/util/mathutil.py
+11	1	server/server/www/user.py
+
+commit c8679677c4dfdb49eb0bdb90f61bc20666c0a14c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 20:56:06 2016 +0800
+
+    [android] ui tweak https://github.com/wingjay/jianshi/issues/46
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+4	4	android/app/src/main/res/layout/activity_edit.xml
+14	13	android/app/src/main/res/layout/activity_main.xml
+6	7	android/app/src/main/res/layout/activity_setting.xml
+2	2	android/app/src/main/res/layout/activity_splash.xml
+3	3	android/app/src/main/res/layout/activity_view.xml
+3	3	android/app/src/main/res/layout/view_bg_color_pick.xml
+5	1	android/app/src/main/res/values/dimens.xml
+
+commit dadc0f108941e39a81a7851ee28a01113f1fb78d
+Merge: a8c7cac 585acc7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 19:19:35 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit a8c7cacf7a1999ba4327dca6be4dc49bbf001ff4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 19:19:22 2016 +0800
+
+    [material] add home images asset
+
+5	1	server/server/data/images.py
+
+commit 585acc7ab9629619ced4fc1637ba149413d5010e
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 7 19:16:30 2016 +0800
+
+    Update configure_server.md
+
+1	1	server/configure_server.md
+
+commit 3173e63085d8995fd8fa0622664b71bd2a2962b7
+Merge: ab02e0f e00607f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 19:15:00 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit ab02e0fb662d410a42af70a2c29f242b01d31007
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 19:14:20 2016 +0800
+
+    [android] change ip address to jianshi.wingjay.com
+
+1	1	android/app/build.gradle
+
+commit e00607ffae72ea05b076b6a24e4011b340e20d2e
+Merge: 8a75a42 9d43d22
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 19:12:31 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 8a75a425442b5c522691be40ca81f83876adc6f8
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 19:12:03 2016 +0800
+
+    [Android] add missing logging
+
+2	0	android/app/src/main/java/com/wingjay/jianshi/log/LoggingData.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+
+commit 9d43d22fb2901a29b52b7d42d5d8665dad8a104e
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 7 17:10:18 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit b0bfd056ab72a692edd432d61c1df2b1e167c096
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 7 17:09:57 2016 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit b838a5b7e86f5290ef855944a38001e66987224d
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 7 17:09:10 2016 +0800
+
+    Update README.md
+
+8	5	README.md
+
+commit fe275a8a85b1c50895fefc105ecb122bd7f4527a
+Merge: 75abc32 d5ff1dc
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 17:04:26 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 75abc321cfa041b9d6562aab78a9d14595a7f538
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 17:04:12 2016 +0800
+
+    [material] update asset
+
+-	-	material/screenshots/1.jpeg
+-	-	material/screenshots/2.jpeg
+-	-	material/screenshots/3.jpeg
+1	0	server/server/data/images.py
+
+commit dec6a6a1cd13cee7a07b9819af0e015f40bdf321
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 17:03:56 2016 +0800
+
+    [android] app -> 1.9.1
+
+12	0	android/CHANGELOG.md
+1	1	android/app/build.gradle
+
+commit d5ff1dcdbced8f6cbc103df1ec6b3670bf920e32
+Author: wingjay <jay@glowing.com>
+Date:   Mon Nov 7 16:58:33 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit f9f75f741a335ea20fcac76545df8b8cfbfca6bc
+Merge: 5003b65 1076cf2
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 16:15:45 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 1076cf2974c0aed6051b1e1c7089948fe09caed8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 16:14:38 2016 +0800
+
+    [android] bugfix: view page cannot render due to HorizontalScrollView unknown width
+
+2	3	android/app/src/main/res/layout/activity_view.xml
+
+commit 5003b65dea8a55d03b35f6fabba1f9abd2b80f39
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 16:02:27 2016 +0800
+
+    [Android] optimize DiaryService
+
+3	4	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+
+commit eeaf62afd957d026f615ca61cff1764d58d71270
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 15:49:59 2016 +0800
+
+    [android] fix home image transparent layer bug
+
+1	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+16	6	android/app/src/main/res/layout/activity_main.xml
+
+commit 3340e9731bec1191b005b3f97676242a6db2f17e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 15:10:24 2016 +0800
+
+    [material]tweak poems
+
+1	4	server/server/data/poems.py
+
+commit f47a143724950c636d694a514b486f6464847c36
+Merge: 4a8f497 ba55e7d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 15:06:31 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 4a8f4971bd0cc3d35bc9fff21e1800899822f88c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Nov 7 15:05:59 2016 +0800
+
+    [server]refactor image_poem data
+
+1	1	android/app/build.gradle
+0	65	material/images
+0	41	server/server/data/home_images.py
+45	0	server/server/data/images.py
+16	0	server/server/data/poems.py
+7	3	server/server/www/user.py
+
+commit ba55e7d231243f68046f6dfdde0388b069668ec0
+Merge: fc9d104 b9e5a3f
+Author: RayPan <ray@glowing.com>
+Date:   Mon Nov 7 11:29:55 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit fc9d104df4eb091a2caa9d1111ae3752f33f1de7
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 23:49:58 2016 +0800
+
+    update readme
+
+1	0	README.md
+
+commit a1ffc83663d056e3de2262ff920e010ba12bc5ed
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 23:26:18 2016 +0800
+
+    [android] app -> 1.9.0
+
+1	1	android/app/build.gradle
+
+commit 3661b2e33b7796247492dfdfc4eb084f6b36536d
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 23:14:50 2016 +0800
+
+    Update readme
+
+9	11	README.md
+-	-	material/screenshots/Login.png
+-	-	material/screenshots/View.png
+-	-	material/screenshots/category.png
+-	-	material/screenshots/shareImage.png
+-	-	material/sketchui/Jianshi.sketch
+
+commit b9e5a3f8df56e1bf8876075c02b2adab75db6dd6
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 22:55:51 2016 +0800
+
+    remove release apk
+
+-	-	android/app/app-release.apk
+
+commit 141cf439ea87303531df61d771238a9fea212d9f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 22:54:02 2016 +0800
+
+    tweak readme
+
+1	0	README.md
+
+commit 54ff5a4caaa84671025682326d3658bdf6615e60
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 17:36:13 2016 +0800
+
+    [android] fix proguard & tweak ui
+
+-	-	android/app/app-release.apk
+11	1	android/app/proguard-rules.pro
+3	2	android/app/src/main/java/com/wingjay/jianshi/{network/model => bean}/SyncModel.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+7	0	android/app/src/main/java/com/wingjay/jianshi/network/UnStripable.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+3	1	android/app/src/main/res/layout/activity_view.xml
+2	1	android/app/src/main/res/values/color.xml
+
+commit e3b0d7adb56417c37e03ef4ede69f83bce60af9b
+Merge: 0fe055e b2ec175
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 16:45:26 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 0fe055ef3dda50cac90899bb7250922d62695389
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 16:45:13 2016 +0800
+
+    [android] tweak proguard
+
+2	0	.gitignore
+-	-	android/app/app-release.apk
+1	1	android/app/build.gradle
+15	1	android/app/proguard-rules.pro
+
+commit b2ec175e6c1e8f1610998fd8ca149dffca0a82ba
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 16:25:48 2016 +0800
+
+    [android]bugfix for inject & proguard
+
+2	2	android/app/build.gradle
+3	0	android/app/proguard-rules.pro
+3	0	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+2	16	android/app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+0	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncService.java
+14	8	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+5	3	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+9	2	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+0	17	android/app/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+
+commit 6a1d53032a98a0cd3ee4ce999aaa60714f958e4e
+Merge: 75471c1 ae3d86c
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 15:00:05 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 75471c1d9db15ab89ca27ccbae7d0028afd750e2
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 14:59:02 2016 +0800
+
+    [Android] fix signup UI
+
+-	-	android/app/src/main/assets/fonts/libian.TTF
+0	4	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+0	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+13	0	android/app/src/main/res/drawable/jianshi_logo.xml
+14	24	android/app/src/main/res/layout/activity_signup.xml
+1	1	android/app/src/main/res/values/styles.xml
+-	-	material/sketchui/Jianshi.sketch
+
+commit ae3d86c548178c58f7c04b001bd2a9b3aa280dff
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 13:46:08 2016 +0800
+
+    [server] improve schema execute method: auto fetch sql files from schema/
+
+13	11	server/server/db/init.py
+6	5	server/server/test/__init__.py
+2	1	server/server/test/test_all.py
+
+commit cc18ef85a7d6c3e7d6580d930d1b3ff8eee33252
+Merge: bcf3926 b2df5f6
+Author: wingjay <jay@glowing.com>
+Date:   Sun Nov 6 11:19:13 2016 +0800
+
+    Merge pull request #41 from wingjay/jianshi-ray
+    
+    [server] Add EventLog Table
+
+commit bcf39265a15562ce909da19f0487761e4f799767
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 04:01:54 2016 +0800
+
+    improve doc
+
+40	1	server/configure_server.md
+
+commit b2df5f67ac4d24888e4973a1f8cd01389abee94e
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 03:38:34 2016 +0800
+
+    rm dev.py from git
+
+1	0	server/.gitignore
+0	18	server/conf/dev.py
+
+commit c43ef5f72cf492254ee7ac002f1c2358027012ff
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 03:27:29 2016 +0800
+
+    [Android] delete old dbOperation Code
+
+0	70	android/app/src/main/java/com/wingjay/jianshi/bean/Diary.java
+0	39	android/app/src/main/java/com/wingjay/jianshi/bean/Table.java
+0	3	android/app/src/main/java/com/wingjay/jianshi/bean/User.java
+0	34	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+0	58	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+0	110	android/app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+0	23	android/app/src/main/java/com/wingjay/jianshi/db/JianshiDatabase.java
+1	0	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+0	11	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+1	11	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+
+commit 0479a2cf7d16004a8918e39c5e0ff46170adf79a
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 03:16:31 2016 +0800
+
+    [Android] Add Logging for client
+
+62	0	android/app/src/main/java/com/wingjay/jianshi/db/model/EventLog.java
+20	0	android/app/src/main/java/com/wingjay/jianshi/log/Blaster.java
+25	0	android/app/src/main/java/com/wingjay/jianshi/log/LoggingData.java
+2	3	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+1	2	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+38	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+1	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncService.java
+6	1	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+5	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+3	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+5	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+5	0	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	1	server/server/logic/sync.py
+1	1	server/server/www/sync.py
+
+commit 2f960813d94b33e38bc2a94ae7f35d7ab898f59f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 02:25:25 2016 +0800
+
+    [server] make live server run on 0.0.0.0
+
+2	1	server/wsgi.py
+
+commit f4b0d90923d422b91d44d832b0b824450919765a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 02:06:58 2016 +0800
+
+    [server] move logs directory outside server logic
+
+1	0	server/.gitignore
+9	6	server/configure_server.md
+4	4	server/server/__init__.py
+
+commit 3eac4bd8eea06faee4297d5c7cec503f92580222
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 01:53:27 2016 +0800
+
+    twea
+
+22	0	server/configure_server.md
+2	2	server/runserver.py
+1	1	server/wsgi.py
+
+commit a360284129f86268bad04088927d2eb144a5bffe
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 01:33:32 2016 +0800
+
+    tweak doc
+
+16	11	server/configure_server.md
+
+commit 918663292637987ca129ed8b692aac9d02d789aa
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 01:16:38 2016 +0800
+
+    [server] change instance/config generate logic
+
+2	5	server/configure_server.md
+0	10	server/runserver.py
+9	0	server/server/__init__.py
+
+commit c33b5403293ab4ed91c7f5e5691b8c173036d555
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 00:58:19 2016 +0800
+
+    [server] tweak
+
+1	1	server/configure_server.md
+1	1	server/requirements.txt
+
+commit 8774986a7e6c31d4e68cd9141c165f1d195dd7f3
+Merge: cfa44b6 d46380f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 00:55:55 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit cfa44b69e9bddf89c32dd0d5981ab85497cbf9aa
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Nov 6 00:49:40 2016 +0800
+
+    add server configuration doc
+
+45	2	server/configure_server.md
+
+commit 615c4f5ffafa368b6dbbf1909ed86791028776c0
+Author: RayPan <ray@glowing.com>
+Date:   Sun Nov 6 00:47:15 2016 +0800
+
+    [Android] fix DBFlow bug
+
+2	2	android/app/build.gradle
+4	5	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+
+commit caf7d4e9b752efe5bb9c11895732d28cbfdcecac
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 5 23:20:42 2016 +0800
+
+    add configure_server doc
+
+138	0	server/configure_server.md
+
+commit c1d9ee8102a40810ce37550120c6905a7ed3aa54
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 5 23:12:55 2016 +0800
+
+    [server] fit for gunicor
+
+2	0	server/requirements.txt
+4	0	server/wsgi.py
+
+commit 692dd4f8c9d56fbadd4d2bf49f86d8a83c660aff
+Author: RayPan <ray@glowing.com>
+Date:   Sat Nov 5 23:07:52 2016 +0800
+
+    [server] Add EventLog Table
+
+3	3	server/conf/dev.py
+1	0	server/server/__init__.py
+31	0	server/server/db/event_log.py
+4	0	server/server/db/init.py
+8	0	server/server/db/schema/0001/event_log.sql
+43	0	server/server/logic/sync.py
+30	0	server/server/test/sync_test.py
+7	1	server/server/www/sync.py
+
+commit 15cfe214a0b72e890dd3a908c6fba582f4dd55c7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 5 21:52:34 2016 +0800
+
+    tweak
+
+3	1	server/runserver.py
+
+commit d46380f57296d1068d8b83da1b91b0ff3cc008b5
+Merge: 4810efe c4f1839
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Sat Nov 5 18:55:45 2016 +0800
+
+    Merge pull request #40 from Panl/v2.0
+    
+    optimize login UI
+
+commit 4810efe51812216fa9024e5c1933c606cdc68838
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Nov 5 12:41:15 2016 +0800
+
+    [material] add images
+
+53	1	material/images
+
+commit 81d5009b3225af1b2126146d1743e4d3d450c72e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Nov 2 08:43:24 2016 +0800
+
+    tweak images
+
+3	1	material/images
+
+commit 0d4c71df46b1fa304a64269953290326e896a68e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 22:01:02 2016 +0800
+
+    [server] server 401
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+1	1	server/server/www/base.py
+
+commit f0a2204f458e52627597213ba38105d48b3a3c0d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 21:58:12 2016 +0800
+
+    [design] add some beautiful images
+
+3	1	material/images
+9	9	server/server/data/home_images.py
+
+commit f571eb24d6d2c3b089519d183abac974fd5518fe
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 21:47:22 2016 +0800
+
+    [android] set refresh time limit for image_poem
+
+3	0	android/app/src/main/java/com/wingjay/jianshi/Constants.java
+11	0	android/app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+38	2	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+28	14	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+
+commit 0cbe7890e28e11d13f34dda19fc6bf99369fab85
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 21:19:42 2016 +0800
+
+    [server]add more image_poem
+
+9	0	material/images
+15	0	material/poem.md
+33	1	server/server/data/home_images.py
+4	1	server/server/www/user.py
+
+commit c4f183996e650eb6e9ad7dd631bb64bb1a21759a
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Tue Nov 1 21:05:53 2016 +0800
+
+    optimize login UI
+
+-	-	material/sketchui/Jianshi.sketch
+
+commit 036221e75bfc34271712750a7661b2110d2a80e5
+Merge: 68ea5a5 e6ee34a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 20:47:29 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 68ea5a5506294c23c61d6cee599abfb48f8a4fa8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Nov 1 20:43:54 2016 +0800
+
+    tweak
+
+19	0	material/poem.md
+-	-	{sketchui => material/sketchui}/Jianshi.sketch
+3	0	server/server/data/home_images.py
+
+commit 5e7df01c97ae7d4b46e2146d2ad069979ca21f14
+Author: wingjay <jay@glowing.com>
+Date:   Tue Nov 1 17:28:57 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit cd453c930f89290fbb19ba36146235631896424f
+Author: wingjay <jay@glowing.com>
+Date:   Tue Nov 1 17:28:26 2016 +0800
+
+    Update README.md
+
+2	5	README.md
+
+commit 03d548c4d329da873bdf9472ed8d169fdf9de3ce
+Author: wingjay <jay@glowing.com>
+Date:   Tue Nov 1 17:26:08 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit e6ee34a289bf75dcf90a83cab3baf05e9de65a07
+Author: wingjay <jay@glowing.com>
+Date:   Tue Nov 1 17:26:08 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 5915eea861b9dca2601b2fb0aae69d6639563318
+Author: wingjay <jay@glowing.com>
+Date:   Mon Oct 31 23:30:41 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit d22ab1e60d6fce665ec71e63e6e7409252e4e808
+Author: wingjay <jay@glowing.com>
+Date:   Mon Oct 31 23:30:41 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit e92a675da16323fac0f98a94c20dbdbf8cef11b7
+Merge: 392afac 9eaa215
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 17:20:53 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 9eaa2151c6da1ba0edaaa0ff9ce7411fe687ab3d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 17:10:50 2016 +0800
+
+    [server] cannot import server.db in server.db.diary
+
+1	1	server/server/__init__.py
+1	2	server/server/data/home_images.py
+0	44	server/server/db/__init__.py
+2	1	server/server/db/diary.py
+44	0	server/server/db/init.py
+1	1	server/server/db/user.py
+1	1	server/server/test/__init__.py
+
+commit 928d68ab6ca43d19d45faa2a3405a978c685f856
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 17:10:25 2016 +0800
+
+    [android] add setting for turn-on home image poem
+
+10	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+23	27	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+9	0	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+22	0	android/app/src/main/res/layout/activity_setting.xml
+-	-	android/app/src/main/res/mipmap-xxhdpi/default_home_image.jpeg
+1	0	android/app/src/main/res/values/strings.xml
+
+commit 392afac358f3828f1fdefb37e35bec39a3c25fac
+Merge: e7baacd 6476374
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 17:08:49 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit e7baacda6396170f623ea0020df72f78093b1902
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 17:06:31 2016 +0800
+
+    [Android] add jianshi_stamp to share image
+
+16	5	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+11	4	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+1	4	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+12	0	android/app/src/main/res/drawable/ic_jianshi_stamp.xml
+23	1	android/app/src/main/res/layout/activity_view.xml
+-	-	sketchui/Jianshi.sketch
+
+commit 6476374d02663b659f62dfe11dc3fdd6cd5ceb59
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 16:18:24 2016 +0800
+
+    [android]bugfix: register eventbus only when Activity needs
+
+6	2	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+12	2	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+2	3	server/server/www/base.py
+
+commit 73471ff15c062618797a9c7ef81ae3bc3b1119eb
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 15:45:40 2016 +0800
+
+    [android+server] auto logout for invalid token; add home imagePoem api; introduce EventBus
+
+2	0	android/app/build.gradle
+25	0	android/app/src/main/java/com/wingjay/jianshi/bean/ImagePoem.java
+7	0	android/app/src/main/java/com/wingjay/jianshi/events/InvalidUserTokenEvent.java
+7	7	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+9	1	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+5	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+52	3	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+19	13	android/app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+5	2	android/app/src/main/res/values/strings.xml
+7	0	server/server/data/home_images.py
+5	3	server/server/www/base.py
+8	2	server/server/www/user.py
+
+commit b91b5e849c53c4596efb8a9ee4ec111f4931d05e
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 15:32:06 2016 +0800
+
+    [UI] share captureImage UI
+
+-	-	sketchui/Jianshi.sketch
+
+commit ab34bc0f0f8bba268f220cea6d3e1696177eb574
+Merge: a52f178 006b38e
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 13:55:02 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit a52f178ae0bfef9dc80d1f41c5b2235794153586
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 13:54:38 2016 +0800
+
+    [Android] optimize diarylist
+
+5	0	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+5	3	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+
+commit 006b38ec72653459f01aae44c0e30fe25a9b3062
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 13:51:01 2016 +0800
+
+    [server] running all unit test immediately
+
+8	4	server/server/test/__init__.py
+6	0	server/server/test/test_all.py
+43	16	server/server/test/test_db_diary.py
+9	4	server/server/test/test_db_user.py
+
+commit 518a17ffc0ca72a6d9952c42f697f5e823071ae5
+Merge: 9f93bff cfd90d4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 13:10:33 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 9f93bff074237eb7bfc034a646d9b1be22562d7d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 13:08:11 2016 +0800
+
+    [android] add background image for home page
+
+3	0	android/app/build.gradle
+3	0	android/app/proguard-rules.pro
+37	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+58	43	android/app/src/main/res/layout/activity_main.xml
+2	1	server/server/logic/user.py
+
+commit cfd90d42c1d3b0d1ee7ac8963a143bf85d6451ad
+Merge: a44c54e 767b4a4
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 03:51:45 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit a44c54ebf4ddb98a158e5030532ec4a12177cc32
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 03:04:19 2016 +0800
+
+    [Android] add share screenshot function
+
+37	0	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+76	0	android/app/src/main/java/com/wingjay/jianshi/util/CaptureViewUtil.java
+31	0	android/app/src/main/java/com/wingjay/jianshi/util/IntentUtil.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+21	10	android/app/src/main/res/layout/activity_view.xml
+3	1	android/app/src/main/res/values/strings.xml
+
+commit 767b4a42486a434f612068234ccf212e27768dc0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 01:33:50 2016 +0800
+
+    [android] finish logout logic
+
+56	0	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+24	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+8	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncService.java
+5	4	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	1	android/app/src/main/res/layout/activity_signup.xml
+
+commit 00bda2159d5223ced960aaa0cbcce1858e366c0f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 00:47:59 2016 +0800
+
+    [android] login after successful signup
+
+1	1	android/app/build.gradle
+1	0	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+15	5	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+0	1	android/app/src/main/res/layout/activity_signup.xml
+
+commit 21a9c98e8a117dcb3f19b0c780d300ded0eeb768
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 00:40:21 2016 +0800
+
+    [android]tweak
+
+1	0	android/app/src/main/res/values/styles.xml
+
+commit 5c12ddd07c51e2b7cc52e3ab67bda2bcc4aa6177
+Merge: 201781f 56595d3
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 00:33:08 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 56595d3f0023eb6c8a99933f8a8418e39c9f0ec9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 00:31:07 2016 +0800
+
+    [android] set skip button visible for debug
+
+12	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+0	1	android/app/src/main/res/layout/activity_signup.xml
+
+commit 201781ff30f21183da3d9b23c7116289a9a08f66
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 30 00:24:22 2016 +0800
+
+    [Android] Optimize CustomizeEditText
+
+8	31	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+15	21	android/app/src/main/res/layout/activity_view.xml
+-	-	sketchui/Jianshi.sketch
+
+commit 7c956e56b7a184b42cc984427a0ca4d473c82a82
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 30 00:02:56 2016 +0800
+
+    [android]new signup UI
+
+7	3	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+10	7	android/app/src/main/java/com/wingjay/jianshi/ui/widget/TextPointView.java
+91	146	android/app/src/main/res/layout/activity_signup.xml
+2	0	android/app/src/main/res/values/color.xml
+6	0	android/app/src/main/res/values/dimens.xml
+16	0	android/app/src/main/res/values/strings.xml
+19	0	android/app/src/main/res/values/styles.xml
+
+commit 81e82f1c100e9ab711b4605c2615d0a56bff3740
+Merge: f020c21 5394dc6
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 29 21:12:19 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit f020c21480a0b9c51c2773b66407b06736cce758
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 29 21:04:55 2016 +0800
+
+    [Android] refactor MultipleRowTextView, [UI] add Artboard to upload to zeplin
+
+16	26	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+100	129	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+6	5	android/app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+18	0	android/app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+5	8	android/app/src/main/res/layout/activity_view.xml
+-	-	sketchui/Jianshi.sketch
+
+commit 44d97db038f36887a1a6f993ddf2a845fd20604f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 29 18:01:33 2016 +0800
+
+    [android] introduce UserManager to handle login/signup
+
+99	0	android/app/src/main/java/com/wingjay/jianshi/manager/UserManager.java
+27	69	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+1	0	android/app/src/main/res/values/strings.xml
+
+commit 5394dc6d1b68295c930a993dc810ec9111712fdd
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 29 17:35:28 2016 +0800
+
+    [android] bugfix textPointerView background color
+
+10	9	android/app/src/main/java/com/wingjay/jianshi/ui/widget/TextPointView.java
+
+commit 95328f5c4d50551f9a482508a4bdf81504114b4f
+Merge: 154d88a 336c663
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 29 16:58:24 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 154d88afc602604970fd064ba0c5eb895f1d9b95
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 29 16:57:52 2016 +0800
+
+    [server] add unit test for user signup login token
+
+2	0	server/server/logic/user.py
+15	1	server/server/test/__init__.py
+7	19	server/server/test/test_db_diary.py
+36	0	server/server/test/test_db_user.py
+
+commit 5ef848246dd9e4d51b2f1c44d8a96bce1e04aaa4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 29 16:20:35 2016 +0800
+
+    [server] change name login -> email login
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+2	1	server/requirements.txt
+12	2	server/server/data/errors.py
+6	6	server/server/db/__init__.py
+4	1	server/server/db/schema/0001/diary.sql
+7	5	server/server/db/schema/0001/user.sql
+50	26	server/server/db/user.py
+5	7	server/server/logic/user.py
+7	0	server/server/util/regxutils.py
+4	10	server/server/www/user.py
+
+commit 336c6630c8eac849069ac1f9adb030f6b487df90
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 29 15:19:37 2016 +0800
+
+    Add jianshi_dev.jks
+
+14	9	android/app/build.gradle
+-	-	android/app/jianshi_dev.jks
+4	0	android/app/src/debug/res/values/strings.xml
+
+commit 9693b0bf5839c8e891396d7fb8dcae0994f6b41e
+Merge: b71af2f 90c77f9
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Sat Oct 29 12:39:18 2016 +0800
+
+    Merge pull request #33 from Panl/v2.0
+    
+    [UI] change toast UI
+
+commit 90c77f9acdfa5471f0a942908ddb526a96f0e459
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Sat Oct 29 10:32:53 2016 +0800
+
+    [UI] change toast UI
+
+-	-	sketchui/Jianshi.sketch
+
+commit b71af2f8517ed7bf5b97098de8b44c849b7f94d8
+Author: RayPan <ray@glowing.com>
+Date:   Fri Oct 28 10:24:11 2016 +0800
+
+    [UI] optimize login UI
+
+-	-	sketchui/Jianshi.sketch
+
+commit 1afe885517706d84f4e1ddc237a5cd73dad1a918
+Merge: a983e1c 6fac4b6
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Fri Oct 28 10:18:21 2016 +0800
+
+    Merge pull request #32 from Panl/v2.0
+    
+    V2.0
+
+commit 6fac4b6decd8681558112bfa0ea2a45b42e43280
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Fri Oct 28 00:24:52 2016 +0800
+
+    [UI] design login UI, Desigin Custom Toast
+
+-	-	sketchui/Jianshi.sketch
+
+commit a983e1c76c1611717dd466770e97a8a990b682ab
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 27 00:49:37 2016 +0800
+
+    [android] simple signup ui
+
+0	1	android/app/build.gradle
+45	41	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+5	0	android/app/src/main/res/drawable/circle_corner_bg.xml
+5	0	android/app/src/main/res/drawable/light_grey_corner_bg.xml
+141	37	android/app/src/main/res/layout/activity_signup.xml
+5	0	android/app/src/main/res/values/color.xml
+7	0	android/app/src/main/res/values/strings.xml
+
+commit 6a7bb522347c0b9aa15bf036a93bf5a1b762b785
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Thu Oct 27 00:44:23 2016 +0800
+
+    [UI] Add ViewUI
+
+-	-	sketchui/Jianshi.sketch
+
+commit 5df1cc037b9c5f865b94f477150023f3b9576904
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 23:46:19 2016 +0800
+
+    [android] support logout
+
+3	0	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+1	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+12	4	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+9	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+27	3	android/app/src/main/res/layout/activity_setting.xml
+8	0	android/app/src/main/res/layout/activity_signup.xml
+2	0	android/app/src/main/res/values/strings.xml
+5	0	android/app/src/main/res/values/styles.xml
+
+commit a8de811d04124c3c43693ed01a4874e249248bc9
+Merge: 4ead1c9 8794569
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 23:05:17 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 4ead1c9d356f7b3fe09bcdf36b79c3ec94023c8a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 22:29:07 2016 +0800
+
+    [android] refactor RedPointView, rename it to TextPointView
+
+3	3	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+0	54	android/app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+107	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/TextPointView.java
+0	6	android/app/src/main/res/drawable/red_circle_bg.xml
+1	1	android/app/src/main/res/layout/activity_diary_list.xml
+1	1	android/app/src/main/res/layout/activity_edit.xml
+3	3	android/app/src/main/res/layout/activity_main.xml
+1	1	android/app/src/main/res/layout/activity_splash.xml
+1	1	android/app/src/main/res/layout/activity_view.xml
+1	1	android/app/src/main/res/layout/view_bg_color_pick.xml
+0	20	android/app/src/main/res/layout/view_red_point.xml
+0	8	android/app/src/main/res/layout/view_writer.xml
+2	1	android/app/src/main/res/values/attrs.xml
+1	0	android/app/src/main/res/values/dimens.xml
+
+commit 87945690e6cf484d249cdcd514e12eebefe193eb
+Merge: 7c8137a 73db8b9
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Wed Oct 26 22:25:35 2016 +0800
+
+    Merge pull request #31 from Panl/v2.0
+    
+    [Android] UI Optimize
+
+commit 73db8b98bdd10dd737df627d5fb954fe3dc96561
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Wed Oct 26 22:17:26 2016 +0800
+
+    [Android] UI Optimize
+
+1	61	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+4	36	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+1	1	android/app/src/main/res/drawable/white_border.xml
+34	55	android/app/src/main/res/layout/activity_setting.xml
+2	2	android/app/src/main/res/layout/activity_view.xml
+1	1	android/app/src/main/res/values/color.xml
+
+commit 7c8137a34211b46db36517326d814bf1354cb7e6
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 21:06:31 2016 +0800
+
+    [android] fix inject bug
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+
+commit 58495f778a73807bcff742e2162923b0c3215684
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 18:14:08 2016 +0800
+
+    [android] clean old upgrade logic based on fir.im
+
+0	6	android/app/src/main/AndroidManifest.xml
+1	18	android/app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+
+commit cb2f2a10a3633df04280656bf4a5309b4286f3a0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 12:45:02 2016 +0800
+
+    [android] tweak constants
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/{util/ConstantUtil.java => Constants.java}
+0	2	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+0	10	android/app/src/main/java/com/wingjay/jianshi/network/RCCode.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+
+commit be6871021db0f02db7d5cfe3d00a56c5ea20b282
+Merge: 46a4b8d b3ede73
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 12:43:39 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi into v2.0
+
+commit 46a4b8d03d999b6bc41e0afd1cc44f98cb055779
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 12:42:13 2016 +0800
+
+    [android] inject gson object
+
+11	10	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+24	0	android/app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+0	26	android/app/src/main/java/com/wingjay/jianshi/util/GsonUtil.java
+
+commit b3ede73f33b9e0c9e8166585e54f9ab9b01569ab
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 12:27:15 2016 +0800
+
+    [android]tweak db version
+
+42	44	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+
+commit d366d065d4d4b65fa315cb55594c07b630afb577
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 12:18:34 2016 +0800
+
+    [android]tweak constant util
+
+0	10	android/app/src/main/java/com/wingjay/jianshi/JianshiConstant.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+3	3	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+7	2	android/app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+
+commit 39b895380a354cd20ba5d2a6ba3bc1319d09b256
+Author: wingjay <jay@glowing.com>
+Date:   Wed Oct 26 00:58:06 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 2b821d109bc633f919f36430b053c43d704fb6c9
+Author: wingjay <jay@glowing.com>
+Date:   Wed Oct 26 00:56:44 2016 +0800
+
+    Update README.md
+
+5	5	README.md
+
+commit da5cf042a3d6d8aec2dc887e80bc03c0c3a304d7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:50:17 2016 +0800
+
+    tweak
+
+5	8	server/README.md
+
+commit 3d5eb87d5514c484aa7178125fc50916f76ee730
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 01:12:57 2016 +0800
+
+    tweak .gitignore
+
+3	0	server/.gitignore
+
+commit caedc75323dc419894cc80f98569afbeb2d08224
+Merge: 3efeaa1 9b4661c
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Wed Oct 26 01:11:22 2016 +0800
+
+    Merge pull request #29 from Panl/v2.0
+    
+    [android] refactor DiaryList UI
+
+commit 9b4661cca70828ba352f97b4a8d9bdfd48cdb656
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Wed Oct 26 01:04:05 2016 +0800
+
+    [android] refactor DiaryList UI
+
+1	1	android/app/src/main/java/com/wingjay/jianshi/bean/Diary.java
+14	2	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+16	7	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+27	18	android/app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+25	12	android/app/src/main/java/com/wingjay/jianshi/util/FullDateManager.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+18	14	android/app/src/main/res/layout/activity_diary_list.xml
+27	48	android/app/src/main/res/layout/item_diary_list.xml
+
+commit 3efeaa1e707f599811077cf54d06868152293f60
+Author: wingjay <jay@glowing.com>
+Date:   Wed Oct 26 00:58:06 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 134d8280a2c17a5e3f86b8374037f0cfbacac5aa
+Author: wingjay <jay@glowing.com>
+Date:   Wed Oct 26 00:56:44 2016 +0800
+
+    Update README.md
+
+5	5	README.md
+
+commit 52cc276a081c9ab4538c4d0abd0725701e39ab75
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:50:17 2016 +0800
+
+    tweak
+
+5	8	server/README.md
+0	0	server/jianshi.log
+
+commit 470fdc1a33834089a23c6ed7a2a2da6799e83e55
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:28:16 2016 +0800
+
+    [server]auto generate instance directory before running
+
+1	1	server/conf/dev.py
+15	3	server/runserver.py
+
+commit 9604f6cc75e60ec31a68df2f7f8668b3ff6c48d1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:19:12 2016 +0800
+
+    tweak
+
+1	1	server/.gitignore
+0	8	server/server/conf/all.py
+0	12	server/server/logs/jianshi.log
+0	152	server/server/logs/jianshi.log.1
+
+commit 20e37c13b6b74bc64ed65083f3108c9bf889134c
+Merge: 9d57cba fc23e97
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:17:56 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 9d57cbafb8d44c57aa35cfe9f84891d4fc4c702b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Oct 26 00:11:51 2016 +0800
+
+    [server] construct config system; store sensetive password into hidden config
+
+2	0	server/.gitignore
+0	0	server/{server => }/conf/__init__.py
+9	0	server/conf/all.py
+18	0	server/conf/dev.py
+4	0	server/conf/prod.py
+9	1	server/server/__init__.py
+0	8	server/server/conf/all.py
+2	3	server/server/db/__init__.py
+1	1	server/server/logic/user.py
+8	5	server/server/util/safetyutils.py
+
+commit 5727cda1c035244704d522353edde7f894c7d7e3
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Oct 25 23:13:17 2016 +0800
+
+    tweak
+
+1	1	server/server/logic/sync.py
+0	3	server/server/logs/jianshi.log
+
+commit fc23e9785bd98b11744034fc1d05f4284070da88
+Author: RayPan <ray@glowing.com>
+Date:   Tue Oct 25 14:06:39 2016 +0800
+
+    [UI] add jianshi.sketch
+
+-	-	sketchui/Jianshi.sketch
+
+commit b8e51a26c70ba3fd621d1480801f1f9ea7146e89
+Merge: 68de008 d3133c6
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Tue Oct 25 01:10:18 2016 +0800
+
+    Merge pull request #28 from Panl/v2.0
+    
+    V2.0
+
+commit d3133c6b25a3969094765f28b7da858155e7a7ad
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Tue Oct 25 00:30:20 2016 +0800
+
+    [Android] Show TimeStamp at ViewActivity
+
+0	12	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+6	1	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	3	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+42	87	server/server/logs/jianshi.log
+115	68	server/server/logs/jianshi.log.1
+
+commit 3b17d5484a2d4ba9ed9af6d27306cc026b67b2dd
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Tue Oct 25 00:07:15 2016 +0800
+
+    [Android]fix sync crash, [Server] add getIp method in runserver.py
+
+2	2	android/app/build.gradle
+2	1	android/app/src/main/java/com/wingjay/jianshi/sync/Change.java
+37	26	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+6	1	server/runserver.py
+3	3	server/server/conf/all.py
+43	0	server/server/logs/jianshi.log
+
+commit 61108c674417b21e342646b84711cbaf659f22e8
+Merge: f942d69 68de008
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Mon Oct 24 23:09:54 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit f942d694e9848ee544cf9874aac2f24cdb3f53df
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Mon Oct 24 23:02:43 2016 +0800
+
+    [Android] complete Sync
+
+1	1	android/app/build.gradle
+28	24	android/app/src/main/AndroidManifest.xml
+9	1	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+2	0	android/app/src/main/java/com/wingjay/jianshi/di/MiscComponent.java
+10	0	android/app/src/main/java/com/wingjay/jianshi/network/RCCode.java
+2	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+57	0	android/app/src/main/java/com/wingjay/jianshi/network/model/SyncModel.java
+17	8	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+41	18	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+49	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncService.java
+2	6	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+93	3	server/server/logs/jianshi.log
+105	0	server/server/logs/jianshi.log.1
+
+commit 68de0087de65272f8ce3c028f3e96e54dd5a35b2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 24 22:14:27 2016 +0800
+
+    [android]change indent to 2
+
+1	1	android/app/src/main/AndroidManifest.xml
+8	8	android/app/src/main/java/com/wingjay/jianshi/bean/Diary.java
+24	24	android/app/src/main/java/com/wingjay/jianshi/bean/Table.java
+46	46	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+78	78	android/app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+45	45	android/app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+9	9	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+43	43	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+56	56	android/app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	3	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+4	4	android/app/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+43	43	android/app/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+69	69	android/app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+123	123	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+41	41	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+105	105	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+179	179	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+29	29	android/app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+24	29	android/app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+31	31	android/app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+38	38	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+38	38	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+39	39	android/app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+119	119	android/app/src/main/java/com/wingjay/jianshi/util/FullDateManager.java
+8	8	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+88	90	android/app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+28	28	android/app/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+48	48	android/app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+
+commit 75a78096635edc0e90c29d1d228269dddba5c841
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 24 22:04:21 2016 +0800
+
+    [android]auto fetch local ip address as base_url
+
+21	8	android/app/build.gradle
+
+commit bd96d4114e0fa40d1ed65beb38ab9d523e2eae56
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 24 21:27:15 2016 +0800
+
+    add exception handler for db layer of diary
+
+1	1	server/.gitignore
+19	1	server/server/data/errors.py
+36	10	server/server/db/diary.py
+1	1	server/server/logic/sync.py
+1	1	server/server/www/base.py
+1	1	server/server/www/diary.py
+
+commit 479990df040e8bb0607d7e8d9cfd28a3ef402e60
+Merge: 93e9838 0fd5e91
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 24 20:46:16 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 93e98384c56a00b2bae99e406510630cd7f9ea05
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 24 20:44:05 2016 +0800
+
+    tweak python module requirements
+
+2	1	server/requirements.txt
+
+commit 0fd5e912b2b29e68522711acccb6186d0bfc1ae4
+Author: RayPan <ray@glowing.com>
+Date:   Mon Oct 24 12:46:44 2016 +0800
+
+    Add font mingchaoti.otf
+
+-	-	android/app/src/main/assets/fonts/jianshi_default.otf
+2	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+
+commit d89e182d505085d6d06792f3fc104b8d404406d7
+Author: RayPan <ray@glowing.com>
+Date:   Mon Oct 24 11:54:46 2016 +0800
+
+    [Android] add skip button
+
+5	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+5	0	android/app/src/main/res/layout/activity_signup.xml
+
+commit a6a5d17c4c04a0c5a4e789533bcb2106f1543874
+Merge: 4009bf5 da296ed
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 18:26:54 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 4009bf5886f42d5544525d048a5ddd7542f0439d
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 18:26:41 2016 +0800
+
+    [android] fix time format
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+2	1	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+2	1	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+3	2	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+20	18	android/app/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+3	0	server/server/logs/jianshi.log
+
+commit da296ed17e29c795dd06edb2bca87f20b23caa6f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 18:22:50 2016 +0800
+
+    [server] sync fix
+
+2	0	server/.gitignore
+2	3	server/server/db/diary.py
+4	0	server/server/logic/sync.py
+18	2	server/server/www/base.py
+0	2	server/server/www/sync.py
+
+commit 4f239bcd2e7a54e6bff2e7645536b344a72a3731
+Merge: ce98336 66fb73b
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 17:39:28 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit ce9833658960360f27a6b7ce1c1f956f35b864f2
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 17:37:30 2016 +0800
+
+    [android] fix timber ,[server] create jianshi.log if not exit
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+0	0	server/jianshi.log
+3	6	server/server/__init__.py
+
+commit 66fb73be45a00741756019fd14c38277a078b1be
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 17:35:03 2016 +0800
+
+    tweak gitignore
+
+2	0	server/.gitignore
+
+commit 46ac5ce0f451f503973c13aa0ad49455aaa8a309
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 17:08:41 2016 +0800
+
+    [server] encrypt issue:AES key must be either 16, 24, or 32 bytes long
+
+1	1	server/server/util/safetyutils.py
+
+commit e94500af234af2a3ba5b6dfc63e21df7889dba59
+Merge: c2d02e9 691bd6c
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 17:02:48 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 691bd6ccbc26cbeb35c75c641f3173681654d24c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 17:02:21 2016 +0800
+
+    tweak gitignore
+
+2	4	server/.gitignore
+0	0	server/server/logs/jianshi.log
+
+commit c2d02e931ceaad9e156c64be0042a25de83786bb
+Merge: e188278 8700768
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 16:57:26 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit e188278517b116cc6b2eaf8ada8968380aebdf4b
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 16:56:11 2016 +0800
+
+    [Android] delete useless fons and integrate with Timber
+
+1	1	android/app/build.gradle
+-	-	android/app/src/main/assets/fonts/default.otf
+-	-	android/app/src/main/assets/fonts/fzqt.TTF
+-	-	android/app/src/main/assets/fonts/fzqtf.ttf
+-	-	android/app/src/main/assets/fonts/jdjl.TTF
+-	-	android/app/src/main/assets/fonts/popular.ttf
+-	-	android/app/src/main/assets/fonts/qingkai.ttf
+-	-	android/app/src/main/assets/fonts/zhongshan.ttf
+42	12	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+3	4	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+13	8	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+21	23	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+1	1	server/server/www/sync.py
+
+commit 8700768a7c619570e56b1fa4e648cf416f296d9d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 16:52:23 2016 +0800
+
+    [server] add logger for better logging
+
+19	1	server/server/__init__.py
+1	1	server/server/logic/sync.py
+2	0	server/server/www/base.py
+5	2	server/server/www/sync.py
+
+commit 678291fea3f06c9ccd1e0d5f067e09e39f0d6540
+Merge: cbdc724 5a66eb8
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 15:47:17 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit cbdc72460029083b8044d457118cf97490cd48a9
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 15:46:48 2016 +0800
+
+    [Android] add time for pushData
+
+10	0	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+1	0	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+0	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+34	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+13	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+
+commit 5a66eb8274a0bd2040ce31f697897864326117f0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 15:45:55 2016 +0800
+
+    tweak
+
+2	1	server/server/__init__.py
+
+commit fa7b469f1e86bdcccb93c17423be5bf40599b803
+Merge: 9c1ba55 d8a2eb5
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 14:37:17 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 9c1ba55ca404cc23f3fe81864f28438ad597973c
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 14:36:53 2016 +0800
+
+    [Android]Add PushData Table
+
+48	0	android/app/src/main/java/com/wingjay/jianshi/db/model/PushData.java
+16	0	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+7	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+30	0	android/app/src/main/java/com/wingjay/jianshi/sync/Change.java
+56	0	android/app/src/main/java/com/wingjay/jianshi/sync/ChangedData.java
+9	0	android/app/src/main/java/com/wingjay/jianshi/sync/LocalUpdater.java
+18	0	android/app/src/main/java/com/wingjay/jianshi/sync/Operation.java
+29	0	android/app/src/main/java/com/wingjay/jianshi/sync/SyncManager.java
+26	0	android/app/src/main/java/com/wingjay/jianshi/util/GsonUtil.java
+
+commit d8a2eb51b6807cebe40ea9ff2be606c5bbff97e8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 14:28:16 2016 +0800
+
+    [server] tweak sync api
+
+3	3	server/server/www/sync.py
+
+commit e9732b6df4d64cdfa7ccec3e99fa44be761ccb66
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 14:27:01 2016 +0800
+
+    [server] add unit test for server sync data
+
+17	10	server/server/logic/sync.py
+60	0	server/server/test/test_db_diary.py
+
+commit 985109e6e3a10cd2c4fc1b8b2f7fa4697f232bde
+Merge: ccd2e40 8354e74
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 13:44:18 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit ccd2e40e579317ed0a1320f8efd87eec9f5a5f18
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 13:43:38 2016 +0800
+
+    [server] finish pull & push logic; add unit test for diary db actions
+
+25	17	server/server/db/diary.py
+2	2	server/server/db/schema/0001/diary.sql
+70	45	server/server/logic/sync.py
+89	0	server/server/test/test_db_diary.py
+
+commit 95a74de0936f25adbcf4e5db9550d8a41b49fed4
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 12:28:19 2016 +0800
+
+    add diary list click listener
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+5	1	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+2	4	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+8	0	android/app/src/main/java/com/wingjay/jianshi/di/MiscComponent.java
+34	1	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+58	56	android/app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+1	5	android/app/src/main/java/com/wingjay/jianshi/util/FullDateManager.java
+
+commit 8354e7445172de0af3d1b0b978a790db64ec1ee3
+Merge: 63e9785 37f7ac2
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 02:32:05 2016 +0800
+
+    Merge branch 'v2.0' of github.com:wingjay/jianshi into v2.0
+
+commit 63e97853146cea18b50918b7f26f04b41a697b80
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 02:31:26 2016 +0800
+
+    fix migration bug
+
+2	2	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+
+commit 0c1fc7d2d68962776efb813c33be9fc86b7e4c95
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 02:30:54 2016 +0800
+
+    migrate CRUD to DBFlow
+
+7	17	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+11	1	android/app/src/main/java/com/wingjay/jianshi/db/JianshiDatabase.java
+6	0	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+56	0	android/app/src/main/java/com/wingjay/jianshi/db/service/DiaryService.java
+8	0	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+43	45	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+169	151	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+100	101	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+3	20	android/app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+
+commit 37f7ac2208beddfeea006046efd83b9990340aa0
+Merge: 8ab3f83 c7ee0f8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 02:11:57 2016 +0800
+
+    Merge branch 'v2.0' of https://github.com/wingjay/jianshi into v2.0
+
+commit 8ab3f83a29ed6ef09dd6f5c7a412ac34b9f07b2c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 23 02:11:39 2016 +0800
+
+    [server] diary sync logic
+
+3	0	server/server/data/errors.py
+81	22	server/server/db/diary.py
+3	2	server/server/db/schema/0001/diary.sql
+1	4	server/server/db/user.py
+19	8	server/server/logic/diary.py
+159	0	server/server/logic/sync.py
+2	1	server/server/logic/user.py
+1	0	server/server/test/__init__.py
+66	0	server/server/test/test_db_diary.py
+29	7	server/server/util/safetyutils.py
+0	2	server/server/www/diary.py
+10	0	server/server/www/sync.py
+0	2	server/server/www/user.py
+
+commit 5cdc6d6395b115292e221676f202dec5687a7759
+Author: RayPan <ray@glowing.com>
+Date:   Sun Oct 23 00:42:44 2016 +0800
+
+    migrate to DBFlow
+
+6	0	android/app/build.gradle
+3	1	android/app/proguard-rules.pro
+44	0	android/app/src/main/java/com/wingjay/jianshi/db/DBMigrationUtil.java
+22	0	android/app/src/main/java/com/wingjay/jianshi/db/JianshiDatabase.java
+71	0	android/app/src/main/java/com/wingjay/jianshi/db/model/Diary.java
+3	0	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+2	0	android/build.gradle
+
+commit c7ee0f88057f10aa97009bdae4321ea6c3192f48
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 22 21:41:34 2016 +0800
+
+    fix db crash
+
+1	1	android/app/build.gradle
+5	5	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+
+commit cd0546f21d74efa0f758afde2d93d3f638a0e598
+Merge: 1a869b9 1036f58
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 22 21:24:22 2016 +0800
+
+    Merge branch 'master' into v2.0
+
+commit 1a869b9a974b8b4a3a62816268572d379cd9bc9b
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 22 21:19:55 2016 +0800
+
+    update library version
+
+3	3	android/app/build.gradle
+1	1	android/build.gradle
+2	2	android/gradle/wrapper/gradle-wrapper.properties
+
+commit e5a1cf359b7d67568183c888fce33f8c2a249f91
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 22 21:13:23 2016 +0800
+
+    tweak gitignore
+
+2	0	.gitignore
+
+commit 1036f586572993a9feda97c516722aa61ebe4cec
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 22 21:08:29 2016 +0800
+
+    change font
+
+2	0	.gitignore
+1	1	android/app/build.gradle
+2	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+1	1	android/build.gradle
+2	2	android/gradle/wrapper/gradle-wrapper.properties
+1	1	server/runserver.py
+
+commit d9c4229edc661d61696f952bf58ad2edf12f3861
+Merge: 9542293 3facd4f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 22 19:44:06 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 365b4fb4ece0a287e0ca7b9d6e2835eba4cea5e6
+Merge: 57d92ea 3facd4f
+Author: RayPan <ray@glowing.com>
+Date:   Sat Oct 22 19:43:36 2016 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 95422931dc3016ca1e567b2daf7339710752942e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 22 19:37:29 2016 +0800
+
+    [server] fix signup bug of checking name existance
+
+1	0	server/requirements.txt
+2	2	server/server/db/user.py
+4	1	server/server/www/user.py
+
+commit 45ff6a05c2bafb0dc3d422803aa29d4c8bb2c58a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 22 19:35:58 2016 +0800
+
+    [android] jump to MainActivity after login
+
+2	1	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+
+commit 3facd4f5081ebf488845b00c3c78eb3f9e8eeaca
+Author: wingjay <jay@glowing.com>
+Date:   Sat Oct 22 17:38:35 2016 +0800
+
+    Update PREPARE.md
+
+2	0	server/PREPARE.md
+
+commit 57d92ea6d0fec92861c3da4309a46b660187d813
+Merge: 18868f3 229bdb8
+Author: Ray Pan <ray@glowing.com>
+Date:   Sun Sep 11 10:06:32 2016 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 229bdb81aa51ee40bc2ad689315438e60877239f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Sep 11 10:03:07 2016 +0800
+
+    db change
+
+9	7	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+
+commit 18868f3f36a9a4636cfdd55324d89cb333eecaa6
+Author: Ray Pan <ray@glowing.com>
+Date:   Sun Sep 11 01:55:25 2016 +0800
+
+    ignore .DS_Store
+
+2	0	.gitignore
+
+commit c4e8221cb96d3bb9bf5a1759ebaf79a5a52d81f2
+Author: wingjay <jay@glowing.com>
+Date:   Tue Sep 6 23:42:36 2016 +0800
+
+    Update README.md
+
+2	6	README.md
+
+commit d73e64952d8bb0e5519de9cdf7f018166b424916
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Sep 6 23:29:39 2016 +0800
+
+    [server] add api for create/update/delete diary
+
+5	3	server/server/__init__.py
+8	1	server/server/conf/all.py
+11	0	server/server/data/errors.py
+6	3	server/server/db/__init__.py
+32	0	server/server/logic/diary.py
+9	0	server/server/www/base.py
+34	0	server/server/www/diary.py
+6	1	server/server/www/user.py
+
+commit f8bc725ef702c5594580955f3dd4ee8d7d2bddf3
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Sep 6 23:28:52 2016 +0800
+
+    [android] modify local db
+
+18	6	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+
+commit c469201474681480266d549675aa25bd8355a5b1
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Sep 5 23:15:27 2016 +0800
+
+    [server] add db logic for Diary table
+
+1	0	server/server/__init__.py
+26	1	server/server/data/errors.py
+10	2	server/server/db/__init__.py
+88	0	server/server/db/diary.py
+11	0	server/server/db/schema/0001/diary.sql
+
+commit ac3de5ea6e159b4697697fbff8eca95cd0fa201a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Sep 5 20:27:02 2016 +0800
+
+    improve db layer
+
+34	0	server/server/db/__init__.py
+9	38	server/server/db/user.py
+
+commit 7cf9bd6a7737d01631943fd7d4e32db14832a9ea
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 4 20:30:22 2016 +0800
+
+    Update README.md
+
+5	5	README.md
+
+commit 65419aad6f56fe57c4f40f9e74919074879f0b97
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 4 20:28:13 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 3d6dde012e2457356d1c19c9890750292f9f1169
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 4 20:27:23 2016 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 78a36f82c2ec62b38069be5d672f6c24fe5d1a7a
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 4 20:23:42 2016 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 9c62413b8f98b658a867412d66e1a0d5b3c9799f
+Author: wingjay <jay@glowing.com>
+Date:   Sun Sep 4 20:23:15 2016 +0800
+
+    Update README.md
+
+17	30	README.md
+
+commit 4fabbfb14bf5e9eb2811cd7404564ae2163a1d87
+Merge: 6bff050 451944b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Sep 3 17:52:36 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 6bff05043d7926a5d2afa8209ea46a74a101a0e3
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Sep 3 17:50:17 2016 +0800
+
+    finish login flow & code style format
+
+1	1	android/app/build.gradle
+4	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+35	5	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+2	2	android/app/src/main/res/layout/activity_signup.xml
+42	4	server/server/data/errors.py
+110	84	server/server/db/user.py
+52	25	server/server/logic/user.py
+46	0	server/server/www/base.py
+14	34	server/server/www/user.py
+
+commit 451944b20c0b9b8a2ced8dc43502df3756ecebee
+Merge: b2b2034 6f1d1f1
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Fri Sep 2 14:22:42 2016 +0800
+
+    Merge pull request #19 from Panl/master
+    
+    Font issue
+
+commit 6f1d1f1bf44e9b7bca895729d13aea0a0db92a2e
+Merge: 9c311c3 b2b2034
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Thu Sep 1 01:00:21 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 9c311c375e135eb26be2fe2bdd7c263be5064202
+Author: Ray Pan <panlei106@gmail.com>
+Date:   Thu Sep 1 00:59:55 2016 +0800
+
+    fix font issue, still need optimize
+
+-	-	android/app/src/main/assets/fonts/{TpldKhangXiDictTrial.otf => default.otf}
+-	-	android/app/src/main/assets/fonts/fzqt.TTF
+-	-	android/app/src/main/assets/fonts/fzqtf.ttf
+-	-	android/app/src/main/assets/fonts/jdjl.TTF
+-	-	android/app/src/main/assets/fonts/libian.TTF
+-	-	android/app/src/main/assets/fonts/popular.ttf
+-	-	android/app/src/main/assets/fonts/qingkai.ttf
+-	-	android/app/src/main/assets/fonts/zhongshan.ttf
+2	0	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+4	2	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+4	2	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+22	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+4	4	android/app/src/main/res/layout/activity_edit.xml
+6	6	android/app/src/main/res/layout/item_diary_list.xml
+2	2	android/app/src/main/res/values/strings.xml
+
+commit b2b203475268556757b96130c2ed90eba2f40237
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 29 23:22:15 2016 +0800
+
+    [server]clear
+
+8	5	server/server/www/user.py
+
+commit 9085d38323a00e5a6d372f9b609a28e42f003cec
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 29 23:20:26 2016 +0800
+
+    [apache] turn on WSGIPassAuthorization to enable passing Authorization field into server application
+
+5	0	server/PREPARE.md
+
+commit b9be98b9de3c6e83669c5ec8faa67ddd595ec5b9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 29 22:35:09 2016 +0800
+
+    add token-check decorator
+
+0	0	server/server/conf/__init__.py
+1	0	server/server/conf/all.py
+0	0	server/server/data/__init__.py
+8	0	server/server/data/errors.py
+20	1	server/server/logic/user.py
+7	1	server/server/util/safetyutils.py
+36	4	server/server/www/user.py
+
+commit 8b0abc2f2cedf313f1e0c59a855ddb34d402173a
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 23:40:02 2016 +0800
+
+    support skip signup flow for debug
+
+6	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+7	0	android/app/src/main/res/layout/activity_signup.xml
+
+commit 20967e4a76d7f89ab27987d89a38af02c77d3f11
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 23:22:39 2016 +0800
+
+    [Android] add token into each http request by okhttpInteceptor
+
+11	1	android/app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+14	0	android/app/src/main/java/com/wingjay/jianshi/di/ForApplication.java
+45	0	android/app/src/main/java/com/wingjay/jianshi/network/GlobalRequestInterceptor.java
+5	1	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+66	0	android/app/src/main/java/com/wingjay/jianshi/util/DeviceUtil.java
+
+commit 001149480508666fe6d54fe89dcf9923a24cef91
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 22:56:42 2016 +0800
+
+    [server]finish signup flow, support token
+
+3	21	server/server/__init__.py
+3	1	server/server/db/schema/0001/user.sql
+45	20	server/server/db/user.py
+0	0	server/server/logic/__init__.py
+30	0	server/server/logic/user.py
+42	1	server/server/util/safetyutils.py
+0	0	server/server/www/__init__.py
+24	0	server/server/www/user.py
+
+commit 3d8761239143f730cd61b53f4fc259bfc6798af2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 20:43:14 2016 +0800
+
+    local test
+
+1	1	android/app/build.gradle
+1	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+1	0	android/app/src/main/res/layout/activity_signup.xml
+3	3	server/server/__init__.py
+
+commit 199222ecbe51f45ee5f1e60e03d5717da64f14e0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 20:39:01 2016 +0800
+
+    [server]support Auto-Reload source code when changes happen
+
+11	1	server/PREPARE.md
+22	0	server/jianshi.wsgi
+113	0	server/monitor/__init__.py
+
+commit 3c758b3dc0c942b4723de7e0fd4c189bb991dd4b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 18:23:33 2016 +0800
+
+    config apache. 1. print error log 2. support IP connection
+
+2	0	server/.gitignore
+1	0	server/PREPARE.md
+
+commit 663e2681ab1fcfca95b94181031f4995b0bf47b9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 17:45:08 2016 +0800
+
+    add jump into signupactivity in SplashActivity
+
+2	0	android/app/src/main/AndroidManifest.xml
+9	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+33	25	android/app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+2	1	server/server/__init__.py
+
+commit d6205a7699eaa981b7b640977be3586c5aa8b904
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 17:33:37 2016 +0800
+
+    text tweak
+
+4	4	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+
+commit 7681fab9e488e3dfcf07cf63e8309400e724ba0b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 27 17:32:36 2016 +0800
+
+    add signup flow in client
+
+10	0	android/app/src/main/java/com/wingjay/jianshi/JianshiConstant.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/{data => bean}/Diary.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/{data => bean}/Table.java
+30	0	android/app/src/main/java/com/wingjay/jianshi/bean/User.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+4	0	android/app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+2	2	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+7	1	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+53	20	android/app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+88	0	android/app/src/main/java/com/wingjay/jianshi/ui/SignupActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+66	60	android/app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+22	0	android/app/src/main/java/com/wingjay/jianshi/util/RxUtil.java
+28	0	android/app/src/main/res/layout/activity_signup.xml
+
+commit 887c49522f14436d317e8546fcd3a64163095912
+Merge: 0618723 0128ce7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 26 21:33:09 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 0618723093a8e475c66a167659013a5e4153772f
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 26 21:25:48 2016 +0800
+
+    remove testing code
+
+0	60	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+
+commit 0128ce7a5600624406b33244f3e22e8ea037a194
+Author: wingjay <jay@glowing.com>
+Date:   Fri Aug 26 10:39:22 2016 +0800
+
+    Update README.md
+
+3	3	server/README.md
+
+commit 4685796978a0c963bb18413c5fb6f68d1da3bca0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Aug 25 21:35:40 2016 +0800
+
+    simple signup & login function
+
+13	6	server/server/__init__.py
+24	3	server/server/db/user.py
+0	0	server/server/util/__init__.py
+11	0	server/server/util/safetyutils.py
+
+commit 08b88a6cb263aec9fd1e6b6a96a4fec60eef65ef
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Aug 21 23:20:21 2016 +0800
+
+    from server import app works; directory refactor
+
+1	1	server/jianshi.wsgi
+11	58	server/server/__init__.py
+0	1	server/server/db/__init__.py
+37	10	server/server/db/user.py
+
+commit 9af077f8a3e36b163e61f364d938f9bc3487a949
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Aug 21 20:47:37 2016 +0800
+
+    server directory structure changed for obeying flask rule
+
+-	-	server/__init__.pyc
+0	0	jianshi.wsgi => server/jianshi.wsgi
+2	0	server/runserver.py
+1	3	server/{ => server}/__init__.py
+0	0	server/{ => server}/db/__init__.py
+0	0	server/{ => server}/db/schema/0001/user.sql
+6	3	server/{ => server}/db/user.py
+
+commit 712f4e9f939d8b395008948964521fe3c6fd7d57
+Merge: 91ef0db 8a69ef7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 19 12:04:00 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit 91ef0dba3b19185bcd9ee6ee5b9c50f8f0ec15f0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 19 12:03:47 2016 +0800
+
+    init db and User table
+
+69	1	server/__init__.py
+-	-	server/__init__.pyc
+1	0	server/db/__init__.py
+10	0	server/db/schema/0001/user.sql
+39	0	server/db/user.py
+
+commit 8a69ef7e5687bd579821abeb52107540b19750fd
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Aug 18 11:22:40 2016 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit ba85ff272cf50647a7e11eabae53a3e0b1544b42
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Aug 18 11:21:22 2016 +0800
+
+    Update README.md
+
+6	8	README.md
+
+commit 9362cee532f3604392b56450fab268ce44bf4fee
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Aug 16 22:24:31 2016 +0800
+
+    modify gitignore
+
+62	0	server/.gitignore
+
+commit 7c627c6ead847b48b0964fff8c0203e568d68880
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Aug 16 20:03:27 2016 +0800
+
+    Update README.md
+
+3	2	README.md
+
+commit 1cbc2cddb124712f2e6dfaca0987893d636960b0
+Merge: 4181673 961f548
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Aug 16 19:32:14 2016 +0800
+
+    Merge pull request #9 from wingjay/setup-server
+    
+    migrate LeanCloud to Apache+Mysql
+
+commit 961f54836a1d6c25eb01d5766c90b8a765cddae1
+Merge: 4a02065 4181673
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Aug 16 19:29:57 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi into setup-server
+
+commit 4a02065ef56da9f9ac9a5bc53c6f34ad3c525b6b
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Tue Aug 16 19:28:52 2016 +0800
+
+    migrate from LeanCloud to Apache+Mysql+wsgi+Flask dev evn
+
+6	0	jianshi.wsgi
+0	67	server/.gitignore
+313	0	server/PREPARE.md
+16	2	server/README.md
+0	14	server/SETUP.md
+14	0	server/__init__.py
+-	-	server/__init__.pyc
+0	39	server/app.py
+0	26	server/cloud.py
+0	5	server/requirements.txt
+0	15	server/templates/index.html
+0	8	server/test.py
+0	31	server/wsgi.py
+
+commit 4181673a323bfc1e6e42e200516c83ab1589d8ed
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 15 17:49:20 2016 +0800
+
+    Update README.md
+
+3	1	server/README.md
+
+commit 2e308091f10badc2ceaf601c6c0d9e8e6daf46a0
+Merge: a350a5a b8dcc24
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 15 14:24:29 2016 +0800
+
+    Merge branch 'master' of https://github.com/wingjay/jianshi
+
+commit a350a5aea2b1a0b89fad865244d5b1be099ae1dc
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 15 14:24:20 2016 +0800
+
+    server test
+
+3	2	android/app/build.gradle
+51	31	android/app/src/main/java/com/wingjay/jianshi/data/Diary.java
+1	2	android/app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+26	3	android/app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+7	0	android/app/src/main/java/com/wingjay/jianshi/network/DiaryResponse.java
+13	0	android/app/src/main/java/com/wingjay/jianshi/network/UserService.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+30	1	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+1	1	android/app/src/main/java/com/wingjay/jianshi/{ => util}/FullDateManager.java
+0	1	android/app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+18	0	server/app.py
+8	0	server/test.py
+3	1	server/wsgi.py
+
+commit b8dcc24b491b51ead6c8ae681383a01654d55990
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon Aug 15 12:19:13 2016 +0800
+
+    Update SETUP.md
+
+6	1	server/SETUP.md
+
+commit 29e61de94bfe8554748fbfb539790a54c993c73c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Aug 14 11:39:21 2016 +0800
+
+    test server successfully
+
+25	0	android/app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	1	server/app.py
+
+commit 00e441ba95e1427c2b216f52c5e230eac8ff032d
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sun Aug 14 11:28:59 2016 +0800
+
+    setup server
+
+67	0	server/.gitignore
+2	0	server/README.md
+9	0	server/SETUP.md
+21	0	server/app.py
+26	0	server/cloud.py
+5	0	server/requirements.txt
+15	0	server/templates/index.html
+29	0	server/wsgi.py
+
+commit e34dfc8eeecfb5d0849bcdb685ac2441a81297eb
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 23:49:55 2016 +0800
+
+    add license
+
+203	0	LICENSE
+
+commit bb2c056348f69b6d72e3d4083469ff61705fa9a5
+Merge: 9dc56c3 61774bd
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 23:44:43 2016 +0800
+
+    Merge pull request #8 from wingjay/add-server
+    
+    Add server
+
+commit 61774bde7798157e9e08c040aa80bbfd86cf3be2
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 20:02:46 2016 +0800
+
+    add README
+
+47	0	README.md
+1	0	server/README.md
+
+commit f28b0d5899e1d5f0a3487fb21d01cb21b6201df0
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 19:59:56 2016 +0800
+
+    change gitignore
+
+17	0	android/.gitignore
+-	-	android/build/generated/mockable-android-24.jar
+0	222	android/build/intermediates/dex-cache/cache.xml
+
+commit bf89d3e6a15030b86709b1bad9babdc75bd7953c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:50:52 2016 +0800
+
+    move all android files in android/
+
+0	0	README.md => android/README.md
+0	0	{app => android/app}/.gitignore
+0	0	{app => android/app}/build.gradle
+0	0	{app => android/app}/fabric.properties
+0	0	{app => android/app}/proguard-rules.pro
+0	0	{app => android/app}/src/androidTest/java/com/wingjay/jianshi/ApplicationTest.java
+0	0	{app => android/app}/src/main/AndroidManifest.xml
+-	-	{app => android/app}/src/main/assets/fonts/TpldKhangXiDictTrial.otf
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/FullDateManager.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/data/Diary.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/data/Table.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/di/AppModule.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/network/JsonDataResponse.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/network/UserService.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/base/BaseFragment.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+0	0	{app => android/app}/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+0	0	{app => android/app}/src/main/res/drawable/red_circle_bg.xml
+0	0	{app => android/app}/src/main/res/drawable/white_border.xml
+0	0	{app => android/app}/src/main/res/layout/activity_diary_list.xml
+0	0	{app => android/app}/src/main/res/layout/activity_edit.xml
+0	0	{app => android/app}/src/main/res/layout/activity_main.xml
+0	0	{app => android/app}/src/main/res/layout/activity_setting.xml
+0	0	{app => android/app}/src/main/res/layout/activity_splash.xml
+0	0	{app => android/app}/src/main/res/layout/activity_view.xml
+0	0	{app => android/app}/src/main/res/layout/fragment_bg_color_pick.xml
+0	0	{app => android/app}/src/main/res/layout/fragment_date_pick.xml
+0	0	{app => android/app}/src/main/res/layout/fragment_day_pick.xml
+0	0	{app => android/app}/src/main/res/layout/item_diary_list.xml
+0	0	{app => android/app}/src/main/res/layout/view_bg_color_pick.xml
+0	0	{app => android/app}/src/main/res/layout/view_day_chooser.xml
+0	0	{app => android/app}/src/main/res/layout/view_red_point.xml
+0	0	{app => android/app}/src/main/res/layout/view_three_line_poem.xml
+0	0	{app => android/app}/src/main/res/layout/view_writer.xml
+0	0	{app => android/app}/src/main/res/menu/menu_base.xml
+0	0	{app => android/app}/src/main/res/menu/menu_date_choose.xml
+0	0	{app => android/app}/src/main/res/menu/menu_diary_list.xml
+0	0	{app => android/app}/src/main/res/menu/menu_edit.xml
+0	0	{app => android/app}/src/main/res/menu/menu_main.xml
+0	0	{app => android/app}/src/main/res/menu/menu_setting.xml
+0	0	{app => android/app}/src/main/res/menu/menu_splash.xml
+0	0	{app => android/app}/src/main/res/menu/menu_view.xml
+-	-	{app => android/app}/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	{app => android/app}/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	{app => android/app}/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	{app => android/app}/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	{app => android/app}/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+0	0	{app => android/app}/src/main/res/values-w820dp/dimens.xml
+0	0	{app => android/app}/src/main/res/values/attrs.xml
+0	0	{app => android/app}/src/main/res/values/color.xml
+0	0	{app => android/app}/src/main/res/values/dimens.xml
+0	0	{app => android/app}/src/main/res/values/strings.xml
+0	0	{app => android/app}/src/main/res/values/styles.xml
+0	0	build.gradle => android/build.gradle
+-	-	android/build/generated/mockable-android-24.jar
+222	0	android/build/intermediates/dex-cache/cache.xml
+0	0	gradle.properties => android/gradle.properties
+-	-	{gradle => android/gradle}/wrapper/gradle-wrapper.jar
+0	0	{gradle => android/gradle}/wrapper/gradle-wrapper.properties
+0	0	gradlew => android/gradlew
+0	0	gradlew.bat => android/gradlew.bat
+0	0	settings.gradle => android/settings.gradle
+0	0	task.md => android/task.md
+
+commit 9dc56c3d23e6a4416a096dfa8518e053bb0b3033
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:44:49 2016 +0800
+
+    delete unuseful folder
+
+0	1	android
+
+commit b7d2ca9a0ae2fb6aa7575a23b2c7ab240bf31ede
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:09:43 2016 +0800
+
+    revert
+
+1	0	android
+
+commit db35ecd0689f299bfd23e4ac1588e02e036ab4c4
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:09:27 2016 +0800
+
+    Revert "create server repo"
+    
+    This reverts commit 0ce8519653aa8afcce5d76f4abf78b00220d23bf.
+
+47	0	README.md
+0	1	android
+1	0	app/.gitignore
+90	0	app/build.gradle
+3	0	app/fabric.properties
+120	0	app/proguard-rules.pro
+13	0	app/src/androidTest/java/com/wingjay/jianshi/ApplicationTest.java
+70	0	app/src/main/AndroidManifest.xml
+-	-	app/src/main/assets/fonts/TpldKhangXiDictTrial.otf
+134	0	app/src/main/java/com/wingjay/jianshi/FullDateManager.java
+50	0	app/src/main/java/com/wingjay/jianshi/data/Diary.java
+39	0	app/src/main/java/com/wingjay/jianshi/data/Table.java
+47	0	app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+87	0	app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+17	0	app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+69	0	app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+66	0	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+16	0	app/src/main/java/com/wingjay/jianshi/network/JsonDataResponse.java
+24	0	app/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+12	0	app/src/main/java/com/wingjay/jianshi/network/UserService.java
+71	0	app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+40	0	app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+72	0	app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+205	0	app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+190	0	app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+81	0	app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+44	0	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+146	0	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+100	0	app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+84	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+9	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseFragment.java
+17	0	app/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+55	0	app/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+110	0	app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+170	0	app/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+59	0	app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+153	0	app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+236	0	app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+52	0	app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+55	0	app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+52	0	app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+57	0	app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+58	0	app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+14	0	app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+11	0	app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+30	0	app/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+51	0	app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+23	0	app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+119	0	app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+43	0	app/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+79	0	app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+6	0	app/src/main/res/drawable/red_circle_bg.xml
+5	0	app/src/main/res/drawable/white_border.xml
+21	0	app/src/main/res/layout/activity_diary_list.xml
+57	0	app/src/main/res/layout/activity_edit.xml
+124	0	app/src/main/res/layout/activity_main.xml
+121	0	app/src/main/res/layout/activity_setting.xml
+47	0	app/src/main/res/layout/activity_splash.xml
+101	0	app/src/main/res/layout/activity_view.xml
+14	0	app/src/main/res/layout/fragment_bg_color_pick.xml
+14	0	app/src/main/res/layout/fragment_date_pick.xml
+14	0	app/src/main/res/layout/fragment_day_pick.xml
+55	0	app/src/main/res/layout/item_diary_list.xml
+28	0	app/src/main/res/layout/view_bg_color_pick.xml
+89	0	app/src/main/res/layout/view_day_chooser.xml
+20	0	app/src/main/res/layout/view_red_point.xml
+39	0	app/src/main/res/layout/view_three_line_poem.xml
+8	0	app/src/main/res/layout/view_writer.xml
+9	0	app/src/main/res/menu/menu_base.xml
+9	0	app/src/main/res/menu/menu_date_choose.xml
+9	0	app/src/main/res/menu/menu_diary_list.xml
+9	0	app/src/main/res/menu/menu_edit.xml
+9	0	app/src/main/res/menu/menu_main.xml
+9	0	app/src/main/res/menu/menu_setting.xml
+9	0	app/src/main/res/menu/menu_splash.xml
+9	0	app/src/main/res/menu/menu_view.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+6	0	app/src/main/res/values-w820dp/dimens.xml
+20	0	app/src/main/res/values/attrs.xml
+34	0	app/src/main/res/values/color.xml
+13	0	app/src/main/res/values/dimens.xml
+116	0	app/src/main/res/values/strings.xml
+109	0	app/src/main/res/values/styles.xml
+22	0	build.gradle
+18	0	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+164	0	gradlew
+90	0	gradlew.bat
+0	1	server/README.md
+1	0	settings.gradle
+1	0	task.md
+
+commit 437afe54466a2ef66614e7c5955a825ca8359f12
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:09:17 2016 +0800
+
+    Revert "use android README as repo README"
+    
+    This reverts commit f10c47d61e5efa30338edca5196e8e3bc14e688c.
+
+0	47	README.md
+
+commit f10c47d61e5efa30338edca5196e8e3bc14e688c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:05:30 2016 +0800
+
+    use android README as repo README
+
+47	0	README.md
+
+commit 0ce8519653aa8afcce5d76f4abf78b00220d23bf
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Sat Aug 13 17:04:23 2016 +0800
+
+    create server repo
+
+0	47	README.md
+1	0	android
+0	1	app/.gitignore
+0	90	app/build.gradle
+0	3	app/fabric.properties
+0	120	app/proguard-rules.pro
+0	13	app/src/androidTest/java/com/wingjay/jianshi/ApplicationTest.java
+0	70	app/src/main/AndroidManifest.xml
+-	-	app/src/main/assets/fonts/TpldKhangXiDictTrial.otf
+0	134	app/src/main/java/com/wingjay/jianshi/FullDateManager.java
+0	50	app/src/main/java/com/wingjay/jianshi/data/Diary.java
+0	39	app/src/main/java/com/wingjay/jianshi/data/Table.java
+0	47	app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+0	87	app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+0	17	app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+0	69	app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+0	66	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+0	16	app/src/main/java/com/wingjay/jianshi/network/JsonDataResponse.java
+0	24	app/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+0	12	app/src/main/java/com/wingjay/jianshi/network/UserService.java
+0	71	app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+0	40	app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+0	72	app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+0	205	app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+0	190	app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+0	81	app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+0	44	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+0	146	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+0	100	app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+0	84	app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+0	9	app/src/main/java/com/wingjay/jianshi/ui/base/BaseFragment.java
+0	17	app/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+0	55	app/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+0	110	app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+0	170	app/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+0	59	app/src/main/java/com/wingjay/jianshi/ui/widget/DayChooser.java
+0	153	app/src/main/java/com/wingjay/jianshi/ui/widget/DayPickDialogFragment.java
+0	236	app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+0	52	app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+0	55	app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+0	52	app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+0	57	app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeEditText.java
+0	58	app/src/main/java/com/wingjay/jianshi/ui/widget/font/CustomizeTextView.java
+0	14	app/src/main/java/com/wingjay/jianshi/ui/widget/font/FontFamilyFactory.java
+0	11	app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+0	30	app/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+0	51	app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+0	23	app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+0	119	app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+0	43	app/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+0	79	app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+0	6	app/src/main/res/drawable/red_circle_bg.xml
+0	5	app/src/main/res/drawable/white_border.xml
+0	21	app/src/main/res/layout/activity_diary_list.xml
+0	57	app/src/main/res/layout/activity_edit.xml
+0	124	app/src/main/res/layout/activity_main.xml
+0	121	app/src/main/res/layout/activity_setting.xml
+0	47	app/src/main/res/layout/activity_splash.xml
+0	101	app/src/main/res/layout/activity_view.xml
+0	14	app/src/main/res/layout/fragment_bg_color_pick.xml
+0	14	app/src/main/res/layout/fragment_date_pick.xml
+0	14	app/src/main/res/layout/fragment_day_pick.xml
+0	55	app/src/main/res/layout/item_diary_list.xml
+0	28	app/src/main/res/layout/view_bg_color_pick.xml
+0	89	app/src/main/res/layout/view_day_chooser.xml
+0	20	app/src/main/res/layout/view_red_point.xml
+0	39	app/src/main/res/layout/view_three_line_poem.xml
+0	8	app/src/main/res/layout/view_writer.xml
+0	9	app/src/main/res/menu/menu_base.xml
+0	9	app/src/main/res/menu/menu_date_choose.xml
+0	9	app/src/main/res/menu/menu_diary_list.xml
+0	9	app/src/main/res/menu/menu_edit.xml
+0	9	app/src/main/res/menu/menu_main.xml
+0	9	app/src/main/res/menu/menu_setting.xml
+0	9	app/src/main/res/menu/menu_splash.xml
+0	9	app/src/main/res/menu/menu_view.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+0	6	app/src/main/res/values-w820dp/dimens.xml
+0	20	app/src/main/res/values/attrs.xml
+0	34	app/src/main/res/values/color.xml
+0	13	app/src/main/res/values/dimens.xml
+0	116	app/src/main/res/values/strings.xml
+0	109	app/src/main/res/values/styles.xml
+0	22	build.gradle
+0	18	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+0	6	gradle/wrapper/gradle-wrapper.properties
+0	164	gradlew
+0	90	gradlew.bat
+1	0	server/README.md
+0	1	settings.gradle
+0	1	task.md
+
+commit 42eff1ac164cae167a79a4cb98dcd1214c71ef53
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 12 11:20:25 2016 +0800
+
+    Update README.md
+
+4	0	README.md
+
+commit 443caa460a93d97a30f14e3411b175e431d92df9
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Fri Aug 12 10:27:27 2016 +0800
+
+    integrate dagger retrofit2 okhttp3 rxjava etc
+
+24	1	app/build.gradle
+103	0	app/proguard-rules.pro
+51	0	app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+1	1	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+16	0	app/src/main/java/com/wingjay/jianshi/network/JsonDataResponse.java
+24	0	app/src/main/java/com/wingjay/jianshi/network/JsonResponse.java
+12	0	app/src/main/java/com/wingjay/jianshi/network/UserService.java
+8	0	app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+
+commit 05645ef068d9f36b8ac1990470da5bf514e0bb55
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 21:37:15 2016 +0800
+
+    support dagger & replace MainActivity with DatachooseActivity
+
+5	1	app/build.gradle
+0	5	app/src/main/AndroidManifest.xml
+17	0	app/src/main/java/com/wingjay/jianshi/di/AppComponent.java
+18	0	app/src/main/java/com/wingjay/jianshi/di/AppModule.java
+43	29	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+0	185	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+166	5	app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+0	124	app/src/main/res/layout/activity_date_choose.xml
+116	1	app/src/main/res/layout/activity_main.xml
+1	1	app/src/main/res/menu/menu_date_choose.xml
+1	0	build.gradle
+
+commit ec207c60f2ab7b878920241a398767a77b9e40a7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 20:59:10 2016 +0800
+
+    tweak
+
+7	0	.gitignore
+9	7	app/build.gradle
+0	1	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+
+commit 3de01e7c733c7a09344c9d6d730089217c42efec
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 20:55:38 2016 +0800
+
+    remove gradlew taskartifacts
+
+0	1	.gradle/2.10/taskArtifacts/cache.properties
+-	-	.gradle/2.10/taskArtifacts/cache.properties.lock
+-	-	.gradle/2.10/taskArtifacts/fileHashes.bin
+-	-	.gradle/2.10/taskArtifacts/fileSnapshots.bin
+-	-	.gradle/2.10/taskArtifacts/outputFileStates.bin
+-	-	.gradle/2.10/taskArtifacts/taskArtifacts.bin
+0	1	.gradle/2.2/taskArtifacts/cache.properties
+-	-	.gradle/2.2/taskArtifacts/cache.properties.lock
+-	-	.gradle/2.2/taskArtifacts/fileHashes.bin
+-	-	.gradle/2.2/taskArtifacts/fileSnapshots.bin
+-	-	.gradle/2.2/taskArtifacts/outputFileStates.bin
+-	-	.gradle/2.2/taskArtifacts/taskArtifacts.bin
+
+commit 9983228711099da5154e738cef5f8ca725f4fd6c
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 19:40:13 2016 +0800
+
+    add task.md
+
+1	0	task.md
+
+commit aaecf40798933b734cb1f741abec73987c2f330e
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 19:38:59 2016 +0800
+
+    gradlew configure
+
+1	0	.gitignore
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit c98e5be0d09e881ea5d8bd53945067d4ec950a48
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Wed Aug 10 17:14:28 2016 +0800
+
+    update gitignore
+
+1	2	.gitignore
+
+commit d431bd4f8b609dd3e44297fa309405172d181878
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon May 2 18:40:09 2016 +0800
+
+    gitignore
+
+2	0	.gitignore
+
+commit 53ae378338489692ad3ae97327faec7bd11ed5c8
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Mon May 2 18:39:13 2016 +0800
+
+    gradle change and FIR forbidden
+
+1	0	.gradle/2.10/taskArtifacts/cache.properties
+-	-	.gradle/2.10/taskArtifacts/cache.properties.lock
+-	-	.gradle/2.10/taskArtifacts/fileHashes.bin
+-	-	.gradle/2.10/taskArtifacts/fileSnapshots.bin
+-	-	.gradle/2.10/taskArtifacts/outputFileStates.bin
+-	-	.gradle/2.10/taskArtifacts/taskArtifacts.bin
+1	0	.gradle/2.2/taskArtifacts/cache.properties
+-	-	.gradle/2.2/taskArtifacts/cache.properties.lock
+-	-	.gradle/2.2/taskArtifacts/fileHashes.bin
+-	-	.gradle/2.2/taskArtifacts/fileSnapshots.bin
+-	-	.gradle/2.2/taskArtifacts/outputFileStates.bin
+-	-	.gradle/2.2/taskArtifacts/taskArtifacts.bin
+4	4	app/build.gradle
+1	1	app/src/main/AndroidManifest.xml
+1	2	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+1	18	app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+2	4	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 15bcdfa2bd4cbccd3e2ec2cafe2021285c2122b7
+Author: wingjay <wingjaysjtu@gmail.com>
+Date:   Thu Apr 14 11:14:53 2016 +0800
+
+    update gitignore
+
+6	0	.gitignore
+
+commit d2df7117f3adaea17d8782e8fed52eee66a8e840
+Merge: 12f2acd feed03a
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Fri Nov 13 10:12:28 2015 +0800
+
+    Merge pull request #4 from LiamJu/master
+    
+    Fix potential NPE
+
+commit feed03aaaa70d16d342c7a5322bb8bd983e6d8d4
+Author: LiamJu <brightzhu89@gmail.com>
+Date:   Tue Nov 10 17:05:38 2015 +0800
+
+    Fix potential NPE
+
+1	0	app/src/main/java/com/wingjay/jianshi/ui/widget/VerticalTextView.java
+
+commit 12f2acdd40e38655a65f7ab8d434620e12e12530
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 24 11:18:44 2015 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 4d0ff772c9a80abdd8048edd625bc88b095de295
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sat Oct 24 10:51:10 2015 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 1b220c5d649addf21f78900d469d79ae569d650e
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Fri Oct 23 18:28:57 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 70d8cd6c506829b43e654e917419e368f3c83acd
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Fri Oct 23 18:25:07 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 7c7e34d59797b8f7652be55df3b2601eb0125e94
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Fri Oct 23 18:24:49 2015 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit 5660f39b1ff0760b63324a6a19ed8de4f29bf322
+Merge: 3b218e3 9f9f04a
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 11 22:26:34 2015 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 3b218e374cef8eeb68e139650cbd30dda1da0292
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 11 22:26:18 2015 +0800
+
+    change into v1.3
+
+2	2	app/build.gradle
+
+commit 20732d2e60df2a85aeb6397c0f0bc9b222a860e1
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 11 22:26:00 2015 +0800
+
+    fix bug in bg color
+
+1	1	app/src/main/res/layout/activity_view.xml
+5	0	app/src/main/res/values/styles.xml
+
+commit 9f9f04aa42253a9b5a6a8a8b3368dd0f26746795
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 11 16:19:09 2015 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit e00306a6d1a1d0d28356f0bda1775610f83af197
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 11 15:42:39 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit dd1c6f9dfd3736650e296914d72057978646f216
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 11 15:42:11 2015 +0800
+
+    Update README.md
+
+5	0	README.md
+
+commit f876b5be766f03a0aad9a4107e54f16cf457032c
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 11 14:36:37 2015 +0800
+
+    support user customize background color and bug fix
+
+11	0	app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+14	1	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+20	1	app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+20	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+17	0	app/src/main/java/com/wingjay/jianshi/ui/theme/BackgroundColorHelper.java
+55	0	app/src/main/java/com/wingjay/jianshi/ui/theme/TraditionalColorNamer.java
+110	0	app/src/main/java/com/wingjay/jianshi/ui/widget/BgColorPickDialogFragment.java
+14	1	app/src/main/java/com/wingjay/jianshi/ui/widget/RedPointView.java
+1	1	app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+0	16	app/src/main/res/layout/activity_base.xml
+1	0	app/src/main/res/layout/activity_date_choose.xml
+16	6	app/src/main/res/layout/activity_diary_list.xml
+1	0	app/src/main/res/layout/activity_edit.xml
+19	0	app/src/main/res/layout/activity_setting.xml
+1	0	app/src/main/res/layout/activity_splash.xml
+1	0	app/src/main/res/layout/activity_view.xml
+14	0	app/src/main/res/layout/fragment_bg_color_pick.xml
+3	1	app/src/main/res/layout/fragment_date_pick.xml
+3	1	app/src/main/res/layout/fragment_day_pick.xml
+0	1	app/src/main/res/layout/item_diary_list.xml
+28	0	app/src/main/res/layout/view_bg_color_pick.xml
+1	0	app/src/main/res/layout/view_red_point.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+1	0	app/src/main/res/values/attrs.xml
+17	0	app/src/main/res/values/color.xml
+3	0	app/src/main/res/values/strings.xml
+0	1	app/src/main/res/values/styles.xml
+
+commit b9fb6e95cd5117f4028df71972c249c1aecf757d
+Author: yinjie <2285342783@qq.com>
+Date:   Sat Oct 10 14:33:35 2015 +0800
+
+    refresh diary list after click and edit diary
+
+17	6	app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+1	0	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+6	8	app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+11	0	app/src/main/java/com/wingjay/jianshi/util/ConstantUtil.java
+
+commit 0e47a83decb3b76a8fc4e1c57fb18d4094f369ed
+Merge: 1395bf5 665b6a7
+Author: yinjie <2285342783@qq.com>
+Date:   Sat Oct 10 13:57:04 2015 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 1395bf5d806a3006e23affb851035613bbaf210a
+Author: yinjie <2285342783@qq.com>
+Date:   Sat Oct 10 13:56:50 2015 +0800
+
+    fix Vertical view style
+
+3	1	app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+3	4	app/src/main/res/layout/activity_view.xml
+
+commit 1930945909a7e1652f2ef0ff1b7be88349b074ac
+Author: yinjie <2285342783@qq.com>
+Date:   Sat Oct 10 13:56:31 2015 +0800
+
+    decrease splash time to 0.5s
+
+1	1	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+
+commit 12b5427e56a58c8ea0b7ec65a0df2d2a30a9e857
+Author: yinjie <2285342783@qq.com>
+Date:   Sat Oct 10 13:56:06 2015 +0800
+
+    improve safty to unexport Activity
+
+16	8	app/src/main/AndroidManifest.xml
+
+commit 665b6a7998f5bf63196bf899fd9599796bf4dc80
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Fri Oct 9 13:23:14 2015 +0800
+
+    Update README.md
+
+3	0	README.md
+
+commit 0c639c8eb00d7de4f175b1a4f0fed08de91aaed7
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 8 20:17:56 2015 +0800
+
+    Update README.md
+
+7	0	README.md
+
+commit a5ea437e0405eb0dbdb6129118af5e1590d14c21
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 8 18:03:36 2015 +0800
+
+    Delete app.iml
+
+0	103	app/app.iml
+
+commit b36cae8dae7769bda12f872f044b175ce05649d9
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 8 18:03:26 2015 +0800
+
+    Delete JianShi.iml
+
+0	19	JianShi.iml
+
+commit eb02da28181d53f8d763d119c92e6696b751c398
+Merge: 85d5a53 f545392
+Author: yinjie <2285342783@qq.com>
+Date:   Thu Oct 8 18:02:34 2015 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 85d5a5308e9dc694f1f9d91be6e12c1d89ffb4a7
+Author: yinjie <2285342783@qq.com>
+Date:   Thu Oct 8 18:00:51 2015 +0800
+
+    add unuseful iml file which will be deleted
+
+2	2	JianShi.iml
+1	4	app/app.iml
+
+commit f5453925d9bbb17d4159bf46a54ea2b4f16d5443
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 8 13:04:34 2015 +0800
+
+    Delete app.iml
+
+0	106	app/app.iml
+
+commit 482e27cd72726758e2f01fb623db7df6c6aa814d
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Thu Oct 8 13:04:21 2015 +0800
+
+    Delete JianShi.iml
+
+0	19	JianShi.iml
+
+commit 2e196de55f186ee3c8e29ccd2fe40d71ccba5f53
+Author: yinjie <2285342783@qq.com>
+Date:   Thu Oct 8 11:36:15 2015 +0800
+
+    upgrade to 1.2.1
+
+1	1	app/build.gradle
+
+commit cc4ef36ff0e825c8f968d95c3497501468b457c7
+Author: yinjie <2285342783@qq.com>
+Date:   Thu Oct 8 11:31:15 2015 +0800
+
+    add fabric Answers
+
+6	1	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+
+commit 31348bc62da03e0ff0b18902da90463a5e306206
+Author: yinjie <2285342783@qq.com>
+Date:   Wed Oct 7 19:49:53 2015 +0800
+
+    upgrade to 1.2.0
+
+2	2	app/build.gradle
+
+commit f62aa4db60f0d1781ca27e5f94094d6f5572c312
+Author: yinjie <2285342783@qq.com>
+Date:   Wed Oct 7 19:49:33 2015 +0800
+
+    fix style bug
+
+1	0	app/src/main/res/layout/activity_view.xml
+
+commit d262917513686fbdbe3c32a1b5b0dae93f5aa237
+Author: yinjie <2285342783@qq.com>
+Date:   Wed Oct 7 19:41:52 2015 +0800
+
+    in vertical View, title can be serveral rows
+
+2	2	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+5	0	app/src/main/java/com/wingjay/jianshi/ui/widget/MultipleRowTextView.java
+3	5	app/src/main/res/layout/activity_view.xml
+1	0	app/src/main/res/values/attrs.xml
+
+commit 06b30a3efe01ceaea93a34ecfcd5aa5d75649e4b
+Author: yinjie <2285342783@qq.com>
+Date:   Wed Oct 7 19:21:27 2015 +0800
+
+    Distribution by Fir.im and add auto-upgrade check
+
+2	1	app/app.iml
+2	2	app/build.gradle
+11	0	app/src/main/AndroidManifest.xml
+3	3	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+2	0	app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+2	0	app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+2	0	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+14	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+96	0	app/src/main/java/com/wingjay/jianshi/util/UpgradeUtil.java
+7	3	app/src/main/res/values/strings.xml
+4	0	build.gradle
+
+commit 11767404da296c8c56ad7640409cc8ce96f56eea
+Author: yinjie <2285342783@qq.com>
+Date:   Wed Oct 7 10:55:47 2015 +0800
+
+    set new version to 1.1
+
+8	2	app/build.gradle
+
+commit f3332dfed8a506b0f1b8f7917d4d6fa7f7be1cf7
+Merge: 336e0f1 ac69f0c
+Author: yinjie <2285342783@qq.com>
+Date:   Tue Oct 6 21:47:11 2015 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit 336e0f13b71f931d9c89d2fdffd165209a9665bc
+Author: yinjie <2285342783@qq.com>
+Date:   Tue Oct 6 21:45:35 2015 +0800
+
+    change home page with three_line poem and make date clickable
+
+79	20	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+2	2	app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+2	2	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+9	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseFragment.java
+170	0	app/src/main/java/com/wingjay/jianshi/ui/widget/DatePickDialogFragment.java
+1	2	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/DayChooser.java
+3	4	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/DayPickDialogFragment.java
+8	7	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/MultipleRowTextView.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/RedPointView.java
+55	0	app/src/main/java/com/wingjay/jianshi/ui/widget/ThreeLinePoemView.java
+15	2	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/VerticalTextView.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/font/CustomizeEditText.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/font/CustomizeTextView.java
+1	1	app/src/main/java/com/wingjay/jianshi/ui/{view => widget}/font/FontFamilyFactory.java
+30	0	app/src/main/java/com/wingjay/jianshi/util/DateUtil.java
+51	0	app/src/main/java/com/wingjay/jianshi/util/DisplayUtil.java
+50	32	app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+43	0	app/src/main/java/com/wingjay/jianshi/util/StringUtil.java
+15	7	app/src/main/res/layout/activity_date_choose.xml
+1	1	app/src/main/res/layout/activity_edit.xml
+3	3	app/src/main/res/layout/activity_splash.xml
+3	3	app/src/main/res/layout/activity_view.xml
+12	0	app/src/main/res/layout/fragment_date_pick.xml
+2	2	app/src/main/res/layout/fragment_day_pick.xml
+6	6	app/src/main/res/layout/view_day_chooser.xml
+39	0	app/src/main/res/layout/view_three_line_poem.xml
+4	3	app/src/main/res/values/attrs.xml
+1	0	app/src/main/res/values/dimens.xml
+60	16	app/src/main/res/values/strings.xml
+6	0	app/src/main/res/values/styles.xml
+
+commit ac69f0cb5e57c29a3cecd52eacd2c16e525bd017
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Tue Oct 6 12:34:49 2015 +0800
+
+    Update README.md
+
+5	0	README.md
+
+commit 4eaac9419cdd88f44a458ee88ca7ac6c73e5b7eb
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 5 14:21:41 2015 +0800
+
+    Update README.md
+
+4	1	README.md
+
+commit dae1e2ae5633d514d703e2fc9e42065fe4d40d5f
+Merge: eb1d78c 55691b8
+Author: yinjie <2285342783@qq.com>
+Date:   Mon Oct 5 14:02:01 2015 +0800
+
+    Merge branch 'master' of github.com:wingjay/jianshi
+
+commit eb1d78caf8efb8b15c1c1130b5b3f01f3e27216b
+Author: yinjie <2285342783@qq.com>
+Date:   Mon Oct 5 13:55:50 2015 +0800
+
+    fix sentences
+
+5	5	app/src/main/res/values/strings.xml
+
+commit 55691b87218822c56d4d50682d9bfaf8a5f99aea
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 5 13:47:42 2015 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 447e5145e2bc95e14b0e724246438e041c89b141
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 5 13:46:12 2015 +0800
+
+    Update README.md
+
+12	1	README.md
+
+commit de111f58afc582f87efdb24d172d9c2fa33b5bab
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Mon Oct 5 13:45:48 2015 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 73276b71587d8cc4f6cf881a4e848ec2b2f86f9e
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 23:04:18 2015 +0800
+
+    delete unuseful
+
+0	4	app/src/main/AndroidManifest.xml
+0	2	app/src/main/java/com/wingjay/jianshi/FullDateManager.java
+0	2	app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+0	1	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+0	41	app/src/main/java/com/wingjay/jianshi/ui/DiaryViewActivity.java
+0	16	app/src/main/res/layout/activity_diary_view.xml
+0	9	app/src/main/res/menu/menu_diary_view.xml
+
+commit 1e5368d7ad8b87a60e40f1974359e71e8ef8c961
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 22:59:54 2015 +0800
+
+    change app icon
+
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+2	2	app/src/main/res/values/color.xml
+
+commit 1eb9e8297fb1f235cf2075842da874844af26f82
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 22:59:34 2015 +0800
+
+    change hint based on current hour time
+
+10	2	app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+101	0	app/src/main/java/com/wingjay/jianshi/util/StringByTime.java
+0	2	app/src/main/res/layout/activity_edit.xml
+17	0	app/src/main/res/values/strings.xml
+
+commit a74e3b0a11578d0e18b499c337415325b552296c
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 22:58:05 2015 +0800
+
+    delete unuseful
+
+0	6	app/src/main/res/drawable/tb_munion_icon.xml
+0	5	app/src/main/res/drawable/tb_munion_item_selector.xml
+0	8	app/src/main/res/values-zh/strings.xml
+
+commit 638884e2462a7b03d4401ab2559eb752144a6d15
+Merge: b7cff09 6000a4a
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 20:03:52 2015 +0800
+
+    Merge github.com:wingjay/jianshi
+
+commit b7cff090240f18c560e5bc8ea053933e3259ead5
+Author: yinjie <2285342783@qq.com>
+Date:   Sun Oct 4 20:00:03 2015 +0800
+
+    first commit
+
+19	0	JianShi.iml
+1	0	app/.gitignore
+105	0	app/app.iml
+55	0	app/build.gradle
+3	0	app/fabric.properties
+17	0	app/proguard-rules.pro
+13	0	app/src/androidTest/java/com/wingjay/jianshi/ApplicationTest.java
+60	0	app/src/main/AndroidManifest.xml
+-	-	app/src/main/assets/fonts/TpldKhangXiDictTrial.otf
+136	0	app/src/main/java/com/wingjay/jianshi/FullDateManager.java
+50	0	app/src/main/java/com/wingjay/jianshi/data/Diary.java
+39	0	app/src/main/java/com/wingjay/jianshi/data/Table.java
+49	0	app/src/main/java/com/wingjay/jianshi/db/DbOpenHepler.java
+87	0	app/src/main/java/com/wingjay/jianshi/db/DbUtil.java
+49	0	app/src/main/java/com/wingjay/jianshi/global/JianShiApplication.java
+69	0	app/src/main/java/com/wingjay/jianshi/prefs/BasePrefs.java
+27	0	app/src/main/java/com/wingjay/jianshi/prefs/UserPrefs.java
+112	0	app/src/main/java/com/wingjay/jianshi/ui/DateChooseActivity.java
+61	0	app/src/main/java/com/wingjay/jianshi/ui/DiaryListActivity.java
+41	0	app/src/main/java/com/wingjay/jianshi/ui/DiaryViewActivity.java
+197	0	app/src/main/java/com/wingjay/jianshi/ui/EditActivity.java
+21	0	app/src/main/java/com/wingjay/jianshi/ui/MainActivity.java
+62	0	app/src/main/java/com/wingjay/jianshi/ui/SettingActivity.java
+44	0	app/src/main/java/com/wingjay/jianshi/ui/SplashActivity.java
+145	0	app/src/main/java/com/wingjay/jianshi/ui/ViewActivity.java
+102	0	app/src/main/java/com/wingjay/jianshi/ui/adapter/DiaryListAdapter.java
+50	0	app/src/main/java/com/wingjay/jianshi/ui/base/BaseActivity.java
+60	0	app/src/main/java/com/wingjay/jianshi/ui/view/DayChooser.java
+154	0	app/src/main/java/com/wingjay/jianshi/ui/view/DayPickDialogFragment.java
+228	0	app/src/main/java/com/wingjay/jianshi/ui/view/MultipleRowTextView.java
+39	0	app/src/main/java/com/wingjay/jianshi/ui/view/RedPointView.java
+38	0	app/src/main/java/com/wingjay/jianshi/ui/view/VerticalTextView.java
+57	0	app/src/main/java/com/wingjay/jianshi/ui/view/font/CustomizeEditText.java
+58	0	app/src/main/java/com/wingjay/jianshi/ui/view/font/CustomizeTextView.java
+14	0	app/src/main/java/com/wingjay/jianshi/ui/view/font/FontFamilyFactory.java
+23	0	app/src/main/java/com/wingjay/jianshi/util/LanguageUtil.java
+6	0	app/src/main/res/drawable/red_circle_bg.xml
+6	0	app/src/main/res/drawable/tb_munion_icon.xml
+5	0	app/src/main/res/drawable/tb_munion_item_selector.xml
+5	0	app/src/main/res/drawable/white_border.xml
+16	0	app/src/main/res/layout/activity_base.xml
+115	0	app/src/main/res/layout/activity_date_choose.xml
+11	0	app/src/main/res/layout/activity_diary_list.xml
+16	0	app/src/main/res/layout/activity_diary_view.xml
+58	0	app/src/main/res/layout/activity_edit.xml
+9	0	app/src/main/res/layout/activity_main.xml
+102	0	app/src/main/res/layout/activity_setting.xml
+46	0	app/src/main/res/layout/activity_splash.xml
+102	0	app/src/main/res/layout/activity_view.xml
+12	0	app/src/main/res/layout/fragment_day_pick.xml
+56	0	app/src/main/res/layout/item_diary_list.xml
+89	0	app/src/main/res/layout/view_day_chooser.xml
+19	0	app/src/main/res/layout/view_red_point.xml
+8	0	app/src/main/res/layout/view_writer.xml
+9	0	app/src/main/res/menu/menu_base.xml
+9	0	app/src/main/res/menu/menu_date_choose.xml
+9	0	app/src/main/res/menu/menu_diary_list.xml
+9	0	app/src/main/res/menu/menu_diary_view.xml
+9	0	app/src/main/res/menu/menu_edit.xml
+9	0	app/src/main/res/menu/menu_main.xml
+9	0	app/src/main/res/menu/menu_setting.xml
+9	0	app/src/main/res/menu/menu_splash.xml
+9	0	app/src/main/res/menu/menu_view.xml
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+6	0	app/src/main/res/values-w820dp/dimens.xml
+8	0	app/src/main/res/values-zh/strings.xml
+17	0	app/src/main/res/values/attrs.xml
+17	0	app/src/main/res/values/color.xml
+12	0	app/src/main/res/values/dimens.xml
+48	0	app/src/main/res/values/strings.xml
+99	0	app/src/main/res/values/styles.xml
+19	0	build.gradle
+18	0	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+164	0	gradlew
+90	0	gradlew.bat
+1	0	settings.gradle
+
+commit 6000a4a1f670a79a81233e061d88e9784107364f
+Author: Jay <wingjaysjtu@gmail.com>
+Date:   Sun Oct 4 19:49:14 2015 +0800
+
+    Initial commit
+
+2	0	README.md

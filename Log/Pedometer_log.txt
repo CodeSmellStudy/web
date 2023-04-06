@@ -1,0 +1,4566 @@
+commit 91c128a7b785380a0335f713478d4c2ef7ddd96a
+Merge: e4b07bd 63b3f8d
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Sun May 1 10:03:53 2022 +0200
+
+    Merge pull request #167 from j4velin/166-czech-translation
+    
+    166 czech translation
+
+commit 63b3f8de87d0e010caa3dcbb8d9cdc421d1ee362
+Author: Thomas Hoffmann <git@j4velin.de>
+Date:   Sun May 1 10:03:03 2022 +0200
+
+    replace 'Google+' with 'Google'
+
+1	1	src/main/res/values-be/strings.xml
+1	1	src/main/res/values-bn/strings.xml
+1	1	src/main/res/values-de/strings.xml
+1	1	src/main/res/values-es/strings.xml
+1	1	src/main/res/values-fi/strings.xml
+1	1	src/main/res/values-fr/strings.xml
+1	1	src/main/res/values-hu/strings.xml
+1	1	src/main/res/values-it/strings.xml
+1	1	src/main/res/values-ja/strings.xml
+1	1	src/main/res/values-ko/strings.xml
+1	1	src/main/res/values-pt-rBR/strings.xml
+1	1	src/main/res/values-ru/strings.xml
+1	1	src/main/res/values-sv/strings.xml
+1	1	src/main/res/values-tr/strings.xml
+1	1	src/main/res/values-zh-rCN/strings.xml
+1	1	src/main/res/values-zh-rTW/strings.xml
+1	1	src/main/res/values/strings.xml
+
+commit 28a56daf0217d42d23758960706b0be2c89a5062
+Author: Thomas Hoffmann <git@j4velin.de>
+Date:   Sun May 1 10:02:34 2022 +0200
+
+    add czech translation
+
+60	0	src/main/res/values-cs/strings.xml
+
+commit e4b07bdc1cd1e7ead8807120df94f4774a6aa4f7
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Mar 25 20:50:57 2020 +0100
+
+    Update README.md
+
+1	1	README.md
+
+commit 3d1f95b7d631fc792eec80d07683638351ee813b
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Oct 15 21:41:26 2019 +0200
+
+    move minSdk property to build.gradle file
+
+1	0	build.gradle
+2	4	src/main/AndroidManifest.xml
+
+commit a3db68561c5d87b5b704467ddf40b1e43aa680fd
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jul 2 07:21:04 2019 +0200
+
+    fix crash on pre-O devices
+
+3	2	src/main/AndroidManifest.xml
+
+commit 9a89042437f99ce3182515355031d8321d42cce8
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 21:43:14 2019 +0200
+
+    change to enqueueUpdate calls
+
+1	1	src/main/java/de/j4velin/pedometer/SensorListener.java
+4	4	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+1	1	src/main/java/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 424d3950d9622f0c59bf38f108476c2edb814390
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 21:36:46 2019 +0200
+
+    fix jobintentservice
+
+5	3	src/main/AndroidManifest.xml
+0	6	src/main/java/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 6207cfb529d7661a11fdecc39ef32e32b0c2ca13
+Merge: 8386b29 5be1d14
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 21:25:00 2019 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 8386b2966a88944fea37721c536e0015eb5840de
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 21:24:19 2019 +0200
+
+    update version
+
+2	2	src/main/AndroidManifest.xml
+
+commit b8ad1d6d98607cefc63b9c3c571652feb96ea69d
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 21:20:32 2019 +0200
+
+    Fix IllegalArgumentExceptions on Android P
+
+26	25	src/main/java/de/j4velin/pedometer/widget/Widget.java
+34	26	src/main/java/de/j4velin/pedometer/widget/WidgetUpdateService.java
+9	4	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 3e3090a4277931ffbb74b74d58da856f2f54c6e7
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 1 20:47:12 2019 +0200
+
+    show numbers of steps taken in collapsed notification title
+
+10	9	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 5be1d142e5b46daf89ab5aa89eaf97e1643dd0ce
+Merge: 23a3bd3 c190a4c
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Tue Dec 18 22:39:14 2018 +0100
+
+    Merge pull request #135 from ogr3/translation-sv
+    
+    Updated Swedish translation
+
+commit 23a3bd3d7018e9f3c4296f83413cd5cadfc85600
+Merge: 70bde15 32b2d76
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Tue Dec 18 22:38:51 2018 +0100
+
+    Merge pull request #134 from victorenator/l10n-be
+    
+    Add belarusian translation
+
+commit c190a4ce89b47a2fe333c95168a1c5b99c9b93c9
+Author: oGre <ogre@muppfarmen.se>
+Date:   Tue Dec 18 16:35:59 2018 +0100
+
+    Updated Swedish translation
+
+2	5	src/main/res/values-sv/strings.xml
+
+commit 32b2d760304ef787cef2239701492f37acbdd7e8
+Author: Viktar Vauchkevich <victorenator@gmail.com>
+Date:   Fri Dec 14 23:13:22 2018 +0300
+
+    Add belarusian translation
+
+61	0	src/main/res/values-be/strings.xml
+
+commit 70bde1586b9b053314e455e9cdc6131e59294ef9
+Merge: 35c9adb 491764e
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Sun Nov 25 23:17:14 2018 +0100
+
+    Merge pull request #133 from naXa777/patch-1
+    
+    Add Russian description for Google Play
+
+commit 491764ee25633111ac86e8d37f46f9eb1e73147b
+Author: Paul <naXa@nextmail.ru>
+Date:   Sat Nov 24 03:32:35 2018 +0300
+
+    Update playstore_description.txt
+    
+    add Russian description
+
+17	0	playstore_description.txt
+
+commit 35c9adb2825f724d73649f20df0ec983c436c6fc
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Nov 23 22:12:46 2018 +0100
+
+    Create playstore_description.txt
+
+37	0	playstore_description.txt
+
+commit 7b523cec13b43be2adc7d31201ba15a25da726bb
+Merge: db0b2cf 4ee3265
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Nov 23 22:09:01 2018 +0100
+
+    Merge pull request #130 from ElektroVirus/master
+    
+    Translated the strings.xml into Finnish.
+
+commit 4ee32652eac5d766baec0e3a49d36d97fdb7dd66
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Nov 23 22:03:28 2018 +0100
+
+    Update strings.xml
+
+0	1	src/main/res/values-fi/strings.xml
+
+commit 1bdf8ebaeed4d279397dbbdc4eade3dad2da4fb0
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Nov 23 21:56:25 2018 +0100
+
+    Update strings.xml
+
+0	1	src/main/res/values-fi/strings.xml
+
+commit 0ef5e8bec14f78f849e54b060821c808c5c7e22d
+Author: Elias Meyer <elias.i.meyer@gmail.com>
+Date:   Mon Nov 5 23:20:47 2018 +0200
+
+    Translated the strings.xml into Finnish.
+
+65	0	src/main/res/values-fi/strings.xml
+
+commit db0b2cf954edbc76151a2cf7369474fcaaa3d2a7
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 5 21:19:07 2018 +0100
+
+    remove unnecessary brackets
+
+2	4	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 57973f25ca55c5ea06dbd467b231ba2a39387734
+Merge: b006ed2 c315a7a
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 5 21:17:01 2018 +0100
+
+    Merge branch 'foregroundservice'
+
+commit b006ed24343f5729e8906d793523e70cd62ff8f5
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 5 21:15:08 2018 +0100
+
+    Revert "switch to jobscheduler"
+    
+    This reverts commit 387fd923320253ec3a5985554ad56eeaf7c735da.
+
+5	5	src/main/AndroidManifest.xml
+10	14	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+1	1	src/main/java/de/j4velin/pedometer/BootReceiver.java
+93	40	src/main/java/de/j4velin/pedometer/SensorListener.java
+2	0	src/main/java/de/j4velin/pedometer/ShutdownRecevier.java
+0	2	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+6	3	src/main/java/de/j4velin/pedometer/util/API23Wrapper.java
+
+commit c315a7abebbc3da79588fe4099539a24a3c0c0fc
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 5 19:02:38 2018 +0100
+
+    add shortcut to notification settings
+
+2	2	src/main/AndroidManifest.xml
+33	28	src/main/java/de/j4velin/pedometer/SensorListener.java
+35	3	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+30	5	src/main/java/de/j4velin/pedometer/util/API26Wrapper.java
+1	0	src/main/res/values/strings.xml
+26	0	src/main/res/xml-v26/settings.xml
+4	0	src/main/res/xml/settings.xml
+
+commit 07c12475b4fac6f3e69a96b7165a57f72374c7dc
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 4 21:24:54 2018 +0100
+
+    try with foreground service
+
+2	3	src/main/AndroidManifest.xml
+16	10	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+8	2	src/main/java/de/j4velin/pedometer/BootReceiver.java
+42	44	src/main/java/de/j4velin/pedometer/SensorListener.java
+11	2	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+0	12	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+43	0	src/main/java/de/j4velin/pedometer/util/API26Wrapper.java
+0	4	src/main/res/xml/settings.xml
+
+commit 387fd923320253ec3a5985554ad56eeaf7c735da
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 4 19:30:51 2018 +0100
+
+    switch to jobscheduler
+
+5	5	src/main/AndroidManifest.xml
+14	10	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+1	1	src/main/java/de/j4velin/pedometer/BootReceiver.java
+40	93	src/main/java/de/j4velin/pedometer/SensorListener.java
+0	2	src/main/java/de/j4velin/pedometer/ShutdownRecevier.java
+2	0	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+3	6	src/main/java/de/j4velin/pedometer/util/API23Wrapper.java
+
+commit 2e722ff4c867345ccc912f3b28ac25e808c6ca41
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Nov 2 21:39:37 2018 +0100
+
+    repo order
+
+4	2	build.gradle
+
+commit aac834d3bd51aaaf9b375b5686f67174b1842a1c
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Nov 2 21:34:18 2018 +0100
+
+    change repos
+
+2	1	build.gradle
+
+commit 60992c24b277b271a31931903cfbf9063006fd8d
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Nov 2 21:07:21 2018 +0100
+
+    set max version to Android 8.1 for now
+
+4	3	src/main/AndroidManifest.xml
+10	3	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 8ab06dd22bb710ae4042847c19d09bbe8ae8ea0f
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Oct 5 17:29:54 2018 +0200
+
+    use yet another method to set an alarm on API 23...
+
+2	2	src/main/AndroidManifest.xml
+14	6	src/main/java/de/j4velin/pedometer/SensorListener.java
+7	0	src/main/java/de/j4velin/pedometer/util/API23Wrapper.java
+
+commit 918b9465c06179f3dc394ae011f714c48ed3e8b9
+Merge: 118a16f 62154c9
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Aug 18 10:40:47 2018 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 118a16fb4018cb0f16ee517590938380ccb828d9
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Aug 18 10:40:24 2018 +0200
+
+    remove "pause" option as this feature make some problems when pause is enabled during date-change or reboots
+
+5	0	build.gradle
+0	41	src/main/java/de/j4velin/pedometer/PowerReceiver.java
+4	64	src/main/java/de/j4velin/pedometer/SensorListener.java
+4	12	src/main/java/de/j4velin/pedometer/ShutdownRecevier.java
+1	49	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+0	12	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+1	1	src/main/java/de/j4velin/pedometer/util/Logger.java
+0	5	src/main/res/menu/main.xml
+0	5	src/main/res/values/strings.xml
+0	8	src/main/res/xml/settings.xml
+
+commit 62154c973575edbf2b927380ab668150e48ac2e0
+Merge: 9b55be7 779405a
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Thu Jul 5 22:22:08 2018 +0200
+
+    Merge pull request #120 from saraiva1989/saraiva
+    
+    translation of app to ptBr.
+
+commit 779405a01c3d67c74f324dfca12b564a0d8dd997
+Author: Daniel Saraiva <danniel.saraiva@gmail.com>
+Date:   Wed Jun 27 12:44:29 2018 -0300
+
+    tradução finalizada em PT-BR
+
+52	51	src/main/res/values-pt-rBR/strings.xml
+
+commit eaaa57721a07ee699e439d8eda4861bf4824b481
+Author: Daniel Saraiva <danniel.saraiva@gmail.com>
+Date:   Wed Jun 27 11:36:22 2018 -0300
+
+    Inicio da tradução em PT-BR
+
+63	54	src/main/res/values-pt-rBR/strings.xml
+
+commit 6bcde6337ffe0b001f9b2d3f8e96221dc52c9191
+Author: Daniel Saraiva <danniel.saraiva@gmail.com>
+Date:   Wed Jun 27 11:35:41 2018 -0300
+
+    Inicio da tradução em PT-BR
+
+58	0	src/main/res/values-pt-rBR/strings.xml
+
+commit 9b55be7d8f67acae142c76d0a7ea128055fac89d
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Jun 7 21:28:08 2018 +0200
+
+    revert back to target sdk 25 due to PendingIntent.startService won't fire (requires startForegroundService)
+
+1	1	src/main/AndroidManifest.xml
+
+commit 548a1b47c7d90d7340b3a1d21970709f276c2935
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jun 2 23:42:54 2018 +0200
+
+    fix pause feature
+
+4	4	src/main/java/de/j4velin/pedometer/BootReceiver.java
+6	8	src/main/java/de/j4velin/pedometer/Database.java
+14	4	src/main/java/de/j4velin/pedometer/SensorListener.java
+56	49	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+53	61	src/play/java/de/j4velin/pedometer/util/GoogleFit.java
+
+commit 9f7975fb036cd8ab8599245e098dc99375a78fc1
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 14 20:08:22 2018 +0200
+
+    fix travis build?
+
+1	0	build.gradle
+
+commit 9df6e352880d5f80b59863e9c3dbfbad7a0cf4e8
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 14 19:55:13 2018 +0200
+
+    update gradle
+
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit c580e57572846223feefed1c2d34beb12c1ee995
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 14 19:46:05 2018 +0200
+
+    increase target sdk version
+
+1	18	src/main/AndroidManifest.xml
+27	3	src/main/java/de/j4velin/pedometer/SensorListener.java
+9	17	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit 46816e601bd3abdae9daf0376f8908056deb0bd1
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 12 22:56:19 2018 +0200
+
+    update travis.yml
+
+1	1	.travis.yml
+
+commit be36b4071d75b814341df21b84a3e4244c55b4b0
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 12 22:50:41 2018 +0200
+
+    Update dependency versions
+
+7	7	build.gradle
+
+commit 6d10e2488e04ac65c21565a100bf867620229f57
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 25 18:05:02 2018 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit a2d8fce62cd8bfb63866e95a47b4a05754eeb5e9
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 18 14:57:55 2018 +0100
+
+    update graph lib
+
+1	1	build.gradle
+
+commit a840735bf55e3aaed80f4ba7f93c247ce7b01779
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 18 14:37:32 2018 +0100
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit f453c069c7da6c2b70af4149200fcec2a56952a1
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 18 14:35:25 2018 +0100
+
+    add translation
+
+86	0	src/main/res/values-hu/strings.xml
+
+commit d58bda3346343a383dea0c5ddfb993d5bb8afe4e
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 18 14:11:52 2018 +0100
+
+    delete old icon
+
+-	-	ic_launcher-web.png
+
+commit 80a9a26b2f56926dbd8526b23bf9e4b19398c760
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 18 14:10:45 2018 +0100
+
+    change icon https://github.com/j4velin/Pedometer/issues/117
+
+1	1	src/main/AndroidManifest.xml
+-	-	src/main/ic_launcher-web.png
+-	-	src/main/res/drawable-hdpi/ic_launcher.png
+-	-	src/main/res/drawable-mdpi/ic_launcher.png
+-	-	src/main/res/drawable-xhdpi/ic_launcher.png
+-	-	src/main/res/drawable-xxhdpi/ic_launcher.png
+-	-	src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	src/main/res/mipmap-xxxhdpi/ic_launcher.png
+1	1	src/main/res/xml/widget.xml
+
+commit 42631f4b798902ac7bf2cb27a5e93d1d7ab9333b
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 29 00:14:28 2017 +0100
+
+    update travis settings
+
+4	7	.travis.yml
+
+commit 16e17c8b90a1c4cc2f99ece7a407637bc0a00bad
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Nov 28 23:56:58 2017 +0100
+
+    update gradle wrapper
+
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit f1819b8bf9cfaa88a24e923f59da89d1a7d9dbc8
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Nov 28 23:49:50 2017 +0100
+
+    buildtools & dependencies updated
+
+7	4	build.gradle
+
+commit 638e9c34ed5e005f46b900f53bf6dc96b3e49d5d
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 20 22:08:16 2017 +0100
+
+    version update
+
+8	2	build.gradle
+
+commit 7a277f554eeaf87e846f3e3e9e870ad3e584bdd2
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 31 20:07:44 2017 +0200
+
+    make travis happy?
+
+2	2	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit 4f06d0bcf8166482ae31fae6aa07afccb58f50ea
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 31 20:00:45 2017 +0200
+
+    downgrad for travis...
+
+2	2	build.gradle
+
+commit cc68a64ac4182a2e5ecfcc7a400e17c3e801d23e
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 31 19:53:59 2017 +0200
+
+    version update
+
+5	5	build.gradle
+2	2	src/main/AndroidManifest.xml
+
+commit 797a3e0deb1bf58c8a156a27b803b4bff271f868
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 31 19:53:49 2017 +0200
+
+    fix import counter
+
+5	4	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit 67dfd89bbfee82de702bf93e1635bfba850ec5c5
+Merge: 7dff875 a1c01e4
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Tue Aug 29 22:28:40 2017 +0200
+
+    Merge pull request #110 from NewJorg/continual-achievement-fix
+    
+    Continual achievement fix (https://github.com/j4velin/Pedometer/issues/109)
+
+commit a1c01e4259f933c57d54e796708a4c17f22b3e5e
+Author: Jörg Franke <359489+NewJorg@users.noreply.github.com>
+Date:   Tue Aug 29 18:37:20 2017 +0200
+
+    Introduce getDaysWithoutToday for achievements
+    
+    Create getDaysWithoutToday() to match together with
+    getTotalWithoutToday() and use it in the getDays() method.
+    getDaysWithoutToday() will return a value >= 0, getDays() will add 1 day
+    to it, so it will return a value >= 1.
+    Using the getDaysWithoutToday method for the achievement there is
+    already a check if days >= 10, so it is safe to divide by this value.
+
+20	8	src/main/java/de/j4velin/pedometer/Database.java
+1	1	src/play/java/de/j4velin/pedometer/util/PlayServices.java
+
+commit 01c04dfebb4e1c0c2a85fbbedd44e123966665fe
+Author: Jörg Franke <359489+NewJorg@users.noreply.github.com>
+Date:   Tue Aug 29 17:54:18 2017 +0200
+
+    Achieve Continual with average from description
+    
+    equal the average should be also okay from the description of the
+    achievement.
+
+3	3	src/play/java/de/j4velin/pedometer/util/PlayServices.java
+
+commit 7dff875a3acf64230f1fdc99a1031decfca6a1a1
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Aug 23 21:35:33 2017 +0200
+
+    adding travis badge again
+
+1	1	README.md
+
+commit 309453c2e57917fc1201bdfd53f0a7d4181a55ad
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Aug 23 21:31:09 2017 +0200
+
+    add missing imports
+
+4	0	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 64800866c73d4a5ba738ffd68ad3868025f5750e
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Aug 23 21:20:21 2017 +0200
+
+    add maven repo for google support libs
+
+3	0	build.gradle
+
+commit 12b908ff74668edb3f2dfa001fcdecb653135179
+Merge: 8557e29 097c26b
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Aug 23 21:15:34 2017 +0200
+
+    Merge pull request #108 from alvarogzp/favour-backup-data-over-database
+    
+    When restoring from backup, overwrite existing days instead of skipping them
+
+commit 097c26b73443cc4e0844df352e7cb65b55b0f2bd
+Author: Alvaro Gutierrez Perez <alvarogzp@users.noreply.github.com>
+Date:   Sun Aug 20 20:58:22 2017 +0200
+
+    Update javadoc on Fragment_Settings's importCsv method
+
+1	1	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit d6c11c9d2a705326e70f068e1ca94c077891f7df
+Author: Alvaro Gutierrez Perez <alvarogzp@users.noreply.github.com>
+Date:   Sun Aug 20 15:50:05 2017 +0200
+
+    Remove non updated translations for entries_overwritten
+
+0	1	src/main/res/values-bn/strings.xml
+0	1	src/main/res/values-de/strings.xml
+0	1	src/main/res/values-fr/strings.xml
+0	1	src/main/res/values-it/strings.xml
+0	1	src/main/res/values-ja/strings.xml
+0	1	src/main/res/values-ko/strings.xml
+0	1	src/main/res/values-ru/strings.xml
+0	1	src/main/res/values-sv/strings.xml
+0	2	src/main/res/values-tr/strings.xml
+
+commit d332f1e064dd2b5cf0fdf6230ce3f950ad02b491
+Author: Alvaro Gutierrez Perez <alvarogzp@users.noreply.github.com>
+Date:   Sun Aug 20 00:23:19 2017 +0200
+
+    Add translation for entries_overwritten in spanish
+
+1	0	src/main/res/values-es/strings.xml
+
+commit cc8191a7d29ac92bbecdc756d65fdab28d213bc2
+Author: Alvaro Gutierrez Perez <alvarogzp@users.noreply.github.com>
+Date:   Sun Aug 20 00:21:26 2017 +0200
+
+    When importing data from backup, overwrite existing entries in the database instead of skipping them
+
+11	14	src/main/java/de/j4velin/pedometer/Database.java
+3	3	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+2	2	src/main/res/values-bn/strings.xml
+1	1	src/main/res/values-de/strings.xml
+2	2	src/main/res/values-fr/strings.xml
+2	2	src/main/res/values-it/strings.xml
+2	2	src/main/res/values-ja/strings.xml
+2	2	src/main/res/values-ko/strings.xml
+1	1	src/main/res/values-ru/strings.xml
+1	1	src/main/res/values-sv/strings.xml
+2	2	src/main/res/values-tr/strings.xml
+2	2	src/main/res/values/strings.xml
+
+commit 8557e29a788382157998ca9491b73073431ffaee
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Sat Aug 12 21:28:30 2017 +0200
+
+    Create NOTICE
+
+4	0	NOTICE
+
+commit 816cf114e59be6e59d935f4bf23120ad008c5064
+Merge: 1fdb9a1 55ae118
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Aug 2 22:42:09 2017 +0200
+
+    Merge pull request #107 from devpilot/master
+    
+    Add Bengali translation
+
+commit 55ae11863ddbba89b8d5278f0d6bcbae79d687d1
+Author: Aritra <aet419@gmail.com>
+Date:   Sun Jul 30 15:54:19 2017 +0530
+
+    Add Bengali translation
+
+63	0	src/main/res/values-bn/strings.xml
+
+commit 1fdb9a13ee72933701b43ea503f100381bbf4e34
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jun 28 22:51:33 2017 +0200
+
+    Add turkish translation (https://github.com/j4velin/Pedometer/issues/102) thanks to https://github.com/Erdener
+
+87	0	src/main/res/values-tr/strings.xml
+
+commit a4c138c39b7db2001b4dd53b2f712493f052c0e3
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue May 9 22:20:40 2017 +0200
+
+    ask for storage permission in debug builds
+
+6	0	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+9	0	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 2f3b46cc9c5df55da3f6ceb61ccaa6ff0e9d6dcf
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 8 18:15:37 2017 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit 750d50be5e7481682cf8986073f05f6f68634aa6
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Apr 29 19:49:20 2017 +0200
+
+    ...
+
+0	1	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 1044b1e6e46153a2d7b62c69294aab0b04eebde0
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Apr 29 19:48:52 2017 +0200
+
+    update every hour even if no steps are taken
+
+41	23	src/main/java/de/j4velin/pedometer/SensorListener.java
+14	0	src/main/java/de/j4velin/pedometer/util/Util.java
+
+commit 539eec1d4b52a06e4e63fefe11909954a02cd0cc
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Thu Apr 20 22:16:49 2017 +0200
+
+    Update README.md
+
+1	1	README.md
+
+commit aabb34060a8ebefe477c5f887b5141169dfeda6e
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 22:15:14 2017 +0200
+
+    completely disable travis until a usable solution for https://github.com/travis-ci/travis-ci/issues/7110 is available
+
+1	1	.travis.yml
+1	1	build.gradle
+
+commit 435159b687eb6d160e1b0b9b16b330295f84b53c
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 22:06:02 2017 +0200
+
+    giving up on getting travis to work... (https://github.com/travis-ci/travis-ci/issues/7110)
+
+1	1	.travis.yml
+1	1	build.gradle
+
+commit 9cee12c958a4c7b4c627f57705fd09c6edf55656
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 21:54:52 2017 +0200
+
+    another try at getting travis to be happy again...
+
+4	0	.travis.yml
+
+commit 885231df4e275ca10f1209282b3c053734ec96fe
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 21:39:14 2017 +0200
+
+    another try at getting travis to be happy again...
+
+1	1	.travis.yml
+
+commit 6e7a06760add26f270802775cfbcd8bf81a1a31f
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 21:33:52 2017 +0200
+
+    change travis component order (see https://github.com/travis-ci/travis-ci/issues/7110)
+
+1	1	.travis.yml
+
+commit 105747710ef5ea3da7c20331c17a2d4157685a45
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 21:17:22 2017 +0200
+
+    gradle update
+
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 17d23dc21e89ac4083468fbf0178b1db1739cd38
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 21:06:55 2017 +0200
+
+    update compilesdk & buildtools
+
+2	2	.travis.yml
+3	3	build.gradle
+
+commit e38c2ede2b9b56fba93b7a34557097e5dd869221
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 20 20:48:19 2017 +0200
+
+    update widget & notification at least every 500 steps
+
+3	3	build.gradle
+2	2	src/main/AndroidManifest.xml
+8	12	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 6a5237c017fb728978d65d9a4cd0add9a1f11cb1
+Merge: f7647ed 7147091
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Apr 17 15:50:22 2017 +0200
+
+    Merge pull request #98 from avandorp/patch-1
+    
+    Update strings.xml
+
+commit 71470914ac3a1109d77e0bf848e065c0fec9795f
+Author: avandorp <avandorp@users.noreply.github.com>
+Date:   Wed Apr 12 14:35:09 2017 +0200
+
+    Update strings.xml
+
+2	2	src/main/res/values-de/strings.xml
+
+commit f7647ed7571e273640d07b6465cdca40cbf0ab7f
+Merge: 661cce2 d96e75e
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Jan 23 18:18:34 2017 +0100
+
+    Merge pull request #94 from dbf256/patch-1
+    
+    Update russian strings.xml
+
+commit d96e75e1dfe8e9a7826736ad31c05a9cb9d52f61
+Author: Alexey <dbf256@gmail.com>
+Date:   Sun Jan 22 23:52:38 2017 +0300
+
+    Update russian strings.xml
+
+7	0	src/main/res/values-ru/strings.xml
+
+commit 661cce229e0714417bf67444360d323d9ece70f8
+Merge: 43d089a 54c1c55
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Dec 19 21:31:52 2016 +0100
+
+    Merge pull request #93 from zygimantus/master
+    
+    Lithuanian translation added
+
+commit 54c1c55682217caae7357718b021e1a6fb259071
+Author: zygimantus <zygimantus@gmail.com>
+Date:   Mon Dec 19 10:20:36 2016 +0200
+
+    Lithuanian translation added
+
+32	0	src/main/res/values-lt/strings.xml
+
+commit 43d089a7cb2b15494acd985ecfc6fbaab725d87a
+Merge: 9cd749f f523892
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Nov 9 19:13:17 2016 +0100
+
+    Merge pull request #92 from naofum/master
+    
+    Updated Japanese translation
+
+commit f5238924c07ef88c34bde5ed21019994eac55f2b
+Author: naofum <naofum@gmail.com>
+Date:   Wed Nov 9 22:53:36 2016 +0900
+
+    Updated Japanese translation
+
+10	0	src/main/res/values-ja/strings.xml
+
+commit 9cd749fa964815900ccd7709ea7c59081276af0f
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 19:23:36 2016 +0200
+
+    Update README.md
+
+2	0	README.md
+
+commit a2229d6b1dfde9cb989ac2781284eabde9da29c5
+Merge: c23928d 1a093eb
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 19:17:57 2016 +0200
+
+    Merge pull request #90 from j4velin/travis
+    
+    get travis ci building...
+
+commit 1a093eb194c4b4babd2966934029c708b23c41ae
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 19:10:45 2016 +0200
+
+    use jdk 1.8
+
+4	0	.travis.yml
+
+commit 141f00f999a3e5d8551a92cb5655bc05c41a3340
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 19:05:23 2016 +0200
+
+    23.0.3
+
+1	1	build.gradle
+
+commit 539e60f83e3a1cbf17494693023765afd58733be
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 19:02:24 2016 +0200
+
+    downgrade buildtools version
+
+1	1	.travis.yml
+1	1	build.gradle
+
+commit 4a2f9b3622e54bc6e8b78ce141cfdea98c3dc0f5
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 17:12:06 2016 +0200
+
+    buildtools update
+
+2	6	.travis.yml
+2	2	build.gradle
+
+commit a16a28e7b1e242b9ec131e8c77a1f8cffae2a199
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 17:08:08 2016 +0200
+
+    ..
+
+1	1	.travis.yml
+
+commit 249652ba83cc4631c18a8e696fa916605af241b6
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 16 17:02:09 2016 +0200
+
+    only build fdroid version on travis
+
+3	0	.travis.yml
+
+commit 6a0526119fa9564ba3df75ad8aa39161ecb3a447
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 16:55:51 2016 +0200
+
+    Delete ids.xml
+
+0	30	src/main/res/values/ids.xml
+
+commit c23928d611f0c44b6223376e55470b9c1638ca99
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 16:47:41 2016 +0200
+
+    Create ids.xml
+
+30	0	src/main/res/values/ids.xml
+
+commit 1fc143bf2bf1297849b819a34d16285042b35b03
+Author: Thomas Hoffmann <thomas.hoffmann@esolutions.de>
+Date:   Fri Sep 16 13:49:57 2016 +0200
+
+    add actual sample keystore to use in travis ci
+    
+    Change-Id: I787578ca8dc6547351cb475678d1b6c360c8ac6b
+
+6	1	build.gradle
+-	-	example.keystore.jks
+4	4	key.properties.sample
+
+commit 8ebd81a001f64822ba80b43704e66890375bf473
+Author: Thomas Hoffmann <thomas.hoffmann@esolutions.de>
+Date:   Fri Sep 16 13:28:31 2016 +0200
+
+    switched to buildtool version 23.0.2
+    
+    Change-Id: I6245b121bc01dcbb88f0de1e02253d905fc6bf4b
+
+1	1	.travis.yml
+1	1	build.gradle
+
+commit 6a4d951fe66d9af271c1807319e63d670f6942c7
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 13:16:44 2016 +0200
+
+    Update gradle-wrapper.properties
+
+1	1	gradle/wrapper/gradle-wrapper.properties
+
+commit d37c538297e8eb79926a0921518926c8cd80f3dd
+Author: Thomas Hoffmann <thomas.hoffmann@esolutions.de>
+Date:   Fri Sep 16 13:12:40 2016 +0200
+
+    set executable permission for gradlew
+    
+    Change-Id: If5c11b35df0cef0f5a5be22ba687cd144db7d903
+
+0	0	gradlew
+
+commit b71d304a491cdd2eb454f699f72ad68b0332a8b9
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 16 13:06:25 2016 +0200
+
+    Create .travis.yml
+
+11	0	.travis.yml
+
+commit c7e3076628299bfd29daf1c351d4c4183b132f04
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Aug 23 19:05:36 2016 +0200
+
+    Fix: not updating notification state on setting change
+
+6	0	src/main/java/de/j4velin/pedometer/SensorListener.java
+1	1	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit d15d04b2e5278af90f033e900536a27ae4485a81
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 21 11:27:58 2016 +0200
+
+    reverted UTC timezone stuff -.-
+
+0	8	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+3	25	src/main/java/de/j4velin/pedometer/BootReceiver.java
+39	74	src/main/java/de/j4velin/pedometer/Database.java
+1	1	src/main/java/de/j4velin/pedometer/SensorListener.java
+4	4	src/main/java/de/j4velin/pedometer/ShutdownRecevier.java
+1	2	src/main/java/de/j4velin/pedometer/ui/Dialog_Statistics.java
+12	15	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+2	3	src/main/java/de/j4velin/pedometer/util/Util.java
+0	11	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+2	3	src/play/java/de/j4velin/pedometer/util/GoogleFit.java
+
+commit f99688b406a65427bdbebfdb572a6a0d863a2ceb
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Aug 20 13:29:27 2016 +0200
+
+    only use UTC timestamps (experimental)
+
+4	4	build.gradle
+6	6	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+2	9	src/main/AndroidManifest.xml
+5	8	src/main/java/de/j4velin/pedometer/Database.java
+4	4	src/main/java/de/j4velin/pedometer/SensorListener.java
+2	1	src/main/java/de/j4velin/pedometer/ui/Dialog_Statistics.java
+7	7	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+0	51	src/main/java/de/j4velin/pedometer/util/TimeZoneListener.java
+3	3	src/main/java/de/j4velin/pedometer/util/Util.java
+7	3	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+3	2	src/play/java/de/j4velin/pedometer/util/GoogleFit.java
+
+commit 17b395d44ce52611d3e72c8c08ed8b847b01b6cf
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 7 19:03:10 2016 +0200
+
+    Remove autosignin option when logging out, no matter if connected or not
+
+1	4	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 58ee761a065612b5f5a3f4b5600644fec2e1a3c9
+Merge: d12f0e5 453094c
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 18 22:54:25 2016 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+    
+    # Conflicts:
+    #       build.gradle
+
+commit d12f0e513fcb78c1864bbfc98d7dace500062cd7
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 11 21:20:45 2016 +0200
+
+    gradle/buildtools version update
+
+1	1	build.gradle
+
+commit 453094c7b3fa79e674f7f3d8beabfe14952b5645
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jul 5 19:46:36 2016 +0200
+
+    version update
+
+3	3	build.gradle
+
+commit 83cfaae2faf044c508e3af3cc883b4e3ff04ea2a
+Merge: 9216b5f 7d6f2c1
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Mar 31 18:48:44 2016 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 9216b5fc9b9c9b5171a3b7bdb06cf79ce24b95a8
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Mar 31 18:48:17 2016 +0200
+
+    increased default compile sdk version
+
+1	1	build.gradle
+
+commit 7d6f2c1a232abc1cee40b6f41af082b56978d0a4
+Merge: 311be90 afe6f94
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Wed Mar 30 18:37:32 2016 +0200
+
+    Merge pull request #77 from ogr3/master
+    
+    Updated Swedish translation
+
+commit afe6f9410f5b38aba54d0348291c53858266553e
+Author: oGre <ogre@muppfarmen.se>
+Date:   Wed Mar 30 18:32:37 2016 +0200
+
+    Updated Swedish translation
+
+4	1	src/main/res/values-sv/strings.xml
+
+commit 311be9084ac02c6729e1d03223be64e12444a6f2
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 30 18:04:43 2016 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit 9735c27b80b9fb7d4cb4bf57de2ca5484aca7398
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Mar 29 20:41:54 2016 +0200
+
+    experimental fix for daylight saving problem
+
+8	3	src/main/java/de/j4velin/pedometer/Database.java
+
+commit ec5894709bb3cb7002c6c89820b3b038be7727bd
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 21 23:25:04 2016 +0100
+
+    wrong sensor check
+
+1	1	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+
+commit 899140b1df874c23d3e899bdbb1ff71e69036a7b
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 21 23:22:41 2016 +0100
+
+    refactoring, M permission
+
+2	2	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+39	0	src/fdroid/java/de/j4velin/pedometer/util/PlaySettingsWrapper.java
+10	9	src/main/AndroidManifest.xml
+13	9	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+77	51	src/{fdroid => main}/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+30	0	src/main/java/de/j4velin/pedometer/util/API23Wrapper.java
+1	0	src/main/res/values/strings.xml
+3	6	src/play/java/de/j4velin/pedometer/ui/Activity_Main.java
+0	469	src/play/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+1	1	src/play/java/de/j4velin/pedometer/util/GoogleFit.java
+115	0	src/play/java/de/j4velin/pedometer/util/PlaySettingsWrapper.java
+
+commit 3e5995b914a6e615e22c2eb0fc6c6cbc60373335
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 21 22:43:28 2016 +0100
+
+    show error message if no step sensor is present
+
+19	3	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+3	0	src/main/res/values-de/strings.xml
+2	0	src/main/res/values/strings.xml
+
+commit 407a60870a7eaba24a89474df82cf7a36560e391
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 21 22:36:51 2016 +0100
+
+    Changed to ColorPreviewButton view from colorpicker lib
+
+4	4	build.gradle
+0	46	src/main/java/de/j4velin/pedometer/util/ColorPreview.java
+4	4	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+2	2	src/main/res/layout/widgetconfig.xml
+
+commit b02ed6b95f51a8e77af779e7a884d71373fa1138
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 7 16:13:59 2015 +0100
+
+    French translation fixed
+
+2	2	src/main/res/values-fr/strings.xml
+
+commit f4d35836e84488e783ee3ed1591e935252505d2c
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 29 22:41:33 2015 +0100
+
+    French translation added
+
+64	0	src/main/res/values-fr/strings.xml
+
+commit 78740df696eefb6ad236c5b178d1ad1880011628
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Aug 28 23:49:32 2015 +0200
+
+    version update
+
+1	1	build.gradle
+
+commit 4210a51c61ed168b79512037c1333bdbcb1dedbe
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 27 16:02:08 2015 +0200
+
+    fixed using old version of colorpicker lib
+
+3	3	build.gradle
+2	2	src/main/AndroidManifest.xml
+
+commit 244b2c850696d3173dbdaa578d59b2f5f59a740f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jul 12 11:21:12 2015 +0200
+
+    buildfile updated to load version number from root file if present
+
+15	3	build.gradle
+
+commit 2b7e7973b80781097d7b976a1b9f79a0c287cb9a
+Merge: 26e3d13 2161c01
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Sun Jun 14 18:27:18 2015 +0200
+
+    Merge pull request #74 from SweetLion/patch-1
+    
+    Added Google play and F-Droid Badges
+
+commit 2161c0107636e29d7f1d985f01214010b518bb20
+Author: SweetLion <SweetLion@users.noreply.github.com>
+Date:   Sat Jun 13 15:38:52 2015 +0200
+
+    Added Google play and F-Droid Badges
+
+10	1	README.md
+
+commit 26e3d13b3a3ab2b91468a01133be340cec358ca8
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun May 31 19:15:10 2015 +0200
+
+    selective google play services APIs
+
+3	1	build.gradle
+
+commit 5a1a02c6602c8a523aa17bac68dbfd9d1f510d06
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 9 02:23:23 2015 +0200
+
+    korean translation (https://github.com/j4velin/Pedometer/issues/73)
+
+62	0	src/main/res/values-ko/strings.xml
+
+commit b16e2fe72776fc9dde0f7c2ec6efd3ad89052133
+Merge: bfb0607 3c65680
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed May 6 15:03:18 2015 +0200
+
+    merge
+
+commit bfb0607b4b391f70135306d51079faf6ee4d5262
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 2 10:40:43 2015 +0200
+
+    buildfile updated
+
+2	2	build.gradle
+
+commit 3c65680da9898d4c915e7228945e493ccbcc6588
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Apr 24 23:13:53 2015 +0200
+
+    added jcenter repo to buildfile
+
+4	0	build.gradle
+
+commit e9c498679be874faae0ed1a2bc8df7a110221cc0
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 22 22:00:23 2015 +0200
+
+    changed EazeGraph lib from local reference to jCenter version (not yet synced, but should be soon...)
+
+1	9	README.md
+1	1	build.gradle
+
+commit e57a77215387a1e15f1fe8a6056e16c6d0cacb49
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 22 21:58:26 2015 +0200
+
+    added play/fdroid productflavors (requires some refactoring in the future...)
+
+14	2	build.gradle
+131	0	src/fdroid/java/de/j4velin/pedometer/ui/Activity_Main.java
+395	0	src/fdroid/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+0	6	src/main/AndroidManifest.xml
+14	0	src/play/AndroidManifest.xml
+0	0	src/{main => play}/java/de/j4velin/pedometer/ui/Activity_Main.java
+6	6	src/{main => play}/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+0	0	src/{main => play}/java/de/j4velin/pedometer/util/GoogleFit.java
+0	0	src/{main => play}/java/de/j4velin/pedometer/util/PlayServices.java
+
+commit 09740f77a751c7e5b20bc4ea93037b2e2d973a7b
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 22 21:19:37 2015 +0200
+
+    removed dashclock.jar from buildfile
+
+3	1	build.gradle
+2	2	src/main/AndroidManifest.xml
+
+commit 842c928086e4bb9b640777ec16975a2ede787c1f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 19 11:31:56 2015 +0200
+
+    fixed timezone change issues?
+
+18	0	src/main/java/de/j4velin/pedometer/Database.java
+2	2	src/main/java/de/j4velin/pedometer/util/Logger.java
+1	0	src/main/java/de/j4velin/pedometer/util/TimeZoneListener.java
+
+commit efd1069f2c3793b7fd21d2c13715a4d6cab5bd51
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Apr 17 11:16:27 2015 +0200
+
+    google fit recording api added
+
+2	2	src/main/AndroidManifest.xml
+1	0	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 5504c6f636cb214b54e8f932f68edf20ff8fa6a4
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Apr 17 11:06:29 2015 +0200
+
+    fixes
+
+2	2	src/main/AndroidManifest.xml
+6	2	src/main/java/de/j4velin/pedometer/Database.java
+4	1	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+1	1	src/main/java/de/j4velin/pedometer/ui/Dialog_Split.java
+5	5	src/main/java/de/j4velin/pedometer/ui/Dialog_Statistics.java
+2	2	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+7	6	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+7	2	src/main/java/de/j4velin/pedometer/util/GoogleFit.java
+4	4	src/main/java/de/j4velin/pedometer/util/Logger.java
+1	1	src/main/java/de/j4velin/pedometer/util/PlayServices.java
+
+commit c88eeef93ea3de29657e5844d71e53993e2842f3
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 16 22:39:29 2015 +0200
+
+    colorpicker package changed
+
+2	4	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+
+commit bcf43441eb40a5d0f009bb8b9fbd4a9baa1baedd
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 15 21:20:52 2015 +0200
+
+    build.gradle updated
+
+1	1	build.gradle
+
+commit c2feafdf2f2c3319107a9923487eab3d9fa78412
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Apr 13 10:29:36 2015 +0200
+
+    Google Fit API
+
+1	1	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 57522784be4733485952390a3982a23122472dfe
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Mar 30 21:09:38 2015 +0200
+
+    Update README.md
+
+2	2	README.md
+
+commit 1bf88f91b2436bf76aa9835e309aa5f32952982c
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Mar 26 15:11:57 2015 +0100
+
+    buildfiles updated
+
+2	12	build.gradle
+
+commit 379606d569ab9a21f6d28385f06f170da99e3f05
+Merge: b6c52cb 41eb8b4
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Tue Feb 17 09:53:04 2015 +0100
+
+    Merge pull request #69 from anthonytex/master
+    
+    Translated to italian
+
+commit 41eb8b4063f0b326c25b1172f1a63ff53f88c56d
+Author: Anthony <antoniotex90@gmail.com>
+Date:   Mon Feb 16 20:31:13 2015 +0100
+
+    Add Italian Translation
+
+61	0	src/main/res/values-it/strings.xml
+
+commit b6c52cbbae9f5bd1605f6b1de2a4ac7fc87a41d7
+Merge: 5a0b709 a867ed9
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Feb 16 17:04:19 2015 +0100
+
+    Merge pull request #68 from dotWee/master
+    
+    Bump version numbers to fix import into latest Android Studio
+
+commit a867ed9a32dae90443c4e2f20defdd542428d425
+Author: dotWee <dotWee@users.noreply.github.com>
+Date:   Fri Feb 13 18:29:03 2015 +0100
+
+    Bump build-tools and play-services version
+    
+    Also, I couldn't find any dependency on ColorPickerPreference.
+    Sure that it is still used in this project?
+
+2	2	build.gradle
+
+commit b611b4ef39b951e956d3ab5a35f7377f16ac4b37
+Author: dotWee <dotWee@users.noreply.github.com>
+Date:   Fri Feb 13 18:25:45 2015 +0100
+
+    Bump gradle-version
+    
+    because projects with gradle version >2.2 causes import-problems on latest Android Studio 1.1
+
+1	1	gradle/wrapper/gradle-wrapper.properties
+
+commit 5a0b70960f0448e85a3e9212e575f4743fd733ff
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 21 19:45:00 2015 +0100
+
+    key.properties.sample added
+
+9	0	key.properties.sample
+
+commit 7120dc949e092893bc40f70ec6a40c1b65ce6804
+Merge: 82563dc 9b63946
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Sun Jan 18 20:00:51 2015 +0100
+
+    Merge pull request #64 from ogr3/master
+    
+    Updated Swedish translation
+
+commit 9b63946ea55ab75db91f8823ddcd657c4082d54d
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sun Jan 18 18:37:55 2015 +0100
+
+    Updated Swedish translation
+
+10	2	src/main/res/values-sv/strings.xml
+
+commit 82563dcceb898b03d74f504bd62e1ee0267efbb1
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 16 23:31:32 2014 +0100
+
+    gradle build files updated
+
+1	1	build.gradle
+
+commit 5ab83e98636dd572044fc78804f9bbb72e0ed806
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 26 21:27:07 2014 +0100
+
+    removed ids.xml (game ids)
+
+1	0	src/main/res/values/.gitignore
+0	30	src/main/res/values/ids.xml
+
+commit f372e5e711c396245b93d05f47f9f83b66fd7bc9
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 26 21:22:06 2014 +0100
+
+    trying sensor batching again
+
+4	1	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit f1f084a879f8c224de1633aecc7c09285a8d55f2
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 23 23:29:05 2014 +0100
+
+    disabled shrinkRessources as building seems to fail with it enabled
+
+1	1	build.gradle
+
+commit f37d670a9f002c7444a0546fbbfcef422c55b170
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 22 20:33:36 2014 +0100
+
+    dont update steps if step value > Integer.MAXINT
+
+3	5	src/main/java/de/j4velin/pedometer/ui/Fragment_Overview.java
+
+commit 6e2eb8897266f68bcf6d78af19038f9717ed667b
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 22 18:58:10 2014 +0100
+
+    iml removed
+
+0	92	Pedometer.iml
+
+commit beba9883b0a4ccdabe8beedd15ab6aae85d0b45b
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 22 18:50:31 2014 +0100
+
+    gitignore updated
+
+2	1	.gitignore
+
+commit d339fe5aa94e09e0226db1262bbce5326982379c
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 22 18:45:26 2014 +0100
+
+    gradle buildfiles
+
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+164	0	gradlew
+90	0	gradlew.bat
+
+commit 2bf4bb5f7053b0384a03feb8b35962f08522e748
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 19 23:05:56 2014 +0100
+
+    removed replace theme
+
+1	1	src/main/AndroidManifest.xml
+
+commit 4744d0e16d07122854914ce94fa89822269e897e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Nov 17 14:06:55 2014 +0100
+
+    gradle & target sdk updated
+
+7	8	build.gradle
+4	0	src/main/AndroidManifest.xml
+
+commit fcd3b3219dc5215c89c3160a7252d28b27937553
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 9 11:43:58 2014 +0100
+
+    ...
+
+1	2	Pedometer.iml
+
+commit 66f7d430eb7fa0b53bfab62f47793ef1e30aa5da
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 9 10:08:52 2014 +0100
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit 6dbfe68d03b53a04d53303b81afec7630329630f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Nov 9 00:45:39 2014 +0100
+
+    fixed crash
+
+1	0	src/main/java/de/j4velin/pedometer/Database.java
+
+commit 6f64ffaa66faa9021cb19f07fa432b60b0ccd0e8
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 8 10:29:29 2014 +0100
+
+    different IDs for error and normal notification
+
+14	9	src/main/java/de/j4velin/pedometer/BootReceiver.java
+4	2	src/main/java/de/j4velin/pedometer/SensorListener.java
+
+commit 56e8b46b1214844ab06e044d51ec8bda0137d198
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Nov 8 10:27:15 2014 +0100
+
+    try to recover some steps after an incorrect shutdown
+
+11	2	src/main/java/de/j4velin/pedometer/BootReceiver.java
+13	0	src/main/java/de/j4velin/pedometer/Database.java
+
+commit 402b5aa1b93cb27d0697889c048f8cc65a2c36d8
+Merge: 8bea74f a561633
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Nov 7 21:17:51 2014 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8bea74fcc7a02f7883cfd4a2e370baff4bfc5477
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Nov 7 21:17:09 2014 +0100
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit a561633057c76ee09903f0a85a59b78fb7862465
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Thu Nov 6 09:20:38 2014 +0100
+
+    removed basegameutils dependancy from readme
+
+1	1	README.md
+
+commit e2f39ca8c7052c6e921d259038ca5362bc5a91e5
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 5 21:16:29 2014 +0100
+
+    fix: data on shutdown might have been added to the wrong date
+
+18	4	src/main/java/de/j4velin/pedometer/ShutdownRecevier.java
+
+commit cf97fe4b9b4027aaa292f9fb79f8dc8e539da508
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 5 16:22:16 2014 +0100
+
+    ColorPreview views changed
+
+19	28	src/main/java/de/j4velin/pedometer/util/ColorPreview.java
+52	52	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+13	13	src/main/res/layout/widgetconfig.xml
+
+commit 55d4777e60e217a204910270f2a2a76db7ad0915
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 5 16:13:48 2014 +0100
+
+    also subscribe to Google Fit recodings API
+
+2	0	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit d6ed344fad76f08d7bf18f7bfcabdb339b28d391
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Nov 5 16:13:04 2014 +0100
+
+    only export data with date > 0 into csv
+
+1	1	src/main/java/de/j4velin/pedometer/ui/Fragment_Settings.java
+
+commit 5c026865588615e9068ad02c90cabdf186a8acc3
+Merge: 8fe6a2d fa8a9da
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Oct 31 08:15:08 2014 +0100
+
+    Merge pull request #56 from I3ck/master
+    
+    changed wording in README
+
+commit fa8a9da74eea87c9481e3aa5c181d9953311a4a4
+Author: Martin Buck <buckmartin@buckmartin.de>
+Date:   Fri Oct 31 00:54:55 2014 +0100
+
+    changed wording in README
+
+1	1	README.md
+
+commit 8fe6a2d5cb22be4fcdcd52eb9942f18b6c1d2e96
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Oct 29 12:04:38 2014 +0100
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit 7b13a7b9b7df7d9fca0a633fead574e1ffc62ed1
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Oct 29 11:58:49 2014 +0100
+
+    sync to Google Fit
+
+19	7	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+159	0	src/main/java/de/j4velin/pedometer/util/GoogleFit.java
+
+commit eb964920884a161722deb186b7f4c0bd887d4950
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Oct 29 11:19:26 2014 +0100
+
+    moved PlayServices to util package
+
+2	2	src/main/java/de/j4velin/pedometer/Database.java
+23	16	src/main/java/de/j4velin/pedometer/{ => util}/PlayServices.java
+
+commit f33a9ba35c9b3118286c0c5281a89c0e2258d478
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Oct 29 11:04:08 2014 +0100
+
+    fixed: same RC for play activity & play services error resolving
+
+3	1	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 0acda517d44f01affc262c26d15966ac14406d45
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Oct 29 11:01:30 2014 +0100
+
+    removed BaseGameUtils
+
+1	2	build.gradle
+106	25	src/main/java/de/j4velin/pedometer/ui/Activity_Main.java
+
+commit 2c404631b641ecd69eb6eb018e82284cd396f378
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Oct 28 09:39:34 2014 +0100
+
+    package refactoring
+
+11	11	src/main/AndroidManifest.xml
+0	1	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+0	1	src/main/java/de/j4velin/pedometer/BootReceiver.java
+4	4	src/main/java/de/j4velin/pedometer/Database.java
+2	2	src/main/java/de/j4velin/pedometer/PlayServices.java
+0	2	src/main/java/de/j4velin/pedometer/PowerReceiver.java
+2	5	src/main/java/de/j4velin/pedometer/{background => }/SensorListener.java
+1	3	src/main/java/de/j4velin/pedometer/{background => }/ShutdownRecevier.java
+5	3	src/main/java/de/j4velin/pedometer/{ => ui}/Activity_Main.java
+3	1	src/main/java/de/j4velin/pedometer/{ => ui}/Dialog_Split.java
+6	2	src/main/java/de/j4velin/pedometer/{ => ui}/Dialog_Statistics.java
+9	2	src/main/java/de/j4velin/pedometer/{ => ui}/Fragment_Overview.java
+7	2	src/main/java/de/j4velin/pedometer/{ => ui}/Fragment_Settings.java
+14	13	src/main/java/de/j4velin/pedometer/widget/DashClock.java
+1	1	src/main/java/de/j4velin/pedometer/widget/Widget.java
+
+commit fbb0be6b7cd2987bb0fcc8d4824d405b01fb4725
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 23 11:04:36 2014 +0200
+
+    error notification icon changed
+
+7	7	src/main/java/de/j4velin/pedometer/BootReceiver.java
+
+commit b1f4ea121eb70016255b826afd304cf8d0acf5c0
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 23 11:03:51 2014 +0200
+
+    switched to DeviceDefault theme
+
+1	1	src/main/AndroidManifest.xml
+
+commit 890c94eb05f032dc44e3448352c5231de26d8939
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 23 11:01:53 2014 +0200
+
+    fixed crash in emulator without step sensors
+
+5	3	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit 5b33b6da6987a7cfd70806b933c9b6167398ea10
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 23 10:50:56 2014 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit fd3b9930f97367a2bdf1ff69f0c8f6c2821fbec1
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 23 10:50:20 2014 +0200
+
+    added information about "skipped" (not ignored) entries when importing a csv file
+
+114	95	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+1	0	src/main/res/values-de/strings.xml
+1	0	src/main/res/values/strings.xml
+
+commit 8bfbeae71ed93bc6c348f4061249874b537dbc94
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Oct 21 18:12:29 2014 +0200
+
+    ignore step values > Integer.MAX_INT
+
+23	18	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit f503d383f85d0a74f8a9272587becaea86945352
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Oct 16 09:09:32 2014 +0200
+
+    ignore "backup column" (date=-1) when checking for achievements
+
+6	6	src/main/java/de/j4velin/pedometer/PlayServices.java
+
+commit c14948dc62b2ec92e0d3d4a66fa148aa59c1d42e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Oct 13 08:52:22 2014 +0200
+
+    icon changed
+
+-	-	src/main/res/drawable-hdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-mdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-xhdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-xxhdpi-v11/ic_notification.png
+
+commit 87fb119b3c51577e5646db0efa70f1e984b145a1
+Merge: 60cda63 6a9e7d2
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Oct 13 08:52:02 2014 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 60cda638d62312a1453c22c9e48eb54d6acef965
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Oct 13 08:51:44 2014 +0200
+
+    icon changes
+
+-	-	src/main/res/drawable-hdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-mdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-xhdpi-v11/ic_notification.png
+-	-	src/main/res/drawable-xxhdpi-v11/ic_notification.png
+
+commit 9a0328fd5144d374cc6df2ef215abbeb86c12819
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Oct 13 08:48:41 2014 +0200
+
+    ..
+
+24	17	Pedometer.iml
+
+commit 6a9e7d2e459d216922847fd6b04a825556845037
+Merge: 792e644 ae52576
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 26 18:33:34 2014 +0200
+
+    Merge pull request #54 from stankochetkov/patch-1
+    
+    Added strings for "Pause while charging" option
+
+commit ae5257660a64ae06caeaa38323f3ca4ad2013f8a
+Author: stankochetkov <stan.kochetkov@gmail.com>
+Date:   Fri Sep 26 17:20:45 2014 +0300
+
+    Added strings for "Pause while charging" option
+
+3	1	src/main/res/values-ru/strings.xml
+
+commit 792e6442a06ce66d7c47d3db2f8646f7b6eb3963
+Merge: fe517d8 6b58594
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Mon Sep 22 09:51:43 2014 +0200
+
+    Merge pull request #53 from knight00931/patch-5
+    
+    Update strings.xml
+
+commit 6b585947edc93c6565d9e891875e221928209865
+Author: knight00931 <knight00931@gmail.com>
+Date:   Mon Sep 22 12:59:58 2014 +0800
+
+    Update strings.xml
+
+2	0	src/main/res/values-zh-rTW/strings.xml
+
+commit fe517d88b4d4cc22540da7105bf7d153b19f82ec
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 19 21:39:25 2014 +0200
+
+    fixed (?) issue with PRIMARY KEY constraint still active even though it should have been removed when upgrading the database
+
+8	3	src/main/java/de/j4velin/pedometer/Database.java
+
+commit 11029b828d55abf0f7bebb0073c3686c8bd4b2ee
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 19 21:31:52 2014 +0200
+
+    added "pause while charging" option
+
+19	25	Pedometer.iml
+9	0	src/main/AndroidManifest.xml
+25	9	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+43	0	src/main/java/de/j4velin/pedometer/PowerReceiver.java
+2	1	src/main/res/values-de/strings.xml
+2	1	src/main/res/values/strings.xml
+13	7	src/main/res/xml/settings.xml
+
+commit c298cf979a425a109c3f3b0d04e020b5a89bf0e1
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 19 21:17:49 2014 +0200
+
+    about link updated
+
+2	2	src/main/res/values/strings.xml
+
+commit 316b9edb46644a99d4c65419af753edec63e3d4e
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 19 21:17:19 2014 +0200
+
+    translation updated
+
+4	1	src/main/res/values-de/strings.xml
+
+commit fa3489cb57fa9618becf990018330905b7c4c8ac
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Sep 19 21:15:56 2014 +0200
+
+    use saved step value for notification if current value is not available
+
+20	13	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit fb28022f2945baea6566107eb00ba4fb34f8f15a
+Merge: 24ec9bd 74b05ac
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Fri Sep 5 09:26:53 2014 +0200
+
+    Merge pull request #51 from knight00931/patch-5
+    
+    Update strings.xml
+
+commit 74b05acb40bc0be947dabc9f3889bc422fafe6dd
+Author: knight00931 <knight00931@gmail.com>
+Date:   Fri Sep 5 10:20:30 2014 +0800
+
+    Update strings.xml
+
+2	2	src/main/res/values-zh-rTW/strings.xml
+
+commit 24ec9bda396c109c2be03fc1f5ae744a2a313400
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Aug 27 00:55:23 2014 +0200
+
+    removed PRIMARY KEY constraint
+
+2	2	src/main/AndroidManifest.xml
+1	1	src/main/java/de/j4velin/pedometer/Database.java
+
+commit c21fea12634acf509e580725f2aad99992b6860c
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 16:33:25 2014 +0200
+
+    update widget whenever sensorlistener is started (at least once an hour)
+
+2	0	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+1	1	src/main/res/xml/widget.xml
+
+commit 03ef785d7c1adda6f5fc4b39ab73a88821704371
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 16:24:51 2014 +0200
+
+    updated target sdk (20)
+
+1	1	build.gradle
+0	4	src/main/AndroidManifest.xml
+
+commit 0009bace28a1ea4f0d9dc2a81da294a20fc1f13e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 16:23:46 2014 +0200
+
+    made classes package local
+
+1	1	src/main/java/de/j4velin/pedometer/Dialog_Split.java
+1	1	src/main/java/de/j4velin/pedometer/Dialog_Statistics.java
+1	1	src/main/java/de/j4velin/pedometer/PlayServices.java
+
+commit 64b422bc0906078dc20f40e7f55701451d116bfa
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 16:18:37 2014 +0200
+
+    notification icon changed
+
+2	2	src/main/AndroidManifest.xml
+1	1	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+-	-	src/main/res/drawable-hdpi/ic_notification.png
+-	-	src/main/res/drawable-mdpi/ic_notification.png
+-	-	src/main/res/drawable-xhdpi/ic_notification.png
+-	-	src/main/res/drawable-xxhdpi/ic_notification.png
+
+commit d7120b1c663373a87bc90b5ea51a682aa1c56393
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 16:02:16 2014 +0200
+
+    disabled background process to see if that fixes the issue with the step counter not responding after some days
+
+2	4	src/main/AndroidManifest.xml
+
+commit 73d9e68e363b32ee52f0a355976d21e83381b19a
+Merge: 1109e20 cb914a8
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 15:59:57 2014 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 1109e20f1869eae34d8f7748010027cc22c3e947
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 25 15:58:10 2014 +0200
+
+    added pause/resum button to main UI
+
+38	3	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+1	2	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+5	1	src/main/res/menu/main.xml
+
+commit cb914a8a1eb9cca32940c8b242356a1619d0be88
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Aug 20 16:29:24 2014 +0200
+
+    use older google services as otherwise we are not allowed to publish to the play store!?!?
+
+1	1	Pedometer.iml
+1	1	build.gradle
+
+commit 761360aa0203853ee30b9a1a3b45d747ae7bf5ef
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 17 01:41:25 2014 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit 56e114d4b651e400c86321bef2eccf0c794479a1
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 17 01:40:40 2014 +0200
+
+    buildscript updated
+
+10	0	build.gradle
+
+commit c43db9ac30f2a197587782311835d204838faf83
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Aug 15 15:49:03 2014 +0200
+
+    show notification on SensorListener onCreate
+
+1	0	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit 4a35afcaefc8f7959e5aaf264dcc36a665dc1a4f
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 14 22:54:02 2014 +0200
+
+    version update
+
+2	2	src/main/AndroidManifest.xml
+
+commit c41aa8ed2dd1e415d9aabc6f13670d159534b1d5
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 14 22:48:18 2014 +0200
+
+    iml updated
+
+19	1	Pedometer.iml
+
+commit 097be6fc5a20d0b8744e7e18655bb08890236f40
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Aug 14 22:43:51 2014 +0200
+
+    show decimals on barchart in distance view
+
+6	2	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+
+commit 4102a1d4858b1ecc93de8cbb1114db8cfa88b344
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Aug 12 21:38:51 2014 +0200
+
+    NullPointerException fixed
+
+1	1	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit 19cac9ec8790b856d7569d115b807e7a8d8ae2f9
+Merge: 81e523b e193d46
+Author: Thomas Hoffmann <j4velin@users.noreply.github.com>
+Date:   Tue Aug 12 10:47:03 2014 +0200
+
+    Merge pull request #50 from knight00931/patch-4
+    
+    Update strings.xml
+
+commit e193d46eb296598989611ee40af9c474cbdecd1c
+Author: knight00931 <knight00931@gmail.com>
+Date:   Tue Aug 12 16:41:21 2014 +0800
+
+    Update strings.xml
+
+3	0	src/main/res/values-zh-rTW/strings.xml
+
+commit 81e523be703e490d2874420b68a963e7e396f974
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 4 20:07:18 2014 +0200
+
+    handle timezone changes
+
+7	0	src/main/AndroidManifest.xml
+9	2	src/main/java/de/j4velin/pedometer/Activity_Main.java
+26	6	src/main/java/de/j4velin/pedometer/Database.java
+50	0	src/main/java/de/j4velin/pedometer/util/TimeZoneListener.java
+
+commit 9fc542b7457868361925bc17d90517e89081509e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 4 12:45:18 2014 +0200
+
+    ongoing notification
+
+1	1	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit 1a2e17717edd0f30e98b0ee726e8cdc37f8fb890
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Aug 4 10:57:52 2014 +0200
+
+    added "pause" option (experimental)
+
+2	2	src/main/AndroidManifest.xml
+7	3	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+65	17	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+-	-	src/main/res/drawable-hdpi/ic_pause.png
+-	-	src/main/res/drawable-hdpi/ic_resume.png
+-	-	src/main/res/drawable-mdpi/ic_pause.png
+-	-	src/main/res/drawable-mdpi/ic_resume.png
+-	-	src/main/res/drawable-xhdpi/ic_pause.png
+-	-	src/main/res/drawable-xhdpi/ic_resume.png
+-	-	src/main/res/drawable-xxhdpi/ic_pause.png
+-	-	src/main/res/drawable-xxhdpi/ic_resume.png
+3	0	src/main/res/values/strings.xml
+
+commit 0f6a86db7facfda16bcae711a045308c9664662f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 3 20:50:36 2014 +0200
+
+    dismiss split counter dialog on start
+
+1	5	src/main/java/de/j4velin/pedometer/Dialog_Split.java
+
+commit ac18fb31b6ffe766c6d42200c7b53c8bd6eea188
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 3 10:22:51 2014 +0200
+
+    re-register sensorlistener every hours & removed foreground-service workaround for the 4.4.2 start-sticky bug
+
+28	26	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+
+commit c063450d66dda2b113114ec21e5bb3c342409264
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Aug 3 10:20:23 2014 +0200
+
+    fixed incorrect widget background color
+
+1	2	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+
+commit 6ddc018efb061d38b47f42632f4f007859adab69
+Merge: 51f9048 31e1696
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Aug 2 00:43:16 2014 +0200
+
+    Merge branch 'master' of github.com:j4velin/Pedometer
+
+commit 51f9048c28a447d595a55c1846a4917b6914dc94
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Aug 2 00:42:31 2014 +0200
+
+    updated about dialog text
+
+1	1	src/main/res/values-de/strings.xml
+1	1	src/main/res/values-es/strings.xml
+0	1	src/main/res/values-ja/strings.xml
+1	1	src/main/res/values-ru/strings.xml
+1	1	src/main/res/values-sv/strings.xml
+1	1	src/main/res/values-zh-rTW/strings.xml
+1	1	src/main/res/values/strings.xml
+
+commit 31e169657a5e267016f25c50e926dfb7e77b6259
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Fri Aug 1 00:14:50 2014 +0200
+
+    Update README.md
+
+2	2	README.md
+
+commit 82ab3fe7a0851a84059817dce2d32715cd36a0af
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 12:15:27 2014 +0200
+
+    fix: switching to distance did not change value text in bar chart
+
+0	3	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+
+commit 150cfaf094d9079c278a601f3cececc7c78d907e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 12:12:35 2014 +0200
+
+    layout changes
+
+29	28	src/main/res/layout-land/fragment_overview.xml
+16	17	src/main/res/layout/fragment_overview.xml
+
+commit 5756d2ff906fd3fae35a9fce7fcfa4be1a29cecc
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 12:07:01 2014 +0200
+
+    ladnscape view of statistics dialog added
+
+103	0	src/main/res/layout-land/statistics.xml
+
+commit 7db209ffa4cdd9af33e362b0b28d72d282f6172a
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 12:06:44 2014 +0200
+
+    added call to update() on PieGraph
+
+1	1	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+
+commit 3af3c15a6a9cac046d6c27d2cf397e1ab6416f0e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 01:23:23 2014 +0200
+
+    minor code optimizations
+
+1	1	build.gradle
+25	25	src/main/AndroidManifest.xml
+7	7	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+1	1	src/main/java/de/j4velin/pedometer/util/Logger.java
+1	1	src/main/java/de/j4velin/pedometer/widget/Widget.java
+0	1	src/main/res/values-de/strings.xml
+0	1	src/main/res/values-es/strings.xml
+0	1	src/main/res/values-ja/strings.xml
+0	1	src/main/res/values-ru/strings.xml
+0	1	src/main/res/values-sv/strings.xml
+0	1	src/main/res/values-zh-rCN/strings.xml
+0	1	src/main/res/values-zh-rTW/strings.xml
+0	1	src/main/res/values/strings.xml
+
+commit 216e96cb16bb0adb8ab0f4218c0f2195b52d1c2d
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 01:14:47 2014 +0200
+
+    reformat code
+
+2	2	src/main/AndroidManifest.xml
+121	111	src/main/java/de/j4velin/pedometer/Activity_Main.java
+27	33	src/main/java/de/j4velin/pedometer/BootReceiver.java
+6	6	src/main/java/de/j4velin/pedometer/Database.java
+60	55	src/main/java/de/j4velin/pedometer/Dialog_Split.java
+0	1	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+355	325	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+216	211	src/main/java/de/j4velin/pedometer/PlayServices.java
+122	126	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+16	15	src/main/java/de/j4velin/pedometer/background/ShutdownRecevier.java
+15	15	src/main/java/de/j4velin/pedometer/util/ColorPreview.java
+48	53	src/main/java/de/j4velin/pedometer/util/Logger.java
+14	14	src/main/java/de/j4velin/pedometer/util/Util.java
+
+commit 574a93caebe8dc83e3dd7ef2e68f376c628a3067
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 01:09:23 2014 +0200
+
+    Database is now a singleton
+
+1	1	src/main/java/de/j4velin/pedometer/BootReceiver.java
+298	290	src/main/java/de/j4velin/pedometer/Database.java
+1	1	src/main/java/de/j4velin/pedometer/Dialog_Statistics.java
+4	4	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+2	2	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+1	1	src/main/java/de/j4velin/pedometer/PlayServices.java
+2	2	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+1	1	src/main/java/de/j4velin/pedometer/background/ShutdownRecevier.java
+1	1	src/main/java/de/j4velin/pedometer/widget/DashClock.java
+1	1	src/main/java/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 96ab2a5ec6b391e9346625e5c5470fd18b00ffe0
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 28 01:03:33 2014 +0200
+
+    switch to another graph library
+
+2	1	Pedometer.iml
+1	2	build.gradle
+278	282	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+27	19	src/main/res/layout-land/fragment_overview.xml
+26	18	src/main/res/layout/fragment_overview.xml
+
+commit d0e0c22df637efa40edf40b02dfa0c9ac0be543b
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Jul 24 00:22:56 2014 +0200
+
+    disabled proguard for debug builds
+
+2	2	build.gradle
+
+commit 7cbdafa7041d9f200486ed572724ef7f07e0c155
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Jul 24 00:22:20 2014 +0200
+
+    fixed crash when accessing cursor
+
+2	5	src/main/java/de/j4velin/pedometer/PlayServices.java
+
+commit 684b9279ead46165550154b5a4eee257f3b88ca8
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Jul 22 16:59:07 2014 +0200
+
+    fix daysForStamina limited to max 15
+
+2	2	src/main/java/de/j4velin/pedometer/PlayServices.java
+
+commit 7fda44c0101976d63ae2446e6c804f487283921b
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 14 18:55:45 2014 +0200
+
+    reverted last commit: AS automatically adds that excludeFolder again :(
+
+1	0	Pedometer.iml
+
+commit 65fdd78d3d5e160c4a514a35bcc162275f339f9e
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 14 09:19:14 2014 +0200
+
+    removed "exclude folder: outputs"
+
+0	1	Pedometer.iml
+
+commit 45717be636e24cdb30f750aff64a97fca4dac3ac
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jul 9 15:03:38 2014 +0200
+
+    commented lines removed
+
+0	2	src/main/java/de/j4velin/pedometer/util/Logger.java
+
+commit 09ac30cf6cda8b4cae22a576ab4ead7a72a2de5b
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jul 7 12:11:51 2014 +0200
+
+    play services updated
+
+1	1	Pedometer.iml
+
+commit 2701219adb92f03142bd7b17005854903e0986bb
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jun 30 21:45:37 2014 +0200
+
+    refactoring
+
+0	105	AndroidManifest.xml
+7	0	build.gradle
+1	1	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+1	1	src/main/java/de/j4velin/pedometer/BootReceiver.java
+4	4	src/main/java/de/j4velin/pedometer/Database.java
+6	9	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+1	1	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+8	7	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+2	1	src/main/java/de/j4velin/pedometer/background/ShutdownRecevier.java
+5	5	src/main/java/de/j4velin/pedometer/util/Logger.java
+
+commit 0cadcf1bb0b82cd1a4a626f201765e0cc148eff1
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jun 30 21:31:13 2014 +0200
+
+    reorganzized files for gradle
+
+0	159	src/de/j4velin/pedometer/Activity_Main.java
+0	34	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+0	67	src/de/j4velin/pedometer/BootReceiver.java
+0	340	src/de/j4velin/pedometer/Database.java
+0	92	src/de/j4velin/pedometer/Dialog_Split.java
+0	72	src/de/j4velin/pedometer/Dialog_Statistics.java
+0	327	src/de/j4velin/pedometer/Fragment_Overview.java
+0	399	src/de/j4velin/pedometer/Fragment_Settings.java
+0	246	src/de/j4velin/pedometer/PlayServices.java
+0	174	src/de/j4velin/pedometer/background/SensorListener.java
+0	47	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+0	55	src/de/j4velin/pedometer/util/ColorPreview.java
+0	92	src/de/j4velin/pedometer/util/Logger.java
+0	36	src/de/j4velin/pedometer/util/Util.java
+0	47	src/de/j4velin/pedometer/widget/DashClock.java
+0	53	src/de/j4velin/pedometer/widget/Widget.java
+0	91	src/de/j4velin/pedometer/widget/WidgetConfig.java
+0	48	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+1	1	src/main/java/de/j4velin/pedometer/util/Logger.java
+
+commit 27b2cbe2195b3a81b0520617367ee50e15556487
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jun 30 12:35:37 2014 +0200
+
+    changed to Android Studio & gradle
+
+14	18	.gitignore
+73	0	Pedometer.iml
+45	0	build.gradle
+2	0	proguard-project.txt
+0	58	res/values-fr/strings.xml
+106	0	src/main/AndroidManifest.xml
+159	0	src/main/java/de/j4velin/pedometer/Activity_Main.java
+34	0	src/main/java/de/j4velin/pedometer/AppUpdatedReceiver.java
+67	0	src/main/java/de/j4velin/pedometer/BootReceiver.java
+340	0	src/main/java/de/j4velin/pedometer/Database.java
+92	0	src/main/java/de/j4velin/pedometer/Dialog_Split.java
+72	0	src/main/java/de/j4velin/pedometer/Dialog_Statistics.java
+327	0	src/main/java/de/j4velin/pedometer/Fragment_Overview.java
+399	0	src/main/java/de/j4velin/pedometer/Fragment_Settings.java
+246	0	src/main/java/de/j4velin/pedometer/PlayServices.java
+174	0	src/main/java/de/j4velin/pedometer/background/SensorListener.java
+47	0	src/main/java/de/j4velin/pedometer/background/ShutdownRecevier.java
+55	0	src/main/java/de/j4velin/pedometer/util/ColorPreview.java
+92	0	src/main/java/de/j4velin/pedometer/util/Logger.java
+36	0	src/main/java/de/j4velin/pedometer/util/Util.java
+47	0	src/main/java/de/j4velin/pedometer/widget/DashClock.java
+53	0	src/main/java/de/j4velin/pedometer/widget/Widget.java
+91	0	src/main/java/de/j4velin/pedometer/widget/WidgetConfig.java
+48	0	src/main/java/de/j4velin/pedometer/widget/WidgetUpdateService.java
+-	-	{res => src/main/res}/drawable-hdpi/ic_dashclock.png
+-	-	{res => src/main/res}/drawable-hdpi/ic_launcher.png
+-	-	{res => src/main/res}/drawable-mdpi/ic_dashclock.png
+-	-	{res => src/main/res}/drawable-mdpi/ic_launcher.png
+-	-	{res => src/main/res}/drawable-xhdpi/ic_dashclock.png
+-	-	{res => src/main/res}/drawable-xhdpi/ic_launcher.png
+-	-	{res => src/main/res}/drawable-xxhdpi/ic_dashclock.png
+-	-	{res => src/main/res}/drawable-xxhdpi/ic_launcher.png
+91	91	{res => src/main/res}/layout-land/fragment_overview.xml
+93	93	{res => src/main/res}/layout/dialog_split.xml
+86	86	{res => src/main/res}/layout/fragment_overview.xml
+29	29	{res => src/main/res}/layout/signin.xml
+85	85	{res => src/main/res}/layout/statistics.xml
+38	38	{res => src/main/res}/layout/stepsize.xml
+0	0	{res => src/main/res}/layout/widget.xml
+40	40	{res => src/main/res}/layout/widgetconfig.xml
+33	33	{res => src/main/res}/menu/main.xml
+57	57	{res => src/main/res}/values-de/strings.xml
+0	0	{res => src/main/res}/values-es/strings.xml
+0	0	{res => src/main/res}/values-ja/strings.xml
+0	0	{res => src/main/res}/values-ru/strings.xml
+0	1	{res => src/main/res}/values-sv/strings.xml
+0	1	{res => src/main/res}/values-zh-rCN/strings.xml
+0	0	{res => src/main/res}/values-zh-rTW/strings.xml
+29	31	{res => src/main/res}/values/ids.xml
+59	57	{res => src/main/res}/values/strings.xml
+28	28	{res => src/main/res}/xml/settings.xml
+0	0	{res => src/main/res}/xml/widget.xml
+
+commit 12a5d2c70a780157d015b3c08246a6b1d2d01f83
+Merge: a2ed621 42acde7
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jun 29 01:32:21 2014 +0200
+
+    Merge pull request #47 from oXidFoX/patch-1
+    
+    french first try.
+
+commit 42acde7a1c9d59297cc3e4deaf235fd77e63616b
+Author: oXidFoX <oXidFoX@users.noreply.github.com>
+Date:   Wed Jun 25 23:09:48 2014 +0200
+
+    french first try.
+    
+    "split count" still missing. Currently don't find a nice way to translate it...
+
+58	0	res/values-fr/strings.xml
+
+commit a2ed621a43d00ce761896181757e3fc5d74d245c
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jun 10 21:23:16 2014 +0200
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 12a285e3c2d878d89b11717c89ed7cba6f153f55
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jun 10 21:23:03 2014 +0200
+
+    reset db value for current steps on boot
+
+1	0	src/de/j4velin/pedometer/BootReceiver.java
+1	0	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+
+commit bd79ab45013560264ace4f73dacf1a4d8fb6213d
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jun 9 01:17:32 2014 +0200
+
+    fix: current steps not saved if there was not entry yet
+
+32	34	src/de/j4velin/pedometer/Database.java
+
+commit 5d8af6c751f6313ff849df4674e05f877f22b5d1
+Merge: 7e6f4ce e69bcc7
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jun 8 13:11:35 2014 +0200
+
+    Merge pull request #45 from kazuH/master
+    
+    First translation for Japanese
+
+commit 7e6f4ceb9a0ffee46e97b10d0d13a54c15bc2a4f
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jun 3 16:36:24 2014 +0200
+
+    version update
+
+2	2	AndroidManifest.xml
+4	17	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit e69bcc7473bc7208bb3235a143a6f2a0921a1f4b
+Author: kazuH <kz4n66016@gmail.com>
+Date:   Sun Jun 1 16:47:35 2014 +0900
+
+    First translation for Japanese
+
+56	0	res/values-ja/strings.xml
+
+commit 594c99662c1d02b636d359b092c9653f7e943772
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 31 23:03:28 2014 +0200
+
+    store current steps in database instead of sharedpreferences
+
+2	2	AndroidManifest.xml
+36	2	src/de/j4velin/pedometer/Database.java
+4	3	src/de/j4velin/pedometer/Fragment_Overview.java
+5	2	src/de/j4velin/pedometer/background/SensorListener.java
+2	5	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+2	6	src/de/j4velin/pedometer/widget/DashClock.java
+4	11	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit ddaf38a523ee1f13d4e88bceed2accfcb72bd21b
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 26 13:28:33 2014 +0200
+
+    fix: negative number in notificaiton if goal was reached
+
+3	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 5a864732e4752ccf04a0a0039ddcc1363a657353
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 26 13:25:43 2014 +0200
+
+    fix: steps not saved on shutdown
+
+10	2	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+
+commit 7135702760db4ff0e348cb1855cc4c2ff716af8b
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 24 13:09:25 2014 +0200
+
+    fixed not inserting new date if steps == 0
+
+38	25	src/de/j4velin/pedometer/Database.java
+9	7	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 87a76400dfc7c19cedf195d0c0cb119e92bfa76b
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 24 10:25:23 2014 +0200
+
+    merge conflicts
+
+105	0	AndroidManifest.xml
+180	0	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit b4ba19ed8bebd2b9b1d229840fd892a5ff60a329
+Merge: 701bf20 d917f29
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 24 10:24:58 2014 +0200
+
+    Merge remote-tracking branch 'origin/test'
+    
+    Conflicts:
+            AndroidManifest.xml
+            src/de/j4velin/pedometer/background/SensorListener.java
+
+commit d917f29acb910f64f957f5163f293db780e766d2
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat May 24 09:54:16 2014 +0200
+
+    added some more logging
+
+1	1	AndroidManifest.xml
+6	0	src/de/j4velin/pedometer/Fragment_Overview.java
+7	1	src/de/j4velin/pedometer/background/SensorListener.java
+1	1	src/de/j4velin/pedometer/util/Logger.java
+
+commit db98ff6ab799485be5061e6d4d153b650b5754f4
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue May 20 23:58:50 2014 +0200
+
+    re-added notification
+
+4	5	res/xml/settings.xml
+55	85	src/de/j4velin/pedometer/Fragment_Settings.java
+55	11	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit dccca57030ee21734e93ce16fb614ce8e7f85bc2
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 19 19:54:39 2014 +0200
+
+    never unregister listener
+
+18	12	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 701bf200b5702ac128cc493961bc67cb02635099
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 19 19:45:34 2014 +0200
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 16a025fa8307442a56ab5f67d97fa908801bf645
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon May 19 19:44:59 2014 +0200
+
+    more dealing with incorrect sensor values...
+
+21	5	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit e37e52f1185eac3a9dc9ededeebd6a469472815f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun May 18 10:19:00 2014 +0200
+
+    testing a simpler approach
+
+2	5	AndroidManifest.xml
+5	5	res/xml/settings.xml
+1	11	src/de/j4velin/pedometer/BootReceiver.java
+23	52	src/de/j4velin/pedometer/Fragment_Overview.java
+91	60	src/de/j4velin/pedometer/Fragment_Settings.java
+0	86	src/de/j4velin/pedometer/background/NewDayReceiver.java
+26	210	src/de/j4velin/pedometer/background/SensorListener.java
+1	9	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+1	1	src/de/j4velin/pedometer/util/Logger.java
+11	47	src/de/j4velin/pedometer/widget/DashClock.java
+16	50	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit bb3a9bbfe28f0f35e59dd69e102bfe0e7697dec9
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed May 7 10:51:31 2014 +0200
+
+    experimental auto-reset method when receiving 10 consecutive incorrect
+    values from the sensor
+
+34	14	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 484505868a84d168d04bebb6d73d332445ddae3f
+Merge: 6706990 19fa10e
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun May 4 16:16:18 2014 +0200
+
+    Merge pull request #39 from ogr3/master
+    
+    Swedish translation of new strings
+
+commit 19fa10e2b337cb922adfb16bbe84de9f02cd6690
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sun May 4 15:35:09 2014 +0200
+
+    Swedish translation of new strings
+
+9	1	res/values-sv/strings.xml
+
+commit 67069908d08b5702889d8222b0a204175af2d38b
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu May 1 11:54:09 2014 +0200
+
+    possible endless loop fixed
+
+1	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit d3d187beafd3f109ad34f3679ea8d99b893c6fd0
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 30 16:58:50 2014 +0200
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit f2e067a79d3fe034b6b4c85d2d2a3797d11caaa7
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 30 16:57:59 2014 +0200
+
+    added 'auto-fix-database' feature if sensor value decreases somehow
+
+21	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 6c42b3237531b47076028bbafbf2d16322dfc70d
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 30 12:45:01 2014 +0200
+
+    new leaderboard added
+
+27	24	res/values/ids.xml
+16	0	src/de/j4velin/pedometer/PlayServices.java
+
+commit 974f24cd451eba2f842ed3bf7f668e07444b3d96
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 30 12:30:59 2014 +0200
+
+    added new achievements
+
+27	13	res/values/ids.xml
+78	8	src/de/j4velin/pedometer/PlayServices.java
+
+commit de817dbb82db2e60822c52fba3fe1d154ddc9342
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 30 11:59:11 2014 +0200
+
+    valid entries are not limited to 200.000 steps per day
+
+2	2	src/de/j4velin/pedometer/Database.java
+
+commit 23c7889268334d171256f4ab41314f3ba5b475cd
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 29 10:57:16 2014 +0200
+
+    start service after removing invalid database entries
+
+1	2	src/de/j4velin/pedometer/BootReceiver.java
+
+commit 4f17a9cc334f99ef99c159d48afb790914269ea6
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 29 10:56:14 2014 +0200
+
+    always remove negative rows on boot
+
+8	7	src/de/j4velin/pedometer/BootReceiver.java
+
+commit 4cc714242d64f0b0b8c2d6cf50c61d976c5f703a
+Merge: e63ff44 5de87e6
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 29 10:52:02 2014 +0200
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit e63ff44063a347a0ae545cc20f03bd7bf0cef327
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 29 10:51:52 2014 +0200
+
+    removed overwritten method "close" and "open" in SQLiteOpenHelper
+
+0	1	src/de/j4velin/pedometer/BootReceiver.java
+0	7	src/de/j4velin/pedometer/Database.java
+0	1	src/de/j4velin/pedometer/Dialog_Statistics.java
+0	2	src/de/j4velin/pedometer/Fragment_Overview.java
+0	2	src/de/j4velin/pedometer/Fragment_Settings.java
+1	3	src/de/j4velin/pedometer/PlayServices.java
+0	1	src/de/j4velin/pedometer/background/NewDayReceiver.java
+0	2	src/de/j4velin/pedometer/background/SensorListener.java
+0	1	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+0	1	src/de/j4velin/pedometer/widget/DashClock.java
+0	1	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 5de87e67e851369fed0ff8508e3c94a061020f75
+Merge: b78a652 4e48daf
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Apr 24 22:15:33 2014 +0200
+
+    Merge pull request #36 from nikanorov/master
+    
+    Russian translation
+
+commit 4e48dafc3b5faf5d88d50e217c547e6b35aaff51
+Author: Andrey Nikanorov <nikanorov@gmail.com>
+Date:   Thu Apr 24 15:37:56 2014 +0400
+
+    Russian translation
+
+58	0	res/values-ru/strings.xml
+
+commit b78a652ffb1bbe1ab448b8c94c5c426ccb116cfb
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Apr 24 09:42:55 2014 +0200
+
+    removed sensor event batching again
+
+2	2	AndroidManifest.xml
+3	3	src/de/j4velin/pedometer/Fragment_Overview.java
+21	4	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit b3aff6826c79deead20585cc4852a5ab009f6dd0
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 13 23:09:36 2014 +0200
+
+    fixed issue where step value decreased for no logical reason
+
+12	5	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 36b64f25ac9a240baac7f975dfead046ec56b8a8
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 13 23:06:50 2014 +0200
+
+    added settings fragment replacement to backstack
+
+2	1	src/de/j4velin/pedometer/Activity_Main.java
+
+commit 26f1c7de342d854047a98198dd62846c5c599585
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 13 23:04:52 2014 +0200
+
+    don't ask for google+ signout by default
+
+1	1	src/de/j4velin/pedometer/Activity_Main.java
+
+commit da8cbd2f3fa5dba520882d6322b3b6b583993f95
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 13 23:01:18 2014 +0200
+
+    prevent Play Service from auto-reconnecting if user specifically signed
+    out
+
+5	0	src/de/j4velin/pedometer/Activity_Main.java
+
+commit fe7d64992c4097cb7f4cdd86c150a4a360aed189
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Apr 13 22:15:44 2014 +0200
+
+    activity launch mode changed
+
+3	3	AndroidManifest.xml
+
+commit 0278386cd238d3436832775547a1203d66b8c70a
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 8 23:47:45 2014 +0200
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 8f47a178454017ff676ed7a8e4ff3460833045b6
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Apr 8 22:48:09 2014 +0200
+
+    changed to batched sensor reporting
+
+2	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 2f2867457aff36adcff64ad25dbd2d62643974f6
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 2 12:29:31 2014 +0200
+
+    screenshots added
+
+2	2	README.md
+-	-	screenshot1.png
+-	-	screenshot2.png
+
+commit c587e4d9187dbdc802ad9fc93fa4454d520cc38f
+Merge: a01daca ed768df
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 2 12:27:25 2014 +0200
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit a01daca92a857f1ea7237206d28472d769ed53b8
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Apr 2 12:26:57 2014 +0200
+
+    try unregistering sensorlistener before registering again
+
+11	4	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit ed768dfd142762171123691231b5ef532109ad81
+Merge: 0a9c3fe fc06074
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Fri Mar 28 17:42:55 2014 +0100
+
+    Merge pull request #34 from knight00931/patch-3
+    
+    update split count strings
+
+commit fc060749697d06a082aae53ea12ea242d31351ea
+Author: knight00931 <knight00931@gmail.com>
+Date:   Fri Mar 28 23:11:36 2014 +0800
+
+    update split count strings
+
+9	2	res/values-zh-rTW/strings.xml
+
+commit 0a9c3fe3133bc2255f272358485410f0ae3abe86
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Mar 27 09:48:17 2014 +0100
+
+    german translation updated
+
+10	1	res/values-de/strings.xml
+
+commit e9aff3a5772e03fde84403518916abdb33b3fd73
+Merge: e867ce4 4244304
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Mar 27 09:40:13 2014 +0100
+
+    Merge pull request #33 from McGiverGim/master
+    
+    Update version. Added split counter translation to spanish.
+
+commit 42443042f67b9d40c96a75c73a2f8f42459f5875
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Thu Mar 27 08:02:19 2014 +0100
+
+    Update strings.xml
+    
+    Add split counter strings
+
+9	1	res/values-es/strings.xml
+
+commit 9cc92096a22a6ad47e6fd3222e31af2576e64ce7
+Merge: 3a8e678 e867ce4
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Thu Mar 27 07:52:07 2014 +0100
+
+    Merge pull request #6 from j4velin/master
+    
+    Update version
+
+commit e867ce452f774db7abfe64d652669939de14e964
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 26 20:02:46 2014 +0100
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 2ee3932aa64d3efd0fd6337a1e1b24e4bf0662f3
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 24 14:30:54 2014 +0100
+
+    copyright text added
+
+16	0	src/de/j4velin/pedometer/Dialog_Split.java
+15	0	src/de/j4velin/pedometer/Dialog_Statistics.java
+15	0	src/de/j4velin/pedometer/Fragment_Overview.java
+15	0	src/de/j4velin/pedometer/Fragment_Settings.java
+
+commit d22234c9064b179aa2a65f8348236686852b9856
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Mar 24 14:29:49 2014 +0100
+
+    fix: wrong date in split dialog
+
+1	1	src/de/j4velin/pedometer/Dialog_Split.java
+
+commit 7e07ed35887b608bc1d5d54d4ceacd004c4edac6
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 23 20:21:30 2014 +0100
+
+    fixed NullPointerException
+
+1	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit fd88888938403b351f2d83500dd0d7cb5d8a6f45
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Mar 21 11:22:26 2014 +0100
+
+    "about" moved from settings to overflow menu
+
+6	1	res/menu/main.xml
+0	3	res/xml/settings.xml
+31	3	src/de/j4velin/pedometer/Activity_Main.java
+1	1	src/de/j4velin/pedometer/Fragment_Overview.java
+1	28	src/de/j4velin/pedometer/Fragment_Settings.java
+
+commit 913d75a5a47b088000456f0d3d9dfdc8afa65a68
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Mar 21 11:18:12 2014 +0100
+
+    hide splitcount dialog from settings fragment
+
+57	81	src/de/j4velin/pedometer/Fragment_Settings.java
+
+commit 7f2ec79ad2d9a943939af83c547b42a58cf68db5
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Mar 21 11:14:43 2014 +0100
+
+    split count added
+
+94	0	res/layout/dialog_split.xml
+6	1	res/menu/main.xml
+6	0	res/values/strings.xml
+76	0	src/de/j4velin/pedometer/Dialog_Split.java
+8	2	src/de/j4velin/pedometer/Fragment_Overview.java
+
+commit 5779eff7cf9566b6ebf182d2bdafdcc37a16c355
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Mar 21 09:44:21 2014 +0100
+
+    links in about dialog added
+
+2	1	res/values/strings.xml
+10	2	src/de/j4velin/pedometer/Fragment_Settings.java
+
+commit 46157c70d4b442769b71db14ba6e5dde1ccc5228
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Mar 21 09:43:49 2014 +0100
+
+    refactoring
+
+1	1	AndroidManifest.xml
+1	1	res/layout-land/fragment_overview.xml
+1	1	res/layout/fragment_overview.xml
+4	4	src/de/j4velin/pedometer/{MainActivity.java => Activity_Main.java}
+58	0	src/de/j4velin/pedometer/Dialog_Statistics.java
+44	100	src/de/j4velin/pedometer/{OverviewFragment.java => Fragment_Overview.java}
+11	11	src/de/j4velin/pedometer/{SettingsFragment.java => Fragment_Settings.java}
+2	2	src/de/j4velin/pedometer/background/SensorListener.java
+4	4	src/de/j4velin/pedometer/widget/DashClock.java
+2	2	src/de/j4velin/pedometer/widget/Widget.java
+
+commit 58be5022a71b68d9cc11cebb8bdb1fa0d3fd9962
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Mar 18 12:24:13 2014 +0100
+
+    removed unused import
+
+0	1	src/de/j4velin/pedometer/MainActivity.java
+
+commit a7a388d4338f948749ac51c47552eab62d672c6e
+Merge: 41fdd13 467f0ad
+Author: Alfonso <roaredalfonso@gmail.com>
+Date:   Sun Mar 16 14:02:58 2014 +0100
+
+    Merge remote-tracking branch 'j4velin/master'
+    
+    Conflicts:
+            src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 467f0adf711b7a96412e01a8f7ba4a578559a3bb
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Mar 15 17:01:03 2014 +0100
+
+    git ignore dashclock jar
+
+3	0	.gitignore
+
+commit 20209ad3be37171e6044844bd124ba43026e1e10
+Merge: 2594084 c7ed917
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Mar 15 16:58:46 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 2594084acb0ffb904b32342f2063cdc0c46d7dd9
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Mar 15 16:58:36 2014 +0100
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit ddb771916927c24ffc80fec0540f16ef97699607
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Mar 15 13:43:22 2014 +0100
+
+    typo
+
+1	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit c488a75856e2138376efe2d870bc4667ad1902de
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Mar 15 13:42:52 2014 +0100
+
+    fix: SensorListener now calls NewDayReceiver only when it gets a real
+    sensor value
+
+2	2	src/de/j4velin/pedometer/background/NewDayReceiver.java
+39	50	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit c7ed9175610e2ef6ea8050d38d621771fa3c5b34
+Merge: 35e781b ba7ecea
+Author: j4velin <j4velin@users.noreply.github.com>
+Date:   Sat Mar 15 13:25:50 2014 +0100
+
+    Merge pull request #30 from knight00931/patch-2
+    
+    update zh-rTW strings
+
+commit ba7ecea485cc321dcfeaf7769e13114d0383089c
+Author: knight00931 <knight00931@gmail.com>
+Date:   Sat Mar 15 20:19:40 2014 +0800
+
+    update zh-rTW strings
+
+1	2	res/values-zh-rTW/strings.xml
+
+commit 35e781b891f9c4d7e5d02f3ce3c39c20742ce9d9
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 12 16:36:01 2014 +0100
+
+    re-register sensor listener on each start
+
+6	3	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 45a8cc2ec5d405cec77805956df4b167354c3d38
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 12 16:35:30 2014 +0100
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 41fdd13e7e20eea0ff06964cbeba9f3375ba159c
+Author: Alfonso <roaredalfonso@gmail.com>
+Date:   Wed Mar 12 01:21:11 2014 +0100
+
+    updated to the new GoogleApiClient
+
+8	7	src/de/j4velin/pedometer/MainActivity.java
+8	6	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 637542668cd3fcbe2f5b7cabfd280d58bf777e80
+Author: Alfonso <roaredalfonso@gmail.com>
+Date:   Wed Mar 12 01:10:22 2014 +0100
+
+    updated to the new GoogleApiClient
+
+19	16	src/de/j4velin/pedometer/PlayServices.java
+
+commit 72d9bb089fde2ba72dbdf42d83bfa54a600a8888
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Mar 9 11:40:30 2014 +0100
+
+    fix: Overview sometimes used the offset of the previous day
+
+4	6	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 85e4c42127966a047d07d6de24be5538174a6e85
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 5 10:26:55 2014 +0100
+
+    last 7 days now means "today + last 6 days"
+
+1	1	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit ec2b394db234fe7b5c7686b5ba1a1d11e62be5cd
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 5 10:18:10 2014 +0100
+
+    string extracted
+
+1	0	res/values/strings.xml
+1	2	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 4a1d9bba39791933494ea5ddee8a229f54b53d09
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 5 10:14:22 2014 +0100
+
+    added confirm dialog when exporting data if file already exists
+
+141	89	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 790f66bf5795bb031ee34cb9cac47ecb2a2ddd4d
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 5 10:02:10 2014 +0100
+
+    replaced PreferenceManager.getSharedPreferences with
+    context.getSharedPreferences with MODE_MULTI_PROCESS flag
+
+1	2	src/de/j4velin/pedometer/BootReceiver.java
+60	44	src/de/j4velin/pedometer/OverviewFragment.java
+3	6	src/de/j4velin/pedometer/SettingsFragment.java
+34	20	src/de/j4velin/pedometer/background/SensorListener.java
+2	2	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+
+commit 03e47d4762f9dc814973e5e48eafafd012f47c43
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Mar 5 09:59:46 2014 +0100
+
+    line width
+
+7	5	src/de/j4velin/pedometer/widget/Widget.java
+6	6	src/de/j4velin/pedometer/widget/WidgetConfig.java
+8	6	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 146f46348df79142552e9e151befbb167794cbbc
+Merge: db66fe2 3a8e678
+Author: j4velin <j4velin@users.noreply.github.com>
+Date:   Mon Feb 24 10:09:58 2014 +0100
+
+    Merge pull request #28 from McGiverGim/master
+    
+    Update spanish translation to latest version
+
+commit 3a8e678cfc7b271752b3573325a62bace1e9f4f3
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Mon Feb 24 08:26:15 2014 +0100
+
+    Update spanish translations to last version
+
+5	0	res/values-es/strings.xml
+
+commit 88bf61faa8ce5dc456a75276260993c8a3adbede
+Merge: db65848 db66fe2
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Mon Feb 24 08:22:49 2014 +0100
+
+    Merge pull request #5 from j4velin/master
+    
+    Update version
+
+commit db66fe21e6cb322666a408b8b322c517559c37cf
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 19 11:45:47 2014 +0100
+
+    statistics more accurate
+
+6	11	src/de/j4velin/pedometer/Database.java
+1	1	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit fc22436614806fd70b2c0e4c0f0156596761ded9
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 19 11:34:03 2014 +0100
+
+    fixed isse: http://j4velin-systems.de/bugtracker/view.php?id=354
+
+22	14	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit ee12029acf5076d9068ac535e85f7b7e7f77ae22
+Merge: d6cedb1 0a9a69d
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 19 11:32:01 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 0a9a69dd753b0613ba1b1ea79ac0131b68c877e9
+Merge: 6ee1a58 1f3be33
+Author: j4velin <j4velin@users.noreply.github.com>
+Date:   Wed Feb 19 11:31:44 2014 +0100
+
+    Merge pull request #26 from knight00931/patch-1
+    
+    Update strings.xml
+
+commit 6ee1a5874798050125e17595c6c9e8eab9ed493a
+Merge: fbc1468 ea01e31
+Author: j4velin <j4velin@users.noreply.github.com>
+Date:   Wed Feb 19 11:31:39 2014 +0100
+
+    Merge pull request #27 from ogr3/master
+    
+    New strings translated to Swedish
+
+commit d6cedb1e27e3a8bf9463ea41965129f7383b6939
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 19 11:25:38 2014 +0100
+
+    fix: last week statistics
+
+2	1	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit ea01e31d2d08f1405cc7c689d99493f9e1c442cc
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sat Feb 15 07:15:15 2014 +0100
+
+    New strings translated to Swedish
+
+5	0	res/values-sv/strings.xml
+
+commit 1f3be330beaa7bc3e2773ef76d670597b9ccb3dc
+Author: knight00931 <knight00931@gmail.com>
+Date:   Sat Feb 15 10:55:54 2014 +0800
+
+    Update strings.xml
+    
+    translate new strings
+
+8	1	res/values-zh-rTW/strings.xml
+
+commit fbc1468383d91cf78a4044d9c68a571e35c0b9e0
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Feb 15 00:25:49 2014 +0100
+
+    added some more statistics
+
+3	5	AndroidManifest.xml
+86	0	res/layout/statistics.xml
+5	1	res/values-de/strings.xml
+5	0	res/values/strings.xml
+49	4	src/de/j4velin/pedometer/Database.java
+44	0	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit fed6e88aede9bcf404cce39f061b8ed7b95d2a0c
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Feb 14 22:23:12 2014 +0100
+
+    added some OK buttons on the dialogs
+
+57	14	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit b0b14f1f502377b5dc1aa103487f6e34249c89be
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Feb 14 22:17:18 2014 +0100
+
+    fix: Google+ signOut crash
+
+4	0	src/de/j4velin/pedometer/MainActivity.java
+1	1	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 5ea5b48258da48b1dc3cac96f99f91d6891ee0a7
+Merge: c57ed2f adf58ea
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Feb 14 22:02:14 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit c57ed2f9c5fe76cbbc5da8f12abd7eaa54f9f685
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Feb 14 22:02:06 2014 +0100
+
+    added periodically backup in case the device crashes
+
+5	1	src/de/j4velin/pedometer/BootReceiver.java
+4	0	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit adf58ea5d1d48a5dab91a359af194ad7b5897f6f
+Merge: 4278426 b1b660e
+Author: j4velin <j4velin@users.noreply.github.com>
+Date:   Wed Feb 12 16:46:43 2014 +0100
+
+    Merge pull request #24 from knight00931/patch-1
+    
+    Update strings.xml
+
+commit b1b660ef21255080896dd4f7cfa4620e4f277e10
+Author: knight00931 <knight00931@gmail.com>
+Date:   Wed Feb 12 22:23:36 2014 +0800
+
+    Update strings.xml
+
+5	5	res/values-zh-rTW/strings.xml
+
+commit 4278426b0f83444b97781c8967fcdb24371781ec
+Merge: e1c9321 95cf2fb
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Feb 10 00:31:23 2014 +0100
+
+    Merge branch 'patch-1'
+    
+    Conflicts:
+            res/values-zh-rCN/strings.xml
+
+commit e1c93216de9eee20d8e13607f691160727b4c9c9
+Merge: c1b89d3 2ce6c22
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Feb 9 23:58:34 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 2ce6c22f68871a2d4f088cefe681d060fba6716b
+Merge: bd1f236 26f39a5
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Feb 9 23:52:05 2014 +0100
+
+    Merge pull request #20 from Felix2yu/master
+    
+    Update Chinese
+
+commit bd1f23672456c16ade242bc26f8bef7b6cdce765
+Merge: 8854f98 db65848
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Feb 9 23:51:54 2014 +0100
+
+    Merge pull request #21 from McGiverGim/master
+    
+    Spanish: Added average translation and some little corrections
+
+commit 95cf2fb23be3f87d9d31cf11c8f159d5e30724d7
+Author: zenoven <zenoven@gmail.com>
+Date:   Sat Feb 8 15:57:56 2014 +0800
+
+    Update strings.xml
+    
+    fix translation
+
+4	4	res/values-zh-rCN/strings.xml
+
+commit db65848a2aacd6e133d561edbc2d47513ea305e2
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sat Feb 8 08:49:26 2014 +0100
+
+    Added average string, some little corrections
+
+5	4	res/values-es/strings.xml
+
+commit 26f39a5817083cbf092c8f04321d32b6251ee057
+Author: Felix2yu <yufei.im@gmail.com>
+Date:   Sat Feb 8 15:45:06 2014 +0800
+
+    错别字
+
+1	1	res/values-zh-rCN/strings.xml
+1	1	res/values-zh-rTW/strings.xml
+
+commit be4bd7be7f0ddacd9c0352bfc69b41d42c01f763
+Merge: 6e9df0b 8854f98
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sat Feb 8 08:44:46 2014 +0100
+
+    Merge pull request #4 from j4velin/master
+    
+    New update
+
+commit 834497de10755662208885f28b62a7470e1c2024
+Author: Felix2yu <yufei.im@gmail.com>
+Date:   Sat Feb 8 11:59:58 2014 +0800
+
+    Update Chinese
+
+2	1	res/values-zh-rCN/strings.xml
+2	1	res/values-zh-rTW/strings.xml
+
+commit f5a82033c21da74eaf6131355c315818bbc55138
+Merge: 66b094d 8854f98
+Author: Felix2yu <yufei.im@gmail.com>
+Date:   Sat Feb 8 11:47:16 2014 +0800
+
+    Merge pull request #1 from j4velin/master
+    
+    update
+
+commit c1b89d381c06c874929f85d6c333bdf495bfc631
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Feb 7 20:13:56 2014 +0100
+
+    fix: progress bar was not updated when goal was reached
+
+3	3	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 8854f984316ac78eb70e440fce6b6077d71d9f0b
+Merge: 2f6d10f b37b944
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Fri Feb 7 20:11:36 2014 +0100
+
+    Merge pull request #19 from ogr3/master
+    
+    translated average to swedish
+
+commit b37b944433e82d72afb2c18d77d320fbb0df9949
+Author: oGre <oGre@muppfarmen.se>
+Date:   Thu Feb 6 18:51:38 2014 +0100
+
+    translated average to swedish
+
+1	0	res/values-sv/strings.xml
+
+commit 2f6d10f398efbf86b3f0cbb0f316c5eeb2047b4e
+Merge: 41a2c4f 180e0c1
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 5 22:16:34 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 41a2c4f0d4833f63673555320f1995dbe34324b3
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 5 21:56:27 2014 +0100
+
+    localization
+
+2	3	res/layout/signin.xml
+3	1	res/values-de/strings.xml
+2	2	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 8845fae736d572cba7cb774f5993b1c9498edd86
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 5 21:51:13 2014 +0100
+
+    replaced 'yesterday' with 'average' and change all data on the screen
+    when switching from 'steps' to 'distance'
+
+2	2	res/layout-land/fragment_overview.xml
+2	2	res/layout/fragment_overview.xml
+1	0	res/values/strings.xml
+26	0	src/de/j4velin/pedometer/Database.java
+91	56	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit da9069bd695dc6a3fbd327473502f0400dc6bf1a
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 5 19:32:18 2014 +0100
+
+    fixed NumberFormatException when entering empty string
+
+8	4	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 2130988895166611ee099e2e54f481052e245682
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Feb 5 19:30:33 2014 +0100
+
+    NPE fixed
+
+6	7	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 180e0c16ede79879db69bb2070ee09a12b8c4e46
+Merge: 0cd0886 66b094d
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Feb 4 23:59:15 2014 -0800
+
+    Merge pull request #18 from Felix2yu/master
+    
+    Chinese translation
+
+commit 66b094d7e1ce07a640836e1ed6c500f147e4b3b6
+Author: Felix2yu <yufei.im@gmail.com>
+Date:   Wed Feb 5 12:32:39 2014 +0800
+
+    Chinese translation
+
+44	0	res/values-zh-rCN/strings.xml
+44	0	res/values-zh-rTW/strings.xml
+
+commit 0cd08868ebbc0886f9d6690b92ce25f8b421a4bc
+Merge: bdaa3d8 6e9df0b
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Feb 4 07:48:52 2014 -0800
+
+    Merge pull request #17 from McGiverGim/master
+    
+    Updated new strings extracted
+
+commit bdaa3d865a11af46a15236461dac3fc7c30f5da8
+Merge: 1128135 318c83c
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Feb 4 07:48:42 2014 -0800
+
+    Merge pull request #16 from ogr3/master
+    
+    Swedish translation of newly extracted strings
+
+commit 6e9df0b7708d5c18ee5d4172029f5570c34fe172
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Tue Feb 4 08:04:03 2014 +0100
+
+    Update strings.xml
+    
+    Updated new strings extracted
+
+4	2	res/values-es/strings.xml
+
+commit cf016425845b9c5e7b869e93af48f3747078a563
+Merge: 07e7f58 1128135
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Mon Feb 3 22:57:54 2014 -0800
+
+    Merge pull request #3 from j4velin/master
+    
+    Update version
+
+commit 318c83cc40c5abdb3867e6e3be154a1e9f01e41d
+Author: oGre <oGre@muppfarmen.se>
+Date:   Mon Feb 3 20:30:15 2014 +0100
+
+    Swedish translation of newly extracted strings
+
+2	0	res/values-sv/strings.xml
+
+commit 1128135589a7e108f82d6c8544379072de4ad5d7
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Feb 3 19:59:53 2014 +0100
+
+    german translation
+
+5	1	res/values-de/strings.xml
+
+commit d2c057175af7418c403919fbd5cdbc439d8371a3
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Feb 3 19:58:58 2014 +0100
+
+    string extracted
+
+2	0	res/values/strings.xml
+1	1	src/de/j4velin/pedometer/OverviewFragment.java
+4	3	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit a759612770ca095ecf51b5cffc803f438f5646de
+Merge: 39657fb ffbd8da
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Feb 3 19:41:51 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 39657fbf3cc29a25c701b158af019e38cc4702c9
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Feb 3 19:41:38 2014 +0100
+
+    decrease required widget width
+
+1	1	res/xml/widget.xml
+
+commit ffbd8da906fe28734f206546b3c58c45ff512ef8
+Merge: 72045d2 08b1459
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Jan 30 07:38:29 2014 -0800
+
+    Merge pull request #15 from AlonsoLP/patch-1
+    
+    Update strings.xml
+
+commit 08b1459b04b3bd889f72357e83b97ec380aa3b77
+Author: AlonsoLP <alonso.lara.plana@gmail.com>
+Date:   Thu Jan 30 11:37:53 2014 +0100
+
+    Update strings.xml
+
+8	6	res/values-es/strings.xml
+
+commit 72045d25f67b30eede0b1acb4c9e17695f2b98dc
+Merge: 24962be 8de178b
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Wed Jan 29 12:33:00 2014 -0800
+
+    Merge pull request #14 from ogr3/master
+    
+    Swedish translation added for new strings
+
+commit 8de178b7263b83b0f15dec3d69ddc9470264c04e
+Author: oGre <oGre@muppfarmen.se>
+Date:   Wed Jan 29 21:18:47 2014 +0100
+
+    whitespace
+
+1	1	res/values-sv/strings.xml
+
+commit 29292b3a0a627333909a0d4aca36372b3dfc651b
+Author: oGre <oGre@muppfarmen.se>
+Date:   Wed Jan 29 21:17:45 2014 +0100
+
+    Swedish translation of extracted strings
+
+2	0	res/values-sv/strings.xml
+
+commit 24962be0ca33d9f6de6b61935b10e68db3646d01
+Merge: fa5f275 e7ccfc6
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 29 21:12:19 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit fa5f27527684775a09dfec21c027f03fb7a70aaa
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 29 21:10:03 2014 +0100
+
+    even more string extracted ^^
+
+3	6	res/layout-land/fragment_overview.xml
+3	6	res/layout/fragment_overview.xml
+2	0	res/values/strings.xml
+
+commit e7ccfc6e96218e7d2bb466568bb3f71e259f0297
+Merge: 1dc78da 07e7f58
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Jan 28 12:06:00 2014 -0800
+
+    Merge pull request #12 from McGiverGim/master
+    
+    Added new Strings to spanish translation
+
+commit 1dc78da7efc31693b039d77367c5bb5bbf21ee1c
+Merge: 2487c8e 7a794d5
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Jan 28 12:05:45 2014 -0800
+
+    Merge pull request #13 from ogr3/master
+    
+    Swedish translation updated
+
+commit 7a794d5d51b7acebf4cecfb57e9edb35c672d031
+Author: oGre <oGre@muppfarmen.se>
+Date:   Tue Jan 28 20:54:58 2014 +0100
+
+    Updated Swedish translation
+
+4	4	res/values-sv/strings.xml
+
+commit 07e7f58619e4f96fe64f78d62249ee4132203b2f
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Tue Jan 28 19:39:22 2014 +0100
+
+    Update strings.xml
+    
+    Added new strings
+
+6	1	res/values-es/strings.xml
+
+commit f43fb470e6b70cfd9d07fd03e106da68646a0bcf
+Merge: 7b0933b 2487c8e
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Tue Jan 28 10:36:24 2014 -0800
+
+    Merge pull request #2 from j4velin/master
+    
+    Update to latest version
+
+commit a2284188368434c73ae0476c22c4309ab2ec098d
+Merge: ea9e32b 2487c8e
+Author: fredup <fredrik.duprez@tillvaxtverket.se>
+Date:   Tue Jan 28 16:33:32 2014 +0100
+
+    Merge branch 'master' of https://github.com/j4velin/Pedometer
+
+commit ea9e32bbefb33b7b5006b7429e284b1597b1d905
+Author: fredup <fredrik.duprez@tillvaxtverket.se>
+Date:   Tue Jan 28 16:32:08 2014 +0100
+
+    Minor Swedish translation fixes
+
+2	2	res/values-sv/strings.xml
+
+commit 2487c8ed6dea6024360dfa6c3c122c9f10c11570
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 11:10:01 2014 +0100
+
+    fix: bars not shown if one day had 0 steps
+
+10	11	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit d4392ddac2818f81a0df9ad44a3448b7d1540e43
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 11:09:40 2014 +0100
+
+    fix crash on German devices
+
+8	3	res/values-de/strings.xml
+
+commit 9481c2b0ee157ae3acfab741bfd8eea53404ccaf
+Merge: 839e1a5 392a0cf
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Tue Jan 28 02:08:13 2014 -0800
+
+    Merge pull request #11 from ogr3/master
+    
+    Swedish translation added for new strings
+
+commit 392a0cf1323136dd53a0f516d9eb08b40acba840
+Author: oGre <oGre@muppfarmen.se>
+Date:   Tue Jan 28 05:08:58 2014 +0100
+
+    Swedish translation added for new strings
+
+7	1	res/values-sv/strings.xml
+
+commit 839e1a5895925ffcedf36c92a4b0a938136a064b
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 01:00:27 2014 +0100
+
+    more strings extracted
+
+6	0	res/values/strings.xml
+6	5	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit e30d5c95539b832d08ca0742f691797557a1ab89
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:58:12 2014 +0100
+
+    switched from BroadcastReceiver to AppWidgetProvider
+
+5	7	src/de/j4velin/pedometer/widget/Widget.java
+
+commit cff432d642ee073bd5f69d1d22508132388d7122
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:57:32 2014 +0100
+
+    added IS_RUNNING flag & re-added "restart every hour" workaround
+
+13	2	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit b753dc545f7284fee3748f386d7ed4f1ba3ff842
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:56:58 2014 +0100
+
+    start SensorListener before reading steps variable
+
+28	19	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit 12ea12f3f6006a33b1b67954666b1d5b4def167f
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:55:34 2014 +0100
+
+    NullPointer fixed
+
+10	5	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit bc67ea7380ddd1b252a208e08d9bb3e4116a8fc0
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:55:12 2014 +0100
+
+    FAQ link added to menu
+
+8	3	res/menu/main.xml
+5	0	src/de/j4velin/pedometer/MainActivity.java
+
+commit 563e3ce36fcafed9a7030c84109cb243e54352c3
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 28 00:54:37 2014 +0100
+
+    german translation
+
+34	0	res/values-de/strings.xml
+
+commit 8eae11d79379380e9c51052c3a05f149188112c5
+Merge: f2183e4 7b0933b
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jan 26 12:38:14 2014 -0800
+
+    Merge pull request #10 from McGiverGim/master
+    
+    Added new Strings to spanish translation
+
+commit 7b0933bd22802c41827a844cd7d636605ba7d8a8
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sun Jan 26 16:39:10 2014 +0100
+
+    Update strings.xml
+    
+    Translated new strings
+
+16	0	res/values-es/strings.xml
+
+commit 2b9bf08b4827bee8b0e4c7743d5c61a6f3bca144
+Merge: a4318b0 f2183e4
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sun Jan 26 07:33:18 2014 -0800
+
+    Merge pull request #1 from j4velin/master
+    
+    Update Strings
+
+commit f2183e43d95066f35bba293f274796da11e0c9d9
+Merge: 387a7a6 510b627
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jan 26 06:11:22 2014 -0800
+
+    Merge pull request #9 from ogr3/master
+    
+    Swedish translation
+
+commit 510b62727ba250e634e60d7a8ad75b30dd92421e
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sun Jan 26 15:03:15 2014 +0100
+
+    Newline added at end of file
+
+1	1	res/values-sv/strings.xml
+
+commit e58e0a191f5761052ddc66885b791137758c87c5
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sun Jan 26 15:01:32 2014 +0100
+
+    Typo
+
+1	1	res/values-sv/strings.xml
+
+commit 4edcc68af0ddb5ceaa0da7896ef26856b4fd915e
+Author: oGre <oGre@muppfarmen.se>
+Date:   Sun Jan 26 14:58:55 2014 +0100
+
+    Swedish translation
+
+34	0	res/values-sv/strings.xml
+
+commit 387a7a61f54653f3a08f8956665d0d7c77925a3e
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 14:22:33 2014 +0100
+
+    added colorpicker to about dialog text
+
+1	1	res/values/strings.xml
+
+commit af2e2dbb82a76708f1845914c408aadf34966c34
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jan 26 14:18:28 2014 +0100
+
+    Update README.md
+
+2	2	README.md
+
+commit 72cfa64c9099b2c1917981db542d9988a96348ee
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 14:11:47 2014 +0100
+
+    widget fixes
+
+10	0	AndroidManifest.xml
+1	2	res/layout/widget.xml
+7	4	res/layout/widgetconfig.xml
+4	3	res/xml/widget.xml
+17	1	src/de/j4velin/pedometer/util/ColorPreview.java
+1	1	src/de/j4velin/pedometer/widget/DashClock.java
+16	0	src/de/j4velin/pedometer/widget/Widget.java
+31	12	src/de/j4velin/pedometer/widget/WidgetConfig.java
+17	1	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 05009c08ede42ea5653fd927811b4e9e60eb0152
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 13:49:56 2014 +0100
+
+    moved Util & Logger class to util package
+
+1	0	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+2	0	src/de/j4velin/pedometer/BootReceiver.java
+2	0	src/de/j4velin/pedometer/Database.java
+2	0	src/de/j4velin/pedometer/OverviewFragment.java
+1	0	src/de/j4velin/pedometer/SettingsFragment.java
+2	2	src/de/j4velin/pedometer/background/NewDayReceiver.java
+2	2	src/de/j4velin/pedometer/background/SensorListener.java
+2	2	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+17	13	src/de/j4velin/pedometer/{ => util}/Logger.java
+1	1	src/de/j4velin/pedometer/{ => util}/Util.java
+2	2	src/de/j4velin/pedometer/widget/DashClock.java
+2	2	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 7afc978cf5af16432f156fd3c1744c44e1a124ba
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 13:49:12 2014 +0100
+
+    widget added
+
+13	2	AndroidManifest.xml
+33	0	res/layout/widget.xml
+38	0	res/layout/widgetconfig.xml
+3	0	res/values/strings.xml
+10	0	res/xml/widget.xml
+39	0	src/de/j4velin/pedometer/util/ColorPreview.java
+37	0	src/de/j4velin/pedometer/widget/Widget.java
+72	0	src/de/j4velin/pedometer/widget/WidgetConfig.java
+72	0	src/de/j4velin/pedometer/widget/WidgetUpdateService.java
+
+commit 7074f8d8e875069a4c58a617fec12114763b5fc4
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 12:58:42 2014 +0100
+
+    more strings extracted
+
+12	0	res/values/strings.xml
+2	2	src/de/j4velin/pedometer/MainActivity.java
+20	18	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 9becd363b71202ce298c9a71e7d03d9f39f54cdb
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 12:46:11 2014 +0100
+
+    reduced logging in onReceive & visibility of the sheduleAlarmForNextDay
+    method
+
+1	5	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit 285906f6e7c2c74a001ca6da3f100abb39edd040
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 12:45:02 2014 +0100
+
+    removed call to sheduleNewDayReceiver as the SensorListener calls it
+    anyways
+
+0	2	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+0	2	src/de/j4velin/pedometer/BootReceiver.java
+0	5	src/de/j4velin/pedometer/MainActivity.java
+
+commit 966b647c5d42505d0c943796b99609901168cac3
+Merge: 6d45b86 e5a7366
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 26 12:44:18 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit e5a736621b46cad95950becd6f9aa373f4ddd059
+Merge: 46a3e88 a4318b0
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sun Jan 26 03:26:44 2014 -0800
+
+    Merge pull request #8 from McGiverGim/master
+    
+    Translation into spanish
+
+commit a4318b087c6933a57690f46dadbe52cea98e01f9
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sun Jan 26 12:15:54 2014 +0100
+
+    Update strings.xml
+    
+    Traducido nombre de la aplicación
+
+1	1	res/values-es/strings.xml
+
+commit 400f541037f6a456703463abda15a3d4831e83cc
+Author: McGiverGim <mcgivergim@gmail.com>
+Date:   Sun Jan 26 12:13:57 2014 +0100
+
+    Create strings.xml
+    
+    Translated strings into spanish
+
+19	0	res/values-es/strings.xml
+
+commit 6d45b860be57c42a0b797ff8efbb059a52b6d8e8
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 25 14:23:46 2014 +0100
+
+    final modifier added
+
+1	1	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+
+commit fe6d4831b7231c093915cb1169ced3258883b85c
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 25 14:22:44 2014 +0100
+
+    removed 'restart service every hour' workaround
+
+0	7	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 0974a00d36e1961cf9800b3ebffa3e3d032e589e
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 25 14:21:54 2014 +0100
+
+    moved logic to update yesterdays steps on a new day in the new method
+    Database.insertNewDay
+
+1	1	src/de/j4velin/pedometer/BootReceiver.java
+46	6	src/de/j4velin/pedometer/Database.java
+8	29	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit d38184b35909dcd76d8e842fd598019c13c1b06f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 25 14:20:54 2014 +0100
+
+    replaced insertDay with insertDayFromBackup
+
+9	6	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 6e78f3878830cd3d6e605e5dc7990e9c66a96a47
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 25 14:20:39 2014 +0100
+
+    removed insertDay method from overview fragment
+
+2	5	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 46a3e88e26a2fd1680d9b52fc81d567616d9253c
+Merge: 4b10377 0ec901d
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jan 20 16:30:16 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 4b10377bc798c6399010ab1e94c9afdcc3d95055
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jan 20 16:29:38 2014 +0100
+
+    new day check moved to onStart
+
+10	10	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit b49e459fb62c75231ade9b2a280dcc9ca5fd83f8
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Jan 20 16:29:19 2014 +0100
+
+    ApplicationContext for broadcast & prevent for inserting
+    -Interger.MIN_VALUE for yesterday
+
+7	5	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit 0ec901d43fbcd74f0e789a50bfba45b5146757a2
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Jan 16 02:19:24 2014 +0100
+
+    added dashclock api to build instructions
+
+1	1	README.md
+
+commit 4071b8fc637d5b384c4894a58c7f740525e6eea3
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Jan 16 02:16:54 2014 +0100
+
+    Update LICENSE
+
+1	1	LICENSE
+
+commit b9145ca5d2a42cde206f6a1c5edba65b9655e9e4
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Jan 16 01:32:34 2014 +0100
+
+    added dashclock extension
+
+20	2	AndroidManifest.xml
+-	-	res/drawable-hdpi/ic_dashclock.png
+-	-	res/drawable-mdpi/ic_dashclock.png
+-	-	res/drawable-xhdpi/ic_dashclock.png
+-	-	res/drawable-xxhdpi/ic_dashclock.png
+1	1	src/de/j4velin/pedometer/OverviewFragment.java
+88	0	src/de/j4velin/pedometer/widget/DashClock.java
+
+commit a5eecbf8593b28c835ce8b33c3081211516b9d2b
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Wed Jan 15 15:44:19 2014 +0100
+
+    screenshot updated
+
+1	1	README.md
+
+commit 9ec0a23af8ff05bf4d058cd7bb92d4c64b57aba4
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 15 15:37:24 2014 +0100
+
+    check if there is already an entry for the new day
+
+31	29	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit dc81507257fa05a708cc1dc9cc5e2be3a2936e12
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 15 15:36:54 2014 +0100
+
+    uses applicationcontext for alarm (maybe that will fix the alarm being
+    canceled?), calls NewDayReceiver if there is no entry for today yet (in
+    case the alarm was somehow canceled)
+
+18	4	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit a3a2e0470b8eb7f8dc99a2dd790060df2865a914
+Merge: 52bf14d 0fabac7
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 14 13:57:22 2014 +0100
+
+    Merge branch 'master' of git@github.com:j4velin/Pedometer.git
+
+commit 52bf14dc79a25d43e4e03ac498d05ae93c27a73b
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 14 13:54:03 2014 +0100
+
+    graph alignment
+
+2	0	res/layout-land/fragment_overview.xml
+
+commit b06c4904cf58f06c752e4a0c73f303a3258d3633
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 14 13:53:12 2014 +0100
+
+    added open source notice in about dialog
+
+1	1	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit b627292cf01dcce46a6c45009f739923e79d0e1c
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 14 13:52:28 2014 +0100
+
+    javadoc
+
+10	6	src/de/j4velin/pedometer/Database.java
+
+commit 0fabac7452fcbdb0f3682c87da5ecb636728771b
+Merge: 4ba4f2a 67f732a
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Mon Jan 13 14:22:37 2014 -0800
+
+    Merge pull request #3 from yoasif/patch-1
+    
+    Updated readme to use inline linking
+
+commit 67f732a3a5426b1c1ff93d999f5b7c2337de0038
+Author: yoasif <yoasif@gmail.com>
+Date:   Mon Jan 13 16:44:38 2014 -0500
+
+    Updated readme to use inline linking
+
+2	2	README.md
+
+commit 4ba4f2a8a54ee4d5f74c8bb86ce671132cf518aa
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 12 11:18:11 2014 +0100
+
+    changed to setExact for the alarm
+
+2	2	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit 48b26cd21584f8873689bcf9044c901094c75525
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Jan 12 11:17:18 2014 +0100
+
+    restart workaround moved to onStartCommand method
+
+26	37	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit f555f4a924ec647aab00927edcd092cb19752456
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 11 12:09:24 2014 +0100
+
+    fixed crash on orientation change
+
+127	178	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 933b67703d5440ce46ccd87c306775ca7c8c858f
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 11 12:08:36 2014 +0100
+
+    only load last 5 entries on logging
+
+1	1	src/de/j4velin/pedometer/Database.java
+
+commit 393378afcf1e3e495024d68b2f636cd86e043ade
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 11 12:08:08 2014 +0100
+
+    avoid fragment replacement on orientation change
+
+12	10	src/de/j4velin/pedometer/MainActivity.java
+
+commit 042990148c341fc5c579a2988bfdba2ba61fb5c1
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Jan 11 12:07:42 2014 +0100
+
+    onClickListener on Graph instead of text
+
+58	81	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 20693f78183c3519ff24e7418c52ae6c79917e71
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:25:45 2014 +0100
+
+    about dialog shows app version name
+
+14	6	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit ea271835cc660c2ebf628a49d4003e51fd70a5d5
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:22:07 2014 +0100
+
+    typo
+
+1	1	res/xml/settings.xml
+
+commit d695e9b77e49cfce6e1217a6f30c2b0f7dfcb021
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:21:27 2014 +0100
+
+    green bars if goal was reached for that day
+
+45	41	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 9194f6e1e15563973466e24249899fb2b357f1f0
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:20:37 2014 +0100
+
+    newDayAlarm now wakes the device to make sure the broadcast is deliverd
+    at midnight
+
+2	2	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit aa70e9ccaed9ffbe9abf6ba91bba88d5d7aae0c0
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:20:00 2014 +0100
+
+    loggin typo
+
+1	1	src/de/j4velin/pedometer/background/ShutdownRecevier.java
+
+commit d22c68db044a1d15aa664b678fd68de006d3261f
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Jan 7 19:19:47 2014 +0100
+
+    notification changed
+
+18	8	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 53697d150118feab18ccd517ebbf2bee5bc869c6
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Jan 3 11:16:15 2014 +0100
+
+    layout changes
+
+0	78	res/layout-land/activity_main.xml
+93	0	res/layout-land/fragment_overview.xml
+0	74	res/layout/activity_main.xml
+90	0	res/layout/fragment_overview.xml
+2	2	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit b241ae00f22bf85f1fd5cf72d83638bcc8b636ce
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 1 23:55:58 2014 +0100
+
+    notification update fixed
+
+6	6	src/de/j4velin/pedometer/SettingsFragment.java
+12	8	src/de/j4velin/pedometer/background/NewDayReceiver.java
+45	17	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 3c6e9082ea09486958f039f514de44a2ad5e4abf
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Jan 1 23:55:41 2014 +0100
+
+    landscape layout added
+
+78	0	res/layout-land/activity_main.xml
+64	43	src/de/j4velin/pedometer/OverviewFragment.java
+
+commit 78bd029f921cbe901e7ce085d5b1605e74502304
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 31 11:18:57 2013 +0100
+
+    javadoc added
+
+11	4	src/de/j4velin/pedometer/Database.java
+
+commit 2abc7608a0132f01cf913860ff8d7dd76e104332
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 31 11:18:46 2013 +0100
+
+    double Log.d call removed
+
+0	1	src/de/j4velin/pedometer/Logger.java
+
+commit 1568ef1fce00567783a214ab43bbf0968384c238
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 31 11:18:29 2013 +0100
+
+    notification disable-able
+
+41	22	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 6112cdf5b574853189b13de729071b771f1d3887
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 31 11:18:09 2013 +0100
+
+    import/export option & notification checkbox
+
+5	0	res/values/strings.xml
+15	0	res/xml/settings.xml
+252	74	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit f5572ee9034eadd2b87b818e3065d9355db99e5b
+Author: j4velin <j4velin@gmail.com>
+Date:   Tue Dec 31 11:17:34 2013 +0100
+
+    version update
+
+2	2	AndroidManifest.xml
+
+commit 917b7ac8693427c8d838435c6ef217d29dafe312
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Mon Dec 30 22:24:17 2013 +0100
+
+    Update README.md
+
+7	0	README.md
+
+commit 1721b8d767a6ecf3b552d0736dd1e2322c85154f
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 30 15:29:22 2013 +0100
+
+    gitignore
+
+2	1	.gitignore
+
+commit 7489755a2054f1b997330d971a797ea82c85f6b7
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 30 01:21:54 2013 +0100
+
+    update notification on new day
+
+3	0	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit c41ab3893e09878c64fa8defa951bb1b4d707f34
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 30 01:21:38 2013 +0100
+
+    version update
+
+2	2	AndroidManifest.xml
+1	3	res/values/ids.xml
+
+commit 6060bb5f67eea069b1dab47117ac04b05ad8c704
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 30 01:18:52 2013 +0100
+
+    new day starts at 0:00:01
+
+1	0	src/de/j4velin/pedometer/background/NewDayReceiver.java
+
+commit 45680ac3d2568b6d88a8594886ac82f0ac2a7893
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 30 01:17:43 2013 +0100
+
+    notification fixed
+
+23	20	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit 4e1c205e30cd55b83782615449d0797d09b4bf2d
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Dec 29 21:29:09 2013 +0100
+
+    start sensorlistener as foreground service until the Android
+    4.4.2-START_STICKY-bug is fixed
+
+45	6	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit a265f4f347e8ab17da7eab3e595a1779e5cfc7e5
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Thu Dec 26 09:15:28 2013 +0100
+
+    Update README.md
+
+9	0	README.md
+
+commit 1319c267c95a7239ee3dc622c3536d1fab2ea550
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 25 19:34:38 2013 +0100
+
+    increased default step size
+
+1	1	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit 9b80490fa3e9bc071ef11507786807590222dfac
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Dec 13 00:00:37 2013 +0100
+
+    logging disabled
+
+5	3	AndroidManifest.xml
+2	2	src/de/j4velin/pedometer/Logger.java
+
+commit 428c84cccdbc51191c91ec02a42e8834b00d2250
+Author: j4velin <j4velin@gmail.com>
+Date:   Mon Dec 9 16:27:22 2013 +0100
+
+    restart service when task is removed (due to "swiping away" the app in
+    the recent apps list)
+
+13	0	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit f3226c6d58ffb619db24a483e4087f83afa1d124
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Dec 8 16:35:57 2013 +0100
+
+    removed some logging
+
+6	16	src/de/j4velin/pedometer/Database.java
+0	2	src/de/j4velin/pedometer/OverviewFragment.java
+0	1	src/de/j4velin/pedometer/background/SensorListener.java
+
+commit dbf5671497a6192188e71a31dc1ed06ffbebcd2c
+Author: j4velin <j4velin@gmail.com>
+Date:   Sun Dec 8 16:32:22 2013 +0100
+
+    separate process for baackground sensor listener
+
+14	8	AndroidManifest.xml
+3	1	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+3	1	src/de/j4velin/pedometer/BootReceiver.java
+34	23	src/de/j4velin/pedometer/Database.java
+8	9	src/de/j4velin/pedometer/Logger.java
+3	0	src/de/j4velin/pedometer/MainActivity.java
+74	23	src/de/j4velin/pedometer/OverviewFragment.java
+1	1	src/de/j4velin/pedometer/PlayServices.java
+17	6	src/de/j4velin/pedometer/{ => background}/NewDayReceiver.java
+23	4	src/de/j4velin/pedometer/{ => background}/SensorListener.java
+5	1	src/de/j4velin/pedometer/{ => background}/ShutdownRecevier.java
+
+commit f9df40e8e9c313e09c626526909072c17e05cf05
+Author: j4velin <j4velin@gmail.com>
+Date:   Sat Dec 7 13:41:40 2013 +0100
+
+    force show keyboard
+
+4	1	src/de/j4velin/pedometer/SettingsFragment.java
+
+commit e225df50e039bc0e7c6a19009a05b83220863e6c
+Author: j4velin <j4velin@gmail.com>
+Date:   Fri Dec 6 13:44:34 2013 +0100
+
+    remove negative values on boot
+
+5	3	src/de/j4velin/pedometer/BootReceiver.java
+2	2	src/de/j4velin/pedometer/Database.java
+
+commit 3b83b467037954f00dffd0bb5bfd9899453b40a8
+Author: j4velin <j4velin@gmail.com>
+Date:   Thu Dec 5 10:04:34 2013 +0100
+
+    crash fixed
+
+1	1	AndroidManifest.xml
+1	1	src/de/j4velin/pedometer/Database.java
+
+commit dbb2f945694e6c00cb703e9be198d88b03e1d6ad
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 4 19:44:14 2013 +0100
+
+    added error notification when ACTION_SHUTDOWN was not sent on last
+    shutdown
+
+31	2	src/de/j4velin/pedometer/BootReceiver.java
+7	0	src/de/j4velin/pedometer/ShutdownRecevier.java
+
+commit 07bfe52b4c34875e045fac1033e6ed73ce3a86a4
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 4 19:28:14 2013 +0100
+
+    version increment
+
+2	2	AndroidManifest.xml
+
+commit 4bce22000311742d98fc6a55a85038505ddbba57
+Merge: 1ba1f1f 94efb8c
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 4 19:20:46 2013 +0100
+
+    new leaderboard added
+
+commit 1ba1f1fbf176f14ee07f53215da2db3cd69878f1
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 4 19:20:33 2013 +0100
+
+    new leaderboard added
+
+2	1	res/values/ids.xml
+22	0	src/de/j4velin/pedometer/Database.java
+1	1	src/de/j4velin/pedometer/MainActivity.java
+26	5	src/de/j4velin/pedometer/PlayServices.java
+
+commit 94efb8cba79294475d89e18ceded53a72d89b455
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Wed Dec 4 00:35:54 2013 +0100
+
+    Update README.md
+
+9	0	README.md
+
+commit 5b3cc45c4a147c6a105ed8886cebd5ec04dc85dd
+Author: j4velin <j4velin@gmail.com>
+Date:   Wed Dec 4 00:33:32 2013 +0100
+
+    initial
+
+4	0	.gitignore
+63	0	AndroidManifest.xml
+-	-	ic_launcher-web.png
+-	-	res/drawable-hdpi/ic_launcher.png
+-	-	res/drawable-mdpi/ic_launcher.png
+-	-	res/drawable-xhdpi/ic_launcher.png
+-	-	res/drawable-xxhdpi/ic_launcher.png
+74	0	res/layout/activity_main.xml
+31	0	res/layout/signin.xml
+38	0	res/layout/stepsize.xml
+19	0	res/menu/main.xml
+16	0	res/values/ids.xml
+14	0	res/values/strings.xml
+18	0	res/xml/settings.xml
+33	0	src/de/j4velin/pedometer/AppUpdatedReceiver.java
+41	0	src/de/j4velin/pedometer/BootReceiver.java
+160	0	src/de/j4velin/pedometer/Database.java
+90	0	src/de/j4velin/pedometer/Logger.java
+116	0	src/de/j4velin/pedometer/MainActivity.java
+80	0	src/de/j4velin/pedometer/NewDayReceiver.java
+231	0	src/de/j4velin/pedometer/OverviewFragment.java
+138	0	src/de/j4velin/pedometer/PlayServices.java
+89	0	src/de/j4velin/pedometer/SensorListener.java
+191	0	src/de/j4velin/pedometer/SettingsFragment.java
+39	0	src/de/j4velin/pedometer/ShutdownRecevier.java
+36	0	src/de/j4velin/pedometer/Util.java
+
+commit fd67ae815c96c0c01ced37a3a99a467816f735bb
+Author: Thomas <j4velin@users.noreply.github.com>
+Date:   Sat Nov 23 08:37:22 2013 -0800
+
+    Initial commit
+
+29	0	.gitignore
+202	0	LICENSE
+2	0	README.md

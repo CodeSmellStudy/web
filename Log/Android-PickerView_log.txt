@@ -1,0 +1,4755 @@
+commit e200d8c063aa2568d728854c048340ad2e4e0c0b
+Author: Jensen <xiaosong520110@gmail.com>
+Date:   Thu Jul 7 16:46:47 2022 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit dd43726414eaed6f6e42532d80ca79f325a61d36
+Author: Jensen <xiaosong520110@gmail.com>
+Date:   Thu Jul 7 16:44:11 2022 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit e7de78b12a6b41e07b6020deb88a90d8f628513e
+Author: Jensen <xiaosong520110@gmail.com>
+Date:   Thu Jul 7 16:42:43 2022 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 48bb91d54a564ff8a983c6f811701cebd1155c90
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Oct 21 19:16:40 2019 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit a47017fea989e9ac349a9c991e91f8604b07b6f3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Oct 21 19:15:03 2019 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit 9345964d40fb9c28cacedfa3d78ba75bde2b8fe1
+Author: zengsong <zengsong@yy.com>
+Date:   Sun Oct 20 11:53:23 2019 +0800
+
+    update version
+
+2	2	app/build.gradle
+1	1	build.gradle
+4	4	pickerview/build.gradle
+3	3	wheelview/build.gradle
+
+commit ead0472174b1cdbd90e07a214f73bbea43bee819
+Merge: 1562e05 c66bd05
+Author: zengsong <zengsong@yy.com>
+Date:   Sun Oct 20 11:50:08 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1562e05a825c7b21f537ef0c2475bc374e043f85
+Author: zengsong <zengsong@yy.com>
+Date:   Sun Oct 20 11:49:42 2019 +0800
+
+    optimization code
+
+1	1	README-en.md
+
+commit 8c1eda70710691d9f26e5298bce4e2306aac4a3c
+Author: zengsong <zengsong@yy.com>
+Date:   Sun Oct 20 11:45:55 2019 +0800
+
+    update README.md
+
+9	5	README.md
+
+commit c66bd05bfd04e3ae18ccc86a6017ec712e13f5ca
+Merge: 528f540 ba6ab94
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Oct 20 11:26:37 2019 +0800
+
+    Merge pull request #824 from Bigkoo/dev4.x
+    
+    Dev4.x release version 4.1.9
+
+commit ba6ab9471eb8c8c29b85acf11a0c0d1af6d993d4
+Author: zengsong <zengsong@yy.com>
+Date:   Sun Oct 20 11:00:13 2019 +0800
+
+    update sample code
+
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit be03f45e17f259d365a6dd2385b8dc6282762e99
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Oct 17 14:52:52 2019 +0800
+
+    optimization code
+
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+
+commit bd3029027c8f5019da84b0998a82bca806083f5c
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Oct 17 14:51:45 2019 +0800
+
+    optimization code
+
+3	3	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 1b64905cd80b4e29a45dff8944dd96c34d2a4813
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Oct 17 14:47:17 2019 +0800
+
+    update desc
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+
+commit 1ecd67a71730482ec276cb2d7b07e587fd2167b2
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Oct 17 14:46:59 2019 +0800
+
+    optimization top bar
+
+3	1	pickerview/src/main/res/layout/include_pickerview_topbar.xml
+
+commit 494fa40c690a9e6a10f61ec7cd8cf3f79fe32101
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Oct 17 14:44:17 2019 +0800
+
+    update sample
+
+6	14	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	app/src/main/java/com/bigkoo/pickerviewdemo/TestCircleWheelViewActivity.java
+9	6	app/src/main/res/layout/activity_test_circle_wheelview.xml
+1	1	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit c270b3d8dc1002c082677e3d0fd29175d2c5c427
+Merge: 1951e10 0b61e05
+Author: zengsong <zengsong@yy.com>
+Date:   Wed Oct 16 17:52:23 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev4.x' into dev4.x
+
+commit 1951e105934fa90deb0292c0fdd983cf890cabef
+Author: zengsong <zengsong@yy.com>
+Date:   Mon Oct 14 18:38:36 2019 +0800
+
+    update gradle version
+
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 81277327df8a93c48c170d5f5bcae68e4aba1bc5
+Author: zengsong <zengsong@yy.com>
+Date:   Mon Oct 14 18:38:11 2019 +0800
+
+    provide api to set the itemVisible count and AlphaGradient
+
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+17	15	app/src/main/res/layout/pickerview_custom_lunar.xml
+8	6	app/src/main/res/layout/pickerview_custom_options.xml
+16	14	app/src/main/res/layout/pickerview_custom_time.xml
+21	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+20	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+2	1	pickerview/src/main/java/com/bigkoo/pickerview/view/TimePickerView.java
+32	49	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+900	928	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+9	7	pickerview/src/main/res/layout/pickerview_options.xml
+58	57	pickerview/src/main/res/layout/pickerview_time.xml
+59	44	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 0b61e05550a0af8e3d50a65e6e3b9a60c7e6ff8d
+Merge: 61c7239 7f3220d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Aug 2 14:54:22 2019 +0800
+
+    Merge pull request #795 from lxt1994/dev4.x
+    
+    增加分割线为圆圈
+
+commit 7f3220da051919f028440534d18ff4966fe2d36b
+Author: lixiaotong <516030811@qq.com>
+Date:   Tue Jul 30 16:41:03 2019 +0800
+
+    增加分割线为圆圈
+
+1	0	app/src/main/AndroidManifest.xml
+8	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+50	0	app/src/main/java/com/bigkoo/pickerviewdemo/TestCircleWheelViewActivity.java
+6	0	app/src/main/res/layout/activity_main.xml
+10	0	app/src/main/res/layout/activity_test_circle_wheelview.xml
+1	0	app/src/main/res/values/strings.xml
+26	1	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+1	0	wheelview/src/main/res/values/attrs.xml
+
+commit 528f540e766352ed4b611a0a96f33c538077cdf0
+Merge: 4e38e3d 884e20f
+Author: zengsong <zengsong@yy.com>
+Date:   Sat May 25 21:27:29 2019 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 4e38e3d45807924c2350329aedcdadb2834d6239
+Author: zengsong <zengsong@yy.com>
+Date:   Sat May 25 21:27:14 2019 +0800
+
+    Modify cancel clickListener name.
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+
+commit 884e20fa8e43f0e59146d4a92ace43c0a8d9d72d
+Merge: cad6d79 7b9e6c8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Apr 28 20:01:06 2019 +0800
+
+    Merge pull request #755 from MankinChung/fix
+    
+    修复 农历‘日’越界的bug
+
+commit 7b9e6c890a7cc0fd93c947ca5561b452481d6c06
+Author: Mankin <gg823208520@gmail.com>
+Date:   Sun Apr 28 15:32:06 2019 +0800
+
+    修复 农历‘日’越界的bug
+
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit cad6d79de0f547a5ec1f1ddb9d71771c38bf97d3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Apr 24 22:10:04 2019 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit 86922f29d34eafa27dda5e8ed01156ba4c004485
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Apr 24 22:09:31 2019 +0800
+
+    Update README.md
+
+6	2	README.md
+
+commit 441a72f83b8b35c0263a31d8bc13e924b60631cf
+Author: zengsong <zengsong@yy.com>
+Date:   Wed Apr 24 22:01:58 2019 +0800
+
+    release version 4.1.8
+
+1	1	app/build.gradle
+2	2	build.gradle
+21	20	pickerview/build.gradle
+18	18	wheelview/build.gradle
+
+commit bd54541e88d8dab768ffc84b54c2c117f62914fc
+Author: zengsong <zengsong@yy.com>
+Date:   Wed Apr 24 19:44:28 2019 +0800
+
+    remove TestImport.java
+
+0	8	app/src/main/java/com/bigkoo/pickerviewdemo/TestImport.java
+
+commit 9c44300f690388b62fdb0bac56b730065acc6fdb
+Merge: 755dcd9 61c7239
+Author: zengsong <zengsong@yy.com>
+Date:   Wed Apr 24 19:43:10 2019 +0800
+
+    Merge remote-tracking branch 'origin/dev4.x'
+
+commit 755dcd98e1044fce74058d2053b015008fd2421f
+Merge: da6424a 16c957f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Apr 24 14:14:52 2019 +0800
+
+    Merge pull request #748 from Muyangmin/bugfix/gradle-5.x-incompatible
+    
+    修复 Gradle 5.x 版本不兼容的问题
+
+commit 16c957f4235a7e300931859ec42f4892bb2224eb
+Author: Muyangmin <muyangmin@foxmail.com>
+Date:   Sat Apr 20 13:14:20 2019 +0800
+
+    Fix gradle incompatible issue #735.
+
+6	5	app/build.gradle
+8	0	app/src/main/java/com/bigkoo/pickerviewdemo/TestImport.java
+1	1	build.gradle
+1	1	gradle/wrapper/gradle-wrapper.properties
+3	4	pickerview/build.gradle
+2	3	wheelview/build.gradle
+
+commit 61c72393349a5bd85f4882d2035c435ddc7c1685
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Mar 7 11:48:26 2019 +0800
+
+    fix bug #724
+
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit da6424a9b7d0495ec600ed1b2b076eb58044a7be
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Jan 10 18:18:09 2019 +0800
+
+    Update README.md
+
+8	3	README.md
+
+commit f22899e0797235f5250bb08824a6563170740a88
+Merge: 541cf26 5702146
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Jan 10 18:14:34 2019 +0800
+
+    Merge pull request #709 from Bigkoo/dev4.x
+    
+    merge dev4.x
+
+commit 5702146f84d2a37d63d8086822bb22286d99b106
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Jan 10 18:11:31 2019 +0800
+
+    Add support annotation and update version
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+4	3	pickerview/build.gradle
+18	5	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+19	7	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+4	7	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+3	5	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+4	4	wheelview/build.gradle
+
+commit 5ee6966c7b8a8aa98fb2b8f580b86d421bcebb21
+Author: zengsong <zengsong@yy.com>
+Date:   Thu Jan 10 15:37:54 2019 +0800
+
+    Fix WheelView cannot be displayed when adapter data is empty
+
+15	5	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+7	11	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 541cf26dd15f7ea08f17f587fda04efaed44d893
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Dec 19 20:42:34 2018 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 6f203c5851e071eb85c1ed0beee1fd342b60fa17
+Author: zengsong <zengsong@yy.com>
+Date:   Mon Dec 3 21:47:12 2018 +0800
+
+    Updated cancel click listener
+
+13	12	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+6	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+7	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+7	2	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+0	2	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnTimeSelectChangeListener.java
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/view/TimePickerView.java
+0	6	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 36d552260f00d5839d1ffad8ef5148c830e9b565
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Nov 19 15:45:33 2018 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit a6da6e49cf60179d91be192243b065596f1d1f54
+Author: zengsong <zengsong@yy.com>
+Date:   Wed Oct 24 10:48:30 2018 +0800
+
+    Update sample code
+
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit f1c9e74a5140f123e22d9ba9f8eda8f0a0ed7248
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Sep 18 11:06:47 2018 +0800
+
+    update WheelView
+
+7	1	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 0a46fcb8c189a156f0884c9aeab3f8a8928bb40d
+Merge: c84090a 9c05725
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Aug 7 11:10:24 2018 +0800
+
+    Merge pull request #626 from Bigkoo/master
+    
+      Sync code
+
+commit 9c05725aaf2391874c13cfec0267e99b936b77e1
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Aug 7 11:06:38 2018 +0800
+
+    Upload sample code
+
+5	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 2310b1f03dd003227b4da9e898602ee61e0bc454
+Merge: 0926e03 807fbad
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Aug 7 11:04:34 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 0926e0363e3f38fb14daca189f7ca81f6451f96e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Aug 7 11:04:15 2018 +0800
+
+    Update version 4.1.6
+
+3	3	pickerview/build.gradle
+3	3	wheelview/build.gradle
+0	6	wheelview/src/main/AndroidManifest.xml
+11	31	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 807fbad03ce573c7f3f8cdb315a167ad15aaa0a2
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 24 10:59:35 2018 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 400affbc60e1a7392617032483616b9fe8b5b3e2
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 24 10:58:49 2018 +0800
+
+    Update README.md
+
+5	6	README.md
+
+commit b3d9285d5cdb0c4ed5705cd018ede462d39ca7a5
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Jul 12 10:20:16 2018 +0800
+
+    Update version
+
+1	1	README-en.md
+6	7	README.md
+3	3	pickerview/build.gradle
+5	77	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/utils/LunarCalendar.java
+3	3	wheelview/build.gradle
+
+commit ff13fe9384ad4aeaa72a6bb7d5af1314a52db3ff
+Merge: 53c2316 b3b86cb
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jul 11 11:41:33 2018 +0800
+
+    Merge pull request #608 from aaasss112/master
+    
+    循环滚动模式，获取itemCount边界计算优化
+
+commit b3b86cb17118eb64db4c6621e51294daf68c0a17
+Author: 王戎 <wangrong@aipai.com>
+Date:   Wed Jul 11 11:35:20 2018 +0800
+
+    1.无限循环滚轮，获取itemCount边界计算。
+
+3	0	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 53c2316d69dd8fb9b6a6aa69dcf848fa46859879
+Merge: ba53b06 82cc78f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Jul 2 11:50:00 2018 +0800
+
+    Merge pull request #593 from mickyliu945/mk_branch
+    
+    bug fix-农历切换时，如果当前是闰月，WheelTime上月份显示错误
+
+commit 82cc78fb43ad797caf663b7eceb2ab3db809a4fd
+Author: mickyliu <mickyliu@126.com>
+Date:   Tue Jun 12 22:55:02 2018 +0800
+
+    bug fix
+
+8	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit ba53b06c678577c0336d17fb98f6185d8b74cebe
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Jun 7 21:19:49 2018 +0800
+
+    Update ChinaDate.java
+    
+    update description
+
+3	3	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+
+commit a79b35e269dc0c751cdd13e3c62853724d90aef8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jun 5 21:28:46 2018 +0800
+
+    Update README
+
+1	1	README-en.md
+2	2	README.md
+
+commit 6a2461401aa439715347b60c8dee75550454ed08
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jun 5 21:15:40 2018 +0800
+
+    update version
+
+3	3	pickerview/build.gradle
+3	3	wheelview/build.gradle
+
+commit 08ce1110e05e6d2596c35a549b0546a80ba6b79c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jun 5 21:14:52 2018 +0800
+
+    fix bug for ArrayIndexOutOfBoundsException
+
+6	13	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit c7578450da5a843d65fe78af8516e3b028bd8d79
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Apr 14 18:13:22 2018 +0800
+
+    v4.1.3
+
+1	1	README-en.md
+6	10	README.md
+24	32	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+16	5	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+7	1	pickerview/src/main/res/values/styles.xml
+3	3	wheelview/build.gradle
+7	9	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit d7d29d9a1f74e92edc88333845880a63dac7e1e3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Apr 10 15:06:33 2018 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 25c631dd39e63a9cbf3ea9239748cadaa4cb9a5a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Apr 10 14:41:32 2018 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit f367fec2ee7fc0103b5fc7a7ff78fff6bd81cbbe
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Apr 2 13:16:50 2018 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit cb7a68d98e49909b2b386be69f34b99b472897b8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Apr 2 13:15:14 2018 +0800
+
+    fix bug.
+
+2	2	README-en.md
+5	3	README.md
+3	3	pickerview/build.gradle
+3	3	wheelview/build.gradle
+19	18	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit ddfba54cc2f98afd26c398d35bc39e381a0a44f2
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Apr 2 09:21:40 2018 +0800
+
+    Update README.md
+
+5	4	README.md
+
+commit 2f43d460a43328472a87b26db65be4646ca65730
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Apr 2 09:19:41 2018 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit f8d803b9778f1b7e0c5de24d2b4499811706c8fd
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Apr 2 09:19:03 2018 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit de10e006b7f7fee51a45e7e129719dc8125aede0
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 31 17:15:20 2018 +0800
+
+    fix bug.
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit d6884097a29598e41d20ad8a052f77121e65d0f6
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 31 17:14:37 2018 +0800
+
+    fix bug.
+
+7	2	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 58862713f78572859f6a0944f670ba17c8da6485
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 31 11:58:24 2018 +0800
+
+    优化WheelView代码.
+
+7	8	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 8798c80f895539518352727e0e4b8dfbe7e046d6
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 30 14:28:44 2018 +0800
+
+    fix bug.
+
+5	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+0	1	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+2	1	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+25	13	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 5c244b0003e559c8076e702fe34f502c2bb1fcee
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 27 11:45:24 2018 +0800
+
+    update version
+
+2	2	README-en.md
+3	3	README.md
+0	1	app/build.gradle
+3	3	pickerview/build.gradle
+3	3	wheelview/build.gradle
+
+commit c61aa916fc856e6f4e40247690ddb01be27024e9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 26 18:36:34 2018 +0800
+
+    update
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+
+commit 25e23dfb5b97160e01935569e15c7d771f4da6a9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 26 18:28:31 2018 +0800
+
+    v4.0.2
+
+2	2	README-en.md
+9	10	README.md
+2	2	pickerview/build.gradle
+1	2	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+3	4	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+
+commit f662aced98bae1133bfc521133c60a471e6c9557
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 26 11:38:15 2018 +0800
+
+    fix bug.
+
+4	4	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+
+commit 8859349fcd3fa3c36565c090d386d54a361a03a6
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 15:55:15 2018 +0800
+
+    新增 setTitleText() 方法.
+
+11	0	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+11	0	pickerview/src/main/java/com/bigkoo/pickerview/view/TimePickerView.java
+
+commit f8abe9828140a218cbf58886d74446f39e34fe54
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 21 15:40:00 2018 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 334ea96c63623a01714f1b1089a3287998174b8d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 21 15:12:15 2018 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 1de0b808c87f1d02da73b6e95e5c38d5d9eddbe6
+Merge: be6baf1 c84090a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 21 15:08:56 2018 +0800
+
+    Merge pull request #520 from Bigkoo/dev4.x
+    
+    Dev4.x
+
+commit c84090a7be3e6496aad7bf7028c0116d472cfc6b
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 14:33:32 2018 +0800
+
+    update README.md
+
+42	2	README.md
+
+commit bfc50ea2137cd6951c122f2433c8a899ca886d85
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 14:20:19 2018 +0800
+
+    update README.md
+
+11	10	README-en.md
+30	23	README.md
+1	1	pickerview/build.gradle
+1	1	wheelview/build.gradle
+
+commit 709e3ac30fd264a0bf43e6573fa4299602424e1f
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 12:27:37 2018 +0800
+
+    滚动切换，实时回调item选中项监听
+
+13	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+13	10	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+10	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/ISelectTimeCallback.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+1	6	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+47	17	pickerview/src/main/java/com/bigkoo/pickerview/view/TimePickerView.java
+56	16	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit b25bf34a2f13a3d4ac70b35bcb290c16220179d5
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 11:17:45 2018 +0800
+
+    滚动切换，实时回调item选中项监听
+
+20	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+12	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+16	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+6	0	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+11	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnOptionsSelectChangeListener.java
+14	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnTimeSelectChangeListener.java
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+66	12	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit df333d2286bb51c3a3d6a74afc74c66b0f5acc18
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 21 09:49:54 2018 +0800
+
+    update.
+
+1	9	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 1ad118c2cc87eb6b435c16348d766f1713110711
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 20 13:32:37 2018 +0800
+
+    code format.
+
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/FragmentTestActivity.java
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/GetJsonDataUtil.java
+11	0	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+5	4	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+
+commit 067e01291db7e421a21e28839652f8fde5035eec
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 20 11:52:48 2018 +0800
+
+    builder restructure.
+
+4	2	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+32	16	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+4	2	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+0	412	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+239	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/OptionsPickerBuilder.java
+259	0	pickerview/src/main/java/com/bigkoo/pickerview/builder/TimePickerBuilder.java
+21	27	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+13	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnOptionsSelectListener.java
+14	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnTimeSelectListener.java
+32	35	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+182	0	pickerview/src/main/java/com/bigkoo/pickerview/view/OptionsPickerView.java
+7	273	pickerview/src/main/java/com/bigkoo/pickerview/{ => view}/TimePickerView.java
+
+commit 105a2c5ef7c61131c08f6320392cd804b28e22b9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 15 11:13:03 2018 +0800
+
+    wheelView 代码优化
+
+5	5	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+2	6	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 8d40f7a15aef04fdb60b4614317211c1cd274cf3
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 14 18:05:40 2018 +0800
+
+    update lunar description.
+
+13	1	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+
+commit adcfc8cfe084cd95a767b798b2d4b030e1174a72
+Author: xiaosongzeem <zengsong@aipai.com>
+Date:   Wed Mar 14 17:16:57 2018 +0800
+
+    update lunar.
+
+11	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+25	15	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/configure/PickerOptions.java
+22	38	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+14	19	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+15	9	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit efefc58d4e41d88e959dd20a315238d548421bbe
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Mar 14 13:59:58 2018 +0800
+
+    update.
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+44	54	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+1	1	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 260443cb86b3e5943f815f1c8f15ffab188a6154
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Mar 14 13:47:21 2018 +0800
+
+    update.
+
+3	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	2	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+4	14	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit d008e10eb66167480030f817fdc73eff49742fb1
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 14 11:55:26 2018 +0800
+
+    options 配置类优化
+
+6	6	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+17	16	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+19	21	pickerview/src/main/java/com/bigkoo/pickerview/{constant => configure}/PickerOptions.java
+7	9	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+26	28	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit d897c794b6d92ac01e6b8cc6700ea9167213b5fb
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 12 18:12:53 2018 +0800
+
+    options 配置类优化
+
+4	4	README-en.md
+1	1	app/proguard-rules.pro
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	gradlew
+1	1	gradlew.bat
+1	1	pickerview/proguard-rules.pro
+0	19	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+5	38	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+14	12	pickerview/src/main/java/com/bigkoo/pickerview/constant/PickerOptions.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/utils/PickerViewAnimateUtil.java
+4	3	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+1	1	wheelview/proguard-rules.pro
+
+commit c955053757eed97346b52448377d9add2c1c819c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 12 17:35:16 2018 +0800
+
+    options 配置类优化
+
+4	4	README-en.md
+1	1	app/proguard-rules.pro
+2	2	gradlew
+1	1	gradlew.bat
+1	1	pickerview/proguard-rules.pro
+91	114	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+132	201	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+0	79	pickerview/src/main/java/com/bigkoo/pickerview/constant/Options.java
+116	0	pickerview/src/main/java/com/bigkoo/pickerview/constant/PickerOptions.java
+8	16	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+1	1	wheelview/proguard-rules.pro
+
+commit 5a2a4f24f17dbd1aae19eae47600cca03fe50c5c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 8 18:29:25 2018 +0800
+
+    options 配置类
+
+101	186	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+79	0	pickerview/src/main/java/com/bigkoo/pickerview/constant/Options.java
+4	32	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit f99661046e2480403d59738537705ed7e77067e0
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 8 16:35:16 2018 +0800
+
+    抽取公用字段
+
+1	29	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+27	55	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+37	13	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit a35e639bb3ac64663966f81b8f95db73aa4a8c6e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 8 15:20:52 2018 +0800
+
+    修改字段名
+
+35	35	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+
+commit f989adec747dcdf85dfd888b111ff2eeb23e9058
+Author: 曾松 <zengsong@aipai.com>
+Date:   Tue Mar 6 11:37:01 2018 +0800
+
+    fix bug.
+
+0	17	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+5	5	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+5	5	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit 78b63154caacd0bb4cca34991a546f99a6f3ef9c
+Author: 曾松 <zengsong@aipai.com>
+Date:   Fri Jan 26 17:48:45 2018 +0800
+
+    fix bug.
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+7	7	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+2	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+9	3	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 04e0c3660faa1ff158cf496923cd462d85551ed7
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Jan 17 16:00:21 2018 +0800
+
+    refactor the code.
+
+10	10	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+26	21	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit 6e486d0fb8492c15822b15fea6181184ea0cdf3e
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Jan 17 15:23:52 2018 +0800
+
+    refactor the code.
+
+14	18	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+28	24	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+3	16	pickerview/src/main/java/com/bigkoo/pickerview/adapter/ArrayWheelAdapter.java
+0	14	pickerview/src/main/java/com/bigkoo/pickerview/adapter/NumericWheelAdapter.java
+4	12	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit f0056955f451d086521b98b97bad3b672e0bc399
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Jan 17 11:57:02 2018 +0800
+
+    1. update gradle version;
+    2. update wheelview module.
+
+5	5	app/build.gradle
+1	1	app/src/main/AndroidManifest.xml
+27	36	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+3	37	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+11	12	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+8	8	pickerview/build.gradle
+4	4	wheelview/build.gradle
+1	1	wheelview/src/main/java/com/contrarywind/adapter/WheelAdapter.java
+15	15	wheelview/src/main/java/com/contrarywind/timer/InertiaTimerTask.java
+1	1	wheelview/src/main/java/com/contrarywind/timer/MessageHandler.java
+2	1	wheelview/src/main/java/com/contrarywind/timer/SmoothScrollTimerTask.java
+14	19	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+6	6	wheelview/src/main/res/values/attrs.xml
+0	17	wheelview/src/test/java/test/wheelview/ExampleUnitTest.java
+
+commit e2e43ce826c06690e5d63f3a88ef4bcc95bac076
+Merge: 68cbf67 be6baf1
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Jan 17 11:55:03 2018 +0800
+
+    Merge remote-tracking branch 'origin/master' into dev4.x
+
+commit be6baf1b5a683a08a5e33e3b0f89814c9bebb8ff
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jan 17 11:15:10 2018 +0800
+
+    Update README.md
+
+0	1	README.md
+
+commit b7bf5801df239520e1d07b19d2b071255f23897f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jan 17 11:14:37 2018 +0800
+
+    Update README-en.md
+
+2	1	README-en.md
+
+commit 68cbf67d867700013d7d39f0228e54c11e0c3550
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jan 16 23:38:53 2018 +0800
+
+    重构wheelView代码。
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit b889799f2bcd1933c7cc3cb5050a9253a43548ac
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Jan 7 23:19:44 2018 +0800
+
+    重构wheelView代码。
+
+5	3	wheelview/src/main/java/com/contrarywind/{view => timer}/InertiaTimerTask.java
+5	3	wheelview/src/main/java/com/contrarywind/{view => timer}/MessageHandler.java
+14	12	wheelview/src/main/java/com/contrarywind/{view => timer}/SmoothScrollTimerTask.java
+34	7	wheelview/src/main/java/com/contrarywind/view/WheelView.java
+
+commit e96729e061e48661634a4e5c602698ebcbe12b0d
+Author: song <xiaosong520110@gmail.com>
+Date:   Sat Dec 23 23:25:51 2017 +0800
+
+    重构wheelView代码，拆分module。
+
+1	1	app/build.gradle
+2	1	app/src/main/java/com/bigkoo/pickerviewdemo/bean/CardBean.java
+3	3	app/src/main/java/com/bigkoo/pickerviewdemo/bean/JsonBean.java
+2	1	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+6	6	app/src/main/res/layout/pickerview_custom_lunar.xml
+3	3	app/src/main/res/layout/pickerview_custom_options.xml
+6	6	app/src/main/res/layout/pickerview_custom_time.xml
+1	1	pickerview/build.gradle
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/adapter/ArrayWheelAdapter.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/adapter/NumericWheelAdapter.java
+0	24	pickerview/src/main/java/com/bigkoo/pickerview/adapter/WheelAdapter.java
+0	68	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+0	18	pickerview/src/main/java/com/bigkoo/pickerview/lib/LoopViewGestureListener.java
+0	34	pickerview/src/main/java/com/bigkoo/pickerview/lib/MessageHandler.java
+0	14	pickerview/src/main/java/com/bigkoo/pickerview/lib/OnItemSelectedRunnable.java
+0	61	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+0	787	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+0	6	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnItemSelectedListener.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+3	3	pickerview/src/main/res/layout/pickerview_options.xml
+6	6	pickerview/src/main/res/layout/pickerview_time.xml
+0	15	pickerview/src/main/res/values/attrs.xml
+2	2	wheelview/build.gradle
+1	1	wheelview/src/main/AndroidManifest.xml
+2	1	wheelview/src/main/java/com/contrarywind/{wheelview => adapter}/WheelAdapter.java
+1	1	{pickerview/src/main/java/com/bigkoo/pickerview/model => wheelview/src/main/java/com/contrarywind/interfaces}/IPickerViewData.java
+25	0	wheelview/src/main/java/com/contrarywind/listener/LoopViewGestureListener.java
+1	1	wheelview/src/main/java/com/contrarywind/{wheelview => listener}/OnItemSelectedListener.java
+77	0	wheelview/src/main/java/com/contrarywind/view/InertiaTimerTask.java
+13	7	wheelview/src/main/java/com/contrarywind/{wheelview => view}/MessageHandler.java
+61	0	wheelview/src/main/java/com/contrarywind/view/SmoothScrollTimerTask.java
+78	59	wheelview/src/main/java/com/contrarywind/{wheelview => view}/WheelView.java
+0	8	wheelview/src/main/java/com/contrarywind/wheelview/IPickerViewData.java
+0	69	wheelview/src/main/java/com/contrarywind/wheelview/InertiaTimerTask.java
+0	18	wheelview/src/main/java/com/contrarywind/wheelview/LoopViewGestureListener.java
+0	14	wheelview/src/main/java/com/contrarywind/wheelview/OnItemSelectedRunnable.java
+0	62	wheelview/src/main/java/com/contrarywind/wheelview/SmoothScrollTimerTask.java
+0	0	{pickerview => wheelview}/src/main/res/values/colors.xml
+
+commit 505277337293eb2f698acba99753ed836a2d9b47
+Author: song <xiaosong520110@gmail.com>
+Date:   Wed Dec 13 22:32:27 2017 +0800
+
+    创建wheelview module，后续再拆分抽离代码。
+
+2	1	app/build.gradle
+1	1	settings.gradle
+1	0	wheelview/.gitignore
+49	0	wheelview/build.gradle
+25	0	wheelview/proguard-rules.pro
+26	0	wheelview/src/androidTest/java/test/wheelview/ExampleInstrumentedTest.java
+10	0	wheelview/src/main/AndroidManifest.xml
+8	0	wheelview/src/main/java/com/contrarywind/wheelview/IPickerViewData.java
+69	0	wheelview/src/main/java/com/contrarywind/wheelview/InertiaTimerTask.java
+18	0	wheelview/src/main/java/com/contrarywind/wheelview/LoopViewGestureListener.java
+34	0	wheelview/src/main/java/com/contrarywind/wheelview/MessageHandler.java
+6	0	wheelview/src/main/java/com/contrarywind/wheelview/OnItemSelectedListener.java
+14	0	wheelview/src/main/java/com/contrarywind/wheelview/OnItemSelectedRunnable.java
+62	0	wheelview/src/main/java/com/contrarywind/wheelview/SmoothScrollTimerTask.java
+24	0	wheelview/src/main/java/com/contrarywind/wheelview/WheelAdapter.java
+782	0	wheelview/src/main/java/com/contrarywind/wheelview/WheelView.java
+15	0	wheelview/src/main/res/values/attrs.xml
+13	0	wheelview/src/main/res/values/dimens.xml
+3	0	wheelview/src/main/res/values/strings.xml
+17	0	wheelview/src/test/java/test/wheelview/ExampleUnitTest.java
+
+commit d836a61d1859137ed87b4e43b9a5e9fb8c4abd28
+Merge: 59ec250 050e0fd
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Dec 8 17:41:24 2017 +0800
+
+    Merge pull request #447 from Bigkoo/master
+    
+    合并代码到dev分支
+
+commit 050e0fd02d004a6dc2aff919498dcff8f6bdfff1
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Nov 23 15:47:09 2017 +0800
+
+    Update README.md
+
+0	1	README.md
+
+commit cb736e97fb29885acb596237b0f2262cc7e119e3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Nov 23 15:46:40 2017 +0800
+
+    Update README-en.md
+
+0	1	README-en.md
+
+commit 71b32f09c262f992a818ef219f81ecd96d55fbe3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Nov 23 15:46:14 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 724d24757c3e96e07a82133c069e2042780555dc
+Merge: 93f16d2 12c0a4a
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Nov 15 20:35:03 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 93f16d2cecedf72bea718caf8af7d37d92007670
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Nov 15 20:34:53 2017 +0800
+
+    update
+
+-	-	preview/Screen Shot 2017-11-09 at 4.25.02 PM.png
+
+commit 12c0a4aeeda0aaa84905cdcaaf5e91a53a3bbd20
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Nov 15 20:32:30 2017 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit a75fa5a8986aaafa60de81091a12b72070631445
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Nov 15 20:28:27 2017 +0800
+
+    update
+
+2	1	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+-	-	preview/lunar.gif
+
+commit 0272b8b363d72b0514fbe9a1172057f1649ac7f9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Nov 15 20:13:16 2017 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit de72279fcf971a8bb8bba7dcb02e6cbaf44aea31
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Nov 15 20:12:49 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit db116f47d290000561d3cee0840784b333ea2a41
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Nov 15 20:12:18 2017 +0800
+
+    Update README.md
+
+5	15	README.md
+
+commit 87d402dd19195fab247390fd3bd1918f144fac50
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Nov 15 14:13:50 2017 +0800
+
+    fix bug
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+9	11	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 31c9e5776dd16e2cf80dbdc88a24602f0caee5a0
+Author: 曾松 <zengsong@aipai.com>
+Date:   Tue Nov 14 16:15:13 2017 +0800
+
+    update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+4	4	pickerview/build.gradle
+31	12	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+10	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+3	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+9	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 7a759b2612801add885aa41952ece8a23492fbc3
+Merge: 1bf943d 643a012
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Nov 14 14:38:54 2017 +0800
+
+    Merge pull request #425 from StormBlue/master
+    
+    [FEATURE]1.为 WheelView 加入 xoffset 以实现更好的3D效果;
+
+commit 643a012ca90d0d13f856530968f31b394b019574
+Author: haitao.gao <haitao.gao@yintech.cn>
+Date:   Mon Nov 13 14:41:49 2017 +0800
+
+    [ADD]添加改进后的预览效果
+
+-	-	preview/Screen Shot 2017-11-09 at 4.25.02 PM.png
+
+commit 62a66d5fbe19f855e8cfd34493260c85692d8c9e
+Author: haitao.gao <haitao.gao@yintech.cn>
+Date:   Mon Nov 13 14:34:25 2017 +0800
+
+    [FEATURE]1.为 WheelView 加入 xoffset 以实现更好的3D效果;
+    
+    通过文字所在的角度计算文字的 水平偏移距离、文字的透明度、文字的倾斜度 以实现更加立体的效果，开发中参考了IOS中 uipickerview 的效果
+
+4	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+19	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+16	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+8	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 1bf943d56a00c72ac91c69ab5be405e74a5f7ea3
+Merge: 0f306b3 8f2e74d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Nov 11 10:05:07 2017 +0800
+
+    Merge pull request #423 from danielbenedykt/patch-1
+    
+    Update readme,
+
+commit 8f2e74d7445a9721ce0d72639456f76acd07187c
+Author: Daniel Benedykt <daniel@benedykt.com>
+Date:   Fri Nov 10 09:16:45 2017 -0300
+
+    Update readme, mispelled words
+
+1	1	README-en.md
+
+commit 0f306b3e235db093bd7606429e8e67ff9ca714ec
+Author: 曾松 <zengsong@aipai.com>
+Date:   Wed Nov 8 15:08:36 2017 +0800
+
+    fix bug
+
+38	47	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+8	4	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+15	18	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 59ec250c036d7b1ed6eac79481d9b3c787fb3e22
+Merge: 526bee2 ebb42b8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Nov 6 15:22:12 2017 +0800
+
+    Merge pull request #419 from Bigkoo/master
+    
+    merge
+
+commit ebb42b8d98cbfc04725b57100f912765f98ae2ff
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Nov 6 10:52:36 2017 +0800
+
+    Update README.md
+
+20	17	README.md
+
+commit fb11a7ddfc0e7c11b6c7651926b37d810433a84e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Sep 26 15:46:27 2017 +0800
+
+    Update README.md
+
+0	2	README.md
+
+commit ddd348e68190e8112eca67eb243b0d1399e16361
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Sep 26 15:45:19 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 87b75699dab74b395fcf9be892b7062ef6edae1a
+Merge: 1472877 c77ca4b
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Sep 19 09:27:23 2017 +0800
+
+    Merge pull request #391 from Bigkoo/lunar3.x
+    
+    Lunar3.x
+
+commit c77ca4bc620c8173bb52476c85bad9e7388bd075
+Merge: 6bc2491 1472877
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Sep 19 09:26:53 2017 +0800
+
+    Merge branch 'master' into lunar3.x
+
+commit 6bc2491aa4f8f390e9bf1d7ff4e71bf0319f3396
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Sep 11 13:47:49 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 1472877bb123a027a4c44919a19574615f02cf8f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Sep 11 13:46:33 2017 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit 32a4bae44d175c3a98686d9cd0730669a5183f61
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Sep 11 13:45:51 2017 +0800
+
+    Update README.md
+
+0	1	README.md
+
+commit 9cb3c4b213bb5066f1d28b9890a2dc0a3e87e4e9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Sep 11 13:44:50 2017 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit 5fa4d20fb8d4d0478e1b0fdf90b2110143d2ecf2
+Merge: efd4963 906dbd1
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Sep 11 09:49:30 2017 +0800
+
+    Merge pull request #381 from dengyuhan/lunar3.x
+    
+    Lunar3.x - 增加农历模式，支持公农历实时切换
+
+commit 906dbd10cc3afe0037cd408d954c102692a027c7
+Author: dengyuhan <464958567@qq.com>
+Date:   Wed Sep 6 12:56:06 2017 +0800
+
+    解决冲突
+
+4	6	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit abe6977a1f930275f6cb03d6810bcf01f4a16a23
+Merge: 289c6e9 efd4963
+Author: dengyuhan <464958567@qq.com>
+Date:   Wed Sep 6 11:19:21 2017 +0800
+
+    Merge branch 'lunar3.x' into lunar3.x
+
+commit 289c6e957eb0241356048d93dafb4a2de3af5c44
+Author: dengyuhan <464958567@qq.com>
+Date:   Wed Sep 6 10:09:57 2017 +0800
+
+    增加农历模式;支持实时切换
+
+84	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+56	56	app/src/main/res/layout/activity_main.xml
+1	1	app/src/main/res/layout/pickerview_custom_lunar.xml
+1	0	app/src/main/res/values-en/strings.xml
+1	0	app/src/main/res/values/strings.xml
+35	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 815463ce4fcd6c4ca03edf5912770299d57e41bc
+Merge: 867cec9 2de04f9
+Author: dengyuhan <464958567@qq.com>
+Date:   Tue Sep 5 21:38:04 2017 +0800
+
+    Merge branch 'master' of https://github.com/Bigkoo/Android-PickerView
+    
+    # Conflicts:
+    #       app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+    #       pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit 2de04f9c197990979e24a0cf00b004d499d9ad58
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon Aug 28 09:46:48 2017 +0800
+
+    update
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit b9966c4ebb5314f5c3a163d2d017067da8a74f72
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon Aug 28 09:41:10 2017 +0800
+
+    fix bug
+
+5	3	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit efd4963d4afd40e241a1de434fea3dcb1c4afdef
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Aug 12 14:57:59 2017 +0800
+
+    Update README.md
+
+3	0	README.md
+
+commit e0aecba89733290d43d0e895472b985443b5e43e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Aug 10 14:07:18 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit a4fa695e2317155f7d5ffd9a0deba275adc67600
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Aug 10 14:06:23 2017 +0800
+
+    Update README-en.md
+
+3	3	README-en.md
+
+commit 7d8d75de8ba180a4e95310aedd5401e1f7a31dee
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Aug 10 14:03:50 2017 +0800
+
+    Update README.md
+
+9	17	README.md
+
+commit 443b9d418b7b2c1d410b59d8794c0a7e9e533c68
+Author: zengsong <zengsong@aipai.com>
+Date:   Thu Aug 10 14:00:29 2017 +0800
+
+    v3.2.6
+
+4	5	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+66	71	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	app/src/main/res/layout/activity_json_data.xml
+3	3	app/src/main/res/layout/activity_main.xml
+5	2	app/src/main/res/values-en/strings.xml
+12	0	app/src/main/res/values/strings.xml
+3	3	pickerview/build.gradle
+1	1	pickerview/src/main/res/layout/pickerview_time.xml
+7	7	pickerview/src/main/res/values-en/strings.xml
+
+commit e3615febd5654729a722400d70cb00951d05b20c
+Author: totcw <totcw@qq.com>
+Date:   Mon Aug 7 11:29:26 2017 +0800
+
+    修改了setCurrentItem()方法没对selectedItem赋值,导致wheelview不可见时,默认都是0,导致获取到的时间错误的问题
+
+1	1	build.gradle
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 5677d63240774f2238e15306d59731fbc898ed81
+Merge: 04925d6 526bee2
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Aug 7 11:24:24 2017 +0800
+
+    Merge pull request #352 from Bigkoo/master
+    
+    修复TimePicker中Wheelview不可见时,时间赋值失效问题。
+
+commit 526bee27e1c89af4a207842b0104dddb8d37f18f
+Author: totcw <totcw@qq.com>
+Date:   Thu Aug 3 19:20:43 2017 +0800
+
+    修改了setCurrentItem()方法没对selectedItem赋值,导致wheelview不可见时,默认都是0,导致获取到的时间错误的问题
+
+4	89	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+3	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 867cec97257032d0c3a7613da8337c1830ccbfd7
+Merge: 7ebbd26 04925d6
+Author: dengyuhan <464958567@qq.com>
+Date:   Wed Aug 2 14:42:02 2017 +0800
+
+    Merge pull request #1 from Bigkoo/master
+    
+    同步主库，3.0农历分支
+
+commit 04925d657b6ced22830c52109f970350fc39a050
+Merge: 2635e48 d1adc45
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Aug 2 12:50:22 2017 +0800
+
+    Merge pull request #348 from Bigkoo/V3.0
+    
+    lunar 3.x
+
+commit d1adc453f443c939cd493aaa51e522e49bbef71a
+Merge: fd2a4dc 2635e48
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Aug 2 12:49:34 2017 +0800
+
+    Merge branch 'master' into V3.0
+
+commit 2635e48ee2bf0c94835e9baacd3bc5491c46b4d3
+Merge: 1a59f74 7ebbd26
+Author: 刘云峰 <totcw@qq.com>
+Date:   Wed Aug 2 12:15:28 2017 +0800
+
+    Merge pull request #346 from dengyuhan/master
+    
+    增加农历模式，公农历切换
+
+commit fd2a4dc7c60e1b9550d3494f5820abcb6e087e33
+Author: totcw <totcw@qq.com>
+Date:   Wed Aug 2 12:06:15 2017 +0800
+
+    3.0
+
+7	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+16	0	app/src/main/res/layout/activity_main.xml
+1	1	build.gradle
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 7ebbd26cf5fb18d31196fd82a3f86e447c1447af
+Author: dengyuhan <464958567@qq.com>
+Date:   Tue Aug 1 17:41:33 2017 +0800
+
+    更新公农历切换示例
+
+30	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	4	app/src/main/res/layout/pickerview_custom_lunar.xml
+
+commit 5d13c6a2c4dd52206cd74c069ef5bbe6ded5c9aa
+Author: dengyuhan <464958567@qq.com>
+Date:   Tue Aug 1 17:08:57 2017 +0800
+
+    如果是农历就不加label
+
+1	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+7	7	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 280a5ba42124ea4cbf966891898613ca1d85c6b5
+Author: dengyuhan <464958567@qq.com>
+Date:   Tue Aug 1 16:12:55 2017 +0800
+
+    增加农历
+
+57	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+6	0	app/src/main/res/layout/activity_main.xml
+103	0	app/src/main/res/layout/pickerview_custom_lunar.xml
+1	1	build.gradle
+39	3	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+447	0	pickerview/src/main/java/com/bigkoo/pickerview/utils/ChinaDate.java
+429	0	pickerview/src/main/java/com/bigkoo/pickerview/utils/LunarCalendar.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+205	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 1a59f74132ebc1dd6f75ef2325a7161fbb83f07e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 25 19:40:52 2017 +0800
+
+    Create LICENSE
+
+201	0	LICENSE
+
+commit e6f50aacee3245b7f29985917ae949ec47f57e50
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 25 19:38:23 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit b828002fcab99b4ace7a2b43ba6cc9cf316e9cf5
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 25 19:38:03 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 9f8f6316fe82ac9cbb78ae07096fd36b8ea5a545
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 25 19:37:35 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit ca7e0e3aba44fd4f1f162937dc84fa87b54a56cd
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Jul 20 20:35:43 2017 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit 6a1eea282cc037899ecd2d730eb46aef3fcd510e
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jul 19 12:07:37 2017 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit 4540e9a8d71960582e9b86f1454d356e4cbff0df
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jul 19 12:05:26 2017 +0800
+
+    Update README-en.md
+
+8	0	README-en.md
+
+commit 7695be8d8f7a79429157b37e23e371c87933fe8d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jul 19 12:04:20 2017 +0800
+
+    Update README.md
+
+10	4	README.md
+
+commit a4bb78148fcdf2adfa28f152c1e9da29b78cf491
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 14:16:25 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 11eee94f129d2ae102d19de8d8cadc37a771cf10
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 14:12:26 2017 +0800
+
+    Update README-en.md
+
+7	7	README-en.md
+
+commit 5bf05c1601839c62bc5ec5388947d4080c356db3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 14:03:52 2017 +0800
+
+    Update README-en.md
+
+8	8	README-en.md
+
+commit 2319bb9e6977856af2f0fddcff23b296b61c3d10
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 13:53:10 2017 +0800
+
+    Update README-en.md
+
+17	13	README-en.md
+
+commit b938035ab83f96f427636f0640c996cb7b4110e5
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 13:51:47 2017 +0800
+
+    Update README-en.md
+
+15	2	README-en.md
+
+commit 3a139b54d34f87135cd2607228e12d9c9297a922
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 13:47:53 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 35bcb3f94cb8ae5302a550eeb0a8b77fc94d760f
+Merge: f17f6fc 085c23a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Jul 11 10:06:00 2017 +0800
+
+    Merge pull request #320 from GL-GIT-HUB/patch-1
+    
+    开始时间和结束时间的注意事项
+
+commit 085c23ad872167976d5be471e28fb3ce23ccdaa3
+Author: GL-GIT-HUB <644352260@qq.com>
+Date:   Mon Jul 10 16:30:14 2017 +0800
+
+    修改开始时间和结束时间的设置
+    
+    @修改内容：修改开始时间和结束时间的设置
+    @原因：由于组件内部对月份进行了 加一处理，故我们在设置 起始时间时要特别注意
+    @时间：2017-7-10
+    @作者：GL-GIT-HUP
+
+16	2	README.md
+
+commit f17f6fc1277048ce8833d2aee8d93d788ae4d7ab
+Merge: 46eb994 6df18bc
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Jul 1 11:35:44 2017 +0800
+
+    Merge pull request #315 from MankinChung/master
+    
+    修复初始值越界和pickerView复用的Bug
+
+commit 6df18bc7263e859fd39a68dc62b5d6ed2b41052c
+Author: MankinChung <gg823208520@gmail.com>
+Date:   Fri Jun 30 19:05:01 2017 +0800
+
+    修复设定初始值越界而造成卡轮子滑动异常的Bug
+
+9	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit ad6c4255863c200e5ce717d5a5f6c13ade0e7f77
+Author: MankinChung <gg823208520@gmail.com>
+Date:   Fri Jun 30 18:46:47 2017 +0800
+
+    修复OptionsPikerView 在复用时，第二列和第三列可能无法显示的Bug。
+
+16	5	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 46eb994f6d92f9733ebf0eb59c4dd7294f2e7ccd
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Jun 21 10:37:46 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit f2dedc7cc7a9fe23c5e56203ac496acd5450c65b
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Jun 2 17:08:12 2017 +0800
+
+    Update README.md
+
+0	1	README.md
+
+commit c5ea9298b16549bc297c34a092e4b919dac2e69c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Jun 2 17:06:24 2017 +0800
+
+    Update README-en.md
+
+0	1	README-en.md
+
+commit 72dd96d984485543f4077e54ae793be164300653
+Author: zengsong <zengsong@aipai.com>
+Date:   Wed May 31 20:25:39 2017 +0800
+
+    update demo
+
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+
+commit fb0617bb9976d7b68cbe3633904b2ab55f36ed9c
+Merge: bdca05f df05d15
+Author: zengsong <zengsong@aipai.com>
+Date:   Wed May 31 16:16:02 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit bdca05f1edea000571252ebd967bba1b2469370f
+Author: zengsong <zengsong@aipai.com>
+Date:   Wed May 31 16:15:28 2017 +0800
+
+    demo update
+
+17	9	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+26	3	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/bean/CardBean.java
+2	0	app/src/main/res/layout/fragment_test.xml
+
+commit df05d15c007039f07860556ce07859d48ecd0467
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon May 15 18:22:11 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 34ad43ec23fdc928cd4e82ff627a98c8c3450f32
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon May 15 18:19:26 2017 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit 5b9dd82303dd6831e622ce304793ee4f8f10a8d5
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon May 15 18:18:32 2017 +0800
+
+    Update README.md
+
+8	2	README.md
+
+commit 1b4d5d87dc54747191ef5630b736527e1587c240
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 16:56:09 2017 +0800
+
+    update
+
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+1	1	app/src/main/res/layout/activity_main.xml
+1	4	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit e6d68780d21f649dee3cc713605e1b5ed331dd3f
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 16:45:43 2017 +0800
+
+    update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+1	1	app/src/main/res/layout/fragment_test.xml
+
+commit 54da3d7932ae77d047e44ae49bdd289e6fd567b5
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 16:36:35 2017 +0800
+
+    新增show() 方法 isAnim 参数, 控制是否显示动画
+
+0	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+5	4	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+63	40	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit dd78e064fcf859f159cab5e81e7d5e9922b8757b
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 14:52:28 2017 +0800
+
+    update
+
+5	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 82419da7ad42a0151488de7138f664bff5dd6e20
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 14:41:42 2017 +0800
+
+    update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+
+commit 0125fbdb77766e1e0891bedb53697fc5ed3d7ff5
+Merge: 1627169 d04b128
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon May 15 14:38:37 2017 +0800
+
+    Merge pull request #266 from Zhangxxl/master
+    
+    扩展时间选择器可选样式，年，月，日，时，分，秒 可分别选择， 删除原本的Type枚举类型
+
+commit d04b128c8653438c0607f8910fac2e199843d6d5
+Merge: d467dfa 1627169
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon May 15 14:38:16 2017 +0800
+
+    Merge branch 'master' into master
+
+commit 1627169f6a310eeae646c0c85647fad20fa052c9
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 14:30:56 2017 +0800
+
+    update
+
+3	32	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 6280967f06765a1c04e20ee62f4c34bcfa1d5819
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 14:17:52 2017 +0800
+
+    v3.2.5 版本
+
+2	2	pickerview/build.gradle
+
+commit 3ea2ca569272918e16e008b58292ae7798f5de8d
+Author: zengsong <zengsong@aipai.com>
+Date:   Mon May 15 14:05:28 2017 +0800
+
+    update
+
+2	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+7	7	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+7	7	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit d467dfaae1c1e537ad3dd66f72270a9ff091f1f5
+Author: zhang_xx <zhangxx@baihang-china.com>
+Date:   Fri May 12 15:29:42 2017 +0800
+
+    优化代码结构
+
+8	21	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit d299c3cccfb6bbe0d99c4620a3c83b6da7e732ea
+Author: zhang_xx <zhangxx@baihang-china.com>
+Date:   Fri May 12 15:19:46 2017 +0800
+
+    扩展时间选择器可选样式，年，月，日，时，分，秒 可分别选择， 删除原本的Type枚举
+
+28	27	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+15	21	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+46	59	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+5	5	pickerview/src/main/res/layout/pickerview_time.xml
+
+commit 40700c7c5e081f78cd3919a7fe5ce236d06b2bdf
+Author: totcw <totcw@qq.com>
+Date:   Fri May 12 15:13:13 2017 +0800
+
+    1.新增setBackgroudId方法设置普通模式下 显示pickerview外部的背景颜色,默认是灰色
+    2.新增了setDecorView()方法,可以设置pickerview要显示的父容器,这样就可以在fragment中显示了
+
+4	0	app/src/main/AndroidManifest.xml
+22	0	app/src/main/java/com/bigkoo/pickerviewdemo/FragmentTestActivity.java
+44	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+83	0	app/src/main/java/com/bigkoo/pickerviewdemo/TestFragment.java
+10	0	app/src/main/res/layout/activity_fragmenttest.xml
+9	0	app/src/main/res/layout/activity_main.xml
+23	0	app/src/main/res/layout/fragment_test.xml
+1	0	pickerview/build.gradle
+30	2	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+27	2	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+18	9	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit dfa9227c40e9dc09add07f6287abac1fa06ad045
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Apr 13 17:52:06 2017 +0800
+
+    优化代码
+
+2	4	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+
+commit bfc4042564280c8b80a549cdbca211b4d526ea8f
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Apr 13 17:48:36 2017 +0800
+
+    优化代码
+
+2	6	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+2	4	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+2	3	pickerview/src/main/res/layout/pickerview_options.xml
+7	7	pickerview/src/main/res/layout/pickerview_time.xml
+1	1	pickerview/src/main/res/values/dimens.xml
+
+commit 0fb6663c4d0a78ec4004996571c492242a86b4c7
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Apr 12 11:46:42 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 0b2cd50ca42a74bc4e9bdb12812a370037b8a3c6
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Apr 11 18:04:43 2017 +0800
+
+    update
+
+0	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit d4287b178699c8f262334d12bf84d51aa149a000
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Apr 11 18:03:49 2017 +0800
+
+    统一动画效果时长
+
+2	2	pickerview/src/main/res/anim/pickerview_dialog_scale_in.xml
+2	2	pickerview/src/main/res/anim/pickerview_dialog_scale_out.xml
+
+commit ca372dc2124fbc9f1efab1cb17031c6528fd82df
+Merge: 629c87e fbc94c4
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 15:31:35 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 629c87e4d67f2bd8f0bc68c2909e8b62a371d2f7
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 15:31:09 2017 +0800
+
+    update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+
+commit fbc94c4fe2bcfcb01973fe1b9e20c6268ffde4c3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 15:09:30 2017 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit 848fa88569ed568aedf42ea9b6fca0c4521af820
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 15:07:00 2017 +0800
+
+    Update README.md
+
+6	5	README.md
+
+commit 78de8d239ebad996a33429a1278085a61a84a8fa
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 13:20:16 2017 +0800
+
+    update
+
+0	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit ffba023f1ac3b7a8fc8a6be16365db7fe399f93f
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Apr 7 13:19:33 2017 +0800
+
+    修复偶尔会出现item滑出边界之外的情况
+
+5	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+6	3	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+18	10	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 8b266b22a08d3b2e9b6b7c89f387dc304574e2fd
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Apr 6 10:59:25 2017 +0800
+
+    注释添加
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 706ce80379f602c6d8d78d0e30456d8bed8610ff
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Apr 6 10:53:35 2017 +0800
+
+    注释添加
+
+5	6	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit fdcbd3e5c1640ee18382e7b8c8efb18be4d111f9
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Apr 6 10:28:39 2017 +0800
+
+    Update
+
+16	9	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 0493dae5b9a7f359976e973fc7549079fc0fbcb9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 17:23:18 2017 +0800
+
+    Update README-en.md
+
+0	1	README-en.md
+
+commit 5bd1e5d1879ef54f957b95f083fe5ab929e39915
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 17:14:40 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 77484e6b1b7ee5ed76bc03ced16da79eae009867
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 10:13:03 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 1d11880b4ca7fe81e0b9e4245df474d7f9a1e76f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 10:10:15 2017 +0800
+
+    Update README.md
+
+5	2	README.md
+
+commit 3642dd4d3c5e73d2ef59d4acb3612e6e935b8bde
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 10:00:20 2017 +0800
+
+    Update
+
+9	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 71c2781cf13ed82b4e5bc610c404d32f8f36f43e
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 09:54:30 2017 +0800
+
+    V3.2.3
+
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 105252ad7e01f7bcf1f12df4dcf7e88499aa95a7
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 31 09:48:48 2017 +0800
+
+    V3.2.3
+
+3	3	pickerview/build.gradle
+11	15	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 7b01c3a6eacee259a9fb54438d78b5cd206be198
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 30 15:55:49 2017 +0800
+
+    修复滑动到顶部或底部出现跳动的问题
+
+1	1	app/build.gradle
+5	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+6	3	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+3	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 0180110d652343a33a3882f31e7f9877d0662c00
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:52:08 2017 +0800
+
+    demo 优化，地区数据防空判断
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+
+commit b0d0c0ba8f195108db9310cb55757f19fb0005ab
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:51:38 2017 +0800
+
+    demo 优化，地区数据防空判断
+
+2	1	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+
+commit 75ee2791e5e68d80f197b48a9622b1bc5d1faf3f
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:42:27 2017 +0800
+
+    demo 优化，地区数据防空判断
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+
+commit afbda85ddb46866d506f121d0c0a713ceafddfde
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:38:47 2017 +0800
+
+    添加dialog 模式的缩放动画效果
+
+0	0	pickerview/src/main/res/anim/{pickerview_dialog_push_in.xml => pickerview_dialog_scale_in.xml}
+0	0	pickerview/src/main/res/anim/{pickerview_dialog_push_out.xml => pickerview_dialog_scale_out.xml}
+2	2	pickerview/src/main/res/values/styles.xml
+
+commit b1dcad8f544e989379dfa03da8b5e1b61caea84a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:35:19 2017 +0800
+
+    添加dialog 模式的缩放动画效果
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/utils/PickerViewAnimateUtil.java
+9	4	pickerview/src/main/res/anim/{dialog_push_in.xml => pickerview_dialog_push_in.xml}
+10	4	pickerview/src/main/res/anim/{dialog_push_out.xml => pickerview_dialog_push_out.xml}
+0	0	pickerview/src/main/res/anim/{slide_in_bottom.xml => pickerview_slide_in_bottom.xml}
+0	0	pickerview/src/main/res/anim/{slide_out_bottom.xml => pickerview_slide_out_bottom.xml}
+2	2	pickerview/src/main/res/values/styles.xml
+
+commit 4d34a89f68f1c13166b63d138498f78c45047e1a
+Merge: 3ce0f36 881d9c3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:21:33 2017 +0800
+
+    Merge pull request #224 from xuwab/feature-anim
+    
+    增加dialog进出动画
+
+commit 881d9c35c19b44048a529eb9215f3ff2be241266
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:20:47 2017 +0800
+
+    Update BasePickerView.java
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 3abac623ac8d34db4b640d467c476a407afb1239
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 11:20:09 2017 +0800
+
+    Update styles.xml
+
+2	2	pickerview/src/main/res/values/styles.xml
+
+commit 797caac9ee216a3413412933f3799da95b6e2375
+Author: wab <xuwab@outlook.com>
+Date:   Tue Mar 28 11:14:07 2017 +0800
+
+    增加dialig进出频幕动画
+
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+14	0	pickerview/src/main/res/anim/dialog_push_in.xml
+12	0	pickerview/src/main/res/anim/dialog_push_out.xml
+4	0	pickerview/src/main/res/values/styles.xml
+
+commit 3ce0f36657e2e4b1a07d8fedbfeef10f937507cf
+Merge: 8bb5f96 d88d0bb
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 10:55:09 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8bb5f96a38129017262746e00d89fb88841019bb
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 28 10:54:56 2017 +0800
+
+    demo优化
+
+6	4	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+1	1	pickerview/src/main/res/layout/layout_basepickerview.xml
+2	2	pickerview/src/main/res/values/colors.xml
+
+commit d88d0bb1f9580b0cdd12344d177ff39b9b7d2024
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 27 16:13:27 2017 +0800
+
+    Update README.md
+
+0	9	README.md
+
+commit 9d49d38305f8cfe2248402f6152a4a06eab3e547
+Merge: 6b4ccdc a26576e
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 27 16:12:33 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6b4ccdc912c09b6203875c1e4ce0a95429247723
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 27 16:12:08 2017 +0800
+
+    V3.2.2 Update
+
+6	6	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	4	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit a26576e78c5dba5e8ce66477184ddb38e1d774ef
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 27 16:11:50 2017 +0800
+
+    Update README-en.md
+
+3	3	README-en.md
+
+commit fdaa46805c867ed26a3ceb10f5bd08773492eb45
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 17:36:28 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 2275549c58ec04a5c12faa550b2f7f7e514b25af
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 17:13:18 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 1dbc462e65f8a9cfeaf0f3afe07bd244fa158998
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 17:03:28 2017 +0800
+
+    Update README.md
+
+22	20	README.md
+
+commit 4a9adbec591ce2a54338ad5a36dc62c0eaafef00
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:36:57 2017 +0800
+
+    Update README.md
+
+7	2	README.md
+
+commit bf52e9714442f26b41a7c10aeed5adebe5c07867
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:32:40 2017 +0800
+
+    Update README-en.md
+
+3	2	README-en.md
+
+commit b82600853e6ffec389fc020e0ce4d41b38f012dc
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:26:23 2017 +0800
+
+    V3.2.2 Update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 312c0ade878f185bf73046bbb358424722f5c907
+Merge: 4490804 d82d3ee
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:20:42 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 44908045487e54cceb9e25830ec43f9483074645
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:19:49 2017 +0800
+
+    V3.2.2 Update
+
+0	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 4a86c9c4494ff7999f4af9854bc7b5165d15cda1
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 24 16:12:59 2017 +0800
+
+    V3.2.2 Update
+
+4	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+9	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+11	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+28	27	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+12	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+16	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit d82d3ee6b383d0a437262a9a0881303b4aed1d5c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 18:03:09 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit ce9570c5955aa5b1adc60b32838ceed8c154f524
+Merge: 8a5e54d 9e629bc
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 11:16:24 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 8a5e54d2a8f22266c53edd4765dd965720b6a4b1
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 11:16:11 2017 +0800
+
+    V3.2.1 Update
+
+0	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 9e629bc0769baa47b7745d2e086b469db511eded
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 11:08:09 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 0adf4a65294d5dd80eff62e37996798f52989389
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 10:46:55 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 6cadc2a0cf72c9c2a6e3aa0b7b6026fb9d360283
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 10:45:23 2017 +0800
+
+    Update README-en.md
+
+21	2	README-en.md
+
+commit 96e357cabe02bbae6c8e36cc12ad8066c9a0cd12
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 10:24:19 2017 +0800
+
+    Update README.md
+
+9	3	README.md
+
+commit fcc5195f939336da6fc29154dc19b4e3dfd66072
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 10:12:12 2017 +0800
+
+    V3.2.1 Updated
+
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit c42d6a13a485ee633fed60b09fb2a703092f5748
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 10:11:08 2017 +0800
+
+    V3.2.1 Updated
+
+12	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 7907619d44f00f68a698bb45350f5ec83613ffb7
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 09:57:53 2017 +0800
+
+    V3.2.1 Updated
+
+3	3	pickerview/build.gradle
+0	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+4	10	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit daf938797966110c3bdfd3c96f743445e53fdc5c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 23 09:04:37 2017 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit 0058db0677e0c336aa12035a370e115a6829e8d5
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 22 16:48:55 2017 +0800
+
+    V3.2.0
+
+2	2	pickerview/build.gradle
+
+commit e296bb72cfaff3b62397afaf088358771220d56c
+Merge: 9d5cd85 14692f3
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 22 16:22:29 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 9d5cd8577c37ba16d05538bf398153747d4a6f17
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 22 16:21:56 2017 +0800
+
+    Updated
+
+4	3	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+97	142	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+6	1	app/src/main/java/com/bigkoo/pickerviewdemo/{ProvinceData => bean}/JsonBean.java
+0	23	app/src/main/java/com/bigkoo/pickerviewdemo/bean/PickerViewData.java
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+13	5	app/src/main/res/layout/activity_main.xml
+3	3	pickerview/build.gradle
+19	4	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+3	3	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+11	2	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+41	5	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 14692f3956d6631a47b367c5d9a1303d4e68eed0
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 22 12:57:48 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 43bd38b99955d85405c8ee95c3392eca4a8f7680
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 11:41:11 2017 +0800
+
+    Update README.md
+
+5	8	README.md
+
+commit f63e054b2c8ead8cafe4bbf5f4114929f4f7cc8b
+Merge: 38eb63f f31b201
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 11:16:48 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 38eb63f56367065b3f91ccc02d9379cb28fc8ee5
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 11:16:36 2017 +0800
+
+    删除log语句
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit f31b201683623f1ede99bc3b1654accb1d0237d9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 10:22:43 2017 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit 82a5caa9234f51e8db097d6b53cc18dc84312040
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 10:16:09 2017 +0800
+
+    Update README.md
+
+5	4	README.md
+
+commit 4c284be068f84430e26740891e3cd8931a3c7555
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 10:14:56 2017 +0800
+
+    Update README.md
+
+6	3	README.md
+
+commit 3b18cf59bc24d6a0ac413458f73b4a36c30a4cba
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 21 10:07:06 2017 +0800
+
+    Update
+
+4	5	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+9	8	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+5	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+-	-	preview/CustomLayout.gif
+-	-	preview/JsonData.gif
+-	-	preview/timepicker.gif
+-	-	preview/timepicker_night.gif
+
+commit d4d9b927d6d665e2f44815b6e9d78e1b30dd6229
+Author: totcw <totcw@qq.com>
+Date:   Mon Mar 20 12:52:51 2017 +0800
+
+    添加了对话框模式的ondismiss回调
+
+9	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 11181c96a7ffcb5772bc7f557a788dac3fa87b31
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 20 09:34:24 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 40a1494e71eb17e2652e38a73b8294daa49bb6a8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 20 09:33:53 2017 +0800
+
+    Update README-en.md
+
+2	2	README-en.md
+
+commit 9f47eed82e919171e321365a3c2b80308577f9dc
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 20 09:33:20 2017 +0800
+
+    Update README.md
+
+6	0	README.md
+
+commit 9bca1edf96bb11c42fce99664f8b8bd154775e9e
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 14:51:31 2017 +0800
+
+    Update
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+
+commit cfb49cb0aebe00930733b9cb5b7b1156c921c4c2
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 14:50:11 2017 +0800
+
+    Update
+
+41	26	app/src/main/assets/province.json
+3	0	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+2	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit d7c91d42120ceef61afed445cfcdafe6165a4e25
+Merge: 8561880 c2c687a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 13:19:01 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 85618801f925904d66e449d4354ffb1a2c7a48f8
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 13:18:41 2017 +0800
+
+    修复：多选项情况下，最大文字高度不一致出现分割线不在同一水平问题
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+6	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit c2c687a93298afdaccb1ad2ec790658b2c27ffcd
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 17 10:36:23 2017 +0800
+
+    添加了一下设置时间的说明
+
+9	7	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+8	2	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+0	3	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 9a6f7eacd79acd147abc3d95995d753c329c08c6
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 10:04:14 2017 +0800
+
+    新增：1.demo 提供了一份省市区Json 解析的示例代码
+    2.字体样式设置方法
+
+1	0	app/build.gradle
+4	3	app/src/main/AndroidManifest.xml
+5339	0	app/src/main/assets/province.json
+38	0	app/src/main/java/com/bigkoo/pickerviewdemo/GetJsonDataUtil.java
+196	0	app/src/main/java/com/bigkoo/pickerviewdemo/JsonDataActivity.java
+9	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+71	0	app/src/main/java/com/bigkoo/pickerviewdemo/ProvinceData/JsonBean.java
+26	0	app/src/main/res/layout/activity_json_data.xml
+9	1	app/src/main/res/layout/activity_main.xml
+1	1	pickerview/build.gradle
+8	11	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+13	6	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+6	5	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 1615f8be90f390c1bbeb656252d94723b181ff63
+Merge: 9b6c1ee 92d3793
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 17 09:21:55 2017 +0800
+
+    Merge pull request #207 from alamoWEB/master
+    
+    added setTypeFace
+
+commit 92d3793ebda96120d67a6c3b6aae786f9dbd5b64
+Author: Alamo Saravali <alamo.saravali@gmail.com>
+Date:   Thu Mar 16 13:39:14 2017 -0300
+
+    added setTypeFace
+
+17	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+10	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+13	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 9b6c1ee491b9a26dc7d19d1f2c1978c7589ad97b
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 16 14:33:27 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 8ac439722278e61eea57fc412021c96f93d53d7a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Thu Mar 16 14:33:11 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit c2710bc1bba5825f71fc4da3413f48b1dcb1cc85
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:44:24 2017 +0800
+
+    Update README.md
+
+13	3	README.md
+
+commit a374fb52283ead9605347040886e12777795682c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:22:38 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit 37ebd4c3a24bcc53e57e98007c2e88cf0b832023
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:21:11 2017 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit 94691c57ef7ceb1450446d49b1d188fb93e3ac70
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:07:58 2017 +0800
+
+    Update README-en.md
+
+1	1	README-en.md
+
+commit afb9c1884a0f4c99fcea4125fc3e3da1c3ba1ad3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:05:18 2017 +0800
+
+    Update README-en.md
+
+2	0	README-en.md
+
+commit bd1e2d96f1d51dd700b9e9250f82c79f2f117636
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:04:34 2017 +0800
+
+    Update README-en.md
+
+1	0	README-en.md
+
+commit 820513bd8250c88e67a0ffee7de5edea24ca5124
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 17:02:59 2017 +0800
+
+    Update README.md
+
+4	2	README.md
+
+commit 713b19824bbca5dc79f941969da967a29dfcfb59
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:54:38 2017 +0800
+
+    Update README.md
+
+134	41	README.md
+
+commit 0269adfd45e3fc8620f73747d1c222d2a7cf2654
+Merge: 1031e5c 47dfbea
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:46:21 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 1031e5cb113b69d73c6ad6661dfdc0fe2f02aeaa
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:45:49 2017 +0800
+
+    English Doc
+
+1	0	README-en.md
+
+commit 902527efc7bce07e3fd36d5a2dbf0cf6e8a7bfe5
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:45:22 2017 +0800
+
+    English Documentation
+
+222	0	README-en.md
+
+commit 47dfbea53cf68acab69b5fccd1a142421884b25f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:40:45 2017 +0800
+
+    Update README.md
+
+5	2	README.md
+
+commit 248f4d56ce0f5e2c49789f36b04f257a0b2719d7
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:30:44 2017 +0800
+
+    V3.1.1
+
+3	3	pickerview/build.gradle
+
+commit a1a6948eb569f321d3b4eaa6fb3f1fce86f939f7
+Merge: 2d488dd 81c5d1a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:30:00 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 2d488ddd2f345f0b8d61612488f76468a6403a8a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Wed Mar 15 16:29:00 2017 +0800
+
+    修复timePicker 隐藏标签无效问题
+
+2	7	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+3	4	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+31	13	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+6	6	pickerview/src/main/res/values-en/strings.xml
+
+commit 81c5d1ae58d58befe64e419e854f43aaf7d1b556
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 14 16:49:48 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 6b2fcef36a1bacdb2f37f9ff86e6f988db81baa6
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 14 09:05:55 2017 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 219ec5be6c06a39dbe6e9465db16b2a37c677825
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 14 09:05:35 2017 +0800
+
+    Update README.md
+
+6	2	README.md
+
+commit 3a00892983bb5ce37359d459cf368c584610bec3
+Author: song <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 18:24:32 2017 +0800
+
+    代码优化
+
+13	12	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit afb40969d5e20ffa52520bb447b416a50cafc703
+Author: totcw <totcw@qq.com>
+Date:   Mon Mar 13 17:20:49 2017 +0800
+
+    对话框模式也可以通过setOutsideCancelable方法设置点击外部是否关闭
+
+5	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+3	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+11	2	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit ed815a188de92f216eb201de71995bd75d22b0b2
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 17:03:03 2017 +0800
+
+    修复Bug
+
+1	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+12	4	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit ccf6f815b4c45bbb1f95791beeae4f8e4a499468
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 14:32:05 2017 +0800
+
+    demo 注释
+
+1	0	app/src/main/res/layout/pickerview_custom_options.xml
+2	0	app/src/main/res/layout/pickerview_custom_time.xml
+
+commit fb48621c6b7a5a15731c1d82e0b0f5d4d939c54d
+Merge: 0388b9e 359bdc7
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 14:29:03 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 0388b9ef5847ed818d87854532fb40dda198c0f3
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 14:28:51 2017 +0800
+
+    demo 注释
+
+3	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 359bdc7c125afb1a873ea0e839515e640ec13b88
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 10:15:03 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 8b0e0df7ab86b561be88f0fa5083a168b9571e31
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 10:14:27 2017 +0800
+
+    Update README.md
+
+3	0	README.md
+
+commit d3818298181d50dbf76dd231edb01defc897bf8b
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 13 10:02:17 2017 +0800
+
+    V3.0.9，适配多分辨率显示问题
+
+6	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+13	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit e144fc315b48c7d75d527a545df6e79b669dde9a
+Merge: 6e313d9 56c8267
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 10 17:47:54 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 6e313d943bd23f5263f573d336e4876301a7c88b
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 10 17:47:38 2017 +0800
+
+    修复低分辨率手机中选中项显示位置稍微偏上的问题
+
+2	26	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	0	app/src/main/res/layout/activity_main.xml
+0	1	pickerview/build.gradle
+18	5	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+4	4	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 56c8267e721ae80e425fb2ef26c36d77425cd975
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Wed Mar 8 17:53:32 2017 +0800
+
+    Update README.md
+
+17	0	README.md
+
+commit 3c11b6527d24372ce8a8685fe3b22b19ee2da07d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Mar 7 17:16:02 2017 +0800
+
+    Update README.md
+
+6	2	README.md
+
+commit a317d7cb4b2bebcad6b86e88e7f836ab25a8220a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Mar 7 11:38:31 2017 +0800
+
+    WheelView源码解析注释
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+12	5	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit c8daab7cfcf25b207d96904631327cf9c5f9d631
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 6 15:37:35 2017 +0800
+
+    新增timePicker的默认时间设置公开方法。避免只能设置一次默认时间的问题
+
+1	1	app/src/main/AndroidManifest.xml
+4	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+7	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit bae5dd8fcc4c9da75677d41ee89c63d623e2fe34
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Mar 6 11:44:52 2017 +0800
+
+    demo优化
+
+22	13	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	app/src/main/res/layout/activity_main.xml
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 000f5014da49ce2c29ebaa22855ead9065a4a8ca
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Mar 5 22:42:50 2017 +0800
+
+    代码优化（不影响开发者使用）
+
+9	26	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit 1b2b21ad2f4c98897be0741907974e4542bc1090
+Merge: 3402019 c093949
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Mar 5 22:21:48 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 3402019fd0c56a13800ac9ce703fa3412d9bb1e0
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Mar 5 22:20:08 2017 +0800
+
+    优化setSelectOptions方法
+
+5	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+13	3	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit c0939499f4db9e7444d3aca127de232498c41b3c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 13:50:54 2017 +0800
+
+    Update README.md
+
+1	2	README.md
+
+commit 4d72dbe555fff8fcdd00b5ea7cae33d62d34014c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 13:50:14 2017 +0800
+
+    Update README.md
+
+4	2	README.md
+
+commit 38c335b62a3a200d313d05e271fe9af8cf18b49d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 13:47:46 2017 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 77ce49a2567ef67d0157a799911a43871b2ca8d7
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 13:33:28 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit bfcc2975f1f7ed5011c38672a832d7ece6eacecb
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 13:33:02 2017 +0800
+
+    Update README.md
+
+5	2	README.md
+
+commit 69d1a3aa80a544e7fa76b9295e538ddfadd496b7
+Author: song <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 11:34:53 2017 +0800
+
+    新增自定义布局，优化demo代码示范
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+3	3	pickerview/build.gradle
+
+commit be7fbf749fdb07e2c66cf0d7adcc8f20ad6113be
+Author: song <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 11:26:37 2017 +0800
+
+    新增自定义布局，优化demo代码示范
+
+5	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 96679f2b16244445a9b1894c808a5df70679085c
+Author: song <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 11:19:35 2017 +0800
+
+    新增自定义布局，优化demo代码示范
+
+80	38	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+22	6	app/src/main/res/layout/activity_main.xml
+5	0	app/src/main/res/values-en/strings.xml
+3	0	app/src/main/res/values/strings.xml
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+
+commit fe36d35afbd4ceff38f44015df2906a05abfb35a
+Merge: 3ef0e32 862fc3a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 10:34:51 2017 +0800
+
+    Merge pull request #193 from kyuyi/master
+    
+    添加用户自定义布局
+
+commit 862fc3a6b76b453fd943fb1b5c36755f2ec50b29
+Merge: a304954 3ef0e32
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sat Mar 4 10:33:35 2017 +0800
+
+    Merge branch 'master' into master
+
+commit 3ef0e323e8ec6fd092540ac9a1c5a7b50054c8a5
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 22:00:04 2017 +0800
+
+    修改了setRangeDate和setRange的参数为Calender
+
+9	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+33	45	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+46	35	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 47e123e5891612d1475da96fdd737be191e6eefa
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 17:08:25 2017 +0800
+
+    判断设置的选中日期是否在 时间范围内,如果不再就默认使用起始时间
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+45	7	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+40	25	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 708365769cdd12d7f063308e91e4a303ebe0d686
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Mar 3 15:26:13 2017 +0800
+
+    Update README.md
+
+8	7	README.md
+
+commit c5a06c2bdc0987c29c07d16506729f0d0506c419
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 3 15:21:16 2017 +0800
+
+    V3.0.6
+
+2	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	pickerview/build.gradle
+
+commit cb873017065816a38c05ed133c8b4758f7c6b7af
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 15:10:07 2017 +0800
+
+    修改了设置起始年月日的问题
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+8	8	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/adapter/NumericWheelAdapter.java
+3	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+78	45	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit a30495493177e773ee191054e0375834587ba2af
+Author: KyuYi Ho <kyu_yi@sina.com>
+Date:   Fri Mar 3 11:26:08 2017 +0800
+
+    添加用户自定义布局，
+    解决用户只能通过修改默认布局的字体颜色、大小来达到指定的UI效果
+    用户可以通过自定义布局的设置来指定更加复杂的UI效果
+
+92	39	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+40	0	app/src/main/java/com/bigkoo/pickerviewdemo/bean/CardBean.java
+-	-	app/src/main/res/drawable-xhdpi/to_down.png
+85	0	app/src/main/res/layout/pickerview_custom_options.xml
+90	0	app/src/main/res/layout/pickerview_custom_time.xml
+109	85	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+65	49	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+13	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/CustomListener.java
+
+commit 2ad68bf4ad424d9e11400eb3bfd4a83ade9dc49d
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Fri Mar 3 11:11:59 2017 +0800
+
+    新增：两条分割线显示类型的选择（FILL和WARP）
+
+4	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+19	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+16	3	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+33	6	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+17	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+23	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 6558f305752b245014be0716faf8c37af5283c86
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 10:24:21 2017 +0800
+
+    修改了设置起始年月日的bug
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+0	2	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+103	230	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 0bc2260f7b03da3ced4709b16965a04676e63b3e
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 09:37:12 2017 +0800
+
+    修改了设置起始年月日的bug
+
+2	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+10	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+63	40	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 79b04995b52f5019d7015cf88bfe0271e25c8619
+Author: totcw <totcw@qq.com>
+Date:   Fri Mar 3 00:42:07 2017 +0800
+
+    新增了设置起始年月日和终止年月日的方法
+
+2	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+44	50	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+6	1	pickerview/src/main/java/com/bigkoo/pickerview/adapter/NumericWheelAdapter.java
+372	92	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 78feb1beb0eeb670ddccd5a57b23b3a972cabc37
+Author: totcw <totcw@qq.com>
+Date:   Thu Mar 2 21:11:50 2017 +0800
+
+    新增了年月日时分的模式,还有月,日的起始设置
+
+8	6	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+104	38	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+97	24	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 4b6ec6f5d526298601bbfb2b1e6340ad3cff32a3
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Thu Mar 2 17:12:59 2017 +0800
+
+    调整选中项内容显示位置有微小偏差问题
+
+10	7	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+18	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+21	21	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit c7a0ff7ba4d6cd618fef2df32d12fa1d421bbc57
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 16:07:09 2017 +0800
+
+    Update README.md
+
+0	1	README.md
+
+commit faa826a82a34a9cb97e7dfb7c2b51857c4805553
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 15:50:45 2017 +0800
+
+    Update README.md
+
+3	2	README.md
+
+commit ed61a286e9b264c6336f205087026830ceb61da1
+Author: totcw <totcw@qq.com>
+Date:   Tue Feb 28 11:58:34 2017 +0800
+
+    新增加了对话框模式
+
+0	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+
+commit 37e536ec094a0b7397351cfdd3960fa731204037
+Merge: 168aeb2 9a15355
+Author: totcw <totcw@qq.com>
+Date:   Tue Feb 28 11:55:04 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 168aeb294db2185946f538bd9e72c2ccdba7445e
+Author: totcw <totcw@qq.com>
+Date:   Tue Feb 28 11:53:58 2017 +0800
+
+    新增加了对话框模式
+
+6	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+16	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+17	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+122	47	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+21	0	pickerview/src/main/res/values/styles.xml
+
+commit 9a1535541f913a0e7e5162c100fa7772ad59b600
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 11:36:20 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit a37ac3281511244744ab27f8db742d720f03d11f
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 10:11:28 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 3172c950bdc249b324e6670c01b1c77645ebaaf8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 10:10:37 2017 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 85d25eac62e8234147e23d6cbbca49fccebec822
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 09:51:25 2017 +0800
+
+    Update README.md
+
+6	7	README.md
+
+commit 37ba426e0699b474de35ca9a189c239676ca167a
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 09:43:20 2017 +0800
+
+    V3.0.5版
+
+3	3	pickerview/build.gradle
+
+commit 1926a864b3befa11bf5e51fa6e77be1ebd0bf1a2
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Tue Feb 28 09:39:19 2017 +0800
+
+    V3.0.5版
+
+2	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	app/src/main/res/values-en/strings.xml
+1	2	pickerview/build.gradle
+11	12	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+5	6	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+4	4	pickerview/src/main/java/com/bigkoo/pickerview/adapter/ArrayWheelAdapter.java
+6	7	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+6	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+10	10	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 3b95d66adeacc3a78109fb8f3eb14eb617043f34
+Merge: b39f60a 4c77501
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 18:15:57 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b39f60a572abf4e24162a5a3cab9e022d51b388e
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 18:15:36 2017 +0800
+
+    优化，在单位标签不显示时，让时间选择器的内容居中
+
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit f9a64602ce04cb8ee29d30c7ca1b419175f2a60d
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 18:12:01 2017 +0800
+
+    优化，在单位标签不显示时，让时间选择器的内容居中
+
+8	6	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+0	5	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+8	8	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 4c775014baae46382ffe28cb80180764dfa5bb54
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 16:21:57 2017 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit be6442c4144b108a22a7dbd7deb15f53f8cc9b50
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 16:21:35 2017 +0800
+
+    Update README.md
+
+1	4	README.md
+
+commit 50463126afcb27df352e486ae07a97863c4826ba
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 16:20:55 2017 +0800
+
+    Update README.md
+
+4	0	README.md
+
+commit 5d64ceeb8eb5d1807b75e514e6c5a2f556339ce8
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 11:15:35 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 20b06fbaa148fcc1eb90e4758abd2072a7d12d28
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 11:14:51 2017 +0800
+
+    Update README.md
+
+5	5	README.md
+
+commit 2412f3d4c20824a67dceec128e386dc0e7203a51
+Author: xiaosong <xiaosong520110@gmail.com>
+Date:   Mon Feb 27 11:08:48 2017 +0800
+
+    color 文件
+
+6	0	app/src/main/res/values/colors.xml
+
+commit c25db2d75aae2f0d6445f5403dc052f6105b02de
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 18:36:53 2017 +0800
+
+    V3.0.4版本
+
+1	1	pickerview/build.gradle
+
+commit 66147897fa270f85a5f28ba8ec8de4e2a0a278bb
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 18:36:05 2017 +0800
+
+    V3.0.4版本
+
+23	21	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+2	2	pickerview/build.gradle
+2	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 67a22170c81e4236455c08354d4f70be1e51150f
+Author: totcw <totcw@qq.com>
+Date:   Sun Feb 26 13:24:34 2017 +0800
+
+    新增了修改两条分割线的间距的方法,修改字体颜色的方法
+
+4	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+60	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+60	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+58	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+73	0	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+84	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+1	0	pickerview/src/main/res/layout/pickerview_time.xml
+1	0	pickerview/src/main/res/values/attrs.xml
+
+commit 1f148db157bd3bcdccbd2c2f2eb3bb8798f466b5
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 12:47:15 2017 +0800
+
+    Update README.md
+
+0	2	README.md
+
+commit ea653fe0fbfc81c398363f977e9f554121e81ae9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 12:45:51 2017 +0800
+
+    Update README.md
+
+22	17	README.md
+
+commit 677e287875b9ac2fdcbf1590b33a897e858f7fdc
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 12:43:09 2017 +0800
+
+    Update README.md
+
+10	12	README.md
+
+commit f1e89de5bfe45fd38327b03ae513031fc31ff308
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 12:21:01 2017 +0800
+
+    Update README.md
+
+5	5	README.md
+
+commit 85f6060ff7b296cea1dfec6f276d687f0a80f301
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 12:17:49 2017 +0800
+
+    Update README.md
+
+8	7	README.md
+
+commit 849da6c962ef2636da34d66f5bb27af03e94c9d1
+Author: song <xiaosong520110@gmail.com>
+Date:   Sun Feb 26 10:43:27 2017 +0800
+
+    修正String名称
+
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit 3cd817abc2a5993a907a672ae0891ae412474d6e
+Author: totcw <totcw@qq.com>
+Date:   Fri Feb 24 22:36:01 2017 +0800
+
+    修改了选择省市区,文字过长显示不完全的问题
+
+2	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+31	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 738973d57d62e0f2d41003a8f9cd6f3972279574
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 15:43:16 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 96cb2070e0b44f764981dec1f6cf44cb4be7ab57
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 15:28:05 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit e035130ef5479408500b524d75006896756d91cc
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 12:41:00 2017 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit f40a499eb98b7e391ba041b737a4917e01da1f91
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 12:31:39 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 8f9ee3721e82f7077ce42bc45584ebd70b19be7b
+Merge: f6af21b 2521503
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 12:30:51 2017 +0800
+
+    Merge pull request #189 from Contrarywind/master
+    
+    调整UI
+
+commit 25215030175403c8c60de6bd64115addabc74484
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 12:20:04 2017 +0800
+
+    调整UI
+
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+7	9	pickerview/src/main/res/layout/include_pickerview_topbar.xml
+0	5	pickerview/src/main/res/values/bools.xml
+4	4	pickerview/src/main/res/values/dimens.xml
+
+commit f6af21b86285ed598a62dc85f6d5cbb1631a8382
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 11:49:42 2017 +0800
+
+    Update README.md
+
+2	1	README.md
+
+commit 8690af2bcfc636c917c5db0a049fe34b2c256bbe
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 11:36:46 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit f50c20d0fba91096330cdd787b0d70575facc7b1
+Merge: 1ec926d b7a50c6
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 11:35:40 2017 +0800
+
+    Merge pull request #188 from Contrarywind/master
+
+commit b7a50c6f4897f64c5b67611945de1a3d70a46421
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 11:32:10 2017 +0800
+
+    V3.0.3版，修复选中项颜色
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 2544e031047a23c216b3ec3d65109e1dfdff7d47
+Merge: 20c503b 29080f3
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 11:27:57 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 20c503bde16cc144ebf70aafe000b806ab4d9dc4
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 11:27:35 2017 +0800
+
+    V3.0.3版，修复选中项颜色
+
+0	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 1ec926d8de193918a6a0ca1c6cbfafba2cd64f9d
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 11:27:12 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit e53a6dc88f4e1debb1f726ef5e94e720d62c858a
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 11:06:00 2017 +0800
+
+    Update README.md
+
+7	0	README.md
+
+commit 142d731620a8fbf184313973cf97280559272323
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 10:54:37 2017 +0800
+
+    Update README.md
+
+0	15	README.md
+
+commit 12e2c24cb6c55871e0adb5a4ffc2d13ac14f9b91
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 10:53:42 2017 +0800
+
+    Update README.md
+
+5	3	README.md
+
+commit 9b1773a063a65a12b8ae3d223ae079225a3c77f4
+Merge: 143813c 29080f3
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 10:25:20 2017 +0800
+
+    Merge pull request #187 from Contrarywind/master
+    
+    v3.0.3 修复
+
+commit 29080f3cbd12628ced8732f7870cd0b9ceaa69f0
+Merge: 75b65ab 6cfcdf4
+Author: totcw <totcw@qq.com>
+Date:   Fri Feb 24 10:24:48 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 75b65abdd57fc7555ef7662d36414a9ade861cb4
+Author: totcw <totcw@qq.com>
+Date:   Fri Feb 24 10:24:12 2017 +0800
+
+    lyf
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 6cfcdf45f305bebc365958d5620f42d6b0363eb4
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 10:20:59 2017 +0800
+
+    V3.0.3版，修复optionspicker 默认选项设置失效问题，新增时间选择器标题背景设置
+
+2	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit dc83bbc11bee53abf8fad2f727aff39dccb4f93b
+Merge: 4a5de0d 7e802a9
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 10:11:59 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 4a5de0df93e75f957a7c471750cf5930aa6c1371
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 10:11:31 2017 +0800
+
+    V3.0.3版，修复optionspicker 默认选项设置失效问题，新增时间选择器标题背景设置
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+16	7	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+
+commit 143813ca485321725b1d67c9551a4e74ef717249
+Merge: 6d9fe3c 7e802a9
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 09:25:19 2017 +0800
+
+    Merge pull request #186 from Contrarywind/master
+    
+    V3.0.3版 修复bug
+
+commit 7e802a9610619917da3c92fd653ea0ce06b80d1e
+Merge: 078ebf8 6d9fe3c
+Author: xiaosongzeem <xiaosong520110@gmail.com>
+Date:   Fri Feb 24 09:24:51 2017 +0800
+
+    Merge branch 'master' into master
+
+commit 078ebf8505d873d68e10b83bcb7916e14a4ffac8
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 09:10:47 2017 +0800
+
+    V3.0.3版，修复optionspicker 默认选项设置失效问题，新增时间选择器标题背景设置
+
+7	6	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+14	7	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 32f97441ab3e373e6e7a55a84c6b2e0db7f367fe
+Merge: c94974c b0f3ed3
+Author: xiaosong <1006013376@qq.com>
+Date:   Fri Feb 24 09:01:58 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c94974c3aaead206d2b5d9649aec47c0077909f8
+Author: xiaosong <1006013376@qq.com>
+Date:   Thu Feb 23 18:35:33 2017 +0800
+
+    修复默认选中项问题中
+
+3	3	pickerview/build.gradle
+4	4	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+7	8	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit 6d9fe3ce2fc638e73068546d613aef25be510b78
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 18:35:10 2017 +0800
+
+    Update README.md
+
+3	1	README.md
+
+commit 2a76766d9c01e21a09590de1c9ca5c90fd3ebc66
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:32:13 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 90b20690da324e35660d2c259c0df016424f53ab
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:26:48 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit aba4e202655dfd4768e8b1c5507b0291f6d7cf5a
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:25:23 2017 +0800
+
+    Update README.md
+
+9	1	README.md
+
+commit d3f5228ae6d4aaefa6846d6dc1610b800e346568
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:06:39 2017 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit f12d7b5369ddf0292bd03f57c924fe1213ef6b28
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:05:17 2017 +0800
+
+    Update README.md
+
+3	0	README.md
+
+commit fa41f91d78044122c89a7ca3a6af8861eda5f354
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:02:45 2017 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit cd35eb25acb8fc4da48f1d0006a635fed04b47bf
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 17:02:00 2017 +0800
+
+    Update README.md
+
+42	1	README.md
+
+commit b0081e2e96088829ec66aabcb82562335c90da54
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 16:58:49 2017 +0800
+
+    Update README.md
+
+3	3	README.md
+
+commit b0f3ed3cdd36446405a0ad1a36e255a5fcc3f46b
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 16:11:36 2017 +0800
+
+    Update README.md
+
+6	7	README.md
+
+commit 35224d2ec79de72b04d2fb5958c683c26e5ce2d7
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 16:10:37 2017 +0800
+
+    Update README.md
+
+46	0	README.md
+
+commit 239e004d4067b8e20ed172aa8f99733b0b32d456
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 16:09:31 2017 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit bcaf937a55db8e656b492f9a5dbbbc294a02ba22
+Merge: 89346bd b7bb03b
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Thu Feb 23 16:07:14 2017 +0800
+
+    Merge pull request #185 from Contrarywind/master
+    
+    V3.x 版本更新
+
+commit b7bb03bb8bc8b4399fbb6beb9032d4cf75226b81
+Author: xiaosong <1006013376@qq.com>
+Date:   Thu Feb 23 14:16:50 2017 +0800
+
+    V3.0.2版本
+
+0	1	app/build.gradle
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+0	1	build.gradle
+3	3	pickerview/build.gradle
+7	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+21	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+16	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit 00290d91f63194d592491aaf6b58ab6582fa8c72
+Author: xiaosong <1006013376@qq.com>
+Date:   Thu Feb 23 12:23:09 2017 +0800
+
+    update (更新)
+
+107	82	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+264	95	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+4	5	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+6	12	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit ce6e51973fd0c218c65a403c1ed38bcb6364084c
+Author: song <xiaosong520110@gmail.com>
+Date:   Thu Feb 23 00:16:17 2017 +0800
+
+    更新代码
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit b9f91c2f94163cde5d5bedd5c59997df6933a13b
+Author: song <xiaosong520110@gmail.com>
+Date:   Wed Feb 22 23:54:59 2017 +0800
+
+    更新代码
+
+4	0	app/build.gradle
+8	4	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+3	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+8	3	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+8	11	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+9	26	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+14	9	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit ddf52b92cbf9f95a6eedc9600039975bd02f8399
+Author: xiaosong <1006013376@qq.com>
+Date:   Wed Feb 22 17:52:54 2017 +0800
+
+    demo update (更新)
+
+13	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit d707b8aeb7baeda039f016303e0e4c09b0fae651
+Merge: fe7c0c7 22ac9c1
+Author: xiaosong <1006013376@qq.com>
+Date:   Wed Feb 22 17:46:12 2017 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit fe7c0c71413c59ad70a6d966735b7dc14964ef26
+Author: xiaosong <1006013376@qq.com>
+Date:   Wed Feb 22 17:45:51 2017 +0800
+
+    更新
+
+7	3	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 22ac9c1e99064a8977bf8b3ac6b6641e06dba607
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Wed Feb 22 17:33:47 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 17aac300c3cc486bef022676cf2b50537882c49d
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Wed Feb 22 17:32:02 2017 +0800
+
+    Update README.md
+
+5	67	README.md
+
+commit 6984665647fe4f81ae525f9223de1d59f3466699
+Author: xiaosong <1006013376@qq.com>
+Date:   Wed Feb 22 15:12:28 2017 +0800
+
+    1.demo 适配 英文版语言系统
+
+20	15	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+6	13	app/src/main/res/layout/activity_main.xml
+8	0	app/src/main/res/values-en/strings.xml
+2	0	app/src/main/res/values/strings.xml
+21	19	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+11	0	pickerview/src/main/res/values-en/strings.xml
+
+commit 9bf51149bb0e5a2fd6b72cb4024e61602dbf764e
+Author: xiaosong <1006013376@qq.com>
+Date:   Wed Feb 22 12:43:08 2017 +0800
+
+    1.代码重构（目前已更新timePick时间选择器部分代码）
+    2.颜色字体背景等自定义属性选项添加
+
+24	15	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	build.gradle
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+214	78	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+3	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+1	0	pickerview/src/main/res/layout/include_pickerview_topbar.xml
+2	1	pickerview/src/main/res/values/colors.xml
+2	2	pickerview/src/main/res/values/dimens.xml
+
+commit b4a621947145b211c13c5a9469ac249466b82c4f
+Author: xiaosong <1006013376@qq.com>
+Date:   Tue Feb 21 16:24:12 2017 +0800
+
+    build.gradle 配置更新
+
+1	1	app/build.gradle
+14	0	build.gradle
+20	72	pickerview/build.gradle
+4	3	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 6718f7878af858e4d68dab26439e31e87a7f1c61
+Author: xiaosong <1006013376@qq.com>
+Date:   Tue Feb 21 10:38:15 2017 +0800
+
+     build setting update
+
+4	4	app/build.gradle
+3	3	build.gradle
+1	1	gradle/wrapper/gradle-wrapper.properties
+3	3	pickerview/build.gradle
+
+commit 2ea4cef4ef6a35faedfebff174afb4bab5a28766
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Tue Feb 21 10:06:44 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 4c8655bd3a23a7c190fc09ab1403b362234f2fba
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Tue Feb 21 10:00:53 2017 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit dece407b5406b368e8bf384d0843856f7d20a405
+Merge: fbb9d11 b718595
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Tue Feb 21 09:54:29 2017 +0800
+
+    Merge pull request #2 from xxjy/master
+    
+    增加回退键dismiss设置
+
+commit fbb9d11fed23c77873ee13c9ef97207806a3c466
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Tue Feb 21 09:46:12 2017 +0800
+
+    Update README.md
+
+1	2	README.md
+
+commit 48bc7128529585bd5c1d454db21b8b3920bbaabb
+Merge: 89346bd 4e56931
+Author: xiaosongzeem <243790544@qq.com>
+Date:   Tue Feb 21 09:30:56 2017 +0800
+
+    Merge pull request #1 from GreatGarlic/master
+    
+    优化
+
+commit 89346bd36edd3aef84276d232264d2db1ab4652a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Nov 30 17:06:29 2016 +0800
+
+    Update README.md
+
+2	0	README.md
+
+commit b7185959fb7e21e4235c51ecbb3dd99f2d727d09
+Author: xxjy <xxjy.zzz@gmail.com>
+Date:   Thu Sep 22 21:14:51 2016 +0800
+
+    增加回退键dismiss设置
+
+2	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+26	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 716dd4a8d7bd8cc054cd5bd9f34d9aa94ea26ffa
+Author: sai <sai.wu@bigkoo.com>
+Date:   Thu Aug 25 09:25:04 2016 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 7716f6baa81a2b1e9fcdd9bc332596b37ba80af4
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Aug 24 18:31:58 2016 +0800
+
+    Update README.md
+
+5	2	README.md
+
+commit 3c90a4c61afb9c158612e711c3530c835ce7f5f0
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Aug 24 18:30:07 2016 +0800
+
+    2.1.1
+    
+    修复dismiss的时候点击背景会重复dismiss动画问题
+
+3	3	pickerview/build.gradle
+19	13	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+
+commit 4e56931767d7a243525fc0ecb336a48da41f2ad2
+Author: 刘源 <405653510@qq.com>
+Date:   Mon Aug 15 14:35:36 2016 +0800
+
+    修复由于改变时间选择器位置计算参数导致的自定义选择器位置不正确的问题
+
+16	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+175	161	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit bf6fc2b47c832630d01c71e484cefe28bb368396
+Author: 刘源 <405653510@qq.com>
+Date:   Sat Aug 13 18:57:51 2016 +0800
+
+    提交
+
+1	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+4	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 35c279a37f46ea0d3f4e36d351cde3f077139e44
+Author: 刘源 <405653510@qq.com>
+Date:   Sat Aug 13 17:34:16 2016 +0800
+
+    提交
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 4709855d1342061755b5bc79fc7404239d541962
+Author: 刘源 <405653510@qq.com>
+Date:   Sat Aug 13 17:28:06 2016 +0800
+
+    提交
+
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit 283df035975a758047340638e134ca31b88fc751
+Author: 刘源 <405653510@qq.com>
+Date:   Sat Aug 13 17:23:36 2016 +0800
+
+    提交
+
+2	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit dc1d42a2df7e433e6ee24a170f37afde680d5d68
+Author: 刘源 <405653510@qq.com>
+Date:   Sat Aug 13 17:12:02 2016 +0800
+
+    提交
+
+2	2	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+15	4	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+12	9	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+12	8	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit dc1489f71c23c17b135ca8f818871422d380f023
+Author: 刘源 <405653510@qq.com>
+Date:   Fri Aug 12 18:10:40 2016 +0800
+
+    提交
+
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+11	5	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+246	231	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+7	1	pickerview/src/main/res/layout/pickerview_time.xml
+
+commit fc6abf13fab2e29d117291b3985086b70fbef74f
+Author: 刘源 <405653510@qq.com>
+Date:   Fri Aug 12 17:43:06 2016 +0800
+
+    提交
+
+5	5	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+
+commit e5ba53c22af3e60fef84b62f6f08924b279554cf
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jul 13 14:59:10 2016 +0800
+
+    2.1.0
+    
+    >v2.1.0
+     - 去掉反射获取字符串，改为通过继承IPickerViewData。<br />
+     - 解决多个PickerView同时存在时取消不了弹窗问题。<br />
+
+6	2	README.md
+2	3	app/build.gradle
+74	59	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+4	4	app/src/main/java/com/bigkoo/pickerviewdemo/bean/{PickData.java => PickerViewData.java}
+4	9	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+3	3	pickerview/build.gradle
+17	16	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+7	7	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+6	7	pickerview/src/main/java/com/bigkoo/pickerview/adapter/WheelAdapter.java
+11	27	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+8	0	pickerview/src/main/java/com/bigkoo/pickerview/model/IPickerViewData.java
+8	6	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+0	9	pickerview/src/main/java/com/bigkoo/pickerview/view/IPickData.java
+11	16	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit a7de3ace32018a377ea0e57b338bf5bc0e1463ad
+Merge: e2e83c0 4643b6e
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jul 13 11:50:47 2016 +0800
+
+    Merge pull request #113 from keluokeda/master
+    
+    获取文字文字内容避免使用反射，而是改为使用接口回调的方法，提高效率
+
+commit 4643b6e38521a7f931f26d6bb4f11c2f69b95c4d
+Author: Administrator <913918146@qq.com>
+Date:   Wed Jul 13 09:52:47 2016 +0800
+
+    获取文字文字内容避免使用反射，而是改为使用接口回调的方法，提高效率
+
+3	2	app/build.gradle
+66	61	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+23	0	app/src/main/java/com/bigkoo/pickerviewdemo/bean/PickData.java
+8	1	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+3	2	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+42	28	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+9	0	pickerview/src/main/java/com/bigkoo/pickerview/view/IPickData.java
+
+commit e2e83c0f36512fa03b2219e89a552da206e4f3d7
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Jul 5 15:59:16 2016 +0800
+
+    2.0.9
+
+29	26	README.md
+2	2	app/build.gradle
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+11	11	pickerview/build.gradle
+0	3	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+
+commit b2a711301040e2a7f8f78274d48a34d84d6ac67d
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Jul 4 13:51:55 2016 +0800
+
+    解决属性冲突
+
+2	2	gradle/wrapper/gradle-wrapper.properties
+19	16	pickerview/build.gradle
+6	6	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+6	6	pickerview/src/main/res/values/attrs.xml
+
+commit a7477befd39fec5892ef2b3a0a191e9371920bf8
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jan 13 19:35:06 2016 +0800
+
+    Update README.md
+
+5	1	README.md
+
+commit de2ee6de7f059e6e852db251398576c13765f56f
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jan 13 19:33:56 2016 +0800
+
+    v2.0.8
+    
+    修复＃41 未选中项有错乱数据问题。
+    加入pickerview_customTextSize 和 pickerview_textsize 到 xml 中 来控制自定义文字大小
+
+1	1	app/build.gradle
+1	1	pickerview/build.gradle
+23	18	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+1	0	pickerview/src/main/res/values/attrs.xml
+5	0	pickerview/src/main/res/values/bools.xml
+2	0	pickerview/src/main/res/values/dimens.xml
+
+commit ae79eb3b6aab7566f2d7e6ca2116e5a9b8788f4a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sat Dec 26 18:09:07 2015 +0800
+
+    修复设置初始化position ，第三级数据不对的BUG
+
+1	1	app/build.gradle
+1	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+18	5	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelOptions.java
+
+commit deefc4f1e5fe1ee74e1bf3b392487eebd9a50e02
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sat Dec 26 18:08:21 2015 +0800
+
+    Update README.md
+
+4	1	README.md
+
+commit 541eb177ea4d932db8df7409d5dc5c2aba4a560d
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Dec 22 22:01:42 2015 +0800
+
+    Update README.md
+
+4	1	README.md
+
+commit 99568dd6ba41d7837150e7f8c9e8d968ae4b5534
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Dec 22 21:59:05 2015 +0800
+
+    v2.0.6
+    
+    让不循环模式下点击空白处不会滚到空白item，从而解决选中超出范围报错问题。
+
+1	1	app/build.gradle
+1	1	pickerview/build.gradle
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+13	13	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+7	8	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 7511f2441144a5638eb96610bec050cb98d972f4
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Dec 21 14:20:34 2015 +0800
+
+    Update README.md
+
+2	2	README.md
+
+commit 1ceee5fc7cb08aa9e6bfc4ede380a95b018a9813
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Dec 21 13:58:39 2015 +0800
+
+    Update README.md
+
+5	2	README.md
+
+commit ba855ffebf81d598775c10b658648eccd0e95ef0
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Dec 21 13:57:49 2015 +0800
+
+    v2.0.5
+    
+    修复底部越界
+
+1	1	app/build.gradle
+1	1	pickerview/build.gradle
+4	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+4	4	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 88bc6498337c8c5ba1fcc8344f621fe8ca09c8bc
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Dec 21 13:39:53 2015 +0800
+
+    Update README.md
+
+4	2	README.md
+
+commit 36108f0e70b7fd2e0e60be2e4673d79b6e508908
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Dec 21 13:37:37 2015 +0800
+
+    v.2.0.4
+    
+    修复不循环模式下超出范围问题
+    wheel view文字颜色通过xml配置
+
+1	1	app/build.gradle
+6	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+5	5	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+10	6	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+31	22	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+35	30	pickerview/src/main/java/com/bigkoo/pickerview/view/WheelTime.java
+2	1	pickerview/src/main/res/layout/pickerview_options.xml
+3	0	pickerview/src/main/res/values/attrs.xml
+3	0	pickerview/src/main/res/values/colors.xml
+
+commit f293158260c6c6b7068c8dc68a8d09ed732bcb0b
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Nov 25 15:56:50 2015 +0800
+
+    Update README.md
+
+3	1	README.md
+
+commit 4dbcda6dc11de5cf2a54ccfb626fe49879a01cd2
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Nov 25 15:55:19 2015 +0800
+
+    v2.0.3
+    
+    修复选择时间的时候，有些数字选不到直接跳到下一个的问题
+
+1	1	app/build.gradle
+1	1	pickerview/build.gradle
+0	2	pickerview/src/main/java/com/bigkoo/pickerview/lib/LoopViewGestureListener.java
+3	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+1	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit 6d4334c68f5a9396e9b772b2ef1154c5eea79425
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Nov 23 20:53:06 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 7de68325e0425c9c8513eb7bb94f478e8265b4f4
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Nov 23 20:32:40 2015 +0800
+
+    v2.0.2
+    
+     - 修复不循环模式下点击空白item处出现数组越界问题
+     - 修复循环模式下只有一条数据的时候只显示三条而不是填充满高度问题
+
+5	1	README.md
+1	1	app/build.gradle
+9	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	0	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+1	1	pickerview/build.gradle
+13	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+56	33	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+
+commit dd498f8aadaf407ada748e8433d1dfa0338b7cd3
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 21:45:47 2015 +0800
+
+    Update README.md
+
+1	0	README.md
+
+commit 2bf9b6446e20432b020a8fc3e68e0c8c8812a279
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 21:44:35 2015 +0800
+
+    Update README.md
+
+6	3	README.md
+
+commit 9709c23d3c6a48d2c79d76bc09dcd23f99fb243d
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 21:37:59 2015 +0800
+
+    新预览图
+
+-	-	preview/pickerdemo.gif
+
+commit 7f81d6ef9573136670147e14673d63814ed40066
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 21:35:10 2015 +0800
+
+    Delete pickerdemo.gif
+
+-	-	preview/pickerdemo.gif
+
+commit 93e761816c01ec7630ff3617c32eb38cebeff4d7
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 21:30:46 2015 +0800
+
+    去掉popupWindow，改为View
+
+1	1	app/build.gradle
+17	27	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+148	0	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPickerView.java
+0	167	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPopupWindow.java
+148	0	pickerview/src/main/java/com/bigkoo/pickerview/TimePickerView.java
+0	167	pickerview/src/main/java/com/bigkoo/pickerview/TimePopupWindow.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/{lib => adapter}/ArrayWheelAdapter.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/{lib => adapter}/NumericWheelAdapter.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/{lib => adapter}/WheelAdapter.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/LoopViewGestureListener.java
+2	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+8	0	pickerview/src/main/java/com/bigkoo/pickerview/listener/OnDismissListener.java
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/{lib => listener}/OnItemSelectedListener.java
+26	0	pickerview/src/main/java/com/bigkoo/pickerview/utils/PickerViewAnimateUtil.java
+168	0	pickerview/src/main/java/com/bigkoo/pickerview/view/BasePickerView.java
+4	1	pickerview/src/main/java/com/bigkoo/pickerview/{lib => view}/WheelOptions.java
+5	2	pickerview/src/main/java/com/bigkoo/pickerview/{lib => view}/WheelTime.java
+11	0	pickerview/src/main/res/anim/slide_in_bottom.xml
+11	0	pickerview/src/main/res/anim/slide_out_bottom.xml
+0	4	pickerview/src/main/res/anim/timepicker_anim_enter_bottom.xml
+0	4	pickerview/src/main/res/anim/timepicker_anim_exit_bottom.xml
+16	0	pickerview/src/main/res/layout/layout_basepickerview.xml
+1	3	pickerview/src/main/res/layout/{pw_options.xml => pickerview_options.xml}
+0	0	pickerview/src/main/res/layout/{pw_time.xml => pickerview_time.xml}
+3	0	pickerview/src/main/res/values/colors.xml
+5	0	pickerview/src/main/res/values/integers.xml
+0	7	pickerview/src/main/res/values/styles.xml
+-	-	preview/pickerdemo.gif
+
+commit 46569625187e629429b45c20a92acd0e5757100a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 19:14:44 2015 +0800
+
+    Update README.md
+
+10	0	README.md
+
+commit 0de49a11841cafca7bcc33ee41677bb6768dded0
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 17:32:22 2015 +0800
+
+    2.0
+
+22	4	README.md
+
+commit d3909d993290b2ad506b5f477074610cac24c097
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 17:29:14 2015 +0800
+
+    新效果图
+
+-	-	preview/pickerdemo.gif
+-	-	preview/pickerdemo1x.gif
+
+commit 04415e5a2be8601138d0a395a658a2edbdae0f0a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 17:05:31 2015 +0800
+
+    2.0发布
+
+1	1	app/build.gradle
+1	1	pickerview/build.gradle
+
+commit bda6e680af8f8286a8fcbb38e45ae4125e932736
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Nov 22 16:46:32 2015 +0800
+
+    2.0试行版
+
+4	4	app/build.gradle
+54	9	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+55	0	app/src/main/java/com/bigkoo/pickerviewdemo/bean/ProvinceBean.java
+12	4	app/src/main/res/layout/activity_main.xml
+23	13	pickerview/src/main/java/com/bigkoo/pickerview/OptionsPopupWindow.java
+7	5	pickerview/src/main/java/com/bigkoo/pickerview/TimePopupWindow.java
+5	5	pickerview/src/main/java/com/bigkoo/pickerview/lib/ArrayWheelAdapter.java
+0	25	pickerview/src/main/java/com/bigkoo/pickerview/lib/DensityUtil.java
+57	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/InertiaTimerTask.java
+18	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/LoopViewGestureListener.java
+34	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/MessageHandler.java
+6	25	pickerview/src/main/java/com/bigkoo/pickerview/lib/NumericWheelAdapter.java
+6	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/OnItemSelectedListener.java
+14	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/OnItemSelectedRunnable.java
+0	17	pickerview/src/main/java/com/bigkoo/pickerview/lib/OnWheelChangedListener.java
+0	18	pickerview/src/main/java/com/bigkoo/pickerview/lib/OnWheelScrollListener.java
+0	74	pickerview/src/main/java/com/bigkoo/pickerview/lib/ScreenInfo.java
+42	0	pickerview/src/main/java/com/bigkoo/pickerview/lib/SmoothScrollTimerTask.java
+3	3	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelAdapter.java
+80	35	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelOptions.java
+22	24	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelTime.java
+545	1022	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelView.java
+-	-	pickerview/src/main/res/drawable/bg_above_timepicker.png
+-	-	pickerview/src/main/res/drawable/bg_line_timepicker.png
+6	0	pickerview/src/main/res/drawable/selector_pickerview_btn.xml
+0	6	pickerview/src/main/res/drawable/wheel_timebtn.xml
+0	32	pickerview/src/main/res/drawable/wheel_val.xml
+0	25	pickerview/src/main/res/layout/include_optionspicker.xml
+42	0	pickerview/src/main/res/layout/include_pickerview_topbar.xml
+0	36	pickerview/src/main/res/layout/include_timepicker.xml
+30	43	pickerview/src/main/res/layout/pw_options.xml
+40	43	pickerview/src/main/res/layout/pw_time.xml
+10	0	pickerview/src/main/res/values/attrs.xml
+4	2	pickerview/src/main/res/values/colors.xml
+11	0	pickerview/src/main/res/values/dimens.xml
+
+commit f73c2b4aa7dd76f225f9abb1296f68fae53d9bbf
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Oct 12 17:34:46 2015 +0800
+
+    1.0.3
+
+1	1	app/build.gradle
+1	2	pickerview/build.gradle
+
+commit 8d01e5e74bbd0e287cd81f4494427b2bf099bd5e
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Oct 12 10:00:55 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 2e8123f338d9e633dc3669d09960d0577c065e4e
+Author: sai <sai.wu@bigkoo.com>
+Date:   Fri Oct 9 11:07:11 2015 +0800
+
+    增加年月格式
+
+2	2	README.md
+2	2	app/build.gradle
+2	1	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+1	1	pickerview/build.gradle
+1	1	pickerview/src/main/java/com/bigkoo/pickerview/TimePopupWindow.java
+7	1	pickerview/src/main/java/com/bigkoo/pickerview/lib/WheelTime.java
+
+commit cd59e6a760b1387f08875dac5d1492f0b2398e30
+Author: sai <sai.wu@bigkoo.com>
+Date:   Fri Oct 2 15:54:37 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 5a6c1016cb6d204291519516fd5195b9241f367a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Fri Oct 2 14:58:51 2015 +0800
+
+    支持低版本
+
+2	2	pickerview/build.gradle
+
+commit daf7ad8495da0b250e6090203febeb8e9f62d179
+Author: sai <sai.wu@bigkoo.com>
+Date:   Thu Aug 6 11:07:30 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 200009b9cbc399f082f850eda0b0fde41cb212b4
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Aug 4 15:59:19 2015 +0800
+
+    重新定义
+
+6	4	README.md
+
+commit 9447a5a30bca41fb480bbfbb602ea53d9f9a6d85
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Aug 4 15:57:11 2015 +0800
+
+    重新定义
+
+7	1	README.md
+
+commit e85b57c0f07c8fa534e417ce8beec37f3f90b98c
+Author: sai <sai.wu@bigkoo.com>
+Date:   Tue Aug 4 15:49:43 2015 +0800
+
+    改为androidstudio项目并支持aar
+
+0	9	.classpath
+33	0	.gitignore
+0	33	.project
+0	2	.settings/org.eclipse.core.resources.prefs
+0	4	.settings/org.eclipse.jdt.core.prefs
+0	10	AndroidManifest.xml
+1	0	app/.gitignore
+27	0	app/build.gradle
+3	6	proguard-project.txt => app/proguard-rules.pro
+13	0	app/src/androidTest/java/com/bigkoo/pickerviewdemo/ApplicationTest.java
+21	0	app/src/main/AndroidManifest.xml
+132	0	app/src/main/java/com/bigkoo/pickerviewdemo/MainActivity.java
+-	-	app/src/main/res/drawable-hdpi/ic_launcher.png
+-	-	app/src/main/res/drawable-mdpi/ic_launcher.png
+-	-	app/src/main/res/drawable-xhdpi/ic_launcher.png
+-	-	app/src/main/res/drawable-xxhdpi/ic_launcher.png
+19	0	app/src/main/res/layout/activity_main.xml
+6	0	app/src/main/res/menu/menu_main.xml
+6	0	app/src/main/res/values-w820dp/dimens.xml
+5	0	app/src/main/res/values/dimens.xml
+8	0	app/src/main/res/values/strings.xml
+8	0	app/src/main/res/values/styles.xml
+20	0	build.gradle
+18	0	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+164	0	gradlew
+90	0	gradlew.bat
+1	0	pickerview/.gitignore
+100	0	pickerview/build.gradle
+17	0	pickerview/proguard-rules.pro
+13	0	pickerview/src/androidTest/java/com/bigkoo/pickerview/ApplicationTest.java
+5	0	pickerview/src/main/AndroidManifest.xml
+3	4	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/OptionsPopupWindow.java
+3	3	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/TimePopupWindow.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/ArrayWheelAdapter.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/DensityUtil.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/NumericWheelAdapter.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/OnWheelChangedListener.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/OnWheelScrollListener.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/ScreenInfo.java
+1	1	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/WheelAdapter.java
+2	4	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/WheelOptions.java
+8	8	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/WheelTime.java
+3	3	{src/com => pickerview/src/main/java/com/bigkoo}/pickerview/lib/WheelView.java
+0	0	{res => pickerview/src/main/res}/anim/timepicker_anim_enter_bottom.xml
+0	0	{res => pickerview/src/main/res}/anim/timepicker_anim_exit_bottom.xml
+-	-	{res => pickerview/src/main/res}/drawable/bg_above_timepicker.png
+-	-	{res => pickerview/src/main/res}/drawable/bg_line_timepicker.png
+0	0	{res => pickerview/src/main/res}/drawable/wheel_timebtn.xml
+0	0	{res => pickerview/src/main/res}/drawable/wheel_val.xml
+3	3	{res => pickerview/src/main/res}/layout/include_optionspicker.xml
+5	5	{res => pickerview/src/main/res}/layout/include_timepicker.xml
+2	2	{res => pickerview/src/main/res}/layout/pw_options.xml
+2	2	{res => pickerview/src/main/res}/layout/pw_time.xml
+0	0	{res => pickerview/src/main/res}/values/colors.xml
+11	0	pickerview/src/main/res/values/strings.xml
+0	0	{res => pickerview/src/main/res}/values/styles.xml
+0	134	preview/MainActivity.java
+-	-	preview/pickerdemo.gif
+-	-	preview/pickerdemo_zhangshangshenghuo.gif
+0	15	project.properties
+0	11	res/values/strings.xml
+1	0	settings.gradle
+
+commit 0b8e9896046837897edea990e7acc15fe9e7e9b9
+Author: sai <sai.wu@bigkoo.com>
+Date:   Fri Jul 31 23:17:38 2015 +0800
+
+    修复年月变动超出月份最大日期出错BUG和三级联动两个字就错乱BUG
+    
+    1.把日选择在>29的日期，然后将月份调至2月份，这个时候，日期的选择栏出现显示问题，这个时候点击确定按钮，则时间选择错误，修复
+    2.文字超过3个时会出现问题 ，修复
+
+3	3	res/layout/include_optionspicker.xml
+25	4	src/com/pickerview/lib/WheelTime.java
+
+commit c713e4fa6e2248af8c93c441d41a0a6b18f38070
+Author: sai <sai.wu@bigkoo.com>
+Date:   Thu Jul 2 11:10:44 2015 +0800
+
+    界面调整
+
+1	1	src/com/pickerview/lib/WheelView.java
+
+commit 07cdb11f54eee5f3968a4352b40b0dc880abd5cd
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jul 1 18:06:48 2015 +0800
+
+    选择12:00的时候返回的是00:00：00的BUG
+
+3	2	src/com/pickerview/lib/WheelView.java
+
+commit 5bf266a6416010ae7e307100ae9d2f32797acf43
+Merge: 8109d61 0ca7da8
+Author: sai <sai.wu@bigkoo.com>
+Date:   Wed Jul 1 18:05:06 2015 +0800
+
+    Merge branch 'master' of https://github.com/saiwu-bigkoo/PickerView
+
+commit 8109d61f6075c456fd49afa28452e451d3027acf
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Jun 29 11:08:53 2015 +0800
+
+    时间bug
+    
+    解决选择中午12点的时候，返回的是凌晨00:00:00BUG
+
+1	1	src/com/pickerview/lib/WheelTime.java
+
+commit 0ca7da8b6e1d25d220023bd6f28ed5b689cb5ba6
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Jun 8 11:43:53 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 76159fece6589697e2837e5313ec61a109782673
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon Jun 8 11:42:28 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit 232a003c4dd168b667c69745ad724b2b2da82581
+Author: sai <sai.wu@bigkoo.com>
+Date:   Mon May 18 20:35:53 2015 +0800
+
+    修复Bug
+    
+    修复只有二级的时候进行联动报错问题
+
+77	51	src/com/pickerview/lib/WheelOptions.java
+
+commit 05ac69db627becf20754cb601149fde45cb22a8a
+Author: sai <sai.wu@bigkoo.com>
+Date:   Thu May 7 12:03:40 2015 +0800
+
+    Update README.md
+
+1	1	README.md
+
+commit b31c1fe1ac7a49ec6cf7e0d7ec4fe759e193105b
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Dec 28 21:11:15 2014 +0800
+
+    修正label居中问题
+    
+    修正BUG：加入label之后，选项不居中
+
+1	1	src/com/pickerview/lib/ArrayWheelAdapter.java
+4	1	src/com/pickerview/lib/WheelOptions.java
+4	4	src/com/pickerview/lib/WheelView.java
+
+commit 00640fa75ac27f860e157d7f7628600049c504c6
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Dec 28 15:09:53 2014 +0800
+
+    Create README.md
+
+13	0	README.md
+
+commit cbf640dc929a675a6a51028270a5e23d048252d0
+Author: sai <sai.wu@bigkoo.com>
+Date:   Sun Dec 28 09:45:07 2014 +0800
+
+    仿iOS的PickerView控件
+    
+    支持时间选择和选项选择并支持一二三级联动效果
+
+9	0	.classpath
+33	0	.project
+2	0	.settings/org.eclipse.core.resources.prefs
+4	0	.settings/org.eclipse.jdt.core.prefs
+10	0	AndroidManifest.xml
+134	0	preview/MainActivity.java
+-	-	preview/pickerdemo.gif
+20	0	proguard-project.txt
+15	0	project.properties
+4	0	res/anim/timepicker_anim_enter_bottom.xml
+4	0	res/anim/timepicker_anim_exit_bottom.xml
+-	-	res/drawable/bg_above_timepicker.png
+-	-	res/drawable/bg_line_timepicker.png
+6	0	res/drawable/wheel_timebtn.xml
+32	0	res/drawable/wheel_val.xml
+25	0	res/layout/include_optionspicker.xml
+36	0	res/layout/include_timepicker.xml
+54	0	res/layout/pw_options.xml
+54	0	res/layout/pw_time.xml
+5	0	res/values/colors.xml
+11	0	res/values/strings.xml
+7	0	res/values/styles.xml
+158	0	src/com/pickerview/OptionsPopupWindow.java
+165	0	src/com/pickerview/TimePopupWindow.java
+55	0	src/com/pickerview/lib/ArrayWheelAdapter.java
+25	0	src/com/pickerview/lib/DensityUtil.java
+73	0	src/com/pickerview/lib/NumericWheelAdapter.java
+17	0	src/com/pickerview/lib/OnWheelChangedListener.java
+18	0	src/com/pickerview/lib/OnWheelScrollListener.java
+74	0	src/com/pickerview/lib/ScreenInfo.java
+25	0	src/com/pickerview/lib/WheelAdapter.java
+139	0	src/com/pickerview/lib/WheelOptions.java
+214	0	src/com/pickerview/lib/WheelTime.java
+1021	0	src/com/pickerview/lib/WheelView.java

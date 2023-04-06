@@ -1,0 +1,4048 @@
+commit 54fce9624b892c8da3da428c9f1a1c89f51320ef
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Wed Jul 14 12:06:58 2021 -0400
+
+    Update README.md
+
+2	42	README.md
+
+commit 15d378072644ea370168774ce73f53fa2c4592b6
+Merge: fa22c8b c067a6c
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Tue Feb 9 23:52:23 2021 -0300
+
+    Merge pull request #266 from jasonelle/mixin-post
+    
+    Mixin post
+
+commit c067a6c0ba7d1140c2c7f4df93c306f59946fa33
+Author: Camilo Castro <camilo@ninjas.cl>
+Date:   Mon Jul 13 03:01:00 2020 -0400
+
+    mend
+
+0	6	app/src/main/assets/file/simpsons.json
+
+commit 10875cefacb0eec971252e9cb26e05acfa2156f4
+Author: Camilo Castro <camilo@ninjas.cl>
+Date:   Mon Jul 13 03:00:01 2020 -0400
+
+    updated mixin with post capability
+
+2	1	.idea/gradle.xml
+6	0	app/src/main/assets/file/simpsons.json
+50	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+53	6	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+1	1	app/src/main/res/values/strings.xml
+
+commit 9c18a67d2f3b8ba2af81e0d64d192d609661ebb7
+Merge: 46284d1 c47ff54
+Author: panterozo <ignacio_aaa@hotmail.com>
+Date:   Wed Jul 8 10:26:59 2020 -0400
+
+    Merge pull request #17 from demosffen/develop
+    
+    Fix app crash then view contains agent and executes '$reload' action
+
+commit c47ff54e673cbd2c054c6e4386c170859b9edd17
+Author: demosffen <ilya92minaev@gmail.com>
+Date:   Wed Jul 8 11:05:40 2020 +0800
+
+    Fix app crash then view contains agent and executes '$reload' action
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 46284d14fe37b4af0abdee0889f460247c47b3d5
+Merge: fdb168b 0bef6bd
+Author: Camilo Castro <camilo@ninjas.cl>
+Date:   Sun Jun 21 16:14:54 2020 -0400
+
+    Merge branch 'master' into develop
+
+commit 0bef6bd06dceb0520b22d5e5d374c7a8ee9ac9b5
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Sun Jun 21 16:13:24 2020 -0400
+
+    added $agents fix by @kcorey
+    
+    https://github.com/jasonelle/jasonette-android/pull/10
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit fdb168bed26d370750acb2d063dbe32118e95546
+Merge: 6d1f84b 57c4faa
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sat May 2 22:47:54 2020 -0400
+
+    Merge branch 'master' into develop
+
+commit 6d1f84b989215f4594e50cff5ddc99c911bcc163
+Merge: fa2bd4f 15157d9
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sat May 2 22:47:24 2020 -0400
+
+    Merge branch 'vkey-master' into develop
+
+commit 57c4faac66588289dfea79cc5ea3d77e611e2fdd
+Merge: d3841c0 d546c61
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sat May 2 22:09:48 2020 -0400
+
+    Merge branch 'master' of https://github.com/jasonelle/jasonette-android
+
+commit d3841c0f6286420c8d4f34cda50910d83a776b86
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sat May 2 22:09:41 2020 -0400
+
+    jason-app: is included jason-app for the default launcher
+
+292	0	app/src/main/assets/file/jason-app.json
+1	1	app/src/main/res/values/strings.xml
+
+commit 15157d957dbe3dd0566793be703613c51aae93f7
+Author: vkey <vkeyster@gmail.com>
+Date:   Tue Feb 18 16:33:12 2020 +0200
+
+    Updated code for action $push.register to get actual token
+
+34	15	app/src/main/java/com/jasonette/seed/Action/JasonPushAction.java
+
+commit d546c619a8859ebe8b530d355d7a91ab79762a8a
+Merge: 561de58 692bec0
+Author: Camilo <camilo@ninjas.cl>
+Date:   Mon Jan 27 09:01:16 2020 -0300
+
+    improved readme
+
+commit 692bec0b69749cd996d761fa2bb17ab855f242f7
+Author: Camilo <camilo@ninjas.cl>
+Date:   Mon Jan 27 09:00:30 2020 -0300
+
+    improved readme
+
+8	2	CHANGELOG.md
+4	18	README.md
+
+commit 561de58fbffd5d24928590451c91f0929525cbc7
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Fri Nov 29 01:50:35 2019 -0300
+
+    changelog update
+
+11	3	CHANGELOG.md
+
+commit fa2bd4fa79428efce466f7966804850ee1a4b921
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Nov 11 23:58:46 2019 -0300
+
+    hjson: is included the library for hjson for files
+
+2	0	app/build.gradle
+3	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+3	2	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+4	1	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit cda40f682a4acc49b7dfb0e0f5ff7aef7926882d
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Nov 11 23:33:06 2019 -0300
+
+    clean code
+
+0	2	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+0	1	app/src/main/java/com/jasonette/seed/Helper/JasonImageHelper.java
+0	2	app/src/main/java/com/jasonette/seed/Lib/JasonToolbar.java
+
+commit 3fe86d5965a4ab2428c0aca7f00ff2c391fb2916
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Nov 11 23:22:34 2019 -0300
+
+    onNewToken uncommented, in JasonPushRegisterService.java
+
+1	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+
+commit 1a0d7171e4a305522f875983c552ac178f0d20e6
+Merge: c177ae8 f28d348
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Nov 11 22:48:38 2019 -0300
+
+    Merge branch 'kcorey-bug/datepickerCrash' into develop
+
+commit f28d348cd476e24d73072678ddab1a3729e9c169
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Nov 11 22:48:16 2019 -0300
+
+    merge solved
+
+46	25	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit c177ae88c8af68dc38b708ffcbed858abcdb86f8
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sun Nov 3 00:21:46 2019 -0300
+
+    onBackPressed: change for native and webview components
+
+4	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 1166549f2f4443614cfe7db1a3719339dbb3fba1
+Merge: 6956f80 f6f335d
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Sat Nov 2 23:46:39 2019 -0300
+
+    Merge branch 'mohammadnajmuzzaman-master' into develop
+
+commit 6956f80fd55825298b251ea5596cfc891e21fc80
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Oct 21 11:21:32 2019 -0300
+
+    onBackPressed is change as public to work properly
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit f26579a83359e0f452b784af9a94f871f8276e22
+Merge: 4f3a325 c614211
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Oct 21 10:13:36 2019 -0300
+
+    Merge branch 'develop'
+
+commit c614211492ef6e102494fc5377eedf103008fa1e
+Merge: 3113fca bd6c950
+Author: Ignacio Alvarez <ialvare5@bancoestado.cl>
+Date:   Mon Oct 21 10:13:13 2019 -0300
+
+    Merge branch 'approtate' into develop
+
+commit f6f335de40e99cdef1f714df0e96c7d225f37db6
+Author: Mohammad Najmuzzaman <naj.mast@gmail.com>
+Date:   Thu Oct 3 18:47:44 2019 +0530
+
+    All latest libraries updated.
+    AndroidX implemented.
+    Glide Image caching updated to the AUTOMATIC strategy available in Glide 4.x
+    Stetho added for Chrome Debugging
+    Solved issue of app not working properly in Android Debugger.
+    
+    Signed-off-by: Mohammad Najmuzzaman <naj.mast@gmail.com>
+
+1	0	.idea/gradle.xml
+41	23	app/build.gradle
+9	2	app/src/main/AndroidManifest.xml
+19	2	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+58	47	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+2	1	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonTimerAction.java
+14	10	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+2	3	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+106	48	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+5	4	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+5	2	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+5	2	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+91	30	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+2	1	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+40	6	app/src/main/java/com/jasonette/seed/Helper/JasonImageHelper.java
+6	2	app/src/main/java/com/jasonette/seed/Lib/JasonToolbar.java
+6	6	app/src/main/java/com/jasonette/seed/Lib/MaterialBadgeTextView.java
+69	14	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+1	1	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+5	5	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+2	2	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+20	22	app/src/main/java/com/jasonette/seed/Service/websocket/JasonWebsocketService.java
+2	2	build.gradle
+2	0	gradle.properties
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit bd6c95081fdc11cfaf2a4b202a85210dba2ece89
+Author: Ignacio Alvarez Arenas <ignacio_aaa@hotmail.com>
+Date:   Mon Sep 23 17:59:10 2019 -0300
+
+    Issue (#35): This commit needs some revision before passing into master.
+    
+    It also needs a modification into AndroidManifest to work properly
+    'configChanges="orientation|screenSize"' in application section
+
+24	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+3	1	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 3113fca4c70220483bc4e9d58e8f720919053a32
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Fri Sep 20 20:44:32 2019 -0300
+
+    added onBackPressed as suggested by Dan at Slack
+
+15	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 916b8c9d12f8f996a2f772b59a92a3b616072d4f
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Fri Sep 20 20:32:58 2019 -0300
+
+    added synchronized (notifier) fix by Dan at Slack
+
+4	2	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 4f3a32558838b71c76a8610c3379935d5851699f
+Merge: d3b511a 8b771fc
+Author: panterozo <ignacio_aaa@hotmail.com>
+Date:   Tue Sep 10 10:52:37 2019 -0300
+
+    Merge pull request #3 from jasonelle/develop
+    
+    Pull Request 3
+
+commit 8b771fcaf2d71da1fe104b89410dc9b1c9d132a9
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Thu Sep 5 10:48:14 2019 -0400
+
+    Create hello.json
+
+115	0	app/src/main/assets/file/hello.json
+
+commit c45c32a7cc6f4e4a3411f595e2b5803f06d5e31c
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Thu Sep 5 10:46:12 2019 -0400
+
+    changed url to local hello.json
+
+1	1	app/src/main/res/values/strings.xml
+
+commit d3b511a25f0275e0026ce03b1aa3d5f7be18b91f
+Author: Ignacio Alvarez Arenas <ialvare5@bancoestado.cl>
+Date:   Tue Jul 30 18:56:59 2019 -0400
+
+    Bugfix (#40)
+
+2	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 67ae718e8af775f8fb96818dcc95fd4d55b7dbe0
+Author: Ignacio Alvarez Arenas <ialvare5@bancoestado.cl>
+Date:   Sun Jul 28 11:44:49 2019 -0400
+
+    added files from commit 96e3b85
+
+48	0	CHANGELOG.md
+23	56	CONTRIBUTING.md
+409	6	LICENSE
+15	0	tools/legacy/.codeclimate.yml
+77	0	tools/legacy/CONTRIBUTING.md
+
+commit 0a3fe7a5b4926d869b0e3f0d165292778c628cff
+Merge: d9e3175 36af8b2
+Author: Ignacio Alvarez Arenas <ialvare5@bancoestado.cl>
+Date:   Mon Jul 15 22:42:27 2019 -0400
+
+    Merge commit '36af8b2' into develop
+
+commit fa22c8b94758c26d69c451628b6402ac4bf92da0
+Merge: 0a6781a d9e3175
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Mon Jul 15 21:42:53 2019 -0400
+
+    Merge pull request #261 from panterozo/develop
+    
+    Bugfix (#234)
+
+commit d9e317538d3d4184a6784dade0949113fd26f322
+Author: Ignacio Alvarez Arenas <ialvare5@bancoestado.cl>
+Date:   Mon Jul 15 19:20:16 2019 -0400
+
+    refactoring: source code cleaned
+
+1	27	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+
+commit 84d5b80286e0848743c1995c0b35444c208867b2
+Author: Ignacio Alvarez Arenas <ialvare5@bancoestado.cl>
+Date:   Mon Jul 15 19:08:20 2019 -0400
+
+    Bugfix (#234)
+
+69	23	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+9	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 36af8b2d927dcc73887bd53af547fb53a27e975a
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Thu Jul 11 15:42:33 2019 -0400
+
+    fixed typo
+
+1	1	README.md
+
+commit 1b3a5c5672606f430d353692f91eca93124c2ea4
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Thu Jul 11 15:41:22 2019 -0400
+
+    updated readme
+
+29	119	README.md
+
+commit 01b1762239badda6f2be3f94494a50c4dd81c12f
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Thu Jul 11 15:37:07 2019 -0400
+
+    added text zoom fix by @naei
+
+4	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit de4f51ba3643812f0bdc8f0e52f976289848f966
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Tue Jul 2 08:30:33 2019 -0400
+
+    changed qrcode only to allformats
+    
+    Changed from `QR_CODE` to `ALL_FORMATS` as suggested by `Mike Metcalfe`.
+    
+    https://developers.google.com/android/reference/com/google/android/gms/vision/barcode/Barcode.html#ALL_FORMATS
+    
+    With this addition now the android app can scan any barcode supported by the vision engine.
+
+1	1	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit 0a6781ae184f5653edae32e000ea32c030402348
+Merge: 8703d92 7cc8494
+Author: Camilo <camilo.castro.cabrera@gmail.com>
+Date:   Tue Nov 6 09:05:29 2018 -0300
+
+    Merge pull request #249 from CydeSwype/patch-1
+    
+    Fix build.gradle for Android Studio v3.2.1
+
+commit 7cc8494e12f2c5dbb432ef4a5dd62abd063c2efe
+Author: Ian Miller <ircone@yahoo.com>
+Date:   Fri Nov 2 13:21:32 2018 -0700
+
+    Fix build.gradle for Android Studio v3.2.1
+    
+    Following the quick start guide with Android Studio v3.2.1 yielded an error similar to what users have described here: https://stackoverflow.com/questions/52945041/couldnt-locate-lint-gradle-api-26-1-2-jar-for-flutter-project
+    
+    Changing the order of jcenter() to load after maven seems to fix this issue.
+
+1	1	build.gradle
+
+commit 8703d92bf933b0d11a9f6e3609db964841a17410
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Apr 28 20:50:50 2018 -0700
+
+    refresh tabs bug + handle tabbar when images are not loading
+
+28	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit fc0ad52632a574b2f25368a33be6ead0d3eca284
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Apr 28 19:06:16 2018 -0700
+
+    gradle update
+
+25	25	app/build.gradle
+2	2	build.gradle
+
+commit 5ef367b2adfcf4de5d8dfb112ac8a58911f1dbbd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Apr 28 18:50:54 2018 -0700
+
+    don't track .idea files
+
+1	0	.gitignore
+
+commit 461abf004de39cff73d41a6ed91cf1b5ed6a2ae1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Apr 24 03:31:02 2018 -0700
+
+    event queue bug fix
+
+2	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 71619a95845055d74d9544a82d76fba0a2776260
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Apr 13 15:04:51 2018 -0700
+
+    Stringify (#233)
+    
+    * stringify header.menu + header.title
+    
+    * stringify footer
+    
+    * stringify $util actions
+
+16	6	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+23	11	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit b64143efd93a170352b9609d59b9a34905803e8b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Apr 12 19:08:23 2018 -0700
+
+    remove tab bar if the new view doesn't contain a tab bar markup
+
+6	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 97a28d48ef4ed9f41d837cba6cb4b7337ce1dd0e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Apr 12 19:07:56 2018 -0700
+
+    gradle upgrade
+
+1	1	app/build.gradle
+2	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit bf551e46c4650c24fb308c6d33d93dabe8cd34d2
+Merge: 8cb6abb 155b353
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Mar 21 12:09:16 2018 -0700
+
+    Merge branch 'master' into develop
+
+commit 8cb6abbd7b3aa7d264ea0138c3ca1de6762e89f5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Mar 21 11:59:20 2018 -0700
+
+    Pass $jason.url for "type": "$default" in webcontainer
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+7	0	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 98885d0b14ddab39e0378faea4c59e7c84891b76
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 13 14:42:21 2018 -0700
+
+    footer.tabs fix: set titlestate.ALWAYS_SHOW before image load
+
+12	9	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 3c38ce48b3e8be59a528911d350474471dd7887e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Mar 2 18:23:37 2018 -0800
+
+    $vision should initialize correctly during the one-time permission grant dialog
+
+13	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+8	13	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit 5be3fbee642cf889527a5f1ce68f6adfa725651c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Mar 1 20:33:21 2018 -0800
+
+    Scroll only when there are items
+
+3	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit f589d1ddb052ab93f8e1cdccf195e4b3457af044
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Feb 6 20:03:17 2018 -0800
+
+    The first time load should initialize the adapter correctly
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 07b5e80cf2ec259a89b1a867a9bd92dce9c9aef5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Feb 2 12:09:18 2018 -0800
+
+    Make sure the scroll position stays the same
+
+14	7	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+9	0	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit 3591dd69bda112241f63768a7da2ea9c946f1cc0
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 14:55:08 2018 -0800
+
+    "view": "jason" should work
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 273e7d7b6ab93dbc87efe79232489b3618b0b195
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 12:19:24 2018 -0800
+
+    Fix background when there's a border_width property
+
+5	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 155b3535f3c73278e7d28345453c61e3ae799c60
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 07:09:59 2018 -0800
+
+    Bugfixes (#221)
+    
+    * href success bug fix
+    
+    * Fix background position for when header doesnt exist
+    
+    * textfield component keyboard type 'decimal' was using the standard number keyboard, and not allowing decimals (#219)
+    
+    * textfield keyboard type 'decimal' should allow decimals
+    
+    * add decimal flag to the textarea component too
+    
+    * Parser fix => when the result is null, it should just ignore instead of fail
+    
+    * Push action payload bug fix: need to wrap with $jason
+    
+    * $vision action should autofocus
+    
+    * multithreading with event queue
+
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+5	1	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+214	131	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+1	1	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit 219aa44f8a15c688ce6c820d192e8b0e5d587156
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 07:09:10 2018 -0800
+
+    multithreading with event queue
+
+214	131	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ad6f3d4d4b9cd008566e72bf8c71bcb6c1393a42
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 07:08:56 2018 -0800
+
+    $vision action should autofocus
+
+1	1	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit ae8da1bfbf2d80782cad0b894374ea9be62b6847
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 07:08:40 2018 -0800
+
+    Push action payload bug fix: need to wrap with $jason
+
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+
+commit 308dce7e6f5033ee5c7c11a6dc0a419f8e80585f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 20 07:08:16 2018 -0800
+
+    Parser fix => when the result is null, it should just ignore instead of fail
+
+5	1	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+
+commit 59b1fa5f03360dd406d3cdbae1215284e2e9a67d
+Author: jdugdale <jdugdale@users.noreply.github.com>
+Date:   Tue Jan 16 15:21:40 2018 -0600
+
+    textfield component keyboard type 'decimal' was using the standard number keyboard, and not allowing decimals (#219)
+    
+    * textfield keyboard type 'decimal' should allow decimals
+    
+    * add decimal flag to the textarea component too
+
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+
+commit 6bab1929f628df3fc9d1e6f7d50fbc12b60cbe38
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 15 05:58:56 2018 -0800
+
+    Quick Fixes (#217)
+    
+    * href success bug fix
+    
+    * Fix background position for when header doesnt exist
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+8	5	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit dd15ed7f5d65f5f171a48235c803dfbbd550c5c0
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 15 05:57:51 2018 -0800
+
+    Fix background position for when header doesnt exist
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 4a0560b96197cff23d978bc92d1c8b6496d05278
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 15 05:47:44 2018 -0800
+
+    href success bug fix
+
+8	5	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit f70092f51b9e4463d73830f3f0068e5ee9a790c5
+Merge: 92627a8 1f4db33
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jan 10 07:17:52 2018 -0800
+
+    Merge branch 'develop'
+    
+    # Conflicts:
+    #       app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+    #       app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 1f4db3325e42084951256ac5974fde6e1a1e2731
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jan 10 06:53:00 2018 -0800
+
+    $agent.inject should also wait for agent ready
+
+7	3	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 06f57077b3b5ccefd3780469707b2156b045b4ed
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jan 10 03:05:05 2018 -0800
+
+    move body.style.background to body.background
+
+160	155	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 92627a826d94b46b7a0fe89c10538a53f43cd20c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 9 17:46:04 2018 -0800
+
+    Agent (#216)
+    
+    * Offline should silently fail (#190)
+    
+    * offline mode should silently fail and not trigger error.json
+    
+    * offline:true fix for tabs and $reload action
+    
+    * st.js update
+    
+    * Switch Component
+    
+    This implements the native swtich component as discussed in https://github.com/Jasonette/Jasonette/issues/1
+    
+    ## Examples:
+    
+    - Dynamic rendering with templates: https://jasonbase.com/things/bQp0
+    - Static view: https://jasonbase.com/things/yKdp
+    
+    * Vision (#191)
+    
+    * $vision action and service
+    
+    * Migrate to background camera to vision service
+    
+    * Documentation
+    
+    * $scroll action
+    
+    * update gradle
+    
+    * add "decimal" type to keyboard
+    
+    * added background to top level item
+    
+    * added timeout attribute (#194)
+    
+    * Websocket (#193)
+    
+    * $websocket support + job queue
+    
+    * gradle update
+    
+    * added comments
+    
+    * getHttpClient should have an argument
+    
+    * updated st.js : main object JSON => ST
+    
+    * $util.picker href bug fix
+    
+    * gradle update
+    
+    * changed required for generating a signed apk (#196)
+    
+    changes required for generating a signed apk.
+    
+    this was the minimum required to generate a signed apk with the latest tools.
+    
+    there are [some indications](https://stackoverflow.com/questions/26609734/how-to-enable-multidexing-with-the-new-android-multidex-support-library/38473900#38473900) that a call may be needed early on in the main app code, but it does not seem to be required (step 2; step 3 seems to be covered in Jasonette-Android already).
+    
+    * multidex doesn't work without maven settings
+    
+    * Loading refactor (#199)
+    
+    * deprecate loading.json and use "preload" attribute instead
+    
+    * Default header title should not show before rendering
+    
+    * app should launch with default preload.json unless it's set to an empty string
+    
+    * $agent (#201)
+    
+    * first commit
+    
+    * gradle update
+    
+    * multidex
+    
+    * file url support
+    
+    * web container as $agent
+    
+    * Added $agent.request + $agent.clear
+    
+    * resize background to fit header/footer sizes
+    
+    * clear agent when moving away to another view
+    
+    * $agent.trigger should only trigger its own parent view
+    
+    * Only use file://preload.json by default for the app launch
+    
+    * use "launch" property instead of "preload"
+    
+    * Support $href action with a success callback (#202)
+    
+    * vision service bug fix
+    
+    * progressbar on web containers (#203)
+    
+    * $agent.inject (#204)
+    
+    * web container action processing
+    
+    * $agent.inject
+    
+    * Use the latest JS api for multiline JS execution
+    
+    * $util.alert should return error when pressed cancel
+    
+    * Reset local variables when reloading
+    
+    * Default textarea height => 300, so it looks like an actual textarea
+    
+    * MORE exception handling
+    
+    * Local file internal URL handling
+    
+    * progressbar thickness for webcontainer
+    
+    * Update build.prop files (#209)
+    
+    * Update build.gradle
+    
+    * Update build.gradle
+    
+    * Update build.gradle
+    
+    * Updated build.gradle compile version
+    
+    * only hijack url loads initiated by click (no redirect)
+    
+    * Remove unnecessary resource lint option
+    
+    * textarea + textfield can have a "focus" attribute that autofocuses on load (#213)
+    
+    * #let api for template parser (#215)
+    
+    Declare local variables inside templates. See https://github.com/SelectTransform/st.js/blob/develop/test/unit/transform/let.js for details
+    
+    * Get rid of $agent.ready event. It should just work
+
+19	11	app/build.gradle
+13	6	app/src/debug/java/com/jasonette/seed/Launcher/DebugLauncher.java
+1	0	app/src/main/AndroidManifest.xml
+48	0	app/src/main/assets/agent
+0	28	app/src/main/assets/file/loading.json
+14	0	app/src/main/assets/file/preload.json
+168	53	app/src/main/assets/st
+1	1	app/src/main/assets/xhtml
+43	0	app/src/main/java/com/jasonette/seed/Action/JasonAgentAction.java
+16	3	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+2	1	app/src/main/java/com/jasonette/seed/Action/JasonPushAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonScriptAction.java
+3	3	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+27	0	app/src/main/java/com/jasonette/seed/Action/JasonVisionAction.java
+58	0	app/src/main/java/com/jasonette/seed/Action/JasonWebsocketAction.java
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+11	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+97	0	app/src/main/java/com/jasonette/seed/Component/JasonSwitchComponent.java
+12	2	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+5	2	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+26	0	app/src/main/java/com/jasonette/seed/Core/JasonCallback.java
+5	3	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+92	51	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+424	150	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+4	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+55	3	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+0	130	app/src/main/java/com/jasonette/seed/Lib/BackgroundCameraManager.java
+2	1	app/src/main/java/com/jasonette/seed/Lib/MaterialBadgeTextView.java
+46	4	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+1029	0	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushMessageService.java
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+226	0	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+173	0	app/src/main/java/com/jasonette/seed/Service/websocket/JasonWebsocketService.java
+1	0	app/src/main/res/values/strings.xml
+9	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit 4ca5ed81b6323685afc199db09e0c7d5898ffe0f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 9 05:46:50 2018 -0800
+
+    Get rid of $agent.ready event. It should just work
+
+26	15	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 4f1961eb360d955e1f4e67d9bbdc34bf721fc33d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 16 20:26:19 2017 -0800
+
+    #let api for template parser (#215)
+    
+    Declare local variables inside templates. See https://github.com/SelectTransform/st.js/blob/develop/test/unit/transform/let.js for details
+
+61	7	app/src/main/assets/st
+
+commit e41f892bf218511d1d679928b7ad2f3efebc1028
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 15 02:06:40 2017 -0800
+
+    textarea + textfield can have a "focus" attribute that autofocuses on load (#213)
+
+9	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+19	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9da16040de058b7854c2f465109c8613ee214543
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 7 10:05:51 2017 -0800
+
+    Remove unnecessary resource lint option
+
+3	0	app/build.gradle
+
+commit df60a9be929d3d7fc2846423c31a4c7493da17fd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 21:46:20 2017 -0800
+
+    only hijack url loads initiated by click (no redirect)
+
+14	4	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit b8df121469f249ea85b5a376925cc55008f8ea43
+Author: Mirko Tebaldi <realtebo@users.noreply.github.com>
+Date:   Thu Dec 7 02:39:30 2017 +0100
+
+    Update build.prop files (#209)
+    
+    * Update build.gradle
+    
+    * Update build.gradle
+    
+    * Update build.gradle
+    
+    * Updated build.gradle compile version
+
+13	11	app/build.gradle
+4	1	build.gradle
+
+commit 535c01bfcb447ff74b151c6bc01e9a348a6eac96
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 17:20:37 2017 -0800
+
+    progressbar thickness for webcontainer
+
+1	0	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 74267d7887d4a9dbcfb7438209716661f4180e73
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 17:19:23 2017 -0800
+
+    Local file internal URL handling
+
+8	0	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 16f4d21a94127631934b80c461d9fe8d52e78849
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 16:50:24 2017 -0800
+
+    MORE exception handling
+
+5	4	app/src/main/java/com/jasonette/seed/Action/JasonAgentAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+2	1	app/src/main/java/com/jasonette/seed/Action/JasonPushAction.java
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+3	2	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+3	2	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+2	1	app/src/main/java/com/jasonette/seed/Core/JasonCallback.java
+4	3	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+4	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+3	2	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+2	1	app/src/main/java/com/jasonette/seed/Lib/MaterialBadgeTextView.java
+24	16	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushMessageService.java
+3	1	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+2	2	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+3	3	app/src/main/java/com/jasonette/seed/Service/websocket/JasonWebsocketService.java
+
+commit 89612c270ae557c7353babf0b129d376410a9ebe
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 13:53:56 2017 -0800
+
+    Default textarea height => 300, so it looks like an actual textarea
+
+7	0	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+
+commit 564dea5be5e43d40bacbabdddb7bba228100c495
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 12:59:48 2017 -0800
+
+    Reset local variables when reloading
+
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 30d066f8e176e87dd7bb46c9981470d15b95c352
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 6 12:22:05 2017 -0800
+
+    $util.alert should return error when pressed cancel
+
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 580238059a1d3935ed04d40a33b66f146721c534
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Dec 4 12:08:04 2017 -0800
+
+    Use the latest JS api for multiline JS execution
+
+179	167	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit cc6136928d49b96e158cf0415e63d71a6c22d40e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Dec 3 22:22:20 2017 -0800
+
+    $agent.inject (#204)
+    
+    * web container action processing
+    
+    * $agent.inject
+
+8	0	app/src/main/java/com/jasonette/seed/Action/JasonAgentAction.java
+13	4	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+4	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+247	5	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 70c466976b19741ca597caa36950c5e36e281bbb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Dec 3 14:32:59 2017 -0800
+
+    progressbar on web containers (#203)
+
+43	2	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+
+commit 2bf44b718375f0336c9f3718a5c90135c992bf2c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 2 01:42:57 2017 -0800
+
+    vision service bug fix
+
+48	31	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit b94842da79119ba532bab62077f69ed540403deb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 1 15:49:45 2017 -0800
+
+    Support $href action with a success callback (#202)
+
+25	0	app/src/main/java/com/jasonette/seed/Core/JasonCallback.java
+20	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9d30e04a3a13ae52db0b23e090aaa62908ffd322
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 1 11:21:19 2017 -0800
+
+    $agent (#201)
+    
+    * first commit
+    
+    * gradle update
+    
+    * multidex
+    
+    * file url support
+    
+    * web container as $agent
+    
+    * Added $agent.request + $agent.clear
+    
+    * resize background to fit header/footer sizes
+    
+    * clear agent when moving away to another view
+    
+    * $agent.trigger should only trigger its own parent view
+    
+    * Only use file://preload.json by default for the app launch
+    
+    * use "launch" property instead of "preload"
+
+48	0	app/src/main/assets/agent
+34	0	app/src/main/java/com/jasonette/seed/Action/JasonAgentAction.java
+3	3	app/src/main/java/com/jasonette/seed/Action/JasonWebsocketAction.java
+202	59	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+29	4	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+696	0	app/src/main/java/com/jasonette/seed/Service/agent/JasonAgentService.java
+1	1	app/src/main/res/values/strings.xml
+
+commit 86982491b0bb719f3c1f5cb707440df35843aabf
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Nov 29 21:14:16 2017 -0800
+
+    Loading refactor (#199)
+    
+    * deprecate loading.json and use "preload" attribute instead
+    
+    * Default header title should not show before rendering
+    
+    * app should launch with default preload.json unless it's set to an empty string
+
+0	28	app/src/main/assets/file/loading.json
+14	0	app/src/main/assets/file/preload.json
+34	6	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+1	0	app/src/main/res/values/strings.xml
+
+commit bd99d3246d0c2e91e1278b01aabb31a63b10e223
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Nov 27 22:52:35 2017 -0800
+
+    multidex doesn't work without maven settings
+
+1	1	app/build.gradle
+5	0	build.gradle
+
+commit 9f43c45e16625ba900b71a5f10639cc1224e4a52
+Author: Carlos Puchol <cpg@rocketmail.com>
+Date:   Mon Nov 27 22:31:50 2017 -0800
+
+    changed required for generating a signed apk (#196)
+    
+    changes required for generating a signed apk.
+    
+    this was the minimum required to generate a signed apk with the latest tools.
+    
+    there are [some indications](https://stackoverflow.com/questions/26609734/how-to-enable-multidexing-with-the-new-android-multidex-support-library/38473900#38473900) that a call may be needed early on in the main app code, but it does not seem to be required (step 2; step 3 seems to be covered in Jasonette-Android already).
+
+2	0	app/build.gradle
+
+commit 9c4940819a9ab8cb529ce9329905cf3e8c89064b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Nov 26 14:39:40 2017 -0800
+
+    gradle update
+
+1	1	build.gradle
+
+commit 36c7439fa3c28b07d11f3afdd0df1e30a15388c5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Nov 23 13:15:25 2017 -0800
+
+    $util.picker href bug fix
+
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 8266642a13abdc5c13f8a6697b606a65dcafde21
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Nov 22 11:10:03 2017 -0800
+
+    updated st.js : main object JSON => ST
+
+64	7	app/src/main/assets/st
+1	1	app/src/main/assets/xhtml
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+
+commit 8a8740d38d9f503407bc9baf65089169db7156d0
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Nov 14 15:43:36 2017 -0800
+
+    getHttpClient should have an argument
+
+1	1	app/src/main/java/com/jasonette/seed/Service/websocket/JasonWebsocketService.java
+
+commit 6213abe0f9677f4eccb9d83a19bab9585bbd9fe7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Nov 4 06:42:02 2017 -0700
+
+    Websocket (#193)
+    
+    * $websocket support + job queue
+    
+    * gradle update
+    
+    * added comments
+
+2	2	app/build.gradle
+58	0	app/src/main/java/com/jasonette/seed/Action/JasonWebsocketAction.java
+90	50	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+18	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+173	0	app/src/main/java/com/jasonette/seed/Service/websocket/JasonWebsocketService.java
+
+commit 790400f2dc12b0e6cee73e2480699004fcdeeccf
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Nov 4 06:41:35 2017 -0700
+
+    added timeout attribute (#194)
+
+13	6	app/src/debug/java/com/jasonette/seed/Launcher/DebugLauncher.java
+14	1	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonScriptAction.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+10	2	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 0c79b77aa5ed0867a315ce477cb4db6e7cb5c976
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Nov 1 21:26:16 2017 -0700
+
+    added background to top level item
+
+46	4	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit 4843069e058aa60164afc2ca77a84254a3786eab
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Nov 1 18:36:52 2017 -0700
+
+    add "decimal" type to keyboard
+
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+
+commit 58abfbec943e43492b0b0ab0285e3309097d74f7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Nov 1 18:36:35 2017 -0700
+
+    update gradle
+
+1	1	app/build.gradle
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit fff152dfbd48ee743e539a4114a74ba1149eaac9
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Oct 28 08:25:43 2017 -0700
+
+    $scroll action
+
+18	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 533a9c806db0dde662a719e9d4e2bf43dde6a27b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Oct 28 07:37:48 2017 -0700
+
+    Vision (#191)
+    
+    * $vision action and service
+    
+    * Migrate to background camera to vision service
+    
+    * Documentation
+
+1	0	app/build.gradle
+1	0	app/src/main/AndroidManifest.xml
+27	0	app/src/main/java/com/jasonette/seed/Action/JasonVisionAction.java
+136	109	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+0	130	app/src/main/java/com/jasonette/seed/Lib/BackgroundCameraManager.java
+209	0	app/src/main/java/com/jasonette/seed/Service/vision/JasonVisionService.java
+
+commit d9dfcfb911d58b6a47dd48e94ab476c37496d062
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Oct 24 22:09:44 2017 -0700
+
+    Switch Component
+    
+    This implements the native swtich component as discussed in https://github.com/Jasonette/Jasonette/issues/1
+    
+    ## Examples:
+    
+    - Dynamic rendering with templates: https://jasonbase.com/things/bQp0
+    - Static view: https://jasonbase.com/things/yKdp
+
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+97	0	app/src/main/java/com/jasonette/seed/Component/JasonSwitchComponent.java
+
+commit 1352778942ac339856812dc25e7f29aca9bfdce0
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Oct 13 09:34:09 2017 -0700
+
+    st.js update
+
+44	40	app/src/main/assets/st
+
+commit e2411e043d76d600b0acbc31517eb84d6c8fbc84
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Oct 9 15:49:43 2017 -0700
+
+    Offline should silently fail (#190)
+    
+    * offline mode should silently fail and not trigger error.json
+    
+    * offline:true fix for tabs and $reload action
+
+4	2	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+34	27	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 989c4b09f9568c08601a8aa71ba213a62d4745a4
+Merge: 6e60b7c eec57be
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Sep 30 02:18:11 2017 -0700
+
+    Merge branch 'develop'
+
+commit eec57be6af226a7b29c2ecadb44fd08d01c9c5da
+Author: dewalddp <dewalddp2@gmail.com>
+Date:   Sat Sep 30 11:04:14 2017 +0200
+
+    Fix network request action POST method with JSON data to work correctly (#189)
+    
+    Previously it defaulted to PUT method and data was encoded
+
+5	2	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 7c05c2a28dc00a324a440a602898c088f7e0f55e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Sep 29 18:46:44 2017 -0700
+
+    json content_type exception handling
+
+8	1	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 6e60b7c47e784794f947775df863e6db8c8045c3
+Merge: 1dd9f2e b136349
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Sep 25 21:26:19 2017 -0700
+
+    Merge branch 'develop'
+
+commit b136349d7862f5eb7c02e5ee93f2c1d8531b2ecb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Sep 25 21:26:04 2017 -0700
+
+    remove unused
+
+0	1	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 1dd9f2e0e7cfea2fd8eebc3ebab4444921e2800f
+Merge: 47849da 1b72785
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Sep 25 20:53:50 2017 -0700
+
+    Merge branch 'develop'
+
+commit 1b72785bfdb80311c3d868913e40a4579ff0e986
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Sep 25 20:53:11 2017 -0700
+
+    Jason push action (#178)
+    
+    * access current context from anywhere
+    
+    * add Firebase Cloud Messaging
+    
+    * config cleanup
+    
+    * more cleanup
+    
+    * more cleanup
+    
+    * Remove google-services plugin. Firebase installation will take care of it
+
+1	0	app/build.gradle
+17	0	app/src/debug/AndroidManifest.xml
+19	1	app/src/main/AndroidManifest.xml
+36	0	app/src/main/java/com/jasonette/seed/Action/JasonPushAction.java
+2	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+12	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+45	0	app/src/main/java/com/jasonette/seed/Service/push/JasonPushMessageService.java
+23	0	app/src/main/java/com/jasonette/seed/Service/push/JasonPushRegisterService.java
+1	0	build.gradle
+
+commit 47849da2befe1157640898ed82202b833d2f4d40
+Merge: b45acf9 41385fc
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Sep 22 19:45:06 2017 -0700
+
+    Merge branch 'develop'
+    
+    # Conflicts:
+    #       app/src/main/assets/parser
+    #       app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+    #       app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+    #       app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+    #       app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+    #       app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+    #       app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+    #       app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+    #       app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+    #       app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 41385fc7e0ad7045a16ca5ac4a46b305eb03febc
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Sep 22 18:33:37 2017 -0700
+
+    hide header when not specified (#187)
+
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 600e25ca1fe75f499fdfd7992d34963800f2da27
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Sep 22 17:39:36 2017 -0700
+
+    $script action + Transition to st.js (#182)
+    
+    * Transition to st
+    
+    * $return.success fix  for when options doesn't exist
+    
+    * $script action
+    
+    * ST update
+    
+    * fix xhtml.js
+    
+    * update st
+    
+    * handle when there's no url based script include
+    
+    * data/template combo not triggering onLoad
+
+0	28530	app/src/main/assets/parser
+828	0	app/src/main/assets/st
+28815	0	app/src/main/assets/xhtml
+6	1	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+85	0	app/src/main/java/com/jasonette/seed/Action/JasonScriptAction.java
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+31	8	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 697dec5e8d749c14e85adb3783b0327ad36a7886
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Sep 14 19:19:34 2017 -0700
+
+    keyboard (#184)
+
+17	0	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+16	0	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+
+commit 0b4384aa1b5f68d41de3002b0e5a23dee3e8664e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Sep 14 19:19:03 2017 -0700
+
+    $env.app.version & $env.app.build (#183)
+
+7	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit b77f87a599a0aa2f5873b0496ec36ff0c7fb1d30
+Author: Jean-Sébastien B <realitix@gmail.com>
+Date:   Fri Sep 15 01:52:26 2017 +0200
+
+    Remove code duplication when setting border (#180)
+
+16	23	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 065ad19d43ad8f0c4fc9ef3405458ed66fe7a979
+Author: Maksim Lin <maks@manichord.com>
+Date:   Thu Sep 7 06:48:51 2017 +1000
+
+    Put search icon on right hand side of the toolbar (#175)
+
+5	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 17ce19a29ad6e11ae88e473e0f95911d990b7a27
+Author: Jean-Sébastien B <realitix@gmail.com>
+Date:   Wed Sep 6 20:36:56 2017 +0200
+
+    Fix #124: Center the header's title (#150)
+    
+    * Fix #124: Center the header's title
+    
+    To proceed, we override the Toolbar class by adding a TextView for the
+    title. It works like the Toolbar but it gives us full control over the
+    TextView.
+    
+    * Update title to support alignment and offset
+    
+    * Add size support for toolbar
+    
+    * Allow to customize title font and size
+    
+    Right alignment is now removed.
+    Font loading is factorized in JasonHelper as a static method.
+    
+    Commit done in plane above Australian desert, nice view !
+    
+    * Improve header
+    
+    - Allow to center logo
+    - Improve label top offset
+    
+    * Fix left alignment for header
+    
+    * Small code refactoring
+    
+    * Proper pixel metrics + empty title handling + center align by default
+
+2	34	app/src/main/java/com/jasonette/seed/Component/JasonLabelComponent.java
+82	41	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+40	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+144	0	app/src/main/java/com/jasonette/seed/Lib/JasonToolbar.java
+
+commit 3a514f03ee2c1dc52359746ab324a668f93d4a26
+Author: Maksim Lin <maks@manichord.com>
+Date:   Mon Aug 21 03:23:12 2017 +1000
+
+    Centralise access to OkHttp client (#169)
+    
+    This ensures that all network requests go via same OkHttp client and eg.
+    for debugging Stetho can intercept all requests.
+
+4	2	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+3	2	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 6f69a939b994243202625e470749e99e25462e65
+Author: Maksim Lin <maks@manichord.com>
+Date:   Sun Aug 20 00:56:24 2017 +1000
+
+    Return data:uri for recorded audio file (#167)
+
+13	0	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+
+commit 087630e84869a541660e69ed53c666718a0cbe31
+Author: Maksim Lin <maks@manichord.com>
+Date:   Tue Aug 8 01:53:24 2017 +1000
+
+    Replace audio recording lib with patched ver (#155)
+    
+    The replacement audio recording lib is patched to record directly
+    into m4a without the need for converting from wav which removes the
+    need for the conversion library that brought in ffmpeg binary dep
+    which contribute ~11MB to size of debug apk
+
+1	2	app/build.gradle
+39	59	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+
+commit 6547bb2bc37fd5a272176af1e28ae50263aa654b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Aug 1 23:28:29 2017 -0400
+
+    Intent_to_resolve should null-check intent attribute before get
+
+7	2	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 5ee4d640df36ee8b2439d355dadcedef0a0c5e2d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Aug 1 13:56:21 2017 -0400
+
+    Fix header menu padding
+
+5	4	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit c25020b1bc4a44ccbea282c0556d434a6abf33b3
+Merge: 97687bc 685189f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Aug 1 13:54:56 2017 -0400
+
+    Merge branch 'develop' of https://github.com/Jasonette/JASONETTE-Android into develop
+
+commit 97687bcb1d4644129d0bbe72b0adc9f76dc3ba89
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Aug 1 13:54:16 2017 -0400
+
+    Fix $return action
+
+26	23	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+
+commit 685189f13773c422dd246e8bce565748350da318
+Author: Maksim Lin <maks@manichord.com>
+Date:   Tue Aug 1 10:47:02 2017 +1000
+
+    add action href for map pins (#149)
+    
+    * improve error handling/logging in helper & docs
+    
+    * Fix call method handling of data, also make it...
+    
+    consistent across call, success and error handlers
+    
+    * Add action for map pin selection
+    
+    Action will be called when user selects a pin on the map. A new prop
+    default_action controls whether the GMaps default behaviour is called
+    (showing ping annotation) after the jasonette action is run.
+    
+    * use per-pin actions
+    
+    * Trigger action on map pin "info-window click"
+    
+    This UX instead of action being on the initial pin click, so user sees
+    the infowindow for the pin and needs to lick on it to trigger the action.
+
+4	1	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+8	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+59	3	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+28	28	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+25	14	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+
+commit ad4db90db8f5d14c3c4677cf36208a1afe167baf
+Author: Maksim Lin <maks@manichord.com>
+Date:   Wed Jul 26 11:46:41 2017 +1000
+
+    Use improved StethoTree (#147)
+    
+    Improved tree uses tags, allows setting min log level and ensures output
+    goes to logcat when DevTools not connected.
+    Currently PR outstanding for this improved Tree upstream, so for now included
+    here until merged upstream.
+
+142	0	app/src/debug/java/com/jasonette/seed/Launcher/ConfigurableStethoTree.java
+4	2	app/src/debug/java/com/jasonette/seed/Launcher/DebugLauncher.java
+
+commit 3510018c0c3c517f1789a8765b4c6ed00ad47c2f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jul 25 10:31:54 2017 -0400
+
+    OKHTTP client must be initialized in all cases
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+
+commit 433895c6cb9a0de3f56e475dbb457f7748ce015a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jul 25 10:02:18 2017 -0400
+
+    Add support for component style ratio (#146)
+
+11	3	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+13	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+27	3	app/src/main/java/com/jasonette/seed/Section/JasonLayout.java
+
+commit ccaa2036f35c5db5f56423f3562b372e0816c45b
+Author: Jean-Sébastien B <realitix@gmail.com>
+Date:   Fri Jul 21 19:48:32 2017 +0200
+
+    Add Camera support in background (see #78) (#132)
+    
+    * Add Camera support in background (see #78)
+    
+    * Refactor Camera background with a better and cleaner API.
+    
+    * Refactor the way view is added to rootLayout
+    
+    Now camera is fully handled with SurfaceHolder.callback
+
+54	28	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+130	0	app/src/main/java/com/jasonette/seed/Lib/BackgroundCameraManager.java
+
+commit 66d844fb3291feb4034e9b3484fd58c772e49eec
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jul 18 14:08:06 2017 -0400
+
+    Local json thread fix (#142)
+    
+    * Wrap read_json into a thread to prevent crash
+    
+    * Don’t use file://loading.json for local JSON url
+
+15	4	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+18	5	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+4	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 113d50511bc0acaa2f68d5aa2461848d9cebeb02
+Author: Maksim Lin <maks@manichord.com>
+Date:   Tue Jul 18 13:48:39 2017 +1000
+
+    Allow using Stetho console for log output from JS (#139)
+    
+    This is controlled via a boolean resource in the *debug* source set.
+
+2	2	app/build.gradle
+17	2	app/src/debug/java/com/jasonette/seed/Launcher/DebugLauncher.java
+4	0	app/src/debug/res/values/bools.xml
+8	7	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+
+commit 8273ad4bfd05f06e1e332fbcc95553341d250f0c
+Author: Jean-Sébastien B <realitix@gmail.com>
+Date:   Sat Jul 15 17:39:54 2017 +0200
+
+    Fix webview background (#136)
+    
+    This patch fix webview background and refactor ImageView background
+
+4	8	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 660a439d9dcb15474dd0268c054f3b20e808d55c
+Author: Maksim Lin <maks@manichord.com>
+Date:   Sun Jul 16 00:59:32 2017 +1000
+
+    Add Stetho to allow debugging of network & ui (#133)
+    
+    * Add Stetho to allow debugging of network & ui
+    
+    Stetho allows debugging Android apps using the Chrome Developer tools.
+    Given that Jasonette is heavily based on network and json usage, Chrome
+    Dev tools is helpful for debugging.
+    
+    * Only include Stetho in debug builds
+
+5	0	app/build.gradle
+51	0	app/src/debug/AndroidManifest.xml
+32	0	app/src/debug/java/com/jasonette/seed/Launcher/DebugLauncher.java
+2	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+1	2	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+5	3	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit b45acf9411e9fadbf6789850dffcea2ac4b1bd11
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jul 13 20:19:53 2017 -0400
+
+    New Release (#140)
+    
+    * Allow html container video autoplay + gradle upgrade + api min version upgrade to 17
+    
+    * Support html video inline play for background html container
+    
+    * Correct data-uri handling for images
+    
+    * Fix $geo.get -> Should be only triggered once
+    
+    * readme update
+    
+    * Replace useless “Error” messages with more informative warning messages
+    
+    * Fix Map component event handling for render
+    
+    * Fixes OAuth action doubling up on some query params
+    
+    * Add “title” attribute to $util.picker
+    
+    * Support JSONArray when reading JSON
+    
+    * Local Mixin + Local $require
+    
+    * Local Image Support + Menu Image fix + Gif fix
+    
+    1. Local image support
+    
+    - Image/Button component
+    - background
+    - layer
+    - menu
+    - tabs
+    
+    2. fixed the bug where an image menu item was not being displayed when there's a badge.
+    
+    3. Gif fix
+    Glide doesn't handle Gifs properly when not using disk cache strategy. With this fix, Gif images load properly
+    
+    * $audio.play should trigger pause if already playing
+    
+    * Add $back action
+    
+    * $global.set + $global.reset
+    
+    * $env
+    
+    * Added $env.device.language
+    
+    * Template engine fix. See iOS counterpart: https://github.com/Jasonette/JASONETTE-iOS/pull/224
+    
+    * support data-url scheme for images (only normal cases)
+    
+    * Support loading.json
+    
+    * Support loading.json (continued)
+    
+    * Support $env.view.url
+    
+    * background color fix
+    
+    * offline.json support
+    
+    * Bug fix
+    
+    * Updated policy for $show and $load
+    
+    * Only trigger if an action is not empty
+    
+    * Fix #104: Crop background
+    
+    When you put a background image to your view, it is streched to fit screen
+    dimensions.
+    With this patch, image is cropped to keep the aspect ratio.
+    
+    Moreover, this patch fix GIF background and it is now played.
+    
+    * Fix #127 Background image is no more displayed
+    
+    Background of sectionLayout should always be transparent.
+    
+    * Add .idea/codeStyleSettings.xml in .gitignore
+    
+    * Handle behavior when layers is null
+    
+    * Check that backgroundImageView is not created
+    
+    This patch avoids multiple ImageView creation (like fof webview)
+
+1	0	.gitignore
+10	10	README.md
+1	1	app/build.gradle
+32	0	app/src/main/assets/file/error.json
+-	-	app/src/main/assets/file/infinit.gif
+0	115	app/src/main/assets/file/jasonpedia.json
+28	0	app/src/main/assets/file/loading.json
+214	297	app/src/main/assets/parser
+23	20	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonCacheAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+6	3	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+103	0	app/src/main/java/com/jasonette/seed/Action/JasonGlobalAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonLogAction.java
+14	9	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+9	9	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+10	10	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonSessionAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonTimerAction.java
+17	13	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonButtonComponent.java
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+4	3	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+210	99	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonLabelComponent.java
+32	30	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonSliderComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonSpaceComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+38	37	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+3	3	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+22	3	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+235	168	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+25	11	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+3	3	app/src/main/java/com/jasonette/seed/Helper/JasonImageHelper.java
+85	4	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+2	1	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+1	1	build.gradle
+
+commit b8144f47f778f35d246fd17455ab5230e7f285b5
+Merge: a2f4c69 d96e72b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jul 5 12:57:57 2017 -0400
+
+    Merge pull request #131 from realitix/robustify_background_image
+    
+    Check that backgroundImageView is not created
+
+commit d96e72b5a9d1470eb8297317fb5da1e52b898d77
+Author: Jean-Sebastien Bevilacqua <realitix@gmail.com>
+Date:   Wed Jul 5 18:52:29 2017 +0200
+
+    Check that backgroundImageView is not created
+    
+    This patch avoids multiple ImageView creation (like fof webview)
+
+9	6	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit a2f4c696e2e33c35d5b0c7c1cea19c2115299c6e
+Merge: 7b3edcc 81b03bb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jul 5 12:33:41 2017 -0400
+
+    Merge pull request #128 from realitix/fix_background_image
+    
+    Fix #127 Background image is no more displayed
+
+commit 7b3edcc5be8df09001eb8ece188a5858d3045848
+Merge: 62c9ca6 d95b69b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jul 5 11:57:05 2017 -0400
+
+    Merge pull request #130 from realitix/handle_null_layers
+    
+    Handle behavior when layers is null
+
+commit 62c9ca690f81018d33b335b941f723fe1ededda2
+Merge: 1557d28 57669e2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jul 5 11:56:32 2017 -0400
+
+    Merge pull request #129 from realitix/update_gitignore
+    
+    Add .idea/codeStyleSettings.xml in .gitignore
+
+commit d95b69b783a4945cb47fccc9853a6a03be9b2e14
+Author: Jean-Sebastien Bevilacqua <realitix@gmail.com>
+Date:   Wed Jul 5 16:23:00 2017 +0200
+
+    Handle behavior when layers is null
+
+10	8	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 57669e2c46e83ef5fd29d3ca8d77307f766a5021
+Author: Jean-Sebastien Bevilacqua <realitix@gmail.com>
+Date:   Wed Jul 5 14:56:54 2017 +0200
+
+    Add .idea/codeStyleSettings.xml in .gitignore
+
+1	0	.gitignore
+
+commit 81b03bb783158762354b2a6d262ec83b9ca3cd5d
+Author: Jean-Sebastien Bevilacqua <realitix@gmail.com>
+Date:   Wed Jul 5 09:37:40 2017 +0200
+
+    Fix #127 Background image is no more displayed
+    
+    Background of sectionLayout should always be transparent.
+
+9	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 1557d28f7912ac864705620142656509b6db87a6
+Merge: 9b2c72a 5c4dd0f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jul 4 12:17:40 2017 -0400
+
+    Merge pull request #119 from realitix/fix_background_resize
+    
+    Fix #104: Crop background
+
+commit 5c4dd0f4d468723e71a1ba33376878294684b692
+Author: Jean-Sebastien Bevilacqua <realitix@gmail.com>
+Date:   Wed Jun 28 15:38:58 2017 +0200
+
+    Fix #104: Crop background
+    
+    When you put a background image to your view, it is streched to fit screen
+    dimensions.
+    With this patch, image is cropped to keep the aspect ratio.
+    
+    Moreover, this patch fix GIF background and it is now played.
+
+17	14	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9b2c72a9896adc899bac7222c3b25e5b30a782b6
+Merge: b33f104 29ef45d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jul 2 15:47:47 2017 -0400
+
+    Merge branch 'show_load_events' into develop
+
+commit 29ef45d881c298b6c1637a137487b829f5b5d727
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jul 2 15:47:32 2017 -0400
+
+    Only trigger if an action is not empty
+
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit b33f1046ddce8b0bd91fac1cf269fbccc8712eb4
+Merge: 1784f5f 336e304
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jul 2 15:23:12 2017 -0400
+
+    Merge pull request #126 from Jasonette/show_load_events
+    
+    Updated policy for $show and $load
+
+commit 336e304bb640c141c60b6c17e4bb6671ed0b1f60
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jul 2 15:22:05 2017 -0400
+
+    Updated policy for $show and $load
+
+33	15	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 1784f5ff2c4753339a98f6e6edc6c85e3c845ee2
+Merge: 5c832fa 985ebaa
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 23:04:51 2017 -0400
+
+    Merge pull request #120 from Jasonette/offline
+    
+    Offline
+
+commit 985ebaad2efc95ac1cd2c52df8dfcc0b67183615
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 23:00:42 2017 -0400
+
+    Bug fix
+
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+
+commit d4c1117f727e3addc67b43a3d6e4fd54477feb78
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 13:29:38 2017 -0400
+
+    offline.json support
+
+32	0	app/src/main/assets/file/error.json
+0	115	app/src/main/assets/file/jasonpedia.json
+1	1	app/src/main/assets/file/loading.json
+6	4	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8afe146065650a49e5053c8cea478b5524b93ecf
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 13:07:40 2017 -0400
+
+    background color fix
+
+1	0	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit 513fa06fe517ff3ad2a404f223b1cf4f745f8072
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 13:07:17 2017 -0400
+
+    Support $env.view.url
+
+8	0	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+7	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 783ab6cdc144e00418f322862e8829c7437876d3
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 13:06:53 2017 -0400
+
+    Support loading.json (continued)
+
+5	5	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+
+commit 6c7feb244e9f29d22d55fcf15170da7bc154a1cd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 13:05:39 2017 -0400
+
+    Support loading.json
+
+-	-	app/src/main/assets/file/infinit.gif
+28	0	app/src/main/assets/file/loading.json
+42	41	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 4d6b2f3d9528be3db249863d0a7d27914f499cd6
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Jun 28 12:59:56 2017 -0400
+
+    support data-url scheme for images (only normal cases)
+
+37	6	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+
+commit 5c832fa16af398b15a047a620374e0c1bb77efff
+Merge: ec2166c 57f0df1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jun 27 10:12:50 2017 -0400
+
+    Merge pull request #117 from Jasonette/template_null_fix
+    
+    Template engine fix.
+
+commit 57f0df1f183ab017d0c925bbe3a05108fcb21794
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jun 27 10:11:13 2017 -0400
+
+    Template engine fix. See iOS counterpart: https://github.com/Jasonette/JASONETTE-iOS/pull/224
+
+214	297	app/src/main/assets/parser
+
+commit ec2166c15dde11c07ca2d8a34bb3ab656293b89d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Jun 23 14:25:54 2017 -0400
+
+    Added $env.device.language
+
+2	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 43e86fd6ebcf9e11d862d321337e30c874da0721
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jun 22 17:08:36 2017 -0400
+
+    $env
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+28	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit e72ddc0d4bb68d5b74f6d55cfed95153b55db213
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jun 22 13:17:50 2017 -0400
+
+    $global.set + $global.reset
+
+103	0	app/src/main/java/com/jasonette/seed/Action/JasonGlobalAction.java
+3	10	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+44	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 06af34a255f0564320eed29526e70e115afc0504
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jun 22 13:17:19 2017 -0400
+
+    Add $back action
+
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 4ab474754cf67b3817af9be6e3b771590495b90b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jun 19 00:03:10 2017 -0400
+
+    $audio.play should trigger pause if already playing
+
+10	7	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+
+commit 87f0f4125aa3413a109998fa1a858279ccf746ba
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jun 17 19:45:43 2017 -0400
+
+    Local Image Support + Menu Image fix + Gif fix
+    
+    1. Local image support
+    
+    - Image/Button component
+    - background
+    - layer
+    - menu
+    - tabs
+    
+    2. fixed the bug where an image menu item was not being displayed when there's a badge.
+    
+    3. Gif fix
+    Glide doesn't handle Gifs properly when not using disk cache strategy. With this fix, Gif images load properly
+
+177	97	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+46	40	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8aa2566ab4bfaf2fcd657aab633bb9522beb8005
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Jun 16 10:13:19 2017 -0400
+
+    Local Mixin + Local $require
+
+3	6	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+20	1	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+
+commit 87a4d9c8671251e51f660d9e59d5e2d26f67b859
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Jun 16 09:57:30 2017 -0400
+
+    Support JSONArray when reading JSON
+
+15	2	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+
+commit 5bd3a00897d19f51d9874c3b066a5db52fb2d165
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jun 15 12:16:31 2017 -0400
+
+    Add “title” attribute to $util.picker
+
+4	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+1	1	build.gradle
+
+commit ab0daabf64f25f656741bf34eaaf87ec15a31e9e
+Merge: 290b24c ea4dc40
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed May 24 11:56:59 2017 -0400
+
+    Merge pull request #106 from judereid/develop
+    
+    Fixes OAuth action doubling up on some query params
+
+commit ea4dc40f973966591180f7fd242fe6397406fbf6
+Author: Jude Reid <judereid@gmail.com>
+Date:   Sat May 20 11:25:50 2017 +1200
+
+    Fixes OAuth action doubling up on some query params
+
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 290b24c34f17b75305057390e019645e3eef93a4
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu May 18 10:38:28 2017 -0400
+
+    Fix Map component event handling for render
+
+24	22	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit d4a375e0127e6ab4a12883756aa800bfba5005ef
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue May 16 13:56:17 2017 -0400
+
+    Replace useless “Error” messages with more informative warning messages
+
+13	13	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonCacheAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonLogAction.java
+7	7	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+9	9	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+8	8	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonSessionAction.java
+2	2	app/src/main/java/com/jasonette/seed/Action/JasonTimerAction.java
+13	13	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonButtonComponent.java
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+3	3	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+5	5	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonLabelComponent.java
+8	8	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonSliderComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonSpaceComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+12	12	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+3	3	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+2	2	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+55	55	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+10	9	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+3	3	app/src/main/java/com/jasonette/seed/Helper/JasonImageHelper.java
+4	4	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+1	1	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit b668c3a6412c2443c18acb59b6d4a5deba3f2e30
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue May 16 13:24:58 2017 -0400
+
+    readme update
+
+10	10	README.md
+
+commit 8184b406bedc7238bb7bd64e6f7219896d2f2e17
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Apr 24 21:23:41 2017 -0400
+
+    Fix $geo.get -> Should be only triggered once
+
+4	1	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+
+commit 70de7712158c36cdcc110c4e4b67d7fd708099a2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Apr 24 18:19:20 2017 -0400
+
+    Correct data-uri handling for images
+
+7	2	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+19	3	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 30f48d345538a2e19bae0c66836aa48b96b4d3df
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Apr 24 17:48:52 2017 -0400
+
+    Support html video inline play for background html container
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 06184b934f8a5edcc65f9ad0a9ff65af2cdaa8e2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Apr 24 17:47:16 2017 -0400
+
+    Allow html container video autoplay + gradle upgrade + api min version upgrade to 17
+
+1	1	app/build.gradle
+1	0	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+1	1	build.gradle
+
+commit 049b84341c26169523945384fbb347eb63b72554
+Merge: e8449b9 b77d461
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Apr 7 18:18:19 2017 -0400
+
+    Merge branch 'develop'
+
+commit b77d4617e85a92301c391710e7cff5c4fcc45458
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Apr 6 13:28:49 2017 -0400
+
+    Button padding/align handling fix
+
+86	13	app/src/main/java/com/jasonette/seed/Component/JasonButtonComponent.java
+
+commit 961a7c72b17b88aecf8fe3d9b6f549e93611f804
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Apr 6 12:26:39 2017 -0400
+
+    Fix for Corner radius for textfield and textarea
+
+0	4	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+0	6	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+
+commit 607153a0b4d9b677abb7652e51019961eaeeb6d8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Apr 6 00:02:12 2017 -0400
+
+    corner_radius and border conflict resolution
+
+41	32	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 291ac72cc68a9a7fd82cf7999dbd1945ce5380e7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Apr 5 12:27:50 2017 -0400
+
+    Fix for horizontal scrolling section layout width
+
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+3	1	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+6	2	app/src/main/java/com/jasonette/seed/Section/JasonLayout.java
+
+commit 35e296e11892f8b0ed83add1159804518e13779b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Apr 5 12:01:02 2017 -0400
+
+    Fix for corner_radius + border_width + border_color
+
+26	1	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+0	13	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+
+commit f94b27face351ebc094377446977b32da4260a4d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Apr 4 20:02:27 2017 -0400
+
+    Remove all touch listeners before replace href
+
+17	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit b87c3bf0da3c65132b2a0f70273637daba38f841
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Apr 4 13:53:39 2017 -0400
+
+    Caching for web container
+
+6	0	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+8	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 3fececcc583f94e03f5b931171854888046b1b72
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Apr 3 17:21:40 2017 -0400
+
+    Html container level event handling
+
+18	11	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+
+commit d3c034b585eb68ea7dc25d14d7f7d8421347aab1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Mar 31 15:39:33 2017 -0400
+
+    [bugfix] Recursive mixin fix => using JSONObject escapes the URL causing mixins to break
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+
+commit 3264df21c8fd299b48a96df47f17ee3e72de8487
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Mar 31 15:38:24 2017 -0400
+
+    [bugfix] support case sensitive mixin urls
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+
+commit b912d489ee8a0f0f95baff91c3048489ec863b94
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Mar 29 15:55:24 2017 -0400
+
+    Fix footer.input styling for buttons
+
+12	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit e07a65e93d0563e52a867cda8ce97afaac0ef8c2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 28 13:58:15 2017 -0400
+
+    $network.request header
+
+14	0	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 2e7f2261010081a7912c6a0bafc12c44612b700a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 28 13:45:58 2017 -0400
+
+    Revert to using white background by default (Inheriting parent view’s background not such a good idea)
+
+0	9	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 6166304395dde3e8e7180971bbb14ca38901687a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 28 13:05:48 2017 -0400
+
+    If there is no background after the view loads, use white
+
+2	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 1eee2d0911286abd77fea51c698cbeee2a5499ee
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 28 12:46:20 2017 -0400
+
+    new view’s background color follows its parent view’s toolbar background by default
+
+8	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 465a97ac4effce9f0e92c38ad95ecff0e026ee2e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Mar 28 12:07:25 2017 -0400
+
+    Html component event handling
+
+59	2	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+26	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit bbd81a21d818a6c30c76e4fa560caec6a37fd5da
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 27 14:01:44 2017 -0400
+
+    Use model.url instead of url
+
+2	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9ac9aa1f06f450192d589102e0a5cb8856844e88
+Merge: 524b392 b5e0fd5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 27 13:54:56 2017 -0400
+
+    Merge pull request #77 from snada/develop
+    
+    $oauth action
+
+commit 524b3920a3f6aa3b35cb313f0178eb57f0c35ad1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 27 13:52:02 2017 -0400
+
+    Launcher update
+
+10	4	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 44f26c30d1d641fb3e47720ddd193c5d344ad6bc
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 27 10:37:49 2017 -0400
+
+    $require bugfix
+
+1	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8274027011f8c13f6abf688c0d720fec528330d4
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 27 10:07:50 2017 -0400
+
+    Mixin support + notation, upgrade to support better $document mixin
+
+47	25	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+
+commit 1f413586af50a09b062e27faefcb50e73f83a7e2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 26 18:20:14 2017 -0400
+
+    footer.input styling
+
+4	0	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+4	0	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+80	68	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit e70b424dff241f1221f67d013af0a0e79c5491f4
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 26 18:19:47 2017 -0400
+
+    $convert action fix
+
+5	3	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+
+commit 8622bafaeed4ec393ef74af9391486d963899b34
+Merge: 34de087 1557d5f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 25 14:06:39 2017 -0400
+
+    Merge pull request #83 from Jasonette/html
+    
+    Full HTML support for sections and background
+
+commit 1557d5f0ab3918e13790946de8d0567f8918c89e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 25 13:55:08 2017 -0400
+
+    change JSON api
+
+21	21	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 51e98a70ddc53782c90b0b2c75226135d391dfdb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 25 02:50:30 2017 -0400
+
+    Html type background
+
+37	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit e709ffb6c94413260dc4c613f5b031606aa1678c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 25 01:31:12 2017 -0400
+
+    Get html to fully work
+
+14	9	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+
+commit 34de08724d0824e1d1f5f250b2ffc69e0a80bbba
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Mar 24 08:23:42 2017 -0400
+
+    offline: true
+
+49	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8f7dbb5658e82e978728fcd861567bb32b60cfdf
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Mar 23 20:19:28 2017 -0400
+
+    Gradle upgrade
+
+2	2	app/build.gradle
+1	1	build.gradle
+2	2	gradle/wrapper/gradle-wrapper.properties
+
+commit b5e0fd555fac7e33d0ccdac7cdb4bdd24fb6cf97
+Author: snada <stefano.nada@gmail.com>
+Date:   Mon Mar 20 21:25:04 2017 +0100
+
+    model url
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 3f31463c8bd59db71124102ca2c0b05804b6d935
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 18 11:14:02 2017 -0400
+
+    $util.datepicker fix to support both date and time
+
+1	0	app/build.gradle
+21	39	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit b57ccac4d50b4e51031726129c2cab5774e71606
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Mar 16 18:01:00 2017 -0400
+
+    Clean up $root before returning.
+
+1	2	app/src/main/assets/parser
+
+commit 65f3e791c45096e096add07cced4188469cddce7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 12 23:06:13 2017 -0400
+
+    header.menu.badge
+
+48	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+318	0	app/src/main/java/com/jasonette/seed/Lib/MaterialBadgeTextView.java
+
+commit 810436f8076bc5df0217517b47b9b97a0edf36e7
+Author: snada <stefano.nada@gmail.com>
+Date:   Mon Mar 13 02:23:19 2017 +0100
+
+    Codeclimate fixes
+
+23	27	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8ccaaf64c1328ff86d2f602377a100fe5adb98c4
+Author: snada <stefano.nada@gmail.com>
+Date:   Mon Mar 13 02:12:50 2017 +0100
+
+    Polishing reset action
+
+25	1	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 3f0b1d136f068767af4ca141995a8a3c0f3eca3b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 12 18:06:49 2017 -0400
+
+    $network.upload
+
+150	30	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+51	26	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+24	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 3b184a556059a50a5434fac1ca0faa7cda77a047
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 12 13:46:33 2017 -0400
+
+    $audio action + dispatchIntent support null intent
+
+2	0	app/build.gradle
+11	4	app/src/main/AndroidManifest.xml
+238	0	app/src/main/java/com/jasonette/seed/Action/JasonAudioAction.java
+2	0	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+4	1	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+12	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+7	2	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+6	2	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 8d821330b636b82633aa7b9957ee163e4691211f
+Author: snada <stefano.nada@gmail.com>
+Date:   Sun Mar 12 16:51:51 2017 +0100
+
+    Custom urls suggestions in manifest
+
+20	0	app/src/main/AndroidManifest.xml
+
+commit f79d22e9b3efd6443e5a2aa93a3afbd77cfcfaa7
+Merge: a494f8d ea42524
+Author: snada <stefano.nada@gmail.com>
+Date:   Sun Mar 12 16:47:35 2017 +0100
+
+    Merge branch 'develop' of github.com:Jasonette/JASONETTE-Android into develop
+    
+    # Conflicts:
+    #       app/build.gradle
+    #       app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ea42524eecbbbb69fafe73a9bbb5e8cf84a4a803
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Mar 12 10:00:21 2017 -0400
+
+    Intent scheduling / triggering logic that either stick around or expire
+
+28	29	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+3	61	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+16	4	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+99	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit a494f8d5f11360574bee3c6c5059d366851d7e40
+Author: snada <stefano.nada@gmail.com>
+Date:   Fri Mar 10 23:59:28 2017 +0100
+
+    Checking oauth request code
+
+10	2	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit c29886d55a33d09ae469300dd788c9b20de2c371
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Mar 10 12:38:59 2017 -0500
+
+    Added $media action + Fixed onLoad logic + Fixed border color logic
+
+1	0	app/build.gradle
+7	1	app/src/main/AndroidManifest.xml
+276	0	app/src/main/java/com/jasonette/seed/Action/JasonMediaAction.java
+13	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+110	9	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+58	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+2	0	app/src/main/res/values/styles.xml
+1	0	build.gradle
+
+commit 4c9d14937c438371b58e668056f4142d079d5b6b
+Author: snada <stefano.nada@gmail.com>
+Date:   Fri Mar 10 03:39:52 2017 +0100
+
+    OAuth 2 token refresh
+
+192	150	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 104b0e08315b2be783b24005e56b61feb12423d1
+Merge: 43e0534 174145a
+Author: Stefano Nada <stefano.nada@gmail.com>
+Date:   Wed Mar 8 23:56:42 2017 +0100
+
+    Merge pull request #2 from gliechtenstein/develop
+    
+    Fix for crash
+
+commit 174145a7536f4574916ab61f239a6de739ff16d8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Mar 8 17:50:20 2017 -0500
+
+    Fix for crash
+
+1	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 43e0534c75d8acd3be0b264c0299457831a24fab
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Mar 7 03:19:40 2017 +0100
+
+    Fixing OAuth2 callback phase
+
+54	39	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit fadda548ec913bedf8eb961f3afbfa55e79fe396
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Mar 7 03:18:37 2017 +0100
+
+    Fixing OAuth2 auth phase
+
+98	59	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit e8449b98cf1d30e57a4dd398b773ac871356b4f9
+Merge: 5cb4998 43554e9
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 15:19:52 2017 -0500
+
+    Merge branch 'develop'
+
+commit 43554e9b021b27c5bcd690ff5200208c5f6af5f1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 15:19:32 2017 -0500
+
+    finish $geo.get
+
+3	2	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+
+commit 5cb49987c7e579ddbe1444319818d3ef087173ce
+Merge: 900e60b 8a4f9d1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 15:04:50 2017 -0500
+
+    Merge branch 'develop'
+
+commit 8a4f9d10b4707793d0748359f563f172329e07ce
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 15:04:28 2017 -0500
+
+    $geo action
+
+14	2	app/src/main/AndroidManifest.xml
+45	0	app/src/main/java/com/jasonette/seed/Action/JasonGeoAction.java
+
+commit 900e60be53a114c526bfa918ae631b18c6d43402
+Merge: 399f80d ea0ba26
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 12:59:56 2017 -0500
+
+    Merge branch 'develop'
+
+commit ea0ba26f0a31bd4abfc687802f4d034278769409
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 12:14:03 2017 -0500
+
+    Set default divider color for sections
+
+2	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 816496fd855a12f119f90fef8acbd877b71a3ec2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 11:19:19 2017 -0500
+
+    Add divider to sections
+
+1	0	app/build.gradle
+25	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ac827ab4aa880c8ec9ba51e1ecfa29ea7cdfc465
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 10:46:01 2017 -0500
+
+    $util.datepicker
+
+74	1	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 36b958fc8be4c6d4196744d1f21de1873feb7c57
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 09:54:39 2017 -0500
+
+    Template engine fix so it supports binary data again (Previous fix broke it)
+
+2	2	app/src/main/assets/parser
+
+commit 37683fdfcbecae2f0ba10ee5d3a2a75395fb7352
+Merge: 495be68 3ea730b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 09:45:05 2017 -0500
+
+    Merge branch 'develop' of https://github.com/Jasonette/JASONETTE-Android into develop
+
+commit 495be6857f9adc0a472917ae571cd10d7b9c9c5c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 09:44:58 2017 -0500
+
+    $util.share action
+
+86	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+135	0	app/src/main/java/com/jasonette/seed/Helper/JasonImageHelper.java
+
+commit f946c63983a8e9572d358b40bf79702254c4199e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 09:44:30 2017 -0500
+
+    $snapshot action
+
+29	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 3ea730bbd4adb94ef7444d5c7f4401834589ac3f
+Merge: ebfa614 0238997
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Mar 6 09:36:34 2017 -0500
+
+    Merge pull request #60 from brad/mapview
+    
+    Map component!!
+
+commit 3f46d556fc4f13a74a821b88631a87af9ec77051
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 4 22:30:47 2017 -0500
+
+    $util.addressbook
+
+2	0	app/src/main/AndroidManifest.xml
+73	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+15	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+
+commit 5cb04aaa39ff93709dbcd6b28f77103cd501f7f5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 4 19:34:41 2017 -0500
+
+    header.search
+
+83	5	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+18	0	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit a36b0d2d2746ef4bc0d2ae856d9a6fc1426933c4
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Mar 4 18:08:02 2017 -0500
+
+    $util.alert
+
+63	3	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 4c2483783057fc34045a9118bc112636b464d72f
+Author: snada <stefano.nada@gmail.com>
+Date:   Thu Mar 2 22:11:47 2017 +0100
+
+    Oops version in auth
+
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit ab3f9729bc29e47518c62268e6b24c6cb2732866
+Author: snada <stefano.nada@gmail.com>
+Date:   Wed Mar 1 23:18:33 2017 +0100
+
+    Headers and parameters to oauth request
+
+36	19	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit b6063d4c8044208b33a54a96c8298bd1cfe237c7
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 28 01:43:01 2017 +0100
+
+    Scribe response dependency
+
+3	2	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit e9ee2114a1126770ae8a3f2b7fbb9091b2dbb20d
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 28 01:40:21 2017 +0100
+
+    Removing useless check
+
+1	7	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 9c4acaa96c4da796bc6d813d8cf54ee352be7389
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 28 01:29:13 2017 +0100
+
+    Adding oauth2 scopes support
+
+18	23	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 9bcba5296d9aa2819c9ffdd1798443d9ec4d3f87
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 28 00:52:04 2017 +0100
+
+    Polishing url generation
+
+12	33	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 514ebaa1609ef556fb2dc6b01cb0f17168814f51
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 28 00:39:43 2017 +0100
+
+    Fixing oauth2 auth, oauth2 request rewritten with scribe
+
+63	76	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 66af4c1daa56f543e4aa5b9e5f74f6e1ac83c442
+Merge: c4ada70 ebfa614
+Author: snada <stefano.nada@gmail.com>
+Date:   Sun Feb 26 23:50:06 2017 +0100
+
+    Merge branch 'develop' of github.com:Jasonette/JASONETTE-Android into develop
+
+commit c4ada7010b066f982f4c696f0a08fbb2edd2d178
+Author: snada <stefano.nada@gmail.com>
+Date:   Sun Feb 26 23:49:45 2017 +0100
+
+    OAuth 1 finally working
+
+8	10	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 02389979336f8b0a15aa79ce004b704ebf99345b
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Thu Feb 23 22:29:51 2017 -0800
+
+    put maps api key directly in AndroidManifest.xml
+
+2	2	app/src/main/AndroidManifest.xml
+
+commit 46d95890798663def57f2f30cdd3405c2600bafc
+Merge: aba468d ebfa614
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Thu Feb 23 22:28:40 2017 -0800
+
+    Merge branch 'develop' into mapview
+
+commit ebfa6146286fdb23faae16afd44cf86f7c65099d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Feb 23 16:07:52 2017 -0500
+
+    Finishing up slider component by adding support for value setting
+
+14	2	app/src/main/java/com/jasonette/seed/Component/JasonSliderComponent.java
+
+commit 63670f73bb68f00d0ae4441fe0dccef7ab5beeb4
+Merge: 3e8411f e4d9a60
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Feb 23 16:04:57 2017 -0500
+
+    Merge pull request #68 from jeizsm/develop
+    
+    Add JasonSliderComponent
+
+commit 32d6f5cae851356eaf5bd0aa8e9ace5801d88789
+Author: snada <stefano.nada@gmail.com>
+Date:   Thu Feb 23 00:14:26 2017 +0100
+
+    OAuth 1.0 request non-working draft
+
+213	78	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 399f80d4d40499cda53432d1a3941d2535923638
+Merge: 8af0192 3e8411f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Feb 21 10:07:11 2017 -0500
+
+    Merge branch 'develop'
+
+commit e4d9a60426dff5228c5ec1e3efe4714594741a9a
+Author: jeizsm <jeizsm@gmail.com>
+Date:   Tue Feb 21 11:37:24 2017 +0300
+
+    Add JasonSliderComponent
+
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+66	0	app/src/main/java/com/jasonette/seed/Component/JasonSliderComponent.java
+
+commit f808b95b2068d59626e2fb8717dfcf78668afb6e
+Merge: 1dd33aa 3e8411f
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 21 02:49:04 2017 +0100
+
+    Merge branch 'develop' of github.com:Jasonette/JASONETTE-Android into develop
+
+commit 3e8411fca7a03eaf4c70a0a3e236791a898592c7
+Merge: c097351 27b31cb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Feb 20 09:46:42 2017 -0500
+
+    Merge pull request #61 from brad/console
+    
+    enable usage of javascript console methods
+
+commit 8af0192bb9b54ff327106a9a495740934cac8690
+Merge: 1b12853 c097351
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Feb 20 09:42:38 2017 -0500
+
+    Merge branch 'develop'
+
+commit c0973512c1cf82793eb4265b78610af4ae844cd1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Feb 20 09:42:28 2017 -0500
+
+    Fix Template => Don’t include $root for each leaf node after parse has finished
+
+26	36	app/src/main/assets/parser
+
+commit 1b12853890f10f2cf5472fda0488138f2e7b6df9
+Merge: 554c34d 1341298
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Feb 19 16:25:51 2017 -0500
+
+    Merge branch 'develop'
+
+commit 134129852881ebc550b99539574295d1a644a3a5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Feb 19 16:25:36 2017 -0500
+
+    Handling undefined/null in template parser
+
+6	1	app/src/main/assets/parser
+
+commit 554c34d4cf0e70f308c72d1f190a8cca07eff9cf
+Merge: aeecbbc 8df51c5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Feb 19 15:02:11 2017 -0500
+
+    Merge branch 'develop'
+
+commit 8df51c5956bf213d89dbc1b5c4236147b7712f2a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Feb 19 15:01:30 2017 -0500
+
+    Template engine bug fix
+
+4	1	app/src/main/assets/parser
+
+commit aeecbbce81a9d4434038f56ecf664851e27d3c21
+Merge: 8185c5d 8ee593a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Feb 17 09:44:37 2017 -0500
+
+    Merge branch 'develop'
+
+commit 8ee593a6aabab053f87ca17940cf181bf16212b8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Feb 17 09:41:46 2017 -0500
+
+    Updated template parser
+
+40	1	app/src/main/assets/parser
+
+commit 1dd33aa0fea389f468eaef982882082a41ad5538
+Merge: 3d75529 e81ddba
+Author: Stefano Nada <stefano.nada@gmail.com>
+Date:   Wed Feb 15 22:11:09 2017 +0100
+
+    Merge pull request #1 from gliechtenstein/develop
+    
+    Some fixes to just to get to oauth action
+
+commit e81ddba3e8e3a236dae335d257b7cd194a88560c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 15 16:04:20 2017 -0500
+
+    Don’t trigger fetch if oauth + model may not have some attributes saved so need to check + use url instead of model.url since it’s not instantiated yet.
+
+19	12	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 8185c5d5139a8497264fe71e571b5d16c261a5c1
+Merge: 23d2188 2662ceb
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 15 07:46:58 2017 -0500
+
+    Merge pull request #65 from Jasonette/develop
+    
+    λ
+
+commit 3d75529d406b75b21f0e6bb4fc2a672d1c5c4c96
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Tue Feb 14 23:53:05 2017 +0100
+
+    Events in OAuth action
+
+37	37	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 10dae86335bce5e01d3cc025b926c8a4c6a7f78c
+Merge: dc7fbd2 2662ceb
+Author: snada <stefano.nada@gmail.com>
+Date:   Tue Feb 14 23:09:59 2017 +0100
+
+    Merge branch 'develop' of github.com:Jasonette/JASONETTE-Android into develop
+
+commit 2662ceb12b5cc86fae6b1bdbcd4dd7547a34dae3
+Merge: 9bf7bf6 ca11704
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Feb 14 07:37:19 2017 -0500
+
+    Merge pull request #53 from Jasonette/lambda
+    
+    Lambda
+
+commit dc7fbd2aceb7654778b50184189e46aa2cedacb4
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Mon Feb 13 22:57:53 2017 +0100
+
+    OAuth 1 auth action
+
+88	2	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 82906a6a113f4c8211dbbfbef6d0461f50a10121
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Sat Feb 11 17:47:57 2017 +0100
+
+    Fixing access_options_data
+
+5	1	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit 6cd9975ade257ca74a2a6d26d83c457eca35c73c
+Author: snada <stefano.nada@gmail.com>
+Date:   Sat Feb 11 16:33:41 2017 +0100
+
+    OAuth2 password grant type
+
+105	24	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit db6fda2ca8769ea96cf225b7f58220d4bf066627
+Merge: e638e23 9bf7bf6
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Wed Feb 8 01:35:11 2017 +0100
+
+    Merged branch develop into develop
+
+commit e638e23b258e39169ce1bc9d73bf52b8d5212580
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Wed Feb 8 01:31:50 2017 +0100
+
+    Oauth callback fixed
+
+34	31	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+
+commit caf7d1645c37e2a1a6e2b51057bec10c88dfd9d2
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Wed Feb 8 00:40:50 2017 +0100
+
+    Oops, removing stuff on manifest, actual dependency added
+
+1	0	app/build.gradle
+0	12	app/src/main/AndroidManifest.xml
+
+commit 09033f99eb20665c456577ddaa95dbd06e272765
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Wed Feb 8 00:36:20 2017 +0100
+
+    Fixing auth, scribe dependency added
+
+12	0	app/src/main/AndroidManifest.xml
+48	21	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9bf7bf6907ee0677e71b75034c7aa5ba07d8a22c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Feb 6 14:33:30 2017 -0500
+
+    [BUGFIX] model gets overwritten onResume - (see https://github.com/Jasonette/JASONETTE-Android/issues/63)
+
+6	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ca1170457f074bbc3bd6bfa591bd1b19bf61213d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Feb 6 11:51:53 2017 -0500
+
+    Fix for the new call/href syntax
+
+2	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 62de1655f2288efbdf5cef025a77ffc292ecaa9b
+Author: Unknown <stefano.nada@gmail.com>
+Date:   Sat Feb 4 03:42:10 2017 +0100
+
+    OAuth2 draft
+
+369	0	app/src/main/java/com/jasonette/seed/Action/JasonOauthAction.java
+2	0	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+41	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ab32e162837ee10a4514be79bd104c4705e6cc71
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Feb 3 11:21:31 2017 -0500
+
+    Fixed context bug for complex JS expressions
+
+1	1	app/src/main/assets/parser
+
+commit 4a1ea2a48311813290dcaba2fc307b443797332f
+Merge: 613a1b8 3e9f35c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 1 23:05:16 2017 -0500
+
+    Merge branch 'super_tab' into lambda
+    
+    # Conflicts:
+    #       app/src/main/assets/parser
+
+commit 613a1b8f2c040f4703fd7bbfdb2ae7324aa5f163
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 1 19:57:13 2017 -0500
+
+    $require action
+
+5	108	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+120	0	app/src/main/java/com/jasonette/seed/Core/JasonRequire.java
+88	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 188b48f2f64f77eb03031e4ee0306a14223d9497
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 1 14:11:36 2017 -0500
+
+    Support session
+
+76	33	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+
+commit c9854f59840d1984f7c1d421f5533300fbeb6e41
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 1 13:35:12 2017 -0500
+
+    Use `@` instead of `+`
+
+5	5	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+
+commit 08e1cd82cab6e04ea01efdb2d0d41f8004945a5d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Feb 1 13:16:28 2017 -0500
+
+    Handle include + Handle ‘data’ option for $render
+
+268	30	app/src/main/assets/parser
+201	5	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+3	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 27b31cb89008cb4d1220f186a0c6f6c0220ff664
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Fri Jan 27 21:42:34 2017 -0800
+
+    enable usage of javascript console methods
+
+21	1	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+
+commit 3e9f35c076c62901681e660bd6b7b672d97041ad
+Merge: b600784 84977a7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 24 00:17:30 2017 -0500
+
+    Merge branch 'develop' into super_tab
+
+commit 84977a778bb543b92fa35bbc8da64502808c4d10
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 24 00:17:16 2017 -0500
+
+    template parser fix
+
+6	4	app/src/main/assets/parser
+
+commit b600784e493a0ddbad79fdb717261f7471cb610c
+Merge: 82cb5d3 e2c946b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 23 23:59:36 2017 -0500
+
+    Merge branch 'develop' into super_tab
+
+commit e2c946ba6357e7bcb1cef0f64417f792369e4b44
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 23 23:59:22 2017 -0500
+
+    Template engine fix => $root context should work in a loop even for strings and arrays
+
+3	1	app/src/main/assets/parser
+
+commit 82cb5d36fa73181eed195a46dd525a858e2a23ec
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 23 20:25:06 2017 -0500
+
+    supporting href and action attributes for $jason.body.footer.tabs
+
+78	19	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit c47605ff456685e73b7f46a90b2ad54d20d9cb61
+Merge: 3620293 ea6cbdd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 21 20:32:17 2017 -0500
+
+    Merge branch 'develop' into lambda
+
+commit ea6cbdde3d9555bdcc524fa74cd698b818653524
+Merge: 23d2188 5826b38
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 17 07:15:35 2017 -0500
+
+    Merge pull request #59 from brad/patch-1
+    
+    Mention the Android settings file, not iOS
+
+commit 5826b38e3a588656a5cedc2ba68e26d7c94a21a8
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Mon Jan 16 20:19:15 2017 -0800
+
+    Mention the Android settings file, not iOS
+
+2	2	app/src/main/assets/file/jasonpedia.json
+
+commit 23d2188b4162600d0b88ceb02caaaa097e923b19
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 15 14:54:50 2017 -0500
+
+    Example local Json
+
+115	0	app/src/main/assets/file/jasonpedia.json
+
+commit 60daf3ed44d0ee2640f85eb644d70f309d9f7f0e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 15 14:50:07 2017 -0500
+
+    Local JSON support
+
+23	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+20	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+2	2	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 1d001484ac028773112670de8c5e37baa4f57cc8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 15 11:14:30 2017 -0500
+
+    Fix state preserve/restore logic for onPause/onResume + Support Extensions
+    
+    1. Fix onResume/onPause logic to preserve/restore state (These are
+    triggered even when `$href`ing and was malfunctioning)
+    2. Support extension manager
+
+57	17	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+42	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+
+commit 9dfb9637dfed68485f057f397058b38eb350237d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 14 18:58:57 2017 -0500
+
+    version upgrade
+
+2	2	app/build.gradle
+
+commit aba468d9419e92d4a4b24693b8537ab09bd9ad1c
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Thu Jan 12 21:23:37 2017 -0800
+
+    remove unused imports
+
+0	2	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+
+commit 8cc05ee015ece7bfd4d091be9e62d7224081caa3
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Thu Jan 12 20:39:04 2017 -0800
+
+    mapview: set the right zoom level for the region
+
+50	7	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+
+commit 57e76efa9c27d6ca280d47248be90a85c0df1976
+Merge: 5d4e856 f6aa1b5
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Thu Jan 12 20:21:01 2017 -0800
+
+    Merge branch 'develop' into mapview
+
+commit 5d4e856d5c7ed1342b0242839d02a84057a1fbe0
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Wed Jan 11 21:28:20 2017 -0800
+
+    mapview: add pins, handle touch events
+
+105	33	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+18	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit f6aa1b5bbdd0d1329505fdc059348eb6d960c6f2
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 10 15:35:37 2017 -0500
+
+    Store model to shared preference onPause and restore it in onResume
+
+41	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit ff469737fc43c923a4d15055540d0ca1be7931a5
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 10 14:42:43 2017 -0500
+
+    Fixing orientation change handling
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+3	11	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 986758b83a6fcf5682f2f7a5f9eacb65d3eca2e5
+Merge: 19ce2e2 65679bd
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Sat Jan 7 08:01:04 2017 -0700
+
+    Merge pull request #1 from gliechtenstein/mapview
+    
+    "Let there be map". And there was map.
+
+commit 65679bd875e28806fe7af4a09423909ca489f03f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Jan 7 01:16:09 2017 -0500
+
+    Trigger onCreate and onResume at the right timing so that maps show up. Also just tried adding region support to see if it works
+
+20	1	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+
+commit 19ce2e2e493fe001d856b9636a4be41d55a7303f
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Fri Jan 6 20:59:46 2017 -0800
+
+    #31 WIP on map component
+
+1	0	app/build.gradle
+1	0	app/src/main/AndroidManifest.xml
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+80	0	app/src/main/java/com/jasonette/seed/Component/JasonMapComponent.java
+3	0	app/src/main/res/values/strings.xml
+
+commit 4e69246f512a21e133553ee46da3ce4007defe31
+Merge: 5983328 7ca99b8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jan 5 02:41:55 2017 -0500
+
+    Merge branch 'develop'
+
+commit 3620293c1e29e24a795842fd7edff3b952a3fe27
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jan 5 02:38:29 2017 -0500
+
+    URL fix
+
+1	1	app/src/main/res/values/strings.xml
+
+commit 5a3feeae3b7fee8fe8241a770079d60e0c990844
+Merge: 346c01d 7ca99b8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jan 5 02:07:17 2017 -0500
+
+    Merge branch 'develop' into lambda
+    
+    # Conflicts:
+    #       app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 346c01d6aca24f2aa7a4205524d304bc6c053630
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Jan 5 02:01:55 2017 -0500
+
+    Edge case handling => options can be an array, which needs to be parsed first.
+
+72	8	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 7ca99b88f84a048b03bf7fa305fb285ac1a76527
+Merge: e8cc7c9 22b4f58
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 3 20:17:35 2017 -0500
+
+    Merge pull request #50 from wajahatch888/Issue-40,InputFields-in-alert
+    
+    Issue 40,input fields in alert
+
+commit e8cc7c9d5402cc96ed290463c1c295fdc303fe07
+Merge: a93e9bb 21330a6
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 3 20:10:44 2017 -0500
+
+    Merge pull request #52 from lukeramsden/patch-1
+    
+    Added roadmap badge
+
+commit 22b4f58a53641d87ad19e728b6006be15acb89a9
+Author: Wajahat Chaudhry <wajahatch888@gmail.com>
+Date:   Tue Jan 3 21:43:20 2017 +0500
+
+    - Textfields margin added
+    - Autofocous keyboard
+
+19	4	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 21330a6e6f071e1c5d12de4acbc48f68e4d814e1
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Tue Jan 3 14:56:01 2017 +0000
+
+    Added roadmap badge
+
+1	0	README.md
+
+commit a93e9bb10811510df1fdb2f760dc556648f1a226
+Merge: fb8fe29 f4c8663
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Tue Jan 3 07:46:55 2017 -0500
+
+    Merge pull request #51 from lukeramsden/patch-1
+    
+    Added codebeat badges
+
+commit f4c8663f624ca27968ce951652f0036beeb48d7c
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Tue Jan 3 12:43:14 2017 +0000
+
+    Added codebeat badges
+
+1	0	README.md
+
+commit fb7abb57c452b4de406fe9faa766c95d2646020d
+Author: Wajahat Chaudhry <wajahat@croem.net>
+Date:   Tue Jan 3 16:59:10 2017 +0500
+
+    Form submission done
+
+14	2	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 29e0a3eac39a46dc068c96833cc0953a4e4daf8e
+Author: Wajahat Chaudhry <wajahat@croem.net>
+Date:   Tue Jan 3 16:06:56 2017 +0500
+
+    Input fields added in $util.alert
+
+33	1	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+
+commit 6c007d347c7e98e2ab553dd819d797d90e3dbec8
+Merge: d8e33ef fb8fe29
+Author: Wajahat Chaudhry <wajahat.croem@gmail.com>
+Date:   Tue Jan 3 10:04:09 2017 +0500
+
+    Merge pull request #1 from Jasonette/develop
+    
+    Merge from Orignal repo
+
+commit fb8fe29692bc0618d9ec4d102d9dc98417aaa9c2
+Merge: 6011344 ab66bad
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 19:50:15 2017 -0500
+
+    Merge pull request #48 from lukeramsden/patch-1
+    
+    Added codeclimate badges
+
+commit ab66badc315b26e9ab9381eea9d901cb921da762
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Tue Jan 3 00:49:45 2017 +0000
+
+    Added codeclimate badges
+
+2	1	README.md
+
+commit 6011344bb1377d1701c79244c4d888ff314c2ed3
+Merge: 4561ba2 9533069
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 19:46:38 2017 -0500
+
+    Merge pull request #47 from lukeramsden/patch-1
+    
+    Fix codeclimate.yml
+
+commit 9533069f30dfbaf7bdcdf494ff1aee82589c45dc
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Tue Jan 3 00:46:08 2017 +0000
+
+    Fix codeclimate.yml
+
+8	2	.codeclimate.yml
+
+commit 4561ba211bdd694bcdee129b6287847356edbd57
+Merge: ec025e3 ab0dd5e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 19:38:11 2017 -0500
+
+    Merge pull request #46 from lukeramsden/patch-1
+    
+    Create .codeclimate.yml
+
+commit ab0dd5eaeeb0451bd7840ce2cbbb643a5a5fab2b
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Tue Jan 3 00:37:33 2017 +0000
+
+    Create .codeclimate.yml
+
+9	0	.codeclimate.yml
+
+commit 5983328862890f7923ff00ed721992b5e747cb6e
+Merge: ec025e3 ee14e33
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 19:03:45 2017 -0500
+
+    Merge pull request #45 from lukeramsden/patch-1
+    
+    Changes to links on README
+
+commit ee14e33092c769381229931303ce9abde2e33b67
+Author: Luke <lukeramsden@users.noreply.github.com>
+Date:   Mon Jan 2 17:17:52 2017 +0000
+
+    Update README.md
+
+5	2	README.md
+
+commit ec025e318c6442000bc436b06d4e5c5c31435212
+Merge: d644fef ebfa38f
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 09:56:12 2017 -0500
+
+    Merge pull request #43 from brad/html-component
+    
+    #30 html component
+
+commit d644feff89c499bd1a2576cc1d4975f7ecef6def
+Merge: 50988ac 3e9b8ad
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 09:41:50 2017 -0500
+
+    Merge pull request #33 from wajahatch888/RoundCornerIssueImplementation
+    
+    Corner radius added
+
+commit 50988acc488eb5d07f766c4a6c000efd47007c59
+Merge: 457b1a8 258e045
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 09:32:46 2017 -0500
+
+    Merge pull request #32 from wajahatch888/OpacityImplementation
+    
+    OpacityAdded
+
+commit 0f074473de0eaa8ed3652c15357fadcc0ca363ba
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Jan 2 08:42:33 2017 -0500
+
+    Lambda can return back to its caller action after completion, along with return values.
+
+4	4	app/src/main/java/com/jasonette/seed/Action/JasonCacheAction.java
+6	5	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+8	8	app/src/main/java/com/jasonette/seed/Action/JasonLogAction.java
+4	4	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+113	0	app/src/main/java/com/jasonette/seed/Action/JasonReturnAction.java
+4	4	app/src/main/java/com/jasonette/seed/Action/JasonSessionAction.java
+4	4	app/src/main/java/com/jasonette/seed/Action/JasonTimerAction.java
+6	6	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+2	2	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+150	43	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+3	1	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+2	2	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit ebfa38f8acec11c71438d82d0789fa8ad5b00fdd
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Sun Jan 1 19:27:13 2017 -0800
+
+    #30 html component
+
+2	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+47	0	app/src/main/java/com/jasonette/seed/Component/JasonHtmlComponent.java
+1	1	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+
+commit 258e0458402ce4dab2a2e4cd5d359936239c6078
+Author: Wajahat Chaudhry <wajahatch888@gmail.com>
+Date:   Sun Jan 1 20:13:56 2017 +0500
+
+    Small bug fix
+
+1	1	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 3e9b8ad587c67d576145aed19818c147b71bb383
+Author: Wajahat Chaudhry <wajahatch888@gmail.com>
+Date:   Sun Jan 1 20:03:30 2017 +0500
+
+    Code refactoring in label component
+
+0	5	app/src/main/java/com/jasonette/seed/Component/JasonLabelComponent.java
+
+commit bf6120a3498db093bc8ff4bf2423ed4b7cb49db0
+Merge: 2d70bf4 457b1a8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:59:29 2017 -0500
+
+    Merge branch 'develop' into lambda
+
+commit 457b1a8e41dc61e7e41a751485278f515c2ce607
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:58:23 2017 -0500
+
+    Parser bugfix
+
+1	1	app/src/main/assets/parser
+
+commit 2d70bf4e2dad10496ae9ef9e646e33289af36526
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:56:49 2017 -0500
+
+    Update to include context
+
+2	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 5f5565d512f3ddfae64bf81f0f6155a203d0f783
+Merge: 9294158 75286ce
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:25:21 2017 -0500
+
+    Merge branch 'develop' into lambda
+
+commit 75286ce6176ef7c16c5b57c6d7523cdf921d819c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:24:48 2017 -0500
+
+    Bugfix for when `$jason.head.data` exists => Should wait for the data to render before calling onLoad()
+
+5	3	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+18	1	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 20b8f15582c2c95555ee62c8404070292fe1ef1c
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 01:05:05 2017 -0500
+
+    Bugfix for parser
+
+2	15	app/src/main/assets/parser
+
+commit 7ac8b3ab5cdabce263740eb962e0ff7224077bb4
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Jan 1 00:17:58 2017 -0500
+
+    Updating parser to support closure cc9c94a72fb47a329cd23a1d28f17accd5142f87
+
+56	18	app/src/main/assets/parser
+
+commit fdb503ac38f56eee4dcddbefb319b8614f6a6f88
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 31 22:19:29 2016 -0500
+
+    Parser optimization - Initialize once use everywhere.
+
+18	24	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+8	6	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 92941586c5f152de83248c2db8d30b372a383e12
+Merge: a80726a d6777da
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 31 20:46:40 2016 -0500
+
+    Merge branch 'develop' into lambda
+
+commit d6777da634babe33aedeb4e5ab10cf820c6fd7b8
+Merge: d8e33ef 6b96fbd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 31 20:43:11 2016 -0500
+
+    Merge pull request #42 from Jasonette/J2V8
+    
+    J2V8
+
+commit a80726a13b579443edac7e901ea086006206f316
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 31 20:36:41 2016 -0500
+
+    Initial commit - support options
+
+158	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+1	1	app/src/main/res/values/strings.xml
+
+commit 6b370c2c4ec056becaea5eb0c273ae694ea772d1
+Author: Wajahat Chaudhry <wajahat.croem@gmail.com>
+Date:   Thu Dec 29 21:51:42 2016 +0500
+
+    Update JasonComponent.java
+    
+    Small fix
+
+0	1	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 502121370d4d050bb703b56bab2bf4e20325ea42
+Author: Wajahat Chaudhry <wajahat@croem.net>
+Date:   Thu Dec 29 17:43:30 2016 +0500
+
+    Corner radius added
+
+18	2	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 86d6d9951a102e8833271532a3f2810f55a5844b
+Author: Wajahat Chaudhry <wajahat@croem.net>
+Date:   Thu Dec 29 13:12:26 2016 +0500
+
+    exception handling added
+
+6	2	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 8f246b6386c6327a6af6b94c2df79b82b0536e75
+Author: Wajahat Chaudhry <wajahat@croem.net>
+Date:   Thu Dec 29 13:08:13 2016 +0500
+
+    OpacityAdded
+
+5	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 6b96fbd8fb5eb3f41696e7aeade18c87b181618c
+Merge: 52617f4 a766c0d
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 28 05:25:00 2016 -0500
+
+    Merge pull request #21 from brad/convert.rss
+    
+    add $convert.rss feature
+
+commit a766c0d158fe9e6a5c2528c47a672c64466181eb
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Tue Dec 27 17:49:49 2016 -0800
+
+    add $convert.rss feature
+
+11559	0	app/src/main/assets/rss
+265	0	app/src/main/assets/timers
+105	12	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+
+commit 52617f44900f72e21750f79f656737fef9ba8db9
+Merge: a879c46 bc90656
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Mon Dec 26 17:36:37 2016 -0500
+
+    Merge pull request #20 from brad/convert.csv.J2V8
+    
+    add $convert.csv feature for #18
+
+commit bc906565f99b76474afb3b72e685d695503bb38b
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Sun Dec 25 18:08:40 2016 -0800
+
+    add $convert.csv feature for #18
+
+1	0	CONTRIBUTING.md
+28677	0	app/src/main/assets/csv
+52	0	app/src/main/java/com/jasonette/seed/Action/JasonConvertAction.java
+
+commit d8e33ef3d68726a33b70950fdc313c06258db9a7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 22 22:27:36 2016 -0500
+
+    Authenticated image loading to match the iOS version at https://github.com/Jasonette/JASONETTE-iOS/commit/b9ae6bc7d3aaecf6899457044c2751b96a47096c
+
+43	3	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+
+commit 160d500fcf49b1d8b4a74e9801fb7af05a312d11
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 22 22:24:06 2016 -0500
+
+    $cache.set should return the modified cache as return value (previously didn’t have a return value)
+
+1	1	app/src/main/java/com/jasonette/seed/Action/JasonCacheAction.java
+
+commit c7f1ce8a42a947d9c7814ee45c9c5186a71d439b
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 21 08:29:54 2016 -0500
+
+    Apply class based styling for layers
+
+23	25	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit a879c46be0b452e5144e1d6af02d118b5f993ea3
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 21 07:04:47 2016 -0500
+
+    J2V8 Result
+    
+    # Pros
+    - With AndroidJSCore there was a problem with emoji support and
+    couldn’t do anything about it since it’s a low level thing. So
+    previously we used to just “censor” out unicode characters. J2V8
+    supports emojis (unicode) right out of the box!
+    - Smaller APK size than AndroidJSCore => Just tried building a signed
+    APK => It’d 9.8MB. Note that it’s larger than Duktape.
+    - No problem with regular expressions => This was the top reason I
+    decided to try J2V8, because Duktape wasn’t able to parse some JS
+    function calls at all due to its strict regular expression engine
+    
+    # Cons
+    - Not much except that it’s larger than Duktape (9.8MB).
+    
+    # Conclusion
+    9.8MB is still a significant improvement from 40MB, not to mention: 1.
+    Performance improvement; 2. Unicode support
+    
+    Kind of leaning towards J2V8 unless there’s something I’m missing.
+
+1	1	app/build.gradle
+1812	1208	app/src/main/assets/parser
+31	26	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+
+commit 29219155071a3170c57514b9d56221f337185472
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Dec 18 16:59:36 2016 -0500
+
+    Update version
+
+2	2	app/build.gradle
+
+commit a70516c731d60a444ac0fd295de5b4e4a95dc299
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sun Dec 18 04:32:26 2016 -0500
+
+    Do not trigger $load and $show when building view as a response to orientation change
+
+1	1	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+10	3	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 1f7b702882b3f1e0f9e5e0a50a25f247e408f97e
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Sat Dec 17 03:18:31 2016 -0500
+
+    Exception handling for view loading
+
+20	19	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 9044f913cb4a189cc8557e333f405b3a58649db7
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 16 21:12:06 2016 -0500
+
+    The typeface for secure mode textfield should be preserved.
+
+35	35	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+
+commit 24505ab9f0bcb25bf97fe4e6c95ab8b5a60341e8
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 16 20:56:09 2016 -0500
+
+    $network.request correct error handling
+
+7	7	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 5c329c4efea950d4fe306a6d452f963c2d28f8e1
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 16 20:37:34 2016 -0500
+
+    Implement $timer action
+
+126	0	app/src/main/java/com/jasonette/seed/Action/JasonTimerAction.java
+
+commit db48bbd0206f6335cda83ca0a1c1c091ff7a59fd
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 16 20:37:19 2016 -0500
+
+    Fix view initialization logic for sections and layers
+
+49	35	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 0776f72c58d6b0d719d6f7bff351f88f3d0bc4c9
+Merge: 4322730 16e4ce3
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Fri Dec 16 13:37:42 2016 -0500
+
+    Merge pull request #6 from cpg/patch-1
+    
+    git ignore app/app-release.apk
+
+commit 16e4ce3006a76b108e7565651b1379c8b6b3ebf2
+Author: Carlos Puchol <cpg@rocketmail.com>
+Date:   Fri Dec 16 00:03:55 2016 -0800
+
+    git ignore app/app-release.apk
+    
+    handy for those going to build signed "release" apps
+
+1	0	.gitignore
+
+commit 4322730a752184ad25b1dc6b393d8231e5b1ee51
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 17:11:03 2016 -0500
+
+    Background attribute for all components
+
+5	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+
+commit 44c8516a56474d38abc2b6f79a8c6687c4659eb3
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 17:06:54 2016 -0500
+
+    Error handling for network action when the request returns with an unsuccessful response
+
+10	2	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+
+commit 56c512349151c46ed7fc00796a346b798637cd24
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 16:46:45 2016 -0500
+
+    fixed untracked files
+
+0	1	.idea/.name
+0	22	.idea/compiler.xml
+0	3	.idea/copyright/profiles_settings.xml
+0	6	.idea/encodings.xml
+0	46	.idea/misc.xml
+0	9	.idea/modules.xml
+0	7	.idea/vcs.xml
+0	11	app/local.properties
+
+commit bd67a71a3f9da81a981da6ab7a87ca550a1d099a
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 16:40:26 2016 -0500
+
+    Storing and restoring state before and after rotation
+
+53	2	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+
+commit 265f8b6e3c3f7ffac73565a6235952871d1ef355
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 15:54:11 2016 -0500
+
+    Added more lines to .gitignore
+
+32	6	.gitignore
+
+commit 252dce03a1df5322d4a9567500e84311962386f3
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Thu Dec 15 02:19:53 2016 -0500
+
+    Updated readme
+
+1	1	.idea/misc.xml
+1	0	.idea/vcs.xml
+6	0	README.md
+
+commit f7b2b7f1eafde733cd1ba34e982494cc22776e95
+Author: gliechtenstein <ethan.gliechtenstein@gmail.com>
+Date:   Wed Dec 14 03:03:14 2016 -0500
+
+    Hello World.
+
+9	0	.gitignore
+1	0	.idea/.name
+22	0	.idea/compiler.xml
+3	0	.idea/copyright/profiles_settings.xml
+6	0	.idea/encodings.xml
+19	0	.idea/gradle.xml
+46	0	.idea/misc.xml
+9	0	.idea/modules.xml
+12	0	.idea/runConfigurations.xml
+6	0	.idea/vcs.xml
+76	0	CONTRIBUTING.md
+21	0	LICENSE
+134	0	README.md
+1	0	app/.gitignore
+1	0	app/.idea/.name
+22	0	app/.idea/compiler.xml
+3	0	app/.idea/copyright/profiles_settings.xml
+9	0	app/.idea/misc.xml
+12	0	app/.idea/runConfigurations.xml
+2203	0	app/.idea/workspace.xml
+37	0	app/build.gradle
+-	-	app/gradle/wrapper/gradle-wrapper.jar
+6	0	app/gradle/wrapper/gradle-wrapper.properties
+160	0	app/gradlew
+90	0	app/gradlew.bat
+11	0	app/local.properties
+17	0	app/proguard-rules.pro
+23	0	app/src/main/AndroidManifest.xml
+0	0	app/src/main/assets/fonts/Amatic-Bold.ttf
+0	0	app/src/main/assets/fonts/AmaticSC-Regular.ttf
+0	0	app/src/main/assets/fonts/Chunkfive.otf
+0	0	app/src/main/assets/fonts/GoodDog.otf
+0	0	app/src/main/assets/fonts/GreatVibes-Regular.otf
+0	0	app/src/main/assets/fonts/Pacifico.ttf
+27710	0	app/src/main/assets/parser
+-	-	app/src/main/ic_launcher-web.png
+59	0	app/src/main/java/com/jasonette/seed/Action/JasonCacheAction.java
+39	0	app/src/main/java/com/jasonette/seed/Action/JasonLogAction.java
+170	0	app/src/main/java/com/jasonette/seed/Action/JasonNetworkAction.java
+83	0	app/src/main/java/com/jasonette/seed/Action/JasonSessionAction.java
+97	0	app/src/main/java/com/jasonette/seed/Action/JasonUtilAction.java
+44	0	app/src/main/java/com/jasonette/seed/Component/JasonButtonComponent.java
+119	0	app/src/main/java/com/jasonette/seed/Component/JasonComponent.java
+49	0	app/src/main/java/com/jasonette/seed/Component/JasonComponentFactory.java
+135	0	app/src/main/java/com/jasonette/seed/Component/JasonImageComponent.java
+114	0	app/src/main/java/com/jasonette/seed/Component/JasonLabelComponent.java
+24	0	app/src/main/java/com/jasonette/seed/Component/JasonSpaceComponent.java
+174	0	app/src/main/java/com/jasonette/seed/Component/JasonTextareaComponent.java
+205	0	app/src/main/java/com/jasonette/seed/Component/JasonTextfieldComponent.java
+179	0	app/src/main/java/com/jasonette/seed/Core/JasonModel.java
+101	0	app/src/main/java/com/jasonette/seed/Core/JasonParser.java
+1318	0	app/src/main/java/com/jasonette/seed/Core/JasonViewActivity.java
+232	0	app/src/main/java/com/jasonette/seed/Helper/JasonHelper.java
+15	0	app/src/main/java/com/jasonette/seed/Helper/JasonSettings.java
+17	0	app/src/main/java/com/jasonette/seed/Launcher/Launcher.java
+558	0	app/src/main/java/com/jasonette/seed/Section/ItemAdapter.java
+105	0	app/src/main/java/com/jasonette/seed/Section/JasonLayout.java
+-	-	app/src/main/res/mipmap-hdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-mdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+-	-	app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+6	0	app/src/main/res/values/arrays.xml
+6	0	app/src/main/res/values/colors.xml
+4	0	app/src/main/res/values/ids.xml
+4	0	app/src/main/res/values/strings.xml
+7	0	app/src/main/res/values/styles.xml
+24	0	build.gradle
+17	0	gradle.properties
+-	-	gradle/wrapper/gradle-wrapper.jar
+6	0	gradle/wrapper/gradle-wrapper.properties
+160	0	gradlew
+90	0	gradlew.bat
+1	0	settings.gradle

@@ -1,0 +1,184 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+PocketHub,com.github.pockethub.android.tests.commit,CommitUriMatcherTest,testCommentUri,Long Statement
+PocketHub,com.github.pockethub.android.tests.commit,CommitUtilsTest,testGetAuthorDate,Magic Number
+PocketHub,com.github.pockethub.android.tests.commit,CommitUtilsTest,testGetCommitterDate,Magic Number
+PocketHub,com.github.pockethub.android.tests.commit,FullCommitTest,testSingleLineCommentSingleFile,Magic Number
+PocketHub,com.github.pockethub.android.tests.commit,FullCommitTest,testBothTypesOfComments,Magic Number
+PocketHub,com.github.pockethub.android.tests.issue,EditIssueActivityTest,testSaveMenuEnabled,Long Statement
+PocketHub,com.github.pockethub.android.tests.issue,IssueFilterTest,testEqualFilter,Magic Number
+PocketHub,com.github.pockethub.android.tests.issue,IssueUriMatcherTest,testHttpUri,Magic Number
+PocketHub,com.github.pockethub.android.tests.issue,IssueUriMatcherTest,testPullUri,Magic Number
+PocketHub,com.github.pockethub.android.tests.issue,IssueUriMatcherTest,testHttpsUri,Magic Number
+PocketHub,com.github.pockethub.android.tests.issue,IssueUriMatcherTest,testCommentUri,Magic Number
+PocketHub,com.github.pockethub.android.tests,NewsEventTextTest,createEvent,Long Statement
+PocketHub,com.github.pockethub.android.tests,NewsEventTextTest,testIssueComment,Magic Number
+PocketHub,com.github.pockethub.android.tests,NewsEventTextTest,testIssue,Magic Number
+PocketHub,com.github.pockethub.android.tests,NewsEventTextTest,testPullRequest,Magic Number
+PocketHub,com.github.pockethub.android.tests.repo,RecentRepositoriesTest,testBadInput,Magic Number
+PocketHub,com.github.pockethub.android.tests.repo,RecentRepositoriesTest,testMaxReached,Magic Number
+PocketHub,com.github.pockethub.android.tests.repo,RecentRepositoriesTest,testIO,Magic Number
+PocketHub,com.github.pockethub.android.tests.repo,RecentRepositoriesTest,testScopedStorage,Magic Number
+PocketHub,com.github.pockethub.android.tests.util,HtmlUtilsTest,testTogglesRemoved,Long Statement
+PocketHub,com.github.pockethub.android.accounts,AccountAuthenticator,addAccount,Long Parameter List
+PocketHub,com.github.pockethub.android.accounts,AccountUtils,renameAccount,Long Statement
+PocketHub,com.github.pockethub.android.accounts,AccountUtils,getAccount,Complex Method
+PocketHub,com.github.pockethub.android.accounts,AccountUtils,showConflictMessage,Long Statement
+PocketHub,com.github.pockethub.android.accounts,LoginActivity,onUserLoggedIn,Long Statement
+PocketHub,com.github.pockethub.android.accounts,LoginActivity,openLoginInBrowser,Long Statement
+PocketHub,com.github.pockethub.android.accounts,LoginActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.accounts,LoginActivity,endAuth,Long Statement
+PocketHub,com.github.pockethub.android.accounts,LoginWebViewActivity,onCreate,Long Statement
+PocketHub,com.github.pockethub.android,RequestReader,read,Magic Number
+PocketHub,com.github.pockethub.android,RequestWriter,write,Magic Number
+PocketHub,com.github.pockethub.android.core.code,FullTree,add,Complex Method
+PocketHub,com.github.pockethub.android.core.code,Folder,add,Complex Method
+PocketHub,com.github.pockethub.android.core.code,RefreshTreeTask,getBranch,Long Statement
+PocketHub,com.github.pockethub.android.core.code,RefreshTreeTask,refresh,Long Statement
+PocketHub,com.github.pockethub.android.core.commit,CommitUriMatcher,getCommit,Magic Number
+PocketHub,com.github.pockethub.android.core.commit,FullCommit,FullCommit,Complex Method
+PocketHub,com.github.pockethub.android.core.commit,FullCommitFile,add,Magic Number
+PocketHub,com.github.pockethub.android.core.commit,RefreshCommitTask,RefreshCommitTask,Long Parameter List
+PocketHub,com.github.pockethub.android.core.commit,RefreshCommitTask,refresh,Long Statement
+PocketHub,com.github.pockethub.android.core.gist,GistStore,sortFiles,Magic Number
+PocketHub,com.github.pockethub.android.core.gist,GistStore,editGist,Long Statement
+PocketHub,com.github.pockethub.android.core.gist,RefreshGistTask,refresh,Magic Number
+PocketHub,com.github.pockethub.android.core.gist,RefreshGistTask,getGistComments,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueEventMatcher,getIssue,Missing default
+PocketHub,com.github.pockethub.android.core.issue,IssueFilter,toDisplay,Complex Method
+PocketHub,com.github.pockethub.android.core.issue,IssueFilter,hashCode,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueFilter,equals,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueStore,repoFromUrl,Complex Conditional
+PocketHub,com.github.pockethub.android.core.issue,IssueStore,refreshIssue,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueStore,editIssue,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueStore,changeState,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,IssueUriMatcher,getIssue,Magic Number
+PocketHub,com.github.pockethub.android.core.issue,IssueUtils,toIssue,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,RefreshIssueTask,RefreshIssueTask,Long Parameter List
+PocketHub,com.github.pockethub.android.core.issue,RefreshIssueTask,refresh,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,RefreshIssueTask,getAllComments,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,RefreshIssueTask,getAllEvents,Long Statement
+PocketHub,com.github.pockethub.android.core.issue,RefreshIssueTask,getPullRequest,Long Statement
+PocketHub,com.github.pockethub.android.core.repo,RepositoryEventMatcher,getRepository,Complex Conditional
+PocketHub,com.github.pockethub.android.core.repo,RepositoryEventMatcher,getRepository,Long Statement
+PocketHub,com.github.pockethub.android.core.repo,RepositoryUriMatcher,getRepository,Magic Number
+PocketHub,com.github.pockethub.android.markwon,AlignHandler,getSpans,Missing default
+PocketHub,com.github.pockethub.android.markwon,AsyncDrawableSchedulerPlugin,onLayoutChange,Long Parameter List
+PocketHub,com.github.pockethub.android.markwon,FontResolver,resolveFont,Magic Number
+PocketHub,com.github.pockethub.android.markwon,GifAwareGlideStore,load,Long Statement
+PocketHub,com.github.pockethub.android.markwon,GifAwareGlideStore,onResourceReady,Long Parameter List
+PocketHub,com.github.pockethub.android.markwon,MarkwonUtils,createMarkwon,Long Statement
+PocketHub,com.github.pockethub.android.markwon,MarkwonUtils,configureVisitor,Long Statement
+PocketHub,com.github.pockethub.android.markwon,SvgDrawableTranscoder,transcode,Magic Number
+PocketHub,com.github.pockethub.android.markwon,SvgModule,registerComponents,Long Statement
+PocketHub,com.github.pockethub.android.persistence,AccountDataManager,read,Long Statement
+PocketHub,com.github.pockethub.android.persistence,AccountDataManager,query,Long Parameter List
+PocketHub,com.github.pockethub.android.persistence,AccountDataManager,getIssueFilters,Long Statement
+PocketHub,com.github.pockethub.android.persistence,AccountDataManager,addIssueFilter,Long Statement
+PocketHub,com.github.pockethub.android.persistence,AccountDataManager,removeIssueFilter,Long Statement
+PocketHub,com.github.pockethub.android.rx,RxProgress,bindToLifecycle,Long Statement
+PocketHub,com.github.pockethub.android.sync,ContentProviderAdapter,query,Long Parameter List
+PocketHub,com.github.pockethub.android.sync,SyncAdapter,onPerformSync,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.base,DialogFragmentHelper,createDialogBuilder,Long Statement
+PocketHub,com.github.pockethub.android.ui.comment,CommentPreviewPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.comment,CommentPreviewPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.comment,CommentPreviewPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.commit,CommitCompareViewActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.ui.commit,CreateCommentActivity,createComment,Long Statement
+PocketHub,com.github.pockethub.android.ui.commit,DiffStyler,updateColors,Missing default
+PocketHub,com.github.pockethub.android.ui,ConfirmDialogFragment,show,Long Parameter List
+PocketHub,com.github.pockethub.android.ui,ConfirmDialogFragment,onCreateDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui,SingleChoiceDialogFragment,show,Long Parameter List
+PocketHub,com.github.pockethub.android.ui,ViewPager,canScroll,Long Parameter List
+PocketHub,com.github.pockethub.android.ui,MainActivityTest,testNavigationDrawerClickListenerPos5_ShouldLogoutUser,Magic Number
+PocketHub,com.github.pockethub.android.ui.gist,CreateCommentActivity,createComment,Long Statement
+PocketHub,com.github.pockethub.android.ui.gist,EditCommentActivity,editComment,Long Statement
+PocketHub,com.github.pockethub.android.ui.gist,GistQueriesPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.gist,GistQueriesPagerAdapter,getItem,Magic Number
+PocketHub,com.github.pockethub.android.ui.gist,GistQueriesPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.gist,GistQueriesPagerAdapter,getPageTitle,Magic Number
+PocketHub,com.github.pockethub.android.ui.gist,GistQueriesPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.gist,MyGistsFragment,onActivityResult,Complex Conditional
+PocketHub,com.github.pockethub.android.ui.issue,AssigneeDialog,AssigneeDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,AssigneeDialog,show,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,AssigneeDialogFragment,show,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,AssigneeDialogFragment,onCreateDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,CreateCommentActivity,createComment,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditAssigneeTask,EditAssigneeTask,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,EditAssigneeTask,edit,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditCommentActivity,editComment,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditLabelsTask,EditLabelsTask,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,EditLabelsTask,edit,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditMilestoneTask,EditMilestoneTask,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,EditMilestoneTask,edit,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditStateTask,EditStateTask,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,EditStateTask,confirm,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,EditStateTask,edit,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,FiltersViewActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.ui.issue,IssueBrowseActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.ui.issue,IssueDashboardPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.issue,IssueDashboardPagerAdapter,getItem,Magic Number
+PocketHub,com.github.pockethub.android.ui.issue,IssueDashboardPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.issue,IssueDashboardPagerAdapter,getPageTitle,Magic Number
+PocketHub,com.github.pockethub.android.ui.issue,IssueDashboardPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.issue,IssueSearchActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.ui.issue,IssuesPagerAdapter,IssuesPagerAdapter,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,LabelsDialog,LabelsDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,LabelsDialog,show,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,LabelsDialogFragment,show,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.issue,LabelsDialogFragment,onCreateDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,MilestoneDialog,MilestoneDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.issue,MilestoneDialog,show,Long Statement
+PocketHub,com.github.pockethub.android.ui.notification,NotificationPagerAdapter,getItem,Magic Number
+PocketHub,com.github.pockethub.android.ui.notification,NotificationPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.notification,NotificationPagerAdapter,getPageTitle,Magic Number
+PocketHub,com.github.pockethub.android.ui.notification,NotificationPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.notification,NotificationPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.ref,RefDialog,RefDialog,Long Statement
+PocketHub,com.github.pockethub.android.ui.ref,RefDialogFragment,show,Long Parameter List
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryContributorsActivity,onOptionsItemSelected,Missing default
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getPageTitle,Magic Number
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getItem,Magic Number
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getItemCode,Magic Number
+PocketHub,com.github.pockethub.android.ui.repo,RepositoryPagerAdapter,getItemCommits,Magic Number
+PocketHub,com.github.pockethub.android.ui.search,SearchPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.ui.search,SearchPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.search,SearchPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.user,UriLauncherActivity,convert,Complex Method
+PocketHub,com.github.pockethub.android.ui.user,UriLauncherActivity,getIntentForURI,Complex Method
+PocketHub,com.github.pockethub.android.ui.user,UriLauncherActivity,showParseError,Long Statement
+PocketHub,com.github.pockethub.android.ui.user,UserPagerAdapter,getItem,Magic Number
+PocketHub,com.github.pockethub.android.ui.user,UserPagerAdapter,getItem,Missing default
+PocketHub,com.github.pockethub.android.ui.user,UserPagerAdapter,getCount,Magic Number
+PocketHub,com.github.pockethub.android.ui.user,UserPagerAdapter,getPageTitle,Magic Number
+PocketHub,com.github.pockethub.android.ui.user,UserPagerAdapter,getPageTitle,Missing default
+PocketHub,com.github.pockethub.android.util,GravatarUtils,digest,Magic Number
+PocketHub,com.github.pockethub.android.util,HtmlUtils,getLeadingMargin,Magic Number
+PocketHub,com.github.pockethub.android.util,HtmlUtils,drawLeadingMargin,Long Parameter List
+PocketHub,com.github.pockethub.android.util,HtmlUtils,drawLeadingMargin,Magic Number
+PocketHub,com.github.pockethub.android.util,HtmlUtils,append,Magic Number
+PocketHub,com.github.pockethub.android.util,HtmlUtils,handleTag,Complex Method
+PocketHub,com.github.pockethub.android.util,HtmlUtils,replace,Long Parameter List
+PocketHub,com.github.pockethub.android.util,HtmlUtils,formatPres,Complex Method
+PocketHub,com.github.pockethub.android.util,HtmlUtils,formatPres,Magic Number
+PocketHub,com.github.pockethub.android.util,ReplySpan,getLeadingMargin,Magic Number
+PocketHub,com.github.pockethub.android.util,ReplySpan,drawLeadingMargin,Long Parameter List
+PocketHub,com.github.pockethub.android.util,ReplySpan,drawLeadingMargin,Magic Number
+PocketHub,com.github.pockethub.android.util,ListSeparator,append,Magic Number
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,trim,Magic Number
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,bind,Long Statement
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,continueBind,Long Statement
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,requestRepositoryImage,Complex Conditional
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,requestRepositoryImage,Complex Method
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,requestRepositoryImage,Long Statement
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,requestRepositoryImage,Magic Number
+PocketHub,com.github.pockethub.android.util,HttpImageGetter,getDrawable,Empty catch clause
+PocketHub,com.github.pockethub.android.util,InfoUtils,createRepoFromUrl,Complex Conditional
+PocketHub,com.github.pockethub.android.util,MarkdownLoader,load,Long Parameter List
+PocketHub,com.github.pockethub.android.util,MarkdownLoader,load,Long Statement
+PocketHub,com.github.pockethub.android.util,PermissionsUtils,askForPermission,Long Parameter List
+PocketHub,com.github.pockethub.android.util,PermissionsUtils,askForPermission,Long Statement
+PocketHub,com.github.pockethub.android.util,RxPageUtil,getAllPages,Long Statement
+PocketHub,com.github.pockethub.android.util,TimeUtils,getRelativeTime,Long Statement

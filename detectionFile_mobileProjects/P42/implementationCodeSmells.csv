@@ -1,0 +1,235 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+ShaderEditor,de.markusfisch.android.shadereditor.activity,AddUniformActivity,onActivityResult,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.activity,AddUniformActivity,startActivityForIntent,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.activity,LoadSampleActivity,setSampleResult,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onPrepareOptionsMenu,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onOptionsItemSelected,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onActivityResult,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onActivityResult,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onActivityResult,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,onCreate,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,initQualitySpinner,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,getShadersAsync,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,handleSendText,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,getTextFromUri,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,saveShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,duplicateShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,duplicateSelectedShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,deleteShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,MainActivity,editShaderName,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.activity,PreviewActivity,onStart,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.activity,PreviewActivity,setShaderFromIntent,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,PresetUniformAdapter,PresetUniformAdapter,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,PresetUniformAdapter,getView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,SamplesAdapter,Sample,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,SamplesAdapter,SamplesAdapter,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,SamplesAdapter,SamplesAdapter,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,Sample,Sample,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,UniformPageAdapter,getCount,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,UniformPageAdapter,getItem,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,UniformPageAdapter,getItem,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,UniformPageAdapter,getPageTitle,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.adapter,UniformPageAdapter,getPageTitle,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.app,ShaderEditorApp,onCreate,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,open,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getShaders,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getTextures,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getSamplerCubeTextures,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,isShaderAvailable,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getRandomShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getThumbnail,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getTexture,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,getTextureBitmap,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertShader,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertShaderFromResource,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertTexture,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,bitmapToPng,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,calculateRatio,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,createShadersTable,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertInitalShaders,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertInitalShaders,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,createTexturesTable,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,addTexturesWidthHeightRatio,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,insertInitalTextures,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,importShaders,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,importShaders,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,shaderExists,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,importTextures,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,importTexture,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,textureExists,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,onUpgrade,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,Database,OpenHelper,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,OpenHelper,onUpgrade,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.database,OpenHelper,OpenHelper,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,AbstractSamplerPropertiesFragment,initNameView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CropImageFragment,loadBitmapAsync,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CropImageFragment,doInBackground,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CropImageFragment,cropImage,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CropImageFragment,rotateClockwise,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CubeMapFragment,onActivityResult,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,CubeMapFragment,rotateClockwise,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,EditorFragment,getYOffset,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,onActivityResult,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,setSummary,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,checkExternalStoragePermission,Long Identifier
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,onRequestPermissionsResult,Long Identifier
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,onRequestPermissionsResult,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,PreferencesFragment,wireImportExport,Long Identifier
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,Sampler2dPropertiesFragment,onCreateView,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,Sampler2dPropertiesFragment,onCreateView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,Sampler2dPropertiesFragment,saveSampler,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,Sampler2dPropertiesFragment,saveTexture,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,onCreateView,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,onCreateView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,onCreateView,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,saveSampler,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,saveSampler,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,SamplerCubePropertiesFragment,saveSampler,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,ShaderListPreferenceDialogFragment,addEmptyItem,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureParametersFragment,onCreateView,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureParametersFragment,insertUniform,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureViewFragment,onCreateView,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureViewFragment,onCreateView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureViewFragment,askToRemoveTexture,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,TextureViewFragment,insertUniformSamplerStatement,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,UniformPresetPageFragment,addUniform,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.fragment,UniformSampler2dPageFragment,addTexture,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.graphics,BitmapEditor,getBitmapFromUri,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.graphics,BitmapEditor,crop,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.graphics,BitmapEditor,crop,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.graphics,BitmapEditor,calculateSampleSize,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,AbstractListener,register,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,AccelerometerListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,CameraListener,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,getCameraDisplayOrientation,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,setOrientationAndFlip,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,setOrientationAndFlip,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,findBestSize,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,findBestSize,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,CameraListener,setFastestFps,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,GravityListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,GyroscopeListener,register,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,GyroscopeListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,LinearAccelerationListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,MagneticFieldListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.hardware,RotationVectorListener,onSensorChanged,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.io,DatabaseExporter,exportDatabase,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.io,DatabaseExporter,exportDatabase,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.io,DatabaseExporter,exportDatabase,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.io,DatabaseImporter,importDatabase,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.io,DatabaseImporter,importDatabase,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.io,ImportExportAsFiles,readFile,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,InfoLog,parse,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,InfoLog,parse,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,ShaderRenderer,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,onDrawFrame,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,onDrawFrame,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,onDrawFrame,Long Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,onDrawFrame,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,onDrawFrame,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,unregisterListeners,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,touchAt,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,getThumbnail,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,loadPrograms,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,loadPrograms,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,getVertexShader,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,registerListeners,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,registerListeners,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,registerListeners,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,saveThumbnail,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,saveThumbnail,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,setRotationMatrix,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,setRotationMatrix,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,setRotationMatrix,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,setRotationMatrix,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,setRotationMatrix,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,updateFps,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,deleteTargets,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,createTargets,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,createTextures,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,createCubeTexture,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,openCameraListener,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,parseFTime,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,parseFTime,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,indexTextureNames,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,indexTextureNames,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,indexTextureNames,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,getDeviceRotation,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,ShaderRenderer,getDeviceRotation,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,toString,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,toString,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,parse,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,parseParameter,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,shortcutToMin,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,minToShortcut,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,magToShortcut,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,shortcutToWrap,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.opengl,TextureParameters,wrapToShortcut,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.preference,Preferences,parseInt,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.preference,Preferences,parseLong,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperService,onOffsetsChanged,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperService,setShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperService,setShader,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperService,ShaderWallpaperView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperService,enableComponent,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperEngine,onOffsetsChanged,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperEngine,setShader,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperEngine,setShader,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperEngine,ShaderWallpaperView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.service,ShaderWallpaperView,ShaderWallpaperView,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.view,SystemBarMetrics,initSystemBars,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.view,SystemBarMetrics,initSystemBars,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.view,SystemBarMetrics,setSystemBarColor,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.view,SystemBarMetrics,hideNavigation,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.view,SystemBarMetrics,getToolBarHeight,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,BackBufferParametersView,onAttachedToWindow,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CropImageView,CropImageView,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CropImageView,onLayout,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CropImageView,onLayout,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,onTouchEvent,Missing default
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,layoutImage,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,initPaints,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,initMetrics,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,getMatrixFromClip,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,getMatrixFromClip,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,getMatrixFromClip,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,CubeMapView,calculateFaceRects,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,setScaleType,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,setScaleType,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,onTouchEvent,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,getRectInBounds,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,getNormalizedRectInBounds,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,onLayout,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,layoutImage,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,setMinWidth,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,setMinWidth,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,initTransform,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,transform,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,fitTranslate,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ScalingImageView,set,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,Tapeline,set,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,init,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,init,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,onKey,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,onKey,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,highlight,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,highlight,Empty catch clause
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,highlight,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,autoIndent,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,autoIndent,Complex Method
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,autoIndent,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,convertShaderToySource,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,getSize,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderEditor,draw,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,TabWidthSpan,getSize,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,TabWidthSpan,draw,Long Parameter List
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderView,init,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderView,createContext,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderView,createContext,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ShaderView,createContext,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ContextFactory,createContext,Complex Conditional
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ContextFactory,createContext,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,ContextFactory,createContext,Magic Number
+ShaderEditor,de.markusfisch.android.shadereditor.widget,TextureParametersView,setParameters,Long Statement
+ShaderEditor,de.markusfisch.android.shadereditor.widget,TextureParametersView,initSpinner,Long Statement
