@@ -38,11 +38,11 @@
 	<body class="layui-bg-gray">
 		<div class='layui-fluid layui-bg-cyan'>
 			<ul class="layui-container layui-nav layui-bg-cyan">
-				<li class="layui-nav-item"><a href="index.html">Home</a></li>
-				<li class="layui-nav-item layui-this"><a href="codeSmell.html">Code Smell</a></li>
+				<li class="layui-nav-item"><a href="index2.html">主页</a></li>
+				<li class="layui-nav-item layui-this"><a href="codeSmell.html">Code Smell相关数据</a></li>
 <!-- 				<li class="layui-nav-item"><a href="designSmell.html">Design Smell</a></li>
 				<li class="layui-nav-item"><a href="implementationSemll.html">Implementation Smell</a></li> -->
-				<li class="layui-nav-item"><a href="projects.html">Projects</a></li>
+				<li class="layui-nav-item"><a href="projects2.html">项目数据</a></li>
 			</ul>
 
 		</div>
@@ -55,29 +55,27 @@
 						<div class="layui-card">
 							<div class="layui-card-header">
 								<div>
-									<h2><strong>Percentages of Files and LOC with Code Smells</strong></h3>
+									<h2><strong>表1 包含代码异味文件的文件占比和LOC占比统计信息</strong></h3>
 									
 								</div>
 							</div>
 							<div class="layui-card-body">
 								<!-- <img src="./img/files_codeSmell.jpg" width=80% height=80% /> -->
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table reports the percentages of files with code smell and the percentages of LOC of smelly files. Take P1 as an example, the project is named Aegis, 
-									which contains 177 Java files, among which 124 files contain code smell, and the files containing code smell account for 70.3%. The LOC for all files was 18,632, including 16,350 for the files containing code smells,
-									 and 66.6% for the percentages of LOC of smelly files.</p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>数据说明 </b>该表报告了有代码异味的文件的百分比以及包含代码文件的LOC的百分比。以P1为例，该项目名为Aegis，包含177个Java文件，其中124个文件含有代码异味，含有代码异味的文件占70.3%。所有文件的LOC为18632，其中含有代码异味的文件的LOC为16350，包含代码异味文件的LOC百分比为66.6%。</p>
 								</div>
 								<table id="table_per" class="layui-table" lay-skin="line">
 									
 									<thead>
 										<tr>
-											<th>Index</th>
-											<th>Project</th>
-											<th>Files</th>
-											<th>Files With Code Smell</th>
-											<th>Percentages of Files with Code Smell</th>
-											<th>LOC of Files</th>
-											<th>LOC of Files With Code Smell</th>
-											<th>Percentages of LOC of Files with Code Smell</th>
+											<th>序号</th>
+											<th>项目名</th>
+											<th>总文件数</th>
+											<th>包含代码异味的文件数</th>
+											<th>包含代码异味文件数占比</th>
+											<th>总LOC</th>
+											<th>包含代码异味文件的LOC</th>
+											<th>包含代码异味文件的LOC占比</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -595,29 +593,26 @@
 									</tbody>
 								</table>
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the table, we can summarize that from 50.5 to 91.5% of files are involved in code smells. Moreover, in 43 projects, more than 70% of files encounter code smells. The highest percentage even reaches 91.5%, meaning that just about 8.5% files in this project are not involved in any code smells. What's more, files involved in code smells contain 50.0% to 83.5% of LOC, meaning the that files participated in code smells are not trivial, but occupy a large portion of LOC in mobile projects.</p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>总结： </b>从该表中可以观察到有50.5%到91.5%的文件涉及代码异味。此外，在43个项目中，有超过70%的文件包含代码异味。最高的百分比甚至达到91.5%，这意味着这个项目中只有8.5%的文件没有任何代码异味。此外，涉及代码异味的文件包含50.0%到83.5%的LOC，这意味着包含代码异味的文件并非微不足道，而是在移动项目中占据了很大一部分LOC。</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="layui-card">
 							<div class="layui-card-header">
-								<h2><strong>The Percentages of Files With Different Number of Code Smell Types</strong>
+								<h2><strong>表2 包含不同代码异味类型数的文件占比</strong>
 								</h2>
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the statistics of files involved in different numbers of code smells. Take P1 as an example, 
-									this row reports that 29.7% of files are not involved in any code smell, 29.7% of files participate in just one type of smell, and the 
-									 16.2%, 13.0%, 6.5%, 2.2%, 0.0% of files participate in 2, 3, 4, 5, 6, 7 types of smells. As stated in the paper, just a few files are participating in 7 or more types of code smells. 
-									 The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>数据说明： </b>该表显示了包含不同代码异味类型数的文件的统计数据。以P1为例，有29.7%的文件不涉及任何代码异味，有29.7%的文件只参与一种类型的异味，分别有16.2%、13.0%、6.5%、2.2%、0.0%的文档参与2、3、4、5、6、7种类型的代码异味。正如论文中所述，只有少数文件参与了6种或6种以上的代码异味。
 									</p>
 								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
-											<th id="index">Index</th>
-											<th id="project">Project</th>
+											<th id="index">序号</th>
+											<th id="project">项目名</th>
 											<th>0</th>
 											<th>1</th>
 											<th>2</th>
@@ -1539,29 +1534,26 @@
 									</tbody>
 								</table>
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the table, we can see that from 7.0% to 27.3% of files don't contain any code smells; From 10.7% to 47.6% of files are involved in just one type of code smells; Just a few files (less than 0.1% in most cases) contain 8 or more types of smells; The percentage of files decreases as the number of code smell types increases.</p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>总结： </b>从表中可以看出，7.0%-27.3%的文件不包含任何代码异味；10.7%到47.6%的文件只涉及一种类型的代码异味；只有少数文件（大多数情况下不到0.1%）包含8种或更多类型的异味；文件的百分比随着代码异味类型数量的增加而减少。</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="layui-card">
 							<div class="layui-card-header">
-								<h2><strong>The Average Bug Rate of Files With Different Number of Code Smell
-										Types</strong>
+								<h2><strong>表3 包含不同代码异味类型数的平均Bug修改次数</strong>
 								</h2>
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug rate of files with different number of code smell types.
-									 Take P1 as an example, the average bug rate of files not involved in any code smells is 2.1, and the average bug rate of files participate in 1, 2, 3, 4, 5, 6, 7 types 
-									 of code smells is 3.6, 6.6, 8.4, 21.2, 17.3, 27.5, 0.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>数据说明：</b>该表报告了具有不同代码异味类型数量的文件的平均Bug修复次数。以P1为例，未参与任何代码异味的文件的平均Bug修复次数为2.1，参与1、2、3、4、5、6、7种类型代码异味的平均文件的Bug修复次数为3.6、6.6、8.4、21.2、17.3、27.5、0.0。剩余数据如表所示。
 									</p>
 								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
-											<td id="index">Index</td>
-											<th  id="project">Project</th>
+											<td id="index">序号</td>
+											<th  id="project">项目名</th>
 											<td>0</td>
 											<td>1</td>
 											<td>2</td>
@@ -2536,27 +2528,26 @@
 									</tbody>
 								</table>
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the table, we can see that files involved in code smells usually have higher average bug rates, meaning that the smelly files are more bug-prone than the smell-free files. Moreover, when files participate in more types of code smells, their bug rates often increase. </p>
+									<p style="font-size: 15px; line-height: 2.0em;"><b>总结: </b>从表中可以看出，包含代码异味的文件通常具有更高的平均Bug修复次数，这意味着有气味的文件比没有气味的文件更容易出现错误。此外，当文件种包含更多类型的异味时，它们的Bug修复次数也会随之增加。</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="layui-card">
 							<div class="layui-card-header">
-								<h2><strong>The Average Bug Churn of Files With Different Number of Code Smell
-										Types</strong>
+								<h2><strong>表4 包含不同代码异味类型数的平均Bug修改行数</strong>
 								</h2>
 							</div>
 							<div class="layui-card-body">
 								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Table Illustration: </b>The table shows the average bug churn of files with different number of code smell types.Take P1 as an example, the average bug churn of files not involved in any code smells is 73.3, and the average bug churn of files participate in 1, 2, 3, 4, 5, 6, 7 types  of code smells is 95.5, 151.1, 242.6, 498.7, 342.5, 549.0, 0.0. The rest of the data is similar and presented in the table.
+									<p style="font-size: 15px; line-height: 2.0em;"><b>数据说明： </b>T该表报告了具有不同代码异味类型数的文件的平均bug修复行数。以P1为例，不包含任何代码气味的文件的平均Bug修复行数为73.3，包含1、2、3、4、5、6、7类代码气味的平均Bug修复行数分别为95.5、151.1、242.6、498.7、342.5、549.0、0.0。剩余数据如表所示。
 									</p>
 								</div>
 								<table class="layui-table">
 									<thead>
 										<tr>
-											<td id="index">Index</td>
-											<th id="project">Project</th>
+											<td id="index">序号</td>
+											<th id="project">项目名</th>
 											<td>0 </td>
 											<td>1 </td>
 											<td>2 </td>
@@ -3530,15 +3521,15 @@
 
 									</tbody>
 								</table>
-								<div>
-									<p style="font-size: 15px; line-height: 2.0em;"><b>Brief Summary: </b>From the table, we can see that files involved in code smells have more bug churn than the files not in any code smells. In most cases, files contain more types of code smells have more bug churn.  </p>
-								</div>
+							<div>
+								<p style="font-size: 15px; line-height: 2.0em;"><b>总结：</b>从表中可以观察到，与不包含任何代码异味的文件相比，包含代码异味的文件的平均Bug修复行数更高。在大多数情况下，包含更多类型代码异味的文件有着更高的平均Bug修复行数，这意味着，包含代码异味的类型越多，文件的Bug倾向性越大。
+								</p>
+							</div>
+							</div>
 							</div>
 						</div>
-						
-						
 
-					</div>
+					
 
 				</div>
 			</div>
